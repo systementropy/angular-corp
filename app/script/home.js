@@ -9,11 +9,15 @@
                 templateUrl: '/view/home.html',
                 controller: 'HomeCtrl'
             });
+            $routeProvider.when('/', {
+                templateUrl: '/view/home.html',
+                controller: 'HomeCtrl'
+            });
         }
     ])
 
     .controller('HomeCtrl', ['$scope', '$http', function($scope, $http) {
-
+        $scope.hideHeader=true;
         var initialize = function() {
 
         };

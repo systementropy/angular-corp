@@ -1,0 +1,98 @@
+<div class="animateMainContainer" >
+	<div class="animateN18"><img src="images/Network18logo_W.png" alt="" class=""></div>
+	<img src="images/Layer_3.png" alt="" class="animateBg">
+	<img src="images/pixalate.png" alt="" class="animateBg2">
+	<div class="animateTextCont">
+		<div class="frontText frontText1">
+			<h2>225 MILLION</h2>
+			<h1>TV VIEWERS</h1>
+			<h5><sup>*</sup>per month</h5>
+		</div>
+		<div class="frontText frontText2">
+			<h2>25 MILLION</h2>
+			<h1>DIGITAL VIEWERS</h1>
+			<h5><sup>*</sup>per month</h5>
+		</div>	
+	</div>
+	<div class="homeIconCont centerIcon">
+		 <a href="home.html"><span class="badgeCont"><img src="images/aerrow_r.png" alt="" class="arrowAnimate"></span></a>
+	</div>
+</div>
+<script>
+	$(document).ready(function(){
+		var windowHeight = $(window).height();
+		var windowWidth = $(window).width();
+		$('.animateMainContainer').width(windowWidth);
+		$('.animateMainContainer').height(windowHeight);
+		$('.animateN18').animate({
+			//width: 280,
+			height: 66,
+			//left:40+'%',
+			opacity:1
+		},
+			2000, function() {
+				$('.headerPrimaryCont').animate({top:0}, 1000);
+				$('.animateBg').animate({
+					opacity: 0},
+					2000, function() {
+				});
+				$('.animateBg2').animate({
+					opacity: 1},
+					2000, function() {
+						$('.animateN18').animate({
+							height:40,
+							//width:170,
+							//left:45+'%',
+							top:40+'%'
+						},1000, function(){
+
+						});
+						$('.frontText1').animate({
+							opacity: 1,
+							top:0
+						},1000, function() {
+							$('.frontText1').animate({
+								opacity: 0
+							},
+								2000, function() {
+									$('.frontText2').animate({
+	    								opacity: 1,
+	    								top:0
+	    							},
+	    								1000, function() {
+	    									$('.frontText2').animate({
+	    										opacity: 0
+	    									},2000);
+	    									$('.homeIconCont.centerIcon').animate({
+	    											bottom:50,
+													height:50,
+													opacity:1
+	    										},
+	    										400, function() {
+	    											//$('.homeIconCont.centerIcon').children('a').children('.badgeCont').css('transform', 'roatate(720deg)');
+	    									});
+	    							});
+							});
+							
+						});
+				});
+		});
+
+		var maxWidth = 0;
+		$('.open').on('click', function(e){
+			$('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 300,function(){
+				maxWidth = $('.containerHeaderLinks').width();
+				$('.subCrumbsCont').css('left', $('.containerHeaderLinks').offset().left);
+				$('.subCrumbsCont').width(maxWidth);
+				});
+			
+		});
+		$('.closeBtn').on('click',function(){
+			$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300);
+		});
+		var windowHeight = $(window).height();
+		$('.headerMainContainer').height(windowHeight);
+		$('#headerLinkCont').height(windowHeight-80);
+
+	});
+</script>

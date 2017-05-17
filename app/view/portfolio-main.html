@@ -1,7 +1,7 @@
 
 <div class="mainBodyContainerFull" style="padding-top: 0; opacity: 0; height: 0;">
 
-	<div class="headerFiller"></div>
+	
 	<div class="bottomSticky">
 		<a href="#">
 			<div><i class="fa fa-caret-up"></i></div>
@@ -9,15 +9,22 @@
 		</a>
 
 	</div>
+	<div class="newsVideoCont">
+			<div class="video-cont">
+		      <div class="vid-bg">
+
+		      </div>
+		      <video width="100%" autoplay loop>
+		        <source src="images/169873823_newsroom.mp4" type="video/mp4">
+		      </video>
+		    </div>
+	</div>
 	<div class="portfolioContainer">
-		<div class="heroImgContainer">
-			<img src="images/news_hero_bg.jpg" alt="">
-		</div>
 		<div class="container">
 
 			<div class="portfolioMainCont" id="portfolioNews">
 				<h1>News</h1>
-				<div class="revolvingSlider">
+				<slick class="revolvingSlider" settings="slickConfig">
 					<div class="itemThis" >
 						<div class="row">
 							<div class="revolveSliderHeader container-fluid text-center">
@@ -138,11 +145,23 @@
 						</div>
 					</div>
 
-				</div>
+				</slick>
 			</div>
+		</div>
+		<div class="newsVideoCont">
+				<div class="video-cont">
+			      <div class="vid-bg">
+
+			      </div>
+			      <video width="100%" autoplay loop>
+			        <source src="images/106346060_entertainment.mp4" type="video/mp4">
+			      </video>
+			    </div>
+		</div>
+		<div class="container">
 			<div class="portfolioMainCont" id="portfolioEntertainment">
 				<h1>Entertainment</h1>
-				<div class="revolvingSlider">
+				<slick class="revolvingSlider" settings="slickConfig">
 					<div class="itemThis" >
 						<div class="row">
 							<div class="revolveSliderHeader container-fluid text-center">
@@ -384,7 +403,7 @@
 							</div>
 						</div>
 					</div>
-				</div>
+				</slick>
 			</div>
  			<div class="portfolioMainCont" id="portfolioDistribution">
  				<h1>Distribution</h1>
@@ -635,32 +654,31 @@
 
 			});
 
-			$('.revolvingSlider').slick({
-				centerMode: true,
-
-				slidesToShow: 1,
-				dots: true,
-				responsive: [
-				    {
-				      breakpoint: 768,
-				      settings: {
-				        arrows: false,
-				        centerMode: true,
-				        centerPadding: '40px',
-				        slidesToShow: 1
-				      }
-				    },
-				    {
-				      breakpoint: 480,
-				      settings: {
-				        arrows: false,
-				        centerMode: true,
-				        centerPadding: '40px',
-				        slidesToShow: 1
-				      }
-				    }
-				]
-			});
+			// $('.revolvingSlider').slick({
+			// 	centerMode: true,
+			// 	slidesToShow: 1,
+			// 	dots: true,
+			// 	responsive: [
+			// 	    {
+			// 	      breakpoint: 768,
+			// 	      settings: {
+			// 	        arrows: false,
+			// 	        centerMode: true,
+			// 	        centerPadding: '40px',
+			// 	        slidesToShow: 1
+			// 	      }
+			// 	    },
+			// 	    {
+			// 	      breakpoint: 480,
+			// 	      settings: {
+			// 	        arrows: false,
+			// 	        centerMode: true,
+			// 	        centerPadding: '40px',
+			// 	        slidesToShow: 1
+			// 	      }
+			// 	    }
+			// 	]
+			// });
 
 		});
 	</script>
