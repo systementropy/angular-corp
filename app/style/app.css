@@ -714,12 +714,7 @@ ul.nav.nav-tabs.nav-lists li.active{
     padding: 15px 45px;
     border-radius: 0;
 }
-.portfolioItem .thumbnail:first-child{
-    padding: 15px 45px 15px 0px;
-}
-.portfolioItem .thumbnail:last-child{
-    padding: 15px 0px 15px 45px;
-}
+
 .borderRight{border-right: 1px solid #999;}
 .borderLeft{border-left: 1px solid #999;}
 .portfolioItem div.thumbnail.second{border-right: 1px solid #999;border-left: 1px solid #999;}
