@@ -347,19 +347,19 @@ body{
     transition: all 0.4s ease-in-out;
     overflow: hidden;
     opacity: 0;
-    bottom: 0;
+    bottom: -20px;
     width: 0;
     z-index: -1;
 }
 
 .headerCrumbs:hover .subCrumbsCont{
     opacity: 1;
-    bottom: 45px;
+    bottom: 20px;
     width: 100%;
     z-index: 10;
 }
 .headerCrumbs:hover .subCrumbsCont.small{
-    bottom: 55px;
+    bottom: 36px;
 }
 a.subCrumbsLinks {
     color: #ccc;
