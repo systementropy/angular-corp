@@ -12,7 +12,7 @@
         }
     ])
 
-    .controller('headerCtrl', ['$scope', '$http', function($scope, $http) {
+    .controller('headerCtrl', ['$rootscope','$scope', '$http', function($rootscope,$scope, $http) {
         $scope.hideHeader = true;
     }]);
 }());

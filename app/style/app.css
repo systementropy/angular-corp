@@ -361,13 +361,13 @@ body{
 
 .headerCrumbs:hover .subCrumbsCont{
     opacity: 1;
-    bottom: 20px;
+    bottom: 24px;
     width: 100%;
     z-index: 10;
     padding: 0 3%;
 }
 .headerCrumbs:hover .subCrumbsCont.small{
-    bottom: 36px;
+    bottom: 44px;
 }
 a.subCrumbsLinks {
     color: #ccc;
@@ -438,11 +438,11 @@ a.subCrumbsLinks:hover{
     height: 100vh;
     width: 100vw;
     z-index: -1;
-    opacity: 0.6;
 }
 .headerMainContainer .video-cont{
     background: #481313;
 }
+.headerMainContainer .video-cont video{opacity: 1;height: 100% !important; width: auto; }
 .headerPrimaryCont{
 	position: fixed;
     width: 100%;
@@ -1319,7 +1319,50 @@ span.bottom-dot-flex {
 
 
 
+.flip-container {
+    perspective: 1000px;
+    width: 100%;
+    height: 100%;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
 
+.front, .back {
+    width: 100%;
+    height: 100%;   
+}
+
+.flipper {
+    transition: 0.6s linear;
+    transform-style: preserve-3d;
+    height: 100%;
+    position: relative;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.front {
+    z-index: 2;
+    background: rgba(255,255,255,0.25);
+    transform: rotateY(0deg);
+}
+
+.back.backDisp {
+    opacity: 1;
+    padding: 0;
+    background: rgba(0,0,0,0.6);
+    transform: rotateY(180deg);
+    color: #FFF;
+}
 
 
 /******************END**********************/
