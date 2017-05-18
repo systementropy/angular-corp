@@ -1363,6 +1363,8 @@ span.bottom-dot-flex {
     transform: rotateY(180deg);
     color: #FFF;
 }
-
-
+.inner.bigContainer{overflow:hidden;}
+.revolvingSlider.revolvingSliderHome{width: 100%; height: 100%;overflow:hidden;}
+.homeItem{display: flex;}
+.homeItem img{margin: auto;}
 /******************END**********************/
