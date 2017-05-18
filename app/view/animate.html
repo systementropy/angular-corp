@@ -20,17 +20,19 @@
 </div>
 <script>
 	$(document).ready(function(){
+		$('.headerPrimaryCont.container-fluid.text-center').hide();
 		var windowHeight = $(window).height();
 		var windowWidth = $(window).width();
 		$('.animateMainContainer').width(windowWidth);
 		$('.animateMainContainer').height(windowHeight);
-		$('.animateN18').animate({
+		$('.animateN18').children('img').animate({
 			//width: 280,
-			height: 66,
-			//left:40+'%',
+			height: 60,
 			opacity:1
+			//left:40+'%',
 		},
-			2000, function() {
+			 2000
+			, function() {
 				$('.headerPrimaryCont').animate({top:0}, 1000);
 				$('.animateBg').animate({
 					opacity: 0},
@@ -39,11 +41,11 @@
 				$('.animateBg2').animate({
 					opacity: 1},
 					2000, function() {
-						$('.animateN18').animate({
+						$('.animateN18').children('img').animate({
 							height:40,
 							//width:170,
 							//left:45+'%',
-							top:40+'%'
+							bottom: -40+'%'
 						},1000, function(){
 
 						});
@@ -76,7 +78,8 @@
 							
 						});
 				});
-		});
+			}
+		);
 
 		var maxWidth = 0;
 		$('.open').on('click', function(e){
