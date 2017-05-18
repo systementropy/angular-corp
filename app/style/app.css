@@ -71,13 +71,13 @@
 
 .arrowAnimate {
     width: 44px;
-    animation:myfirst 1s;
-    -moz-animation:myfirst 1s infinite; /* Firefox */
-    -webkit-animation:myfirst 1s infinite; /* Safari and Chrome */
+    animation:infiTranslate 1s;
+    -moz-animation:infiTranslate 1s infinite; /* Firefox */
+    -webkit-animation:infiTranslate 1s infinite; /* Safari and Chrome */
 }
 
 
-@-moz-keyframes myfirst{
+@-moz-keyframes infiTranslate{
     0%   {transform: translateX(0px);}
     20%  {transform: translateX(-5px);}
     40%   {transform: translateX(0px);}
@@ -85,12 +85,32 @@
     100%   {transform: translateX(0px);}
 }
 
-@-webkit-keyframes myfirst{
+@-webkit-keyframes infiTranslate{
     0%   {transform: translateX(0px);}
     20%  {transform: translateX(-5px);}
     40%   {transform: translateX(0px);}
     80%   {transform: translateX(5px);}
     100%   {transform: translateX(0px);}
+}
+
+.ani-range {
+    
+    animation:infiBlink 1s;
+    -moz-animation:infiBlink 1s infinite; /* Firefox */
+    -webkit-animation:infiBlink 1s infinite; /* Safari and Chrome */
+}
+
+
+@-moz-keyframes infiBlink{
+    0%   {    border-color: #03F;background: #03F;}
+    50%  {    border-color: #C92929;background: #03F;}
+    100%   {    border-color: #03F;background: #03F;}
+}
+
+@-webkit-keyframes infiBlink{
+    0%   {    border-color: #03F;background: #03F;}
+    50%  {    border-color: #C92929;background: #C92929;}
+    100%   {    border-color: #03F;background: #03F;}
 }
 
 
@@ -402,12 +422,15 @@ a.subCrumbsLinks:hover{
     left: 50%;
 	z-index: 9999;
     opacity: 0;
+    background: #363636;
 }
 .headerMainContainer .video-cont{
     position: absolute;
     overflow: hidden;
     height: 100vh;
     width: 100vw;
+    z-index: -1;
+    opacity: 0.6;
 }
 .headerMainContainer .video-cont{
     background: #481313;
@@ -429,7 +452,7 @@ a.subCrumbsLinks:hover{
     text-align: center;
     height: 45px;
     padding-top: 20px;
-    background: rgb(130, 61, 26);
+    background: rgba(130, 61, 26, 0.5);
     padding-bottom: 10px;
     height: 82px;
 
@@ -1272,7 +1295,11 @@ span.bottom-dot-flex {
     border-color: transparent;
 }
 
-
+.headerDivider{
+    height: 1px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(255,255,255,0.0), rgba(255,255,255,0.2) 20%,rgba(255,255,255,0.2) 20%,rgba(255,255,255,0.2) 80%,rgba(255,255,255,0.2) 80%,rgba(255,255,255,0.0) 100%);
+}
 
 
 
