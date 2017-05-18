@@ -44,6 +44,10 @@
   src:url('../fonts/Geogrotesque/Geogtq-Sb.otf')  format('truetype');
 }
 @font-face {
+  font-family: 'GeogrotesqueReg';
+  src:url('../fonts/Geogrotesque/Geogtq-Rg.otf')  format('truetype');
+}
+@font-face {
   font-family: 'Geogrotesque Bold';
   src:url('../fonts/Geogrotesque/Geogtq-Bd.otf')  format('truetype');
 }
@@ -343,9 +347,12 @@ body{
 }
 .headerCrumbs:hover >span{}
 .subCrumbsCont{
+    color: #bcbcbc;
+    font-family: 'GeogrotesqueReg';
     position: absolute;
     transition: all 0.4s ease-in-out;
     overflow: hidden;
+    padding: 0;
     opacity: 0;
     bottom: -20px;
     width: 0;
@@ -357,6 +364,7 @@ body{
     bottom: 20px;
     width: 100%;
     z-index: 10;
+    padding: 0 3%;
 }
 .headerCrumbs:hover .subCrumbsCont.small{
     bottom: 36px;
@@ -438,9 +446,14 @@ a.subCrumbsLinks:hover{
 .headerPrimaryCont{
 	position: fixed;
     width: 100%;
-    background: rgba(255,255,255,0.95);
+    
     z-index: 8888;
     padding: 18px;
+    background: rgba(255,255,255,0.95); 
+    /*background: -webkit-linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.2)); 
+    background: -o-linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.2)); 
+    background: -moz-linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.2)); 
+    background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.2)); */
 }
  .headerPrimaryCont .pull-left a.homeLogoA{
     display: inline-block;
@@ -1143,6 +1156,8 @@ span.bottom-dot-flex {
 }
 .video-cont video{
     opacity: 0.5;
+    position: absolute;
+    bottom: 0;
 }
 .vid-bg{
     position: absolute;
