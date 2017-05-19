@@ -236,8 +236,8 @@ body{
     height: 100%;
 }
 .inner a.hoverLinks.maxWH .colorImg{
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 70%;
+    max-height: 70%;
     margin: auto;
 }
 .clearAfter:after{
@@ -358,16 +358,18 @@ body{
     width: 0;
     z-index: -1;
 }
-
+.subCrumbsCont.small {
+    height: 20px;
+}
 .headerCrumbs:hover .subCrumbsCont{
     opacity: 1;
-    bottom: 24px;
+    bottom: 44px;
     width: 100%;
     z-index: 10;
     padding: 0 3%;
 }
 .headerCrumbs:hover .subCrumbsCont.small{
-    bottom: 44px;
+    bottom: 64px;
 }
 a.subCrumbsLinks {
     color: #ccc;
@@ -377,10 +379,10 @@ a.subCrumbsLinks {
     float: left;
     border-right: 1px solid rgba(255,255,255,0.5);
     text-align: center;
-    height: 58px;
+    height: 38px;
     text-transform: uppercase;
 	font-size: 18px;
-	padding: 9px 15px;
+	padding: 0 15px;
     transition: all 0.4s ease-in-out;
     line-height: 20px;
     letter-spacing: 1px;

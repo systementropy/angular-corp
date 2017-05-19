@@ -1,4 +1,6 @@
-
+<style>
+    .mainBodyContainerFull{padding-top: 100vh;}
+</style>
 <div class="mainBodyContainerFull">
     <div class="row1 rowClass">
         <div class="smallCont">
@@ -223,7 +225,7 @@
         <div class="smallCont">
             <div class="inner">
                 <a class="hoverLinks maxWH" href="" target="_blank">
-                    <img src="https://pbs.twimg.com/profile_images/765468280215699457/D29iMVZj_400x400.jpg" alt="" class="colorImg">
+                    <img src="images/COLORS KANNADA OF AIR LOGO.png" alt="" class="colorImg">
                 </a>
             </div>
         </div>
@@ -268,7 +270,7 @@
         <div class="smallCont">
             <div class="inner">
                 <a class="hoverLinks maxWH" href="http://www.vh1.in/" target="_blank">
-                    <img src="http://www.vh1.in/wp-content/themes/vh1/images/1920_Logo.png" alt="" class="colorImg">
+                    <img src="images/1920_Logo.png" alt="" class="colorImg">
                 </a>
             </div>
         </div>
@@ -309,7 +311,7 @@
         <div class="smallCont">
             <div class="inner">
                 <a class="hoverLinks maxWH" href="" target="_blank">
-                    <img src="images/cc_in_logo.jpg" alt="" class="colorImg">
+                    <img src="images/cc_in_logo.png" alt="" class="colorImg">
                 </a>
             </div>
         </div>
@@ -538,12 +540,9 @@
 
     <script>
         $(document).ready(function() {
-
+            $('.headerPrimaryCont.container-fluid.text-center').hide();
             var windowHeight = $(window).height();
-            $('.mainBodyContainerFull').css({
-
-                paddingTop: windowHeight+'px',
-            });
+            
             $('.mainBodyContainerFull').animate({
                 paddingTop: 0+'px',
 
