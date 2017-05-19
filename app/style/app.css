@@ -118,6 +118,43 @@
 }
 
 
+.ani-flip {
+    
+    animation:infiFlip 20s;
+    -moz-animation:infiFlip 20s infinite; /* Firefox */
+    -webkit-animation:infiFlip 20s infinite; /* Safari and Chrome */
+}
+
+
+@-moz-keyframes infiFlip{
+    0%   {transform: rotateY(180deg);}
+    10%   {transform: rotateY(180deg);}
+    20%   {transform: rotateY(180deg);}
+    30%   {transform: rotateY(180deg);}
+    40%   {transform: rotateY(180deg);}
+    50%  {transform: rotateY(0deg);}
+    60%  {transform: rotateY(0deg);}
+    70%  {transform: rotateY(0deg);}
+    80%  {transform: rotateY(0deg);}
+    90%  {transform: rotateY(0deg);}
+    100%   {transform: rotateY(180deg);}
+}
+
+@-webkit-keyframes infiFlip{
+    0%   {transform: rotateY(180deg);}
+    10%   {transform: rotateY(180deg);}
+    20%   {transform: rotateY(180deg);}
+    30%   {transform: rotateY(180deg);}
+    40%   {transform: rotateY(180deg);}
+    50%  {transform: rotateY(0deg);}
+    60%  {transform: rotateY(0deg);}
+    70%  {transform: rotateY(0deg);}
+    80%  {transform: rotateY(0deg);}
+    90%  {transform: rotateY(0deg);}
+    100%   {transform: rotateY(180deg);}
+}
+
+
 body{
 	font-family: 'Glober';
 	color: #000;
@@ -302,8 +339,40 @@ body{
 .width50{width: 50%;float: left;}
 .greyBG{background: #D9D9D9;}
 .footerCredit{line-height: 40px;background: #A3A3A3;font-size: 10px;text-align: center;}
-.footerSection{font-size: 14px;}
+.footerSection.greyBG{font-size: 14px; background: #F3F3F3; color: #646464;}
 .footerSection .width50>div{padding: 15px;}
+.footerSection.greyBG h3{
+    font-size: 15px;
+}
+.footerSection.greyBG ul {
+    list-style-type: none;
+    display: block;
+    background: transparent;
+}
+
+.footerSection.greyBG ul li{
+    display: block;
+    height: 20px;
+    background: 0 0;
+    padding: 0;
+    border: none;
+    text-align: left;
+
+}
+.footerSection.greyBG ul li a{
+    font-size: 10px;
+    line-height: 16px;
+    width: 100%;
+    text-align: left;
+    height: 20px;
+    padding: 0;
+    color: #565656;
+}
+.footerSection.greyBG ul li a:hover {
+    transform: scale(1.05);
+    color: #000;
+}
+.footerSection.greyBG hr{border-color: #ccc;}
 .container{
 	width: 84%;
 	margin-left:auto;
@@ -542,7 +611,7 @@ a.subCrumbsLinks:hover{
     -webkit-filter: grayscale(100%);
     transform: scale(1.15);
 }
-.headerPrimaryCont .pull-right a>i {
+.headerPrimaryCont .pull-right a>i,.greyBG.footerSection a>i {
     font-size: 22px;
     margin: 21px 20px;
     color: #666;
@@ -630,19 +699,19 @@ a.subCrumbsLinks:hover{
     border-color: #ff3333;
 
 }
-.headerPrimaryCont .pull-right a>i.fa-facebook:hover{
+.headerPrimaryCont .pull-right a>i.fa-facebook:hover, .greyBG.footerSection a>i.fa-facebook:hover{
     transform: scale(1.5);
     color: #4867AA;
 }
-.headerPrimaryCont .pull-right a>i.fa-twitter:hover{
+.headerPrimaryCont .pull-right a>i.fa-twitter:hover, .greyBG.footerSection a>i.fa-twitter:hover{
     transform: scale(1.5);
     color: #1DA1F2;
 }
-.headerPrimaryCont .pull-right a>i.fa-youtube-play:hover{
+.headerPrimaryCont .pull-right a>i.fa-youtube-play:hover, .greyBG.footerSection a>i.fa-youtube-play:hover{
     transform: scale(1.5);
     color: #CC181E;
 }
-.headerPrimaryCont .pull-right a>i.fa-linkedin:hover{
+.headerPrimaryCont .pull-right a>i.fa-linkedin:hover, .greyBG.footerSection a>i.fa-linkedin:hover{
     transform: scale(1.5);
     color: #0177B5;
 }
@@ -769,7 +838,7 @@ ul.nav.nav-tabs.nav-lists li.active{
 .etvCont a {margin: auto;}
 .borderRight{border-right: 1px solid #999;}
 .borderLeft{border-left: 1px solid #999;}
-.portfolioItem div.thumbnail.second{border-right: 1px solid #999;border-left: 1px solid #999;}
+.portfolioItem div.thumbnail.second{border-right: 1px solid #999;border-left: 1px solid #999;margin: auto -10px;}
 .  div.thumbnail.borderRight{border-right: 1px solid #999;}
 .portfolioItem div.thumbnail.borderLeft{border-left: 1px solid #999;}
 div#compHist h1 {
