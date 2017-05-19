@@ -734,7 +734,15 @@ ul.nav.nav-tabs.nav-lists li.active{
 	padding: 0;
 }
 .portfolioItem{
-
+    padding: 0;
+}
+.portfolioItem .thumbnail.toLeft {
+    padding-left: 15px;
+    padding-right: 65px;
+}
+.portfolioItem .thumbnail.toRight {
+    padding-right: 15px;
+    padding-left: 65px;
 }
 .portfolioItem>.thumbnail>div.imgThmbCont{
 	height: 80px;
@@ -1370,6 +1378,9 @@ span.bottom-dot-flex {
     background: rgba(0,0,0,0.6);
     transform: rotateY(180deg);
     color: #FFF;
+}
+.portfolioContainer {
+    overflow: hidden;
 }
 .inner.bigContainer{overflow:hidden;}
 .revolvingSlider.revolvingSliderHome{width: 100%; height: 100%;overflow:hidden;}
