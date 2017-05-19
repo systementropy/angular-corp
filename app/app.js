@@ -11,6 +11,7 @@
         'myApp.view2',
         'myApp.view1',
         'myApp.corporate',
+        'myApp.career',
         'myApp.corporate-main',
         'myApp.portfolio-main',
         'myApp.headerCtrl'
