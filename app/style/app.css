@@ -1620,4 +1620,101 @@ div.career-empl-cont div.col-md-4 p {
     height: 64px;
     transform: translateY(-32px);
 }
+.video-over-text.text-cont{
+    padding: 0;
+    z-index: 100;
+}
+.video-over-text.text-cont input{
+    width: 500px;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    line-height: 32px;
+    height: auto;
+}
+.video-over-text.text-cont i{
+    line-height: 44px;
+    color: #ccc;
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0;
+    width: 40px;
+    height: 44px;
+}
+.left-filter,.right-filter {
+    flex: 1;
+}
+.career-results {
+    flex:3;
+}
+.flex-cont.career-results-main h4{
+    font-family: 'Glober bold';
+    font-size: 16px;
+    color: #565656;
+}
+.flex-cont.career-results-main>div{
+    padding:15px;
+    box-sizing: border-box;
+}
+hr.hr2 {
+    border-top: 3px solid #e8e8e8;
+    margin-top: 0;
+}
+.container-fluid.filter-item-opts {
+    font-size: 12px;
+    border-bottom: 2px solid #EEE;
+    min-height: 100px;
+    padding: 12px 15px 20px;
+}
+.container-fluid.filter-item-opts .list-group-item {
+    border: none;
+    padding: 10px 0px;
+}
+.container-fluid.filter-item-opts .list-group-item span {
+    margin-left: 10px;
+    color: #464646;
+}
+p.job-item-desc {
+    color: #aaa;
+    font-size: 14px;
+    margin:0;
+}
+.job-res-item.ng-scope {
+    padding: 15px 0;
+    border-bottom: 1px solid #EEE;
+}
+p.job-item-title {
+    color: #555;
+    font-size: 16px;
+}
+span.jpb-loc {
+    margin-left: 25px;
+}
+.flex-cont.career-results-main>div.career-results{padding: 15px 40px;}
+.btn.btn-danger.red-career-btn{background: #FF9999;border: none;border-radius: 0;}
+.btn.btn-primary.blue-career-btn{background: #99ADFF;border: none;border-radius: 0;}
+.container-fluid.filter-item-opts p {
+    margin-bottom: 20px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.btn.btn-blueinvert{
+    color: #3F90CE;
+    background: #FFF;
+    border-color: #3F90CE;
+    border-radius: 0;
+    margin: 10px 0;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Glober xBold';
+}
+
+
+
+
+
+
 /******************END**********************/
