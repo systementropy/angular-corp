@@ -124,7 +124,18 @@
     -moz-animation:infiFlip 20s infinite; /* Firefox */
     -webkit-animation:infiFlip 20s infinite; /* Safari and Chrome */
 }
-
+.ani-flip.d2{
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.ani-flip.d1{
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.ani-flip.d3{
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
 
 @-moz-keyframes infiFlip{
     0%   {transform: rotateY(180deg);}
@@ -1649,8 +1660,8 @@ div.career-empl-cont div.col-md-4 p {
     flex:3;
 }
 .flex-cont.career-results-main h4{
-    font-family: 'Glober bold';
-    font-size: 16px;
+    font-family: 'Glober xBold';
+    font-size: 14px;
     color: #565656;
 }
 .flex-cont.career-results-main>div{
@@ -1680,7 +1691,7 @@ p.job-item-desc {
     font-size: 14px;
     margin:0;
 }
-.job-res-item.ng-scope {
+.job-res-item{
     padding: 15px 0;
     border-bottom: 1px solid #EEE;
 }
