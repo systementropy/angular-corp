@@ -25,6 +25,7 @@
 		var windowWidth = $(window).width();
 		$('.animateMainContainer').width(windowWidth);
 		$('.animateMainContainer').height(windowHeight);
+
 		$('.animateN18').children('img').animate({
 			//width: 280,
 			height: 60,
@@ -71,7 +72,11 @@
 													opacity:1
 	    										},
 	    										400, function() {
-	    											//$('.homeIconCont.centerIcon').children('a').children('.badgeCont').css('transform', 'roatate(720deg)');
+	    											console.log('1');
+	    											setTimeout(function() {
+	    												console.log('2');
+	    												
+	    											}, 5000);
 	    									});
 	    							});
 							});

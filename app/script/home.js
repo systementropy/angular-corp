@@ -9,10 +9,7 @@
                 templateUrl: '/view/home.html',
                 controller: 'HomeCtrl'
             });
-            $routeProvider.when('/', {
-                templateUrl: '/view/home.html',
-                controller: 'HomeCtrl'
-            });
+            
         }
     ])
 

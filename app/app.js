@@ -23,6 +23,6 @@
             enabled:true
         });
         
-        $routeProvider.otherwise({ redirectTo: '/' });
+        $routeProvider.otherwise({ redirectTo: '/animate' });
     }]);
 }());

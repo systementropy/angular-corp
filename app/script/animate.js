@@ -9,10 +9,19 @@
                 templateUrl: '/view/animate.html',
                 controller: 'animateCtrl'
             });
+            $routeProvider.when('/', {
+                templateUrl: '/view/animate.html',
+                controller: 'animateCtrl'
+            });
         }
     ])
 
-    .controller('animateCtrl', ['$scope', '$http', function($scope, $http) {
+    .controller('animateCtrl', ['$scope', '$http','$timeout','$location', function($scope, $http,$timeout,$location) {
         $scope.hideHeader=true;
+        console.log('1');
+        $timeout(function() {
+            console.log('2');
+            $scope.$apply(function() { $location.path("/home"); });
+        }, 13000);
     }]);
 }());
