@@ -892,6 +892,7 @@ div#brdDirInt>div.col-md-3 {
 	padding-left: 15px;
 	font-family: 'Glober bold';
     text-align: center;
+    margin:70px auto 60px;
 }
 .statCont .bgH3{
 	background: #666666;
@@ -902,7 +903,7 @@ div#brdDirInt>div.col-md-3 {
 	font-family: 'Glober bold';
 	font-size: 30px;
 }
-.portfolioMainCont{margin: 60px 0;}
+.portfolioMainCont{margin: 60px 0 200px;clear: both;}
 .portfolioMainCont .thumbnail .caption{color: #000;padding: 0;}
 .portfolioMainCont.small{height: 300px;}
 .portfolioMainCont .thumbnail.small{height: 250px;font-size: 100%;}
@@ -913,6 +914,7 @@ div#brdDirInt>div.col-md-3 {
     font-family: 'Glober xBold';
     margin:50px auto 30px;
 }
+div#portfolioDistribution{padding-top: 160px;}
 .portfolioMainCont .thumbnail .caption p, .distriThmb p{font-size: 21px;}
 .portfolioMainCont .tab-pane {min-height: 500px;}
 .rdMorePortflo{font-size: 14px; text-transform: uppercase; color: #0033ff; font-weight: bold;}
@@ -1149,6 +1151,7 @@ ul.barsCont li{
 slick.revolvingSlider.ng-isolate-scope.slick-initialized.slick-slider {
     position: relative;
     display: block;
+    top: 10px;
 }
 .revolvingSlider>button:focus,.revolvingSlider>button:active{outline: none;}
 .revolvingSlider>button.slick-prev{left: 0;}
@@ -1275,6 +1278,7 @@ span.bottom-dot-flex {
     position: absolute;
     bottom: 0;
 }
+.entVideoCont{margin-top: 200px;}
 .vid-bg{
     position: absolute;
     height: 100%;
