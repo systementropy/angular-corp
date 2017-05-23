@@ -13,7 +13,7 @@
     ])
 
     .controller('PortfolioMainCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
-    	$rootScope.hideHeader=false;
+    	
 	    $scope.slickConfig = {
 	        centerMode: true,
 			slidesToShow: 1,
@@ -40,5 +40,11 @@
 			    }
 			]
 	    };
+
+	    $scope.init = function(){
+            $rootScope.hideHeader=false;
+        };
+        
+        $scope.init();
     }]);
 }());

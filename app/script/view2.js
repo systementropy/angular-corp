@@ -12,6 +12,10 @@
 
     .controller('View2Ctrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
         
-        $rootScope.hideHeader=false;
+        $scope.init = function(){
+            $rootScope.hideHeader=false;
+        };
+        
+        $scope.init();
     }]);
 }());

@@ -17,9 +17,18 @@
     ])
 
     .controller('animateCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
-        $rootScope.hideHeader=true;
+        
+
+
+        $scope.init = function(){
+            $rootScope.hideHeader=true;
+        };
+        
+        $scope.init();
+
         $timeout(function() {
             $scope.$apply(function() { $location.path("/home"); });
+            
         }, 13000);
     }]);
 }());

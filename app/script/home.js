@@ -14,7 +14,11 @@
     ])
 
     .controller('HomeCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
-        $scope.hideHeader=true;
+        $scope.init = function(){
+            $rootScope.hideHeader=true;
+        };
+        
+        $scope.init();
 
         $scope.slickConfig = {
             enabled: true,
