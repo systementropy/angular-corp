@@ -1144,10 +1144,11 @@ ul.barsCont li{
     height: 70px;
     position: absolute;
     z-index: 100;
-    top: 30px;
+    top: -30px;
 }
 slick.revolvingSlider.ng-isolate-scope.slick-initialized.slick-slider {
     position: relative;
+    display: block;
 }
 .revolvingSlider>button:focus,.revolvingSlider>button:active{outline: none;}
 .revolvingSlider>button.slick-prev{left: 0;}
