@@ -13,34 +13,8 @@
         }
     ])
 
-    .controller('HomeCtrl', ['$scope', '$http', '$timeout', function($scope, $http, $timeout) {
+    .controller('HomeCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
         $scope.hideHeader=true;
-        $timeout(function() {
-
-        $scope.carouselItems = [];
-        $scope.carouselItems = [
-                {
-                    title: 'LABEL_INIT_CAROUSEL_FIRST_TITLE',
-                    message: 'LABEL_INIT_CAROUSEL_FIRST_MESSAGE'
-                },
-                {
-                    title: 'LABEL_INIT_CAROUSEL_SECOND_TITLE',
-                    message: 'LABEL_INIT_CAROUSEL_SECOND_MESSAGE'
-                },
-                {
-                    title: 'LABEL_INIT_CAROUSEL_THIRD_TITLE',
-                    message: 'LABEL_INIT_CAROUSEL_THIRD_MESSAGE'
-                },
-                {
-                    title: 'LABEL_INIT_CAROUSEL_FOURTH_TITLE',
-                    message: 'LABEL_INIT_CAROUSEL_FOURTH_MESSAGE'
-                }
-            ];
-
-            $scope.dataLoaded = true;
-
-        }, 5000);
-
 
         $scope.slickConfig = {
             enabled: true,

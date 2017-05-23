@@ -12,7 +12,7 @@
         }
     ])
 
-    .controller('CareerCtrl', ['$scope', '$http', function($scope, $http) {
-
+    .controller('CareerCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+        $rootScope.hideHeader=false;
     }]);
 }());

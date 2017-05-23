@@ -13,6 +13,6 @@
     ])
 
     .controller('headerCtrl', ['$scope', '$http', function($scope, $http) {
-        $scope.name = "Saket";
+        
     }]);
 }());

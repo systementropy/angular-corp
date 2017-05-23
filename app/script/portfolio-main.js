@@ -12,7 +12,8 @@
         }
     ])
 
-    .controller('PortfolioMainCtrl', ['$scope', '$http', function($scope, $http) {
+    .controller('PortfolioMainCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+    	$rootScope.hideHeader=false;
 	    $scope.slickConfig = {
 	        centerMode: true,
 			slidesToShow: 1,

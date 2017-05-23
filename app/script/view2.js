@@ -10,7 +10,8 @@
         });
     }])
 
-    .controller('View2Ctrl', [function() {
-
+    .controller('View2Ctrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+        
+        $rootScope.hideHeader=false;
     }]);
 }());

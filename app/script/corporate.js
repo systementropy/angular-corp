@@ -12,7 +12,7 @@
         }
     ])
 
-    .controller('CorporateCtrl', ['$scope', '$http', function($scope, $http) {
-
+    .controller('CorporateCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+        $scope.$apply(function() { $rootScope.hideHeader=false;});
     }]);
 }());
