@@ -911,6 +911,7 @@ div#brdDirInt>div.col-md-3 {
     font-weight: bold;
     text-align: center;
     font-family: 'Glober xBold';
+    margin:50px auto 30px;
 }
 .portfolioMainCont .thumbnail .caption p, .distriThmb p{font-size: 21px;}
 .portfolioMainCont .tab-pane {min-height: 500px;}
@@ -1155,13 +1156,13 @@ slick.revolvingSlider.ng-isolate-scope.slick-initialized.slick-slider {
     opacity: 0;
     font-size: 30px;
     line-height: 64px;
-    color: #555;
-    padding: 30px 15px;
+    color: #666;
+    padding: 10px 15px 50px;
 }
 .slick-active .revolveSliderHeader{opacity: 1;}
 .revolveSliderHeader .pull-left,.revolveSliderHeader .pull-right{
     font-size:30px;
-    color: #ccc;
+    color: #B8B8B8;
 }
 .itemThis a.carousel-control{opacity: 0;z-index: 100;}
 .itemThis.slick-center a.carousel-control{opacity: 1;z-index: 100;}
