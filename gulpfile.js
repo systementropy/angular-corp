@@ -59,7 +59,7 @@ gulp.task('connect', function() {
 gulp.task('connectDist', function() {
     connect.server({
         root: 'dist/',
-        port: 9999
+        port: 3000
     });
 });
 

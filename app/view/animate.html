@@ -123,9 +123,14 @@
 
 
 <div class="animateMainContainer" >
+	<div class="vid-ani-bg">
+		<video width="100%" autoplay>
+	        <source src="images/intro_pixels.mp4" type="video/mp4">
+	    </video>
+	</div>
 	<div class="animateN18"><img src="images/Network18logo_W.png" alt="" class=""></div>
-	<img src="images/Layer_3.png" alt="" class="animateBg">
-	<img src="images/pixalate.png" alt="" class="animateBg2">
+	<!-- <img src="images/Layer_3.png" alt="" class="animateBg">
+	<img src="images/pixalate.png" alt="" class="animateBg2"> -->
 	<div class="animateTextCont">
 		<div class="frontText frontText1">
 			<h2>225 MILLION</h2>
@@ -159,13 +164,13 @@
 			 2000
 			, function() {
 				$('.headerPrimaryCont').animate({top:0}, 1000);
-				$('.animateBg').animate({
-					opacity: 0},
-					2000, function() {
-				});
-				$('.animateBg2').animate({
-					opacity: 1},
-					2000, function() {
+				// $('.animateBg').animate({
+				// 	opacity: 0},
+				// 	2000, function() {
+				// });
+				// $('.animateBg2').animate({
+				// 	opacity: 1},
+				// 	2000, function() {
 						$('.animateN18').children('img').animate({
 							height:40,
 							//width:170,
@@ -182,6 +187,7 @@
 								opacity: 0
 							},
 								2000, function() {
+									console.log('ere');
 									$('.frontText2').animate({
 	    								opacity: 1,
 	    								top:0
@@ -194,20 +200,13 @@
 	    											bottom:50,
 													height:50,
 													opacity:1
-	    										},
-	    										400, function() {
-	    											console.log('1');
-	    											setTimeout(function() {
-	    												console.log('2');
-	    												
-	    											}, 5000);
-	    									});
+	    									},400);
 	    							});
 							});
 							
 						});
-				});
-			}
+			// 	});
+				}
 		);
 
 		var maxWidth = 0;
