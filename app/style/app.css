@@ -285,8 +285,8 @@ body{
     height: 100%;
 }
 .inner a.hoverLinks.maxWH .colorImg{
-    max-width: 86px;
-    max-height: 72px;
+    max-width: 140px;
+    max-height: 140px;
     margin: auto;
 }
 .clearAfter:after{
@@ -1747,3 +1747,20 @@ span.jpb-loc {
 
 
 /******************END**********************/
+
+
+
+.thumbnail.slider-thumbnail.second{
+    padding-left: 18%;
+    padding-right: 18%;
+}
+.thumbnail.slider-thumbnail.toLeft{
+    padding-right: 18%;
+    padding-left: 15px;
+}
+.thumbnail.slider-thumbnail.toRight{
+    padding-left: 18%;
+    padding-right: 15px;
+}
+
+
