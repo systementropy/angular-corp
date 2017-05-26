@@ -322,8 +322,13 @@ body{
     width: 100%;
     overflow:hidden;
 }
-.back h3{padding-top: 40px;margin:0;font-size: 40px;max-width: 300px;margin-bottom: 30px;}
-.back p{max-width: 300px;position: absolute;bottom: 40px;margin:0;}
+.back-text-cont {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+.back h3{margin:0;font-size: 40px;max-width: 300px;margin-bottom: 15px;}
+.back p{max-width: 300px;margin:0;}
 /* .contentTypeDiv .back{display: none;} */
 
 .contentTypeDiv:hover .front{display: none}
