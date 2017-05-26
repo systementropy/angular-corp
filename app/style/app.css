@@ -920,14 +920,17 @@ div#brdDirInt>div.col-md-3 {
 .portfolioMainCont.small{height: 300px;}
 .portfolioMainCont .thumbnail.small{height: 250px;font-size: 100%;}
 .portfolioMainCont .thumbnail .caption h3, .distriThmb h3{
-    font-size: 30px;
+    font-size: 21px;
+    line-height: 30px;
     font-weight: bold;
     text-align: center;
     font-family: 'Glober xBold';
     margin:50px auto 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 div#portfolioDistribution{padding-top: 160px;}
-.portfolioMainCont .thumbnail .caption p, .distriThmb p{font-size: 21px;}
+.portfolioMainCont .thumbnail .caption p, .distriThmb p{font-size: 18px;line-height: 30px;}
 .portfolioMainCont .tab-pane {min-height: 500px;}
 .rdMorePortflo{font-size: 14px; text-transform: uppercase; color: #0033ff; font-weight: bold;}
 .distriText h3{font-size: 30px;margin: 0; font-weight: bold;}
