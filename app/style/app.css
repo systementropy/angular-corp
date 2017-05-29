@@ -959,6 +959,7 @@ div#portfolioDistribution{padding-top: 160px;}
 	position: absolute;
 	bottom: 25PX;
 	left: 25px;
+    width: 80%;
 }
 .boxTextBot a:hover{
 	text-decoration: none;
@@ -969,7 +970,7 @@ div#portfolioDistribution{padding-top: 160px;}
 	text-transform: uppercase;
 	cursor: pointer;
 	line-height: 40px;
-    font-family: 'Glober bold';
+    font-family: 'Geogrotesque';
     text-decoration: none;
 }
 .centerCoverText{font-size: 16px; line-height: 30px;}
