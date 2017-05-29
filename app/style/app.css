@@ -893,14 +893,18 @@ div#compHist h1 {
 .portfolioMainCont h1, .corpMainCont h1{
     font-family: 'GloberSB';
     color: #ACACAC;
-    font-size: 90px;
+    font-size: 100px;
     background:#FFF;
     margin:0;
     padding: 40px 0 5px;
-    letter-spacing: -3px;
+    /*letter-spacing: -3px;*/
+    line-height: 140px;
 }
 div#brdDirInt>div.col-md-3 {
     padding: 0 45px;
+}
+div#brdDirInt>div.col-md-3:first-child{
+    margin-left:-45px;
 }
 .portfolioMainCont h3.bgH3{
 	background: #CCCCCC;
@@ -960,11 +964,11 @@ div#portfolioDistribution{padding-top: 160px;}
 }
 .boxTextBot a{
 	color: #DADADA;
-	font-size: 40px;
+	font-size: 30px;
 	text-transform: uppercase;
 	cursor: pointer;
-	line-height: 44px;
-
+	line-height: 40px;
+    font-family: 'Glober bold';
 }
 .centerCoverText{font-size: 22px;}
 span.circle {

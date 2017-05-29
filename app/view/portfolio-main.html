@@ -170,9 +170,9 @@
 								<div>General Entertainment</div>
 							</div>
 
-							<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" data-interval="2000">
-								<div class="carousel-inner" role="listbox">
-									<div class="item active">
+							<div uib-carousel active="active" interval="8000" no-wrap="false">
+								<!-- <div class="carousel-inner" role="listbox"> -->
+									<div uib-slide index="0" class="item" active="true">
 										<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
 											<div class="thumbnail slider-thumbnail toLeft">
 												<div class="imgThmbCont"><img src="images/01_Colors.png" alt="" style=""></div>
@@ -203,7 +203,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="item ">
+									<div uib-slide index="1" active="false" class="item ">
 										<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
 											<div class="thumbnail slider-thumbnail toLeft">
 												<div class="imgThmbCont"><img src="images/resized/MBeats.gif" alt="" style=""></div>
@@ -234,7 +234,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="item ">
+									<div uib-slide index="2" active="false" class="item ">
 										<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
 											<div class="thumbnail slider-thumbnail toLeft">
 												<div class="imgThmbCont"><img src="images/resized/CC.gif" alt=""></div>
@@ -265,7 +265,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="item ">
+									<div uib-slide index="3" active="false" class="item ">
 										<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
 											<div class="thumbnail slider-thumbnail toLeft">
 												<div class="imgThmbCont"><img src="/images/resized/Nick-Jr.gif" alt="" style=""></div>
@@ -276,16 +276,16 @@
 											</div>
 										</div>
 									</div>
-								</div>
+								<!-- </div> -->
 
-								<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+								<!-- <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
 									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
 									<span class="sr-only">Previous</span>
 								</a>
 								<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
 									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
 									<span class="sr-only">Next</span>
-								</a>
+								</a> -->
 							</div>
 						</div>
 					</div>
@@ -568,9 +568,9 @@
 	 			<div class="">
 	 				<h1>Publishing</h1>
 					<div class="row">
-						<div id="carousel-example-publishing" class="carousel slide" data-ride="carousel" data-interval="2000" >
+						<div uib-carousel active="active" interval="1000" no-wrap="false">
 							<div class="carousel-inner" role="listbox">
-								<div class="item active">
+								<div uib-slide index="0" class="item active">
 									<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
 										<div class="thumbnail toLeft">
 											<div class="imgThmbCont"><img style="" src="https://pbs.twimg.com/profile_images/473352616273915904/6kh6NANH_400x400.jpeg" alt=""></div>
@@ -601,7 +601,7 @@
 										</div>
 									</div>
 								</div>
-								<div class="item ">
+								<div uib-slide index="1" class="item ">
 									<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
 										<div class="thumbnail toLeft">
 											<div class="imgThmbCont"><img src="http://www.betterinteriors.in/wp-content/uploads/2012/09/BI-header-logo11.jpg" alt="" style=""></div>
@@ -781,10 +781,7 @@
 				1000, function() {
 
 			});
-			$('#carousel-example-generic','#carousel-example-fact','#carousel-example-digital','#carousel-example-publishing').carousel({
-				interval: 3000,
-				cycle: true
-			});
+			
 			// $('.revolvingSlider').slick({
 			// 	centerMode: true,
 			// 	slidesToShow: 1,

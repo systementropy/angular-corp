@@ -154,7 +154,9 @@
     $('.closeBtn').on('click',function(){
       $('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
     });
-
+    $('.subCrumbsLinks').on('click', function(event) {
+        $('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
+    });
     var timeout = null;
     $(window).scroll(function () {
         if (!timeout) {
