@@ -106,15 +106,15 @@
 
 
 @-moz-keyframes infiBlink{
-    0%   {    border-color: #03F;background: #03F;}
-    50%  {    border-color: #C92929;background: #03F;}
-    100%   {    border-color: #03F;background: #03F;}
+    0%   {    border-color: #C92929;background: #C92929;transform: scale(1);}
+    50%  {    border-color: #C92929;background: #C92929;transform: scale(1.5);}
+    100%   {    border-color: #C92929;background: #C92929;transform: scale(1);}
 }
 
 @-webkit-keyframes infiBlink{
-    0%   {    border-color: #03F;background: #03F;}
-    50%  {    border-color: #C92929;background: #C92929;}
-    100%   {    border-color: #03F;background: #03F;}
+    0%   {    border-color: #C92929;background: #C92929;transform: scale(1);}
+    50%  {    border-color: #C92929;background: #C92929;transform: scale(1.5);}
+    100%   {    border-color: #C92929;background: #C92929;transform: scale(1);}
 }
 
 
@@ -1296,7 +1296,7 @@ span.bottom-dot-flex {
 }
 
 
-.timeline-label-odd span.circle-flex {top: 38px;}
+.timeline-label-odd span.circle-flex {top: 37px;}
 
 
 .historyCompContainer {
@@ -1451,7 +1451,9 @@ span.bottom-dot-flex {
     opacity: 1;
     transform: translateY(100%);
 }
-
+.timeline-label-range span.ani-range.circle-flex{
+    left:15px;
+}
 .timeline-label.semi-active.semi-three.active .circle-flex,.timeline-label.semi-active.semi-four.active .circle-flex {
     background: #FFF;
     border: 1px solid;
