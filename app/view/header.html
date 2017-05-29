@@ -45,7 +45,7 @@
         <div class="container containerHeaderLinks">
           <div class="headerCrumbs">
             <span><img src="images/abt.png" alt=""></i></span>
-            <p>About Us</p>
+            <p><a href="/corporate">About Us</a></p>
             <div class="subCrumbsCont">
               <a href="/corporate-main" class="subCrumbsLinks">Company <br>History</a>
               <a href="/corporate-main#brdDirInt" class="subCrumbsLinks">Board Of <br>Directors</a>
@@ -58,7 +58,7 @@
           </div>
           <div class="headerCrumbs">
             <span><img src="images/port.png" alt=""></span>
-            <p>Portfolio</p>
+            <p><a href="/portfolio">Portfolio</a></p>
             <div class="subCrumbsCont small">
               <a href="/portfolio-main#portfolioNews" class="subCrumbsLinks">News</a>
               <a href="/portfolio-main#portfolioEntertainment" class="subCrumbsLinks">Entertainment</a>
@@ -157,6 +157,10 @@
     $('.subCrumbsLinks').on('click', function(event) {
         $('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
     });
+    $('.headerCrumbs').children('p').children('a').on('click', function(event) {
+        $('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
+    });
+
     var timeout = null;
     $(window).scroll(function () {
         if (!timeout) {
