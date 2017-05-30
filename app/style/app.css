@@ -949,38 +949,65 @@ div#portfolioDistribution{padding-top: 160px;}
 .distriThmb h3.text-left{text-align: left;}
 .col-md-3>.box:first-child{margin-top: 0;}
 .box{
-	background: #666666;
-	color: #DADADA;
+	/*background: #bababa;*/
+    background: rgba(186, 186, 186, 0.9);
 	position: relative;
-	min-height: 250px;
-	margin: 25px 0;
+	height: 375px;
+	margin: 70px 0 0;
+    overflow:hidden;
+    transition: all 0.4s ease-in-out;
+}
+.box:hover{background: transparent;}
+.box:hover .boxTextBot a{color: #ff3333}
+.box:hover img.corp-img-cont{filter: grayscale(0%);}
+img.corp-img-cont {
+    filter: grayscale(100%);
+    max-height: 100%;
+    max-width: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 .boxTextBot{
 	position: absolute;
-	bottom: 25PX;
-	left: 25px;
+	bottom: 30px;
+	left: 40px;
     width: 80%;
 }
 .boxTextBot a:hover{
 	text-decoration: none;
 }
+.box-flex{
+    display: flex;
+}
+.box-flex .col-md-3{
+    width: 375px;
+    padding: 0;
+}
+.box-flex .col-md-6{
+    flex:1;
+    padding: 0;
+}
 .boxTextBot a{
-	color: #DADADA;
+	color: #ececec;
 	font-size: 30px;
 	text-transform: uppercase;
 	cursor: pointer;
 	line-height: 40px;
     font-family: 'Geogrotesque';
     text-decoration: none;
+    transition: all 0.4s ease-in-out;
 }
 .centerCoverText{font-size: 16px; line-height: 30px;}
-.centerCoverText p{ width: 400px; margin: auto;}
+.centerCoverText p{ max-width: 375px; margin: auto; width: 63%;}
 .centerCoverText h3{ 
-    width: 400px;
     font-family: 'Glober bold';
     font-size: 21px;
     line-height: 21px;
     margin: 0 auto 30px;
+    width: 63%;
+    max-width: 375px;
     text-transform: uppercase;
 }
 span.circle {
