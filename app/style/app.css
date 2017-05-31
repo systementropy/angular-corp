@@ -51,6 +51,10 @@
   font-family: 'Geogrotesque Bold';
   src:url('../fonts/Geogrotesque/Geogtq-Bd.otf')  format('truetype');
 }
+@font-face {
+  font-family: 'GeoMed';
+  src:url('../fonts/Geogrotesque/Geogtq-Md.otf')  format('truetype');
+}
 
 .headerBtnInfi {
     border-color:#F93133;
@@ -958,8 +962,8 @@ div#portfolioDistribution{padding-top: 160px;}
     transition: all 0.4s ease-in-out;
 }
 .box:hover{background: transparent;}
-.box:hover .boxTextBot a{color: #ff3333}
-.box:hover img.corp-img-cont{filter: grayscale(0%);}
+.box:hover .boxTextBot a{color: #d4d4d4;}
+.box:hover img.corp-img-cont{filter: grayscale(1);}
 img.corp-img-cont {
     filter: grayscale(100%);
     max-height: 100%;
@@ -991,20 +995,28 @@ img.corp-img-cont {
 }
 .boxTextBot a{
 	color: #ececec;
-	font-size: 30px;
+	font-size: 40px;
 	text-transform: uppercase;
 	cursor: pointer;
 	line-height: 40px;
-    font-family: 'Geogrotesque';
+    font-family: 'GeoMed';
     text-decoration: none;
     transition: all 0.4s ease-in-out;
 }
 .centerCoverText{font-size: 16px; line-height: 30px;}
-.centerCoverText p{ max-width: 375px; margin: auto; width: 63%;}
+.centerCoverText p{
+    max-width: 375px;
+    margin: auto auto 30px auto;
+    width: 63%;
+    font-size: 22px;
+    line-height: 30px;
+}
+
+
 .centerCoverText h3{ 
-    font-family: 'Glober bold';
-    font-size: 21px;
-    line-height: 21px;
+    font-family: 'Glober xBold';
+    font-size: 30px;
+    line-height: 34px;
     margin: 0 auto 30px;
     width: 63%;
     max-width: 375px;
