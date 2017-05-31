@@ -864,7 +864,7 @@ ul.nav.nav-tabs.nav-lists li.active{
     padding-left: 65px;
 }
 .portfolioItem>.thumbnail>div.imgThmbCont{
-	height: 80px;
+	height: 120px;
 	width: 100%;
 	text-align: center;
     display: flex;
@@ -889,8 +889,21 @@ ul.nav.nav-tabs.nav-lists li.active{
 .borderRight{border-right: 1px solid #999;}
 .borderLeft{border-left: 1px solid #999;}
 .portfolioItem div.thumbnail.second{border-right: 1px solid #999;border-left: 1px solid #999;margin: auto -10px;}
-.  div.thumbnail.borderRight{border-right: 1px solid #999;}
+div.thumbnail.borderRight{border-right: 1px solid #999;}
 .portfolioItem div.thumbnail.borderLeft{border-left: 1px solid #999;}
+
+.portfolioItem div.thumbnail.second {
+    margin: auto -35px;
+}
+.portfolioItem>.thumbnail.slider-thumbnail.toLeft,.portfolioItem>.thumbnail.toLeft {
+    padding-right: 115px;
+}
+.portfolioItem>.thumbnail.slider-thumbnail.toRight,.portfolioItem>.thumbnail.toRight {
+    padding-left: 115px;
+}
+.thumbnail{text-align: left;}
+
+
 div#compHist h1 {
     padding: 40px 0 0;
 }
@@ -1187,7 +1200,11 @@ ul.barsCont li{
 }
 .moviePosterCOnt{
     max-height: 290px;
+    height: 290px;
     overflow: hidden;
+}
+.moviePosterCOnt img{
+    height: 100%;
 }
 .itemThis{
     background: #eee;
