@@ -888,7 +888,7 @@ ul.nav.nav-tabs.nav-lists li.active{
 .etvCont a {margin: auto;}
 .borderRight{border-right: 1px solid #999;}
 .borderLeft{border-left: 1px solid #999;}
-.portfolioItem div.thumbnail.second{border-right: 1px solid #999;border-left: 1px solid #999;margin: auto -10px;}
+.portfolioItem div.thumbnail.second{border-right: 1px solid rgba(153,153,153,0.3);border-left: 1px solid rgba(153,153,153,0.3);margin: auto -10px;}
 div.thumbnail.borderRight{border-right: 1px solid #999;}
 .portfolioItem div.thumbnail.borderLeft{border-left: 1px solid #999;}
 
@@ -917,6 +917,9 @@ div#compHist h1 {
     padding: 40px 0 5px;
     letter-spacing: -6px;
     line-height: 143px;
+}
+.corpMainCont h1{
+    padding: 40px 0 50px;
 }
 div#brdDirInt>div.col-md-3 {
     padding: 0 45px;
