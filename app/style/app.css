@@ -932,6 +932,20 @@ div.thumbnail.borderRight{border-right: 1px solid #999;}
 }
 .thumbnail{text-align: left;}
 
+.portfolioMainCont .portfolioItem.corp_port .thumbnail .caption h3{
+    margin-top: 0;
+}
+.portfolioMainCont .portfolioItem.corp_port .thumbnail .imgThmbCont img{
+    margin-top: -25px;
+}
+.portfolioMainCont .portfolioItem.corp_port{
+    position: relative;
+    top: -25px;
+}
+div#csrID {
+    margin-bottom: 160px;
+}
+
 
 div#compHist h1 {
     padding: 40px 0 0;
@@ -948,7 +962,7 @@ div#compHist h1 {
     line-height: 143px;
 }
 .corpMainCont h1{
-    padding: 170px 0 50px;
+    padding: 120px 0 70px;
 }
 div#brdDirInt>div.col-md-3 {
     padding: 0 45px;
@@ -1333,6 +1347,16 @@ ul.slick-dots li.slick-active>button{background: #ed1c24;height: 14px; width: 14
     line-height: 40px;
     border-bottom: 4px solid;
 }
+.timeline-label:before {
+    display: block;
+    height: 10px;
+    position: absolute;
+    top: 46px;
+    background: #adadad;
+    width: 1px;
+    left: 5px;
+    content: "  ";
+}
 span.circle-flex {
     background: #fff;
     border: 1px solid;
@@ -1341,9 +1365,8 @@ span.circle-flex {
     display: block;
     position: absolute;
     border-radius: 50%;
-    left: 20px;
+    left: 0px;
     top: -7px;
-    transform: translate(-50%);
     z-index: 1;
     transition: all 0.4s ease-in-out;
 }
@@ -1355,7 +1378,7 @@ span.dotted-flex {
     height: 14px;
     position: absolute;
     border: 1px dotted;
-    left: 20px;
+    left: 5px;
     transform: translate(-50%);
 
 }
@@ -1369,7 +1392,7 @@ span.dotted-flex {
 .timeline-label.active span.circle-flex{
     border-color: #0033FF;
     background: #0033FF;
-    left: 15px;
+    left: 0px;
     transform: scale(1.5);
 }
 
@@ -1378,7 +1401,7 @@ span.bottom-dot-flex {
     height: 0px;
     border: 1px dotted;
     top: 40px;
-    left: 20px;
+    left: 5px;
     transform: translate(-50%);
     transition: all 0.4s ease-in-out;
 }
@@ -1543,7 +1566,7 @@ span.bottom-dot-flex {
     transform: translateY(100%);
 }
 .timeline-label-range span.ani-range.circle-flex{
-    left:15px;
+    left:0px;
 }
 .timeline-label.semi-active.semi-three.active .circle-flex,.timeline-label.semi-active.semi-four.active .circle-flex {
     background: #FFF;
