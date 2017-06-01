@@ -277,11 +277,11 @@ body{
     margin: 32px auto 0;
 }
 
-
+.hoverLinks.fullWH{overflow:hidden;}
 .inner:hover a.hoverLinks .colorImg {
     -webkit-filter: grayscale(0%); /* Safari 6.0 - 9.0 */
     filter: grayscale(0%);
-    transform: scale(1.1);
+    transform: scale(1.35);
 }
 .inner a.hoverLinks.fullWH .colorImg{
     margin: 0;
@@ -364,8 +364,17 @@ body{
 .footerSection.greyBG{font-size: 14px; background: #F3F3F3; color: #646464;position: relative; border-top: 1px solid #cbcbcb;}
 .footerSection .width50>div{padding: 15px;}
 .footerSection.greyBG h3{
-    font-size: 15px;
+    font-size: 19px;
 }
+.greyBG.footerSection .foot-link-cont{
+    float: left;
+    width: 25%;
+    padding: 0 0 0 15px;
+}
+.greyBG.footerSection .foot-link-cont:first-child{
+    padding: 0;
+}
+
 .footerSection.greyBG ul {
     list-style-type: none;
     display: block;
@@ -383,20 +392,24 @@ section.greyBG.footerSection>.container {
     margin-top: 5px;
 }
 .footerSection.greyBG ul li a{
-    font-size: 10px;
-    line-height: 12px;
+    font-size: 14px;
+    line-height: 17px;
     width: 100%;
     text-align: left;
     height: auto;
     padding: 0;
-    color: #565656;
+    color: #666;
+    opacity: 0.8;
     float: none;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    margin: 10px 0;
 }
 .footerSection.greyBG ul li a:hover {
     transform: scale(1.05);
     color: #000;
 }
-.footerSection.greyBG hr{border-color: #ccc;}
+.footerSection.greyBG hr{border-color: #ccc;margin-bottom: 23px;}
 .container{
 	width: 80%;
 	margin-left:auto;
@@ -404,6 +417,15 @@ section.greyBG.footerSection>.container {
 }
 .containerHeaderLinks{
 
+}
+.cont-box-bot{
+    font-size: 14px;
+    line-height: 18px;
+    color: #7c7c7d;
+    opacity: 0.8;
+}
+.cont-box-bot span{
+    font-family: 'Glober bold';
 }
 a.fixed-link-top {
     position: fixed;
@@ -662,6 +684,13 @@ a.subCrumbsLinks:hover{
     transition: 0.2s all ease-in-out;
     transform: scale(1);
 }
+.greyBG.footerSection a>i{
+    font-size: 25px;
+    margin:21px 25px 16px;
+}
+.greyBG.footerSection a:first-child>i{
+    margin-left: 0;
+}
 .headerPrimaryCont.animateHeader{background: transparent; color: #EEE; top: -65px;}
 .animateMainContainer{
 	position: relative;
@@ -919,7 +948,7 @@ div#compHist h1 {
     line-height: 143px;
 }
 .corpMainCont h1{
-    padding: 40px 0 50px;
+    padding: 170px 0 50px;
 }
 div#brdDirInt>div.col-md-3 {
     padding: 0 45px;
@@ -1104,17 +1133,17 @@ span.dottdBrder {
 .borderCont h3{font-weight: bold;font-size: 30px;}
 .relCont{position: relative;}
 .absCont{position: absolute;bottom: 0;}
-.boardDirMainCont{font-size: 21px;line-height: 28px;color: #333;}
+.boardDirMainCont{font-size: 22px;line-height: 30px;color: #333;}
 .boardDirMainCont h3{
     color: #464646;
     font-weight: bold;
     font-size: 30px;
-    line-height: normal;
+    line-height: 34px;
     font-family: 'Glober xBold';
     text-transform: uppercase;
-    margin: 40px 0 20px;
+    margin: 56px 0 20px;
 }
-.boardDirMainCont p{margin-bottom: 120px;}
+.boardDirMainCont p{margin-bottom: 125px;}
 .row.globalPartnerMainContainer.portfolioMainCont {
     margin: 60px -15px 0;
 }
@@ -1175,7 +1204,8 @@ ul.barsCont li{
     background: #ed1c24;
     padding: 10px;
     position: fixed;
-    bottom: 0;
+    bottom: 50%;
+    transform: translateY(50%);
     right: 0;
     color: #FFF;
     text-align: center;
