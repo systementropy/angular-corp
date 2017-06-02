@@ -101,6 +101,29 @@
     100%   {transform: translateX(0px);}
 }
 
+
+.arrowTopAnimate {
+    animation:infiTranslate 1s;
+    -moz-animation:infiTranslate 1s infinite; /* Firefox */
+    -webkit-animation:infiTranslate 1s infinite; /* Safari and Chrome */
+}
+
+
+@-moz-keyframes infiTranslate{
+    0%   {transform:  translateY(0px) rotate(90deg);}
+    20%  {transform:  translateY(-5px) rotate(90deg);}
+    40%   {transform:  translateY(0px) rotate(90deg);}
+    80%   {transform:  translateY(5px) rotate(90deg);}
+    100%   {transform:  translateY(0px) rotate(90deg);}
+}
+
+@-webkit-keyframes infiTranslate{
+    0%   {transform:  translateY(0px) rotate(90deg);}
+    20%  {transform:  translateY(-5px) rotate(90deg);}
+    40%   {transform:  translateY(0px) rotate(90deg);}
+    80%   {transform:  translateY(5px) rotate(90deg);}
+    100%   {transform:  translateY(0px) rotate(90deg);}
+}
 .ani-range {
     
     animation:infiBlink 1s;
@@ -1261,7 +1284,7 @@ ul.barsCont li{
 .itemThis>.row{
     display: flex;
     position: relative;
-    padding-top: 54px;
+    padding-top: 40px;
 }
 .itemThis>.row>.revolveSliderHeader{
     position: absolute;
@@ -1301,7 +1324,6 @@ slick.revolvingSlider.ng-isolate-scope.slick-initialized.slick-slider {
     font-size: 30px;
     line-height: 64px;
     color: #666;
-    padding: 10px 15px 50px;
 }
 .slick-active .revolveSliderHeader{opacity: 1;}
 .revolveSliderHeader .pull-left,.revolveSliderHeader .pull-right{
@@ -1882,8 +1904,20 @@ span.jpb-loc {
 }
 
 
-
-
+.vid-arr{
+    position: relative;
+}
+.vid-arr img{
+    position: absolute;
+    /* height: 50px; */
+    width: 45px;
+    top: -75px;
+    max-width: none;
+    max-height: none;
+    z-index: 100;
+    transform: translate(-50%) rotate(90deg);
+    left: 49%;
+}
 
 
 /******************END**********************/
