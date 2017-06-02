@@ -18,14 +18,15 @@
     </div>
   </div>
   <div class="headerMainContainer"> 
-    <div class="video-cont">
+    <img src="/images/header_bg.png" alt="">
+    <!-- <div class="video-cont">
       <div class="vid-bg">
 
       </div>
       <video width="100%" autoplay loop>
         <source src="images/657529324_menu.mp4" type="video/mp4">
       </video>
-    </div>
+    </div> -->
     <div class="header-top">
       <div class="headerInner closeBtn" style="text-align: center;">
         <span style="color: #CDCFD1; cursor: pointer;">
@@ -36,12 +37,11 @@
           </span>
         </span>
       </div>
-      <div class="headerDivider"></div>
     </div>
 
     <div style="position: relative;" id="headerLinkCont">
 
-      <div style="position: absolute;bottom: 100px; left: 0; width: 100%; height: 222px;background: rgba(188, 25, 18, 0.7);padding-top: 32px;">
+      <div style="position: absolute;bottom: 100px; left: 0; width: 100%; height: 222px;background: rgba(0,0,0,0.4);padding-top: 32px;">
         <div class="container containerHeaderLinks">
           <div class="headerCrumbs">
             <span><img src="images/abt.png" alt=""></i></span>
@@ -50,7 +50,7 @@
               <a href="/corporate-main#compHist" class="subCrumbsLinks">Company <br>History</a>
               <a href="/corporate-main#brdDirInt" class="subCrumbsLinks">Board Of <br>Directors</a>
               <a href="/corporate-main#globPartInt" class="subCrumbsLinks">International <br>Partners</a>
-              <a href="/corporate-main#brdCmtii" class="subCrumbsLinks" >Board <br>Comittee</a>
+              <a href="/corporate-main#brdCmtii" class="subCrumbsLinks" >Board <br>Committee</a>
               <a href="/corporate-main#csrID" class="subCrumbsLinks">Corporate Social <br>Responsibility</a>
               <a href="/corporate-main#compHist" class="subCrumbsLinks">Our <br> Investment</a>
             </div>
@@ -136,6 +136,7 @@
     var windowHeight = $(window).height();
 
     $('.open').on('click', function(e){
+      $('.fixed-link-top').hide();
       $('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 300, 'easeInOutQuad', function(){
         maxWidth = $('.containerHeaderLinks').width();
         $('.subCrumbsCont').css('left', $('.containerHeaderLinks').offset().left);
@@ -152,9 +153,11 @@
       $(this).siblings('div').removeClass('diminsh');
     });
     $('.closeBtn').on('click',function(){
+      $('.fixed-link-top').show();
       $('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
     });
     $('.subCrumbsLinks').on('click', function(event) {
+
         $('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
     });
     $('.headerCrumbs').children('p').children('a').on('click', function(event) {

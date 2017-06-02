@@ -426,7 +426,7 @@ section.greyBG.footerSection>.container {
     float: none;
     letter-spacing: 0;
     text-transform: capitalize;
-    margin: 10px 0;
+    margin: 7px 0;
 }
 .footerSection.greyBG ul li a:hover {
     transform: scale(1.05);
@@ -603,6 +603,14 @@ a.subCrumbsLinks:hover{
     background: #481313;
 }
 .headerMainContainer .video-cont video{opacity: 1;height: 100% !important; width: auto; }
+.headerMainContainer>img {
+    z-index: -10;
+    height: 100vw;
+    max-width: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
 .headerPrimaryCont{
 	position: fixed;
     width: 100%;
@@ -613,7 +621,7 @@ a.subCrumbsLinks:hover{
     /*background: -webkit-linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.2)); 
     background: -o-linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.2)); 
     background: -moz-linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.2)); 
-    background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.2)); */
+    background: linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.2));*/ 
 }
  .headerPrimaryCont .pull-left a.homeLogoA{
     display: inline-block;
@@ -625,7 +633,7 @@ a.subCrumbsLinks:hover{
     text-align: center;
     height: 45px;
     padding-top: 20px;
-    background: rgba(130, 61, 26, 0.5);
+    background: rgba(0, 0, 0, 0.25);
     padding-bottom: 10px;
     height: 82px;
 
@@ -651,8 +659,7 @@ a.subCrumbsLinks:hover{
     margin-right: 10px;
     transform: rotate(0deg) ;
     font-weight: bold;
-    color: #000;
-    font-family: 'Glober bold';
+    color: #4c4b4b;
 }
 .headerInner.closeBtn>span i:hover{
     transform: rotate(90deg) ;
@@ -946,6 +953,7 @@ div.thumbnail.borderRight{border-right: 1px solid #999;}
 
 .portfolioItem div.thumbnail.second {
     margin: auto -35px;
+    padding-bottom: 0;
 }
 .portfolioItem>.thumbnail.slider-thumbnail.toLeft,.portfolioItem>.thumbnail.toLeft {
     padding-right: 115px;
@@ -1016,21 +1024,35 @@ div#brdDirInt>div.col-md-3:first-child{
 .portfolioMainCont.small{height: 300px;}
 .portfolioMainCont .thumbnail.small{height: 250px;font-size: 100%;}
 .portfolioMainCont .thumbnail .caption h3, .distriThmb h3{
-    font-size: 21px;
-    line-height: 30px;
-    font-weight: bold;
+    font-size: 27px;
+    line-height: 34px;
+    font-weight: 700;
     text-align: center;
     font-family: 'Glober xBold';
-    margin:50px auto 30px;
+    margin: 25px auto 20px;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.distriThmb h3{
+    font-family: 'GloberSB';
+    text-align: left;
 }
 div#portfolioDistribution{padding-top: 160px;}
-.portfolioMainCont .thumbnail .caption p, .distriThmb p{font-size: 22px;line-height: 30px;}
+.portfolioMainCont .thumbnail .caption p, .distriThmb p{    
+    font-size: 21px;
+    line-height: 30px;
+}
 .portfolioMainCont .tab-pane {min-height: 500px;}
 .rdMorePortflo{font-size: 14px; text-transform: uppercase; color: #0033ff; font-weight: bold;}
-.distriText h3{font-size: 30px;margin: 0; font-weight: bold;}
-.distriText p{font-size: 21px;}
+.distriText h3{
+    font-size: 30px;
+    margin: 0;
+    line-height: 26px;
+    margin-bottom: 15px;
+    font-family: 'Glober xBold';
+}
+.distriText p{font-size: 21px;line-height: 21px;}
 .row.distriTextCont .text-center { padding: 0 15px;}
 .distriText{padding: 0 15px;}
 .distriThmb h3.text-left{text-align: left;}
@@ -1258,12 +1280,13 @@ ul.barsCont li{
 .bottomSticky li{
     padding:0;
     border: none;
-    margin: 15px 15px 15px 0px;
+    margin: 10px 20px 10px 0px;
+    background: transparent;
 }
 .bottomSticky a span {
     background: #D3D3D3;
-    height: 10px;
-    width: 10px;
+    height: 7px;
+    width: 7px;
     display: block;
     border-radius: 50%;
 }
@@ -1343,6 +1366,7 @@ slick.revolvingSlider.ng-isolate-scope.slick-initialized.slick-slider {
     font-size:30px;
     color: #666;
     opacity: 0.4;
+    width: 310px;
 }
 .itemThis a.carousel-control{opacity: 0;z-index: 100;}
 .itemThis.slick-center a.carousel-control{opacity: 1;z-index: 100;}
@@ -1356,7 +1380,7 @@ ul.slick-dots li{
 }
 ul.slick-dots li>button:focus,ul.slick-dots li>button:active{outline: none;}
 ul.slick-dots li>button{border:none;background: #EEE;height: 12px; width: 12px;border-radius: 50%;}
-ul.slick-dots li.slick-active>button{background: #ed1c24;height: 14px; width: 14px;}
+ul.slick-dots li.slick-active>button{background: #ed1c24;height: 12px; width: 12px;}
 
 
 
@@ -1459,7 +1483,7 @@ span.bottom-dot-flex {
     width: 100vw;
 }
 .video-cont video{
-    opacity: 0.5;
+    opacity: 1;
     position: absolute;
     bottom: 0;
 }
@@ -1468,8 +1492,8 @@ span.bottom-dot-flex {
     position: absolute;
     height: 100%;
     width: 100%;
-    z-index: -1;
-    background: rgb(255,0,0);
+    z-index: 1;
+    background: rgba(255, 0, 4, 0.55);
 }
 .flex-dropdown{
     display: flex;
@@ -1820,9 +1844,9 @@ div.career-empl-cont div.col-md-4 p {
     top: -1px;
 }
 .fav-logo-cont img{
-    max-height: 64px;
-    height: 64px;
-    transform: translateY(-32px);
+    max-height: 48px;
+    height: 48px;
+    transform: translateY(-24px);
 }
 .video-over-text.text-cont{
     padding: 0;
