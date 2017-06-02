@@ -2,11 +2,14 @@
 	<div class="headerFiller"></div>
 	<a class="fixed-link-top" href="/corporate">BACK TO ABOUT US</a>
 	<div class="bottomSticky">
-		<a href="#">
-			<div><i class="fa fa-caret-up"></i></div>
-			TOP
-		</a>
-
+		<ul class="list-group">
+			<li class="list-group-item"><a class="stickyMove" href="#compHist"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove" href="#brdDirInt"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove" href="#globPartInt"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove" href="#brdCmtii"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove" href="#csrID"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove" href="#compHist"><span class=""></span></a></li>
+		</ul>
 	</div>
 	<div class="video-cont">
 		<div class="vid-bg">
@@ -607,7 +610,13 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 			//console.log($('body'));
-
+			$('.stickyMove').on('click', function(event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $($(this).attr('href')).offset().top
+				},'slow');
+				//goToByScroll($(this).attr('href'));
+			});
 			var maxWidth = 0;
 
 			var windowHeight = $(window).height();

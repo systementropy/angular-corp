@@ -103,13 +103,13 @@
 
 
 .arrowTopAnimate {
-    animation:infiTranslate 1s;
-    -moz-animation:infiTranslate 1s infinite; /* Firefox */
-    -webkit-animation:infiTranslate 1s infinite; /* Safari and Chrome */
+    animation:infiTranslate1 1s;
+    -moz-animation:infiTranslate1 1s infinite; /* Firefox */
+    -webkit-animation:infiTranslate1 1s infinite; /* Safari and Chrome */
 }
 
 
-@-moz-keyframes infiTranslate{
+@-moz-keyframes infiTranslate1{
     0%   {transform:  translateY(0px) rotate(90deg);}
     20%  {transform:  translateY(-5px) rotate(90deg);}
     40%   {transform:  translateY(0px) rotate(90deg);}
@@ -117,7 +117,7 @@
     100%   {transform:  translateY(0px) rotate(90deg);}
 }
 
-@-webkit-keyframes infiTranslate{
+@-webkit-keyframes infiTranslate1{
     0%   {transform:  translateY(0px) rotate(90deg);}
     20%  {transform:  translateY(-5px) rotate(90deg);}
     40%   {transform:  translateY(0px) rotate(90deg);}
@@ -1238,7 +1238,6 @@ ul.barsCont li{
     }
 }
 .bottomSticky {
-    background: #ed1c24;
     padding: 10px;
     position: fixed;
     bottom: 50%;
@@ -1249,10 +1248,24 @@ ul.barsCont li{
     font-size: 16px;
     line-height: 14px;
     display: none;
+    z-index: 9999;
 }
 .bottomSticky a,.bottomSticky a:hover{
     color: #FFF;
     text-decoration: none;
+}
+
+.bottomSticky li{
+    padding:0;
+    border: none;
+    margin: 15px 15px 15px 0px;
+}
+.bottomSticky a span {
+    background: #D3D3D3;
+    height: 10px;
+    width: 10px;
+    display: block;
+    border-radius: 50%;
 }
 .bottomSticky i{
     font-size: 40px;
@@ -1917,6 +1930,7 @@ span.jpb-loc {
     z-index: 100;
     transform: translate(-50%) rotate(90deg);
     left: 49%;
+    opacity: 0.8;
 }
 
 
