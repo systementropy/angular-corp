@@ -197,7 +197,8 @@
 body{
 	font-family: 'Glober';
 	color: #000;
-	font-size: 21px;
+	font-size: 16px;
+    line-height: 21px;
 }
 * {
     margin: 0;
@@ -426,10 +427,11 @@ section.greyBG.footerSection>.container {
     float: none;
     letter-spacing: 0;
     text-transform: capitalize;
-    margin: 7px 0;
+    margin: 5px 0;
 }
 .footerSection.greyBG ul li a:hover {
     transform: scale(1.05);
+    transform-origin: 0 3px;
     color: #000;
 }
 .footerSection.greyBG hr{border-color: #ccc;margin-bottom: 23px;}
@@ -491,7 +493,7 @@ a.fixed-link-top:hover{
 .headerCrumbs.diminsh>p,.headerCrumbs.diminsh>span{}
 .headerCrumbs>p{
     transform: scale(1);
-    margin: 0 0 20px 0;
+    margin: 0 0 40px 0;
     transition: all 0.4s ease-in-out;
 }
 .headerCrumbs>p>a {
@@ -517,6 +519,8 @@ a.fixed-link-top:hover{
     bottom: -20px;
     width: 0;
     z-index: -1;
+    display: flex;
+    justify-content: space-around;
 }
 .subCrumbsCont.small {
     height: 20px;
@@ -532,23 +536,21 @@ a.fixed-link-top:hover{
     bottom: 94px;
 }
 a.subCrumbsLinks {
-    color: #ccc;
+    color: #acacac;
     text-decoration: none;
-    width: 16.5%;
     display: block;
     float: left;
     border-right: 1px solid rgba(255,255,255,0.5);
     text-align: center;
-    height: 38px;
     text-transform: uppercase;
 	font-size: 14px;
-	padding: 0 15px;
+	padding: 0 25px;
     transition: all 0.4s ease-in-out;
     line-height: 16px;
     letter-spacing: 1px;
+
 }
 .subCrumbsCont.small a.subCrumbsLinks{
-    height: 38px;
 }
 a.subCrumbsLinks:last-child{
     border: none;
@@ -561,7 +563,7 @@ a.subCrumbsLinks:last-child{
 
 }
 a.subCrumbsLinks:hover{
-    color: #0101cc;
+    color: #5f5fff;
 
 }
 .headerSocialContainer{
@@ -847,7 +849,7 @@ img{
 	height: 0px;
 	clear: both;
 }
-.heroImgContainer{padding: 15px;max-height: 45vh; overflow: hidden;text-align: center;}
+.heroImgContainer{padding: 15px;max-height: 50vh; overflow: hidden;text-align: center;}
 .carousel-control{
 	width: 20px;
 	background: transparent !important;
@@ -988,6 +990,8 @@ div.thumbnail.borderRight{border-right: 1px solid #999;}
 }
 div#csrID {
     margin-bottom: 160px;
+    font-size: 16px;
+    line-height: 21px;
 }
 
 
@@ -1006,13 +1010,13 @@ div#compHist h1 {
     line-height: 108px;
 }
 .corpMainCont h1{
-    padding: 120px 0 70px;
+    padding: 80px 0 50px;
 }
 div#brdDirInt>div.col-md-3 {
-    padding: 0 45px;
+    padding: 0 30px;
 }
 div#brdDirInt>div.col-md-3:first-child{
-    margin-left:-45px;
+    margin-left:-30px;
 }
 .portfolioMainCont h3.bgH3{
 	background: #CCCCCC;
@@ -1224,14 +1228,18 @@ span.dottdBrder {
 .boardDirMainCont{font-size: 22px;line-height: 30px;color: #333;}
 .boardDirMainCont h3{
     color: #464646;
-    font-weight: bold;
-    font-size: 30px;
+    font-weight: 700;
+    font-size: 20px;
     line-height: 34px;
-    font-family: 'Glober xBold';
+    margin: 40px 0 12px;
     text-transform: uppercase;
-    margin: 56px 0 20px;
+    font-family: 'Glober xBold';
 }
-.boardDirMainCont p{margin-bottom: 125px;}
+.boardDirMainCont p{
+    margin-bottom: 125px;
+    font-size: 16px;
+    line-height: 21px;
+}
 .row.globalPartnerMainContainer.portfolioMainCont {
     margin: 60px -15px 0;
 }
@@ -1611,17 +1619,20 @@ span.bottom-dot-flex {
     margin:0;
 }
 .sectionalCont.pull-left .col-md-3{
-    height: 80px;
-    width: 120px;
+    height: 64px;
+    width: 140px;
     display: flex;
-    padding:5px 15px;
-    margin:10px 0;
+    margin: 10px 0;
+    border-color: rgba(153, 153, 153, 0.5);
+    padding: 0
 }
 .sectionalCont.pull-left .col-md-3 a {
     display: flex;
 }
 .sectionalCont.pull-left .col-md-3 a img {
-    margin: auto;
+    max-width: 130%;
+    max-height: 140%;
+    margin: -10% auto;
 }
 
 .sectionalCont.pull-left p {
@@ -1643,22 +1654,27 @@ span.bottom-dot-flex {
     font-weight: bold;
     font-family: 'Glober xBold';
 }
-.flex-dropdown.flex-dropdown-two {
-    display: inherit;
-}
+
 .flex-dropdown-brand:last-child{
     color: #000;
 }
+.flex-dropdown-brand:last-child .sectionalCont.pull-left{
+    padding: 0;
+}
 .flex-dropdown-brand:last-child .sectionalCont.pull-left .col-md-3{
-    width: 80px;
+    width: 110px;
     height: 64px;
-    padding: 2px 10px;
+}
+.flex-dropdown-brand:last-child .sectionalCont.pull-left .col-md-3 img{
+    max-width: 116%;
+    max-height: 129%;
+    margin: -10% -8%;
 }
 .flex-dropdown.flex-dropdown-two {
     display: inherit;
     position: relative;
     top: -572px;
-    height: 340px;
+    height: 390px;
 }
 .flex-dropdown-brand {
     position: absolute;
