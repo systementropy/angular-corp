@@ -1534,10 +1534,10 @@ span.bottom-dot-flex {
     background: rgba(255, 0, 4, 0.55);
 }
 .flex-dropdown{
-    display: flex;
     position: relative;
     top: -190px;
     z-index: -2;
+    height: 185px;
 }
 .flex-drop-opt {
     padding: 0 15px;
@@ -1546,12 +1546,11 @@ span.bottom-dot-flex {
     opacity: 0;
     top: 0px;
     transition: all 0.4s ease-in-out;
+    font-size: 15px;
+    line-height: 21px;
+    float: left;
 }
-.flex-drop-opt.opt1{
-    padding-left: 0;
 
-
-}
 .flex-drop-opt.active{
     opacity: 1;
     top:190px;
@@ -1570,12 +1569,27 @@ span.bottom-dot-flex {
     font-weight: bold;
     font-family: 'Glober xBold';
 }
+.flex-drop-opt.opt1{
+    padding-left: 0;
+    width: 100px;
+}
 .flex-drop-opt.opt2 {
-    left: 30%;
+    left: 36%;
+    width: 265px;
     z-index: 100;
     transform: translateX(1%);
 }
 .flex-drop-opt.opt3 {
+    padding: 0;
+    position: absolute;
+    right: 25%;
+    width: 260px;
+}
+.flex-drop-opt.opt4 {
+    width: 165px;
+    padding: 0;
+    position: absolute;
+    right: 0;
 }
 .flex-cont{
     display: flex;
