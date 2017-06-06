@@ -387,7 +387,7 @@ body{
 .footerSection.greyBG{font-size: 14px; background: #F3F3F3; color: #646464;position: relative; border-top: 1px solid #cbcbcb;}
 .footerSection .width50>div{padding: 15px;}
 .footerSection.greyBG h3{
-    font-size: 19px;
+    font-size: 15px;
 }
 .greyBG.footerSection .foot-link-cont{
     float: left;
@@ -415,8 +415,8 @@ section.greyBG.footerSection>.container {
     margin-top: 5px;
 }
 .footerSection.greyBG ul li a{
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 11px;
+    line-height: 14px;
     width: 100%;
     text-align: left;
     height: auto;
@@ -435,6 +435,8 @@ section.greyBG.footerSection>.container {
 .footerSection.greyBG hr{border-color: #ccc;margin-bottom: 23px;}
 .container{
 	width: 80%;
+    max-width: 1080px;
+    padding: 0;
 	margin-left:auto;
     margin-right:auto;
 }
@@ -452,11 +454,11 @@ section.greyBG.footerSection>.container {
 }
 a.fixed-link-top {
     position: fixed;
-    top: 72px;
+    top: 52px;
     z-index: 9999;
     left: 50%;
     transform: translate(-50%);
-    font-size: 14px;
+    font-size: 11px;
     color: #666;
     text-decoration: none;
     transition: all 0.4s ease-in-out;
@@ -473,7 +475,7 @@ a.fixed-link-top:hover{
 	clear: both;
 }
 .headerCrumbs{
-	font-size: 24px;
+	font-size: 20px;
 	color: #999;
 	width: 16.6%;
 	float: left;
@@ -496,7 +498,7 @@ a.fixed-link-top:hover{
     color: inherit;
     text-decoration: none;
 }
-.headerCrumbs span{transition: all 0.4s ease-in-out;transform: translateY(-15px);}
+.headerCrumbs span{transition: all 0.4s ease-in-out;transform: translateY(-30px);}
 .headerCrumbs:hover>p{
     transform: scale(1.25);
 }
@@ -521,13 +523,13 @@ a.fixed-link-top:hover{
 }
 .headerCrumbs:hover .subCrumbsCont{
     opacity: 1;
-    bottom: 44px;
+    bottom: 80px;
     width: 100%;
     z-index: 10;
     padding: 0 3%;
 }
 .headerCrumbs:hover .subCrumbsCont.small{
-    bottom: 64px;
+    bottom: 94px;
 }
 a.subCrumbsLinks {
     color: #ccc;
@@ -539,10 +541,10 @@ a.subCrumbsLinks {
     text-align: center;
     height: 38px;
     text-transform: uppercase;
-	font-size: 18px;
+	font-size: 14px;
 	padding: 0 15px;
     transition: all 0.4s ease-in-out;
-    line-height: 20px;
+    line-height: 16px;
     letter-spacing: 1px;
 }
 .subCrumbsCont.small a.subCrumbsLinks{
@@ -555,6 +557,7 @@ a.subCrumbsLinks:last-child{
     font-size: 40px;
     display: block;
     position: relative;
+    height: 30px;
 
 }
 a.subCrumbsLinks:hover{
@@ -567,7 +570,7 @@ a.subCrumbsLinks:hover{
 	margin: 0 auto;
 }
 .headerSocialContainer i {
-    font-size: 21px;
+    font-size: 16px;
     padding: 0 25px;
     transition: all 0.4s ease-in-out;
     color: #9b9b9b;
@@ -616,7 +619,7 @@ a.subCrumbsLinks:hover{
     width: 100%;
     
     z-index: 8888;
-    padding: 18px;
+    padding: 13.5px;
     background: rgba(255,255,255,0.95); 
     /*background: -webkit-linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.2)); 
     background: -o-linear-gradient(rgba(255,255,255,0.95), rgba(255,255,255,0.2)); 
@@ -625,8 +628,8 @@ a.subCrumbsLinks:hover{
 }
  .headerPrimaryCont .pull-left a.homeLogoA{
     display: inline-block;
-    height: 45px;
-    margin-top: 10px;
+    height: 32px;
+    margin-top: 7px;
 }
 
 .headerInner.closeBtn{
@@ -708,15 +711,25 @@ a.subCrumbsLinks:hover{
     transform: scale(1.1);
 }
 .headerPrimaryCont .pull-right a>i,.greyBG.footerSection a>i {
-    font-size: 22px;
-    margin: 21px 20px;
+    font-size: 16px;
+    margin: 16px;
     color: #666;
-    transition: 0.2s all ease-in-out;
+    
     transform: scale(1);
 }
+.headerPrimaryCont .pull-right a>i{
+    font-size: 16px;
+    margin:16px;
+}
+.greyBG.footerSection a>i {
+    transition: 0.4s all ease-in-out;
+}
+.headerPrimaryCont .pull-right a>i{
+    transition: 0.4s all ease-in-out;
+}
 .greyBG.footerSection a>i{
-    font-size: 25px;
-    margin:21px 25px 16px;
+    font-size: 16px;
+    margin:16px;
 }
 .greyBG.footerSection a:first-child>i{
     margin-left: 0;
@@ -794,12 +807,12 @@ a.subCrumbsLinks:hover{
 }
 .headerPrimaryCont .open{
     background: transparent;
-    font-size: 32px;
+    font-size: 24px;
     color: inherit;
     transition: all 0.2s ease-in-out;
     color: #666;
-    height: 54px;
-    width: 54px;
+    height: 40px;
+    width: 40px;
     padding: 0;
     border: none;
 }
@@ -985,12 +998,12 @@ div#compHist h1 {
     font-family: 'GloberSB';
     color: #666;
     opacity: 0.5;
-    font-size: 143px;
+    font-size: 108px;
     background:#FFF;
     margin:0;
-    padding: 40px 0 5px;
+    padding: 30px 0 5px;
     letter-spacing: -6px;
-    line-height: 143px;
+    line-height: 108px;
 }
 .corpMainCont h1{
     padding: 120px 0 70px;
@@ -1019,13 +1032,13 @@ div#brdDirInt>div.col-md-3:first-child{
 	font-family: 'Glober bold';
 	font-size: 30px;
 }
-.portfolioMainCont{margin: 50px 0 50px;clear: both;}
+.portfolioMainCont{margin: 38px 0 38px;clear: both;}
 .portfolioMainCont .thumbnail .caption{color: #000;padding: 0;}
 .portfolioMainCont.small{height: 300px;}
 .portfolioMainCont .thumbnail.small{height: 250px;font-size: 100%;}
 .portfolioMainCont .thumbnail .caption h3, .distriThmb h3{
-    font-size: 27px;
-    line-height: 34px;
+    font-size: 20px;
+    line-height: 24px;
     font-weight: 700;
     text-align: center;
     font-family: 'Glober xBold';
@@ -1037,22 +1050,26 @@ div#brdDirInt>div.col-md-3:first-child{
 .distriThmb h3{
     font-family: 'GloberSB';
     text-align: left;
+    margin: 0 0 10px 0;
+    opacity: 1;
 }
 div#portfolioDistribution{padding-top: 160px;}
 .portfolioMainCont .thumbnail .caption p, .distriThmb p{    
-    font-size: 21px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 21px;
+    margin:0;
 }
 .portfolioMainCont .tab-pane {min-height: 500px;}
 .rdMorePortflo{font-size: 14px; text-transform: uppercase; color: #0033ff; font-weight: bold;}
 .distriText h3{
-    font-size: 30px;
+    font-size: 22px;
     margin: 0;
-    line-height: 26px;
-    margin-bottom: 15px;
+    line-height: 22px;
+    margin-bottom: 11px;
     font-family: 'Glober xBold';
+    opacity: 0.7;
 }
-.distriText p{font-size: 21px;line-height: 21px;}
+.distriText p{font-size: 16px;line-height: 16px;}
 .row.distriTextCont .text-center { padding: 0 15px;}
 .distriText{padding: 0 15px;}
 .distriThmb h3.text-left{text-align: left;}
@@ -1208,7 +1225,7 @@ span.dottdBrder {
 }
 .bordDwlBtn{color: #fff; background: #ed1c24;border-radius: 0;}
 .headerFiller {
-    height: 100px;
+    height: 75px;
 }
 .contentTypeDiv a{text-decoration:none;}
 .contentTypeDiv img {
@@ -1225,14 +1242,14 @@ ul.barsCont {
     width: 100%;
     height: 100%;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 ul.barsCont li{
     width: 70%;
     height: 2px;
-    margin: 6px auto;
-    border: 2px solid;
+    margin: 4.5px auto;
+    border: 1.5px solid;
     border-color: #666;
     transition: all 0.4s ease-in-out;
 }
@@ -1306,7 +1323,7 @@ ul.barsCont li{
 }
 .moviePosterCOnt{
     max-height: 290px;
-    height: 290px;
+    height: 212px;
     overflow: hidden;
 }
 .moviePosterCOnt img{
@@ -1326,6 +1343,7 @@ ul.barsCont li{
     position: absolute;
     top: -40px;
     width: 100%;
+    padding: 0;
 }
 
 .itemThis.slick-slide.slick-active{
@@ -1341,7 +1359,7 @@ ul.barsCont li{
     background: transparent;
     border: none;
     color: transparent;
-    width: 300px;
+    width: 30%;
     height: 70px;
     position: absolute;
     z-index: 100;
@@ -1357,21 +1375,24 @@ slick.revolvingSlider.ng-isolate-scope.slick-initialized.slick-slider {
 .revolvingSlider>button.slick-next{right: 0;}
 .revolveSliderHeader{
     opacity: 0;
-    font-size: 30px;
-    line-height: 64px;
+    font-size: 22px;
+    line-height: 48px;
     color: #666;
 }
 .slick-active .revolveSliderHeader{opacity: 1;}
 .revolveSliderHeader .pull-left,.revolveSliderHeader .pull-right{
-    font-size:30px;
+    font-size:22px;
     color: #666;
     opacity: 0.4;
-    width: 310px;
+    width: 30%;
+    text-align: center;
 }
 .itemThis a.carousel-control{opacity: 0;z-index: 100;}
 .itemThis.slick-center a.carousel-control{opacity: 1;z-index: 100;}
 ul.slick-dots{
     text-align: center;
+    position: relative;
+    bottom: -20px;
 }
 ul.slick-dots li{
     display: inline-block;
@@ -1379,8 +1400,8 @@ ul.slick-dots li{
     padding: 0 4px;
 }
 ul.slick-dots li>button:focus,ul.slick-dots li>button:active{outline: none;}
-ul.slick-dots li>button{border:none;background: #EEE;height: 12px; width: 12px;border-radius: 50%;}
-ul.slick-dots li.slick-active>button{background: #ed1c24;height: 12px; width: 12px;}
+ul.slick-dots li>button{border:none;background: #EEE;height: 10px; width: 10px;border-radius: 50%;}
+ul.slick-dots li.slick-active>button{background: #ed1c24;height: 10px; width: 10px;}
 
 
 
@@ -1485,7 +1506,12 @@ span.bottom-dot-flex {
 .video-cont video{
     opacity: 1;
     position: absolute;
+}
+.video-cont video.bot{
     bottom: 0;
+}
+.video-cont video.top{
+    top:0;
 }
 .entVideoCont{margin-top: 200px;}
 .vid-bg{
@@ -1844,9 +1870,9 @@ div.career-empl-cont div.col-md-4 p {
     top: -1px;
 }
 .fav-logo-cont img{
-    max-height: 48px;
-    height: 48px;
-    transform: translateY(-24px);
+    max-height: 40px;
+    height: 40px;
+    transform: translateY(-20px);
 }
 .video-over-text.text-cont{
     padding: 0;
@@ -1963,8 +1989,8 @@ span.jpb-loc {
 
 
 .thumbnail.slider-thumbnail.second{
-    padding-left: 18%;
-    padding-right: 18%;
+    padding-left: 22%;
+    padding-right: 22%;
 }
 .thumbnail.slider-thumbnail.toLeft{
     padding-right: 18%;
