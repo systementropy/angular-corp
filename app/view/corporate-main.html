@@ -68,7 +68,7 @@
 							<span class="circle-flex"></span>
 							<span class="bottom-dot-flex"></span>
 						</div>
-						<div class=" timeline-label six makeInactive timeline-label-odd semi-act ">
+						<div class=" timeline-label six makeInactive timeline-label-odd semi-act active">
 							<span class="circle-flex"></span>
 							<span class="bottom-dot-flex"></span>
 						</div>
@@ -115,7 +115,7 @@
 							<span>2006</span>
 							<p style="">Name changed from SGA Finance & Management Services Private Limited to Network18 Fincap Private Limited in April 2006. Converted into a public limited company in November 2006.</p>
 						</div>
-						<div class="flex-drop-opt opt3" >
+						<div class="flex-drop-opt opt3 active" >
 							<span>2007</span>
 							<p>Listed on the Bombay Stock Exchange and the National Stock Exchange in February 2007. <br>
 								Name changed from Network18 Fincap Limited to Network18 Media & Investments Limited in December 2007.</p>
@@ -652,7 +652,35 @@
 				}
 			);
 
-
+			$('.historyCompContainer').on('mouseleave', function(event) {
+				$('.timeline-label.one').addClass('active');
+				$('.opt1').addClass('active');
+				$('.timeline-label.five').addClass('active');
+				$('.opt2').addClass('active');
+				$('.timeline-label.seven').addClass('active');
+				$('.opt4').addClass('active');
+				// if ($(this).hasClass('one')) {
+				// 	$(this).addClass('active');
+				// 	$(this).siblings('.one').addClass('active');
+				// 	$('.opt1').addClass('active');
+				// }else if ($(this).hasClass('two')) {
+					
+				// 	$(this).children('.circle-flex').removeClass('ani-range');
+					
+				// 	$(this).addClass('active');
+				// 	$('.opt5').addClass('active');
+				// 	$(this).siblings('.semi-two').addClass('active');
+				// }
+				// if ($(this).hasClass('four')) {
+					
+				// 	$(this).children('.circle-flex').removeClass('ani-range');
+					
+				// 	$(this).addClass('active');
+				// 	$('.opt7').addClass('active');
+				// 	$(this).siblings('.semi-four').addClass('active');
+				// 	$(this).siblings('.semi-four.semi-act').addClass('semi-active');
+				// }
+			});
 			$('.timeline-label').on('mouseenter', function(event) {
 				if ($(this).hasClass('one')) {
 					$(this).addClass('active');

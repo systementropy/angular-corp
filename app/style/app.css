@@ -1014,8 +1014,7 @@ div#compHist h1 {
 }
 .portfolioMainCont h1, .corpMainCont h1{
     font-family: 'GloberSB';
-    color: #666;
-    opacity: 0.5;
+    color: rgba(102,102,102,0.5);
     font-size: 108px;
     background:#FFF;
     margin:0;
@@ -1491,7 +1490,7 @@ span.circle-flex {
     height: 4px;
     bottom: -4px;
     z-index: 1;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 .two.active .border-ani{
     width: 310px;
@@ -1626,10 +1625,11 @@ span.bottom-dot-flex {
     width: 100px;
 }
 .flex-drop-opt.opt2 {
-    left: 36%;
+    left: 16%;
     width: 265px;
     z-index: 100;
     transform: translateX(1%);
+    text-align: right;
 }
 .flex-drop-opt.opt3 {
     padding: 0;
@@ -1725,7 +1725,7 @@ span.bottom-dot-flex {
     bottom: 0;
     transform: translateY(0%);
     opacity: 0;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
 .timeline-label-range span.circle-flex{
     border-color: #0033FF;
