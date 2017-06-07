@@ -129,6 +129,9 @@
     animation:infiBlink 1s;
     -moz-animation:infiBlink 1s infinite; /* Firefox */
     -webkit-animation:infiBlink 1s infinite; /* Safari and Chrome */
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+
 }
 
 
@@ -1469,8 +1472,26 @@ span.circle-flex {
     border-radius: 50%;
     left: 0px;
     top: -7px;
+    z-index: 2;
+    transition: all 0.4s ease-in-out;
+}
+.border-ani {
+    position: absolute;
+    width: 0px;
+    background: #C92929;
+    height: 4px;
+    bottom: -4px;
     z-index: 1;
     transition: all 0.4s ease-in-out;
+}
+.two.active .border-ani{
+    width: 310px;
+}
+.three.active .border-ani{
+    width: 362px;
+}
+.four.active .border-ani{
+    width: 257px;
 }
 
 .timeline-label:nth-child(odd) span.circle-flex{
@@ -1483,6 +1504,15 @@ span.dotted-flex {
     left: 5px;
     transform: translate(-50%);
 
+}
+
+.timeline-label p {
+    margin: 0;
+    font-size: 12px;
+    transform: translateX(-8px) translateY(5px);
+}
+.timeline-label:first-child p {
+    transform: translateX(-0px) translateY(5px);   
 }
 .timeline-label:nth-child(odd) span.dotted-flex{
     top: 26px;
@@ -1497,7 +1527,10 @@ span.dotted-flex {
     left: 0px;
     transform: scale(1.5);
 }
-
+.timeline-label.active.two span.circle-flex,.timeline-label.active.three span.circle-flex,.timeline-label.active.four span.circle-flex{
+    border-color:#C92929;
+    background: #C92929;
+}
 span.bottom-dot-flex {
     position: absolute;
     height: 0px;

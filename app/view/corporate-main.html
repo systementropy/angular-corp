@@ -26,78 +26,81 @@
 				<div class="historyCompContainer">
 					<div class="timelineFlexCont">
 						<div class="timeline-label makeInactive one active">
-							1996
+							<p>1996</p>
 							<span class="circle-flex"></span>
 							<span class="bottom-dot-flex"></span>
 						</div>
 						<div class="no-label timeline-label "></div>
 						<div class="timeline-label ">
-							1998
+							<p>1998</p>
 
 
 						</div>
 						<div class="no-label timeline-label timeline-label-odd timeline-label-range two ">
 							<span class="ani-range circle-flex"></span>
+							<div class="border-ani"></div>
 							<span class="bottom-dot-flex"></span>
 						</div>
-						<div class="timeline-label semi-two ">
-							2000
+						<div class="timeline-label">
+							<p>2000</p>
 
 							
 						</div>
-						<div class="no-label timeline-label semi-two"></div>
-						<div class="timeline-label semi-two">
-							2002
+						<div class="no-label timeline-label "></div>
+						<div class="timeline-label ">
+							<p>2002</p>
 
 
 						</div>
-						<div class="no-label timeline-label semi-two"></div>
-						<div class="timeline-label semi-two">
-							2004
+						<div class="no-label timeline-label "></div>
+						<div class="timeline-label ">
+							<p>2004</p>
 
 
 						</div>
-						<div class="no-label timeline-label timeline-label-odd timeline-label-range semi-two three">
+						<div class="no-label timeline-label timeline-label-odd timeline-label-range  three">
 							<span class="ani-range circle-flex"></span>
+							<div class="border-ani"></div>
 							<span class="bottom-dot-flex"></span>
 						</div>
-						<div class="timeline-label makeInactive five semi-act semi-three active">
-							2006
+						<div class="timeline-label makeInactive five semi-act  active">
+							<p>2006</p>
 							<span class="circle-flex"></span>
 							<span class="bottom-dot-flex"></span>
 						</div>
-						<div class=" timeline-label six makeInactive timeline-label-odd semi-act semi-three">
+						<div class=" timeline-label six makeInactive timeline-label-odd semi-act ">
 							<span class="circle-flex"></span>
 							<span class="bottom-dot-flex"></span>
 						</div>
-						<div class="timeline-label semi-act semi-three">
-							2008
+						<div class="timeline-label semi-act ">
+							<p>2008</p>
 
 							<span class="bottom-dot-flex"></span>
 						</div>
-						<div class="no-label timeline-label semi-three"></div>
-						<div class="timeline-label semi-three">
-							2010
+						<div class="no-label timeline-label "></div>
+						<div class="timeline-label ">
+							<p>2010</p>
 
 
 						</div>
-						<div class="no-label timeline-label semi-three">
+						<div class="no-label timeline-label ">
 
 						</div>
-						<div class="timeline-label timeline-label-range semi-act semi-three four ">
-							2012
+						<div class="timeline-label timeline-label-range semi-act  four ">
+							<p>2012</p>
 							<span class="ani-range circle-flex"></span>
+							<div class="border-ani"></div>
 							<span class="bottom-dot-flex"></span>
 						</div>
-						<div class="no-label timeline-label semi-four semi-act"></div>
-						<div class="timeline-label seven semi-four semi-act makeInactive active">
-							2014
+						<div class="no-label timeline-label  semi-act"></div>
+						<div class="timeline-label seven  semi-act makeInactive active">
+							<p>2014</p>
 							<span class="circle-flex"></span>
 							<span class="bottom-dot-flex"></span>
 						</div>
-						<div class="no-label timeline-label  semi-four semi-act"></div>
-						<div class="timeline-label  semi-four">
-							2016
+						<div class="no-label timeline-label   semi-act"></div>
+						<div class="timeline-label  ">
+							<p>2016</p>
 
 
 						</div>
@@ -656,15 +659,24 @@
 					$(this).siblings('.one').addClass('active');
 					$('.opt1').addClass('active');
 				}else if ($(this).hasClass('two')) {
+					
+					$(this).children('.circle-flex').removeClass('ani-range');
+					
 					$(this).addClass('active');
 					$('.opt5').addClass('active');
 					$(this).siblings('.semi-two').addClass('active');
 				}else if ($(this).hasClass('three')) {
+					
+					$(this).children('.circle-flex').removeClass('ani-range');
+					
 					$(this).addClass('active');
 					$('.opt6').addClass('active');
 					$(this).siblings('.semi-three').addClass('active');
 					$(this).siblings('.semi-three.semi-act').addClass('semi-active');
 				}else if ($(this).hasClass('four')) {
+					
+					$(this).children('.circle-flex').removeClass('ani-range');
+					
 					$(this).addClass('active');
 					$('.opt7').addClass('active');
 					$(this).siblings('.semi-four').addClass('active');
@@ -682,6 +694,9 @@
 				}
 
 			}).on('mouseleave', function(event){
+				if($(this).hasClass('two') ||  $(this).hasClass('three') || $(this).hasClass('four')){
+					$(this).children('.circle-flex').addClass('ani-range');
+				}
 				$(this).removeClass('active');
 				$(this).siblings('.semi-three.semi-act').removeClass('semi-active');
 				$(this).siblings('.semi-four.semi-act').removeClass('semi-active');
