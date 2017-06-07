@@ -755,13 +755,22 @@ a.subCrumbsLinks:hover{
 }
 .animateN18{
 	position: absolute;
-	top: 45%;
+	top: 50%;
+    transform: translateY(-50%);
 	width: 100%;
     text-align: center;
-	height: 0;
+	height: 1px;
 	z-index: 9999;
 }
-.animateN18>img{position: absolute;bottom: 0;transform: translateX(-50%) translateY(-50%);height: 0;max-width: none; max-height: none;opacity: 0;}
+.animateN18>img{
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-50%) translateY(-50%);
+    height: 0;
+    max-width: none;
+    max-height: none;
+    opacity: 0;
+}
 .animateBg2{
 	z-index: 2;
 	opacity: 0;
@@ -776,7 +785,7 @@ a.subCrumbsLinks:hover{
 }
 .animateTextCont{
 	position: absolute;
-	top: 48%;
+	top: 45%;
 	text-align: center;
 	z-index: 999;
 	font-family: 'Geogrotesque';

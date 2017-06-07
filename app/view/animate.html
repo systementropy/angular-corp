@@ -14,7 +14,7 @@
       <div class="vid-bg">
 
       </div>
-      <video class="bot" width="100%" autoplay loop>
+      <video class="bot" width="100%" autoplay loop >
         <source src="images/657529324_menu.mp4" type="video/mp4">
       </video>
     </div>
@@ -154,60 +154,44 @@
 		var windowWidth = $(window).width();
 		$('.animateMainContainer').width(windowWidth);
 		$('.animateMainContainer').height(windowHeight);
-
-		$('.animateN18').children('img').animate({
-			//width: 280,
-			height: 60,
-			opacity:1
-			//left:40+'%',
-		},
-			 2000
-			, function() {
+		setTimeout(function() {
+			$('.animateN18').children('img').animate({
+				height: 60,
+				opacity:1
+			},2000, function() {
 				$('.headerPrimaryCont').animate({top:0}, 1000);
-				// $('.animateBg').animate({
-				// 	opacity: 0},
-				// 	2000, function() {
-				// });
-				// $('.animateBg2').animate({
-				// 	opacity: 1},
-				// 	2000, function() {
-						$('.animateN18').children('img').animate({
-							height:40,
-							//width:170,
-							//left:45+'%',
-							bottom: -40+'%'
-						},1000, function(){
-
-						});
+					$('.animateN18').children('img').animate({
+						height:40,
+						bottom: 5000+'%'
+					},1000);
+					$('.frontText1').animate({
+						opacity: 1,
+						top:0
+					},1000, function() {
 						$('.frontText1').animate({
-							opacity: 1,
-							top:0
-						},1000, function() {
-							$('.frontText1').animate({
-								opacity: 0
-							},
-								2000, function() {
-									console.log('ere');
-									$('.frontText2').animate({
-	    								opacity: 1,
-	    								top:0
-	    							},
-	    								1000, function() {
-	    									$('.frontText2').animate({
-	    										opacity: 0
-	    									},2000);
-	    									$('.homeIconCont.centerIcon').animate({
-	    											bottom:50,
-													height:50,
-													opacity:1
-	    									},400);
-	    							});
-							});
-							
+							opacity: 0
+						},
+							2000, function() {
+								$('.frontText2').animate({
+									opacity: 1,
+									top:0
+								},
+									1000, function() {
+										$('.frontText2').animate({
+											opacity: 0
+										},2000);
+										$('.homeIconCont.centerIcon').animate({
+												bottom:50,
+												height:50,
+												opacity:1
+										},400);
+								});
 						});
-			// 	});
-				}
-		);
+						
+					});
+			});	
+		}, 2700);
+		
 
 		var maxWidth = 0;
 		$('.open').on('click', function(e){
