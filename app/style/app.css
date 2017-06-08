@@ -336,7 +336,7 @@ body{
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
-    transition: all 1s ease-in-out;
+    transition: all 2s ease-in-out;
     opacity: 0;
 }
 .contentTypeDiv p.front {
@@ -2201,36 +2201,44 @@ span.jpb-loc {
 /******************PORTFOLIO ANIMATION**********************/
 
 .contentTypeDiv.div1{
-    -webkit-animation-delay: 2.2s;
-    animation-delay: 2.2s;
+    transition: all 1.6s ease-in-out;
+    -webkit-animation-delay: 0.4s;
+    animation-delay: 0.4s;
     
 }
 .contentTypeDiv.div2{
-    top: 0;
+    transition: all 1.8s ease-in-out;
     -webkit-animation-delay: 0.2s;
     animation-delay: 0.2s;
 }
 .contentTypeDiv.div3{
-    -webkit-animation-delay: 2.2s;
-    animation-delay: 2.2s;
-    
-}
-.contentTypeDiv.div4{
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
-    
-}
-.contentTypeDiv.div5{
-    -webkit-animation-delay: 2.2s;
-    animation-delay: 2.2s;
-    
-}
-.contentTypeDiv.div6{
-    -webkit-animation-delay: 1.2s;
-    animation-delay: 1.2s;
+    transition: all 2s ease-in-out;
+    -webkit-animation-delay: 0s;
+    animation-delay: 0s;
     
 }
 
+.contentTypeDiv.div4{
+   transition: all 1.8s ease-in-out;
+    -webkit-animation-delay: 0.8s;
+    animation-delay: 0.8s;
+
+    
+}
+.contentTypeDiv.div5{
+    transition: all 1.6s ease-in-out;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    
+    
+}
+.contentTypeDiv.div6{
+     transition: all 2s ease-in-out;
+    -webkit-animation-delay: 0.6s;
+    animation-delay: 0.6s;
+    
+    
+}
 
 .ani_to_top {
     -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
