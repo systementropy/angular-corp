@@ -13,7 +13,9 @@
     ])
 
     .controller('CorporateMainCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+
         $scope.init = function(){
+            
             $rootScope.hideHeader=false;
         };
         

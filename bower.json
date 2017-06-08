@@ -17,6 +17,8 @@
     "bootstrap": "^3.3.7",
     "font-awesome": "fontawesome#^4.7.0",
     "angular-bootstrap": "^2.5.0",
-    "jquery-ui": "^1.12.1"
+    "jquery-ui": "^1.12.1",
+    "ng-simple-parallax": "*",
+    "ng-parallax": "^0.1.8"
   }
 }

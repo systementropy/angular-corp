@@ -11,7 +11,7 @@
 			<li class="list-group-item"><a class="stickyMove" href="#compHist"><span class=""></span></a></li>
 		</ul>
 	</div>
-	<div class="video-cont">
+	<div class="video-cont" ng-parallax speed="0">
 		<div class="vid-bg">
 
 		</div>
@@ -19,7 +19,7 @@
 			<source src="images/473326883_compass.mp4" type="video/mp4">
 		</video>
 	</div>
-	<div class="portfolioContainer corpMainCont">
+	<div class="portfolioContainer corpMainCont" ng-parallax speed="3">
 		<div class="container" style="padding: 0 15px;">
 			<div class="row" id="compHist">
 				<h1 style="margin-left: -6px;">Company History</h1>
@@ -618,37 +618,27 @@
 				opacity:1
 				},
 				1000, function() {
-					/*$('.historyCompContainer').animate({
-						width: 100+'%'},
-						1000, function() {
-							$('.historyCompContainer').css({
-								'overflow': 'inherit',
-								'height': 'auto'
-							});*/
-							$('.dispHallmarkCont:eq(0)').animate({
+					$('.dispHallmarkCont:eq(0)').animate({
+						opacity: 1,
+						},
+						350, 'easeInOutQuad', function() {
+							$('.dispHallmarkCont:eq(1)').animate({
 								opacity: 1,
 								},
 								350, 'easeInOutQuad', function() {
-									$('.dispHallmarkCont:eq(1)').animate({
+									$('.dispHallmarkCont:eq(2)').animate({
 										opacity: 1,
 										},
 										350, 'easeInOutQuad', function() {
-											$('.dispHallmarkCont:eq(2)').animate({
+											$('.dispHallmarkCont:eq(3)').animate({
 												opacity: 1,
 												},
 												350, 'easeInOutQuad', function() {
-													$('.dispHallmarkCont:eq(3)').animate({
-														opacity: 1,
-														},
-														350, 'easeInOutQuad', function() {
 
-													});
 											});
 									});
 							});
-
-						/*}
-					);*/
+					});
 				}
 			);
 
@@ -657,30 +647,12 @@
 				$('.opt1').addClass('active');
 				$('.timeline-label.five').addClass('active');
 				$('.opt2').addClass('active');
+				$('.timeline-label.six').addClass('active');
+				$('.opt3').addClass('active');
 				$('.timeline-label.seven').addClass('active');
 				$('.opt4').addClass('active');
-				// if ($(this).hasClass('one')) {
-				// 	$(this).addClass('active');
-				// 	$(this).siblings('.one').addClass('active');
-				// 	$('.opt1').addClass('active');
-				// }else if ($(this).hasClass('two')) {
-					
-				// 	$(this).children('.circle-flex').removeClass('ani-range');
-					
-				// 	$(this).addClass('active');
-				// 	$('.opt5').addClass('active');
-				// 	$(this).siblings('.semi-two').addClass('active');
-				// }
-				// if ($(this).hasClass('four')) {
-					
-				// 	$(this).children('.circle-flex').removeClass('ani-range');
-					
-				// 	$(this).addClass('active');
-				// 	$('.opt7').addClass('active');
-				// 	$(this).siblings('.semi-four').addClass('active');
-				// 	$(this).siblings('.semi-four.semi-act').addClass('semi-active');
-				// }
 			});
+
 			$('.timeline-label').on('mouseenter', function(event) {
 				if ($(this).hasClass('one')) {
 					$(this).addClass('active');
@@ -731,13 +703,7 @@
 				$('.flex-drop-opt').removeClass('active');
 				$('.flex-dropdown-brand').removeClass('active');
 				$(this).siblings('.timeline-label').removeClass('active');
-				// if($(this).hasClass('active')){
-				// 	$(this).removeClass('active');
-				// 	$(this).siblings('.one').removeClass('active');
-				// }else if($(this).hasClass('active')){
-				// 	$(this).removeClass('active');
-				// 	$(this).siblings('.timeline-label').removeClass('active');
-				// }
+				
 			});
 		});
 </script>

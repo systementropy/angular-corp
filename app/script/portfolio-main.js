@@ -42,6 +42,20 @@
 	    };
 
 	    $scope.init = function(){
+	    	var show_elt = $location.absUrl().split('#')[1];
+	    	if (show_elt == 'portfolioNews') {
+	    		$scope.showElt = 'News';
+	    	}else if (show_elt == 'portfolioEntertainment') {
+	    		$scope.showElt = 'Entertainment';
+	    	}else if (show_elt == 'portfolioDistribution') {
+	    		$scope.showElt = 'Distribution';
+	    	}else if (show_elt == 'portfolioMovies') {
+	    		$scope.showElt = 'Movies';
+	    	}else if (show_elt == 'portfolioDigital') {
+	    		$scope.showElt = 'Digital';
+	    	}else if (show_elt == 'portfolioPublishing') {
+	    		$scope.showElt = 'Publishing';
+	    	}
             $rootScope.hideHeader=false;
         };
         

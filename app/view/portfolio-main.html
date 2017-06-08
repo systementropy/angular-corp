@@ -12,7 +12,7 @@
 			<li class="list-group-item"><a class="stickyMove" href="#portfolioPublishing"><span class=""></span></a></li>
 		</ul>
 	</div>
-	<div class="newsVideoCont" id="portfolioNews">
+	<div class="newsVideoCont" id="portfolioNews" ng-if="showElt=='News'">
 		<div class="video-cont" style="height: 50vh;">
 			<div class="vid-bg"></div>
 			<video width="100%" autoplay loop>
@@ -152,7 +152,7 @@
 				</slick>
 			</div>
 		</div>
-		<div class="entVideoCont" id="portfolioEntertainment">
+		<div class="entVideoCont" id="portfolioEntertainment" ng-if="showElt=='Entertainment'">
 				<div class="video-cont">
 			      <div class="vid-bg">
 

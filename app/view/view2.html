@@ -1,11 +1,8 @@
 
-<div class="mainBodyContainerFull">
-	<div class="headerFiller"></div>
-
-
-	<section class="clearAfter">
-		<div class="container-fluid">
-			<div class="contentTypeDiv div1 col-md-4">
+<div class="mainBodyContainerFull" style="padding: 0; height: 100vh; padding-top: 75px;">
+	<section class="clearAfter" style="height:100%;">
+		<div class="container-fluid" style="height:100%; overflow:hidden;">
+			<div class="contentTypeDiv ani_to_top div1 col-md-4">
 				<a href="/portfolio-main#portfolioNews">
 				<img src="images/Untitled-5.png" alt="">
 				<p class="front">News</p>
@@ -17,7 +14,7 @@
 				</div>
 				</a>
 			</div>
-			<div class="contentTypeDiv div2 col-md-4">
+			<div class="contentTypeDiv ani_to_top div2 col-md-4">
 				<a href="/portfolio-main#portfolioEntertainment">
 				<img src="images/Untitled-1.png" alt="">
 				<p class="front">Entertainment</p>
@@ -29,7 +26,7 @@
 				</div>
 				</a>
 			</div>
-			<div class="contentTypeDiv div3 col-md-4">
+			<div class="contentTypeDiv ani_to_top div3 col-md-4">
 				<a href="/portfolio-main#portfolioMovies">
 				<img src="images/Untitled-2.png" alt="">
 				<p class="front">Motion Pictures</p>
@@ -41,7 +38,7 @@
 				</div>
 				</a>
 			</div>
-			<div class="contentTypeDiv div4 col-md-4">
+			<div class="contentTypeDiv ani_to_top div4 col-md-4">
 				<a href="/portfolio-main#portfolioDigital">
 				<img src="images/Untitled-4.png" alt="">
 				<p class="front">Network18 Digital</p>
@@ -53,7 +50,7 @@
 				</div>
 				</a>
 			</div>
-			<div class="contentTypeDiv div5 col-md-4">
+			<div class="contentTypeDiv ani_to_top div5 col-md-4">
 				<a href="/portfolio-main#portfolioPublishing">
 				<img src="images/Untitled-7.png" alt="">
 				<p class="front">Publishing</p>
@@ -65,7 +62,7 @@
 				</div>
 				</a>
 			</div>
-			<div class="contentTypeDiv div6 col-md-4">
+			<div class="contentTypeDiv ani_to_top div6 col-md-4">
 				<a href="/portfolio-main#portfolioDistribution">
 				<img src="images/Untitled-6.png" alt="">
 				<p class="front">Distribution</p>
@@ -80,71 +77,18 @@
 		</div>
 
 	</section>
-	<!-- <section>
-		<div class="container">
-
-			<div class="pageSeperator"></div>
-			<h1>Careers with Network18</h1>
-			<div class="jumbotron" style="overflow: hidden;">
-				<img src="images/Untitled-3.png" alt="" style="max-width: 100%; max-height: none; position: absolute;top: -200px;">
-				<div class="inputCareerCont">
-					<input type="text" placeholder="E.G. WEB DESIGNER" style="width:400px;">
-					<input type="text" placeholder="E.G. NOIDA" style="width: 300px;margin: 0 50px;">
-					<input type="text" placeholder="E.G. SEARCH">
-				</div>
-			</div>
-			<div class="pageSeperator"></div>
-		</div>
-	</section>
-	<section style="height: 300px;">
-		<div class="container">
-			<h1>People Talking about Network18</h1>
-		</div>
-	</section>
-	<section class="greyBG footerSection">
-		<div class="container clearAfter">
-			<div class="width50">
-				<div>
-					<h4>About Us</h4>
-					<p>Network18 Media and Investments Ltd. is a media and entertainment company with interests in television, internet. filmed entertainment. digital business, magazines, mobile content and allied businesses. Network18 manages various digital businesses including portals such as moneycontrol.com, ibnlive.com, burrp.com, in com and firstpost.com. It also operates digital commerce properties like HomeShop18 and bookmyshow.com. In addition, Network18 is a leading player in the Publishing space publishes Forbes India. Better Interiors, and Better Photography. Network18 has also allied investments. <a href="#">READ MORE</a>
-					</p>
-				</div>
-			</div>
-			<div class="width50">
-				<div>
-					<h4>Contact Us</h4>
-
-					<strong>REGISTERED OFFICE</strong><br>
-					First Floor, Empire Complex, 414 Bapat Marg, <br>
-					Lower Parel, Mumbai-400013, Maharashtra <br>
-					Phone: 011 41506112 41506114 Fax: 011 41506112 41506114 <br>
-					<br>
-
-
-					<strong>CORPORATE OFFICE</strong> <br>
-					FExpress Trade Towers. Plot No. 15 & 16, Sector 16A, <br>
-					Noida, Uttar Pradesh 201301. India <br>
-					Phone 0120 4341818 <br>
-					120 3987777 Fax: 01203053860 <br>
-				</div>
-			</div>
-		</div>
-		<div class="footerCredit">
-			Copyright 2015 Network18. All rights reserved.
-		</div>
-	</section> -->
 </div>
 <script>
 	$(document).ready(function() {
 		var maxWidth = 0;
 
 		var windowHeight = $(window).height();
-		$('.mainBodyContainerFull').animate({
-			paddingTop: 0+'px',
-			},
-			1000, function() {
+		// $('.mainBodyContainerFull').animate({
+		// 	paddingTop: 0+'px',
+		// 	},
+		// 	1000, function() {
 
-		});
+		// });
 		$('.contentTypeDiv').css({
 			height: ((windowHeight-100)/2)-30+'px'
 		});
