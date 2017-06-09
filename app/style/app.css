@@ -2322,9 +2322,15 @@ span.jpb-loc {
     display: block;
     clear: both;
 }
+.bg-parallax{
+    z-index: -1;
+}
 
-
-
+.whiteBgParl {
+    background: #fff;
+    z-index: 2;
+    min-height: 100vh;
+}
 
 
 

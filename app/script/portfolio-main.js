@@ -43,8 +43,8 @@
 	    };
 
 	    $scope.init = function(){
-	    	$scope.background = parallaxHelper.createAnimator(-0.3, 150, -150);
-
+	    	$scope.background = parallaxHelper.createAnimator(-0.2, 1000, -1150);
+	    	$scope.foreground = parallaxHelper.createAnimator(0.2, 1000, -1150);
 	    	var show_elt = $location.absUrl().split('#')[1];
 	    	if (show_elt == 'portfolioNews') {
 	    		$scope.showElt = 'News';
