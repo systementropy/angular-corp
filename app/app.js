@@ -10,7 +10,7 @@
         'myApp.home',
         'myApp.animate',
         'myApp.view2',
-        'myApp.view1',
+        'myApp.investors',
         'myApp.corporate',
         'myApp.career',
         'myApp.corporate-main',

@@ -1293,8 +1293,8 @@ ul.barsCont {
 ul.barsCont li{
     width: 70%;
     height: 2px;
-    margin: 4.5px auto;
-    border: 1.5px solid;
+    margin: 5px auto;
+    border: 1px solid;
     border-color: #666;
     transition: all 0.4s ease-in-out;
 }

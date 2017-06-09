@@ -1,18 +1,21 @@
 (function() {
     'use strict';
 
-    angular.module('myApp.view1', ['ngRoute'])
+    angular.module('myApp.investors', ['ngRoute'])
 
     .config(['$routeProvider',
         function($routeProvider) {
-            $routeProvider.when('/view1', {
-                templateUrl: '/view/view1.html',
-                controller: 'View1Ctrl'
+            $routeProvider.when('/investors', {
+                templateUrl: '/view/investor.html',
+                controller: 'InvestorCtrl'
             });
         }
     ])
 
-    .controller('View1Ctrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
-        $scope.$apply(function() { $rootScope.hideHeader=false;});
+    .controller('InvestorCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+        var init = function(){
+            $rootScope.hideHeader=false;
+        };
+        init();
     }]);
 }());
