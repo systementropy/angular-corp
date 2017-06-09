@@ -12,7 +12,8 @@
         }
     ])
 
-    .controller('PortfolioMainCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+    .controller('PortfolioMainCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', 'parallaxHelper', 
+    	function($rootScope,$scope, $http,$timeout,$location, parallaxHelper) {
     	
 	    $scope.slickConfig = {
 	        centerMode: true,
@@ -42,6 +43,8 @@
 	    };
 
 	    $scope.init = function(){
+	    	$scope.background = parallaxHelper.createAnimator(-0.3, 150, -150);
+
 	    	var show_elt = $location.absUrl().split('#')[1];
 	    	if (show_elt == 'portfolioNews') {
 	    		$scope.showElt = 'News';

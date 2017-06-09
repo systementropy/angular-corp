@@ -12,7 +12,7 @@
 			<li class="list-group-item"><a class="stickyMove" href="#portfolioPublishing"><span class=""></span></a></li>
 		</ul>
 	</div>
-	<div class="newsVideoCont" id="portfolioNews" ng-if="showElt=='News'">
+	<div class="newsVideoCont" du-parallax opacity="fadeIn" y="background"  id="portfolioNews" ng-if="showElt=='News'">
 		<div class="video-cont" style="height: 50vh;">
 			<div class="vid-bg"></div>
 			<video width="100%" autoplay loop>
@@ -152,7 +152,7 @@
 				</slick>
 			</div>
 		</div>
-		<div class="entVideoCont" id="portfolioEntertainment" ng-if="showElt=='Entertainment'">
+		<div class="entVideoCont" du-parallax opacity="fadeIn" y="background" id="portfolioEntertainment" ng-if="showElt=='Entertainment'">
 				<div class="video-cont">
 			      <div class="vid-bg">
 
@@ -398,6 +398,12 @@
 					</div>
 				</slick>
 			</div>
+		</div>
+
+		<div class="bg-parallax" du-parallax opacity="fadeIn" y="background" style="position: relative;height: 50vh; overflow: hidden;">
+			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
+		</div>
+		<div class="container" style="">
  			<div class="portfolioMainCont" id="portfolioDistribution">
  				<h1 style="">Distribution</h1>
  				<div class="row distriTextCont" style="margin:40px auto 25px;display: flex;">
@@ -422,6 +428,11 @@
  					</div>
  				</div>
  			</div>
+ 		</div>
+ 		<div class="bg-parallax" du-parallax opacity="fadeIn" y="background" style="position: relative;height: 50vh; overflow: hidden;">
+ 			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
+ 		</div>
+ 		<div class="container" style="">
  			<div class="portfolioMainCont" id="portfolioMovies" style="margin-top: 115px;">
  				<h1 style="padding-bottom: 32px;">Motion Pictures</h1>
  				<div><img src="images/viacom_logo.png" alt="" style="margin-top: 0px;height: 40px;"></div>
@@ -438,6 +449,12 @@
 	 				<div class="col-md-2 moviePosterCOnt"><img src="images/Tanuwedsmanu.jpg" alt=""></div>
  				</div>
  			</div>
+ 		</div>
+ 		
+ 		<div class="bg-parallax" du-parallax opacity="fadeIn" y="background" style="position: relative;height: 50vh; overflow: hidden;">
+ 			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
+ 		</div>
+ 		<div class="container" style="">
  			<div class="portfolioMainCont" id="portfolioDigital">
 	 			<div class="distriThmb">
 	 				<h1 style="padding-bottom: 20px;">Network18 Digital</h1>
@@ -556,7 +573,11 @@
 					</div>
 				</div>
 	 		</div>
-
+		</div>
+		<div class="bg-parallax" du-parallax opacity="fadeIn" y="background" style="position: relative;height: 50vh; overflow: hidden;">
+			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
+		</div>
+		<div class="container" style="">
 			<div class="portfolioMainCont" id="portfolioPublishing">
 	 			<div class="" style="padding-bottom: 200px;">
 	 				<h1 style="padding-bottom: 70px;">Publishing</h1>
@@ -620,15 +641,6 @@
 					</div>
 	 			</div>
 	 		</div>
-
-
-
-
-
-
-
-
-
 		</div>
 	</div>
 	<section class="greyBG footerSection">
