@@ -401,9 +401,8 @@ body{
     width:31%;
     float: left;
     height: 420px;
-    background: rgba(0,0,0,0.3);
-    padding:0;
-    margin:15px 1%;
+    padding:0 0 0 0;
+    margin:15px auto;
     position: relative;
     overflow: hidden;
     box-sizing: border-box;
@@ -2271,7 +2270,17 @@ span.jpb-loc {
 */
 
 /******************PORTFOLIO ANIMATION**********************/
+.dispContRow{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.dispContRow:after{
+    content: " ";
+    display: block;
+    clear: both;
 
+}
 .contentTypeDiv.div1{
     transition: all 1.6s ease-in-out;
     -webkit-animation-delay: 0.4s;
@@ -2325,13 +2334,13 @@ span.jpb-loc {
 
 
 @-moz-keyframes onceToTop{
-    0%   {top: 100%;opacity: 0;}
-    100%   {top: 0;opacity: 1;}
+    0%   {padding-top: 420px;opacity: 0;}
+    100%   {padding-top: 0;opacity: 1;}
 }
 
 @-webkit-keyframes onceToTop{
-    0%   {top: 100%;opacity: 0;}
-    100%   {top: 0;opacity: 1;}
+    0%   {padding-top: 420px;opacity: 0;}
+    100%   {padding-top: 0;opacity: 1;}
 }
 
 
