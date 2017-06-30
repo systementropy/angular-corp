@@ -18,7 +18,7 @@
     </div>
   </div>
   <div class="headerMainContainer"> 
-    <img src="/images/header_bg.png" alt="">
+    
     <!-- <div class="video-cont">
       <div class="vid-bg">
 
@@ -27,6 +27,9 @@
         <source src="images/657529324_menu.mp4" type="video/mp4">
       </video>
     </div> -->
+
+    <img src="/images/header_bg.png" alt="" class="header_bg_img">
+
     <div class="header-top">
       <div class="headerInner closeBtn" style="text-align: center;">
         <span style="color: #CDCFD1; cursor: pointer;">
@@ -142,7 +145,12 @@
         $('.subCrumbsCont').css('left', $('.containerHeaderLinks').offset().left);
         $('.subCrumbsCont').width(maxWidth);
       });
-
+      setTimeout(function () {
+        $('.header_bg_img').addClass('active');
+        setTimeout(function(){
+          $('.header_bg_img').removeClass('active');
+        },4000);
+      },600);
     });
     $('.headerMainContainer').height(windowHeight);
     $('#headerLinkCont').height(windowHeight-80);

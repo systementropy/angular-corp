@@ -697,12 +697,14 @@ a.subCrumbsLinks:hover{
 .headerMainContainer .video-cont video{opacity: 1;height: 100% !important; width: auto; }
 .headerMainContainer>img {
     z-index: -10;
-    height: 100vw;
-    max-width: none;
+    width: 100vw;
+    max-height: none;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
+
+
 .headerPrimaryCont{
 	position: fixed;
     width: 100%;
@@ -2528,9 +2530,30 @@ a.stickyMove.stickyHighlight {
     height: 16px;
 }
 
+.header_bg_img.active{
+    -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
+    animation-iteration-count: 1;
+    animation:scaleUpDown 3s;
+    -moz-animation:scaleUpDown 3s; /* Firefox */
+    -webkit-animation:scaleUpDown 3s; /* Safari and Chrome */
+    animation-fill-mode: forwards;
+    -webkit-animation-fill-mode: forwards;
+    transition: all 2s cubic-bezier(.23,1,.32,1);
+}
 
 
+@-moz-keyframes scaleUpDown{
 
+    0%   {transform: translateX(-50%) scale(1);}
+    50%   {transform: translateX(-50%) scale(1.02);}
+    100%   {transform: translateX(-50%) scale(1);}
+}
+
+@-webkit-keyframes scaleUpDown{
+    0%   {transform: translateX(-50%) scale(1);}
+    50%   {transform: translateX(-50%) scale(1.02);}
+    100%   {transform: translateX(-50%) scale(1);}
+}
 
 
 
