@@ -24,7 +24,7 @@
 			</div>
 		</div>
 		<div class="vid-arr"><img src="/images/aerrow_white.png" class="arrowTopAnimate" alt=""></div>
-		<div class="whiteBgParl" du-parallax opacity="fadeIn" y="foreground">
+		<div class="whiteBgParl divOnFocus" num="1" du-parallax opacity="fadeIn" y="foreground">
 			<div class="container" style="">
 				
 				<div class="portfolioMainCont" id="">
@@ -166,7 +166,7 @@
 			      </video>
 			    </div>
 		</div>
-		<div class="whiteBgParl" du-parallax opacity="fadeIn" y="foreground">
+		<div class="whiteBgParl divOnFocus" num="2" du-parallax opacity="fadeIn" y="foreground">
 			<div class="container" style="">
 				<div class="portfolioMainCont" id="port_ent_brand">
 					<h1 style="padding-bottom: 50px;padding-top: 0;">Entertainment</h1>
@@ -409,7 +409,7 @@
 		<div class="bg-parallax" du-parallax  y="background" style="position: relative;height: 80vh; overflow: hidden;">
 			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
 		</div>
-		<div class="whiteBgParl" du-parallax opacity="fadeIn" y="foreground">
+		<div class="whiteBgParl divOnFocus" num="3" du-parallax opacity="fadeIn" y="foreground">
 			<div class="container" style="">
 	 			<div class="portfolioMainCont" id="portfolioDistribution">
 	 				<h1 style="">Distribution</h1>
@@ -440,7 +440,7 @@
  		<div class="bg-parallax" du-parallax  y="background" style="position: relative;height: 80vh; overflow: hidden;">
  			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
  		</div>
- 		<div class="whiteBgParl" du-parallax opacity="fadeIn" y="foreground">
+ 		<div class="whiteBgParl divOnFocus" num="4" du-parallax opacity="fadeIn" y="foreground">
 	 		<div class="container" style="">
 	 			<div class="portfolioMainCont" id="portfolioMovies" style="margin-top: 115px;">
 	 				<h1 style="padding-bottom: 32px;">Motion Pictures</h1>
@@ -464,7 +464,7 @@
  		<div class="bg-parallax" du-parallax  y="background" style="position: relative;height: 80vh; overflow: hidden;">
  			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
  		</div>
- 		<div class="whiteBgParl" du-parallax opacity="fadeIn" y="foreground">
+ 		<div class="whiteBgParl divOnFocus" num="5" du-parallax opacity="fadeIn" y="foreground">
 	 		<div class="container" style="">
 	 			<div class="portfolioMainCont" id="portfolioDigital">
 		 			<div class="distriThmb">
@@ -589,7 +589,7 @@
 		<div class="bg-parallax" du-parallax  y="background" style="position: relative;height: 80vh; overflow: hidden;">
 			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
 		</div>
-		<div class="whiteBgParl" du-parallax opacity="fadeIn" y="foreground">
+		<div class="whiteBgParl divOnFocus" num="6" du-parallax opacity="fadeIn" y="foreground">
 			<div class="container" style="">
 				<div class="portfolioMainCont" id="portfolioPublishing">
 		 			<div class="" style="padding-bottom: 200px;">
@@ -822,17 +822,7 @@
 						$('#moveHighlight').removeClass('move');
 					});
 					
-				},600);
-				// $('#moveHighlight').css({
-				// 	height: (num-currMove)*24,
-				// 	bottom: 96-((num-currMove)*24),
-				// });
-				// setTimeout(function () {
-				// 	$('#moveHighlight').css({
-				// 		height: 7,
-				// 		bottom: 96-((num-currMove)*24),
-				// 	});
-				// },600);
+				},20);
 			}
 
 			$('.stickyMove').on('click', function(event) {
@@ -853,20 +843,19 @@
 				1000, function() {
 
 			});
-			// var timeout = null;
-			// $(window).scroll(function () {
-			//     if (!timeout) {
-			//         timeout = setTimeout(function () {
-			//             clearTimeout(timeout);
-			//             timeout = null;
-			//             if ($(window).scrollTop() >= 1000) {
-			//                 $('.bottomSticky').fadeIn();
-			//             }else{
-			//               $('.bottomSticky').fadeOut();
-			//             }
-			//         }, 250);
-			//     }
-			// });
+			$('.divOnFocus').on('mouseenter', function(event) {
+				moveToThis($(this).attr('num'));
+			});
+			var timeout = null;
+			$(window).scroll(function () {
+			    if (!timeout) {
+			        timeout = setTimeout(function () {
+			            clearTimeout(timeout);
+			            timeout = null;
+			            
+			        }, 50);
+			    }
+			});
 			// $('.revolvingSlider').slick({
 			// 	centerMode: true,
 			// 	slidesToShow: 1,

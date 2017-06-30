@@ -304,7 +304,7 @@ body{
 .inner {
     height: 100px;
     margin: 8px;
-    background: #CBCBCB;
+    background: rgba(203, 203, 203, 0.5);
 }
 
 .inner.bigContainer {
