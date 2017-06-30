@@ -4,12 +4,13 @@
 	<a class="fixed-link-top" href="/portfolio">BACK TO PORTFOLIO</a>
 	<div class="bottomSticky">
 		<ul class="list-group">
-			<li class="list-group-item"><a class="stickyMove" href="#portfolioNews"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove" href="#portfolioEntertainment"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove" href="#portfolioDistribution"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove" href="#portfolioMovies"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove" href="#portfolioDigital"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove" href="#portfolioPublishing"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove stickyHighlight" ><span id="moveHighlight" class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num1" num="1" href="#portfolioNews"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num2" num="2" href="#portfolioEntertainment"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num3" num="3" href="#portfolioDistribution"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num4" num="4" href="#portfolioMovies"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num5" num="5" href="#portfolioDigital"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num6" num="6" href="#portfolioPublishing"><span class=""></span></a></li>
 		</ul>
 	</div>
 	
@@ -788,21 +789,60 @@
 	<script>
 		//$('.headerPrimaryCont.container-fluid.text-center').show();
 		$(document).ready(function() {
-			function goToByScroll(id){
-			
-				//id = id.replace("link", "");
-				
-				
+			var currMove = 1;
+			function moveToThis(num){
+				//console.log(num);
+				$(".num"+num).css({
+					'z-index' : 0,
+				});
+				$('#moveHighlight').addClass('move');
+				setTimeout(function () {
+					// $('#moveHighlight').css({
+					// 	transition: "all 0.3s cubic-bezier(.23,1,.32,1)",
+					// 	'transform': 'translateY(50px)'
+					// });
+
+					var bot_val=0;
+					if(num == 1){
+						bot_val = 96; 
+					}else if (num == 2) {
+						bot_val = 73;
+					}else if (num == 3) {
+						bot_val = 50;
+					}else if (num == 4) {
+						bot_val = 27;
+					}else if (num == 5) {
+						bot_val = 4;
+					}else if (num == 6) {
+						bot_val = -19;
+					}
+					$('#moveHighlight').animate({
+						bottom: bot_val,
+					},300, function() {
+						$('#moveHighlight').removeClass('move');
+					});
+					
+				},600);
+				// $('#moveHighlight').css({
+				// 	height: (num-currMove)*24,
+				// 	bottom: 96-((num-currMove)*24),
+				// });
+				// setTimeout(function () {
+				// 	$('#moveHighlight').css({
+				// 		height: 7,
+				// 		bottom: 96-((num-currMove)*24),
+				// 	});
+				// },600);
 			}
 
 			$('.stickyMove').on('click', function(event) {
 				event.preventDefault();
+				moveToThis($(this).attr("num"));
 				$('html,body').animate({
 					scrollTop: $($(this).attr('href')).offset().top
 				},'slow');
-				//goToByScroll($(this).attr('href'));
 			});
-			//$('.headerPrimaryCont.container-fluid.text-center').show();
+			
 			var maxWidth = 0;
 
 			var windowHeight = $(window).height();
@@ -813,7 +853,20 @@
 				1000, function() {
 
 			});
-			
+			// var timeout = null;
+			// $(window).scroll(function () {
+			//     if (!timeout) {
+			//         timeout = setTimeout(function () {
+			//             clearTimeout(timeout);
+			//             timeout = null;
+			//             if ($(window).scrollTop() >= 1000) {
+			//                 $('.bottomSticky').fadeIn();
+			//             }else{
+			//               $('.bottomSticky').fadeOut();
+			//             }
+			//         }, 250);
+			//     }
+			// });
 			// $('.revolvingSlider').slick({
 			// 	centerMode: true,
 			// 	slidesToShow: 1,

@@ -164,20 +164,7 @@
         $('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
     });
 
-    var timeout = null;
-    $(window).scroll(function () {
-        if (!timeout) {
-            timeout = setTimeout(function () {
-                clearTimeout(timeout);
-                timeout = null;
-                if ($(window).scrollTop() >= 1000) {
-                    $('.bottomSticky').fadeIn();
-                }else{
-                  $('.bottomSticky').fadeOut();
-                }
-            }, 250);
-        }
-    });
+    
 
   });
 </script>

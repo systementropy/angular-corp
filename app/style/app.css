@@ -1401,7 +1401,6 @@ ul.barsCont li{
     text-align: center;
     font-size: 16px;
     line-height: 14px;
-    display: none;
     z-index: 9999;
 }
 .bottomSticky a,.bottomSticky a:hover{
@@ -1412,15 +1411,16 @@ ul.barsCont li{
 .bottomSticky li{
     padding:0;
     border: none;
-    margin: 10px 20px 10px 0px;
+    margin: 16px 20px 16px 0px;
     background: transparent;
+    z-index: 1;
 }
 .bottomSticky a span {
     background: #D3D3D3;
     height: 7px;
     width: 7px;
     display: block;
-    border-radius: 50%;
+    border-radius: 7px;
 }
 .bottomSticky i{
     font-size: 40px;
@@ -2502,10 +2502,27 @@ span.jpb-loc {
 .face_ver.back_ver img {
     transform: rotateY(180deg) rotateX(180deg);
 }
+a.stickyMove.stickyHighlight {
+    position: absolute;
+    height: 92px;
+    display: block;
+    top: -7px;
+}
+.bottomSticky .list-group-item:first-child {
+    position: absolute;
+    bottom: 118px;
+    z-index: 101;
+}
 
-
-
-
+.bottomSticky .list-group-item:first-child a span{
+    background: #333;
+    color: #333;
+    bottom: 96px;
+    position: absolute;
+}
+#moveHighlight.move{
+    height: 16px;
+}
 
 
 
