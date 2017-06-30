@@ -3,12 +3,14 @@
 	<a class="fixed-link-top" href="/corporate">BACK TO ABOUT US</a>
 	<div class="bottomSticky">
 		<ul class="list-group">
-			<li class="list-group-item"><a class="stickyMove" href="#compHist"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove" href="#brdDirInt"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove" href="#globPartInt"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove" href="#brdCmtii"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove" href="#csrID"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove" href="#compHist"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove stickyHighlight" ><span id="moveHighlight" class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num1" num="1" href="#compHist"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num2" num="2" href="#brdDirInt"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num3" num="3" href="#globPartInt"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num4" num="4" href="#brdCmtii"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num5" num="5" href="#csrID"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num6" num="6" href="#compHist"><span class=""></span></a></li>
+			
 		</ul>
 	</div>
 	<div class="video-cont" ng-parallax speed="0">
@@ -74,14 +76,11 @@
 						</div>
 						<div class="timeline-label semi-act ">
 							<p>2008</p>
-
 							<span class="bottom-dot-flex"></span>
 						</div>
 						<div class="no-label timeline-label "></div>
 						<div class="timeline-label ">
 							<p>2010</p>
-
-
 						</div>
 						<div class="no-label timeline-label ">
 
@@ -364,7 +363,7 @@
 		<div id="boardDir_container">
 			<div class="container " style="padding: 0 15px;">
 				<div class="row boardDirMainCont" id="brdDirInt">
-					<h1 style="padding-bottom: 70px;margin-top: 100px;margin-left: -10px;">Board Of Directors</h1>
+					<h1 style="padding-bottom: 70px;margin-top: 0px;margin-left: -10px; padding-top: 0;">Board Of Directors</h1>
 					<div class="col-md-3" style="margin-left: -30px;">
 						<img src="images/img1.jpg">
 						<h3>ADIL ZAINULBHAI</h3>
@@ -615,14 +614,56 @@
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
-			//console.log($('body'));
+			
+			var currMove = 1;
+			function moveToThis(num){
+				//console.log(num);
+				$(".num"+num).css({
+					'z-index' : 0,
+				});
+				$('#moveHighlight').addClass('move');
+				setTimeout(function () {
+					// $('#moveHighlight').css({
+					// 	transition: "all 0.3s cubic-bezier(.23,1,.32,1)",
+					// 	'transform': 'translateY(50px)'
+					// });
+
+					var bot_val=0;
+					if(num == 1){
+						bot_val = 96; 
+					}else if (num == 2) {
+						bot_val = 73;
+					}else if (num == 3) {
+						bot_val = 50;
+					}else if (num == 4) {
+						bot_val = 27;
+					}else if (num == 5) {
+						bot_val = 4;
+					}else if (num == 6) {
+						bot_val = -19;
+					}
+					$('#moveHighlight').animate({
+						bottom: bot_val,
+					},300, function() {
+						$('#moveHighlight').removeClass('move');
+					});
+					
+				},20);
+			}
+
 			$('.stickyMove').on('click', function(event) {
 				event.preventDefault();
+				moveToThis($(this).attr("num"));
 				$('html,body').animate({
 					scrollTop: $($(this).attr('href')).offset().top
 				},'slow');
-				//goToByScroll($(this).attr('href'));
 			});
+
+			$('.divOnFocus').on('mouseenter', function(event) {
+				moveToThis($(this).attr('num'));
+			});
+
+			
 			var maxWidth = 0;
 
 			var windowHeight = $(window).height();
@@ -679,7 +720,9 @@
 					$('.opt5').addClass('active');
 					$(this).siblings('.semi-two').addClass('active');
 				}else if ($(this).hasClass('three')) {
-					
+					$('#brdDirInt').animate({
+						top: 110
+					},400);
 					$(this).children('.circle-flex').removeClass('ani-range');
 					
 					$(this).addClass('active');
@@ -687,7 +730,9 @@
 					$(this).siblings('.semi-three').addClass('active');
 					$(this).siblings('.semi-three.semi-act').addClass('semi-active');
 				}else if ($(this).hasClass('four')) {
-					
+					$('#brdDirInt').animate({
+						top: 220
+					},400);
 					$(this).children('.circle-flex').removeClass('ani-range');
 					
 					$(this).addClass('active');
@@ -709,6 +754,11 @@
 			}).on('mouseleave', function(event){
 				if($(this).hasClass('two') ||  $(this).hasClass('three') || $(this).hasClass('four')){
 					$(this).children('.circle-flex').addClass('ani-range');
+					if ($(this).hasClass('four') || $(this).hasClass('three')) {
+						$('#brdDirInt').animate({
+							top: 0
+						},400);
+					}
 				}
 				$(this).removeClass('active');
 				$(this).siblings('.semi-three.semi-act').removeClass('semi-active');

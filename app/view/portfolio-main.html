@@ -847,15 +847,15 @@
 				moveToThis($(this).attr('num'));
 			});
 			var timeout = null;
-			$(window).scroll(function () {
-			    if (!timeout) {
-			        timeout = setTimeout(function () {
-			            clearTimeout(timeout);
-			            timeout = null;
+			// $(window).scroll(function () {
+			//     if (!timeout) {
+			//         timeout = setTimeout(function () {
+			//             clearTimeout(timeout);
+			//             timeout = null;
 			            
-			        }, 50);
-			    }
-			});
+			//         }, 50);
+			//     }
+			// });
 			// $('.revolvingSlider').slick({
 			// 	centerMode: true,
 			// 	slidesToShow: 1,
