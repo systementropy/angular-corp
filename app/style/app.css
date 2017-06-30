@@ -701,7 +701,7 @@ a.subCrumbsLinks:hover{
     max-height: none;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translateX(-50%) ;
 }
 
 
@@ -2529,7 +2529,10 @@ a.stickyMove.stickyHighlight {
 #moveHighlight.move{
     height: 16px;
 }
-
+.header_bg_img{
+    transform: scale(1);
+    transition: all 3s cubic-bezier(.23,1,.32,1);    
+}
 .header_bg_img.active{
     -webkit-animation-iteration-count: 1; /* Safari 4.0 - 8.0 */
     animation-iteration-count: 1;
@@ -2538,20 +2541,20 @@ a.stickyMove.stickyHighlight {
     -webkit-animation:scaleUpDown 3s; /* Safari and Chrome */
     animation-fill-mode: forwards;
     -webkit-animation-fill-mode: forwards;
-    transition: all 2s cubic-bezier(.23,1,.32,1);
+    transition: all 3s cubic-bezier(.23,1,.32,1);
 }
 
 
 @-moz-keyframes scaleUpDown{
 
-    0%   {transform: translateX(-50%) scale(1);}
-    50%   {transform: translateX(-50%) scale(1.02);}
+    0%   {transform: translateX(-50%) scale(1.005);}
+    50%   {transform: translateX(-50%) scale(1.01);}
     100%   {transform: translateX(-50%) scale(1);}
 }
 
 @-webkit-keyframes scaleUpDown{
-    0%   {transform: translateX(-50%) scale(1);}
-    50%   {transform: translateX(-50%) scale(1.02);}
+    0%   {transform: translateX(-50%) scale(1.005);}
+    50%   {transform: translateX(-50%) scale(1.01);}
     100%   {transform: translateX(-50%) scale(1);}
 }
 
