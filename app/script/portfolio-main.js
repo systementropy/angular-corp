@@ -43,10 +43,12 @@
 	    };
 
 	    $scope.init = function(){
-	    	$scope.background = parallaxHelper.createAnimator(-0.2, 1000, -1150);
-	    	$scope.foreground = parallaxHelper.createAnimator(0.2, 1000, -1000);
+	    	$scope.background = parallaxHelper.createAnimator(-0.4, 0, 0);
+	    	$scope.foreground = parallaxHelper.createAnimator(0.4, 0, -1000);
 	    	var show_elt = $location.absUrl().split('#')[1];
+	    	$scope.showNews = false;
 	    	if (show_elt == 'portfolioNews') {
+	    		$scope.showNews = true;
 	    		$scope.showElt = 'News';
 	    	}else if (show_elt == 'portfolioEntertainment') {
 	    		$scope.showElt = 'Entertainment';
