@@ -1,0 +1,43 @@
+<style>
+	section{
+		height: 100vh;
+		width: 100vw;
+		position: relative;
+	}
+	section:nth-child(odd){
+		background: #f5f5f6;
+	}
+	section:nth-child(even){
+		background: #333;
+	}
+	section>div{
+		position: absolute;
+		height: 40%;
+		width: 30%;
+	}
+	div.left{
+		left: 10%;
+		top: 15%;
+		background: rgba(238,238,238,0.5);
+	}
+	div.right{
+		right: 10%;
+		bottom: 20%;
+		color: rgba(18,18,18,0.5);
+		font-size: 40px;
+		line-height: 100px;
+	}
+</style>
+<div class="headerFiller"></div>
+<section du-parallax  y="background">
+	<div du-parallax  y="foreground" class="left"></div>
+	<div du-parallax  y="foreground" class="right">
+		Lorem ipsum dolor sit amet, ea habemus democritum rationibus vix.
+	</div>
+</section>
+<section du-parallax  y="background">
+	<div du-parallax  y="foreground" class="left"></div>
+	<div du-parallax  y="foreground" class="right">
+		Lorem ipsum dolor sit amet, ea habemus democritum rationibus vix.
+	</div>
+</section>
