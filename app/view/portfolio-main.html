@@ -30,7 +30,61 @@
 				<div class="portfolioMainCont" id="">
 					<h1 style="padding: 0;">News</h1>
 					<hr>
+					<div class="parallaxOneCont">
+						<div class="para_img_cont o2" du-parallax opacity="fadeIn" y="foregroundimg">
+							<img src="/images/screenshots/cnbc.jpg" alt="">
+						</div>
+						<div class="para_txt_cont o1">
+							<div class="para_txt_inner">
+								<img src="/images/resized/CNBC-PRIME-HD2.gif" alt="">
+								<p class="moveOnHover">
+									CNBC-TV18 is India's No1 business medium & undisputed leader in business news, CNBC-TV18 has been an integral part of the Indian economic story, spearheading and mirroring these enterprising times channel's benchmark coverage extends from corporate news. 
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="parallaxOneCont z2">
+						<div class="para_img_cont o1" du-parallax opacity="fadeIn" y="foregroundimg">
+							<img src="/images/screenshots/cnbc4.jpg" alt="">
+							<div class="tint tint2" du-parallax y="background"></div>
+						</div>
+						<div class="para_txt_cont o2">
+							<div class="para_txt_inner">
+								<img src="/images/resized/CNN-News-18.gif" alt="">
+								<p class="moveOnHover">
+									CNN-NEWS18 is India's leading English News Channel and is one of the most respected and trusted source for news and information in the country today. Led by Umesh Upadhayay, President - News, Network18 and Radhakrishnan Nair, the channel’s Managing Editor, CNN-NEWS18’s team of anchors and journalists uses cutting edge broadcast technology
+								</p>
+							</div>
+						</div>
+					</div>
+					
+					<div class="parallaxOneCont">
+						<div class="para_img_cont o1" du-parallax opacity="fadeIn" y="backgroundm2z">
+							<img src="/images/screenshots/etv.jpg" alt="">
+							<div class="para_txt_cont o2" du-parallax opacity="fadeIn" y="foregroundimgz2m">
+								<div class="para_txt_inner right">
+									<img src="/images/resized/etv.gif" alt="">
+									<p class="moveOnHover">
+										The ETV News Network is the largest regional News Network in terms of its geographical reach and the number of languages its covers. It was one of the first entrants in the regional news market and currently has a considerable viewership base.  
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
+					<div class="parallaxOneCont">
+						<div class="para_img_cont o2" du-parallax opacity="fadeIn" y="foregroundimg">
+							<img src="/images/screenshots/cnbc.jpg" alt="">
+						</div>
+						<div class="para_txt_cont o1">
+							<div class="para_txt_inner">
+								<img src="/images/resized/CNBC-PRIME-HD2.gif" alt="">
+								<p class="moveOnHover">
+									CNBC-TV18 is India's No1 business medium & undisputed leader in business news, CNBC-TV18 has been an integral part of the Indian economic story, spearheading and mirroring these enterprising times channel's benchmark coverage extends from corporate news. 
+								</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -587,12 +641,13 @@
 			
 			$(window).scroll(function () {
 				$('.moveOnHover').each(function() {
-					$(this).stop();
-					if($(this).hasClass('scrollDown')){
-						$(this).removeClass('scrollDown');
-					}else if($(this).hasClass('scrollUp')){
-						$(this).removeClass('scrollUp');
-					}
+					
+					// $(this).stop().animate({
+					// 	lineHeight : 20,
+					// 	paddingTop: 0
+					// },1000, function() {
+						
+					// });
 				});
 				
 				var iCurScrollPos = $(this).scrollTop();
@@ -602,15 +657,25 @@
 			            timeout = null;
 			            if (iCurScrollPos > iScrollPos) {
 			            	$('.moveOnHover').each(function() {
-			            		$('.moveOnHover').addClass('scrollDown');
+			            		// $(this).stop().animate({
+			            		// 	lineHeight : 24,
+			            		// 	paddingTop: 20
+			            		// },1000, function() {
+			            			
+			            		// });
 			            	});
 						} else {
 							$('.moveOnHover').each(function() {
-								$('.moveOnHover').addClass('scrollUp');
+								// $(this).stop().animate({
+								// 	lineHeight : 24,
+								// 	paddingTop: -20
+								// },1000, function() {
+									
+								// });
 							});
 						}
 						iScrollPos = iCurScrollPos;
-			        }, 100);
+			        }, 400);
 			    }
 				
 			});
