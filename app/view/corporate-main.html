@@ -614,6 +614,29 @@
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
+			var iScrollPos = 0;
+			var timeout = null;
+			$('p').addClass('scrollDown');
+			$(window).scroll(function () {
+				var iCurScrollPos = $(this).scrollTop();
+				if (!timeout) {
+			        timeout = setTimeout(function () {
+			            clearTimeout(timeout);
+			            timeout = null;
+			            if (iCurScrollPos > iScrollPos) {
+			            	console.log('up');
+			            	$('p').removeClass('scrollDown');
+						} else {
+							console.log('down');
+							$('p').removeClass('scrollDown');
+						}
+						iScrollPos = iCurScrollPos;
+			        }, 10);
+			    }
+				
+			});
+
+			
 			
 			var currMove = 1;
 			function moveToThis(num){
@@ -663,7 +686,9 @@
 				moveToThis($(this).attr('num'));
 			});
 
+
 			
+
 			var maxWidth = 0;
 
 			var windowHeight = $(window).height();
@@ -720,7 +745,7 @@
 					$('.opt5').addClass('active');
 					$(this).siblings('.semi-two').addClass('active');
 				}else if ($(this).hasClass('three')) {
-					$('#brdDirInt').animate({
+					$('#brdDirInt').stop().delay(500).animate({
 						top: 110
 					},400);
 					$(this).children('.circle-flex').removeClass('ani-range');
@@ -730,7 +755,7 @@
 					$(this).siblings('.semi-three').addClass('active');
 					$(this).siblings('.semi-three.semi-act').addClass('semi-active');
 				}else if ($(this).hasClass('four')) {
-					$('#brdDirInt').animate({
+					$('#brdDirInt').stop().delay(400).animate({
 						top: 220
 					},400);
 					$(this).children('.circle-flex').removeClass('ani-range');
@@ -755,7 +780,7 @@
 				if($(this).hasClass('two') ||  $(this).hasClass('three') || $(this).hasClass('four')){
 					$(this).children('.circle-flex').addClass('ani-range');
 					if ($(this).hasClass('four') || $(this).hasClass('three')) {
-						$('#brdDirInt').animate({
+						$('#brdDirInt').stop().delay(0).animate({
 							top: 0
 						},400);
 					}

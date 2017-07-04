@@ -56,12 +56,11 @@
   src:url('../fonts/Geogrotesque/Geogtq-Md.otf')  format('truetype');
 }
 
-.headerBtnInfi {
-    border-color:#F93133;
-    color: #F93133;
-    animation:myfirst 1s;
-  	-moz-animation:myfirst 1s infinite; /* Firefox */
-	-webkit-animation:myfirst 1s infinite; /* Safari and Chrome */
+button.headerBtnInfi ul li{
+    
+    animation:myfirst 2s;
+  	-moz-animation:myfirst 2s infinite; /* Firefox */
+	-webkit-animation:myfirst 2s infinite; /* Safari and Chrome */
 }
 
 
@@ -322,12 +321,12 @@ body{
 }
 .homeIconCont.centerIcon {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     width: 100%;
     z-index: 999;
     text-align: center;
-    height: 0;
-    opacity: 0;
+    height: 0px;
+    opacity: 1;
 }
 .homeIconCont.centerIcon .badgeCont{
 	margin: 0;
@@ -842,7 +841,7 @@ a.subCrumbsLinks:hover{
 .animateN18{
 	position: absolute;
 	top: 50%;
-    transform: translateY(-50%);
+    
 	width: 100%;
     text-align: center;
 	height: 1px;
@@ -851,7 +850,7 @@ a.subCrumbsLinks:hover{
 .animateN18>img{
     position: absolute;
     bottom: 0;
-    transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(0%);
     height: 0;
     max-width: none;
     max-height: none;
@@ -1379,10 +1378,12 @@ ul.barsCont li{
 .headerBtnInfi{border:none;}
 .headerBtnInfi ul.barsCont {
     margin-top: 0;
+    color: inherit;
     border-color: inherit;
 }
 .headerBtnInfi ul.barsCont li{
     border: 1px solid;
+    color: inherit;
     border-color: inherit;
 }
 
@@ -1577,18 +1578,22 @@ span.circle-flex {
     position: absolute;
     width: 0px;
     background: #C92929;
-    height: 4px;
-    bottom: -3px;
+    height: 3px;
+    bottom: -2px;
     z-index: 1;
+    animation-delay: 0s;
     transition: all 0.8s ease-in-out;
 }
 .two.active .border-ani{
+    
     width: 310px;
 }
 .three.active .border-ani{
+    
     width: 362px;
 }
 .four.active .border-ani{
+    
     width: 257px;
 }
 
@@ -2562,6 +2567,61 @@ a.stickyMove.stickyHighlight {
     50%   {transform: translateX(-50%) scale(1.01);}
     100%   {transform: translateX(-50%) scale(1);}
 }
+
+
+
+
+.eachBrandCont{
+    height: 80vh;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid rgba(200,200,200,0.4);
+}
+.mainImgCont{
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    background: #EEE;
+}
+.mainTextCont{
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    padding: 0 15% 0 5%;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.mainTextCont>p{
+    margin:0;
+}
+.mainTextCont>p>span{
+    font-size: 36px;
+    line-height: 40px;
+}
+.secImgCont{
+
+}
+p.moveOnHover{
+    line-height: 1.4;
+    transform: translateY(0px);
+    -webkit-transition-timing-function: cubic-bezier(0.41, 0.01, 0.27, 1);
+    transition-timing-function: cubic-bezier(0.41, 0.01, 0.27, 1);
+    -webkit-transition-duration: 0.7s;
+    transition-duration: 0.7s;
+}
+p.moveOnHover.scrollDown{
+    line-height: 1.6;
+    transform: translateY(20px);
+    
+}
+p.moveOnHover.scrollUp{
+    line-height: 1.6;
+    transform: translateY(-20px);
+    
+}
+
 
 
 

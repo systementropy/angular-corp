@@ -29,6 +29,6 @@
         $timeout(function() {
             $scope.$apply(function() { $location.path("/home"); });
             
-        }, 13000);
+        }, 10000);
     }]);
 }());
