@@ -1671,7 +1671,7 @@ span.bottom-dot-flex {
 .video-cont video.top{
     top:0;
 }
-.entVideoCont{margin-top: 200px;}
+.entVideoCont{margin-top: 0px;}
 .vid-bg{
     position: absolute;
     height: 100%;
@@ -2632,8 +2632,9 @@ p.moveOnHover.scrollUp{
 .parallaxOneCont {
     position: relative;
     display: flex;
-    height: 80vh;
+    height: 60vh;
     z-index: 1;
+    transform: translateY(-20%);
 }
 .parallaxOneCont.z2{
     z-index: 2;
@@ -2656,7 +2657,8 @@ p.moveOnHover.scrollUp{
     max-width: 60%;
     margin: auto;
 }
-
+.para_img_cont{
+}
 .para_img_cont>.para_txt_cont{
     position: absolute;
     right: 0;
@@ -2669,17 +2671,31 @@ p.moveOnHover.scrollUp{
 .para_img_cont>.para_txt_cont.left{
     margin-left: 5%;
 }
-
+.parallaxOneCont.parallaxOneContWith2scrn .para_txt_inner {
+    width: 80%;
+    max-width: none;
+}
 div.tint{
     background: #73edef;
     opacity: 0.6 !important;
     position: absolute;
     top: 0;
     width: 100%;
+    height: 100%;
     z-index: 1;
 }
 div.tint2{
     height: 200%;
 }
-
+.tint.tintr{
+    background: #f9e6e4;
+}
+.parallaxOneCont.trans0{transform: translateY(0);height: 80vh;}
+.parallaxOneCont.parallaxOneCont2brand.trans0 {
+    height: 100vh;
+}
+.para_img_cont img{
+    width: 100%;
+    max-height:none;
+}
 /******************END**********************/
