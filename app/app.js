@@ -18,7 +18,8 @@
         'myApp.portfolio-main',
         'myApp.headerCtrl',
         'myApp.careerMain',
-        'myApp.test'
+        'myApp.test',
+
     ]).
     config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
         $locationProvider.hashPrefix('!');

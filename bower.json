@@ -19,6 +19,7 @@
     "angular-bootstrap": "^2.5.0",
     "jquery-ui": "^1.12.1",
     "ng-simple-parallax": "*",
-    "ng-parallax": "^0.1.8"
+    "ng-parallax": "^0.1.8",
+    "angular-scroll-animate": "^0.9.9"
   }
 }
