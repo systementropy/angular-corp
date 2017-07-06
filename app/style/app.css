@@ -2634,7 +2634,7 @@ p.moveOnHover.scrollUp{
     display: flex;
     height: 60vh;
     z-index: 1;
-    transform: translateY(-20%);
+    transition: all 0.4s ease-in-out;
 }
 .parallaxOneCont.z2{
     z-index: 2;
@@ -2697,5 +2697,25 @@ div.tint2{
 .para_img_cont img{
     width: 100%;
     max-height:none;
+}
+.not-visible {
+  visibility: hidden;
+}
+span.bgPatch {
+    background: rgba(116, 155, 255, 0.8);
+    width: 100vw;
+    position: absolute;
+    left: 50%;
+    height: 100%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.parallaxOneCont.parallaxOneCont2brand .para_txt_inner{
+    max-width: 80%;
+}
+.parallaxOneCont.parallaxOneCont2brand .para_txt_inner p{
+    max-width: 70%;
+    margin:auto;
+    margin-left: 10%;
 }
 /******************END**********************/

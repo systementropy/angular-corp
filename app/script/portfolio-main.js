@@ -42,17 +42,19 @@
 			]
 	    };
 
+
 	    $scope.init = function(){
-	    	$scope.background = parallaxHelper.createAnimator(-0.2, 0, 0);
-	    	$scope.background2 = parallaxHelper.createAnimator(0.2, -1000, 1000);
-	    	$scope.foreground = parallaxHelper.createAnimator(0.2, 0, -1000);
-	    	$scope.foregroundvf = parallaxHelper.createAnimator(0.5, 100, -1000);
-	    	$scope.backgroundimg = parallaxHelper.createAnimator(-0.2, 0, 0);
-	    	$scope.foregroundimg = parallaxHelper.createAnimator(0.2, 1000, -1000);
-	    	$scope.foregroundimgz2m2 = parallaxHelper.createAnimator(-0.1, 1000, 0);
-	    	$scope.foregroundimgz2m = parallaxHelper.createAnimator(-0.1, 1000, -1000);
-	    	$scope.foregroundimgssc = parallaxHelper.createAnimator(0.2, -10, 100);
-	    	$scope.backgroundgroundimgm2z = parallaxHelper.createAnimator(0.1, -100, 100);
+	    	$scope.fadeIn = parallaxHelper.createAnimator(0.15, 0, 1,-700);
+	    	$scope.background = parallaxHelper.createAnimator(-0.1, 0, 0,-400);
+	    	$scope.background2 = parallaxHelper.createAnimator(0.1, -1000, 1000,-400);
+	    	$scope.foreground = parallaxHelper.createAnimator(0.1, 0, -1000,-400);
+	    	$scope.foregroundvf = parallaxHelper.createAnimator(0.15, 100, -1000,-400);
+	    	$scope.backgroundimg = parallaxHelper.createAnimator(-0.1, 0, 0,-400);
+	    	$scope.foregroundimg = parallaxHelper.createAnimator(0.1, 1000, -1000,-400);
+	    	$scope.foregroundimgz2m2 = parallaxHelper.createAnimator(0.4, 1000, -2000,-400);
+	    	$scope.foregroundimgz2m = parallaxHelper.createAnimator(-0.05, 1000, -1000,-400);
+	    	$scope.foregroundimgssc = parallaxHelper.createAnimator(0.1, -10, 100,-400);
+	    	$scope.backgroundgroundimgm2z = parallaxHelper.createAnimator(0.05, -100, 100,-400);
 	    	var show_elt = $location.absUrl().split('#')[1];
 	    	$scope.showNews = false;
 	    	if (show_elt == 'portfolioNews') {
