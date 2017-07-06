@@ -15,7 +15,7 @@
 	</div>
 	
 	<div class="portfolioContainer">
-		<div class="newsVideoCont bg-parallax" du-parallax opacity="fadeIn"  y="background"  id="portfolioNews" ng-if="showElt=='News'">
+		<div class="newsVideoCont bg-parallax" du-parallax opacity="fadeIn"  y="background"  id="portfolioNews">
 			<div class="video-cont" style="height: 50vh;">
 				<div class="vid-bg"></div>
 				<video width="100%" autoplay loop>
@@ -101,6 +101,7 @@
 								<img src="/images/resized/NEWS18-India.gif" alt="">
 								<p class="moveOnHover">
 									Network18 re-launched its national Hindi General News channel on 9th November 2016. News18 India (erstwhile IBN7) is driven by a commitment to question the status quo.
+								</p>
 							</div>
 						</div>
 						<div class="para_txt_cont o2">
@@ -114,28 +115,29 @@
 							</div>
 						</div>
 					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0" style="height: 10vh;">
-						<div class="para_txt_cont o2" >
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0" style="height: 20vh;">
+						<div class="para_txt_cont o2" style="margin-bottom: 15px;">
 							<h3 class="aniOri L2R" du-parallax x="anmtXfrmL" opacity="anmtXfrmLFade">Regional News</h3>
 						</div>
 					</div>
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont parallaxOneContBgImg trans0" style="height: 60vh;">
 						<div class="para_img_cont o1" du-parallax y="background" >
 							<img src="/images/screenshots/etv.jpg" alt="">
-							<div class="para_txt_cont o2" du-parallax y="foregroundimgz2m2" style="background: rgba(255,255,255,0.8);">
-								<div class="para_txt_inner right">
-
-									<img src="/images/resized/etv.gif" alt="">
-									<p class="moveOnHover">
-										The ETV News Network is the largest regional News Network in terms of its geographical reach and the number of languages its covers. It was one of the first entrants in the regional news market and currently has a considerable viewership base.  
-									</p>
-								</div>
-							</div>
+							
 						</div>
 					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0" style="height: 40vh;">
-						<div class="para_txt_cont o2" >
-							<div class="etvCont" style="padding-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.3); margin-bottom: 10px;">
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0" style="height: auto;">
+						<div class="para_txt_cont o2" du-parallax y="foregroundimgz2m2slow" style="background: rgba(255,255,255,0.8);height: auto;flex-grow: 2;left: 40px;padding: 40px 25px;z-index: 1;">
+							<div class="para_txt_inner right" style="max-width: 100%;">
+
+								<img src="/images/resized/etv.gif" alt="" style="float: left;margin-right: -6%;">
+								<p class="moveOnHover" style="max-width: 90%;margin:0;">
+									The ETV News Network is the largest regional News Network in terms of its geographical reach and the number of languages its covers. It was one of the first entrants in the regional news market and currently has a considerable viewership base.  
+								</p>
+							</div>
+						</div>
+						<div class="para_txt_cont o2" style="border-left: 1px solid rgba(0,0,0,0.3);flex-grow: 3; margin-top: 25px;">
+							<div class="etvCont" style="">
 								<a href=""><img src="images/resized/ETV-Urdu.gif" alt=""></a>
 								<a href=""><img src="images/resized/ETV-RJ.gif" alt=""></a>
 								<a href=""><img src="images/resized/ETV-Bihar.gif" alt=""></a>
@@ -171,7 +173,7 @@
 			</div>
 		</div>
 		
-		<div class="entVideoCont bg-parallax" du-parallax  y="background" id="portfolioEntertainment" ng-if="showElt=='Entertainment'">
+		<div class="entVideoCont bg-parallax" du-parallax  y="background" id="portfolioEntertainment" >
 			<div class="video-cont">
 		      <div class="vid-bg">
 
@@ -220,6 +222,7 @@
 								<img src="/images/resized/MTV.gif" alt="">
 								<p class="moveOnHover">
 									MTV, world’s premier youth brand, is a dynamic and a vibrant blend of music and pop culture. With a global reach of more than half-billion households, MTV is a cultural home to the millennial generation, music fans and artists.
+								</p>
 							</div>
 						</div>
 						<div class="para_txt_cont o2">
@@ -235,11 +238,11 @@
 					</div>
 
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneContWith2scrn z2 trans0">
-						<div class="para_img_cont o1" du-parallax y="foregroundimg">
+						<div class="para_img_cont o1" du-parallax y="background">
 							<img src="/images/screenshots/cnbc.jpg" alt="">
 						</div>
-						<div class="para_txt_cont o2" du-parallax y="background">
-							<div class="tint tintr tint2" style="transform: translateY(-42px);height: 122%;"></div>
+						<div class="para_txt_cont o2"  du-parallax y="foregroundimg">
+							<div class="tint tintr tint2" style="transform: translateY(-42px);height: 122%;z-index: 0;"></div>
 							<div class="para_txt_inner">
 								<img src="/images/screenshots/etv.jpg" alt="">
 								<img src="/images/resized/VH1.gif" alt="">
@@ -251,8 +254,10 @@
 					</div>
 
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont" >
-						<div class="para_img_cont o2" du-parallax y="foregroundimg">
+						<span class="bgPatch"></span>
+						<div class="para_img_cont o2" du-parallax y="foregroundimg" >
 							<!-- <img src="/images/screenshots/cnbc.jpg" alt=""> -->
+							<div class="tint tintr"></div>
 						</div>
 						<div class="para_txt_cont o1">
 							<div class="para_txt_inner">
@@ -263,6 +268,62 @@
 							</div>
 						</div>
 					</div>
+
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont" >
+
+						<div class="para_img_cont o1" du-parallax y="background">
+							
+							<img src="/images/screenshots/cnbc4.jpg" alt="">
+							
+						</div>
+						<div class="para_txt_cont o2">
+							<div class="para_txt_inner">
+								<img src="/images/resized/CC.gif" alt="">
+								<p class="moveOnHover">
+									Comedy Central India, launched in 2012, lines up powerful programming including hit TV series such as Anger Management, Episodes, Saturday Night Live, Whitney, The Office, Seinfeld, Frasier, That 70s Show, South Park and Suits.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0">
+						<div class="para_txt_cont o2" du-parallax y="foregroundimg">
+							<div class="para_txt_inner">
+								<img src="/images/screenshots/lngimg1.jpg" alt="" class="longImg">
+								<img src="/images/resized/nicklodeon.gif" alt="" style="margin-left: 35px;">
+								<p class="moveOnHover">
+									Nickelodeon, India’s leading kids’ entertainment brand and part of the Viacom18 Media Pvt. Ltd, is available in over 100 million households in the country.</p>
+							</div>
+						</div>
+						<div class="para_txt_cont o2">
+							<div class="para_txt_inner" du-parallax y="foregroundimgz2m">
+								<img src="/images/resized/sonic.gif" alt="">
+								<p class="moveOnHover" style="margin-bottom: 42px;">
+									Sonic is a part of the Nickelodeon Franchise which belongs to the Viacom18 network. The channel provides the best of comedy and action content in India.</p>
+								<img src="/images/screenshots/lngimg2.jpg" alt="" class="longImg">
+							</div>
+						</div>
+					</div>
+					
+
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont" >
+
+						<div class="para_img_cont o1" >
+							
+							<img src="/images/screenshots/cnbc4.jpg" alt="">
+							
+						</div>
+						<div class="para_txt_cont o2">
+							<div class="para_txt_inner">
+								<img src="/images/resized/Nick-Jr.gif" alt="">
+								<p class="moveOnHover">
+									Nick Jr. (www.nickjrindia.com), which is ‘the smart place to play” believes that ‘education’ and ‘entertainment’ go hand-in-hand and is aimed at young parents and pre-schoolers.
+								</p>
+							</div>
+						</div>
+					</div>
+
+
 				</div>
 			</div>
 		</div>

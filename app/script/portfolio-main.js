@@ -59,6 +59,7 @@
 	    	$scope.foregroundimgz2m = parallaxHelper.createAnimator(-0.05, 1000, -1000,-400);
 	    	$scope.foregroundimgssc = parallaxHelper.createAnimator(0.1, -10, 100,-400);
 	    	$scope.backgroundgroundimgm2z = parallaxHelper.createAnimator(0.05, -100, 100,-400);
+	    	$scope.foregroundimgz2m2slow = parallaxHelper.createAnimator(0.2, 0, -1000,-1000);
 	    	var show_elt = $location.absUrl().split('#')[1];
 	    	$scope.showNews = false;
 	    	if (show_elt == 'portfolioNews') {

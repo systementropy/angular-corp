@@ -1059,6 +1059,7 @@ ul.nav.nav-tabs.nav-lists li.active{
     display: flex;
 }
 .etvCont a {margin: auto;}
+.etvCont a img{max-width: 125%;}
 .borderRight{border-right: 1px solid #999;}
 .borderLeft{border-left: 1px solid #999;}
 .portfolioItem div.thumbnail.second{border-right: 1px solid rgba(153,153,153,0.3);border-left: 1px solid rgba(153,153,153,0.3);margin: auto -10px;}
