@@ -44,9 +44,13 @@
 
 
 	    $scope.init = function(){
-	    	$scope.fadeIn = parallaxHelper.createAnimator(0.15, 0, 1,-700);
+	    	$scope.fadeIn = parallaxHelper.createAnimator(0.15, 0, 1,-850);
 	    	$scope.background = parallaxHelper.createAnimator(-0.1, 0, 0,-400);
 	    	$scope.background2 = parallaxHelper.createAnimator(0.1, -1000, 1000,-400);
+	    	$scope.anmtXfrmLFade = parallaxHelper.createAnimator(0.4, 0, 1, -550);
+	    	$scope.anmtXfrmL = parallaxHelper.createAnimator(0.4, -300, 100, -1300);
+	    	$scope.anmtXfrmR = parallaxHelper.createAnimator(0.9, 100, -278, -1100);
+	    	$scope.anmtXfrmLFade2 = parallaxHelper.createAnimator(0.4, 0, 1, -650);
 	    	$scope.foreground = parallaxHelper.createAnimator(0.1, 0, -1000,-400);
 	    	$scope.foregroundvf = parallaxHelper.createAnimator(0.15, 100, -1000,-400);
 	    	$scope.backgroundimg = parallaxHelper.createAnimator(-0.1, 0, 0,-400);

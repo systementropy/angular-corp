@@ -15,8 +15,8 @@
 	</div>
 	
 	<div class="portfolioContainer">
-		<div class="newsVideoCont bg-parallax" du-parallax  y="background"  id="portfolioNews" ng-if="showElt=='News'">
-			<div class="video-cont" style="height: 40vh;">
+		<div class="newsVideoCont bg-parallax" du-parallax opacity="fadeIn"  y="background"  id="portfolioNews" ng-if="showElt=='News'">
+			<div class="video-cont" style="height: 50vh;">
 				<div class="vid-bg"></div>
 				<video width="100%" autoplay loop>
 					<source src="images/169873823_newsroom.mp4" type="video/mp4" class="top">
@@ -28,8 +28,8 @@
 			<div class="container" style="">
 				
 				<div class="portfolioMainCont portfolioMainContNews" id="">
-					<h1 style="padding: 0;">News</h1>
-					<hr>
+					<h1  style="padding: 0; padding-left: 9%;" >News</h1>
+					<h3 class="aniOri L2R" du-parallax x="anmtXfrmL" opacity="anmtXfrmLFade">Business News</h3>
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont" 
 						>
 						<div class="para_img_cont o2" du-parallax y="foregroundimg">
@@ -61,9 +61,9 @@
 							</div>
 						</div>
 					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont z2" 
-						 >
-						 <span class="bgPatch"></span>
+
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont z2" >
+						<span class="bgPatch"></span>
 						<div class="para_img_cont o2" du-parallax y="foregroundimg">
 							<img src="/images/screenshots/cnbc.jpg" alt="">
 						</div>
@@ -76,8 +76,10 @@
 							</div>
 						</div>
 					</div>
-
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont  z2">
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont z2" style="height: 0;">
+						<h3 class="aniOri R2L" du-parallax x="anmtXfrmR"  style="top:100px;">General News</h3>
+					</div>
+					<div du-parallax opacity="fadeIn" y="" class="parallaxOneCont">
 						<div class="para_img_cont o1" du-parallax y="foregroundimg">
 							<img src="/images/screenshots/cnbc4.jpg" alt="">
 							
@@ -85,15 +87,15 @@
 						<div class="para_txt_cont o2">
 							
 							<div class="para_txt_inner">
-								<img src="/images/resized/CNN-News-18.gif" alt="">
+								<img src="/images/resized/CNN-News-18.gif" alt="" style="transform: translateX(-23px);">
 								<p class="moveOnHover">
 									CNN-NEWS18 is India's leading English News Channel and is one of the most respected and trusted source for news and information in the country today. Led by Umesh Upadhayay, President - News, Network18 and Radhakrishnan Nair, the channel’s Managing Editor, CNN-NEWS18’s team of anchors and journalists uses cutting edge broadcast technology
 								</p>
 							</div>
 						</div>
 					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0">
-						<div class="para_txt_cont o2" du-parallax y="foregroundimg">
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0" style="height: auto;">
+						<div class="para_txt_cont o2" >
 							<div class="para_txt_inner">
 								<img src="/images/screenshots/lngimg1.jpg" alt="" class="longImg">
 								<img src="/images/resized/NEWS18-India.gif" alt="">
@@ -102,7 +104,7 @@
 							</div>
 						</div>
 						<div class="para_txt_cont o2">
-							<div class="para_txt_inner" du-parallax y="foregroundimgz2m">
+							<div class="para_txt_inner" ">
 								<img src="/images/resized/NEWS18-com.gif" alt="">
 								<p class="moveOnHover" style="margin-bottom: 42px;">
 									News18 is a 24hr television news channel designed to give global audiences a window into India. The channel is present in the US, Canada, UK, Singapore, and the Middle East.
@@ -112,7 +114,12 @@
 							</div>
 						</div>
 					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont parallaxOneContBgImg trans0">
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0" style="height: 10vh;">
+						<div class="para_txt_cont o2" >
+							<h3 class="aniOri L2R" du-parallax x="anmtXfrmL" opacity="anmtXfrmLFade">Regional News</h3>
+						</div>
+					</div>
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont parallaxOneContBgImg trans0" style="height: 60vh;">
 						<div class="para_img_cont o1" du-parallax y="background" >
 							<img src="/images/screenshots/etv.jpg" alt="">
 							<div class="para_txt_cont o2" du-parallax y="foregroundimgz2m2" style="background: rgba(255,255,255,0.8);">
@@ -123,6 +130,24 @@
 										The ETV News Network is the largest regional News Network in terms of its geographical reach and the number of languages its covers. It was one of the first entrants in the regional news market and currently has a considerable viewership base.  
 									</p>
 								</div>
+							</div>
+						</div>
+					</div>
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0" style="height: 40vh;">
+						<div class="para_txt_cont o2" >
+							<div class="etvCont" style="padding-bottom: 10px; border-bottom: 1px solid rgba(0,0,0,0.3); margin-bottom: 10px;">
+								<a href=""><img src="images/resized/ETV-Urdu.gif" alt=""></a>
+								<a href=""><img src="images/resized/ETV-RJ.gif" alt=""></a>
+								<a href=""><img src="images/resized/ETV-Bihar.gif" alt=""></a>
+								<a href=""><img src="images/resized/ETV-MP.gif" alt=""></a>
+								<a href=""><img src="images/resized/ETV-UP.gif" alt=""></a>
+							</div>
+							<div class="etvCont">
+								<a href=""><img src="images/resized/ETV-Haryana.gif" alt=""></a>
+								<a href=""><img src="images/resized/ETV-Bangla.gif" alt=""></a>
+								<a href=""><img src="images/resized/ETV-Kannad.gif" alt=""></a>
+								<a href=""><img src="images/resized/ETV-Gujarati.gif" alt=""></a>
+								<a href=""><img src="images/resized/ETV-Odiya.gif" alt=""></a>
 							</div>
 						</div>
 					</div>
@@ -159,8 +184,8 @@
 		<div class="whiteBgParl divOnFocus" num="2" >
 			<div class="container" style="">
 				<div class="portfolioMainCont portfolioMainContEnt" id="port_ent_brand">
-					<h1 style="padding-bottom: 50px;padding-top: 0;">Entertainment</h1>
-					<hr>
+					<h1 class="" style="padding: 0;padding-left: 9%;" >Entertainment</h1>
+					<h3 class="aniOri L2R" du-parallax x="anmtXfrmL" opacity="anmtXfrmLFade">General Entertainment</h3>
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont" >
 						<div class="para_img_cont o2" du-parallax y="foregroundimg">
 							<img src="/images/screenshots/cnbc.jpg" alt="">
@@ -242,10 +267,10 @@
 			</div>
 		</div>
 		
-		<div class="bg-parallax" du-parallax  y="background" style="position: relative;height: 40vh; overflow: hidden;">
+		<div class="bg-parallax" du-parallax opacity="fadeIn"  y="background" style="position: relative;height: 50vh; overflow: hidden;">
 			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
 		</div>
-		<div class="whiteBgParl divOnFocus" num="3" du-parallax y="foreground">
+		<div class="whiteBgParl divOnFocus" num="3" du-parallax opacity="fadeIn" y="foreground">
 			<div class="container" style="">
 	 			<div class="portfolioMainCont" id="portfolioDistribution">
 	 				<h1 style="">Distribution</h1>
@@ -273,10 +298,10 @@
 	 			</div>
 	 		</div>
 	 	</div>
- 		<div class="bg-parallax" du-parallax  y="background" style="position: relative;height: 40vh; overflow: hidden;">
+ 		<div class="bg-parallax" du-parallax opacity="fadeIn"  y="background" style="position: relative;height: 50vh; overflow: hidden;">
  			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
  		</div>
- 		<div class="whiteBgParl divOnFocus" num="4" du-parallax y="foreground">
+ 		<div class="whiteBgParl divOnFocus" num="4" du-parallax opacity="fadeIn" y="foreground">
 	 		<div class="container" style="">
 	 			<div class="portfolioMainCont" id="portfolioMovies" style="margin-top: 115px;">
 	 				<h1 style="padding-bottom: 32px;">Motion Pictures</h1>
@@ -297,10 +322,10 @@
 	 		</div>
 	 	</div>
  		
- 		<div class="bg-parallax" du-parallax  y="background" style="position: relative;height: 40vh; overflow: hidden;">
+ 		<div class="bg-parallax" du-parallax opacity="fadeIn"  y="background" style="position: relative;height: 50vh; overflow: hidden;">
  			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
  		</div>
- 		<div class="whiteBgParl divOnFocus" num="5" du-parallax y="foreground">
+ 		<div class="whiteBgParl divOnFocus" num="5" du-parallax opacity="fadeIn" y="foreground">
 	 		<div class="container" style="">
 	 			<div class="portfolioMainCont" id="portfolioDigital">
 		 			<div class="distriThmb">
@@ -422,10 +447,10 @@
 		 		</div>
 			</div>
 		</div>
-		<div class="bg-parallax" du-parallax  y="background" style="position: relative;height: 40vh; overflow: hidden;">
+		<div class="bg-parallax" du-parallax opacity="fadeIn"  y="background" style="position: relative;height: 50vh; overflow: hidden;">
 			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
 		</div>
-		<div class="whiteBgParl divOnFocus" num="6" du-parallax y="foreground">
+		<div class="whiteBgParl divOnFocus" num="6" du-parallax opacity="fadeIn" y="foreground">
 			<div class="container" style="">
 				<div class="portfolioMainCont" id="portfolioPublishing">
 		 			<div class="" style="padding-bottom: 200px;">
