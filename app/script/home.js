@@ -16,18 +16,36 @@
     .controller('HomeCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
         $scope.init = function(){
             $rootScope.hideHeader=true;
+            $scope.slickConfig = {
+                
+                slidesToShow: 10,
+                dots: true,
+                
+                responsive: [
+                    {
+                      breakpoint: 768,
+                      settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                      }
+                    },
+                    {
+                      breakpoint: 480,
+                      settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                      }
+                    }
+                ]
+            };
         };
         
         $scope.init();
 
-        $scope.slickConfig = {
-            enabled: true,
-            centerMode: true,
-            slidesToShow: 1,
-            dots: true,
-            autoPlay:true,
-            autoPlaySpeed:3000,
-            
-        };
+        
     }]);
 }());
