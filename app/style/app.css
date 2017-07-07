@@ -2741,18 +2741,20 @@ span.bgPatch {
     display: inline-block;
     position: relative;
 }
-.logoSliderItem{
-    height: 20vh;
-    width: 10vw;
+.logoSliderItem {
+    height: 128px;
+    width: 10vw ;
     display: inline-block;
+    /*box-shadow: 1px 1px 1px rgba(0,0,0,0.1);*/
+}
+.itemHomeSlider {
+    float: left;
 }
 
-
-
-
-
-
-
+.logoSliderHomeCont{height: 20vh;width: 100vw;display: flex;}
+.logoSliderHomeCont>div{height: 128px;margin:auto;}
+.logoSliderHomeCont .slick-track{background: url('/images/base_logos.png') no-repeat;height: 128px;}
+.logoSliderHomeCont button{display: none !important;}
 
 
 
