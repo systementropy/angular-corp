@@ -2749,14 +2749,32 @@ span.bgPatch {
 }
 .itemHomeSlider {
     float: left;
+    width: 10vw !important;
 }
 
-.logoSliderHomeCont{height: 20vh;width: 100vw;display: flex;}
-.logoSliderHomeCont>div{height: 128px;margin:auto;}
+.logoSliderHomeCont{height: 15vh;width: 100vw;display: flex;overflow:hidden;}
+.logoSliderHomeCont>div{height: 128px;margin:auto;width: 100vw;}
 .logoSliderHomeCont .slick-track{background: url('/images/base_logos.png') no-repeat;height: 128px;}
-.logoSliderHomeCont button{display: none !important;}
-
-
+.logoSliderHomeCont button.slick-prev,.logoSliderHomeCont button.slick-next{display: none !important;}
+.logoSliderHomeCont ul.slick-dots{
+    bottom: 10px;
+}
+.logoSliderHomeCont ul.slick-dots li{
+    padding: 0;
+}
+.logoSliderHomeCont ul.slick-dots li button{
+    background: #bbb;
+    height: 1px;
+    width: 15px;
+    border-radius: 0;
+}
+.logoSliderHomeCont ul.slick-dots li.slick-active button{
+    background: #ed1c24;
+    height: 3px;
+    width: 20px;
+    z-index: 1;
+    transform: translateY(-1px);
+}
 
 
 
