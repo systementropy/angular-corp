@@ -55,6 +55,10 @@
   font-family: 'GeoMed';
   src:url('../fonts/Geogrotesque/Geogtq-Md.otf')  format('truetype');
 }
+@font-face {
+  font-family: 'GeoUlLt';
+  src:url('../fonts/Geogrotesque/Geog-RgIt.otf')  format('truetype');
+}
 
 button.headerBtnInfi ul li{
     
@@ -1059,7 +1063,7 @@ ul.nav.nav-tabs.nav-lists li.active{
     display: flex;
 }
 .etvCont a {margin: auto;}
-.etvCont a img{max-width: 125%;}
+.etvCont a img{max-width: 150%;max-height: none;}
 .borderRight{border-right: 1px solid #999;}
 .borderLeft{border-left: 1px solid #999;}
 .portfolioItem div.thumbnail.second{border-right: 1px solid rgba(153,153,153,0.3);border-left: 1px solid rgba(153,153,153,0.3);margin: auto -10px;}
@@ -1106,7 +1110,7 @@ div#compHist h1 {
     margin:0;
     padding: 30px 0 5px;
     letter-spacing: -6px;
-    line-height: 108px;
+    line-height: 200px;
 
     transition: all 2s ease-in-out;
 }
@@ -1142,7 +1146,7 @@ div#brdDirInt>div.col-md-3:first-child{
 	font-family: 'Glober bold';
 	font-size: 30px;
 }
-.portfolioMainCont{margin: 38px 0 38px;clear: both;}
+.portfolioMainCont{margin: 0;clear: both;}
 .portfolioMainCont .thumbnail .caption{color: #000;padding: 0;}
 .portfolioMainCont.small{height: 300px;}
 .portfolioMainCont .thumbnail.small{height: 250px;font-size: 100%;}
@@ -1163,7 +1167,7 @@ div#brdDirInt>div.col-md-3:first-child{
     margin: 0 0 10px 0;
     opacity: 1;
 }
-div#portfolioDistribution{padding-top: 160px;}
+div#portfolioDistribution{}
 .portfolioMainCont .thumbnail .caption p, .distriThmb p{    
     font-size: 16px;
     line-height: 21px;
@@ -2160,7 +2164,7 @@ span.jpb-loc {
     position: absolute;
     /* height: 50px; */
     width: 45px;
-    top: -75px;
+    top: -50px;
     max-width: none;
     max-height: none;
     z-index: 100;
@@ -2432,7 +2436,7 @@ span.jpb-loc {
 .whiteBgParl {
     background: #FFF;
     z-index: 2;
-    min-height: 100vh;
+    min-height: initial;
     display: flex;
     transition: all 0.4s ease-in-out;
 }
@@ -2715,6 +2719,9 @@ span.bgPatch {
     transform: translateX(-50%);
     z-index: -1;
 }
+span.bgPatch.pRed{
+    background:rgba(249, 230, 228, 0.6);
+}
 .parallaxOneCont.parallaxOneCont2brand .para_txt_inner{
     max-width: 80%;
 }
@@ -2728,18 +2735,22 @@ span.bgPatch {
 }
 .aniOri.R2L{
     position: absolute;
-    top: 100px;
+    top: 60px;
     right: 0;
 }
 .aniOri{
-    font-size: 22px;
-    line-height: 22px;
+    font-family: 'GeoMed';
+    font-size: 30px;
+    line-height: 0px;
     margin:0;
     opacity: 0;
     color: #F93133;
     transition: all 1s ease-in-out;
     display: inline-block;
     position: relative;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
 }
 .logoSliderItem {
     height: 128px;
@@ -2752,7 +2763,24 @@ span.bgPatch {
     width: 10vw !important;
 }
 
-.logoSliderHomeCont{height: 15vh;width: 100vw;display: flex;overflow:hidden;}
+.logoSliderHomeCont{
+    height: 128px;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    z-index: 100;
+    background: #fff;
+    position: absolute;
+    bottom: 0;
+    transition: all 0.6s ease-in-out;
+    transform: translateY(128px);
+}
+.logoSliderHomeCont.active{
+    transform: translateY(0);
+}
+.logoSliderHomeCont.active{
+    height: 15vh;
+}
 .logoSliderHomeCont>div{height: 128px;margin:auto;width: 100vw;}
 .logoSliderHomeCont .slick-track{background: url('/images/base_logos.png') no-repeat;height: 128px;}
 .logoSliderHomeCont button.slick-prev,.logoSliderHomeCont button.slick-next{display: none !important;}
@@ -2775,16 +2803,56 @@ span.bgPatch {
     z-index: 1;
     transform: translateY(-1px);
 }
+.mainBodyContainerHomeFull .homeIconCont.centerIcon{
+    opacity: 0;
+}
+.mainBodyContainerHomeFull .homeIconCont.centerIcon.active{
+    position: absolute;
+    top: 50%;
+    width: 128px;
+    z-index: 999;
+    text-align: center;
+    height: 28px;
+    left: 50%;
+    opacity: 1;
+    transform: translateX(-50%) translateY(-50%);
+}
+.videTextCont{position: relative;}
+.videoOverText{
+    font-family: 'GeoUlLt';
+    margin: 0;
+    position: absolute;
+    z-index: 100;
+    color: rgba(255,255,255,.85);
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 64px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+.imgBAndW{
+    filter: grayscale(100%);
+}
+h3.aniOri.L2R.top{
+    position: relative;
+    top: 40px;
+}
 
+.smallhg{max-width: 80%;    margin-left: 11%;}
+.imgHidePar{
+    position: absolute;
+    height: 100%;
+    max-width: none;
+    width: initial;
+    left: 50%;
+    transform: translateX(-46%);
+}
 
-
-
-
-
-
-
-
-
+.etvInner {
+    padding: 60px 0px 60px 41px;
+}
 
 
 

@@ -1,70 +1,20 @@
 
-<div class="mainBodyContainerFull" style="padding-top: 100vh;">
-    <div class="videoContHome" style="background: rgba(255,0,0,0.1);height: 85vh;width: 100vw;"></div>
-    <div class="logoSliderHomeCont" style="" >
+<div class="mainBodyContainerFull mainBodyContainerHomeFull" style="padding-top: 100vh;position: relative;width: 100vw;height: 100vh;">
+    <div class="homeIconCont centerIcon" style="" ng-class="{'active':eventEnd}">
+         <a href="/portfolio"><span class="badgeCont"><img src="images/aerrow_r.png" alt="" class="arrowAnimate"></span></a>
+    </div>
+    <div class="videoContHome" style="background: rgba(255,0,0,0.1);height: 85vh;width: 100vw;">
+
+        <video id="home_vid" width="100%" autoplay ui-event="{ ended : 'callOnEnd()'}">
+            <source src="images/home_vid.mp4" type="video/mp4" class="top">
+        </video>
+
+    </div>
+    <div class="logoSliderHomeCont" style="" ng-class="{'active':eventEnd}">
         <div class="slickContHome">
-            <slick class="" infinite=false slides-to-show=10 slides-to-scroll=1 speed=1500 autoplay=true autoplay-speed="1000" dots=true>
+            <slick class=""  init-onload=true data="data" infinite=false slides-to-show=10 slides-to-scroll=1 speed=1500 autoplay=true autoplay-speed="1000" dots=true>
                 <!-- <div class="bg" style="background: url('/images/base_logos.png');"></div> -->
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
-                <div class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
+                <div ng-repeat="anc in data track by $index" class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
             </slick>
         </div>
     </div>
@@ -74,7 +24,11 @@
 
     <script>
         $(document).ready(function() {
-            
+            // $('#home_vid').on('ended', function(){
+            //     console.log('ended');
+            // });
+            document.querySelector('video').playbackRate = 3;
+
             var windowHeight = $(window).height();
             
             $('.mainBodyContainerFull').animate({
