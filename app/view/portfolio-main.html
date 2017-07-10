@@ -7,10 +7,10 @@
 			<li class="list-group-item"><a class="stickyMove stickyHighlight" ><span id="moveHighlight" class=""></span></a></li>
 			<li class="list-group-item"><a class="stickyMove num1" num="1" href="#portfolioNews"><span class=""></span></a></li>
 			<li class="list-group-item"><a class="stickyMove num2" num="2" href="#portfolioEntertainment"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove num3" num="3" href="#portfolioDistribution"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove num4" num="4" href="#portfolioMovies"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove num5" num="5" href="#portfolioDigital"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove num6" num="6" href="#portfolioPublishing"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num3" num="3" href="#portfolioDigital"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num4" num="4" href="#portfolioPublishing"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num5" num="5" href="#portfolioMovies"><span class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove num6" num="6" href="#portfolioDistribution"><span class=""></span></a></li>
 		</ul>
 	</div>
 	
@@ -20,11 +20,15 @@
 			<div class="video-cont" style="height: 71vh;">
 				<div class="vid-bg"></div>
 				<video width="100%" autoplay loop>
-					<source src="images/169873823_newsroom.mp4" type="video/mp4" class="top">
+					<source src="images/news-22893325.mp4" type="video/mp4" class="top">
 				</video>
 			</div>
 		</div>
-		<div class="vid-arr"><img src="/images/aerrow_white.png" class="arrowTopAnimate" alt=""></div>
+		<div class="vid-arr">
+			<!-- <img src="/images/aerrow_white.png" class="arrowTopAnimate" alt=""> -->
+			<span class="arrText">scroll</span>
+			<span class="animateHeight"></span>
+		</div>
 		<div class="whiteBgParl divOnFocus" num="1" opacity="fadeIn">
 			<div class="container" style="">
 				
@@ -125,13 +129,13 @@
 						</div>
 					</div>
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0" style="height: 20vh;">
-						<div class="para_txt_cont o2" style="margin-bottom: 15px;">
+						<div class="para_txt_cont o2" style="margin-bottom: 20px;">
 							<h3 class="aniOri L2R" du-parallax x="anmtXfrmL" opacity="anmtXfrmLFade">Regional News</h3>
 						</div>
 					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont parallaxOneContBgImg trans0" style="height: 60vh;">
-						<div class="para_img_cont o1" du-parallax y="background" >
-							<img src="/images/screenshots/etv.jpg" alt="">
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont parallaxOneContBgImg trans0" style="height: 50vh;overflow:hidden;">
+						<div class="para_img_cont o1" du-parallax y="background" style="position: relative;" >
+							<img src="/images/screenshots/etv.jpg" alt="" style="position: absolute;bottom: 0;">
 							
 						</div>
 					</div>
@@ -186,12 +190,12 @@
 		
 		<div class="entVideoCont videTextCont bg-parallax" du-parallax  y="background" id="portfolioEntertainment" >
 			<h2 class="videoOverText">Once looked, stay hooked</h2>
-			<div class="video-cont">
+			<div class="video-cont" style="height: 71vh;">
 		      <div class="vid-bg">
 
 		      </div>
-		      <video width="100%" autoplay loop>
-		        <source src="images/106346060_entertainment.mp4" type="video/mp4" class="top">
+		      <video width="100%" autoplay loop class="bot">
+		        <source src="images/entertainment-12203189.mp4" type="video/mp4"  >
 		      </video>
 		    </div>
 		</div>
@@ -202,7 +206,7 @@
 					<h3 class="aniOri L2R top" du-parallax x="anmtXfrmL" opacity="anmtXfrmLFade">General Entertainment</h3>
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont" >
 						<div class="para_img_cont o2" du-parallax y="foregroundimg">
-							<img src="/images/screenshots/cnbc.jpg" alt="">
+							<img src="/images/screenshots/colors.png" alt="" style="max-width: 90%;float: right;">
 						</div>
 						<div class="para_txt_cont o1">
 							<div class="para_txt_inner">
@@ -213,13 +217,13 @@
 							</div>
 						</div>
 					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont" >
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont" style="background: url('/images/screenshots/rishtey.png') no-repeat center;">
 						<div class="para_img_cont o1" du-parallax y="background">
-							<img src="/images/screenshots/news_anchor.png" class="smallhg" alt="">
+							<!-- <img src="/images/screenshots/news_anchor.png" class="smallhg" alt=""> -->
 							
 						</div>
-						<div class="para_txt_cont o2" >
-							<div class="para_txt_inner">
+						<div class="para_txt_cont o2" du-parallax y="foregroundimg4">
+							<div class="para_txt_inner" style="background: rgba(249,230,228,0.8);padding: 0px 40px 40px 40px;position: relative;top: 300px;">
 								<img src="/images/resized/rishtey.gif" alt="">
 								<p class="moveOnHover">
 									Rishtey is Viacom18’s second General Entertainment Channel offering in India. Marking its foray into the country on 1st December 2013, ‘Rishtey’ is an extension of Viacom18’s entertainment bouquet for Indian audiences
@@ -251,12 +255,12 @@
 
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneContWith2scrn z2 trans0">
 						<div class="para_img_cont o1" du-parallax y="background">
-							<img src="/images/screenshots/cnbc.jpg" alt="">
+							<img src="/images/screenshots/vh.png" alt="">
 						</div>
 						<div class="para_txt_cont o2"  du-parallax y="foregroundimg">
-							<div class="tint tintr tint2" style="transform: translateY(-42px);height: 122%;z-index: 0;"></div>
+							<div class="tint tintr tint2" style="transform: translateY(-42px);height: 122%;z-index: -1;"></div>
 							<div class="para_txt_inner">
-								<img src="/images/screenshots/etv.jpg" alt="">
+								<img src="/images/screenshots/vh1.png" alt="">
 								<img src="/images/resized/VH1.gif" alt="">
 								<p class="moveOnHover">
 									Vh1 is India’s only 24-hour International entertainment channel that provides viewers with their daily dose of International music, Hollywood, Pop culture and Lifestyle.
@@ -268,8 +272,8 @@
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont" >
 						<span class="bgPatch"></span>
 						<div class="para_img_cont o2" du-parallax y="foregroundimg" >
-							<!-- <img src="/images/screenshots/cnbc.jpg" alt=""> -->
-							<div class="tint tintr"></div>
+							<img src="/images/screenshots/infinity.png" alt="" style="width: initial;max-height: 100%;float: right;">
+							
 						</div>
 						<div class="para_txt_cont o1">
 							<div class="para_txt_inner">
@@ -283,9 +287,9 @@
 
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont" >
 
-						<div class="para_img_cont o1" du-parallax y="background">
+						<div class="para_img_cont o1" du-parallax y="foregroundimg3">
 							
-							<img src="/images/screenshots/news_anchor.png" class="smallhg" alt="">
+							<img src="/images/screenshots/news_anchor.png" class="" alt="" style="max-width: 90%;float: right;">
 							
 						</div>
 						<div class="para_txt_cont o2">
@@ -301,10 +305,11 @@
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0">
 						<div class="para_txt_cont o2" du-parallax y="foregroundimg">
 							<div class="para_txt_inner">
-								<img src="/images/screenshots/lngimg1.jpg" alt="" class="longImg">
+								<img src="/images/screenshots/nickelodeon.png" alt="" class="longImg">
 								<img src="/images/resized/nicklodeon.gif" alt="" style="margin-left: 35px;">
 								<p class="moveOnHover">
-									Nickelodeon, India’s leading kids’ entertainment brand and part of the Viacom18 Media Pvt. Ltd, is available in over 100 million households in the country.</p>
+									Nickelodeon, India’s leading kids’ entertainment brand and part of the Viacom18 Media Pvt. Ltd, is available in over 100 million households in the country. The Nickelodeon cluster in India boasts of a bouquet of differentiated channels that cater to kids from tots to teens - Nick, Sonic and Nick Jr.
+								</p>
 							</div>
 						</div>
 						<div class="para_txt_cont o2">
@@ -312,21 +317,18 @@
 								<img src="/images/resized/sonic.gif" alt="">
 								<p class="moveOnHover" style="margin-bottom: 42px;">
 									Sonic is a part of the Nickelodeon Franchise which belongs to the Viacom18 network. The channel provides the best of comedy and action content in India.</p>
-								<img src="/images/screenshots/lngimg2.jpg" alt="" class="longImg">
+								<img src="/images/screenshots/sonic.png" alt="" class="longImg">
 							</div>
 						</div>
 					</div>
 					
-
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont" >
-
-						<div class="para_img_cont o1" >
-							
-							<img src="/images/screenshots/news_anchor.png" class="smallhg" alt="">
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont" style="background: url('/images/screenshots/nick_jr.png') no-repeat center;max-width: 90%;margin:15vh auto auto auto;">
+						<div class="para_img_cont o1" du-parallax y="background">
+							<!-- <img src="/images/screenshots/news_anchor.png" class="smallhg" alt=""> -->
 							
 						</div>
-						<div class="para_txt_cont o2">
-							<div class="para_txt_inner">
+						<div class="para_txt_cont o2" du-parallax y="foregroundimg4">
+							<div class="para_txt_inner" style="background: rgba(249,230,228,0.8);padding: 0px 40px 40px 40px;position: relative;top: 300px;">
 								<img src="/images/resized/Nick-Jr.gif" alt="">
 								<p class="moveOnHover">
 									Nick Jr. (www.nickjrindia.com), which is ‘the smart place to play” believes that ‘education’ and ‘entertainment’ go hand-in-hand and is aimed at young parents and pre-schoolers.
@@ -334,13 +336,13 @@
 							</div>
 						</div>
 					</div>
-
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont z2" style="height: 0;">
-						<h3 class="aniOri R2L" du-parallax x="anmtXfrmR"  style="top:100px;">Factual Entertainment</h3>
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont z2" style="height: 15vh;">
+						<h3 class="aniOri R2L" du-parallax x="anmtXfrmR"  style="top:108px;">Factual Entertainment</h3>
 					</div>
 					<div du-parallax opacity="fadeIn" y="" class="parallaxOneCont">
+						<span class="bgPatch pRed bgPatch2"></span>
 						<div class="para_img_cont o1" du-parallax y="foregroundimg">
-							<img src="/images/screenshots/news_anchor.png" class="smallhg" alt="">
+							<img src="/images/screenshots/history.png" class="smallhg" alt="" style="border-bottom: 1px solid rgba(0, 0, 0, 0.3);">
 							
 						</div>
 						<div class="para_txt_cont o2">
@@ -348,15 +350,16 @@
 							<div class="para_txt_inner">
 								<img src="/images/resized/History-TV.gif" alt="" style="">
 								<p class="moveOnHover">
-									HISTORY TV18 is a factual entertainment channel that was launched by AETN18, a joint venture between Network18 and A+E Networks
+									HISTORY TV18 is a factual entertainment channel that was launched by AETN18, a joint venture between Network18 and A+E Networks (formerly known as A&E Television Networks) which operates acclaimed global brands like History, Bio, Crime & Investigation Network and Lifetime. The channel is the first in a bouquet of factual entertainment channels to be launched by the joint venture.
 								</p>
 							</div>
 						</div>
 					</div>
 
 					<div du-parallax opacity="fadeIn" y="" class="parallaxOneCont">
+						
 						<div class="para_img_cont o2" du-parallax y="foregroundimg">
-							<img src="/images/screenshots/cnbc.jpg" alt="">
+							<img src="/images/screenshots/fyi2.jpg" alt="">
 							
 						</div>
 						<div class="para_txt_cont o1">
@@ -364,7 +367,7 @@
 							<div class="para_txt_inner">
 								<img src="/images/resized/fyi.gif" alt="" style="">
 								<p class="moveOnHover">
-									FYI TV18 is the second channel from the A+E Networks | TV18 bouquet following the stellar success of its HISTORY™ TV18. FYI TV18 as a channel is a sounding board for a generation of millennials who are at the 
+									FYI TV18 is the second channel from the A+E Networks | TV18 bouquet following the stellar success of its HISTORY™ TV18. FYI TV18 as a channel is a sounding board for a generation of millennials who are at the forefront of radical change- upheavals in technology, family dynamics, gender equality etc.
 								</p>
 							</div>
 						</div>
@@ -372,14 +375,28 @@
 
 
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0" style="height: 20vh;">
-						<div class="para_txt_cont o2" style="margin-bottom: 15px;">
+						<div class="para_txt_cont o2" style="margin-bottom: -15px;">
 							<h3 class="aniOri L2R" du-parallax x="anmtXfrmL" opacity="anmtXfrmLFade">Regional Entertainment</h3>
 						</div>
 					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont" >
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont" style="background: url('/images/screenshots/regional.jpg') no-repeat center;">
+						<div class="para_img_cont o1" du-parallax y="background">
+							<!-- <img src="/images/screenshots/news_anchor.png" class="smallhg" alt=""> -->
+							
+						</div>
+						<div class="para_txt_cont o2" du-parallax y="foregroundimg4">
+							<div class="para_txt_inner" style="background: rgba(255,255,255,0.9);padding: 0px 40px 40px 40px;position: relative;top: 300px;">
+								<img src="/images/resized/colors-Kannad.gif" alt="">
+								<p class="moveOnHover">
+									COLORS Kannada is a family entertainment channel that thrives to entertain its viewers through distinctive and differentiated content, matching the heritage of the rich Kannada culture with qualitative and innovative programming.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div du-parallax opacity="fadeIn" class="parallaxOneCont" >
 						<span class="bgPatch"></span>
 						<div class="para_img_cont o2" du-parallax y="foregroundimg" >
-							<!-- <img src="/images/screenshots/cnbc.jpg" alt=""> -->
+							
 							<div class="tint tintr"></div>
 						</div>
 						<div class="para_txt_cont o1">
@@ -390,11 +407,11 @@
 								</p>
 							</div>
 						</div>
-					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0">
+					</div> -->
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0" style="height: auto;">
 						<div class="para_txt_cont o2" du-parallax y="foregroundimg">
 							<div class="para_txt_inner">
-								<img src="/images/screenshots/lngimg1.jpg" alt="" class="longImg">
+								<img src="/images/screenshots/colors_super.png" alt="" class="longImg">
 								<img src="/images/resized/colors-SUPER.gif" alt="" style="margin-left: 35px;">
 								<p class="moveOnHover">
 									COLORS Super is Viacom18’s newest family member catering to the growing demand in the Kannada GEC space. Adding to the already innovative content, strong production values and stories that </p>
@@ -405,41 +422,41 @@
 								<img src="/images/resized/colors-Marathi.gif" alt="">
 								<p class="moveOnHover" style="margin-bottom: 42px;">
 									COLORS Marathi is a family entertainment channel that mirrors the cultural ethos and spirit of Maharashtra through a range of unique differentiated content created to redefine the family viewing experience.</p>
-								<img src="/images/screenshots/lngimg2.jpg" alt="" class="longImg">
+								<img src="/images/screenshots/colors_marathi.jpg" alt="" class="longImg">
 							</div>
 						</div>
 					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0">
-						<div class="para_txt_cont o2" du-parallax y="foregroundimgz2m">
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0" style="height: auto;padding-top: 10vh;">
+						<div class="para_txt_cont o2" du-parallax y="foregroundimg">
 							<div class="para_txt_inner">
-								<img src="/images/screenshots/lngimg1.jpg" alt="" class="longImg">
+								<img src="/images/screenshots/colors_bangla.jpg" alt="" class="longImg">
 								<img src="/images/resized/colors-Bangla.gif" alt="" style="margin-left: 35px;">
 								<p class="moveOnHover">
 									A family entertainment channel that brought about a revolution in Bangla Television, COLORS Bangla (Erstwhile ETV Bangla) matches the distinctiveness of the rich Bangla culture with qualitative and contemporary programming.</p>
 							</div>
 						</div>
-						<div class="para_txt_cont o2">
-							<div class="para_txt_inner"  du-parallax y="foregroundimg">
+						<div class="para_txt_cont o2" style="background: rgba(255,255,255,0.8);">
+							<div class="para_txt_inner"  du-parallax y="background">
 								<img src="/images/resized/colors-Gujarati.gif" alt="">
 								<p class="moveOnHover" style="margin-bottom: 42px;">
 									COLORS Gujarati (Erstwhile ETV Gujarati) is the only Gujarati general entertainment channel reflecting the kaleidoscope of distinctive tastes and traditions of the vibrant state of Gujarat through its innovative and differentiated content.</p>
-								<img src="/images/screenshots/lngimg2.jpg" alt="" class="longImg">
+								<img src="/images/screenshots/colors_gujrati.jpg" alt="" class="longImg">
 							</div>
 						</div>
 					</div>
 
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneContWith2scrn z2 trans0">
-						<span class="bgPatch" style="top: 100px;height: 600px;background: #f9e6e4;"></span>
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneContWith2scrn z2 trans0" style="padding-top: 10vh;height: 95vh;">
+						<span class="bgPatch" style="height: 90%;"></span>
 						<div class="para_img_cont o2" >
-							<img src="/images/screenshots/cnbc.jpg" alt="">
+							<img src="/images/screenshots/colors_uria.png" alt="">
 						</div>
 						<div class="para_txt_cont o1" >
 							
 							<div class="para_txt_inner">
-								<img src="/images/screenshots/etv.jpg" alt="">
+								<img src="/images/screenshots/colors_uria1.png" alt="">
 								<img src="/images/resized/Colors_udiya.gif" alt="">
 								<p class="moveOnHover">
-									COLORS Odia is the first Oriya satellite channel launched with an objective of providing quality entertainment to the people of Orissa. Launched on 27th Jan 2002, COLORS Odia (erstwhile ETV Oriya) has enthralled its audience over the years through its engaging shows which are straight out of the 
+									COLORS Odia is the first Oriya satellite channel launched with an objective of providing quality entertainment to the people of Orissa. Launched on 27th Jan 2002, COLORS Odia (erstwhile ETV Oriya) has enthralled its audience over the years through its engaging shows.
 								</p>
 							</div>
 						</div>
@@ -449,174 +466,121 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class="bg-parallax videTextCont" du-parallax opacity="fadeIn"  y="background" style="position: relative;height: 71vh; overflow: hidden;">
-			<h2 class="videoOverText">Always the best seat in the house</h2>
-			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
-		</div>
-		<div class="whiteBgParl divOnFocus" num="3" du-parallax opacity="fadeIn" y="foreground">
-			<div class="container" style="">
-	 			<div class="portfolioMainCont" id="portfolioDistribution">
-	 				<h1 style="">Distribution</h1>
-	 				<div class="row distriTextCont" style="margin:40px auto 25px;display: flex;">
-	 					<div class="pull-left text-center"><img src="images/indiacast_logo.jpg" alt="" height="72px"></div>
-	 					<div class="pull-left distriText borderLeft" style="margin: auto;flex:1;">
-	 						<h3>INDIACAST MEDIA DISTRIBUTION COMPANY LTD</h3>
-	 						<p style="margin: 0;">Indiacast manages content monetization for TV18, Viacom18 and other broadcasters with three clear mandates</p>
-	 					</div>
-	 				</div>
-	 				<div class="row portfolioItem" style="margin-left: -100px;margin-right: -100px;">
-	 					<div class="col-md-4 thumbnail distriThmb">
-	 						<h3>DOMESTIC</h3>
-	 						<p>IndiaCast manages domestic distribution of the channels from Viacom18, TV18, and other broadcaster across various platforms such as Cable (digital and analog), DTH, HITS and IPTV.It also ensures best-in-class availability and reach of all</p>
-	 					</div>
-	 					<div class="col-md-4 thumbnail distriThmb second">
-	 						<h3>INTERNATIONAL</h3>
-	 						<p>IndiaCast monetises content/programmes for TV18, Viacom18 and other broadcasters, across territories and platforms. IndiaCast reaches the Indian diaspora across spanning 87 countries with its premier offering – Colors</p>
-	 					</div>
-	 					<div class="col-md-4 thumbnail distriThmb">
-	 						<h3>DIGITAL</h3>
-	 						<p>IndiaCast also manages digital initiatives of the group and also both linear and non-linear channel distribution and distributes channels to online sites, OTT platforms, and value added services (VAS) players for mobile consumption.</p>
-	 					</div>
-	 				</div>
-	 			</div>
-	 		</div>
-	 	</div>
- 		<div class="bg-parallax videTextCont" du-parallax opacity="fadeIn"  y="background" style="position: relative;height: 71vh; overflow: hidden;">
- 			<h2 class="videoOverText">We know the trick to get you to click</h2>
- 			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
+
+		<div class="bg-parallax videTextCont" du-parallax opacity="fadeIn"  y="background" style="position: relative;height: 71vh; overflow: hidden;" id="portfolioDigital">
+ 			<h2 class="videoOverText">Click. Click. Click.</h2>
+ 			<div class="video-cont" style="height: 71vh;">
+				<div class="vid-bg"></div>
+				<video width="100%" autoplay loop id="myVideo4">
+					<source src="images/digital_3509804.mp4" type="video/mp4" class="top">
+				</video>
+			</div>
  		</div>
- 		<div class="whiteBgParl divOnFocus" num="4" du-parallax opacity="fadeIn" y="foreground">
+ 		<div class="whiteBgParl divOnFocus" num="3" du-parallax opacity="fadeIn" y="foreground">
 	 		<div class="container" style="">
-	 			<div class="portfolioMainCont" id="portfolioMovies" style="margin-top: 115px;">
-	 				<h1 style="padding-bottom: 32px;">Motion Pictures</h1>
-	 				<div><img src="images/viacom_logo.png" alt="" style="margin-top: 0px;height: 40px;"></div>
-	 				<div class="distriThmb">
-	 					<h3 class="text-left" style="margin-top: 20px;margin-bottom: 8px;">Viacom18 Motion Pictures</h3>
-	 					<p>Viacom18 Motion Pictures is India's finest fully integrated motion pictures studio that has emerged as a force to reckon with by delivering a stream of critically and commercially successful films. Offering differentiated and meaningful cinema, some of its iconic releases have been Drishyam (2015), Gabbar is Back (2015), Margarita with a Straw (2015), Manjhi The Mountain Man (2015), Mary Kom (2014), Queen (2014), Bhaag Milkha Bhaag (2013), Madras Café (2013), Special 26 (2013) and Kahaani (2012) to name a few. Viacom18 Motion Pictures is also one of the few studios to have successfully ventured into regional films across languages like Bengali, Marathi, Punjabi and from the South. The Studio has also backed path-breaking and much-appreciated creative work in the form of hits like Bombay Talkies, Gangs of Wasseypur I and II, OMG - Oh My God!, Dharam Sankat Main, Manjunath, Shaitan, That Girl in Yellow Boots, Pyaar ka Punchnama and Pyaar Ka Punchnama 2, Inkaar, Saheb, Biwi Aur Gangster Returns,_Rahasya and Boss amongst others.</p>
-	 				</div>
-	 				<div class="row" style="margin-top: 35px;">
-	 					<div class="col-md-2 moviePosterCOnt"><img src="images/gangs-of-wasseypur-05.jpg" alt=""></div>
-		 				<div class="col-md-2 moviePosterCOnt"><img src="images/MaryKomPoster.jpg" alt=""></div>
-		 				<div class="col-md-2 moviePosterCOnt"><img src="images/vidya-balan-kahaani-movie-poster.jpg" alt=""></div>
-		 				<div class="col-md-2 moviePosterCOnt"><img src="images/02-queen.jpg" alt=""></div>
-		 				<div class="col-md-2 moviePosterCOnt"><img src="images/Bhaag_Milkha_Bhaag_poster.jpg" alt=""></div>
-		 				<div class="col-md-2 moviePosterCOnt"><img src="images/Tanuwedsmanu.jpg" alt=""></div>
-	 				</div>
-	 			</div>
-	 		</div>
-	 	</div>
- 		
- 		<div class="bg-parallax videTextCont" du-parallax opacity="fadeIn"  y="background" style="position: relative;height: 71vh; overflow: hidden;">
- 			<h2 class="videoOverText">There's fine print and there's the finest print</h2>
- 			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
- 		</div>
- 		<div class="whiteBgParl divOnFocus" num="5" du-parallax opacity="fadeIn" y="foreground">
-	 		<div class="container" style="">
-	 			<div class="portfolioMainCont" id="portfolioDigital">
-		 			<div class="distriThmb">
+	 			<div class="portfolioMainCont" >
+		 			<div class="distriThmb" style="margin-bottom: 60px;">
 		 				<h1 style="padding-bottom: 20px;">Network18 Digital</h1>
 			 			<p>Network18 Digital (N18D) is the digital arm of Network18, One of India’s most diversified media conglomerates with interests in television, Internet, films, e-commerce, magazines, mobile content and allied businesses. N18D is among the largest multi-platform destinations for objective breaking news, opinions, financial data and infotainment for the evolved digital news consumer. </p>
 						<p>Network18 Digital houses assets such as moneycontrol, firstpost, news18, khabar18 and pradesh18 and is constantly seeding new ideas to be the dominant force in the digital space. It caters to all sections of society, especially to the successful digital consumer and the millennials and_Generation Z users who access and consume content on the go. </p>
-						<h3 class="bgH3">CONTENT</h3>
+						
 		 			</div>
+		 			<h3 class="aniOri L2R" du-parallax x="anmtXfrmL3" opacity="anmtXfrmLFade">DIGITAL CONTENT</h3>
 					<div class="row">
-						<div id="carousel-example-digitalContent" class="carousel slide" data-ride="carousel" data-interval="2500">
-							<div class="carousel-inner" role="listbox">
-								<div class="item active">
-									<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
-										<div class="thumbnail toLeft">
-											<div class="imgThmbCont"><img src="/images/resized/MonetControl.gif" alt="" style=""></div>
-											<div class="caption">
-												<h3>Moneycontrol</h3>
-												<p>Moneycontrol founded in 1999 is India’s Largest Finance destination for more than 15 years. It offers comprehensive information, news and in- depth analysis across asset classes and pulls in a wide cross section of investors. As India’s leading businesses and finance platform, it offers investors the latest business news and market updates along with articles, independent analysis of investment ...</p>
-											</div>
+						
+						<div class="contTran container-fluid row active" du-parallax opacity="fadeIn">
+							<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
+								<div class="thumbnail toLeft">
+									
+									<div class="imgThmbCont"><img src="/images/resized/MonetControl.gif" alt="" style=""></div>
+									<div class="caption">
+										<div class="boxInside">
+											<img src="/images/screenshots/moneycontrol.png" alt="">
 										</div>
-									</div>
-
-									<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
-										<div class="thumbnail second">
-											<div class="imgThmbCont"><img src="/images/resized/Firstpost.gif" alt="" style=""></div>
-											<div class="caption">
-												<h3>FirstPost</h3>
-												<p>FirstPost is India’s Largest and only Digital Newsroom. With a digital newsroom powered by expert writer-editors across the country and the globe, Firstpost has a competitive edge in breaking views on real-time news. With a strong focus on politics, sport, business, technology and entertainment, it has now transformed its image from a niche portal to a more youthful, social, opinion-led ...</p>
-											</div>
-										</div>
-									</div>
-
-									<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
-										<div class="thumbnail toRight">
-											<div class="imgThmbCont"><img src="/images/resized/NEWS18-com.gif" alt="" style=""></div>
-											<div class="caption">
-												<h3>News18.com</h3>
-												<p>News18 (English & Hindi) allows users to access real time news coverage, sports updates, entertainment buzz, anchor blogs & Chats for CNN News18, IBN7 and IBN Lokmat. The portal has leveraged the opportunity of cross media convergence with podcasts and live streaming of definitive news content. It has recently undergone a Web revamp to impart a modern, flexible interface to the website and upgrade ...</p>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="item ">
-									<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
-										<div class="thumbnail toLeft">
-											<div class="imgThmbCont"><img src="/images/resized/NEWS18-India.gif" alt="" style=""></div>
-											<div class="caption">
-												<h3>News18india.com</h3>
-												<p>News18india represents our prime Hindi news channel News18 India on digital. It has become the digital destination for not just news and current affairs but in-depth analysis of all that is happening. Hindi net users love to consume the lifestyle, entertainment, sports and astrology content. The blog section is getting good response and has become the preferred choice of Hindi blogging community. With modern day look and feel the user experience...</p>
-											</div>
-										</div>
-									</div>
-
-									<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
-										<div class="thumbnail second">
-											<div class="imgThmbCont"><img src="images/resized/Pradesh18.gif" alt="" style=""></div>
-											<div class="caption">
-												<h3>Pradesh18.com</h3>
-												<p>Pradesh18 defines the concept of Regional, local and hyperlocal content on digital. It represents ETV on the digital, the regional offering from the bouquet of Network18 TV channels. Reflecting the true colours of India, Pradesh18.com provides content in Hindi, Gujarati, Urdu and English. While most of other digital destinations are busy covering the national and international happenings, Pradesh18 provides the much needed ground...</p>
-											</div>
-										</div>
-									</div>
-
-									<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
-										<div class="thumbnail toRight">
-											<div class="imgThmbCont"><img src="images/resized/incom.gif" alt="" style=""></div>
-											<div class="caption">
-												<h3>in.com</h3>
-												<p>The Portal launched in 2008 is our aggregator platform, showcasing the content strength and providing a good window to all our digital content. The portal averaged more than 5.5 mn unique visitors per month as of May 2015...</p>
-											</div>
-										</div>
+										<p>Moneycontrol founded in 1999 is India’s Largest Finance destination for more than 15 years. It offers comprehensive information, news and in- depth analysis across asset classes and pulls in a wide cross section of investors. As India’s leading businesses and finance platform, it offers investors the latest business news and market updates along with articles, independent analysis of investment ...</p>
 									</div>
 								</div>
 							</div>
-							<a class="left carousel-control" href="#carousel-example-digitalContent" role="button" data-slide="prev">
-								<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-								<span class="sr-only">Previous</span>
-							</a>
-							<a class="right carousel-control" href="#carousel-example-digitalContent" role="button" data-slide="next">
-								<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-								<span class="sr-only">Next</span>
-							</a>
+
+							<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
+								<div class="thumbnail second noBorder">
+									<div class="imgThmbCont"><img src="/images/resized/Firstpost.gif" alt="" style=""></div>
+									<div class="caption">
+										<div class="boxInside"></div>
+										<p>FirstPost is India’s Largest and only Digital Newsroom. With a digital newsroom powered by expert writer-editors across the country and the globe, Firstpost has a competitive edge in breaking views on real-time news. With a strong focus on politics, sport, business, technology and entertainment, it has now transformed its image from a niche portal to a more youthful, social, opinion-led ...</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
+								<div class="thumbnail toRight">
+									<div class="imgThmbCont"><img src="/images/resized/NEWS18-com.gif" alt="" style=""></div>
+									<div class="caption">
+										<div class="boxInside"></div>
+										<p>News18 (English & Hindi) allows users to access real time news coverage, sports updates, entertainment buzz, anchor blogs & Chats for CNN News18, IBN7 and IBN Lokmat. The portal has leveraged the opportunity of cross media convergence with podcasts and live streaming of definitive news content. It has recently undergone a Web revamp to impart a modern, flexible interface to the website and upgrade ...</p>
+										
+									</div>
+								</div>
+							</div>
 						</div>
+						<div class="contTran container-fluid row " style="margin-top: 60px;margin-bottom: 100px;" du-parallax opacity="fadeIn">
+							<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
+								<div class="thumbnail toLeft">
+									<div class="imgThmbCont"><img src="/images/resized/NEWS18-India.gif" alt="" style=""></div>
+									<div class="caption">
+										<div class="boxInside"></div>
+										<p>News18india represents our prime Hindi news channel News18 India on digital. It has become the digital destination for not just news and current affairs but in-depth analysis of all that is happening. Hindi net users love to consume the lifestyle, entertainment, sports and astrology content. The blog section is getting good response and has become the preferred choice of Hindi blogging community. With modern day look and feel the user experience...</p>
+									</div>
+									
+								</div>
+							</div>
+
+							<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
+								<div class="thumbnail second noBorder">
+									
+									<div class="imgThmbCont"><img src="images/resized/Pradesh18.gif" alt="" style=""></div>
+									<div class="caption">
+										<div class="boxInside"></div>
+										<p>Pradesh18 defines the concept of Regional, local and hyperlocal content on digital. It represents ETV on the digital, the regional offering from the bouquet of Network18 TV channels. Reflecting the true colours of India, Pradesh18.com provides content in Hindi, Gujarati, Urdu and English. While most of other digital destinations are busy covering the national and international happenings, Pradesh18 provides the much needed ground...</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
+								<div class="thumbnail toRight">
+									<div class="imgThmbCont"><img src="images/resized/incom.gif" alt="" style=""></div>
+									<div class="caption">
+										<div class="boxInside"></div>
+										<p>The Portal launched in 2008 is our aggregator platform, showcasing the content strength and providing a good window to all our digital content. The portal averaged more than 5.5 mn unique visitors per month as of May 2015...</p>
+									</div>
+								</div>
+							</div>
+						</div>
+							
 					</div>
-					<div><h3 class="bgH3">DIGITAL COMMERCE</h3></div>
-					<div class="row">
+					<h3 class="aniOri L2R" du-parallax x="anmtXfrmL3" opacity="anmtXfrmLFade">DIGITAL COMMERCE</h3>
+					<div class="row contTran" du-parallax opacity="fadeIn">
 
 						<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
 							<div class="thumbnail toLeft">
+								
 								<div class="imgThmbCont"><img src="images/resized/HMS.gif" alt="" style="">
 								</div>
 								<div class="caption">
-									<h3>HomeShop18</h3>
+									<div class="boxInside"></div>
 									<p>HomeShop18 is India's first comprehensive digital commerce player, selling a wide range of credible brands to customers nationally and operating in a multimedia environment including Internet, TV and via mobile. As a pioneer, HomeShop18 changed the way Indians shop by launching India's first 24 hour Home Shopping TV channel in 2008. HomeShop18 now has a cumulative customer base of over 17.9 million on TV...</p>
 								</div>
 							</div>
 						</div>
 
 						<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
-							<div class="thumbnail second">
+							<div class="thumbnail second noBorder">
 								<div class="imgThmbCont"><img src="images/resized/BookMyShow.gif" alt="" style=""></div>
 								<div class="caption">
-									<h3>Bookmyshow</h3>
+									<div class="boxInside"></div>
 									<p>Bookmyshow is the Largest Online Ticketing Platform in India with close to occupying 80% market share. It is currently servicing more than 240 cities & 2800 screens. It also manages ticketing as well as on-ground operations for six out of eight IPL Teams. As of March 31, 2016, bookmyshow.com recorded an average of 71 million visits per month. BookMyShow sold an average of over 7.8 million tickets per month on its portal and its mobile...</p>
 								</div>
+								
 							</div>
 						</div>
 
@@ -624,7 +588,7 @@
 							<div class="thumbnail toRight">
 								<div class="imgThmbCont"><img src="images/resized/Burp.gif" alt="" style=""></div>
 								<div class="caption">
-									<h3>Burrp</h3>
+									<div class="boxInside"></div>
 									<p>Burrp is a food and restaurant recommendation engine. Burrp is the pioneer in the Indian food discovery space and quite literally introduced consumer technology in food and beverage industry in 2006. With presence across 14 cities in the country and a view to expand to 35 in the next two years, Burrp is gunning not just to occupy a_vacant space in the market, but_also to do what it’s best at - create a new one...</p>
 								</div>
 							</div>
@@ -633,73 +597,22 @@
 		 		</div>
 			</div>
 		</div>
-		<div class="bg-parallax videTextCont" du-parallax opacity="fadeIn"  y="background" style="position: relative;height: 71vh; overflow: hidden;">
-			<h2 class="videoOverText">We reach where others breach</h2>
-			<img style="position: absolute;left: 0;top: 0; max-width: none;max-height: none;" src="/images/aboutUs_hero.png"  alt="" />
+
+		<div class="bg-parallax videTextCont" du-parallax opacity="fadeIn"  y="background" id="portfolioPublishing" style="position: relative;height: 71vh; overflow: hidden;">
+			<h2 class="videoOverText">Fine print. Finest print.</h2>
+			<div class="video-cont" style="height: 71vh;">
+				<div class="vid-bg"></div>
+				<video width="100%" autoplay loop id="myVideo1" class="bot">
+					<source src="images/publishing-26030585.mp4" type="video/mp4" class="top">
+				</video>
+			</div>
 		</div>
-		<div class="whiteBgParl divOnFocus" num="6" du-parallax opacity="fadeIn" y="foreground">
+		<div class="whiteBgParl divOnFocus" num="4" du-parallax opacity="fadeIn" y="foreground">
 			<div class="container" style="">
-				<div class="portfolioMainCont" id="portfolioPublishing">
+				<div class="portfolioMainCont" >
 		 			<div class="" style="padding-bottom: 200px;">
 		 				<h1 style="padding-bottom: 70px;">Publishing</h1>
-						<!-- <div class="row">
-							<div uib-carousel active="active"  no-wrap="false">
-								<div class="carousel-inner" role="listbox">
-									<div uib-slide index="0" class="item active">
-										<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
-											<div class="thumbnail toLeft">
-												<div class="imgThmbCont"><img style="" src="images/resized/Forbes.gif" alt=""></div>
-												<div class="caption">
-													<h3>FORBES INDIA</h3>
-													<p>Since its launch in 2009, Forbes India has spearheaded the community that upholds 'The Power of Free Enterprise' while investing in the intellectual capital of business minds, with its magnified vision and a sharp editorial eye. It delivers sharp, in-depth and engaging stories, by looking at global and domestic issues from an Indian prism, thereby placing its readers ahead of the curve. Leaping beyond the boundaries of the boardroom, </p>
-												</div>
-											</div>
-										</div>
-
-										<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
-											<div class="thumbnail second">
-												<div class="imgThmbCont"><img src="images/resized/overdrive.gif" alt="" style=""></div>
-												<div class="caption">
-													<h3>OVERDRIVE</h3>
-													<p>OVERDRIVE is India’s largest auto media for bike & car community for last 18 years. It has its presence across print, web, mobile, television & events. The brand has made it its mission to make life easier for its readers by testing vehicles and enabling them to make the right choice when it comes to choosing automobiles. Targeted at affluent auto enthusiasts, OVERDRIVE strives to achieve excellence by keeping its reader abreast. </p>
-												</div>
-											</div>
-										</div>
-
-										<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
-											<div class="thumbnail toRight">
-												<div class="imgThmbCont"><img src="images/resized/BP.gif" alt="" style=""></div>
-												<div class="caption">
-													<h3>BETTER PHOTOGRAPHY</h3>
-													<p>Better Photography has been the leading photography magazine in India for 19 years now. With a primary audience that includes serious enthusiasts and amateurs, the magazine covers a wide variety of content from techniques and equipment reviews and interviews. BP, as it is often affectionately called, is a hobbyist magazine whose priority is education in the art and science of photography. Photography is as much about. </p>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div uib-slide index="1" class="item ">
-										<div class="portfolioItem col-lg-4 col-md-4 col-sm-4">
-											<div class="thumbnail toLeft">
-												<div class="imgThmbCont"><img src="images/resized/BI.gif" alt="" style=""></div>
-												<div class="caption">
-													<h3>BETTER INTERIORS</h3>
-													<p>Over the last 12 years, Better Interiors has grown to become an established name amongst a multitude of Indian interior design publications in the country. An editorial team that’s in sync with the field of design and décor works towards bringing out thoroughly-researched and unbiased content, aptly supported by spectacular visuals. This includes inputs and regular contributions from several industry experts that sets </p>
-												</div>
-											</div>
-										</div>
-
-									</div>
-								</div>
-
-								<a class="left carousel-control" href="#carousel-example-publishing" role="button" data-slide="prev">
-									<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-									<span class="sr-only">Previous</span>
-								</a>
-								<a class="right carousel-control" href="#carousel-example-publishing" role="button" data-slide="next">
-									<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-									<span class="sr-only">Next</span>
-								</a>
-							</div>
-						</div> -->
+						
 						<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneCont2brand trans0">
 							<div class="para_txt_cont o2" du-parallax y="foregroundimg">
 								<div class="para_txt_inner">
@@ -744,6 +657,76 @@
 		 		</div>
 			</div>
 		</div>
+
+ 		<div class="bg-parallax videTextCont"  id="portfolioMovies" du-parallax opacity="fadeIn"  y="background" style="position: relative;height: 71vh; overflow: hidden;">
+ 			<h2 class="videoOverText">Best seat. Best house.</h2>
+ 			<div class="video-cont" style="height: 71vh;">
+				<div class="vid-bg"></div>
+				<video width="100%" autoplay loop id="myVideo2">
+					<source src="images/motion_picture-6956665.mp4" type="video/mp4" class="top">
+				</video>
+			</div>
+ 		</div>
+ 		<div class="whiteBgParl divOnFocus" num="5" du-parallax opacity="fadeIn" y="foreground">
+	 		<div class="container" style="">
+	 			<div class="portfolioMainCont"  style="margin-top: 115px;">
+	 				<h1 style="padding-bottom: 32px;">Motion Pictures</h1>
+	 				<div><img src="images/viacom_logo.png" alt="" style="margin-top: 0px;height: 40px;"></div>
+	 				<div class="distriThmb">
+	 					<h3 class="text-left" style="margin-top: 20px;margin-bottom: 8px;">Viacom18 Motion Pictures</h3>
+	 					<p>Viacom18 Motion Pictures is India's finest fully integrated motion pictures studio that has emerged as a force to reckon with by delivering a stream of critically and commercially successful films. Offering differentiated and meaningful cinema, some of its iconic releases have been Drishyam (2015), Gabbar is Back (2015), Margarita with a Straw (2015), Manjhi The Mountain Man (2015), Mary Kom (2014), Queen (2014), Bhaag Milkha Bhaag (2013), Madras Café (2013), Special 26 (2013) and Kahaani (2012) to name a few. Viacom18 Motion Pictures is also one of the few studios to have successfully ventured into regional films across languages like Bengali, Marathi, Punjabi and from the South. The Studio has also backed path-breaking and much-appreciated creative work in the form of hits like Bombay Talkies, Gangs of Wasseypur I and II, OMG - Oh My God!, Dharam Sankat Main, Manjunath, Shaitan, That Girl in Yellow Boots, Pyaar ka Punchnama and Pyaar Ka Punchnama 2, Inkaar, Saheb, Biwi Aur Gangster Returns,_Rahasya and Boss amongst others.</p>
+	 				</div>
+	 				<div class="row" style="margin-top: 35px;">
+	 					<div class="col-md-2 moviePosterCOnt"><img src="images/gangs-of-wasseypur-05.jpg" alt=""></div>
+		 				<div class="col-md-2 moviePosterCOnt"><img src="images/MaryKomPoster.jpg" alt=""></div>
+		 				<div class="col-md-2 moviePosterCOnt"><img src="images/vidya-balan-kahaani-movie-poster.jpg" alt=""></div>
+		 				<div class="col-md-2 moviePosterCOnt"><img src="images/02-queen.jpg" alt=""></div>
+		 				<div class="col-md-2 moviePosterCOnt"><img src="images/Bhaag_Milkha_Bhaag_poster.jpg" alt=""></div>
+		 				<div class="col-md-2 moviePosterCOnt"><img src="images/Tanuwedsmanu.jpg" alt=""></div>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+ 		
+ 		
+		
+		<div class="bg-parallax videTextCont" du-parallax opacity="fadeIn"  y="background" style="position: relative;height: 71vh; overflow: hidden;z-index: 3;" id="portfolioDistribution">
+			<h2 class="videoOverText">We reach. Others breach.</h2>
+			<div class="video-cont" style="height: 71vh;">
+				<div class="vid-bg"></div>
+				<video width="100%" autoplay loop id="myVideo3" >
+					<source src="images/ditribution-28066303.mp4" type="video/mp4" >
+				</video>
+			</div>
+		</div>
+		<div class="whiteBgParl divOnFocus" num="6" du-parallax opacity="fadeIn" style="height: 75vh;">
+			<div class="container" style="margin-top: 0;">
+	 			<div class="portfolioMainCont" >
+	 				<h1 style="">Distribution</h1>
+	 				<div class="row distriTextCont" style="margin:40px auto 25px;display: flex;">
+	 					<div class="pull-left text-center"><img src="images/indiacast_logo.jpg" alt="" height="72px"></div>
+	 					<div class="pull-left distriText borderLeft" style="margin: auto;flex:1;">
+	 						<h3>INDIACAST MEDIA DISTRIBUTION COMPANY LTD</h3>
+	 						<p style="margin: 0;">Indiacast manages content monetization for TV18, Viacom18 and other broadcasters with three clear mandates</p>
+	 					</div>
+	 				</div>
+	 				<div class="row portfolioItem" style="margin-left: -100px;margin-right: -100px;">
+	 					<div class="col-md-4 thumbnail distriThmb">
+	 						<h3>DOMESTIC</h3>
+	 						<p>IndiaCast manages domestic distribution of the channels from Viacom18, TV18, and other broadcaster across various platforms such as Cable (digital and analog), DTH, HITS and IPTV.It also ensures best-in-class availability and reach of all</p>
+	 					</div>
+	 					<div class="col-md-4 thumbnail distriThmb second">
+	 						<h3>INTERNATIONAL</h3>
+	 						<p>IndiaCast monetises content/programmes for TV18, Viacom18 and other broadcasters, across territories and platforms. IndiaCast reaches the Indian diaspora across spanning 87 countries with its premier offering – Colors</p>
+	 					</div>
+	 					<div class="col-md-4 thumbnail distriThmb">
+	 						<h3>DIGITAL</h3>
+	 						<p>IndiaCast also manages digital initiatives of the group and also both linear and non-linear channel distribution and distributes channels to online sites, OTT platforms, and value added services (VAS) players for mobile consumption.</p>
+	 					</div>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
 	</div>
 	<section class="greyBG footerSection">
 		<div class="fav-logo-cont"><img src="images/18.png" alt=""></div>
@@ -941,6 +924,18 @@
 			 //    }
 				
 			//});
+
+
+			var vid1 = document.getElementById("myVideo1");
+			vid1.playbackRate = 0.5;
+			var vid2 = document.getElementById("myVideo2");
+			vid2.playbackRate = 0.5;
+			var vid3 = document.getElementById("myVideo3");
+			vid3.playbackRate = 0.5;
+			var vid4 = document.getElementById("myVideo4");
+			vid4.playbackRate = 0.5;
+			
+
 			var currMove = 1;
 			function moveToThis(num){
 				//console.log(num);

@@ -48,8 +48,11 @@
 	    	$scope.background = parallaxHelper.createAnimator(-0.1, 0, 0,-400);
 	    	$scope.background2 = parallaxHelper.createAnimator(0.1, -1000, 1000,-400);
 	    	$scope.anmtXfrmLFade = parallaxHelper.createAnimator(0.4, 0, 1, -650);
+
 	    	$scope.anmtXfrmL = parallaxHelper.createAnimator(0.4, -300, 100, -1400);
+	    	$scope.anmtXfrmL3 = parallaxHelper.createAnimator(0.4, -300, 0, -1400);
 	    	$scope.anmtXfrmR = parallaxHelper.createAnimator(0.9, 100, -278, -1100);
+	    	$scope.anmtXfrmR = parallaxHelper.createAnimator(0.9, 300, 0, -1100);
 	    	$scope.anmtXfrmLFade2 = parallaxHelper.createAnimator(0.4, 0, 1, -650);
 	    	$scope.foreground = parallaxHelper.createAnimator(0.1, 0, -1000,-400);
 	    	$scope.foregroundvf = parallaxHelper.createAnimator(0.15, 100, -1000,-400);
@@ -57,6 +60,7 @@
 	    	$scope.foregroundimg = parallaxHelper.createAnimator(0.1, 1000, -1000,-400);
 	    	$scope.foregroundimg2 = parallaxHelper.createAnimator(0.15, 1000, -1000,-400);
 	    	$scope.foregroundimg3 = parallaxHelper.createAnimator(0.18, 1000, -1000,-400);
+	    	$scope.foregroundimg4 = parallaxHelper.createAnimator(0.4, 0, -300,-700);
 	    	$scope.foregroundimgz2m2 = parallaxHelper.createAnimator(0.4, 1000, -2000,-400);
 	    	$scope.foregroundimgz2m = parallaxHelper.createAnimator(-0.05, 1000, -1000,-400);
 	    	$scope.foregroundimgssc = parallaxHelper.createAnimator(0.1, -10, 100,-400);
