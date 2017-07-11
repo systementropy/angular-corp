@@ -23,12 +23,17 @@
         'angularLazyImg',
         'angular-nicescroll'
     ]).
-    config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
+    config(['$locationProvider', '$routeProvider','lazyImgConfigProvider', function($locationProvider, $routeProvider,lazyImgConfigProvider) {
         $locationProvider.hashPrefix('!');
         $locationProvider.html5Mode({
             enabled:true
         });
         
         $routeProvider.otherwise({ redirectTo: '/animate' });
+
+        //var scrollable = document.querySelector('#scrollable');
+        // lazyImgConfigProvider.setOptions({
+        //     offset: 1000,
+        // });
     }]);
 }());
