@@ -20,7 +20,8 @@
         'myApp.headerCtrl',
         'myApp.careerMain',
         'myApp.test',
-        'angularLazyImg'
+        'angularLazyImg',
+        'angular-nicescroll'
     ]).
     config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
         $locationProvider.hashPrefix('!');

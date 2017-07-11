@@ -615,17 +615,17 @@
         justify-content: space-around;
     }
     .subCrumbsCont.small {
-        height: 20px;
+        min-height: 20px;
     }
     .headerCrumbs:hover .subCrumbsCont{
         opacity: 1;
-        bottom: 80px;
+        bottom: 50px;
         width: 100%;
         z-index: 10;
-        padding: 0 3%;
+        padding: 0 3% 30px;
     }
     .headerCrumbs:hover .subCrumbsCont.small{
-        bottom: 94px;
+        bottom: 64px;
     }
     a.subCrumbsLinks {
         color: #acacac;
@@ -702,11 +702,13 @@
     .headerMainContainer .video-cont video{opacity: 1;height: 100% !important; width: auto; }
     .headerMainContainer>img {
         z-index: -10;
-        width: 100vw;
+        width: 120vw;
         max-height: none;
         position: absolute;
         left: 50%;
         transform: translateX(-50%) ;
+        max-width: none;
+        max-height: none;
     }
 
 
@@ -1447,7 +1449,7 @@
         text-align: center;
         font-size: 16px;
         line-height: 14px;
-        z-index: 9999;
+        z-index: 1000;
     }
     .bottomSticky a,.bottomSticky a:hover{
         color: #FFF;
@@ -2591,6 +2593,9 @@
         bottom: 96px;
         position: absolute;
         transition: all 0.4s ease-in-out;
+        height: 9px;
+        width: 9px;
+        transform: translateX(-1px) translateY(1px);
     }
     #moveHighlight.move{
         height: 16px;

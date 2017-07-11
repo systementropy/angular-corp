@@ -23,6 +23,7 @@
     "angular-scroll-animate": "^0.9.9",
     "ng-media-events": "^1.0.1",
     "angular-ui-event": "^1.0.0",
-    "angular-lazy-img": "^1.2.2"
+    "angular-lazy-img": "^1.2.2",
+    "angular-nicescroll": "^0.0.9"
   }
 }
