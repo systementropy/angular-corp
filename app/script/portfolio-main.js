@@ -71,16 +71,22 @@
 	    	if (show_elt == 'portfolioNews') {
 	    		$scope.showNews = true;
 	    		$scope.showElt = 'News';
+	    		$scope.botVal='96px';
 	    	}else if (show_elt == 'portfolioEntertainment') {
 	    		$scope.showElt = 'Entertainment';
+	    		$scope.botVal='73px';
 	    	}else if (show_elt == 'portfolioDistribution') {
 	    		$scope.showElt = 'Distribution';
+	    		$scope.botVal='-19px';
 	    	}else if (show_elt == 'portfolioMovies') {
 	    		$scope.showElt = 'Movies';
+	    		$scope.botVal='4px';
 	    	}else if (show_elt == 'portfolioDigital') {
 	    		$scope.showElt = 'Digital';
+	    		$scope.botVal='50px';
 	    	}else if (show_elt == 'portfolioPublishing') {
 	    		$scope.showElt = 'Publishing';
+	    		$scope.botVal='27px';
 	    	}
             $rootScope.hideHeader=false;
         };

@@ -4,7 +4,7 @@
 	<a class="fixed-link-top" href="/portfolio">BACK TO PORTFOLIO</a>
 	<div class="bottomSticky">
 		<ul class="list-group">
-			<li class="list-group-item"><a class="stickyMove stickyHighlight" ><span id="moveHighlight" class=""></span></a></li>
+			<li class="list-group-item"><a class="stickyMove stickyHighlight" ><span id="moveHighlight" class="" style="bottom: {{botVal}}"></span></a></li>
 			<li class="list-group-item"><a class="stickyMove num1" num="1" href="#portfolioNews"><span class=""></span></a></li>
 			<li class="list-group-item"><a class="stickyMove num2" num="2" href="#portfolioEntertainment"><span class=""></span></a></li>
 			<li class="list-group-item"><a class="stickyMove num3" num="3" href="#portfolioDigital"><span class=""></span></a></li>
@@ -24,7 +24,7 @@
 				</video>
 			</div>
 		</div>
-		<div class="vid-arr">
+		<div class="vid-arr" ng-if="showElt=='News'">
 			<!-- <img lazy-img="/images/aerrow_white.png" class="arrowTopAnimate" alt=""> -->
 			<span class="arrText">scroll</span>
 			<span class="animateHeight"></span>
@@ -198,6 +198,12 @@
 		        <source src="images/entertainment-12203189.mp4" type="video/mp4"  >
 		      </video>
 		    </div>
+		    <div class="vid-arr" ng-if="showElt=='Entertainment'">
+				<!-- <img lazy-img="/images/aerrow_white.png" class="arrowTopAnimate" alt=""> -->
+				<span class="arrText">scroll</span>
+				<span class="animateHeight"></span>
+				<span class="animateHeightBg"></span>
+			</div>
 		</div>
 		<div class="whiteBgParl divOnFocus" num="2" >
 			<div class="container" style="">
@@ -476,6 +482,12 @@
 					<source src="images/digital_3509804.mp4" type="video/mp4" class="top">
 				</video>
 			</div>
+			<div class="vid-arr" ng-if="showElt=='Digital'">
+				<!-- <img lazy-img="/images/aerrow_white.png" class="arrowTopAnimate" alt=""> -->
+				<span class="arrText">scroll</span>
+				<span class="animateHeight"></span>
+				<span class="animateHeightBg"></span>
+			</div>
  		</div>
  		<div class="whiteBgParl divOnFocus" num="3" du-parallax opacity="fadeIn" y="foreground">
 	 		<div class="container" style="">
@@ -623,6 +635,12 @@
 					<source src="images/publishing-26030585.mp4" type="video/mp4" class="top">
 				</video>
 			</div>
+			<div class="vid-arr" ng-if="showElt=='Publishing'">
+				<!-- <img lazy-img="/images/aerrow_white.png" class="arrowTopAnimate" alt=""> -->
+				<span class="arrText">scroll</span>
+				<span class="animateHeight"></span>
+				<span class="animateHeightBg"></span>
+			</div>
 		</div>
 		<div class="whiteBgParl divOnFocus" num="4" du-parallax opacity="fadeIn" y="foreground">
 			<div class="container" style="">
@@ -683,6 +701,12 @@
 					<source src="images/motion_picture-6956665.mp4" type="video/mp4" class="top">
 				</video>
 			</div>
+			<div class="vid-arr" ng-if="showElt=='Movies'">
+				<!-- <img lazy-img="/images/aerrow_white.png" class="arrowTopAnimate" alt=""> -->
+				<span class="arrText">scroll</span>
+				<span class="animateHeight"></span>
+				<span class="animateHeightBg"></span>
+			</div>
  		</div>
  		<div class="whiteBgParl divOnFocus" num="5" du-parallax opacity="fadeIn" y="foreground" style="padding-bottom: 100px;">
 	 		<div class="container" style="">
@@ -714,6 +738,12 @@
 				<video width="100%" autoplay loop id="myVideo3" >
 					<source src="images/ditribution-28066303.mp4" type="video/mp4" >
 				</video>
+			</div>
+			<div class="vid-arr" ng-if="showElt=='Distribution'">
+				<!-- <img lazy-img="/images/aerrow_white.png" class="arrowTopAnimate" alt=""> -->
+				<span class="arrText">scroll</span>
+				<span class="animateHeight"></span>
+				<span class="animateHeightBg"></span>
 			</div>
 		</div>
 		<div class="whiteBgParl divOnFocus" num="6" du-parallax opacity="fadeIn" style="height: 75vh;">
