@@ -156,7 +156,17 @@
             //     console.log('ended');
             // });
             document.querySelector('video').playbackRate = 3;
-
+            $('.open').on('click', function(e){
+              $('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 300,function(){
+                maxWidth = $('.containerHeaderLinks').width();
+                $('.subCrumbsCont').css('left', $('.containerHeaderLinks').offset().left);
+                $('.subCrumbsCont').width(maxWidth);
+                });
+              
+            });
+            $('.closeBtn').on('click',function(){
+              $('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300);
+            });
             var windowHeight = $(window).height();
             
             $('.mainBodyContainerFull').animate({

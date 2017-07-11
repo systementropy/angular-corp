@@ -20,7 +20,7 @@
         'myApp.headerCtrl',
         'myApp.careerMain',
         'myApp.test',
-
+        'angularLazyImg'
     ]).
     config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
         $locationProvider.hashPrefix('!');
