@@ -20,6 +20,7 @@
         'myApp.headerCtrl',
         'myApp.careerMain',
         'myApp.test',
+        'myApp.contact',
         'angularLazyImg',
         'angular-nicescroll'
     ]).
