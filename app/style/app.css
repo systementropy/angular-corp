@@ -2838,26 +2838,29 @@
         height: 15vh;
     }
     .logoSliderHomeCont>div{height: 128px;margin:auto;width: 100vw;margin-top: 0;}
-    .logoSliderHomeCont .slick-track{background: url('/images/base_logos.png') no-repeat;height: 128px;}
+    .logoSliderHomeCont .slick-track{background: url('/images/Base-Header(logos)_R.png') no-repeat;height: 128px;}
     .logoSliderHomeCont button.slick-prev,.logoSliderHomeCont button.slick-next{display: none !important;}
     .logoSliderHomeCont ul.slick-dots{
         bottom: 20px;
     }
     .logoSliderHomeCont ul.slick-dots li{
         padding: 0;
+        transition: all 1s linear;
     }
     .logoSliderHomeCont ul.slick-dots li button{
         background: #bbb;
         height: 1px;
         width: 15px;
         border-radius: 0;
+        transition: all 1s linear;
     }
     .logoSliderHomeCont ul.slick-dots li.slick-active button{
-        background: #ed1c24;
-        height: 3px;
+        background: #000;
+        height: 1px;
         width: 20px;
         z-index: 1;
-        transform: translateY(-1px);
+        transform: translateY(0px);
+        transition: all 0.8s linear;
     }
     .mainBodyContainerHomeFull .homeIconCont.centerIcon{
         opacity: 1;
