@@ -1,18 +1,6 @@
 <div class="mainBodyContainerFull" style="padding-top: 0; opacity: 0; height: 0;">
 	<div class="headerFiller"></div>
-	<!-- <a class="fixed-link-top" href="/corporate">BACK TO ABOUT US</a>
-	<div class="bottomSticky">
-		<ul class="list-group">
-			<li class="list-group-item"><a class="stickyMove stickyHighlight" ><span id="moveHighlight" class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove num1" num="1" href="#compHist"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove num2" num="2" href="#brdDirInt"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove num3" num="3" href="#globPartInt"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove num4" num="4" href="#brdCmtii"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove num5" num="5" href="#csrID"><span class=""></span></a></li>
-			<li class="list-group-item"><a class="stickyMove num6" num="6" href="#compHist"><span class=""></span></a></li>
-			
-		</ul>
-	</div> -->
+	
 	<div class="video-cont" ng-parallax speed="0">
 		<div class="vid-bg">
 
@@ -21,10 +9,101 @@
 			<source src="images/473326883_compass.mp4" type="video/mp4">
 		</video>
 	</div>
-	<div class="portfolioContainer corpMainCont" ng-parallax speed="3">
+	<div class="portfolioContainer corpMainCont contactMainCont" ng-parallax speed="3">
 		<div class="container" style="padding: 0 15px;">
-			<div class="row" id="compHist">
+			<div class="row flex-cont" >
+				<div class="row contact-main-text text-center">
+					<h1>Experience Work and Life at Network18</h1>
+					<p>
+						Network18 Media & Investments Limited (the Company) is one of India’s most diverse and leading Media and Entertainment conglomerates with interests in television, internet, filmed entertainment, e-commerce marketplace and properties, magazines, mobile content and allied businesses. Network18 reaches out to more than 550 million television viewers and attracts more than27 million unique visitors on its digital properties.
+					</p>
+				</div>
+			</div>
+			<div class="row" >
+				<span class="bgPatch bgGrey" style="height: 826px;"></span>
+				<div class="row contact-add-text ">
+					<div class="col-md-3">
+						<h3>human <br>	resources</h3>
+						<p>
+							First Floor, <br>
+							Empire Complex,<br>
+							414 Senapati Bapat Marg,<br>
+							Lower Parel,<br>
+							Mumbai-400013,<br>
+							Maharashtra <br>
+							# 011 41506112
+						</p>
+					</div>
+					<div class="col-md-3">
+						<h3>corporate<br>communication</h3>
+						<p>
+							First Floor, <br>
+							Empire Complex,<br>
+							414 Senapati Bapat Marg,<br>
+							Lower Parel,<br>
+							Mumbai-400013,<br>
+							Maharashtra <br>
+							# 011 41506112
+						</p>
+					</div>
+					<div class="col-md-3">
+						<h3>Sales and <br>customer service</h3>
+						<p>
+							First Floor, <br>
+							Empire Complex,<br>
+							414 Senapati Bapat Marg,<br>
+							Lower Parel,<br>
+							Mumbai-400013,<br>
+							Maharashtra <br>
+							# 011 41506112
+						</p>
+					</div>
+					<div class="col-md-3">
+						<h3>investor <br>relations</h3>
+						<p>
+							First Floor, <br>
+							Empire Complex,<br>
+							414 Senapati Bapat Marg,<br>
+							Lower Parel,<br>
+							Mumbai-400013,<br>
+							Maharashtra <br>
+							# 011 41506112
+						</p>
+					</div>
+				</div>
+			</div>
+			<!-- <div class="row btnOvrLy" >
+				<button class="btn btn-bl">bureau offices</button>
+			</div> -->
+			<div class="row" >
+				<div id="chart_div" style="width: 100%; height: 700px;margin:0 auto;padding-left: 37px;">
+					<ng-map center="25.177817, 77.667128" zoom="5" region="IN" style="height:500px;">
+						<marker 
+							ng-repeat="eachMarker in addArr track by eachMarker.id" 
+							position="{{eachMarker.add}}" 
+							on-click="map.showInfoWindow(event, '{{eachMarker.id}}')">
+						</marker>
+						<info-window 
+							ng-repeat="eachText in addArr track by eachText.id" 
+							id="{{eachText.id}}"
+							style="max-width: 200px">
+							<p>{{eachText.add}}</p>
+						</info-window>
+					</ng-map>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<script>
+	$(document).ready(function() {
+		var maxWidth = 0;
+		var windowHeight = $(window).height();
+		$('.mainBodyContainerFull').animate({
+			height: windowHeight+'px',
+			paddingTop: 0,
+			opacity:1
+		},1000);
+	});
+</script>

@@ -9,6 +9,7 @@
         'ngRoute',
         'ui.event',
         'slick',
+        'ngMap',
         'myApp.home',
         'myApp.animate',
         'myApp.view2',

@@ -24,6 +24,7 @@
     "ng-media-events": "^1.0.1",
     "angular-ui-event": "^1.0.0",
     "angular-lazy-img": "^1.2.2",
-    "angular-nicescroll": "^0.0.9"
+    "angular-nicescroll": "^0.0.9",
+    "ngmap": "^1.18.4"
   }
 }
