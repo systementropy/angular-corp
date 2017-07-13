@@ -81,12 +81,22 @@
 						<marker 
 							ng-repeat="eachMarker in addArr track by eachMarker.id" 
 							position="{{eachMarker.add}}" 
-							on-click="map.showInfoWindow(event, '{{eachMarker.id}}')">
+							on-click="map.showInfoWindow(event, '{{eachMarker.id}}')"
+							icon="/images/18_flag.png" 
+							ng-if="eachMarker.type=='head'">
 						</marker>
+						<marker 
+							ng-repeat="eachMarker in addArr track by eachMarker.id" 
+							position="{{eachMarker.add}}" 
+							on-click="map.showInfoWindow(event, '{{eachMarker.id}}')"
+							icon="/images/18_bureaus.png" 
+							ng-if="eachMarker.type=='bureau'">
+						</marker>
+
 						<info-window 
 							ng-repeat="eachText in addArr track by eachText.id" 
 							id="{{eachText.id}}"
-							style="max-width: 200px">
+							max-width="240">
 							<p>{{eachText.add}}</p>
 						</info-window>
 					</ng-map>

@@ -3045,11 +3045,12 @@ span.arrText {
 .inverstorSections ul.nav.nav-tabs{
     margin-top: 15px;
     margin-bottom: 60px;
-    margin-left: 9px;
+    margin-left: 14px;
     border-bottom: 1px solid rgba(0,0,0,0.3);
 }
 .inverstorSections ul.nav.nav-tabs>li:first-child a{
     padding-left: 0;
+    text-align: left;
 }
 .inverstorSections ul.nav.nav-tabs>li.active>a{
     color: #333;
@@ -3057,10 +3058,10 @@ span.arrText {
     border-bottom: 1px solid #333;
 }
 .transUp{
-    transition: all 0.6s ease;
+    transition: all 1.2s ease;
 }
 img.transUp{
-    transition: all 1s ease-in-out;
+    transition: all 2s ease-in-out;
 }
 .tranySl{
     transition: all 1.4s ease-in-out;
