@@ -34,7 +34,7 @@
                 {'id':"id12",'add':"3/170, Vinay Khand, Vidhayak Puram, Gomti Nagar, Lucknow-226010",'type':'bureau'},
                 {'id':"id13",'add':"184-B, Srikrishnapuri,-Patna-800001 Bihar",'type':'bureau'},
                 {'id':"id14",'add':"R.N-214&amp;215,Hotal Pamposh Residency Road,Regal Chowk Srinagar-190001",'type':'bureau'},
-                {'id':"id15",'add':"Space no. 2, third floor, trans tower vazhuthacaud, thiruvananthapuram",'type':'bureau'}
+                
             ];
 
             $rootScope.hideHeader=false;
