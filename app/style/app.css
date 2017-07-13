@@ -3172,8 +3172,15 @@ img.transUp{
     line-height: 18px;
     border-radius: 0;
 }
+.ng-map-info-window{
 
-
+}
+.ng-map-info-window p.title{
+    color: #555;
+    border-bottom: 1px solid rgba(0,0,0,0.3);
+    text-transform: uppercase;
+    font-family: 'GeoMed';
+}
 
 
 

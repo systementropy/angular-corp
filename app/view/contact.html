@@ -96,8 +96,12 @@
 						<info-window 
 							ng-repeat="eachText in addArr track by eachText.id" 
 							id="{{eachText.id}}"
-							max-width="240">
-							<p>{{eachText.add}}</p>
+							max-width="240"
+							width="240">
+							<div class="mainInfoWin">
+								<p class="title">{{eachText.type}}</p>
+								<p class="add"><span><b>Address: </b></span>{{eachText.add}}</p>
+							</div>
 						</info-window>
 					</ng-map>
 				</div>
