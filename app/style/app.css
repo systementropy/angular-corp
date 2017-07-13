@@ -1632,7 +1632,7 @@
     }
     .three.active .border-ani{
         
-        width: 362px;
+        width: 314px;
     }
     .four.active .border-ani{
         
@@ -1797,7 +1797,7 @@
         font-size: 21px;
         line-height: 32px;
         opacity: 0.8;
-        margin:0;
+        margin:4px 0 0 0;
     }
     .sectionalCont.pull-left .col-md-3{
         height: 64px;
@@ -1817,23 +1817,37 @@
     }
 
     .sectionalCont.pull-left p {
-        font-size: 21px;
+        
         text-transform: uppercase;
+        font-size: 21px;
         line-height: 21px;
-        margin: 15px 0;
+        margin: 25px 0 15px;
+    }
+    .sectionalCont.pull-left p:after {
+        content: " ";
+        display: block;
+        clear: both;
     }
     .sectionalCont.pull-left {
         padding-left: 24px;
     }
     .sectionalCont.pull-left:first-child {padding:0;}
     .sectionalCont.pull-left p span {
-        padding: 0 15px;
-        text-align: center;
-        background: #E3E3E3;
-        line-height: 18px;
-        display: inline-block;
-        font-weight: bold;
         font-family: 'Glober xBold';
+        padding: 0;
+        line-height: 18px;
+        display: block;
+        font-weight: 700;
+        opacity: 0.7;
+        text-align: left;
+        float: left;
+        letter-spacing: 0.5px;
+    }
+    .sectionalCont.pull-left p b {
+        width: 100px;
+        float: left;
+        min-height: 17px;
+        border-bottom: 1px solid rgba(0,0,0,0.3);
     }
 
     .flex-dropdown-brand:last-child{
@@ -1863,6 +1877,12 @@
         transform: translateY(0%);
         opacity: 0;
         transition: all 0.8s ease-in-out;
+    }
+    .flex-dropdown-brand.opt6{
+        transition: all 1s ease-in-out;
+    }
+    .flex-dropdown-brand.opt7{
+        transition: all 1.2s ease-in-out;
     }
     .timeline-label-range span.circle-flex{
         border-color: #0033FF;
@@ -2861,7 +2881,7 @@
         transition: all 1s linear;
     }
     .logoSliderHomeCont ul.slick-dots li.slick-active button{
-        background: #000;
+        background: #F93133;
         height: 1px;
         width: 20px;
         z-index: 1;
