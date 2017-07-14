@@ -555,10 +555,12 @@
         font-size: 11px;
         color: #666;
         text-decoration: none;
+        letter-spacing: 0px;
         transition: all 0.4s ease-in-out;
     }
     a.fixed-link-top:hover{
         color: #000;
+        letter-spacing: 0.6px;
     }
 
 
@@ -1065,7 +1067,7 @@
         display: flex;
     }
     .etvCont a {margin: auto;}
-    .etvCont a img{max-width: 150%;max-height: none;}
+    .etvCont a img{max-width: 150%;max-height: none;height: inherit;}
     .borderRight{border-right: 1px solid #999;}
     .borderLeft{border-left: 1px solid #999;}
     .portfolioItem div.thumbnail.second{
@@ -1826,7 +1828,7 @@
     .sectionalCont.pull-left p:after {
         content: " ";
         display: block;
-        clear: both;
+        clear: both;    
     }
     .sectionalCont.pull-left {
         padding-left: 24px;
