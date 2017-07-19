@@ -30,7 +30,10 @@
         $locationProvider.html5Mode({
             enabled:true
         });
-        
+        //console.log(lazyImgConfigProvider);
+        lazyImgConfigProvider.setOptions({
+            offset:800
+        });
         $routeProvider.otherwise({ redirectTo: '/animate' });
 
         //var scrollable = document.querySelector('#scrollable');
