@@ -1394,6 +1394,7 @@
         height: 75px;
     }
     .contentTypeDiv a{text-decoration:none;}
+
     .contentTypeDiv img {
         position: absolute;
         width: auto;
@@ -1401,6 +1402,12 @@
         z-index: -1;
         min-height: 100%;
         min-width: 100%;
+        filter: blur(0px);
+        transition: all 0.2s ease-in-out;
+    }
+    .contentTypeDiv:hover img {
+        filter: blur(3px);
+        transition: all 0.2s ease-in-out;
     }
 
     ul.barsCont {
@@ -1483,6 +1490,11 @@
     .mainBodyContainerFull{
         height: 0;
         padding-top: 1000px;
+        opacity: 1;
+    }
+    .mainBodyContainerFull.mainBodyContainerFullComp{
+        height: initial;
+        padding-top: 0;
         opacity: 1;
     }
     .referInt {
@@ -1916,7 +1928,33 @@
     .headerDivider{
         height: 1px;
         width: 100%;
-        background-image: linear-gradient(to right, rgba(255,255,255,0.0), rgba(255,255,255,0.2) 20%,rgba(255,255,255,0.2) 20%,rgba(255,255,255,0.2) 80%,rgba(255,255,255,0.2) 80%,rgba(255,255,255,0.0) 100%);
+        background-image: 
+        -webkit-linear-gradient(
+            left, rgba(255,255,255,0.0), 
+            rgba(255,255,255,0.2) 20%, 
+            rgba(255,255,255,0.2) 20%, 
+            rgba(255,255,255,0.2) 80%, 
+            rgba(255,255,255,0.2) 80%, 
+            rgba(255,255,255,0.0) 100%
+        );
+        background-image: 
+        -o-linear-gradient(left,
+            rgba(255,255,255,0.0),
+            rgba(255,255,255,0.2) 20%,
+            rgba(255,255,255,0.2) 20%,
+            rgba(255,255,255,0.2) 80%,
+            rgba(255,255,255,0.2) 80%,
+            rgba(255,255,255,0.0) 100%
+        );
+        background-image: 
+        linear-gradient(to right,
+            rgba(255,255,255,0.0),
+            rgba(255,255,255,0.2) 20%,
+            rgba(255,255,255,0.2) 20%,
+            rgba(255,255,255,0.2) 80%,
+            rgba(255,255,255,0.2) 80%,
+            rgba(255,255,255,0.0) 100%
+        );
     }
 
 
@@ -3054,6 +3092,10 @@ span.arrText {
     height: 50px;
     transform: translate3d(0px,0,0);
 }
+.inverstorSections ul.nav.nav-tabs>li>a:focus{
+    border:none;
+    outline: none;
+}
 .inverstorSections ul.nav.nav-tabs>li>a{
     font-family: 'Geogrotesque';
     color: #ccc;
@@ -3061,7 +3103,7 @@ span.arrText {
     line-height: 24px;
     margin:0;
     border:none;
-    border-bottom: 1px solid transparent;
+    
     transition: all 0.4s ease-in-out;
 }
 .inverstorSections ul.nav.nav-tabs{
@@ -3077,7 +3119,6 @@ span.arrText {
 .inverstorSections ul.nav.nav-tabs>li.active>a{
     color: #333;
     border:none;
-    border-bottom: 1px solid #333;
 }
 .transUp{
     transition: all 1.2s ease;
@@ -3204,7 +3245,23 @@ img.transUp{
     font-family: 'GeoMed';
 }
 
-
+.sld_foc_cont{
+    background: transparent;
+    display: block;
+    height: 1px;
+    transform: translateX(14px);
+    position: relative;
+    z-index: 100;
+}
+.sliding_focus{
+    position: absolute;
+    width: 10%;
+    transition: all 0.8s ease-in-out;
+    left: 0;
+    background: #333;
+    height: 1px;
+    top:60px;
+}
 
 
 
