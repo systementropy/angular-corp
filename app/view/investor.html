@@ -29,8 +29,9 @@
 			<div class="inverstorSections">
 				<h1 style="margin-left: 5px;">Financial Statement</h1>
 				<!-- <h3 style="margin-left:9px;"><b>2016-17</b></h3> -->
+				<div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foc}}0%;"></span></div>
 				<uib-tabset active="activeJustified" justified="true">
-					<uib-tab index="0" heading="2016-17">
+					<uib-tab ng-click="changeFoc(0)" index="0" heading="2016-17">
 						<section class="investor-pdf-links-new clearAfter">
 
 							<ol class="list-group">
@@ -88,7 +89,7 @@
 							</ol>
 						</section>
 					</uib-tab>
-					<uib-tab index="1" heading="2015-16">
+					<uib-tab ng-click="changeFoc(1)" index="1" heading="2015-16">
 						<section class="investor-pdf-links-new clearAfter">
 
 							<ol class="list-group">
@@ -127,7 +128,7 @@
 							</ol>
 						</section>
 					</uib-tab>
-					<uib-tab index="2" heading="2014-15">
+					<uib-tab ng-click="changeFoc(2)" index="2" heading="2014-15">
 						<section class="investor-pdf-links-new clearAfter">
 
 							<ol class="list-group">
@@ -166,7 +167,7 @@
 							</ol>
 						</section>
 					</uib-tab>
-					<uib-tab index="3" heading="2013-14">
+					<uib-tab ng-click="changeFoc(3)" index="3" heading="2013-14">
 						<section class="investor-pdf-links-new clearAfter">
 
 							<ol class="list-group">
@@ -207,7 +208,7 @@
 							</ol>
 						</section>
 					</uib-tab>
-					<uib-tab index="4" heading="2012-13">
+					<uib-tab ng-click="changeFoc(4)" index="4" heading="2012-13">
 						<section class="investor-pdf-links-new clearAfter">
 
 							<ol class="list-group">
@@ -246,7 +247,7 @@
 							</ol>
 						</section>
 					</uib-tab>
-					<uib-tab index="5" heading="2011-12">
+					<uib-tab ng-click="changeFoc(5)" index="5" heading="2011-12">
 						<section class="investor-pdf-links-new clearAfter">
 
 							<ol class="list-group">
@@ -285,7 +286,7 @@
 							</ol>
 						</section>
 					</uib-tab>
-					<uib-tab index="6" heading="2010-11">
+					<uib-tab ng-click="changeFoc(6)" index="6" heading="2010-11">
 						<section class="investor-pdf-links-new clearAfter">
 
 							<ol class="list-group">
@@ -324,7 +325,7 @@
 							</ol>
 						</section>
 					</uib-tab>
-					<uib-tab index="7" heading="2009-10">
+					<uib-tab ng-click="changeFoc(7)" index="7" heading="2009-10">
 						<section class="investor-pdf-links-new clearAfter">
 
 							<ol class="list-group">
@@ -363,7 +364,7 @@
 							</ol>
 						</section>
 					</uib-tab>
-					<uib-tab index="8" heading="2008-09">
+					<uib-tab ng-click="changeFoc(8)" index="8" heading="2008-09">
 						<section class="investor-pdf-links-new clearAfter">
 
 							<ol class="list-group">
@@ -402,7 +403,7 @@
 							</ol>
 						</section>
 					</uib-tab>
-					<uib-tab index="9" heading="2007-08">
+					<uib-tab ng-click="changeFoc(9)" index="9" heading="2007-08">
 						<section class="investor-pdf-links-new clearAfter">
 
 							<ol class="list-group">

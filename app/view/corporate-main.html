@@ -1,4 +1,4 @@
-<div class="mainBodyContainerFull" style="padding-top: 0; opacity: 0; height: 0;">
+<div class="mainBodyContainerFull mainBodyContainerFullComp" style="">
 	<div class="headerFiller"></div>
 	<a class="fixed-link-top" href="/corporate">BACK TO ABOUT US</a>
 	<div class="bottomSticky">
@@ -714,35 +714,35 @@
 
 			var maxWidth = 0;
 
-			var windowHeight = $(window).height();
-			$('.mainBodyContainerFull').animate({
-				height: windowHeight+'px',
-				opacity:1
-				},
-				1000, function() {
-					$('.dispHallmarkCont:eq(0)').animate({
-						opacity: 1,
-						},
-						350, 'easeInOutQuad', function() {
-							$('.dispHallmarkCont:eq(1)').animate({
-								opacity: 1,
-								},
-								350, 'easeInOutQuad', function() {
-									$('.dispHallmarkCont:eq(2)').animate({
-										opacity: 1,
-										},
-										350, 'easeInOutQuad', function() {
-											$('.dispHallmarkCont:eq(3)').animate({
-												opacity: 1,
-												},
-												350, 'easeInOutQuad', function() {
+			//var windowHeight = $(window).height();
+			// $('.mainBodyContainerFull').animate({
+			// 	height: windowHeight+'px',
+			// 	opacity:1
+			// 	},
+			// 	1000, function() {
+			// 		$('.dispHallmarkCont:eq(0)').animate({
+			// 			opacity: 1,
+			// 			},
+			// 			350, 'easeInOutQuad', function() {
+			// 				$('.dispHallmarkCont:eq(1)').animate({
+			// 					opacity: 1,
+			// 					},
+			// 					350, 'easeInOutQuad', function() {
+			// 						$('.dispHallmarkCont:eq(2)').animate({
+			// 							opacity: 1,
+			// 							},
+			// 							350, 'easeInOutQuad', function() {
+			// 								$('.dispHallmarkCont:eq(3)').animate({
+			// 									opacity: 1,
+			// 									},
+			// 									350, 'easeInOutQuad', function() {
 
-											});
-									});
-							});
-					});
-				}
-			);
+			// 								});
+			// 						});
+			// 				});
+			// 		});
+			// 	}
+			// );
 
 			$('.historyCompContainer').on('mouseleave', function(event) {
 				$('.timeline-label.one').addClass('active');

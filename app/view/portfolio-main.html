@@ -1,5 +1,5 @@
 
-<div class="mainBodyContainerFull" style="padding-top: 0; opacity: 0; height: 0;">
+<div class="mainBodyContainerFull mainBodyContainerFullComp" style="">
 	<div class="headerFiller"></div>
 	<a class="fixed-link-top" href="/portfolio">BACK TO PORTFOLIO</a>
 	<div class="bottomSticky">
@@ -1030,13 +1030,13 @@
 			var maxWidth = 0;
 
 			var windowHeight = $(window).height();
-			$('.mainBodyContainerFull').animate({
+			// $('.mainBodyContainerFull').animate({
 				
-				opacity:1
-				},
-				1000, function() {
+			// 	opacity:1
+			// 	},
+			// 	1000, function() {
 
-			});
+			// });
 			$('.divOnFocus').on('mouseenter', function(event) {
 				moveToThis($(this).attr('num'));
 			});

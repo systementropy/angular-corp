@@ -23,7 +23,8 @@
         'myApp.test',
         'myApp.contact',
         'angularLazyImg',
-        'angular-nicescroll'
+        'angular-nicescroll',
+        'ngFileUpload'
     ]).
     config(['$locationProvider', '$routeProvider','lazyImgConfigProvider', function($locationProvider, $routeProvider,lazyImgConfigProvider) {
         $locationProvider.hashPrefix('!');
