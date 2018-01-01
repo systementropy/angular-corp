@@ -63,6 +63,7 @@
                 for(var i=0; i<response.data.length; i++){
                     if (response.data[i].Folio_Number==$scope.inputData.nw18iepfUI) {
                         $scope.memberInfoUI = response.data[i];
+                        console.log($scope.memberInfoUI);
                         break;
                     }
                 }

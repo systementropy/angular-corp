@@ -17,7 +17,7 @@
 	<div class="portfolioContainer portfolioContainerAni portCOntMAIN" >
 		<div class="newsVideoCont videTextCont  divOnFocus" num="1" id="portfolioNews">
 			<h2 class="videoOverText">Recent. Relevant. Refreshing</h2>
-			<div class="video-cont" style="height: 710px;">
+			<div class="video-cont" style="height: 71vh;">
 				<div class="vid-bg"></div>
 				<video width="100%" autoplay loop>
 					<source src="images/news-22893325.mp4" type="video/mp4" class="top">
@@ -110,7 +110,7 @@
 						<div class="para_txt_cont o2" style="margin:0;">
 							<div class="para_txt_inner">
 								<img lazy-img="/images/portfolio/News18Global.jpg" alt="" class="longImg">
-								<img lazy-img="/images/resized/NEWS18-com.gif" alt="" class="">
+								<img lazy-img="/images/resized/News18_global.png" alt="" class="" style="height: 50px;margin:20px 10%;">
 								<p du-parallax y="transY" class="moveOnHover wid80" style="margin-bottom: 42px;">
 									News18(International) is designed to give global audiences a window into India. The channel is present in the United States, Canada, United Kingdom, Singapore, and the Middle East, and is a definitive destination for the Indian diaspora, a community of high achievers representing substantial business interests in India.
 								</p>
@@ -123,11 +123,11 @@
 									Driven by a commitment to question the status quo, News18 India is today a leading voice in Hindi News. The channel’s strong, purposeful reportage of key issues (captured by the baseline, ‘Danke Ki Chot Par’) has made it urban India’s leading channel at prime time. With voices like those of Kishore Ajwani, Amish Devgan and Sumit Awasthi, the channel offers substantive journalism typified by constructive criticism.
 								</p>
 								
-								<img lazy-img="/images/screenshots/anchor_HINDI.jpg" alt="" class="longImg" style="display: block; margin: auto;">
+								<img lazy-img="/images/portfolio/news18india_hindi.png" alt="" class="longImg" style="display: block; margin: auto;">
 								
 							</div>
 							<div class="para_txt_inner mobShow" >
-								<img lazy-img="/images/screenshots/anchor_HINDI.jpg" alt="" class="longImg">
+								<img lazy-img="/images/portfolio/news18india_hindi.png" alt="" class="longImg">
 								<img lazy-img="/images/resized/NEWS18-India.gif" alt="">
 								<p du-parallax y="transY" class="moveOnHover wid80" style="margin-bottom: 18%;">
 									News18 India is driven by a commitment to question the status quo. Substantive journalism typified by constructive criticism is the defining credo of the channel. In line with its positioning ‘Danke Ki Chot Par’, the channel adopts a no holds barred approach on key issues focused on pursuing stories that have a positive impact on society.
@@ -147,7 +147,7 @@
 							
 						</div>
 					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont parallaxOneCont2brand trans0" style="height: auto;">
+					<div du-parallax opacity="fadeIn" class="parallaxOneCont parallaxOneCont2brand trans0" style="height: auto; min-height: 400px;">
 						<div class="para_txt_cont o2 etvRemStyle" du-parallax y="foregroundimgz2m2slow" style="height: 300px;flex-grow: 2;left: 40px;padding: 40px 25px;z-index: 1;">
 							<div class="para_txt_inner right" style="max-width: 100%;background: rgba(249,230,228,0.8);">
 
@@ -162,36 +162,29 @@
 						</div>
 						<div class="para_txt_cont o2" style="flex-grow: 3; margin-top: 25px;">
 							<div class="etvCont mobHide" style="">
-								<a href=""><img class="dec" lazy-img="images/portfolio/News18Urdu.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18Rajasthan.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18BiharJharkhand.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18MPChattisgarh.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18UPandUK.png" alt=""></a>
-							</div>
-							<div class="etvCont mobHide">
-								<a href=""><img class="dec" lazy-img="images/portfolio/News18TamilnaduLogo.png" alt="" style=""></a>
-								<a href=""><img class="dec" lazy-img="images/portfolio/News18Bangla.png" alt=""></a>
-								<a href=""><img class="dec" lazy-img="images/portfolio/News18KannadaLogo.png" alt=""></a>
-								<a href=""><img class="dec" lazy-img="images/portfolio/News18Gujarati.png" alt=""></a>
-								<a href=""><img class="dec" lazy-img="images/portfolio/News18Odiya.png" alt=""></a>
+								<a href="" ng-repeat="i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14] track by $index">
+									<img lazy-img="images/portfolio/Logos/{{$index+1}}.png" alt="">
+								</a>
 							</div>
 							<div class="etvMobCont mobShow clearfix">
-								<a href=""><img lazy-img="images/portfolio/News18Urdu.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18Rajasthan.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18BiharJharkhand.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18MPChattisgarh.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18UPandUK.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18TamilnaduLogo.png" alt="" style=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18Bangla.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18KannadaLogo.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18Gujarati.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/News18Odiya.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/news18assamnortheastcombined.png" alt=""></a>
-								<a href=""><img lazy-img="images/portfolio/NEWS18KeralaLOGO.png" alt=""></a>
+								<a href="" ng-repeat="i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14] track by $index">
+									<img lazy-img="images/portfolio/Logos/{{$index+1}}.png" alt="">
+								</a>
+								<!-- <a href=""><img lazy-img="images/portfolio/Logos/News18Rajasthan.png" alt=""></a>
+								<a href=""><img lazy-img="images/portfolio/Logos/News18BiharJharkhand.png" alt=""></a>
+								<a href=""><img lazy-img="images/portfolio/Logos/News18MPChattisgarh.png" alt=""></a>
+								<a href=""><img lazy-img="images/portfolio/Logos/News18UPandUK.png" alt=""></a>
+								<a href=""><img lazy-img="images/portfolio/Logos/News18TamilnaduLogo.png" alt="" style=""></a>
+								<a href=""><img lazy-img="images/portfolio/Logos/News18Bangla.png" alt=""></a>
+								<a href=""><img lazy-img="images/portfolio/Logos/News18KannadaLogo.png" alt=""></a>
+								<a href=""><img lazy-img="images/portfolio/Logos/News18Gujarati.png" alt=""></a>
+								<a href=""><img lazy-img="images/portfolio/Logos/News18Odiya.png" alt=""></a>
+								<a href=""><img lazy-img="images/portfolio/Logos/news18assamnortheastcombined.png" alt=""></a>
+								<a href=""><img lazy-img="images/portfolio/Logos/NEWS18KeralaLOGO.png" alt=""></a> -->
 							</div>
 						</div>
 					</div>
-					<div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneContWith2scrn z2 trans0" style="">
+					<!-- <div du-parallax opacity="fadeIn" class="parallaxOneCont  parallaxOneContWith2scrn z2 trans0" style="">
 						<div class="para_img_cont o1 mobo2 lokmatAnchImgCont" style="" >
 							<img lazy-img="/images/portfolio/news18lokmat.jpg" alt="" class="lokmatAnchImg mobHide">
 							<img src="/images/portfolio/news18lokmat.jpg" alt="" class="lokmatAnchImg mobShow">
@@ -206,7 +199,7 @@
 								</p>
 							</div>
 						</div>
-					</div>
+					</div> -->
 					
 				</div>
 			</div>
@@ -336,10 +329,10 @@
 						</div>
 					</div>
 					<div du-parallax opacity="fadeIn" class="parallaxOneCont" >
-						<div class="para_img_cont o2 mobo1" du-parallax y="foregroundimg">
-							<img lazy-img="/images/portfolio/CNBC_r.jpg" alt="">
+						<div class="para_img_cont o1 mobo1" du-parallax y="foregroundimg">
+							<img lazy-img="/images/portfolio/voot.jpg" alt="">
 						</div>
-						<div class="para_txt_cont o1 mobo2">
+						<div class="para_txt_cont o2 mobo2">
 							<div class="para_txt_inner wid80">
 								<img lazy-img="/images/resized/voot.gif" alt="">
 								<p du-parallax y="transY" class="moveOnHover">
@@ -828,7 +821,7 @@
 				<span class="animateHeightBg"></span>
 			</div>
 		</div>
-		<div class="whiteBgParl divOnFocus" num="6" du-parallax opacity="fadeIn" style="height: 750px;">
+		<div class="whiteBgParl divOnFocus" num="6" du-parallax opacity="fadeIn" style="height: 500px;">
 			<div class="container" style="margin-top: 0;">
 	 			<div class="portfolioMainCont distriThmb" >
 	 				<h1 style="line-height: 120px;padding-top: 60px;margin-left: -5px;padding-bottom: 20px;">Distribution</h1>
@@ -867,67 +860,6 @@
 			var $window = $(window),
 			win_height_padded = $window.height() * 1.1;
 			
-			// function reveal() {
-			//      var scrolled = $window.scrollTop();
-			//      $(":not(.animated)").each(function () {
-			//        var $this = $(this),
-			//            offsetTop = $this.offset().top;
-			 
-			//        if (scrolled + win_height_padded > offsetTop) {
-			//          if ($this.data('timeout')) {
-			//            window.setTimeout(function(){
-			//              $this.addClass('animated ' + $this.data('animation'));
-			//            }, parseInt($this.data('timeout'),10));
-			//          } else {
-			//            $this.addClass('animated ' + $this.data('animation'));
-			//          }
-			//        }
-			//      });
-			// };
-			// $window.on('scroll',reveal);
-			//$(window).scroll(function () {
-
-				// $('.moveOnHover').each(function() {
-					
-				// 	// $(this).stop().animate({
-				// 	// 	lineHeight : 20,
-				// 	// 	paddingTop: 0
-				// 	// },1000, function() {
-						
-				// 	// });
-				// });
-				
-				// var iCurScrollPos = $(this).scrollTop();
-				// if (!timeout) {
-			 //        timeout = setTimeout(function () {
-			 //            clearTimeout(timeout);
-			 //            timeout = null;
-			 //            if (iCurScrollPos > iScrollPos) {
-			 //            	$('.moveOnHover').each(function() {
-			 //            		// $(this).stop().animate({
-			 //            		// 	lineHeight : 24,
-			 //            		// 	paddingTop: 20
-			 //            		// },1000, function() {
-			            			
-			 //            		// });
-			 //            	});
-				// 		} else {
-				// 			$('.moveOnHover').each(function() {
-				// 				// $(this).stop().animate({
-				// 				// 	lineHeight : 24,
-				// 				// 	paddingTop: -20
-				// 				// },1000, function() {
-									
-				// 				// });
-				// 			});
-				// 		}
-				// 		iScrollPos = iCurScrollPos;
-			 //        }, 400);
-			 //    }
-				
-			//});
-
-
 			var vid1 = document.getElementById("myVideo1");
 			vid1.playbackRate = 0.5;
 			var vid2 = document.getElementById("myVideo2");
@@ -946,10 +878,6 @@
 				});
 				$('#moveHighlight').addClass('move');
 				setTimeout(function () {
-					// $('#moveHighlight').css({
-					// 	transition: "all 0.3s cubic-bezier(.23,1,.32,1)",
-					// 	'transform': 'translateY(50px)'
-					// });
 
 					var bot_val=0;
 					if(num == 1){
@@ -985,51 +913,11 @@
 			var maxWidth = 0;
 
 			var windowHeight = $(window).height();
-			// $('.mainBodyContainerFull').animate({
-				
-			// 	opacity:1
-			// 	},
-			// 	1000, function() {
-
-			// });
 			$('.divOnFocus').on('mouseenter', function(event) {
 				moveToThis($(this).attr('num'));
 			});
 			var timeout = null;
-			// $(window).scroll(function () {
-			//     if (!timeout) {
-			//         timeout = setTimeout(function () {
-			//             clearTimeout(timeout);
-			//             timeout = null;
-			            
-			//         }, 50);
-			//     }
-			// });
-			// $('.revolvingSlider').slick({
-			// 	centerMode: true,
-			// 	slidesToShow: 1,
-			// 	dots: true,
-			// 	responsive: [
-			// 	    {
-			// 	      breakpoint: 768,
-			// 	      settings: {
-			// 	        arrows: false,
-			// 	        centerMode: true,
-			// 	        centerPadding: '40px',
-			// 	        slidesToShow: 1
-			// 	      }
-			// 	    },
-			// 	    {
-			// 	      breakpoint: 480,
-			// 	      settings: {
-			// 	        arrows: false,
-			// 	        centerMode: true,
-			// 	        centerPadding: '40px',
-			// 	        slidesToShow: 1
-			// 	      }
-			// 	    }
-			// 	]
-			// });
+			
 
 		});
 	</script>

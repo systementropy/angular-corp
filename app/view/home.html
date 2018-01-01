@@ -125,10 +125,10 @@
 			</div>
 			<div class="career-empl-cont">
 				<slick class="" prev-arrow=".empPrev" next-arrow=".empNext" ng-if="eventEnd" autoplay="true" dots="true">
-					<div class="row boardDirMainCont" ng-repeat="i in [1,2,3,4] track by $index">
+					<div class="row boardDirMainCont" ng-repeat="i in [1,2,3,4,5,6] track by $index">
 						<div class="col-md-12">
-							<img src="/images/18_1/{{$index+1}}.png" alt="" ng-if="$index==0">
-							<img src="/images/18_1/{{$index+1}}.png" alt="" ng-if="$index!=0" class="small">
+							<!-- <img src="/images/18_1/{{$index+1}}.png" alt="" > -->
+							<img src="/images/18_1/{{$index+1}}.png" alt=""  class="small">
 						</div>
 					</div>
 				</slick>
@@ -179,31 +179,37 @@
 				});
 			};
 			$('.open').on('click', function(e){
+				$('.fixed-link-top').hide();
+				$('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 600, 'easeInOutCirc', function(){
+					maxWidth = $('.containerHeaderLinks').width();
+					$('.subCrumbsCont').css('left', $('.containerHeaderLinks').offset().left);
+					$('.subCrumbsCont').width(maxWidth);
+				});
 				if (windowWid>1000) {
-					$('.fixed-link-top').hide();
-					$('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 300, 'easeInOutQuad', function(){
-						maxWidth = $('.containerHeaderLinks').width();
-						$('.subCrumbsCont').css('left', $('.containerHeaderLinks').offset().left);
-						$('.subCrumbsCont').width(maxWidth);
-					});
 					setTimeout(function () {
 						$('.header_bg_img').addClass('active');
 						setTimeout(function(){
 							$('.header_bg_img').removeClass('active');
 						},4000);
 					},300);	
+				}else{
+					$('.header_bg_img.mobShow').addClass('activate');
 				}
 				
+			});
+			$('.closeBtn').on('click',function(){
+				$('.fixed-link-top').show();
+				if (windowWid<1000) {
+					$('.header_bg_img.mobShow').removeClass('activate');
+					$('.headerMainContainer').animate({top: 0+'%',left:-110+'%',width:0,opacity:0}, 600, 'easeInOutCirc');
+				}else {
+					$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 600, 'easeInOutCirc');	
+
+				}
 			});
 			$('.headerMainContainer').height(windowHeight);
 			$('#headerLinkCont').height(windowHeight-80);
-			$('.closeBtn').on('click',function(){
-				$('.fixed-link-top').show();
-				if (windowWid>1000) {
-					$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');	
-				}
-				
-			});
+
 			var windowHeight = $(window).height();
 			
 			$('.mainBodyContainerFull').animate({

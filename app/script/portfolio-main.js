@@ -55,6 +55,7 @@
 	    		$scope.anmtXfrmR = parallaxHelper.createAnimator(0.9, 300, 0, -1100);
 	    		$scope.anmtXfrmLFade2 = parallaxHelper.createAnimator(0.4, 0, 1, -650);
 	    		$scope.foreground = parallaxHelper.createAnimator(0.1, 0, -1000,-400);
+	    		$scope.foregroundPub = parallaxHelper.createAnimator(0.1, 0, 0,-200);
 	    		$scope.foregroundvf = parallaxHelper.createAnimator(0.15, 100, -1000,-400);
 	    		$scope.backgroundimg = parallaxHelper.createAnimator(-0.1, 0, 0,-400);
 	    		$scope.foregroundimg = parallaxHelper.createAnimator(0.1, 1000, -1000,-400);
