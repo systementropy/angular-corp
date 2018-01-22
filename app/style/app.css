@@ -3262,7 +3262,9 @@ img.transUp{
     height: 1px;
     top:60px;
 }
-
+.portMainCont{
+    height:100%; overflow:hidden;padding: 0;
+}
 
 
 
@@ -3270,6 +3272,40 @@ img.transUp{
     .frontText h2{font-size: 25px;line-height: 1;}
     .frontText h1{font-size: 40px;line-height: 1;}
     .frontText h5{font-size: 16px;}
+    .dispContRow{display: none;}
+    .dispContRow.mobVr{display: block;margin: 0;}
+    .contentTypeDiv {
+        width: 50%;
+        margin: 0;
+        padding: 15px;
+        box-sizing: border-box;
+        overflow: hidden;
+        opacity: 1;
+    }
+    .portMainCont{
+        height: auto;
+        overflow: visible;
+    }
+    .contentTypeDiv p.front{display: none;}
+    .contentTypeDiv .back{
+        height: 100%;
+        opacity: 1;
+        top: 0;
+    }
+    .contentTypeDiv a {
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        display: block;
+        position: relative;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .contentTypeDiv {
+        width: 100%;
+        margin: 0;
+    }
 }
 
 
