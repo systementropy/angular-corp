@@ -1733,10 +1733,12 @@
     .video-cont video.bot{
         bottom: 0;
         top: auto;
+        transform: translate(-50%,0);
     }
     .video-cont video.top{
         top:0;
         bottom: auto;
+        transform: translate(-50%,0);
     }
     .entVideoCont{margin-top: 0px;}
     .vid-bg{
