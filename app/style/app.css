@@ -1720,12 +1720,23 @@
     .video-cont video{
         opacity: 1;
         position: absolute;
+        opacity: 1;
+        position: absolute;
+        min-height: 100%;
+        min-width: 100%;
+        height: auto;
+        width: auto;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
     }
     .video-cont video.bot{
         bottom: 0;
+        top: auto;
     }
     .video-cont video.top{
         top:0;
+        bottom: auto;
     }
     .entVideoCont{margin-top: 0px;}
     .vid-bg{
