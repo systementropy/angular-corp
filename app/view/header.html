@@ -137,7 +137,20 @@
 
     var maxWidth = 0;
     var windowHeight = $(window).height();
-
+    var windowWid = $(window).width();
+    var ar = windowWid/windowHeight;
+    console.log(ar);
+    if (ar<1.7626) {
+      $('.headerMainContainer>img').css({
+        height: '100vh',
+        width: 'auto'
+      });
+    }else {
+      $('.headerMainContainer>img').css({
+        height: 'auto',
+        width: '100vw'
+      });
+    }
     $('.open').on('click', function(e){
       $('.fixed-link-top').hide();
       $('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 300, 'easeInOutQuad', function(){

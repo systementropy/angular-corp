@@ -705,12 +705,13 @@
     .headerMainContainer>img {
         z-index: -10;
         width: 120vw;
-        max-height: none;
+        
         position: absolute;
+        top: 50%;
         left: 50%;
-        transform: translateX(-50%) ;
-        max-width: none;
-        max-height: none;
+        transform: translate(-50%,-50%) ;
+        max-width: unset;
+        max-height: unset;
     }
 
 
@@ -2694,15 +2695,15 @@
 
     @-moz-keyframes scaleUpDown{
 
-        0%   {transform: translateX(-50%) scale(1.005);}
-        50%   {transform: translateX(-50%) scale(1.01);}
-        100%   {transform: translateX(-50%) scale(1);}
+        0%   {transform: translate(-50%,-50%) scale(1.005);}
+        50%   {transform: translate(-50%,-50%) scale(1.01);}
+        100%   {transform: translate(-50%,-50%) scale(1);}
     }
 
     @-webkit-keyframes scaleUpDown{
-        0%   {transform: translateX(-50%) scale(1.005);}
-        50%   {transform: translateX(-50%) scale(1.01);}
-        100%   {transform: translateX(-50%) scale(1);}
+        0%   {transform: translate(-50%,-50%) scale(1.005);}
+        50%   {transform: translate(-50%,-50%) scale(1.01);}
+        100%   {transform: translate(-50%,-50%) scale(1);}
     }
 
 

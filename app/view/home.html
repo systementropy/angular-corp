@@ -133,7 +133,7 @@
     </div>
     <div class="videoContHome" style="" ng-class="{'inactive':eventEnd}">
 
-        <video id="home_vid" autoplay ui-event="{ ended : 'callOnEnd()'}">
+        <video id="home_vid" autoplay ui-event="{ ended : 'callOnEnd()'}" muted="true">
             <source src="images/abt_bg.mp4" type="video/mp4" class="top">
         </video>
 
@@ -155,7 +155,7 @@
             // $('#home_vid').on('ended', function(){
             //     console.log('ended');
             // });
-            document.querySelector('video').playbackRate = 2.7;
+            document.querySelector('video').playbackRate = 1;
             $('.open').on('click', function(e){
               $('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 300,function(){
                 maxWidth = $('.containerHeaderLinks').width();
