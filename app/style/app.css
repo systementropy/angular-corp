@@ -3329,12 +3329,27 @@ img.transUp{
         display: block;
         position: relative;
     }
+    #home_vid{
+        /*object-fit: cover;*/
+    }
+    .greyBG.footerSection .foot-link-cont{
+        width: 50%;
+    }
+    .greyBG.footerSection .foot-link-cont:first-child{padding-left: 0 !important;}
+    .footerSection .container>.row.clearAfter{margin:0;padding: 15px;}
+    .footerSection .container>.row{padding: 0 15px;}
+    .whiteBgParl>.container{width: auto;margin-left:15px;margin-right: 15px;}
+    .parallaxOneCont{height: auto;}
+    .parallaxOneCont.parallaxOneCont2brand{
+        flex-direction: column;
+    }
 }
 @media only screen and (max-width: 500px) {
     .contentTypeDiv {
         width: 100%;
         margin: 0;
     }
+    .headerPrimaryCont .col-md-5.col-sm-5.col-xs-5.text-right.pull-right{display: none;}
 }
 
 
