@@ -68,6 +68,12 @@
 	    	$scope.foregroundimgz2m2slow = parallaxHelper.createAnimator(0.2, 0, -1000,-1000);
 	    	var show_elt = $location.absUrl().split('#')[1];
 	    	$scope.showNews = false;
+	    	if ($(window).width()>1000) {
+	    		console.log('HERE');
+	    		$scope.duParallaxDesk='du-parallax';
+	    	}else{
+	    		$scope.duParallaxDesk = '';
+	    	}
 	    	if (show_elt == 'portfolioNews') {
 	    		$scope.showNews = true;
 	    		$scope.showElt = 'News';

@@ -3339,9 +3339,16 @@ img.transUp{
     .footerSection .container>.row.clearAfter{margin:0;padding: 15px;}
     .footerSection .container>.row{padding: 0 15px;}
     .whiteBgParl>.container{width: auto;margin-left:15px;margin-right: 15px;}
-    .parallaxOneCont{height: auto;}
+    .parallaxOneCont{height: auto;display: block;}
     .parallaxOneCont.parallaxOneCont2brand{
         flex-direction: column;
+    }
+    .para_img_cont img{
+        width: 100%;
+        max-width: 400px;
+        max-height: none;
+        display: block;
+        margin:0 auto;
     }
 }
 @media only screen and (max-width: 500px) {
@@ -3349,6 +3356,8 @@ img.transUp{
         width: 100%;
         margin: 0;
     }
+    .para_txt_inner{width: 100%;max-width: 100%;}
+    .para_img_cont{width: 60%;margin: 0 auto;}
     .headerPrimaryCont .col-md-5.col-sm-5.col-xs-5.text-right.pull-right{display: none;}
 }
 
