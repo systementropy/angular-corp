@@ -1301,7 +1301,16 @@
         font-size: 16px;
         line-height: 24px;
     }
-
+    .centerCoverText ul{
+        max-width: 280px;
+        margin: auto auto 30px auto;
+        width: 63%;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .centerCoverText ul li{
+        list-style-type: circle;
+    }
 
     .centerCoverText h3{ 
         font-family: 'Glober xBold';
