@@ -3298,6 +3298,42 @@ img.transUp{
 
 
 @media only screen and (max-width: 1000px) {
+    div#headerLinkCont {
+        display: flex !important;
+        flex-direction: column;
+    }
+    .headerOptCont {
+        position: static;
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .container.containerHeaderLinks {
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+        height: auto;
+        margin: 64px auto;
+    }
+    .headerCrumbs {
+        display: flex;
+        flex-basis: 16.6%;
+        height: 16.6%;
+        float: none;
+        width: 100%;
+        clear: both;
+        flex-grow: 1;
+    }
+    .headerCrumbs>span {
+        width: 100px;
+        height: 100%;
+        transform: translateY(0);
+        margin: auto 0;
+    }
+    .headerCrumbs>p{
+        margin:auto auto auto 0;
+    }
     .headerMainContainer>span{
         content: " ";
         display: block;
@@ -3306,6 +3342,9 @@ img.transUp{
         left: 0;
         width: 100%;
         height: 100%;
+    }
+    .headerSocialMnCnt{
+        position: static;
     }
     .frontText h2{font-size: 25px;line-height: 1;}
     .frontText h1{font-size: 40px;line-height: 1;}
