@@ -3297,9 +3297,22 @@ img.transUp{
 .mobShow{
     display: none !important;
 }
+.vMobShow{
+    display: none !important;
+}
 
 
 @media only screen and (max-width: 1000px) {
+    .container{
+        width: auto;
+        margin: 0 15px;
+    }
+    .headerPrimaryCont>div{
+        padding: 0;
+    }
+    .menuBrsCont{
+        text-align: right;
+    }
     .mobShow{
         display: block !important;
     }
@@ -3351,6 +3364,9 @@ img.transUp{
     .headerSocialMnCnt{
         position: static;
     }
+    .headerCrumbs .subCrumbsCont,.headerCrumbs:hover .subCrumbsCont{
+        display: none;
+    }
     a.fixed-link-top{
         top: 0;
         height: 26px;
@@ -3362,6 +3378,45 @@ img.transUp{
     }
     span.deskShow {
         display: none;
+    }
+    .row.box-flex {
+        margin: 0;
+        flex-direction: column;
+    }
+    .box-flex .col-md-3{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .box-flex .col-md-3 .box{
+        flex-basis: 31%;
+        margin: 25px auto;
+    }
+    .box-flex .col-md-6 {
+        order: -1;
+    }
+    .box{height: 200px;}
+    .box a{
+        font-size: 21px;
+        line-height: 21px;
+    }
+    .centerCoverText p,.centerCoverText ul{
+        max-width: 80%;
+        width: 80%;
+    }
+    img.corp-img-cont {
+        max-width: 100%;
+        max-height: none;
+        min-width: 100%;
+        min-height: 100%;
+        height: auto;
+        width: auto;
+    }
+    .boxTextBot {
+        position: absolute;
+        bottom: 8%;
+        left: 10%;
+        width: 80%;
     }
     .frontText h2{font-size: 25px;line-height: 1;}
     .frontText h1{font-size: 40px;line-height: 1;}
@@ -3415,6 +3470,34 @@ img.transUp{
         display: block;
         margin:0 auto;
     }
+}
+
+@media only screen and (max-width: 600px) {
+    .box-flex .col-md-3{
+        display: none;
+    }
+    .col-md-3.vMobShow{
+        display: block !important;
+    }
+    .col-md-3.vMobShow:after{
+        clear: both;
+        display: block;
+
+    }
+    .col-md-3.vMobShow .box{
+        width: 48%;
+        float: left;
+    }
+    .col-md-3.vMobShow .box:nth-child(odd){
+        margin-left: 0;
+        margin-right: 2%;
+    }
+    .col-md-3.vMobShow .box:nth-child(even){
+        margin-left: 2%;
+        margin-left: 0%;
+    }
+
+
 }
 @media only screen and (max-width: 500px) {
     .contentTypeDiv {
