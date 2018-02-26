@@ -498,6 +498,7 @@
     }
     section.greyBG.footerSection>.container {
         width: 50%;
+        margin: 0;
     }
     .footerSection.greyBG ul li{
         display: block;
@@ -3313,6 +3314,7 @@ img.transUp{
     .menuBrsCont{
         text-align: right;
     }
+    .mobHide{display: none !important;}
     .mobShow{
         display: block !important;
     }
@@ -3470,9 +3472,81 @@ img.transUp{
         display: block;
         margin:0 auto;
     }
+    .boardDirMainCont{
+
+    }
+    .mobDirEach{
+        display: flex;
+    }
+    .mobDirEach img{
+        max-height: 90%;
+        max-width: 150px;
+        margin: auto;
+        text-align: right;
+    }
+    .mobDirEachText {
+        flex-basis: 70%;
+        display: flex;
+    }
+    .mobDirEachText .inner{
+        margin: auto;
+        max-width: 80%;
+        height: auto;
+        background: transparent;
+    }
+    .boardDirMainCont h3{
+        margin: 12px 0;
+    }
+    .mobDirImgCont{
+        flex-basis: 30%;
+        text-align: center;
+        display: flex;
+        max-height: 400px;
+    }
+    .corpMainCont h1 {
+        font-size: 40px;
+        line-height: 1;
+        padding: 40px 0 !important;
+        margin: 0 !important;
+        letter-spacing: normal;
+    }
+    h1 span {
+        font-size: 28px !important;
+    }
+    .portfolioItem>.thumbnail.slider-thumbnail.toLeft, .portfolioItem>.thumbnail.toLeft,.portfolioItem>.thumbnail.slider-thumbnail.toRight, .portfolioItem>.thumbnail.toRight,.portfolioItem div.thumbnail.second{
+        padding: 15px 0 !important;
+        margin: auto;
+        border: none;
+    }
+    .portfolioMainCont .portfolioItem.corp_port{
+        width: 100%;
+        clear: both;
+    }
+    .portfolioItem>.thumbnail>div.imgThmbCont{
+        display: none;
+    }
+    .portfolioMainCont .thumbnail .caption{
+        display: flex;
+    }
+    .boxInside.transUp{
+        flex-basis: 30%;
+    }
+    .boxInside img.logoUp.mobShow{
+        max-height: 120px;
+        margin:auto;
+    }
+    .boxInside img{
+        box-shadow: none;
+    }
+    p.tranySl{
+        flex-basis: 70%;
+        padding-left: 25px;
+        padding-top: 60px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
+
     .box-flex .col-md-3{
         display: none;
     }
@@ -3496,7 +3570,39 @@ img.transUp{
         margin-left: 2%;
         margin-left: 0%;
     }
-
+    .mobDirEachText .inner{
+        margin: 0 auto auto;
+    }
+    .mobDirEach{
+        flex-direction: column;
+        margin: 0 -15px;
+    }
+    .mobDirEach img{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 100%;
+        max-width: unset;
+        max-height: unset;
+        transform: translate(-50%,-50%);
+    }
+    .mobDirImgCont{
+        width: 100vw;
+        height: 100vw;
+        border: 15px solid #FFF;
+        position: relative;
+        overflow: hidden;
+    }
+    .portfolioMainCont .thumbnail .caption{
+        flex-direction: column;
+    }
+    p.tranySl{
+        padding: 0;
+    }
+    .boxInside.transUp{
+        display: flex;
+        overflow: hidden;
+    }
 
 }
 @media only screen and (max-width: 500px) {
