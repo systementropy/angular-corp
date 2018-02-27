@@ -3603,6 +3603,14 @@ img.transUp{
         display: flex;
         overflow: hidden;
     }
+    .flex-cont.boardComitteFlexCont.tranySl{
+        flex-direction: column;
+    }
+    .boardComitteFlexCont>div:first-child{
+        margin-right: 0;
+        border-right:none;
+        margin-bottom: 40px;
+    }
 
 }
 @media only screen and (max-width: 500px) {
