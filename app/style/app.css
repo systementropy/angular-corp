@@ -498,7 +498,7 @@
     }
     section.greyBG.footerSection>.container {
         width: 50%;
-        margin: 0;
+        margin: 0 auto;
     }
     .footerSection.greyBG ul li{
         display: block;
@@ -530,6 +530,7 @@
     .footerSection.greyBG hr{border-color: #ccc;margin-bottom: 23px;}
     .container{
     	width: 80%;
+        min-width: 1080px;
         max-width: 1080px;
         padding: 0;
     	margin-left:auto;
@@ -3306,6 +3307,8 @@ img.transUp{
 @media only screen and (max-width: 1000px) {
     .container{
         width: auto;
+        min-width: unset;
+        max-width: unset;
         margin: 0 15px;
     }
     .headerPrimaryCont>div{
@@ -3542,6 +3545,32 @@ img.transUp{
         flex-basis: 70%;
         padding-left: 25px;
         padding-top: 60px;
+    }
+    .timelineSlider .flex-drop-opt {
+        position: static;
+        float: left;
+        display: block;
+        opacity: 1;
+        height: 300px;
+        padding: 0;
+        margin: 0 15px;
+    }
+    .timelineSlider .flex-dropdown-brand{
+        position: static;
+        display: block;
+        float: left;
+        height: 300px;
+        padding: 0;
+        margin: 0 15px;
+        opacity: 1;
+    }
+    .timelineSlider .flex-cont:after{
+        display: block;
+        clear: both;
+    }
+    .timelineSlider{overflow: hidden;}
+    .timelineSlider .sectionalCont.pull-left .col-md-3{
+        
     }
 }
 
