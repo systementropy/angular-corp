@@ -3506,14 +3506,14 @@ img.transUp{
         display: flex;
         max-height: 400px;
     }
-    .corpMainCont h1 {
+    .corpMainCont h1,.portfolioMainCont h1 {
         font-size: 40px;
-        line-height: 1;
+        line-height: 1 !important;
         padding: 40px 0 !important;
         margin: 0 !important;
         letter-spacing: normal;
     }
-    h1 span {
+    .corpMainCont h1 span {
         font-size: 28px !important;
     }
     .portfolioItem>.thumbnail.slider-thumbnail.toLeft, .portfolioItem>.thumbnail.toLeft,.portfolioItem>.thumbnail.slider-thumbnail.toRight, .portfolioItem>.thumbnail.toRight,.portfolioItem div.thumbnail.second{
@@ -3570,8 +3570,30 @@ img.transUp{
     }
     .timelineSlider{overflow: hidden;}
     .timelineSlider .sectionalCont.pull-left .col-md-3{
-        
+
     }
+    .row.distriTextCont{
+        flex-direction: column;
+    }
+    .row.distriTextCont .pull-left.text-center{
+        text-align: left;
+    }
+    .pull-left.distriText.borderLeft{
+        border-left: none;
+    }
+    .row.distriTextCont .pull-left.text-center img{
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    .parallaxOneCont.parallaxOneCont2brand.trans0{height: auto;}
+    .moviePosterCOnt{
+        margin: 5px auto;
+        text-align: center;
+    }
+    .moviePosterCOnt img{
+        width: 148px;
+    }
+    
 }
 
 @media only screen and (max-width: 600px) {
@@ -3641,13 +3663,14 @@ img.transUp{
         margin-bottom: 40px;
     }
 
+
 }
 @media only screen and (max-width: 500px) {
     .contentTypeDiv {
         width: 100%;
         margin: 0;
     }
-    .para_txt_inner{width: 100%;max-width: 100%;}
+    .parallaxOneCont.parallaxOneCont2brand .para_txt_inner, .para_txt_inner{width: 100%;max-width: 100%;}
     .para_img_cont{width: 60%;margin: 0 auto;}
     .headerPrimaryCont .col-md-5.col-sm-5.col-xs-5.text-right.pull-right{display: none;}
 }
