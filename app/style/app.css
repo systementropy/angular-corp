@@ -3596,7 +3596,27 @@ img.transUp{
     .moviePosterCOnt img{
         width: 148px;
     }
-
+    .para_txt_inner.publishItemInner img{margin: auto !important; height: 80px;}
+    .para_txt_inner.publishItemInner img.longImg {
+        order: -1;
+        max-height: 300px;
+        height: 300px;
+        max-width: unset;
+    }
+    .para_txt_inner.publishItemInner {
+        display: flex;
+        flex-direction: column;
+    }
+    .parallaxOneCont.parallaxOneCont2brand .publishItemInner.para_txt_inner p{
+        margin:0 !important;
+        max-width: 100%;
+    }
+    .portfolioMainCont .parallaxOneCont.parallaxOneCont2brand.trans0{
+        margin: 0 !important;
+    }
+    .para_txt_inner.publishItemInner {
+        margin-bottom: 42px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
