@@ -3531,8 +3531,11 @@ img.transUp{
     .portfolioMainCont .thumbnail .caption{
         display: flex;
     }
-    .boxInside.transUp{
+    .boxInside.transUp,.boxInside{
         flex-basis: 30%;
+    }
+    .boxInside.transUp,.boxInside>div{
+        margin:auto;
     }
     .boxInside img.logoUp.mobShow{
         max-height: 120px;
@@ -3593,7 +3596,7 @@ img.transUp{
     .moviePosterCOnt img{
         width: 148px;
     }
-    
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -3650,7 +3653,7 @@ img.transUp{
     p.tranySl{
         padding: 0;
     }
-    .boxInside.transUp{
+    .boxInside.transUp,.boxInside{
         display: flex;
         overflow: hidden;
     }
@@ -3663,7 +3666,15 @@ img.transUp{
         margin-bottom: 40px;
     }
 
-
+    .contTran.row {
+        padding: 0 15px;
+        margin: 0;
+    }
+    .row.contTran.contTranDig {
+        padding: 0;
+        margin: 0;
+    }
+    .portfolioItem div.thumbnail.second.noBorder:before,.portfolioItem div.thumbnail.second.noBorder:after{background: transparent;}
 }
 @media only screen and (max-width: 500px) {
     .contentTypeDiv {
