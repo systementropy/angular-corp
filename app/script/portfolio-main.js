@@ -71,12 +71,12 @@
 	    		$scope.fadeIn = parallaxHelper.createAnimator(0,1,1,0);
 	    		$scope.background = parallaxHelper.createAnimator(0,0,0,0);
 	    		$scope.background2 = parallaxHelper.createAnimator(0,0,0,0);
-	    		$scope.anmtXfrmLFade = parallaxHelper.createAnimator(0,0,0,0);
+	    		$scope.anmtXfrmLFade = parallaxHelper.createAnimator(0,1,1,0);
 	    		$scope.anmtXfrmL = parallaxHelper.createAnimator(0,0,0,0);
-	    		$scope.anmtXfrmL3 = parallaxHelper.createAnimator(0,0,0,0);
+	    		$scope.anmtXfrmL3 = parallaxHelper.createAnimator(0,1,1,0);
 	    		$scope.anmtXfrmR = parallaxHelper.createAnimator(0,0,0,0);
 	    		$scope.anmtXfrmR = parallaxHelper.createAnimator(0,0,0,0);
-	    		$scope.anmtXfrmLFade2 = parallaxHelper.createAnimator(0,0,0,0);
+	    		$scope.anmtXfrmLFade2 = parallaxHelper.createAnimator(0,1,1,0);
 	    		$scope.foreground = parallaxHelper.createAnimator(0,0,0,0);
 	    		$scope.foregroundvf = parallaxHelper.createAnimator(0,0,0,0);
 	    		$scope.backgroundimg = parallaxHelper.createAnimator(0,0,0,0);

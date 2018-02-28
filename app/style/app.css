@@ -3597,6 +3597,12 @@ img.transUp{
         width: 148px;
     }
     .para_txt_inner.publishItemInner img{margin: auto !important; height: 80px;}
+    img.longImg {
+        max-height: 300px;
+        height: 300px;
+        display: block;
+        margin: auto;
+    }
     .para_txt_inner.publishItemInner img.longImg {
         order: -1;
         max-height: 300px;
@@ -3616,6 +3622,32 @@ img.transUp{
     }
     .para_txt_inner.publishItemInner {
         margin-bottom: 42px;
+    }
+    .parallaxOneCont.trans0{
+        height: auto !important;
+    }
+    .aniOri{opacity: 1 !important;line-height: 1.4;position: static !important;}
+    .container.containerNoMar1K {
+        max-width: 100%;
+        padding: 0;
+        width: auto;
+        overflow: hidden;
+    }
+    .parallaxOneCont.parallaxOneCont2brand .para_txt_inner p{
+        margin:0;
+        max-width: 100%;
+    }
+    .etvInner{
+        padding: 0;
+    }
+    .paraTxtInnerRishtey{
+        background: rgba(249,230,228,0.8);
+        padding: 20px !important;
+        position: static !important;
+        top: 300px;
+    }
+    .parallaxOneCont.parallaxOneContWith2scrn .para_txt_inner{
+        width: 100%;
     }
 }
 
