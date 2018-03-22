@@ -3637,22 +3637,64 @@ img.transUp{
         margin:0;
         max-width: 100%;
     }
-    .etvInner{
-        padding: 0;
+    
+    
+    .parallaxOneCont.parallaxOneContWith2scrn .para_txt_inner{
+        width: 100%;
     }
+    .para_img_cont img.imgHidePar {
+        position: static;
+        margin: auto;
+        max-width: 100%;
+        max-height: 100%;
+        transform: translate(0);
+    }
+    .portfolioContainerAni.portfolioContainer .parallaxOneCont{
+        display: flex;
+    }
+    .portfolioContainerAni.portfolioContainer .parallaxOneCont .para_img_cont img{
+        width: 100%;
+        max-width: unset;
+        max-height: unset;
+        display: initial;
+        margin: auto;
+    }
+    .portfolioContainerAni.portfolioContainer .parallaxOneCont.parallaxOneCont2brand{
+        flex-direction: row;
+    }
+    .portfolioContainerAni.portfolioContainer img.longImg{
+        max-width: 100%;
+        max-height: unset;
+        height: auto;
+    }
+    .portfolioContainerAni.portfolioContainer .parallaxOneCont.parallaxOneContWith2scrn .para_txt_inner {
+        width: 80%;
+        max-width: none;
+    }
+    .portfolioContainerAni.portfolioContainer .parallaxOneCont.parallaxOneContWith2scrn .para_txt_cont.o2{height: auto !important; }
+    .portfolioContainerAni.portfolioContainer .parallaxOneCont.parallaxOneContBgImg.trans0{
+        min-height: 60vh;
+    }
+    .portfolioContainerAni.portfolioContainer .parallaxOneCont .para_img_cont img.splImg{
+        width: 50vw !important;
+        max-height: 100%;
+    }
+    .para_txt_inner.paraTxtInnerNick {
+        max-width: unset;
+    }
+    .para_txt_inner.paraTxtInnerRishtey {
+        width: 100%;
+        max-width: unset;
+    }
+}
+
+@media only screen and (max-width: 600px) {
     .paraTxtInnerRishtey{
         background: rgba(249,230,228,0.8);
         padding: 20px !important;
         position: static !important;
         top: 300px;
     }
-    .parallaxOneCont.parallaxOneContWith2scrn .para_txt_inner{
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 600px) {
-
     .box-flex .col-md-3{
         display: none;
     }

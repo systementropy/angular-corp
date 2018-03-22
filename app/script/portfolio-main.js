@@ -44,12 +44,11 @@
 
 
 	    $scope.init = function(){
-	    	if ($(window).width()>1000) {
+	    	if ($(window).width()>600) {
 	    		$scope.fadeIn = parallaxHelper.createAnimator(0.15, 0, 1,-850);
 	    		$scope.background = parallaxHelper.createAnimator(-0.1, 0, 0,-400);
 	    		$scope.background2 = parallaxHelper.createAnimator(0.1, -1000, 1000,-400);
 	    		$scope.anmtXfrmLFade = parallaxHelper.createAnimator(0.4, 0, 1, -650);
-
 	    		$scope.anmtXfrmL = parallaxHelper.createAnimator(0.4, -300, 100, -1400);
 	    		$scope.anmtXfrmL3 = parallaxHelper.createAnimator(0.4, -300, 0, -1400);
 	    		$scope.anmtXfrmR = parallaxHelper.createAnimator(0.9, 100, -278, -1100);
