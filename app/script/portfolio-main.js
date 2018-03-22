@@ -43,7 +43,7 @@
 	    };
 
 
-	    $scope.init = function(){
+	    function init(){
 	    	if ($(window).width()>600) {
 	    		$scope.fadeIn = parallaxHelper.createAnimator(0.15, 0, 1,-850);
 	    		$scope.background = parallaxHelper.createAnimator(-0.1, 0, 0,-400);
@@ -112,10 +112,12 @@
 	    	}else if (show_elt == 'portfolioPublishing') {
 	    		$scope.showElt = 'Publishing';
 	    		$scope.botVal='27px';
+	    	}else{
+	    		$scope.showElt = 'None';
 	    	}
             $rootScope.hideHeader=false;
         };
         
-        $scope.init();
+        init();
     }]);
 }());
