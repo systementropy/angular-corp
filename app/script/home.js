@@ -59,7 +59,7 @@
             }else{
                 $rootScope.hideHeader=true;
             }
-        };
+        }
         
         init();
 
