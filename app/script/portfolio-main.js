@@ -88,6 +88,7 @@
 	    		$scope.foregroundimgssc = parallaxHelper.createAnimator(0,0,0,0);
 	    		$scope.backgroundgroundimgm2z = parallaxHelper.createAnimator(0,0,0,0);
 	    		$scope.foregroundimgz2m2slow = parallaxHelper.createAnimator(0,0,0,0);
+	    		$scope.transY = parallaxHelper.createAnimator(0.4, 10, -10,-750);
 	    	}
 			
 	    	var show_elt = $location.absUrl().split('#')[1];
