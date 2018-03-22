@@ -151,8 +151,9 @@
         height: 'auto',
         width: '100vw'
       });
-    }
+    };
     $('.open').on('click', function(e){
+      
       $('.fixed-link-top').hide();
       $('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 300, 'easeInOutQuad', function(){
         maxWidth = $('.containerHeaderLinks').width();

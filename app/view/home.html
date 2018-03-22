@@ -1,4 +1,4 @@
-<div class="headerPrimaryCont animateHeader container-fluid text-center" style="background: transparent; top: 8px;">
+<div class="headerPrimaryCont animateHeader animateHeaderHome container-fluid text-center" style="background: transparent; top: 8px;">
     <div class="col-md-5 text-left pull-left"></div>
     <div class="col-md-2 text-center">
       <button class="headerBtnInfi btn btn-large open">
@@ -13,7 +13,7 @@
       
     </div>
   </div>
-  <div class="headerMainContainer"> 
+  <div class="headerMainContainer animateHeaderHome"> 
     
     <!-- <div class="video-cont">
       <div class="vid-bg">
@@ -177,7 +177,9 @@
             });
 
             var windowWidth = $(window).width();
-
+            if (windowWidth<1000) {
+              $('.animateHeaderHome').hide();
+            }
             // if (windowWidth > 1024 && windowHeight > 768) {
             //     var innerHeight = (windowHeight - 128) / 8;
             //     $('.inner').css({

@@ -13,10 +13,11 @@
         }
     ])
 
-    .controller('HomeCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+    .controller('HomeCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','$window', function($rootScope,$scope, $http,$timeout,$location,$window) {
         $scope.init = function(){
             $scope.eventEnd=false;
-            $rootScope.hideHeader=true;
+            
+
             $scope.slickConfig = {
                 
                 slidesToShow: 10,
@@ -59,5 +60,15 @@
             $scope.eventEnd=true;
 
         };
+
+        var w = angular.element($window);
+        var wWid=w.width();
+        var wHig=w.height();
+        if (wWid<1000) {
+            $scope.hideHeader=false;
+        }else{
+            $rootScope.hideHeader=true;
+        }
+
     }]);
 }());

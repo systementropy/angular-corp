@@ -3337,7 +3337,7 @@ img.transUp{
         flex-direction: column;
         flex-grow: 1;
         height: auto;
-        margin: 64px auto;
+        margin: 64px auto 64px 50px;
     }
     .headerCrumbs {
         display: flex;

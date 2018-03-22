@@ -12,7 +12,7 @@
         }
     ])
 
-    .controller('headerCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+    .controller('headerCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','$window', function($rootScope,$scope, $http,$timeout,$location,$window) {
         
     }]);
 }());
