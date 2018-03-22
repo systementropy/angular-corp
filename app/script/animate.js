@@ -16,19 +16,28 @@
         }
     ])
 
-    .controller('animateCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+    .controller('animateCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','$window', function($rootScope,$scope, $http,$timeout,$location,$window) {
         
 
 
         $scope.init = function(){
-            $rootScope.hideHeader=true;
+            // $rootScope.hideHeader=true;
+            var w = angular.element($window);
+            var wWid=w.width();
+            var wHig=w.height();
+            if (wWid<1000) {
+                $scope.hideHeader=false;
+            }else{
+                $rootScope.hideHeader=true;
+            }
+            $timeout(function() {
+                $scope.$apply(function() { $location.path("/home"); });
+                
+            }, 10000);
         };
         
         $scope.init();
 
-        $timeout(function() {
-            $scope.$apply(function() { $location.path("/home"); });
-            
-        }, 10000);
+        
     }]);
 }());
