@@ -117,7 +117,7 @@
 	    		$scope.showElt = 'None';
 	    	}
             $rootScope.hideHeader=false;
-        };
+        }
         
         init();
     }]);
