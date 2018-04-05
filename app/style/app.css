@@ -3284,6 +3284,9 @@ img.transUp{
     position: relative;
     z-index: 100;
 }
+.sld_foc_cont.sld_foc_cont33 .sliding_focus{
+    width: 33.333333%;
+}
 .sliding_focus{
     position: absolute;
     width: 10%;
