@@ -1399,6 +1399,14 @@ span.dottdBrder {
     text-transform: uppercase;
     font-family: 'Glober xBold';
 }
+.boardImgOCnt img {
+    width: 40%;
+    margin: 0 5%;
+    filter: grayscale(100%);
+    margin: -40px 0 0;
+    height: 20px;
+    width: auto;
+}
 .boardDirMainCont p{
     margin-bottom: 0px;
     font-size: 16px;
@@ -3702,6 +3710,9 @@ img.transUp{
     .etvMobCont a img{
         max-height: 180px;
     }
+    .bottomSticky{
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -3821,6 +3832,7 @@ img.transUp{
     .para_txt_inner.paraTxtInnerNick{top: 0 !important;}
     .parallaxOneCont,.portfolioMainCont .parallaxOneCont.parallaxOneCont2brand.trans0 {
         margin: 40px 0 !important;
+        max-width: 100% !important;
         padding: 0 !important;
     }
     .parallaxOneCont.parallaxOneCont2brand.trans0>div:first-child{
