@@ -1228,15 +1228,15 @@ div#portfolioDistribution{}
 .row.distriTextCont .text-center { padding: 0 15px;}
 .distriText{padding: 0 15px;}
 .distriThmb h3.text-left{text-align: left;}
-.col-md-3>.box:first-child{margin-top: 0;}
+.col-md-3>.box:first-child{}
 .box{
-	/*background: #bababa;*/
-    background: rgba(186,186,186,0.4);
-	position: relative;
-	height: 280px;
-	margin: 70px 0 0;
-    overflow:hidden;
+
+    position: relative;
+    height: 245px;
+    margin: 70px 0 70px;
+    overflow: hidden;
     transition: all 0.4s ease-in-out;
+    width: 22%;
 }
 .corp-head{
     font-size: 36px;
@@ -1275,8 +1275,10 @@ img.corp-img-cont {
     display: flex;
 }
 .box-flex .col-md-3{
-    width: 280px;
+    width: 100%;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
 }
 .box-flex .col-md-6{
     flex:1;
@@ -1297,14 +1299,14 @@ img.corp-img-cont {
 }
 .centerCoverText{font-size: 16px; line-height: 30px;}
 .centerCoverText p{
-    max-width: 280px;
+    max-width: 530px;
     margin: auto auto 30px auto;
     width: 63%;
     font-size: 16px;
     line-height: 24px;
 }
 .centerCoverText ul{
-    max-width: 280px;
+    max-width: 530px;
     margin: auto auto 30px auto;
     width: 63%;
     font-size: 16px;
@@ -1320,7 +1322,7 @@ img.corp-img-cont {
     line-height: 22px;
     margin: 0 auto 20px;
     width: 63%;
-    max-width: 280px;
+    max-width: 530px;
     text-transform: uppercase;
 }
 span.circle {
@@ -3215,6 +3217,10 @@ img.transUp{
 
 .row.contact-add-text {
     margin: 50px 0 50px;
+}
+.contact-add-text .btn-link{
+    color: #ed1c24;
+    padding-left: 0;
 }
 
 .row.contact-add-text .col-md-3{
