@@ -1416,6 +1416,18 @@ span.dottdBrder {
     margin: 60px -15px 0;
 }
 .bordDwlBtn{color: #FFF; background: #ed1c24;border-radius: 0;}
+.inverstorSections .bordDwlBtn {
+    color: #333;
+    background: #EEE;
+    border-radius: 0;
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 14px;
+    transition: all 0.4s ease-in-out;
+}
+.inverstorSections .bordDwlBtn:hover{
+    color: #FFF; background: #ed1c24;
+}
 .headerFiller {
     height: 75px;
 }
@@ -2501,10 +2513,11 @@ span.jpb-loc {
 }
 .switchTab {
     position: fixed;
-    right: 0;
-    top: 50%;
-    transform: rotate(90deg);
+    left: 50%;
+    top: 75px;
+    transform: rotate(0deg) translateX(-50%);
     text-transform: capitalize;
+    z-index: 10000;
 }
 .switchTab button{
     background:#ed1c24;
