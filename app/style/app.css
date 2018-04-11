@@ -2499,8 +2499,24 @@ span.jpb-loc {
     0%   {padding-top: 420px;opacity: 0;}
     100%   {padding-top: 0;opacity: 1;}
 }
-
-
+.switchTab {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: rotate(90deg);
+    text-transform: capitalize;
+}
+.switchTab button{
+    background:#ed1c24;
+    color: #fff;
+    width: 100px;
+    transition: all 0.4s ease-in-out;
+}
+.switchTab button.active{
+    pointer-events: none;
+    background: #EEE;
+    color: #333;
+}
 .investor-pdf-links-new li{
     float: left;
     width: 50%;
