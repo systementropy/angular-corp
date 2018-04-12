@@ -133,16 +133,21 @@
     </div>
     <div class="videoContHome" style="" ng-class="{'inactive':eventEnd}">
         <img src="images/mbAbtBg.png" alt="" class="mobShow">
+        <button class="skipVid mobHide" ng-click="skipVid()">Skip Video</button>
         <video id="home_vid" autoplay ui-event="{ ended : 'callOnEnd()'}" muted="true" class="mobHide">
             <source src="images/abt_bg.mp4" type="video/mp4" mute class="top">
         </video>
-
+        
     </div>
     <div class="logoSliderHomeCont" style="" ng-class="{'active':eventEnd}">
         <div class="slickContHome">
             <slick class=""  init-onload=true data="data" infinite=false slides-to-show=10 slides-to-scroll=1 speed=1500 autoplay=true autoplay-speed="1000" dots=true>
                 <!-- <div class="bg" style="background: url('/images/base_logos.png');"></div> -->
-                <div ng-repeat="anc in data track by $index" class="itemHomeSlider"><a href="" class="logoSliderItem"></a></div>
+                <div ng-repeat="anc in data track by $index" class="itemHomeSlider">
+                  <a href="{{anc.href}}" class="logoSliderItem {{anc.class}}">
+                    <img src="{{anc.img}}" alt="">
+                  </a>
+                </div>
             </slick>
         </div>
     </div>

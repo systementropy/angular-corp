@@ -1076,7 +1076,13 @@ ul.nav.nav-tabs.nav-lists li.active{
     display: flex;
 }
 .etvCont a {margin: auto;}
-.etvCont a img{max-width: 150%;max-height: none;height: inherit;}
+.etvCont a img{
+    max-width: 100%;
+    max-height: 100%;
+    height: 50%;
+    width: auto;
+    margin: auto 0 auto auto;
+}
 .borderRight{border-right: 1px solid #999;}
 .borderLeft{border-left: 1px solid #999;}
 .portfolioItem div.thumbnail.second{
@@ -2947,8 +2953,22 @@ span.bgPatch.bgGrey{
 .logoSliderItem {
     height: 128px;
     width: 10vw ;
-    display: inline-block;
+    display: flex;
     /*box-shadow: 1px 1px 1px rgba(0,0,0,0.1);*/
+}
+.logoSliderItem img{
+    max-width: 100%;
+    max-height: 50%;
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+.logoSliderItem.portfolioItem img{
+    max-width: 100%;
+    max-height: 30%;
+    width: auto;
+    height: auto;
+    margin: auto;
 }
 .itemHomeSlider {
     float: left;
@@ -2974,7 +2994,10 @@ span.bgPatch.bgGrey{
     height: 15vh;
 }
 .logoSliderHomeCont>div{height: 128px;margin:auto;width: 100vw;margin-top: 0;}
-.logoSliderHomeCont .slick-track{background: url('/images/Base-Header(logos)_R.png') no-repeat;height: 128px;}
+.logoSliderHomeCont .slick-track{
+    /*background: url('/images/Base-Header(logos)_R.png') no-repeat;*/
+    height: 128px;
+}
 .logoSliderHomeCont button.slick-prev,.logoSliderHomeCont button.slick-next{display: none !important;}
 .logoSliderHomeCont ul.slick-dots{
     bottom: 20px;
@@ -3040,6 +3063,16 @@ span.bgPatch.bgGrey{
     font-weight: 700;
     width: 100%;
     text-align: center;
+}
+button.skipVid {
+    position: fixed;
+    bottom: 400px;
+    right: 100px;
+    padding: 10px;
+    z-index: 100;
+    border: 1px solid #000;
+    background: transparent;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
 }
 .imgBAndW{
     filter: grayscale(100%);
