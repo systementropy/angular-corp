@@ -16,7 +16,7 @@
     .controller('HomeCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','$window', 
     function($rootScope,$scope, $http,$timeout,$location,$window) {
         $scope.callOnEnd = function(){
-            if ($scope.eventEnd!=true) {
+            if ($scope.eventEnd!==true) {
                 $scope.data=[
                     {'img':"/images/resized/CNBC-TV18.gif",'href':"",'class':''},
                     {'img':"/images/resized/CNBC-Awaaz.gif",'href':"",'class':''},
