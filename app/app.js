@@ -22,6 +22,10 @@
         'myApp.careerMain',
         'myApp.test',
         'myApp.contact',
+        'myApp.finance',
+        'myApp.annualReport',
+        'myApp.shareholding',
+        'myApp.policy',
         'angularLazyImg',
         'angular-nicescroll',
         'ngFileUpload'

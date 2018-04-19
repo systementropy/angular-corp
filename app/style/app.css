@@ -2525,7 +2525,7 @@ span.jpb-loc {
     top: 75px;
     transform: rotate(0deg) translateX(-50%);
     text-transform: capitalize;
-    z-index: 10000;
+    z-index: 2000;
 }
 .switchTab button{
     background:#ed1c24;
