@@ -17,6 +17,7 @@
             $rootScope.hideHeader=false;
             $scope.background = parallaxHelper.createAnimator(-0.5, 0, 100);
             $scope.foreground = parallaxHelper.createAnimator(0.7, 3000, -1500);
+            $rootScope.hidefooter=false;
         };
         
         $scope.init();

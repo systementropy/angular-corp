@@ -14,6 +14,7 @@
         
         $scope.init = function(){
             $rootScope.hideHeader=false;
+            $rootScope.hidefooter=true;
         };
         
         $scope.init();

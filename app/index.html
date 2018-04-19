@@ -27,17 +27,11 @@
         </header>
     </div>
 
-
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
     <div ng-view></div>
-
-    <!-- In production use:
-      <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
-    -->
-
+    <div>
+        <footer ng-include="'view/footer.html'" ng-if="!hidefooter">
+        </footer>
+    </div>
     <script src="./bower_components/jquery/dist/jquery.min.js"></script>
     <script src="./bower_components/jquery-ui/jquery-ui.min.js"></script>
     <script src="./bower_components/srollme/jquery.scrollme.min.js"></script>

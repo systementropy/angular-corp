@@ -45,6 +45,7 @@
             $scope.transY = parallaxHelper.createAnimator(0.4, 10, -10,-950);
             $scope.transYL = parallaxHelper.createAnimator(0.4, 20, -10,-850);
             $rootScope.hideHeader=false;
+            $rootScope.hidefooter=false;
         };
         
         $scope.init();

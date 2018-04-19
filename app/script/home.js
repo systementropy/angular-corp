@@ -36,7 +36,7 @@
                     {'img':"/images/resized/NEWS18-com.gif",'href':"",'class':''},
                     {'img':"/images/resized/Firstpost.gif",'href':"",'class':''},
                     {'img':"/images/resized/CNBCTV18-Logo.png",'href':"",'class':''},
-                    {'img':"/images/resized/incom.gif",'href':"",'class':''},
+                    // {'img':"/images/resized/incom.gif",'href':"",'class':''},
                     {'img':"/images/resized/Toppers.gif",'href':"",'class':''},
                     {'img':"/images/resized/Forbes.gif",'href':"",'class':''},
                     {'img':"/images/resized/BI.gif",'href':"",'class':''},
@@ -91,7 +91,7 @@
                 {'img':"/images/resized/NEWS18-com.gif",'href':"",'class':''},
                 {'img':"/images/resized/Firstpost.gif",'href':"",'class':''},
                 {'img':"/images/resized/CNBCTV18-Logo.png",'href':"",'class':''},
-                {'img':"/images/resized/incom.gif",'href':"",'class':''},
+                // {'img':"/images/resized/incom.gif",'href':"",'class':''},
                 {'img':"/images/resized/Toppers.gif",'href':"",'class':''},
                 {'img':"/images/resized/Forbes.gif",'href':"",'class':''},
                 {'img':"/images/resized/BI.gif",'href':"",'class':''},
@@ -126,7 +126,7 @@
         };
         function init(){
             $scope.eventEnd=false;
-            
+            $rootScope.hidefooter=true;
             $scope.slickConfig = {
                 // slidesToShow: 10,
                 // dots: true,

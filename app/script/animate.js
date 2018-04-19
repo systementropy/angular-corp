@@ -30,6 +30,7 @@
             }else{
                 $rootScope.hideHeader=true;
             }
+            $rootScope.hidefooter=true;
             $timeout(function() {
                 $scope.$apply(function() { $location.path("/home"); });
                 

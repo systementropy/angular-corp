@@ -38,6 +38,7 @@
             ];
 
             $rootScope.hideHeader=false;
+            $rootScope.hidefooter=false;
         };
         
         $scope.init();

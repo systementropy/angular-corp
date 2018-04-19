@@ -14,8 +14,9 @@
 
     .controller('CorporateCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
         $scope.init = function(){
-            $scope.fadeIn = parallaxHelper.createAnimator(0.15, 0, 1,-850);
+            
             $rootScope.hideHeader=false;
+            $rootScope.hidefooter=false;
         };
         
         $scope.init();

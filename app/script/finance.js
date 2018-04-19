@@ -49,6 +49,7 @@
             $rootScope.hideHeader=false;
             $scope.activeSec={};
             $scope.activeSec.nw18Section=true;
+            $rootScope.hidefooter=false;
         };
         init();
     }]);

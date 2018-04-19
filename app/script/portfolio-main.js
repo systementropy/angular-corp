@@ -117,6 +117,7 @@
 	    		$scope.showElt = 'None';
 	    	}
             $rootScope.hideHeader=false;
+            $rootScope.hidefooter=false;
         }
         
         init();

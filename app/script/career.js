@@ -15,6 +15,7 @@
     .controller('CareerCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
         $scope.init = function(){
             $rootScope.hideHeader=false;
+            $rootScope.hidefooter=false;
         };
         
         $scope.init();
