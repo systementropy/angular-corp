@@ -26,6 +26,7 @@
         'myApp.annualReport',
         'myApp.shareholding',
         'myApp.policy',
+        'myApp.finSubs',
         'angularLazyImg',
         'angular-nicescroll',
         'ngFileUpload'

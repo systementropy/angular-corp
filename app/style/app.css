@@ -2552,6 +2552,12 @@ span.jpb-loc {
 .inverstorSections h1 {
     line-height: 108px;
 }
+.inverstorSections h1 a {
+    font-size: 32px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+    color: #ed1c24;
+}
 .investor-pdf-links-new li:nth-child(odd) {
     border-right: 1px solid rgba(0,0,0,0.2);
     width: 43%;
@@ -2952,9 +2958,8 @@ span.bgPatch.bgGrey{
 }
 .logoSliderItem {
     height: 128px;
-    width: 10vw ;
+    width: 100% ;
     display: flex;
-    /*box-shadow: 1px 1px 1px rgba(0,0,0,0.1);*/
 }
 .logoSliderItem img{
     max-width: 100%;
@@ -3099,6 +3104,9 @@ h3.aniOri.L2R.top{
 }
 .videoContHome.inactive{
     height: 85vh;
+}
+.videoContHome img{
+    margin: auto;
 }
 .etvInner {
     padding: 60px 0px 60px 41px;
@@ -3384,6 +3392,23 @@ img.transUp{
 
 
 @media only screen and (max-width: 1000px) {
+    .itemHomeSlider{
+        width: 16.6666666667vw !important;
+    }
+    .logoSliderItem{
+        display: block;
+    }
+    .logoSliderItem.portfolioItem img{
+        max-width: 100%;
+        max-height: 30%;
+        width: auto;
+        height: auto;
+        margin: auto;
+        position: relative;
+        top: 24%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
     .videoContHome{
         background: #dc0032;
     }
@@ -3784,6 +3809,22 @@ img.transUp{
 }
 
 @media only screen and (max-width: 600px) {
+    .itemHomeSlider{
+        width: 25vw !important;
+    }
+    .logoSliderItem{
+        display: flex;
+    }
+    .logoSliderItem.portfolioItem img{
+        max-width: 100%;
+        max-height: 30%;
+        width: auto;
+        height: auto;
+        margin: auto;
+        position: static;
+        
+        transform: translate(0%,0%);
+    }
     .portfolioContainerAni.portfolioContainer .parallaxOneCont.parallaxOneCont2brand{
         flex-direction: column;
     }
