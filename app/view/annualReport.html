@@ -1,0 +1,300 @@
+<div class="mainBodyContainerFull" style="height: 0; padding-top: 100vh;opacity: 0;">
+	<div class="headerFiller"></div>
+	<!--  -->
+	<!-- <div class="bottomSticky">
+		<a href="#">
+			<div><i class="fa fa-caret-up"></i></div>
+			TOP
+		</a>
+
+	</div> -->
+	
+	<div class="portfolioContainer corpMainCont">
+		<div class="newsVideoCont videTextCont bg-parallax" du-parallax opacity="fadeIn"  y="background"  id="portfolioNews">
+			<!-- <h2 class="videoOverText">Recent. Relevant. Refreshing</h2> -->
+			<div class="video-cont" style="height: 71vh;">
+				<div class="vid-bg"></div>
+				<video width="100%" autoplay loop>
+					<source src="images/investor_relations6724441.mp4" type="video/mp4" class="top">
+				</video>
+			</div>
+		</div>
+		<div class="vid-arr">
+			<!-- <img src="/images/aerrow_white.png" class="arrowTopAnimate" alt=""> -->
+			<span class="arrText">scroll</span>
+			<span class="animateHeight"></span>
+			<span class="animateHeightBg"></span>
+		</div>
+		<div class="switchTab">
+			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?'active':' '">Network18</button>
+			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?' ':'active'">TV18</button>
+		</div>
+		<div class="container nw18Cont" ng-if="activeSec.nw18Section">
+			
+			<div class="inverstorSections">
+				<h1 style="">Annual Reports</h1>
+				<div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foc3}}0%;"></span></div>
+				<div active="activeJustified" id="tab2" justified="true" class="">
+					<ul class="nav nav-tabs nav-justified" >
+						<li class="uib-tab nav-item" ng-click="changeFoc3(0)" ng-class="left_foc3==0?'active':' '" index="0" heading="2016-17">
+							<a class="nav-link ng-binding">2016-17</a>
+						</li>
+						<li class="uib-tab nav-item " ng-click="changeFoc3(1)" ng-class="left_foc3==1?'active':' '" index="1" heading="2015-16">
+							<a class="nav-link ng-binding">2015-16</a>
+						</li>
+						<li class="uib-tab nav-item " ng-click="changeFoc3(2)" ng-class="left_foc3==2?'active':' '" index="2" heading="2014-15">
+							<a class="nav-link ng-binding">2014-15</a>
+						</li>
+						<li class="uib-tab nav-item " ng-click="changeFoc3(3)" ng-class="left_foc3==3?'active':' '" index="3" heading="2013-14">
+							<a class="nav-link ng-binding">2013-14</a>
+						</li>
+						<li class="uib-tab nav-item " ng-click="changeFoc3(4)" ng-class="left_foc3==4?'active':' '" index="4" heading="2012-13">
+							<a class="nav-link ng-binding">2012-13</a>
+						</li>
+						<li class="uib-tab nav-item " ng-click="changeFoc3(5)" ng-class="left_foc3==5?'active':' '" index="5" heading="2011-12">
+							<a class="nav-link ng-binding">2011-12</a>
+						</li>
+						<li class="uib-tab nav-item " ng-click="changeFoc3(6)" ng-class="left_foc3==6?'active':' '" index="6" heading="2010-11">
+							<a class="nav-link ng-binding">2010-11</a>
+						</li>
+						<li class="uib-tab nav-item " ng-click="changeFoc3(7)" ng-class="left_foc3==7?'active':' '" index="7" heading="2009-10">
+							<a class="nav-link ng-binding">2009-10</a>
+						</li>
+						<li class="uib-tab nav-item " ng-click="changeFoc3(8)" ng-class="left_foc3==8?'active':' '" index="8" heading="2008-09">
+							<a class="nav-link ng-binding">2008-09</a>
+						</li>
+						<li class="uib-tab nav-item " ng-click="changeFoc3(9)" ng-class="left_foc3==9?'active':' '" index="9" heading="2007-08">
+							<a class="nav-link ng-binding">2007-08</a>
+						</li>
+					</ul>
+				</div>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc3==0">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2016-17</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Network18_%20AnnaulReport_2016-17.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc3==1">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2015-16</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Network18_%20AnnaulReport_2015-16.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc3==2">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2014-15</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Network18-Annual%20Report%202014-15.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc3==3">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2013-14</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Network18-AR-2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc3==4">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2012-13</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Annual%20Report%20Network%202012-13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc3==5">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2011-12</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Annual%20Report%202011-12.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc3==6">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2010-11</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Annual%20Report%202010-11.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc3==7">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2009-10</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Annual%20Report%202009-10.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc3==8">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2008-09</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Annual%20Report%202008-09.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc3==9">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2007-08</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Annual%20Report%202007-08.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+			</div>
+
+		</div>
+		<div class="container tv18Cont" ng-if="!activeSec.nw18Section">
+			
+			<div class="inverstorSections">
+				<h1 style="margin-left: 5px;">Annual Reports</h1>
+				
+				<div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foctv2}}0%;"></span></div>
+				<div active="activeJustified" id="tab1" justified="true" class="">
+					<ul class="nav nav-tabs nav-justified" >
+						
+						<li class="uib-tab nav-item " ng-class="left_foctv2==0?'active':' '" ng-click="changeFocTV2(0)" index="0" heading="2016-17">
+							<a ng-click="" class="nav-link"">2016-17</a>
+						</li>
+						<li class="uib-tab nav-item " ng-class="left_foctv2==1?'active':' '" ng-click="changeFocTV2(1)" index="1" heading="2015-16">
+							<a ng-click="" class="nav-link"">2015-16</a>
+						</li>
+						<li class="uib-tab nav-item " ng-class="left_foctv2==2?'active':' '" ng-click="changeFocTV2(2)" index="2" heading="2014-15">
+							<a ng-click="" class="nav-link"">2014-15</a>
+						</li>
+						<li class="uib-tab nav-item " ng-class="left_foctv2==3?'active':' '" ng-click="changeFocTV2(3)" index="3" heading="2013-14">
+							<a ng-click="" class="nav-link"">2013-14</a>
+						</li>
+						<li class="uib-tab nav-item " ng-class="left_foctv2==4?'active':' '" ng-click="changeFocTV2(4)" index="4" heading="2012-13">
+							<a ng-click="" class="nav-link"">2012-13</a>
+						</li>
+						<li class="uib-tab nav-item " ng-class="left_foctv2==5?'active':' '" ng-click="changeFocTV2(5)" index="5" heading="2011-12">
+							<a ng-click="" class="nav-link"">2011-12</a>
+						</li>
+						<li class="uib-tab nav-item " ng-class="left_foctv2==6?'active':' '" ng-click="changeFocTV2(6)" index="6" heading="2010-11">
+							<a ng-click="" class="nav-link"">2010-11</a>
+						</li>
+						<li class="uib-tab nav-item " ng-class="left_foctv2==7?'active':' '" ng-click="changeFocTV2(7)" index="7" heading="2009-10">
+							<a ng-click="" class="nav-link"">2009-10</a>
+						</li>
+						<li class="uib-tab nav-item " ng-class="left_foctv2==8?'active':' '" ng-click="changeFocTV2(8)" index="8" heading="2008-09">
+							<a ng-click="" class="nav-link"">2008-09</a>
+						</li>
+						<li class="uib-tab nav-item " ng-class="left_foctv2==9?'active':' '" ng-click="changeFocTV2(9)" index="9" heading="2007-08">
+							<a ng-click="" class="nav-link"">2007-08</a>
+						</li>
+					</ul>
+				</div>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv2==0">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2016-17</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/tv18_%20AnnaulReport_2016-17.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv2==1">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2015-16</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/Annualreport2015-16.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv2==2">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2014-15</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/TV18-Annual%20Report%202014-15.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv2==3">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2013-14</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/TV18-Annual-Report-2013-14.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv2==4">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2012-13</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/TV18-AnnualReport-2012-13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv2==5">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2011-12</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/Annual%20Report%202011-12.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv2==6">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2010-11</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/Annual%20Report%202010-11.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv2==7">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2009-10</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/Annual%20Report%202009-10.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv2==8">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2008-09</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/Annual%20Report%202008-09.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv2==9">
+					<ol class="list-group">
+						<li class="list-group-item">
+							<p class="investor_title_text">Annual Report 2007-08</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/Annual%20Report%202007-08.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+			</div>
+			
+		</div>
+
+	</div>
+</div>
+<script type="text/javascript">
+	$(document).ready(function() {
+			//console.log($('body'));
+			$('.stickyMove').on('click', function(event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $($(this).attr('href')).offset().top
+				},'slow');
+				//goToByScroll($(this).attr('href'));
+			});
+			var maxWidth = 0;
+
+			var windowHeight = $(window).height();
+			$('.mainBodyContainerFull').animate({
+				paddingTop: 0,
+				height: windowHeight+'px',
+				opacity:1
+			},1000, function() {});
+	});
+</script>
