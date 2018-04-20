@@ -1256,9 +1256,9 @@ div#portfolioDistribution{}
     font-size: 29px;
     margin: 0 18px;
 }
-.box:hover{background: rgba(0, 0, 255, 0.2);}
-.box:hover a .boxTextBot {color: #d4d4d4;}
-.box:hover img.corp-img-cont{filter: grayscale(1);}
+.box.active,.box:hover{background: rgba(0, 0, 255, 0.2);}
+.box.active a .boxTextBot,.box:hover a .boxTextBot {color: #d4d4d4;}
+.box.active img.corp-img-cont,.box:hover img.corp-img-cont{filter: grayscale(1);}
 img.corp-img-cont {
     filter: grayscale(100%);
     max-height: 100%;
@@ -1432,6 +1432,8 @@ span.dottdBrder {
     font-size: 14px;
     line-height: 14px;
     transition: all 0.4s ease-in-out;
+    order: 1;
+    margin: 0 20px auto 0;
 }
 .inverstorSections .bordDwlBtn:hover{
     color: #FFF; background: #ed1c24;
@@ -2538,6 +2540,24 @@ span.jpb-loc {
     background: #EEE;
     color: #333;
 }
+.box5 .box{
+    height: 200px;
+    width: 18%;
+}
+.box5 .box a{
+    font-size: 25px;
+    line-height: 25px;
+}
+.nav-tabs.nav-justified.nav-notice>li{
+    display: block;
+    width: auto;
+    float: left;
+    border-bottom: 1px solid transparent;
+    transition: all 0.4s ease-in-out;
+}
+.nav-tabs.nav-justified.nav-notice>li.active{
+    border-bottom: 1px solid #333;
+}
 .investor-pdf-links-new li{
     float: left;
     width: 50%;
@@ -2560,10 +2580,18 @@ span.jpb-loc {
 }
 .investor-pdf-links-new li:nth-child(odd) {
     border-right: 1px solid rgba(0,0,0,0.2);
-    width: 43%;
+    width: 50%;
+    display: flex;
+    height: 100px;
+    padding-right: 105px;
 }
 .investor-pdf-links-new li:nth-child(even) {
     padding-left: 105px;
+    height: 100px;
+    display: flex;
+}
+.inverstorSections li.list-group-item p {
+    order: 2;
 }
 .investor-pdf-links li.list-group-item {
     float: left;

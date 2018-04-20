@@ -1,4 +1,4 @@
-<div class="mainBodyContainerFull" style="height: 0; padding-top: 100vh;opacity: 0;">
+<div class="mainBodyContainerFull" style="height: auto; padding-top: 0;">
 	<div class="headerFiller"></div>
 	<!--  -->
 	<!-- <div class="bottomSticky">
@@ -27,11 +27,57 @@
 		</div>
 		
 		<div class="container nw18Cont" ng-if="activeSec.nw18Section">
-			
+			<div class="clearfix">
+				<div class="row box-flex box5" style="">
+					<div class="col-md-3">
+						<div class="box">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/finance"><div class="boxTextBot">QUARTERLY <br>FINANCIAL STATEMENT</div></a>
+						</div>
+						<div class="box">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/annualReport"><div class="boxTextBot">ANNUAL <br>REPORTS</div></a>
+						</div>
+						<div class="box">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/shareholding"><div class="boxTextBot">SHARE HOLDING <br>PATTERN</div></a>
+						</div>
+						<div class="box">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/notice"><div class="boxTextBot">NOTICES &<br>EVENTS</div></a>
+						</div>
+						<div class="box">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/policy"><div class="boxTextBot">OUR <br>POLICIES</div></a>
+						</div>
+					</div>
+					<div class="col-md-3 vMobShow">
+						<div class="box">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/finance"><div class="boxTextBot">QUARTERLY <br>FINANCIAL STATEMENT</div></a>
+						</div>
+						<div class="box">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/annualReport"><div class="boxTextBot">ANNUAL <br>REPORTS</div></a>
+						</div>
+						<div class="box">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/shareholding"><div class="boxTextBot">SHARE HOLDING <br>PATTERN</div></a>
+						</div>
+						<div class="box">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/policy"><div class="boxTextBot">OUR <br>POLICIES</div></a>
+						</div>
+						<div class="box">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/policy"><div class="boxTextBot">NOTICES &<br>EVENTS</div></a>
+						</div>
+						
 
-
+					</div>
+				</div>
+			</div>
 		</div>
-		
 	</div>
 </div>
 
@@ -48,10 +94,6 @@
 			var maxWidth = 0;
 
 			var windowHeight = $(window).height();
-			$('.mainBodyContainerFull').animate({
-				paddingTop: 0,
-				height: windowHeight+'px',
-				opacity:1
-			},1000, function() {});
+			
 	});
 </script>
