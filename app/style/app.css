@@ -3291,7 +3291,24 @@ img.transUp{
     color: #ed1c24;
     padding-left: 0;
 }
-
+.row.container-fluid.contact-add-text.bTop{
+    border-top: 1px solid rgba(0,0,0,0.2);
+    margin: 50px 0 50px;
+    padding-top: 20px;
+}
+.bTop .clearfix.container-fluid {
+    position: relative;
+    top: -32px;
+    text-align: left;
+    color: #999;
+    padding: 0;
+}
+.bTop .clearfix.container-fluid h3{
+    color: #999;
+    display: inline;
+    padding: 15px;
+    background: #F0F0F0;
+}
 .row.contact-add-text .col-md-3{
     border-right: 1px solid rgba(0,0,0,0.3);
     padding: 0 0 0 36px;
@@ -3380,6 +3397,9 @@ img.transUp{
 }
 .ng-map-info-window{
 
+}
+info-window img{
+    filter: invert(100%);
 }
 .ng-map-info-window p.title{
     color: #555;
