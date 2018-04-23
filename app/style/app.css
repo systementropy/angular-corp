@@ -3322,6 +3322,31 @@ img.transUp{
     color: #333;
     margin: 0;
 }
+.row.contact-add-text p a i{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 14px;
+    margin-top: 0;
+}
+.row.contact-add-text p i{
+    font-size: 12px;
+    line-height: 12px;
+    font-style: normal;
+    margin-top: 10px;
+    display:  block;
+}
+.row.contact-add-text p a.bordDwlBtn {
+    margin-top: 13px;
+}
+.row.contact-add-text p i b{
+    display: block;
+    font-weight: normal;
+}
+.row.contact-add-text p i b span{
+    font-weight: bold;
+    font-family: 'GloberSB';
+    margin-right: 5px;
+}
 .row.contact-add-text h3 {
     font-family: 'GeoMed';
     font-size: 24px;
