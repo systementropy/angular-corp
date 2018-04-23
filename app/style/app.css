@@ -3103,13 +3103,14 @@ span.bgPatch.bgGrey{
 }
 button.skipVid {
     position: fixed;
-    bottom: 400px;
-    right: 100px;
+    bottom: 100px;
+    right: 50%;
     padding: 10px;
     z-index: 100;
     border: 1px solid #000;
     background: transparent;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    transform: translateX(50%);
 }
 .imgBAndW{
     filter: grayscale(100%);

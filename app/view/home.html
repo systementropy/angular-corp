@@ -143,21 +143,21 @@
         <div class="slickContHome">
             <slick class="" init-onload=true data="data" infinite=false slides-to-show=10 slides-to-scroll=1 speed=1500 autoplay=true autoplay-speed="1000" dots=true ng-if="wWid>1000">
                 <div ng-repeat="anc in data track by $index" class="itemHomeSlider" >
-                  <a href="{{anc.href}}" class="logoSliderItem {{anc.class}}">
+                  <a href="{{anc.href}}" target="_blank" class="logoSliderItem {{anc.class}}">
                     <img src="{{anc.img}}" alt="">
                   </a>
                 </div>
             </slick>
             <slick class="" init-onload=true data="data" infinite=false slides-to-show=6 slides-to-scroll=1 speed=1500 autoplay=true autoplay-speed="1000" dots=true ng-if="wWid<=1000 && wWid>600">
                 <div ng-repeat="anc in data track by $index" class="itemHomeSlider" >
-                  <a href="{{anc.href}}" class="logoSliderItem {{anc.class}}">
+                  <a href="{{anc.href}}" target="_blank" class="logoSliderItem {{anc.class}}">
                     <img src="{{anc.img}}" alt="">
                   </a>
                 </div>
             </slick>
             <slick class="" init-onload=true data="data" infinite=false slides-to-show=4 slides-to-scroll=1 speed=1500 autoplay=true autoplay-speed="1000" dots=true ng-if="wWid<600">
                 <div ng-repeat="anc in data track by $index" class="itemHomeSlider" >
-                  <a href="{{anc.href}}" class="logoSliderItem {{anc.class}}">
+                  <a href="{{anc.href}}" target="_blank" class="logoSliderItem {{anc.class}}">
                     <img src="{{anc.img}}" alt="">
                   </a>
                 </div>
