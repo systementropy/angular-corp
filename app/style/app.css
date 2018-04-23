@@ -1858,6 +1858,10 @@ span.bottom-dot-flex {
 .flex-cont{
     display: flex;
 }
+.flex-cont-ver{
+    display: flex;
+    flex-direction: column;
+}
 
 
 
@@ -3282,6 +3286,7 @@ img.transUp{
     padding: 0;
     line-height: 144px;
     padding-top: 24px;  
+    letter-spacing: -4px;
 }
 .contact-main-text p{
     max-width: 64%;
@@ -3289,20 +3294,28 @@ img.transUp{
     font-size: 21px;
     line-height: 1.4;
     color: #363636;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .row.contact-add-text {
-    margin: 50px 0 50px;
+    margin: 80px 0 80px;
 }
 .contact-add-text .btn-link{
     color: #ed1c24;
     padding-left: 0;
+    padding-top: 0;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.contact-add-text .btn-link.btn-link-blue{
+    color: #5774b9;
+    text-transform: lowercase;
 }
 .row.container-fluid.contact-add-text.bTop{
     border-top: 1px solid rgba(0,0,0,0.2);
     margin: 50px 0 50px;
     padding-top: 20px;
+
 }
 .bTop .clearfix.container-fluid {
     position: relative;
@@ -3325,10 +3338,13 @@ img.transUp{
     border: none;
 }
 .row.contact-add-text p {
-    font-size: 18px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
     color: #333;
     margin: 0;
+}
+.row.contact-add-text p b{
+    font-family: 'Glober bold';
 }
 .row.contact-add-text p a i{
     display: inline-block;
@@ -3336,6 +3352,28 @@ img.transUp{
     line-height: 14px;
     margin-top: 0;
 }
+.contact-add-text .clearfix.flex-cont>div{
+    flex-basis: 50%;
+}
+.clearfix.container-fluid.invCont {
+    padding: 0;
+    margin-bottom: 30px;
+}
+.clearfix.container-fluid.invCont h3{
+    color: #666766;
+    font-family: 'Glober';
+    font-size: 30px;
+    letter-spacing: 0px;
+    margin-bottom: 25px;
+}
+.row.container-fluid.contact-add-text.invCntcCont {
+    padding-left: 30px;
+    margin-top: 0;
+}
+.row.contact-add-text p.maraut0{
+    margin: auto 0;
+}
+.m30Top{margin-top: 30px;}
 .row.contact-add-text p i{
     font-size: 12px;
     line-height: 12px;
@@ -3355,13 +3393,17 @@ img.transUp{
     font-family: 'GloberSB';
     margin-right: 5px;
 }
+.row.contact-add-text div.flex-cont a.btn.bordDwlBtn{
+    margin: auto 15px auto 0;
+}
 .row.contact-add-text h3 {
-    font-family: 'GeoMed';
-    font-size: 24px;
-    line-height: 24px;
-    color: #525252;
+    font-family: 'Glober bold';
+    font-size: 19px;
+    line-height: 19px;
+    color: #000;
     text-transform: uppercase;
     margin-top: 0;
+    margin-bottom: 4px;
 }
 .btnOvrLy{
     position: relative;
