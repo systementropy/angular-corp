@@ -12,7 +12,7 @@
         }
     ])
 
-    .controller('financeCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+    .controller('financeCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','parallaxHelper', function($rootScope,$scope, $http,$timeout,$location,parallaxHelper) {
         $scope.changeFoc = function(num){
             $scope.left_foc=num;
         };
@@ -50,6 +50,7 @@
             $scope.activeSec={};
             $scope.activeSec.nw18Section=true;
             $rootScope.hidefooter=false;
+            $scope.transY = parallaxHelper.createAnimator(0.4, 10, -10,-950);
         };
         init();
     }]);

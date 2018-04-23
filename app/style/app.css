@@ -3262,6 +3262,14 @@ span.arrText {
 .transUp{
     transition: all 1.2s ease;
 }
+section.investor-pdf-links-new.active.ng-leave-active{
+    -webkit-transition:-webkit-transform 0s, -webkit-opacity 0s;
+    transition:transform 0s,opacity 0s;
+}
+section.investor-pdf-links-new.active{
+    -webkit-transition:-webkit-transform 2s, -webkit-opacity 0s;
+    transition:transform 2s,opacity 0s;
+}
 img.transUp{
     transition: all 2s ease-in-out;
 }
