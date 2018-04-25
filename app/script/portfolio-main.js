@@ -65,7 +65,7 @@
 	    		$scope.foregroundimgz2m = parallaxHelper.createAnimator(-0.05, 1000, -1000,-400);
 	    		$scope.foregroundimgssc = parallaxHelper.createAnimator(0.1, -10, 100,-400);
 	    		$scope.backgroundgroundimgm2z = parallaxHelper.createAnimator(0.05, -100, 100,-400);
-	    		$scope.foregroundimgz2m2slow = parallaxHelper.createAnimator(0.2, 0, -1000,-1000);	
+	    		$scope.foregroundimgz2m2slow = parallaxHelper.createAnimator(0.3, 0, -1000,-1000);	
 	    	}else {
 	    		$scope.fadeIn = parallaxHelper.createAnimator(0,1,1,0);
 	    		$scope.background = parallaxHelper.createAnimator(0,0,0,0);
