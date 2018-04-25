@@ -36,11 +36,11 @@
 					}
 				} else {
 					if (dir == 'left') {
-						placeHolder = placeHolder != 0 ? placeHolder : inner.outerWidth() * num;
+						placeHolder = placeHolder !== 0 ? placeHolder : inner.outerWidth() * num;
 						distance = inner.outerWidth() * (len + 1);
 						container.css('width', distance);
 					} else if (dir == 'top') {
-						placeHolder = placeHolder != 0 ? placeHolder : inner.outerHeight() * num;
+						placeHolder = placeHolder !== 0 ? placeHolder : inner.outerHeight() * num;
 						distance = inner.outerHeight() * (len + 1);
 						container.css('height', distance);
 					}
@@ -87,14 +87,14 @@
 
 			}
 			
-			var aTime = opts.continuous == true ? 20 : 2000;
-			delayTime = delayTime == 0 ? aTime : delayTime;
+			var aTime = opts.continuous === true ? 20 : 2000;
+			delayTime = delayTime === 0 ? aTime : delayTime;
 			scrollTime = setInterval(autoScroll, delayTime);
 			obj.hover(function() {
 				clearInterval(scrollTime);
 			}, function() {
 				scrollTime = setInterval(autoScroll, delayTime);
 			});
-		})
-	}
+		});
+	};
 })(jQuery);
