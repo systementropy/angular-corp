@@ -28,6 +28,8 @@
         'myApp.policy',
         'myApp.notice',
         'myApp.finSubs',
+        'myApp.careerDescription',
+        'myApp.careerApply',
         'angularLazyImg',
         'angular-nicescroll',
         'ngFileUpload'
