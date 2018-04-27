@@ -569,6 +569,23 @@ body{
 	margin: auto;
 	z-index: 0;
 }
+.imgEmpCnt{
+	position: relative;
+	width: 250px;
+	height: 250px;
+	overflow:hidden;
+	opacity: 0.9;
+	z-index: 1;
+}
+div.career-empl-cont div.col-md-4 .imgEmpCnt img {
+	position: absolute;
+	width: 250px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	max-height: unset;
+	max-width: unset;
+}
 .topLayer:after,.middleLayer:after{
 	content: " ";
 	display: block;
@@ -2526,8 +2543,13 @@ div.career-empl-cont>div{
 	margin: 60px auto;
 }
 div.career-empl-cont div.col-md-4{
-	width: 300px;
+	
 	padding: 0;    
+}
+div.career-empl-cont div.col-md-4 .inner{
+	width: 250px;
+	height: auto;
+	background: transparent;
 }
 div.career-empl-cont div.col-md-4 img {
 	max-height: 400px;
@@ -2544,6 +2566,14 @@ div.career-empl-cont div.col-md-4 p {
 	text-align: left;
 
 }
+.row.boardDirMainCont.ng-scope.slick-slide {
+    float: left;
+    height: auto;
+    margin: 0;
+}
+.career-empl-cont {
+    overflow: hidden;
+}
 .empl-post {
 	margin: 15px 0;
 	color: #333;
@@ -2553,7 +2583,7 @@ div.career-empl-cont div.col-md-4 p {
 }
 .img-empl-cont {
 	width: 300px;
-	height: 400px;
+	height: 300px;
 	position: relative;
 }
 .empl-post b {
@@ -2575,7 +2605,8 @@ div.career-empl-cont div.col-md-4 p {
 	height: 90%;
 	width: 80%;
 	z-index: 1;
-	background: rgba(255,0,0,0.15);
+	background: rgba(255,0,0,0.35);
+	transform: translate(10%,10%);
 }
 .col-md-3.jumbotron.contentTypeDiv .back{
 	height: 100%;
