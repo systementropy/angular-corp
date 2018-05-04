@@ -571,15 +571,15 @@ body{
 }
 .imgEmpCnt{
 	position: relative;
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	overflow:hidden;
 	opacity: 0.9;
 	z-index: 1;
 }
 div.career-empl-cont div.col-md-4 .imgEmpCnt img {
 	position: absolute;
-	width: 250px;
+	width: 200px;
 	left: 50%;
 	top: 50%;
 	transform: translate(-50%,-50%);
@@ -592,7 +592,7 @@ div.career-empl-cont div.col-md-4 .imgEmpCnt img {
 	clear: both;
 }
 .topLayer>div,.middleLayer>div{
-	background: #FFF;
+	background: transparent;
 	height: 150px;
 	float: left;
 	display: flex;
@@ -603,16 +603,17 @@ div.career-empl-cont div.col-md-4 .imgEmpCnt img {
 	text-align: center;
 }
 .topLayer>div:nth-child(2) .carHvrDisp i{
+	display: none;
 	order:2;
 }
 .topLayer>div:nth-child(2) .carHvrDisp span{
 	order:1;
-	margin-bottom: 15px;
+	margin-top: 0px;
 }
 .carHvrDisp{
 	color: #405d9b;
 	display: flex;
-	margin: auto;
+	width: 150px;
 }
 .carHvrCont{
 	
@@ -638,12 +639,14 @@ div.career-empl-cont div.col-md-4 .imgEmpCnt img {
 	opacity: 0;
 	transition-delay: 0.1s;
 	transition: all 0.6s ease-in-out;
-	padding: 15px;
+	padding: 25px;
 	background: #FFF;
 	transform: translateY(-80px);
 	box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.1);
 	z-index: -1;
-	
+}
+.carhvrTxt p{
+	color: rgba(0,0,0,0.6);
 }
 .carhvrTxt h3{
 	font-family: 'Geogrotesque';
@@ -663,10 +666,13 @@ div.career-empl-cont div.col-md-4 .imgEmpCnt img {
 	transform:translateY(-80px);
 }
 .carHvrDisp i{
+	display: none;
 	font-size: 80px;
 }
 .carHvrDisp span{
 	margin:auto;
+	font-family: 'Geogrotesque';
+	text-transform: uppercase;
 }
 i.ringInner{
 	position: absolute;
@@ -693,24 +699,29 @@ i.ringInner h3{
 }
 .middleLayer>div:nth-child(1){
 	float: left;
+	transform: translateX(-65px);
 }
 .middleLayer>div:nth-child(1) i,.topLayer>div:nth-child(1) i{
 	order: 2;
 }
 .middleLayer>div:nth-child(1) span,.topLayer>div:nth-child(1) span{
 	order: 1;
+	margin-left: 0;
+	flex-basis: 50%;
 }
 .middleLayer>div:nth-child(2){
 	float: right;
+	transform: translateX(65px);
 }
 .middleLayer>div:nth-child(2) span, .topLayer>div:nth-child(3) span{
-	margin-left: 25px;
+	flex-basis: 50%;
+	margin-right: 0;
 }
 .topLayer>div:nth-child(1){
-	transform: translate(20px,40px)
+	transform: translate(0px,65px)
 }
 .topLayer>div:nth-child(3){
-	transform: translate(-20px,40px)
+	transform: translate(0px,65px)
 }
 .middleLayer:nth-child(2){
 	margin-top: 60px;
@@ -725,15 +736,19 @@ span.ring {
 	z-index: -1;
 	background: transparent;
 	width: 10px;
-	width: 91%;
-	height: 74%;
+	width: 100%;
+	height: 83%;
 	display: block;
 	top: 41%;
 	left: 50%;
 	position: absolute;
-	border: 10px solid #cfe1f6;
-	border-radius: 50%;
+	/* border: 10px solid #cfe1f6; */
+	/* border-radius: 50%; */
 	transform: translate(-50%,-50%);
+	background: url(/images/career/icons.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .topLayer>div{
 	width: 150px;
@@ -1640,6 +1655,7 @@ img.corp-img-cont {
 	bottom: 30px;
 	left: 40px;
 	width: 80%;
+	transition: all 0.4s ease-in-out;
 }
 .boxTextBot a:hover{
 	text-decoration: none;
@@ -2169,6 +2185,19 @@ span.bottom-dot-flex {
 	z-index: 1;
 	background: rgba(255, 0, 4, 0.55);
 }
+.vid-bg.vid-bgs{
+	position: static;
+	z-index: 1;
+}
+.vid-bg.vid-bgs img{
+	position: absolute;
+	z-index: -15;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	max-height: unset;
+}
 .flex-dropdown{
 	position: relative;
 	top: -190px;
@@ -2470,6 +2499,24 @@ span.bottom-dot-flex {
 .homeItem img{margin: auto;height: 100%; width: 100%;}
 /******************END**********************/
 											/******************CAREER PAGE**********************/
+
+
+
+#careerMain h2{
+	color: #666;
+	line-height: 1;
+	margin: 0;
+	margin-bottom: 80px;
+}
+.portfolioContainer.corpMainCont.careerSec .row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.row.career-main-text.text-center h1{
+	font-size: 80px;
+	line-height: 1;
+	margin-bottom: 20px;
+}
 .video-over-text {
 	text-align: center;
 	/* width: 200px; */
@@ -2487,26 +2534,49 @@ span.bottom-dot-flex {
 	font-size: 24px;
 }
 .career-jumbo{
-	background: #363636;
+	background: #000;
 	border-radius: 0 !important;
-	max-height: 60vh;
-	margin:60px;
+	height: 600px;
+	margin:0;
 }
-
-#careerMain h1{font-size: 7vw;}
+.container.box-flex.careerbox{
+	justify-content: space-between;
+}
+.container.box-flex.careerbox .box{
+	z-index: 1;
+	margin:0;
+}
+.corpMainCont.careerSec.careerboxCont{
+	background: #F5F5F6;padding-bottom: 40px;margin-top: 80px;border-bottom: 1px solid #bcbcbc;
+}
+.corpMainCont.careerSec.careerboxCont h1{
+	background: transparent;padding: 0px; font-size: 80px;
+}
+.container.box-flex.careerbox .box:hover a{
+	background: rgba(0, 0, 255, 0);
+}
+.container.box-flex.careerbox .box.active a, .container.box-flex.careerbox .box:hover a{
+    background: rgba(0, 0, 255, 0.2);
+}
+#careerMain h1{
+	line-height: 1;
+	margin-bottom: 20px;
+}
 .career-main-text h2{
-	font-family: 'GloberSB';
-	color: #666;
-	font-size: 40px;
+	font-family: 'Glober xBold';
+	color: rgba(0,0,0,0.6);
+	font-size: 25px;
 	background:#FFF;
-	margin:40px 0 0px;
+	margin:40px 0 10px;
 	
 	letter-spacing: 1px;
 }
-
+.career-main-text p:last-child{
+	margin-bottom: 0;
+}
 .career-main-text p{
-	font-size: 2vw;
-	margin: 10px 13vw;
+	font-size: 20px;
+	margin: 0 18% 60px;
 	line-height: 1.3;
 }
 .col-md-3.jumbotron {
@@ -2543,11 +2613,15 @@ div.career-empl-cont>div{
 	margin: 60px auto;
 }
 div.career-empl-cont div.col-md-4{
-	
-	padding: 0;    
+	padding: 0;
+	border-right: 1px solid rgba(0,0,0,0.2);
+	padding-left: 25px;
+}
+div.career-empl-cont div.col-md-4:last-child{
+	border-right: 1px solid rgba(0,0,0,0);
 }
 div.career-empl-cont div.col-md-4 .inner{
-	width: 250px;
+	width: 200px;
 	height: auto;
 	background: transparent;
 }
@@ -2566,13 +2640,61 @@ div.career-empl-cont div.col-md-4 p {
 	text-align: left;
 
 }
+.portfolioContainer.corpMainCont.careerSec.careerSlick.text-center>.container{
+	position: relative;
+}
+.empPrev,.empNext{
+	background: transparent;
+	height: 200px;
+	width: 80px;
+	position: absolute;
+	top: 50%;
+	border: none;
+	outline: none;
+}
+.empPrev{
+	left: 0;
+}
+.empPrev:before,.empPrev:after,.empNext:before,.empNext:after{
+	content: " ";
+	width: 2px;
+	height: 100px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	background: rgba(0,0,0,0.3);
+}
+.empNext:before{
+	transform: translateY(-96px) rotate(-20deg);
+}
+.empNext:after{
+	transform: translateY(-2px) rotate(20deg);
+}
+.empPrev:before{
+	transform: translateY(-96px) rotate(20deg);
+}
+.empPrev:after{
+	transform: translateY(-2px) rotate(-20deg);
+}
+.empNext{
+	right: 0;
+}
+.btnContSlixk {
+    position: absolute;
+    width: 110%;
+    z-index: 100;
+    transform: translateX(-5%);
+    top: 50%;
+}
 .row.boardDirMainCont.ng-scope.slick-slide {
     float: left;
     height: auto;
     margin: 0;
+    display: flex;
 }
 .career-empl-cont {
     overflow: hidden;
+    position: relative;
 }
 .empl-post {
 	margin: 15px 0;
@@ -2582,8 +2704,8 @@ div.career-empl-cont div.col-md-4 p {
 	text-align: left;
 }
 .img-empl-cont {
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	position: relative;
 }
 .empl-post b {
@@ -2600,11 +2722,11 @@ div.career-empl-cont div.col-md-4 p {
 	padding: 8px 80px;
 	color: rgba(255, 255, 255, 0.81);
 }
-.tinge {
+.img-empl-cont .tinge {
 	position: absolute;
-	height: 90%;
-	width: 80%;
-	z-index: 1;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
 	background: rgba(255,0,0,0.35);
 	transform: translate(10%,10%);
 }
@@ -2941,7 +3063,7 @@ span.jpb-loc {
 .switchTab button{
 	border-radius: 0px;
 	width: 100px;
-	background: #EEE;
+	background: rgba(255,255,255,0.7);
 	color: #333;
 	transition: all 0.4s ease-in-out;
 }
@@ -2962,7 +3084,7 @@ span.jpb-loc {
 	margin-bottom: 80px;
 }
 .row.box-flex.box5.invbox .box{
-	margin: 70px 0 50px;
+	margin: 120px 0 90px;
 }
 .boxContAt .box-flex .col-md-3{
 	flex-direction: column;
@@ -3019,10 +3141,11 @@ span.jpb-loc {
 	padding: 0;
 }
 .inverstorSections h1 a {
-	font-size: 32px;
+	font-size: 25px;
 	line-height: 1.6;
 	letter-spacing: 1px;
 	color: #ed1c24;
+	text-transform: uppercase;
 }
 .investor-pdf-links-new li:nth-child(odd) {
 	border-right: 1px solid rgba(0,0,0,0.2);
