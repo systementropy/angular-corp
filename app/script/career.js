@@ -12,12 +12,17 @@
         }
     ])
 
-    .controller('CareerCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
-        $scope.init = function(){
+    .controller('CareerCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', '$window',
+    function($rootScope,$scope, $http,$timeout,$location,$window) {
+        var init = function(){
+            var w = angular.element($window);
+            var wWid=w.width();
+            $scope.wWid=wWid;
+            var wHig=w.height();
             $rootScope.hideHeader=false;
             $rootScope.hidefooter=false;
         };
         
-        $scope.init();
+        init();
     }]);
 }());

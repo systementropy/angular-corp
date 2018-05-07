@@ -3063,7 +3063,7 @@ span.jpb-loc {
 .switchTab button{
 	border-radius: 0px;
 	width: 100px;
-	background: rgba(255,255,255,0.7);
+	background: rgba(255,255,255,0);
 	color: #333;
 	transition: all 0.4s ease-in-out;
 }
@@ -4085,7 +4085,9 @@ info-window img{
 .vMobShow{
 	display: none !important;
 }
-
+.job-res-item.job-res-item-load{
+	margin-bottom: 100px;
+}
 
 @media only screen and (max-width: 1000px) {
 	.itemHomeSlider{
@@ -4502,6 +4504,139 @@ info-window img{
 	.bottomSticky{
 		display: none;
 	}
+	#careerMain h1{
+		padding-bottom: 25px !important;
+	}
+	#careerMain h2{
+		margin-bottom: 40px;
+		font-size: 16px;
+	}
+	.career-jumbo{
+		height: 50vw;
+
+	}
+	.row.career-main-text.text-center h1,.corpMainCont.careerSec.careerboxCont h1{
+		font-size: 32px;
+	}
+	.career-main-text p{
+		font-size: 14px;
+	}
+	.career-main-text h2{
+		font-size: 18px;
+	}
+	.bottomHR .btn{
+		font-size: 18px;
+		line-height: 21px;
+	}
+	div.career-empl-cont div.col-md-4 .inner{
+		margin: auto;
+		width: 300px;
+	}
+	div.career-empl-cont div.col-md-4 h3{
+		font-size: 18px;
+	}
+	.boardDirMainCont p{
+		font-size: 14px;
+	}
+	.empl-post b{
+		font-size: 16px;
+	}
+	.eachjoItem {
+	    height: 160px;
+	    float: left;
+	    display: flex;
+	    margin: 25px auto;
+	    justify-content: space-around;
+	}
+	.eachjoItem .box{
+		width: 160px;
+		height: 160px;
+	}
+	.container.box-flex.careerbox.mobShow {
+	    position: relative;
+	}
+	button.empPrev.empPrevJ,button.empNext.empNextJ{
+		height: 100px;
+		width: 38px;
+	}
+	.empPrev.empPrevJ:before, .empPrev.empPrevJ:after, .empNext.empNextJ:before, .empNext.empNextJ:after{
+		height: 50px;
+	}
+	.container.box-flex.careerbox.slickJob.mobShow{
+		position: relative;
+	}
+	.empPrev.empPrevJ:after{
+	    transform: translateY(-3px) rotate(-20deg);
+	}
+	.empNext.empNextJ:after {
+	    transform: translateY(-3px) rotate(20deg);
+	}
+	.empPrev.empPrevJ:before{
+	    transform: translateY(-50px) rotate(20deg);
+	}
+	.empNext.empNextJ:before {
+	    transform: translateY(-50px) rotate(-20deg);
+	}
+	.jobSlickCot {
+	    overflow: hidden;
+	}
+	.slickJob .btnContSlixk{
+		top: 25%;
+	}
+	.jobDescriptionMainCont.container{
+		width: auto;
+		padding: 25px 4%;
+	}
+	.flex-cont.career-results-main{
+		flex-direction: column;
+	}
+	.career-results-main .left-filter{
+		display: none;
+	}
+	.video-cont-career .video-over-text{
+		width: 380px;
+	}
+	.flex-cont.career-results-main>div.career-results{
+		padding: 40px 0;
+	}
+	.job-res-item.job-res-item-load{
+		margin-bottom: 40px;
+		border-bottom: none;
+	}
+	.inverstorSections ul.nav.nav-tabs>li{
+		float: left;
+	}
+	.inverstorSections ul.nav.nav-tabs>li>a{
+		border-bottom: 1px solid rgba(0,0,0,0);
+		border-radius: 0;
+		padding: 6px 10px;
+	}
+	.sld_foc_cont{
+		display: none;
+	}
+	.inverstorSections ul.nav.nav-tabs>li.active>a{
+		border-bottom: 1px solid #333;
+	}
+	.investor-pdf-links-new li:nth-child(odd),.investor-pdf-links-new li:nth-child(even) {
+	    border: none;
+	    width: 100%;
+	    display: flex;
+	    height: auto;
+	    padding:15px;
+	    flex-direction: column;
+	    height: auto;
+	}
+	.inverstorSections .bordDwlBtn{
+		width: 200px;
+	}
+	.inverstorSections li.list-group-item p{
+		font-size: 14px;
+		color: rgba(0,0,0,0.6);
+	}
+	.inverstorSections h1 a{
+		font-size: 20px;
+		letter-spacing: unset;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -4535,6 +4670,14 @@ info-window img{
 	}
 	.box-flex .col-md-3{
 		display: none;
+	}
+	.invbox.box-flex .col-md-3{
+		display: block;
+	}
+	.row.box-flex.box5.invbox .box{
+		width: 48%;
+		margin: 15px 1%;
+		float: left;
 	}
 	.col-md-3.vMobShow{
 		display: block !important;
