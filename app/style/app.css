@@ -4733,6 +4733,15 @@ info-window img{
 	div#chart_div {
 	    padding: 0 !important;
 	}
+	.row.container-fluid.contact-add-text .col-md-6:last-child(){
+		margin-bottom: 0;
+	}
+	.contact-add-text .clearfix.flex-cont>div.clearfix.flex-cont-ver{
+		margin-top: 30px;
+	}
+	.invCntcCont>.clearfix.flex-cont{
+		flex-direction: column;
+	}
 }
 
 @media only screen and (max-width: 600px) {
