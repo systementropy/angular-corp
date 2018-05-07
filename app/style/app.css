@@ -4088,8 +4088,16 @@ info-window img{
 .job-res-item.job-res-item-load{
 	margin-bottom: 100px;
 }
-
+.clearfix.flex-cont.corpContMain{
+	padding:80px 0;
+}
+.portfolioContainer.corpMainCont.contactMainCont>.container{
+	padding: 0 15px;
+}
 @media only screen and (max-width: 1000px) {
+	.eachTimelineSlide {
+	    float: left;
+	}
 	.itemHomeSlider{
 		width: 16.6666666667vw !important;
 	}
@@ -4484,6 +4492,12 @@ info-window img{
 		width: 50vw !important;
 		max-height: 100%;
 	}
+	.portfolioContainerAni.portfolioContainer .parallaxOneCont.etvMainCont .para_img_cont img{
+		position: static !important;
+	}
+	.portfolioContainerAni.portfolioContainer .parallaxOneCont.etvMainCont.parallaxOneContBgImg.trans0{
+		margin-bottom: 0 !important;
+	}
 	.para_txt_inner.paraTxtInnerNick {
 		max-width: unset;
 	}
@@ -4493,13 +4507,38 @@ info-window img{
 	}
 	.portfolioMainCont .thumbnail .caption p, .distriThmb p{padding-top: 40px;}
 	.etvMobCont a{
-		width: 50%;
-		display: block;
-		text-align: center;
-		float: left;
+		width: 25%;
+	    display: flex;
+	    text-align: center;
+	    float: left;
+	    height: 80px;
+	    margin: 0;
 	}
 	.etvMobCont a img{
 		max-height: 180px;
+	    max-width: 100%;
+	    margin: auto;
+	}
+	
+	.etvMobCont a:nth-child(1) img{
+		max-width: 63px;
+		transform: translateY(-5px);
+	}
+	.etvMobCont a:nth-child(6) img,.etvMobCont a:nth-child(9) img,.etvMobCont a:nth-child(10) img,.etvMobCont a:nth-child(12) img{
+		max-width: 80px;
+		transform: translateY(-5px);
+	}
+	.etvMobCont a:nth-child(7) img{
+		max-width: 77px;
+		transform: translateY(-5px);
+	}
+	.etvMobCont a:nth-child(8) img{
+		max-width: 70px;
+		transform: translateY(-5px);
+	}
+	.etvMobCont a:nth-child(11) img{
+		max-width: 70px;
+		transform: translateY(-5px);	
 	}
 	.bottomSticky{
 		display: none;
@@ -4636,6 +4675,63 @@ info-window img{
 	.inverstorSections h1 a{
 		font-size: 20px;
 		letter-spacing: unset;
+	}
+	.mobShowCorpOpt .pull-left.col-md-3.boxContAt{
+		width: 100%;
+		height: 200px;
+	}
+	.mobShowCorpOpt .boxContAt .box-flex .col-md-3 {
+	    flex-direction: row;
+	    height: 100%;
+	    justify-content: space-between;
+	    width: 100%;
+	    display: flex;
+	}
+	.mobShowCorpOpt .box-flex .col-md-3 .box {
+	     flex-basis: unset;
+	    margin: auto;
+	    width: 160px;
+	    height: 160px;
+	}
+	.flex-cont.corpContMain{
+		padding: 80px 0 40px;
+	}
+	.mobShow.mobShowCorpOpt{
+		margin-bottom: 80px;
+	}
+	.clearfix.flex-cont.corpContMain{
+		padding:80px 0 40px;
+	}
+	.row.contact-main-text.text-center {
+	    margin: 0;
+	}
+	.contact-main-text p{
+		font-size: 16px;
+		color: rgba(0,0,0,0.6);
+		max-width: 81%;
+	}
+	.portfolioContainer.corpMainCont.contactMainCont>.container,.row.container-fluid.contact-add-text .col-md-6,.row.container-fluid.contact-add-text.invCntcCont{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.row.container-fluid.contact-add-text .col-md-6{
+		margin-bottom: 25px;
+	}
+	.mainBodyContainerContactFull .row.container-fluid{
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.contact-add-text-below.text-center{
+		padding:25px;
+		margin:0;
+	}
+	.row.contact-add-text{
+		margin: 40px 0;
+	}
+	div#chart_div {
+	    padding: 0 !important;
 	}
 }
 
