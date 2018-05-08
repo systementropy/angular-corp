@@ -1076,6 +1076,7 @@ a.subCrumbsLinks:hover{
 	z-index: 9999;
 	opacity: 0;
 	background: #363636;
+	overflow: hidden;
 }
 .headerMainContainer .video-cont{
 	position: absolute;
