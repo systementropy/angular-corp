@@ -546,15 +546,18 @@ body{
 .pageSeperator{background: #D1D1D1; height: 10px;width: 100%;margin:20px 0;}
 .jumbotron{background: #b1b1b1;position: relative;height: 400px;padding: 0px !important;}
 .portfolioContainer.jobHoverMainCont {
-	min-height: 100vh;
+	min-height: unset;
 	background: #FFF;
+	height: 1015px;
 }
 .portfolioContainer.jobHoverMainCont>div.container{
 	position: relative;
 	display: flex;
 	justify-content: center;
 	height: 980px;
-	
+	transform: scale(0.85);
+	/*width: 700px;
+	min-width: unset;*/
 }
 .auxElt{
 	position: absolute;
@@ -592,19 +595,23 @@ div.career-empl-cont div.col-md-4 .imgEmpCnt img {
 	clear: both;
 }
 .topLayer>div,.middleLayer>div{
-	background: transparent;
-	height: 150px;
+	background: #FFF;
+	height: 100px;
+	padding: 5px;
 	float: left;
 	display: flex;
 	position: relative;
 }
-.topLayer>div:nth-child(2) .carHvrDisp{
-	flex-direction: column;
+.topLayer>div:nth-child(2){
+	flex-direction: column-reverse;
 	text-align: center;
+	height: 143px;
+}
+.topLayer>div:nth-child(2) .carHvrCont img{
+	margin-top: 20px;
 }
 .topLayer>div:nth-child(2) .carHvrDisp i{
-	display: none;
-	order:2;
+
 }
 .topLayer>div:nth-child(2) .carHvrDisp span{
 	order:1;
@@ -614,11 +621,19 @@ div.career-empl-cont div.col-md-4 .imgEmpCnt img {
 	color: #405d9b;
 	display: flex;
 	width: 150px;
+	font-size: 24px;
 }
 .carHvrCont{
 	
 	transition-delay: 0.6s;
 	transition: all 0.6s ease-in-out;
+}
+.carHvrCont img{
+	max-height: 80px;
+	max-width: 80px;
+	margin: auto;
+	flex-basis: 50%;
+	filter:sepia() hue-rotate(167deg)
 }
 .carHvrCont:hover{
 	z-index: 100;
@@ -627,7 +642,7 @@ div.career-empl-cont div.col-md-4 .imgEmpCnt img {
 .carHvrCont:hover .carhvrTxt{
 	visibility: visible;
 	opacity: 1;
-	transform: translateY(0px);
+	transform: translateY(40px);
 	box-shadow: 1px 1px 16px 1px rgba(0,0,0,0.1);
 	z-index: 100;
 }
@@ -663,7 +678,7 @@ div.career-empl-cont div.col-md-4 .imgEmpCnt img {
 	transform:translateY(0px);
 }
 .middleLayer:nth-child(4) .carHvrCont:hover .carhvrTxt,.middleLayer:nth-child(3) .carHvrCont:hover .carhvrTxt{
-	transform:translateY(-80px);
+	transform:translateY(-120px);
 }
 .carHvrDisp i{
 	display: none;
@@ -672,7 +687,7 @@ div.career-empl-cont div.col-md-4 .imgEmpCnt img {
 .carHvrDisp span{
 	margin:auto;
 	font-family: 'Geogrotesque';
-	text-transform: uppercase;
+	text-transform: none;
 }
 i.ringInner{
 	position: absolute;
@@ -706,7 +721,7 @@ i.ringInner h3{
 }
 .middleLayer>div:nth-child(1) span,.topLayer>div:nth-child(1) span{
 	order: 1;
-	margin-left: 0;
+	margin-left: 10px;
 	flex-basis: 50%;
 }
 .middleLayer>div:nth-child(2){
@@ -716,15 +731,22 @@ i.ringInner h3{
 .middleLayer>div:nth-child(2) span, .topLayer>div:nth-child(3) span{
 	flex-basis: 50%;
 	margin-right: 0;
+	margin-left: 10px;
 }
 .topLayer>div:nth-child(1){
 	transform: translate(0px,65px)
 }
+/*.topLayer>div:nth-child(1){
+	flex-direction: column;
+}*/
 .topLayer>div:nth-child(3){
 	transform: translate(0px,65px)
 }
 .middleLayer:nth-child(2){
-	margin-top: 60px;
+	margin-top: 86px;
+}
+.middleLayer:nth-child(3){
+	margin-top: 40px;
 }
 .middleLayer:nth-child(4)>div:nth-child(1){
 	transform: translate(75px,-20px);
@@ -732,23 +754,25 @@ i.ringInner h3{
 .middleLayer:nth-child(4)>div:nth-child(2){
 	transform: translate(-75px,-20px);
 }
+.middleLayer:nth-child(4)>div{
+	margin: 44px 0 22px;
+}
 span.ring {
 	z-index: -1;
 	background: transparent;
-	width: 10px;
-	width: 100%;
-	height: 83%;
+	width: 92%;
+	height: 75%;
 	display: block;
 	top: 41%;
 	left: 50%;
 	position: absolute;
-	/* border: 10px solid #cfe1f6; */
-	/* border-radius: 50%; */
+	border: 10px solid #cfe1f6;
+	border-radius: 50%;
 	transform: translate(-50%,-50%);
-	background: url(/images/career/icons.png);
+	/*background: url(/images/career/icons.png);
 	background-position: center;
 	background-size: contain;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat;*/
 }
 .topLayer>div{
 	width: 150px;
@@ -2190,6 +2214,12 @@ span.bottom-dot-flex {
 	position: static;
 	z-index: 1;
 }
+.vid-bg.vid-bg-career{
+	background: url('/images/career/career_head_g.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
 .vid-bg.vid-bgs img{
 	position: absolute;
 	z-index: -15;
@@ -2535,10 +2565,15 @@ span.bottom-dot-flex {
 	font-size: 24px;
 }
 .career-jumbo{
+	height: 50vw;
 	background: #000;
 	border-radius: 0 !important;
 	height: 600px;
 	margin:0;
+	background: url('/images/career/career_vid_g.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 .container.box-flex.careerbox{
 	justify-content: space-between;
@@ -2546,9 +2581,10 @@ span.bottom-dot-flex {
 .container.box-flex.careerbox .box{
 	z-index: 1;
 	margin:0;
+	background: rgba(255,255,255,0.3);
 }
 .corpMainCont.careerSec.careerboxCont{
-	background: #F5F5F6;padding-bottom: 40px;margin-top: 80px;border-bottom: 1px solid #bcbcbc;
+	background: #F5F5F6;padding-bottom: 120px;margin-top: 80px;border-bottom: 1px solid rgba(188,188,188,0.3);
 }
 .corpMainCont.careerSec.careerboxCont h1{
 	background: transparent;padding: 0px; font-size: 80px;
@@ -2556,8 +2592,23 @@ span.bottom-dot-flex {
 .container.box-flex.careerbox .box:hover a{
 	background: rgba(0, 0, 255, 0);
 }
+.container.box-flex.careerbox .box a, .container.box-flex.careerbox .box a{
+	background: rgba(255,255,255,0.4);
+}
 .container.box-flex.careerbox .box.active a, .container.box-flex.careerbox .box:hover a{
-    background: rgba(0, 0, 255, 0.2);
+    background: rgba(239, 115, 134, 0.5);
+}
+.careerbox .box .boxTextBot h4{
+	font-family: 'GeoMed';
+	color: rgba(255,255,255,0.7);
+}
+.careerbox .box .boxTextBot h3{
+	text-transform: capitalize;
+	font-family: 'Geogrotesque';
+	color: rgba(255,255,255,0.7);
+}
+.careerbox .box .boxTextBot h3:last-child{
+	font-family: 'GeoMed';
 }
 #careerMain h1{
 	line-height: 1;
@@ -2599,7 +2650,13 @@ span.bottom-dot-flex {
 	background: #FFF;
 	height: 23px;
 }
-
+.btn-SplCont .bottomHR{
+	background: transparent;
+	top: -24px;
+}
+.btn-SplCont .bottomHR .btn{
+	font-size: 16px;
+}
 .bottomHR .btn{
 	border-radius: 0;
 	line-height: 32px;
@@ -2659,32 +2716,32 @@ div.career-empl-cont div.col-md-4 p {
 .empPrev:before,.empPrev:after,.empNext:before,.empNext:after{
 	content: " ";
 	width: 2px;
-	height: 100px;
+	height: 30px;
 	position: absolute;
 	left: 50%;
 	top: 50%;
 	background: rgba(0,0,0,0.3);
 }
 .empNext:before{
-	transform: translateY(-96px) rotate(-20deg);
+	transform: translateY(-30px) rotate(-30deg);
 }
 .empNext:after{
-	transform: translateY(-2px) rotate(20deg);
+	transform: translateY(-4px) rotate(30deg);
 }
 .empPrev:before{
-	transform: translateY(-96px) rotate(20deg);
+	transform: translateY(-30px) rotate(30deg);
 }
 .empPrev:after{
-	transform: translateY(-2px) rotate(-20deg);
+	transform: translateY(-4px) rotate(-30deg);
 }
 .empNext{
 	right: 0;
 }
 .btnContSlixk {
     position: absolute;
-    width: 110%;
+    width: 90%;
     z-index: 100;
-    transform: translateX(-5%);
+    transform: translateX(5%);
     top: 50%;
 }
 .row.boardDirMainCont.ng-scope.slick-slide {
@@ -2692,6 +2749,7 @@ div.career-empl-cont div.col-md-4 p {
     height: auto;
     margin: 0;
     display: flex;
+    padding: 0 140px;
 }
 .career-empl-cont {
     overflow: hidden;
@@ -2708,6 +2766,7 @@ div.career-empl-cont div.col-md-4 p {
 	width: 200px;
 	height: 200px;
 	position: relative;
+	overflow: hidden;
 }
 .empl-post b {
 	font-size: 20px;
@@ -2717,8 +2776,8 @@ div.career-empl-cont div.col-md-4 p {
 .btn.btn-primary.btn-join{
 	background: #99ADFF;
 	border-radius: 0;
-	line-height: 32px;
-	font-size: 24px;
+	line-height: 24px;
+	font-size: 16px;
 	border-color: rgba(255,0,0,0);
 	padding: 8px 80px;
 	color: rgba(255, 255, 255, 0.81);
@@ -2728,7 +2787,7 @@ div.career-empl-cont div.col-md-4 p {
 	height: 100%;
 	width: 100%;
 	z-index: 2;
-	background: rgba(255,0,0,0.35);
+	background: rgba(239, 115, 134, 0.5);
 	transform: translate(10%,10%);
 }
 .col-md-3.jumbotron.contentTypeDiv .back{
@@ -4551,10 +4610,7 @@ info-window img{
 		margin-bottom: 40px;
 		font-size: 16px;
 	}
-	.career-jumbo{
-		height: 50vw;
 
-	}
 	.row.career-main-text.text-center h1,.corpMainCont.careerSec.careerboxCont h1{
 		font-size: 32px;
 	}
@@ -4606,16 +4662,16 @@ info-window img{
 		position: relative;
 	}
 	.empPrev.empPrevJ:after{
-	    transform: translateY(-3px) rotate(-20deg);
+	    transform: translateY(-3px) rotate(-30deg);
 	}
 	.empNext.empNextJ:after {
-	    transform: translateY(-3px) rotate(20deg);
+	    transform: translateY(-3px) rotate(30deg);
 	}
 	.empPrev.empPrevJ:before{
-	    transform: translateY(-50px) rotate(20deg);
+	    transform: translateY(-50px) rotate(30deg);
 	}
 	.empNext.empNextJ:before {
-	    transform: translateY(-50px) rotate(-20deg);
+	    transform: translateY(-50px) rotate(-30deg);
 	}
 	.jobSlickCot {
 	    overflow: hidden;
