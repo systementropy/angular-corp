@@ -3562,6 +3562,13 @@ div.tint2{
 	width: 100%;
 	max-height:none;
 }
+.para_img_cont img.lokmatAnchImg{
+	height: 100%;
+    width: auto;
+    max-width: unset;
+    left: 50%;
+    transform: translateX(-22%);
+}
 .not-visible {
   visibility: hidden;
 }
