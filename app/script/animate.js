@@ -32,9 +32,9 @@
             }
             $rootScope.hidefooter=true;
             $timeout(function() {
-                //$scope.$apply(function() { $location.path("/home"); });
+                $scope.$apply(function() { $location.path("/home"); });
                 
-            }, 10000);
+            }, 7000);
         };
         
         $scope.init();

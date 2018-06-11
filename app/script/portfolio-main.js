@@ -51,7 +51,7 @@
 	    		$scope.anmtXfrmLFade = parallaxHelper.createAnimator(0.4, 0, 1, -650);
 	    		$scope.anmtXfrmL = parallaxHelper.createAnimator(0.4, -300, 100, -1400);
 	    		$scope.anmtXfrmL3 = parallaxHelper.createAnimator(0.4, -300, 0, -1400);
-	    		$scope.anmtXfrmR = parallaxHelper.createAnimator(0.9, 100, -278, -1100);
+	    		//$scope.anmtXfrmR = parallaxHelper.createAnimator(0.9, 100, -278, -1100);
 	    		$scope.anmtXfrmR = parallaxHelper.createAnimator(0.9, 300, 0, -1100);
 	    		$scope.anmtXfrmLFade2 = parallaxHelper.createAnimator(0.4, 0, 1, -650);
 	    		$scope.foreground = parallaxHelper.createAnimator(0.1, 0, -1000,-400);
@@ -71,10 +71,10 @@
 	    		$scope.background = parallaxHelper.createAnimator(0,0,0,0);
 	    		$scope.background2 = parallaxHelper.createAnimator(0,0,0,0);
 	    		$scope.anmtXfrmLFade = parallaxHelper.createAnimator(0,1,1,0);
-	    		$scope.anmtXfrmL = parallaxHelper.createAnimator(0,0,0,0);
-	    		$scope.anmtXfrmL3 = parallaxHelper.createAnimator(0,1,1,0);
-	    		$scope.anmtXfrmR = parallaxHelper.createAnimator(0,0,0,0);
-	    		$scope.anmtXfrmR = parallaxHelper.createAnimator(0,0,0,0);
+	    		$scope.anmtXfrmL = parallaxHelper.createAnimator(0.4, -100, 0, -1000);
+	    		$scope.anmtXfrmL3 = parallaxHelper.createAnimator(0.4, -100, 0, -1000);
+	    		//$scope.anmtXfrmR = parallaxHelper.createAnimator(0,0,0,0);
+	    		$scope.anmtXfrmR = parallaxHelper.createAnimator(0.4, -100, 0, -1000);
 	    		$scope.anmtXfrmLFade2 = parallaxHelper.createAnimator(0,1,1,0);
 	    		$scope.foreground = parallaxHelper.createAnimator(0,0,0,0);
 	    		$scope.foregroundvf = parallaxHelper.createAnimator(0,0,0,0);

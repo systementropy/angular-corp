@@ -14,11 +14,11 @@
         
         $scope.init = function(){
             $rootScope.hideHeader=false;
-            
-            if ($window.width>1000) {
-                $rootScope.hidefooter=true;    
+
+            if ($(window).width()<1000) {
+                $rootScope.hidefooter=false;    
             }else {
-                $rootScope.hidefooter=false;
+                $rootScope.hidefooter=true;
             }
         };
         

@@ -113,13 +113,14 @@
 <div class="mainBodyContainerFull mainBodyContainerHomeFull" style="padding-top: 100vh;position: relative;width: 100vw;height: 100vh;overflow: hidden;">
 	<div class="homeIconCont centerIcon" style="" ng-class="{'active':eventEnd}">
 		 <a href="/portfolio">
-		 	<span class="badgeCont mobHide"><img src="images/aerrow_r.png" alt="" class="arrowAnimate"></span>
-		 	<span class="badgeCont mobShow"><img src="images/aerrow_white.png" alt="" class="arrowAnimate"></span>
+		 	<span class="badgeCont arrowAnimate mobHide">Explore <img src="/images/aerrow_wn.png" alt="" class=""></span>
+		 	<span class="badgeCont arrowAnimate mobShow">Explore <img src="/images/aerrow_wn.png" alt="" class=""></span>
 		 </a>
 	</div>
 	<div class="videoContHome" style="" ng-class="{'inactive':eventEnd}">
 		<img src="images/mbAbtBg.png" alt="" class="mobShow">
-		<button class="skipVid arrowAnimate arrText mobHide" ng-click="skipVid()">Skip Video</button>
+		<img src="images/mbAbtBg.png" alt="" class="mobHide">
+		<button class="skipVid arrowAnimate arrText mobHide" ng-click="skipVid()">Skip <img src="/images/aerrow_wn.png" alt=""></button>
 		<video id="home_vid" autoplay ui-event="{ ended : 'callOnEnd()'}" muted="true" class="mobHide">
 			<source src="images/abt_bg.mp4" type="video/mp4" mute class="top">
 		</video>

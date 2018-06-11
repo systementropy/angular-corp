@@ -68,8 +68,6 @@
                 ];
                 $scope.eventEnd=true;
             }
-            
-
         };
         $scope.skipVid = function(){
             $scope.data=[
