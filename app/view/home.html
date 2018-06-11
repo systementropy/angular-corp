@@ -112,7 +112,10 @@
 </div>
 <div class="mainBodyContainerFull mainBodyContainerHomeFull" style="padding-top: 100vh;position: relative;width: 100vw;height: 100vh;overflow: hidden;">
 	<div class="homeIconCont centerIcon" style="" ng-class="{'active':eventEnd}">
-		 <a href="/portfolio"><span class="badgeCont"><img src="images/aerrow_r.png" alt="" class="arrowAnimate"></span></a>
+		 <a href="/portfolio">
+		 	<span class="badgeCont mobHide"><img src="images/aerrow_r.png" alt="" class="arrowAnimate"></span>
+		 	<span class="badgeCont mobShow"><img src="images/aerrow_white.png" alt="" class="arrowAnimate"></span>
+		 </a>
 	</div>
 	<div class="videoContHome" style="" ng-class="{'inactive':eventEnd}">
 		<img src="images/mbAbtBg.png" alt="" class="mobShow">
@@ -196,25 +199,30 @@
 				});
 			};
 			$('.open').on('click', function(e){
+				if (windowWid>1000) {
+					$('.fixed-link-top').hide();
+					$('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 300, 'easeInOutQuad', function(){
+						maxWidth = $('.containerHeaderLinks').width();
+						$('.subCrumbsCont').css('left', $('.containerHeaderLinks').offset().left);
+						$('.subCrumbsCont').width(maxWidth);
+					});
+					setTimeout(function () {
+						$('.header_bg_img').addClass('active');
+						setTimeout(function(){
+							$('.header_bg_img').removeClass('active');
+						},4000);
+					},300);	
+				}
 				
-				$('.fixed-link-top').hide();
-				$('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 300, 'easeInOutQuad', function(){
-				maxWidth = $('.containerHeaderLinks').width();
-				$('.subCrumbsCont').css('left', $('.containerHeaderLinks').offset().left);
-				$('.subCrumbsCont').width(maxWidth);
-				});
-				setTimeout(function () {
-				$('.header_bg_img').addClass('active');
-				setTimeout(function(){
-					$('.header_bg_img').removeClass('active');
-				},4000);
-				},300);
 			});
 			$('.headerMainContainer').height(windowHeight);
 			$('#headerLinkCont').height(windowHeight-80);
 			$('.closeBtn').on('click',function(){
 				$('.fixed-link-top').show();
-				$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
+				if (windowWid>1000) {
+					$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');	
+				}
+				
 			});
 			var windowHeight = $(window).height();
 			

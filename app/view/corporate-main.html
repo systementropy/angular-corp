@@ -360,7 +360,11 @@
 					</div>
 				</div>
 				<div class="mobShow timelineSlider">
-					<slick class="timelineSlider historyCompContainer" settings="slickConfig" dots="true">
+					<div class="btnContSlixk">
+						<button class="empPrev"></button>
+						<button class="empNext"></button>
+					</div>
+					<slick class="timelineSlider historyCompContainer" settings="slickConfig" dots="true" prev-arrow=".empPrev" next-arrow=".empNext">
 						<div class="eachTimelineSlide" ng-repeat="i in [1,2,3,4,5,6,7,8,9,10,11]">
 							<img src='/images/timeline/{{i}}.jpg' alt="">
 						</div>

@@ -10,11 +10,16 @@
         });
     }])
 
-    .controller('View2Ctrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+    .controller('View2Ctrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', '$window', function($rootScope,$scope, $http,$timeout,$location,$window) {
         
         $scope.init = function(){
             $rootScope.hideHeader=false;
-            $rootScope.hidefooter=true;
+            
+            if ($window.width>1000) {
+                $rootScope.hidefooter=true;    
+            }else {
+                $rootScope.hidefooter=false;
+            }
         };
         
         $scope.init();
