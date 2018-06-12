@@ -3777,7 +3777,7 @@ span.bgPatch.bgGrey{
 }
 .mainBodyContainerHomeFull .homeIconCont.centerIcon.active{
 	background: rgba(240,240,240,0);
-	top: 67%;
+	top: 73%;
 	display: flex;
 	padding: 0 5px;
 	opacity: 1;
@@ -3873,6 +3873,8 @@ h3.aniOri.L2R.top{
 .videoContHome.inactive{
 	height: 85vh;
 	background: #dc0032;
+	position: absolute;
+	top: 0;
 }
 .videoContHome img{
 	margin: auto;

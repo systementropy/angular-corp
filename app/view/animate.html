@@ -157,7 +157,7 @@
 </div>
 <script>
 	$(document).ready(function(){
-		
+		$('.headerPrimaryCont.animateHeader.animateHeaderHome').css('opacity', '0');
 		var windowHeight = $(window).height();
 		var windowWidth = $(window).width();
     
@@ -185,6 +185,7 @@
 					opacity: 1,
 					top:0
 				},1000, function() {
+          $('.headerPrimaryCont.animateHeader.animateHeaderHome').animate({opacity: 1}, 1500);
 					$('.frontText1').animate({
 						opacity: 0
 					},

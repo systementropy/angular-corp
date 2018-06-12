@@ -218,8 +218,9 @@
             };
             $scope.enableYT=true;
             $scope.$on('youtube.player.ended', function ($event, player) {
-               player.seekTo(53.8);
-               player.pauseVideo();
+                $scope.skipVid();
+                player.seekTo(53.8);
+                player.pauseVideo();
               //player.playVideo();
             });
         }
