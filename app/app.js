@@ -32,7 +32,8 @@
         'myApp.careerApply',
         'angularLazyImg',
         'angular-nicescroll',
-        'ngFileUpload'
+        'ngFileUpload',
+        'youtube-embed'
     ]).
     config(['$locationProvider', '$routeProvider','lazyImgConfigProvider', function($locationProvider, $routeProvider,lazyImgConfigProvider) {
         $locationProvider.hashPrefix('!');

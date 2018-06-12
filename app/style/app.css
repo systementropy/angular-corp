@@ -3897,6 +3897,11 @@ h3.aniOri.L2R.top{
 	height: 100%;
 	object-fit: fill;
 	transition: all 0.8s ease-in-out;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -1;
 }
 .videoContHome.inactive #home_vid{
 	height: 85vh;

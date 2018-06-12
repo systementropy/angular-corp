@@ -189,6 +189,39 @@
             }else{
                 $rootScope.hideHeader=true;
             }
+            $scope.theBestVideo = 'fEC3VqzRvwg';
+            var w = angular.element($window);
+            var wWid=w.width();
+            var wHig=w.height();
+            console.log(wHig/wWid);
+            if (wHig/wWid>=0.5625) {
+               // var vidHeight= $(window).height(); 
+               // var vidWidth= (vidHeight*16)/9;
+               // $('.videoBg').css('width', vidWidth);  
+               $scope.pHigh=parseInt(wHig);
+               $scope.pWid=parseInt((wWid*16)/9);
+            }else{
+               $scope.pWid=parseInt(w.width());
+               $scope.pHigh=parseInt(((parseInt(w.width())*9)/16));
+            }
+            // $scope.pWid=parseInt(w.width());
+            // $scope.pHigh=parseInt(((parseInt(w.width())*9)/16));
+
+            $scope.playerVars = {
+                'autoplay': 1,
+                'controls': 0, 
+                'rel' : 0,
+                'showinfo':0,
+                'fs' : 0,
+                'loop': 1,
+                'mute':1
+            };
+            $scope.enableYT=true;
+            $scope.$on('youtube.player.ended', function ($event, player) {
+               player.seekTo(53.8);
+               player.pauseVideo();
+              //player.playVideo();
+            });
         }
         
         init();

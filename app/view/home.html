@@ -121,9 +121,9 @@
 		<img src="images/mbAbtBg.png" alt="" class="mobShow">
 		<img src="images/mbAbtBg.png" alt="" class="mobHide">
 		<button class="skipVid arrowAnimate arrText mobHide" ng-click="skipVid()">Skip <img src="/images/aerrow_wn.png" alt=""></button>
-		<video id="home_vid" autoplay ui-event="{ ended : 'callOnEnd()'}" muted="true" class="mobHide">
-			<source src="images/abt_bg.mp4" type="video/mp4" mute class="top">
-		</video>
+		<div id="home_vid" class="mobHide" style="height: {{pHigh}}px;width: {{pWid}}px;">
+			<youtube-video ng-if="enableYT" player-vars="playerVars" player="bestPlayer" video-id="theBestVideo" player-width="'100%'" player-height="'100%'" ></youtube-video>
+		</div>
 		
 	</div>
 	<div class="logoSliderHomeCont" style="" ng-class="{'active':eventEnd}">
