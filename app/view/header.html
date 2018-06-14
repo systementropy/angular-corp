@@ -29,8 +29,8 @@
 	  </video>
 	</div> -->
 
-	<img src="/images/header_bg.png" alt="" class="header_bg_img mobHide">
-	<img src="/images/pixalate_ver.png" alt="" class="header_bg_img mobShow">
+	<img src="/images/MENU_PAGE.png" alt="" class="header_bg_img mobHide">
+	<img src="/images/MENU_PAGE.png" alt="" class="header_bg_img mobShow">
 	<span></span>
 	<div class="header-top">
 	  <div class="headerInner closeBtn" style="text-align: center;">
@@ -161,12 +161,17 @@
 		$('.subCrumbsCont').css('left', $('.containerHeaderLinks').offset().left);
 		$('.subCrumbsCont').width(maxWidth);
 	  });
-	  setTimeout(function () {
-		$('.header_bg_img').addClass('active');
-		setTimeout(function(){
-		  $('.header_bg_img').removeClass('active');
-		},4000);
-	  },300);
+	  if (windowWid>1000) {
+	  	  setTimeout(function () {
+	  		$('.header_bg_img').addClass('active');
+	  		setTimeout(function(){
+	  		  $('.header_bg_img').removeClass('active');
+	  		},4000);
+	  	  },300);	
+	  }else{
+	  	$('.header_bg_img.mobShow').addClass('activate');
+	  }
+	  
 	});
 	$('.headerMainContainer').height(windowHeight);
 	$('#headerLinkCont').height(windowHeight-80);
@@ -179,10 +184,11 @@
 	$('.closeBtn').on('click',function(){
 	  $('.fixed-link-top').show();
 	  if (windowWid<1000) {
-	  	console.log('here');
+	  	$('.header_bg_img.mobShow').removeClass('activate');
 	  	$('.headerMainContainer').animate({top: 0+'%',left:110+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
 	  }else {
 	  	$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');	
+
 	  }
 	  
 	});

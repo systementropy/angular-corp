@@ -178,32 +178,31 @@
                 {'img':"/images/resized/viacom.gif",'href':"https://www.viacom18.com/",'class':''},
                 {'img':"/images/resized/india_cast.png",'href':"http://www.indiacast.com/",'class':''}
             ];
+            
+            
+            $scope.theBestVideo = 'fEC3VqzRvwg';
             var w = angular.element($window);
             var wWid=w.width();
-            $scope.wWid=wWid;
             var wHig=w.height();
+            console.log(wHig/wWid);
             if (wWid<1000) {
                 $scope.hideHeader=false;
                 $scope.skipVid();
                 // $scope.eventEnd=true;
             }else{
                 $rootScope.hideHeader=true;
+                if (wHig/wWid>=0.5625) {
+                   // var vidHeight= $(window).height(); 
+                   // var vidWidth= (vidHeight*16)/9;
+                   // $('.videoBg').css('width', vidWidth);  
+                   $scope.pHigh=parseInt(wHig);
+                   $scope.pWid=parseInt((wWid*16)/9);
+                }else{
+                   $scope.pWid=parseInt(w.width());
+                   $scope.pHigh=parseInt(((parseInt(w.width())*9)/16));
+                }
             }
-            $scope.theBestVideo = 'fEC3VqzRvwg';
-            var w = angular.element($window);
-            var wWid=w.width();
-            var wHig=w.height();
-            console.log(wHig/wWid);
-            if (wHig/wWid>=0.5625) {
-               // var vidHeight= $(window).height(); 
-               // var vidWidth= (vidHeight*16)/9;
-               // $('.videoBg').css('width', vidWidth);  
-               $scope.pHigh=parseInt(wHig);
-               $scope.pWid=parseInt((wWid*16)/9);
-            }else{
-               $scope.pWid=parseInt(w.width());
-               $scope.pHigh=parseInt(((parseInt(w.width())*9)/16));
-            }
+            
             // $scope.pWid=parseInt(w.width());
             // $scope.pHigh=parseInt(((parseInt(w.width())*9)/16));
 
