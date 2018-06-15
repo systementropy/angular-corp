@@ -1,7 +1,7 @@
 <div ng-controller="headerCtrl" >
   <div class="headerPrimaryCont container-fluid text-center" >
-	<div class="col-md-5 col-sm-5 col-xs-5 text-left pull-left"><a class="homeLogoA" href="/home"><img src="images/Network18logo_K.png" height="60px"></a></div>
-	<div class="hidden-lg hidden-md col-sm-5 col-xs-5"></div>
+	<div class="col-md-5 hidden-sm hidden-xs text-left pull-left"><a class="homeLogoA" href="/home"><img src="images/Network18logo_K.png" height="60px"></a></div>
+	
 	<div class="col-md-2 col-sm-2 col-xs-2 text-center menuBrsCont">
 	  <button class="btn btn-large open">
 		<ul class="barsCont">
@@ -17,6 +17,8 @@
 	  <a href=""><i class="fa fa-youtube-play"></i></a>
 	  <a href=""><i class="fa fa-linkedin"></i></a>
 	</div>
+	<div class="hidden-lg hidden-md col-sm-6 col-xs-6"></div>
+	<div class="hidden-lg hidden-md col-sm-4 col-xs-4 text-left pull-right"><a class="homeLogoA" href="/home"><img src="images/Network18logo_K.png" height="60px"></a></div>
   </div>
   <div class="headerMainContainer" style="overflow:hidden;"> 
 	
@@ -156,7 +158,7 @@
 	$('.open').on('click', function(e){
 	  
 	  $('.fixed-link-top').hide();
-	  $('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 300, 'easeInOutQuad', function(){
+	  $('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 600, 'easeInOutCirc', function(){
 		maxWidth = $('.containerHeaderLinks').width();
 		$('.subCrumbsCont').css('left', $('.containerHeaderLinks').offset().left);
 		$('.subCrumbsCont').width(maxWidth);
@@ -185,19 +187,19 @@
 	  $('.fixed-link-top').show();
 	  if (windowWid<1000) {
 	  	$('.header_bg_img.mobShow').removeClass('activate');
-	  	$('.headerMainContainer').animate({top: 0+'%',left:110+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
+	  	$('.headerMainContainer').animate({top: 0+'%',left:-110+'%',width:0,opacity:0}, 600, 'easeInOutCirc');
 	  }else {
-	  	$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');	
+	  	$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 600, 'easeInOutCirc');	
 
 	  }
 	  
 	});
 	$('.subCrumbsLinks').on('click', function(event) {
 
-		$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
+		$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 600, 'easeInOutCirc');
 	});
 	$('.headerCrumbs').children('p').children('a').on('click', function(event) {
-		$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 300, 'easeInOutQuad');
+		$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 600, 'easeInOutCirc');
 	});
 
 	

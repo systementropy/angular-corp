@@ -5,7 +5,7 @@
 
     .config(['$routeProvider', function($routeProvider) {
         $routeProvider.when('/portfolio', {
-            templateUrl: '/view/view2.html',
+            templateUrl: '/view/portfolio.html',
             controller: 'View2Ctrl'
         });
     }])
