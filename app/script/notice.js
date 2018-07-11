@@ -37,7 +37,80 @@
         $scope.changeFocTV3 = function(num){
             $scope.left_foctv3=num;
         };
+        $scope.checkIEPF = function(){
+            delete $scope.memberInfo; delete $scope.memberInfoNull;
+            $http.get('/script/ril_shares_json.json')
+            .then(function(response) {
+
+                for(var i=0; i<response.data.length; i++){
+                    if (response.data[i].folio_number==$scope.inputData.nw18iepf) {
+                        $scope.memberInfo = response.data[i];
+                        break;
+                    }
+                }
+                if (!$scope.memberInfo) {
+                    $scope.memberInfoNull="Portfolio number not found.";
+                }
+            }, function(response) {
+                console.log('Error'+response);
+            });
+        };
+        $scope.UNPAIDINTEREST = function(){
+            delete $scope.memberInfoUI; delete $scope.memberInfoUINull;
+            $http.get('/script/getInterest_new.json')
+            .then(function(response) {
+
+                for(var i=0; i<response.data.length; i++){
+                    if (response.data[i].Folio_Number==$scope.inputData.nw18iepfUI) {
+                        $scope.memberInfoUI = response.data[i];
+                        break;
+                    }
+                }
+                if (!$scope.memberInfoUI) {
+                    $scope.memberInfoUINull="Portfolio number not found.";
+                }
+            }, function(response) {
+                console.log('Error'+response);
+            });
+        };
+        $scope.UNPAIDAMOUNT = function(){
+            delete $scope.memberInfoUA; delete $scope.memberInfoUANull;
+            $http.get('/script/getAmount_new.json')
+            .then(function(response) {
+
+                for(var i=0; i<response.data.length; i++){
+                    if (response.data[i].Folio_Number==$scope.inputData.nw18iepfUA) {
+                        $scope.memberInfoUA = response.data[i];
+                        break;
+                    }
+                }
+                if (!$scope.memberInfoUA) {
+                    $scope.memberInfoUANull="Portfolio number not found.";
+                }
+            }, function(response) {
+                console.log('Error'+response);
+            });
+        };
+        $scope.UNPAIDFRACTION = function(){
+            delete $scope.memberInfoUF; delete $scope.memberInfoUFNull;
+            $http.get('/script/getFraction-new.json')
+            .then(function(response) {
+
+                for(var i=0; i<response.data.length; i++){
+                    if (response.data[i].Folio_Number==$scope.inputData.nw18iepfUF) {
+                        $scope.memberInfoUF = response.data[i];
+                        break;
+                    }
+                }
+                if (!$scope.memberInfoUF) {
+                    $scope.memberInfoUFNull="Portfolio number not found.";
+                }
+            }, function(response) {
+                console.log('Error'+response);
+            });
+        };
         var init = function(){
+            $scope.inputData={};
             $scope.left_foc=0;
             $scope.left_foc1=0;
             $scope.left_foc3=0;

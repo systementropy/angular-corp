@@ -118,8 +118,24 @@
 		 </a>
 	</div>
 	<div class="videoContHome" style="" ng-class="{'inactive':eventEnd}">
-		<img src="images/mbAbtBg.png" alt="" class="mobShow">
-		<img src="images/mbAbtBg.png" alt="" class="mobHide">
+		<div class="homeSlickConnt">
+			<div class="btnContSlixk">
+				<button class="empPrev"></button>
+				<button class="empNext"></button>
+			</div>
+			<div class="career-empl-cont">
+				<slick class="" prev-arrow=".empPrev" next-arrow=".empNext" ng-if="eventEnd" autoplay="true" dots="true">
+					<div class="row boardDirMainCont" ng-repeat="i in [1,2,3,4] track by $index">
+						<div class="col-md-12">
+							<img src="/images/18_1/{{$index+1}}.png" alt="" ng-if="$index==0">
+							<img src="/images/18_1/{{$index+1}}.png" alt="" ng-if="$index!=0" class="small">
+						</div>
+					</div>
+				</slick>
+			</div>
+		</div>
+		<!-- <img src="images/mbAbtBg.png" alt="" class="mobShow">
+		<img src="images/mbAbtBg.png" alt="" class="mobHide"> -->
 		<button class="skipVid arrowAnimate arrText mobHide" ng-click="skipVid()">Skip <img src="/images/aerrow_wn.png" alt=""></button>
 		<div id="home_vid" class="mobHide" style="height: {{pHigh}}px;width: {{pWid}}px;">
 			<youtube-video ng-if="enableYT" player-vars="playerVars" player="bestPlayer" video-id="theBestVideo" player-width="'100%'" player-height="'100%'" ></youtube-video>
@@ -139,29 +155,6 @@
 				</ul>
 			</div>
 		</div>
-		<!-- <div class="slickContHome">
-			<slick class="" init-onload=true data="data" infinite=false slides-to-show=10 slides-to-scroll=1 speed=1500 autoplay=true autoplay-speed="1000" dots=true ng-if="wWid>1000">
-				<div ng-repeat="anc in data track by $index" class="itemHomeSlider" >
-					<a href="{{anc.href}}" target="_blank" class="logoSliderItem {{anc.class}}">
-					<img src="{{anc.img}}" alt="">
-					</a>
-				</div>
-			</slick>
-			<slick class="" init-onload=true data="data" infinite=false slides-to-show=6 slides-to-scroll=1 speed=1500 autoplay=true autoplay-speed="1000" dots=true ng-if="wWid<=1000 && wWid>600">
-				<div ng-repeat="anc in data track by $index" class="itemHomeSlider" >
-					<a href="{{anc.href}}" target="_blank" class="logoSliderItem {{anc.class}}">
-					<img src="{{anc.img}}" alt="">
-					</a>
-				</div>
-			</slick>
-			<slick class="" init-onload=true data="data" infinite=false slides-to-show=4 slides-to-scroll=1 speed=1500 autoplay=true autoplay-speed="1000" dots=true ng-if="wWid<600">
-				<div ng-repeat="anc in data track by $index" class="itemHomeSlider" >
-					<a href="{{anc.href}}" target="_blank" class="logoSliderItem {{anc.class}}">
-					<img src="{{anc.img}}" alt="">
-					</a>
-				</div>
-			</slick>
-		</div> -->
 	</div>
 </div>
 

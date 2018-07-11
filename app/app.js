@@ -30,6 +30,7 @@
         'myApp.finSubs',
         'myApp.careerDescription',
         'myApp.careerApply',
+        'myApp.gallery',
         'angularLazyImg',
         'angular-nicescroll',
         'ngFileUpload',

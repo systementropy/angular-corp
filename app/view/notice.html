@@ -106,6 +106,40 @@
 							<a href="http://www.network18online.com/reports/Notices and Events/Other Notices/TheInvestorEducationand ProtectionFundAuthority(Accounting,Audit,TransferandRefund)Rules2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 					</ol>
+					<ol class="list-group list-group-alt">
+						<li class="list-group-item transUp flexVer" du-parallax y="transY">
+							<p class="investor_title_text">DETAILS OF EQUITY SHARES TRANSFERRED TO IEPF</p>
+							<div class="input-control">
+								<input type="text" class="form-control" ng-model="inputData.nw18iepf" placeholder="Enter your DP ID Client ID / Folio No.">
+								<button class="btn bordDwlBtn active" ng-click="checkIEPF()">SUBMIT</button>
+								<i ng-if="memberInfo">*Details of Equity Shares transferred to IEPF pursuant to the Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016 (“the Rules”)</i>
+							</div>
+						</li>
+					</ol>
+					<div class="col-md-12" ng-if="memberInfo">
+						
+						<table class="table table-striped table-bordered">
+							<thead>
+								<tr class="danger">
+									<th>Full Name</th>
+									<th>Portfolio Number</th>
+									<th>Address</th>
+									<th>NO. OF EQUITY SHARES</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="">
+									<td>{{memberInfo.first_name}} {{memberInfo.middle_name}} {{memberInfo.last_name}}</td>
+									<td>{{memberInfo.folio_number}}</td>
+									<td>{{memberInfo.address}}</td>
+									<td>{{memberInfo.shares}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-12" ng-if="!memberInfo && memberInfoNull">
+						<p class="text-danger">{{memberInfoNull}}</p>
+					</div>
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==1?'active':' '" ng-if="left_foc2==1">
 					<ol class="list-group">
@@ -768,20 +802,108 @@
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==0?'active':' '" ng-if="left_foctv2==0">
-					<ol class="list-group">
-						<li class="list-group-item transUp" du-parallax y="transY">
+					<ol class="list-group list-group-alt">
+						<li class="list-group-item transUp flexVer" du-parallax y="transY">
 							<p class="investor_title_text">UNPAID INTEREST ON MATURED DEPOSIT</p>
-							<!-- <a href="" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a> -->
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">UNPAID AMOUNT OF MATURED DEPOSIT</p>
-							<!-- <a href="" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a> -->
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">UNPAID FRACTION AMOUNT SOA</p>
-							<!-- <a href="" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a> -->
+							<div class="input-control">
+								<input type="text" class="form-control" ng-model="inputData.nw18iepfUI" placeholder="Enter your Folio No.">
+								<button class="btn bordDwlBtn active" ng-click="UNPAIDINTEREST()">SUBMIT</button>
+								
+							</div>
 						</li>
 					</ol>
+					<div class="col-md-12" ng-if="memberInfoUI">
+						
+						<table class="table table-striped table-bordered">
+							<thead>
+								<tr class="danger">
+									<th>Full Name</th>
+									<th>Portfolio Number</th>
+									<th>Address</th>
+									<th>NO. OF EQUITY SHARES</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="">
+									<td>{{memberInfoUI.Investor_First_Name}} {{memberInfoUI.Investor_Middle_Name}} {{memberInfoUI.Investor_Last_Name}}</td>
+									<td>{{memberInfoUI.Folio_number}}</td>
+									<td>{{memberInfoUI.Address}}</td>
+									<td>{{memberInfoUI.Amount_Due}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-12" ng-if="!memberInfoUI && memberInfoUINull">
+						<p class="text-danger">{{memberInfoUINull}}</p>
+					</div>
+					<ol class="list-group list-group-alt">
+						<li class="list-group-item transUp flexVer" du-parallax y="transY">
+							<p class="investor_title_text">UNPAID AMOUNT OF MATURED DEPOSIT</p>
+							<div class="input-control">
+								<input type="text" class="form-control" ng-model="inputData.nw18iepfUA" placeholder="Enter your Folio No.">
+								<button class="btn bordDwlBtn active" ng-click="UNPAIDAMOUNT()">SUBMIT</button>
+								
+							</div>
+						</li>
+					</ol>
+					<div class="col-md-12" ng-if="memberInfoUA">
+						
+						<table class="table table-striped table-bordered">
+							<thead>
+								<tr class="danger">
+									<th>Full Name</th>
+									<th>Portfolio Number</th>
+									<th>Address</th>
+									<th>NO. OF EQUITY SHARES</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="">
+									<td>{{memberInfoUA.Investor_First_Name}} {{memberInfoUA.Investor_Middle_Name}} {{memberInfoUA.Investor_Last_Name}}</td>
+									<td>{{memberInfoUA.Folio_number}}</td>
+									<td>{{memberInfoUA.Address}}</td>
+									<td>{{memberInfoUA.Amount_Due}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-12" ng-if="!memberInfoUA && memberInfoUANull">
+						<p class="text-danger">{{memberInfoUANull}}</p>
+					</div>
+					<ol class="list-group list-group-alt">
+						<li class="list-group-item transUp flexVer" du-parallax y="transY">
+							<p class="investor_title_text">UNPAID FRACTION AMOUNT SOA</p>
+							<div class="input-control">
+								<input type="text" class="form-control" ng-model="inputData.nw18iepfUF" placeholder="Enter your DP ID Client ID / Folio No.">
+								<button class="btn bordDwlBtn active" ng-click="UNPAIDFRACTION()">SUBMIT</button>
+								
+							</div>
+						</li>
+					</ol>
+					<div class="col-md-12" ng-if="memberInfoUF">
+						
+						<table class="table table-striped table-bordered">
+							<thead>
+								<tr class="danger">
+									<th>Full Name</th>
+									<th>Portfolio Number</th>
+									<th>Address</th>
+									<th>NO. OF EQUITY SHARES</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="">
+									<td>{{memberInfoUF.Investor_First_Name}} {{memberInfoUF.Investor_Middle_Name}} {{memberInfoUF.Investor_Last_Name}}</td>
+									<td>{{memberInfoUF.Folio_number}}</td>
+									<td>{{memberInfoUF.Address}}</td>
+									<td>{{memberInfoUF.Amount_Due}}</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<div class="col-md-12" ng-if="!memberInfoUF && memberInfoUFNull">
+						<p class="text-danger">{{memberInfoUFNull}}</p>
+					</div>
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==1?'active':' '" ng-if="left_foctv2==1">
 					<ol class="list-group">
@@ -877,7 +999,6 @@
 							<p class="investor_title_text">Notice Under Section 160 of CA 2013</p>
 							<a href="http://www.network18online.com/reportstv18/2014/Notice under Section 160 of CA2013.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-						
 					</ol>
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==2?'active':' '" ng-if="left_foctv2==2">
