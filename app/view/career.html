@@ -31,7 +31,7 @@
 				<p>Network 18 brings together storytellers, designers, engineers, artists and business managers under one roof united by the hunger to create immersive and bold content and ideas. We take pride in our people, who we believe are the key to realizing the organization’s potential. We continually strive to enable our employees to realize their own goals, by providing opportunities to learn, share and grow.</p>
 			</div>
 			<div class="row career-jumbo jumbotron"></div>
-			<div class="row career-main-text text-center">
+			<div class="row career-main-text text-center" id="whyCar">
 				<h1>Life at Network18</h1>
 				<ul class="list-group">
 					<li class="list-group-it"><b>Exposure</b> – India’s most diversified media conglomerate, Network18 offers an array of work opportunities across digital, broadcasting and publishing space</li>
@@ -43,7 +43,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="portfolioContainer corpMainCont careerSec careerboxCont" style="">
+	<div class="portfolioContainer corpMainCont careerSec careerboxCont" style="" id="carJob">
 		<h1 class="text-center" style="">Latest Jobs</h1>
 		<div class="container box-flex careerbox mobHide">
 			
@@ -131,7 +131,7 @@
 		</div>
 	</div>
 	
-	<div class="portfolioContainer corpMainCont careerSec careerSlick text-center">
+	<div class="portfolioContainer corpMainCont careerSec careerSlick text-center" id="carLife">
 		<div class="container">
 			<h1 >Enjoy the challenge of new experiences <br>and opportunities</h1>
 			<div class="btnContSlixk">
@@ -140,9 +140,9 @@
 			</div>
 			<div class="career-empl-cont">
 				<slick class="" prev-arrow=".empPrev" next-arrow=".empNext" ng-if="wWid>1000">
-					<div class="row boardDirMainCont" ng-repeat="i in [1,2,3,4,5,6,7,8,9,10,11,12] track by $index">
+					<div class="row boardDirMainCont" ng-repeat="i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20] track by $index">
 						<div class="col-md-12">
-							<img src="/images/career/{{$index+1}}.jpg" alt="">
+							<img src="/images/career/c{{$index+1}}.jpg" alt="">
 						</div>
 					</div>
 				</slick>
@@ -150,15 +150,18 @@
 		</div>
 	</div>
 	
-	<div class="portfolioContainer corpMainCont careerSec careerSlick WorkFinal" style="">
+	<div class="portfolioContainer corpMainCont careerSec careerSlick WorkFinal" style="" id="joinCar">
 		<h1 class="text-center" style="">Work with us</h1>
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6 text-right">
+				<div class="col-md-6 col-sm-12 text-right">
 					<button class="btn btn-primary btn-join">Connect with us on LinkdIn</button>
 				</div>
-				<div class="col-md-6 text-left">
+				<div class="col-md-6 col-sm-12 text-left mobHide">
 					To explore career opportunities with us, please e-mail <br>your resume to <a href="" class="btn btn-link">careers@nw18.com</a> 
+				</div>
+				<div class="col-md-6 col-sm-12 text-left mobShow">
+					To explore career opportunities with us, please e-mail your resume to <a href="" class="btn btn-link">careers@nw18.com</a> 
 				</div>
 			</div>
 			<!-- <div class="row text-center">

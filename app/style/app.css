@@ -1953,10 +1953,16 @@ span.dottdBrder {
 	line-height: 14px;
 	transition: all 0.4s ease-in-out;
 	order: 1;
-	margin: 0 20px auto 0;
+	margin: auto 20px auto 0;
 }
 .inverstorSections .bordDwlBtn:hover{
 	color: #FFF; background: #dc0032;
+}
+.inverstorSections.mobHide {
+    position: relative;
+    height: 80px;
+    margin: 0;
+    top: -60px;
 }
 .inverstorSections .bordDwlBtn.active{
 	color: #FFF; background: #666;
@@ -3684,12 +3690,16 @@ span.jpb-loc {
 	color: #fff;
 }
 .box5 .box{
-	height: 200px;
-	width: 18%;
+	height: 178px;
+	width: 16%;
 }
 .box5 .box a{
-	font-size: 25px;
-	line-height: 25px;
+	font-size: 21px;
+	line-height: 21px;
+}
+.box5 .box a .boxTextBot{
+	bottom: 25px;
+	left: 30px;
 }
 .container.nw18Cont,.container.tv18Cont{
 	margin-bottom: 80px;
@@ -3708,6 +3718,7 @@ span.jpb-loc {
 .boxContAt .box5 .box{
 	width: 100%;
 	margin: 0;
+	height: 200px;
 }
 .boxContAt .box5{
 	height: 100%;
@@ -3789,6 +3800,11 @@ li.list-group-item.flexVer div.input-control{
 	line-height: 108px;
 	padding: 0;
 }
+.inverstorSections.inverstorMergeSections h1{
+	font-size: 80px;
+	line-height: 1;
+	margin-bottom: 80px;
+}
 ol.list-group:after{
 	content: " ";
 	display: block;
@@ -3801,6 +3817,8 @@ ol.list-group:after{
 	letter-spacing: 1px;
 	color: #dc0032;
 	text-transform: uppercase;
+	display: block;
+	text-align: center;
 }
 .investor-pdf-links-new ol.list-group-alt li{
 	border: none;
@@ -3828,6 +3846,7 @@ ol.list-group:after{
 }
 .inverstorSections li.list-group-item p {
 	order: 2;
+	margin: auto auto auto 0;
 }
 .investor-pdf-links li.list-group-item {
 	float: left;
@@ -5265,6 +5284,23 @@ info-window img{
 	.corpMainCont h1 span {
 		font-size: 28px !important;
 	}
+	div#compHist h1{
+		max-width: 100%;
+	}
+	.legend {
+	    position: static;
+	    height: 13px;
+	    margin-top: 15px;
+	}
+	.legend p {
+	    width: 112px;
+	    float: left;
+	    margin: 0; 
+	}
+	.corpMainCont h1 .legend span{
+		font-size: 12px !important;
+		line-height: 1;
+	}
 	.portfolioItem>.thumbnail.slider-thumbnail.toLeft, .portfolioItem>.thumbnail.toLeft,.portfolioItem>.thumbnail.slider-thumbnail.toRight, .portfolioItem>.thumbnail.toRight,.portfolioItem div.thumbnail.second{
 		padding: 15px 0 !important;
 		margin: auto;
@@ -5730,6 +5766,86 @@ info-window img{
 	.invCntcCont>.clearfix.flex-cont{
 		flex-direction: column;
 	}
+	.empPrev:before,.empPrev:after,.empNext:before,.empNext:after{
+		background: #EEE;
+		width: 2px;
+		height: 16px
+	}
+	.empNext:before{
+		transform: translateY(-21px) rotate(-40deg);
+	}
+	.empPrev:before{
+		transform: translateY(-21px) rotate(40deg);
+	}
+	.career-main-text li.list-group-it {
+	    width: 100%;
+	    font-size: 16px;
+	    padding-left: 0;
+	    margin-left: -15px;
+	}
+	.row.career-main-text.text-center h1, .corpMainCont.careerSec.careerboxCont h1{
+		max-width: 80%;
+	    text-align: left;
+	    margin-left: 10% !important;
+	}
+	.row.career-main-text.text-center .list-group, .corpMainCont.careerSec.careerboxCont .list-group{
+		max-width: 80%;
+	    text-align: left;
+	    margin-left: 10% !important;
+	}
+	.career-main-un-text p{
+		font-size: 16px;
+		line-height: 1.3;
+		margin: 0 10% 20px;
+		text-align: left;
+	}
+	.portfolioContainer.corpMainCont.careerSec>div.container{
+		width: 100%;
+		margin: 0;
+		max-width: 100%;
+		padding: 0;
+	}
+	#careerMain h2{
+		width: 80%;
+		margin: 0 auto 25px;
+		font-size: 25px;
+		-ms-text-align-last: left;
+		text-align-last: left;
+	}
+	#careerMain h1 {
+	    padding-bottom: 25px !important;
+	    font-size: 40px;
+	    letter-spacing: -2px;
+	    text-align: left;
+	}
+	.careerSec.careerSlick h1{
+		text-align: left;
+	}
+	.portfolioContainer.corpMainCont.careerSec.careerSlick.WorkFinal h1{
+		font-size: 25px;
+		color: #474746;
+	}
+	.portfolioContainer.corpMainCont.careerSec.careerSlick.WorkFinal {
+	    width: 80%;
+	    margin: 0 auto 80px;
+	}
+	.portfolioContainer.corpMainCont.careerSec.careerSlick.WorkFinal h1 {
+	    font-size: 25px;
+	    color: #474746;
+	    line-height: 1;
+	    padding: 0 !important;
+	    width: 100%;
+	    max-width: 100%;
+	    /* color: black; */
+	    margin: 10px 0 25px !important;
+	}
+	.portfolioContainer.corpMainCont.careerSec>div.container .col-sm-12{
+		text-align: left;
+		padding: 0;
+	}
+	.WorkFinal .btn.btn-primary.btn-join{
+		margin-bottom: 25px;
+	}
 }
 
 @media only screen and (max-width: 600px) {
@@ -5986,6 +6102,32 @@ info-window img{
 	}
 	.mainBodyContainerFull.mainBodyContainerHomeFull{
 		height: calc(100vh-75px) !important;
+	}
+	.mainBodyContainerFull.mainBodyContainerFullComp h1{
+		margin-left: 0 !important;
+	}
+	.row.globalPartnerMainContainer.portfolioMainCont {
+		margin: 60px -15px 0;
+		padding: 0 !important;
+	}
+	.portfolioItem.corp_port .boxInside.transUp,.portfolioItem.corp_port .boxInside{
+		flex-direction: column-reverse;
+		margin: 0;
+	}
+	.portfolioItem.corp_port .boxInside.transUp img.logoUp,.portfolioItem.corp_port .boxInside img.logoUp{
+		margin-left: 7%;
+	}
+	.portfolioMainCont .portfolioItem.corp_port .thumbnail .caption p{
+		padding-top: 0;
+		width: 80%;
+		margin-left: 10%;
+	}
+	.row.globalPartnerMainContainer.globalPartnerMainContainerLow.portfolioMainCont{
+		margin-top: 0 !important;
+		margin-bottom: 25px;
+	}
+	div#compHist h1{
+
 	}
 }
 @media only screen and (max-width: 500px) {

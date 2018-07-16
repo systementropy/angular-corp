@@ -31,6 +31,7 @@
         'myApp.careerDescription',
         'myApp.careerApply',
         'myApp.gallery',
+        'myApp.merger',
         'angularLazyImg',
         'angular-nicescroll',
         'ngFileUpload',

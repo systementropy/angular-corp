@@ -1,0 +1,94 @@
+<div class="mainBodyContainerFull" style="padding-top: 0vh;height: auto;">
+	<div class="headerFiller"></div>
+	<a class="fixed-link-top" href="/investors"><span class="">BACK TO INVESTOR</span></span></a>
+	<!--  -->
+	<!-- <div class="bottomSticky">
+		<a href="#">
+			<div><i class="fa fa-caret-up"></i></div>
+			TOP
+		</a>
+
+	</div> -->
+	
+	<div class="portfolioContainer corpMainCont">
+		<div class="newsVideoCont videTextCont bg-parallax"  id="portfolioNews">
+			<!-- <h2 class="videoOverText">Recent. Relevant. Refreshing</h2> -->
+			<div class="video-cont" style="height: 71vh;">
+				<div class="vid-bg"></div>
+				<video width="100%" autoplay loop>
+					<source src="images/investor_relations6724441.mp4" type="video/mp4" class="top">
+				</video>
+			</div>
+		</div>
+		<div class="vid-arr">
+			<!-- <img src="/images/aerrow_white.png" class="arrowTopAnimate" alt=""> -->
+			<span class="arrText">scroll</span>
+			<span class="animateHeight"></span>
+			<span class="animateHeightBg"></span>
+		</div>
+		<div class="switchTab">
+			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?'active':' '">Network18</button>
+			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?' ':'active'">TV18</button>
+		</div>
+		<div class="container invBoxMar">
+			<div class="row box-flex box5 invbox" id="invox" style="">
+				<div class="col-md-3">
+					<div class="box " id="QUARTERLY">
+						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+						<a href="/finance#QUARTERLY"><div class="boxTextBot">QUARTERLY <br>FINANCIAL STATEMENTS</div></a>
+					</div>
+					<div class="box" id="ANNUAL">
+						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+						<a href="/annualReport#ANNUAL"><div class="boxTextBot">ANNUAL <br>REPORTS</div></a>
+					</div>
+					<div class="box" id="SHARE">
+						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+						<a href="/shareholding#SHARE"><div class="boxTextBot">SHARE HOLDING <br>PATTERN</div></a>
+					</div>
+					<div class="box" id="NOTICES">
+						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+						<a href="/notice#NOTICES"><div class="boxTextBot">NOTICES &<br>EVENTS</div></a>
+					</div>
+					<div class="box" id="OUR">
+						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+						<a href="/policy#OUR"><div class="boxTextBot">OUR <br>POLICIES</div></a>
+					</div>
+					<div class="box active" id="OUR">
+						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+						<a href="/merger#merge"><div class="boxTextBot">SCHEME OF MERGER BY ABSORPTION</div></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container nw18Cont" ng-if="activeSec.nw18Section">
+			
+			<div class="inverstorSections inverstorMergeSections">
+				<h1 style="">Scheme of merger by absorption</h1>
+			
+				<section class="investor-pdf-links-new clearAfter ">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Scheme of Merger by Absorption</p>
+							<a href="http://www.network18online.com/reports/Scheme%20of%20Merger/Network18Scheme.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+			</div>
+		</div>
+		<div class="container nw18Cont" ng-if="!activeSec.nw18Section">
+			
+			<div class="inverstorSections inverstorMergeSections">
+				<h1 style="">Scheme of merger by absorption</h1>
+			
+				<section class="investor-pdf-links-new clearAfter ">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Scheme of Merger by Absorption</p>
+							<a href="http://www.network18online.com/reportstv18/Scheme%20of%20Merger/TV18%20Scheme.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
