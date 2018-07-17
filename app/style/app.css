@@ -1769,6 +1769,11 @@ div#portfolioDistribution{}
 	font-family: 'Geogrotesque';
 	letter-spacing: 1.2px;
 }
+.inverstorSections.mobHide a{
+	font-family: GeoMed;
+	font-size: 21px;
+	line-height: 21px;
+}
 .box.active img.corp-img-cont,.box:hover img.corp-img-cont{filter: grayscale(1);}
 img.corp-img-cont {
 	filter: grayscale(100%);
@@ -2041,7 +2046,7 @@ section.clearAfter.mobOvCrtl.gallMainCont {
 .closeGallery {
     font-size: 40px;
     transform: rotate(45deg);
-    position: absolute;
+    position: fixed;
     right: 10%;
     padding: 6px 6px;
     border: 1px dashed;
@@ -2050,6 +2055,8 @@ section.clearAfter.mobOvCrtl.gallMainCont {
     transition: all 0.4s ease-in-out;
     opacity: 0;
     transition-delay: 1s;
+    z-index: 100;
+    background: rgba(255,255,255,0.9);
 }
 .closeGallery.actCross {
 	opacity: 1;
@@ -2230,6 +2237,7 @@ section.clearAfter.mobOvCrtl.gallMainCont {
 	max-width: 100vw;
 	max-height: unset;
 	overflow: hidden;
+	position: relative;
 }
 .galleryThumbContMain.acty{
 	max-width: 100vw;
@@ -5921,12 +5929,12 @@ info-window img{
 		margin-left: 0%;
 	}
 	.mobDirEachText .inner{
-		margin: 0 auto auto;
+		margin: 20px auto auto;
 	}
 	.mobDirEach{
 		flex-direction: column;
-		margin: 0 auto;
-		width: 93%;
+		margin: 25px 0;
+		width: 100%;
 
 	}
 	.boardDirMainCont .mobDirEach h3{
@@ -5957,7 +5965,7 @@ info-window img{
 	.mobDirImgCont{
 		width: 100%;
 		height: 86vw;
-		border: 15px solid #FFF;
+		border: none;
 		position: relative;
 		overflow: hidden;
 	}
@@ -6101,10 +6109,17 @@ info-window img{
 		transform: translate(-50%,-50%) scale(1);
 	}
 	.mainBodyContainerFull.mainBodyContainerHomeFull{
-		height: calc(100vh-75px) !important;
+		height: calc(100vh - 75px) !important;
 	}
-	.mainBodyContainerFull.mainBodyContainerFullComp h1{
+	.headerMainContainer{
+		height: calc(100vh + 75px) !important;
+	}
+	.mainBodyContainerFull.mainBodyContainerFullComp.mainBodyContainerFullCorp h1{
 		margin-left: 0 !important;
+	}
+	#boardDir_container>.container,.container.corpMainTimelineCont.divOnFocus{
+		margin: 0 10%;
+		padding: 0 !important;
 	}
 	.row.globalPartnerMainContainer.portfolioMainCont {
 		margin: 60px -15px 0;
@@ -6126,8 +6141,51 @@ info-window img{
 		margin-top: 0 !important;
 		margin-bottom: 25px;
 	}
+	.gallThumb {
+	    width: 80%;
+	    margin: 5px 10%;
+	}
+	section.clearAfter.mobOvCrtl.gallMainCont{
+		height: auto;
+	}
+	.container.portMainCont.galleryCont.ng-scope.activeGal{
+		flex-direction: column;
+		margin:0;
+		height: auto;
+	}
+	.ttopImages.flexCont .imgCont {
+	    width: 100%;
+	    margin: 5px 0;
+	    height: 400px;
+	}
+	.ttopImages.flexCont {
+	    height: auto;
+	}
 	div#compHist h1{
 
+	}
+	.headerSocialContainer{
+
+	}
+	.container.box-flex.careerbox{
+		width: 80% !important;
+	    margin: 0 auto !important;
+	    flex-wrap: wrap;
+	}
+	.careerbox .box {
+	    height: 180px;
+	    width: 48%;
+	    margin: 3px 1% !important;
+	}
+	.careerbox .box .boxTextBot h3{
+		font-size: 18px;
+		margin: 10px 0 15px;
+	}
+	.careerbox .box .boxTextBot h4{
+		font-size: 14px;
+	}
+	.careerbox .box .boxTextBot h3:last-child{
+		margin-bottom: 0;
 	}
 }
 @media only screen and (max-width: 500px) {
