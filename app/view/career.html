@@ -22,10 +22,15 @@
 			<source src="images/footage/26911270-preview-career-bw.mp4" type="video/mp4" class="top">
 		</video>
 	</div>
+	<div class="vid-arr" >
+		<span class="arrText">scroll</span>
+		<span class="animateHeight"></span>
+		<span class="animateHeightBg"></span>
+	</div>
 	<div class="portfolioContainer corpMainCont careerSec">
 		<div class="container">
 			<div class="row text-center career-main-un-text" id="careerMain">
-				<h1 >Career at Network18</h1>
+				<h1>Career at Network18</h1>
 				<h2>Be a part of India’s largest and most admired news network!</h2>
 				<p>Network18 is India's most diversified media conglomerate with news and entertainment brands that touch lives of millions of people. <br>Despite our size and spread, our Group strives to remain a young, agile, talented and live-wire organisation. We believe we have the soul of a startup, within the body of a media and entertainment colossus. We aim to push boundaries, redefine rules <br>and put creativity at the centre of everything we do. </p>
 				<p>Network 18 brings together storytellers, designers, engineers, artists and business managers under one roof united by the hunger to create immersive and bold content and ideas. We take pride in our people, who we believe are the key to realizing the organization’s potential. We continually strive to enable our employees to realize their own goals, by providing opportunities to learn, share and grow.</p>
@@ -133,13 +138,14 @@
 	
 	<div class="portfolioContainer corpMainCont careerSec careerSlick text-center" id="carLife">
 		<div class="container">
-			<h1 >Enjoy the challenge of new experiences <br>and opportunities</h1>
+			<h1 class="mobHide">Enjoy the Challenge of New Experiences <br>and Opportunities</h1>
+			<h1 class="mobShow">Enjoy the Challenge of New Experiences and Opportunities</h1>
 			<div class="btnContSlixk">
 				<button class="empPrev"></button>
 				<button class="empNext"></button>
 			</div>
 			<div class="career-empl-cont">
-				<slick class="" prev-arrow=".empPrev" next-arrow=".empNext" ng-if="wWid>1000">
+				<slick class="" prev-arrow=".empPrev" next-arrow=".empNext" autoplay="true">
 					<div class="row boardDirMainCont" ng-repeat="i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20] track by $index">
 						<div class="col-md-12">
 							<img src="/images/career/c{{$index+1}}.jpg" alt="">
@@ -151,7 +157,7 @@
 	</div>
 	
 	<div class="portfolioContainer corpMainCont careerSec careerSlick WorkFinal" style="" id="joinCar">
-		<h1 class="text-center" style="">Work with us</h1>
+		<h1 class="text-center" style="">Work with Us</h1>
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-sm-12 text-right">
