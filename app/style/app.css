@@ -1133,7 +1133,7 @@ a.subCrumbsLinks:hover{
 }
 .headerSocialContainer{
 	color: #999;
-	width: 300px;
+	width: 196px;
 	margin: 0 auto;
 }
 .headerSocialContainer i {
@@ -2318,17 +2318,17 @@ section.clearAfter.mobOvCrtl.gallMainCont {
 	text-align: center;
 }
 @media (min-width: 1600px) {
-	.contentTypeDiv img {
+	/*.contentTypeDiv img {
 		position: absolute;
 		width: 100%;
-		/* max-width: none; */
+		 max-width: none; 
 		z-index: -1;
-		/* min-height: 100%; */
+		 min-height: 100%; 
 		text-align: center;
-		/* min-width: 100%; */
+		 min-width: 100%; 
 		height: auto;
 		max-height: none;
-	}
+	}*/
 	.animateN18{
 		top: 48%;
 	}
@@ -4602,6 +4602,9 @@ span.arrText {
 	border-right: 1px solid rgba(0,0,0,0.3);
 	margin-right: 10%;
 }
+#crpPres .boardComitteFlexCont>div:first-child{
+	border-right: 1px solid rgba(0,0,0,0);
+}
 .boardComitteFlexCont>div:last-child{
 	flex-grow: 3;
 }
@@ -6273,8 +6276,44 @@ info-window img{
 	}
 	.container.portMainCont.galleryCont.ng-scope.activeGal{
 		flex-direction: column;
-		margin:0;
+		margin:0 10%;
 		height: auto;
+		transform: scale(1) translateY(0);
+	}
+	.galleryInfo.container-fluid h3 {
+	    text-transform: uppercase;
+	    text-align: center;
+	    color: #666;
+	    font-family: 'GeoMed';
+	    margin: 50px 0 15px;
+	    font-size: 30px;
+	    line-height: 1;
+	}
+	.galleryInfo.container-fluid p {
+	    letter-spacing: 0.2px;
+	    /* font-style: oblique; */
+	    margin: 0 10px 50px;
+	    font-size: 16px;
+	    color: #555;
+	    line-height: 1.35;
+	    text-align: center;
+	}
+	.flexCont.col-md-4 .eachEvent .imgCont {
+	    position: static;
+	}
+	.flexCont.col-md-4 .eachEvent{
+		min-height: unset;
+	}
+	.flexCont.col-md-4 .eachEvent img {
+	    width: 100%;
+	    height: auto;
+	    max-width: unset;
+	    max-height: unset;
+	    position: static;
+	    transform: translate(0,0);
+	}
+	.ttopImages.flexCont.mobShow {
+	    margin: 0;
 	}
 	.ttopImages.flexCont .imgCont {
 	    width: 100%;
