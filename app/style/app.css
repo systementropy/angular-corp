@@ -3272,7 +3272,7 @@ div.career-empl-cont div.col-md-4 p {
 .timelineSlider ul.slick-dots {
     text-align: center;
     position: relative;
-    bottom: 20px;
+    bottom: 50px;
     width: 80%;
     margin: 0 auto;
 }
@@ -3281,16 +3281,26 @@ div.career-empl-cont div.col-md-4 p {
 	color: transparent;
 	padding: 0;
 	width: 9%;
+	transition: all 1s ease-in-out;
 }
 .timelineSlider ul.slick-dots li>button{
 	height: 1px;
 	width: 100%;
 	border-radius: 0;
+	transition: all 2s linear;
 }
 .timelineSlider ul.slick-dots li.slick-active>button {
-    background: #dc0032;
+    background-image:
+    linear-gradient(
+      to right, 
+      rgba(220,0,50,0.8) 0%, 
+      #dc0032 10%, 
+      #dc0032 90%, 
+      rgba(220,0,50,0.8)
+    );
     height: 1px;
     width: 100%;
+    transition: all 2s ease;
 }
 .row.boardDirMainCont.ng-scope.slick-slide {
     float: left;
@@ -5687,25 +5697,25 @@ info-window img{
 	}
 	.timelineSlider .btnContSlixk {
 		position: absolute;
-		width: 90%;
+		width: 105%;
 		z-index: 100;
-		transform: translateX(5%) translateY(-115px);
+		transform: translateX(8%) translateY(-115px);
 		top: 50%;
-		left: 0%;
+		left: -11%;
 	}
 	.timeSlierPrev img{
-		filter: grayscale(100%) invert(100%);
-		transform: rotate(90deg);
-		max-height: 24px;
+		
+		transform: rotate(0deg);
+		max-height: 40px;
 	}
 	.timeSlierNext{
 		position: absolute;
 		right: 0;
 	}
 	.timeSlierNext img{
-		filter: grayscale(100%) invert(100%);
-		transform: rotate(270deg);
-		max-height: 24px;
+		
+		transform: rotate(180deg);
+		max-height: 40px;
 	}
 	.jobDescriptionMainCont.container{
 		width: auto;
