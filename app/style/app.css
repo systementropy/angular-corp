@@ -5721,7 +5721,7 @@ info-window img{
 		font-size: 40px;
 	}
 	.video-cont{
-		height: calc(90vh - 75px);
+		height: calc(100vh - 75px);
 	}
 	.video-cont-career .video-over-text{
 		width: 380px;
