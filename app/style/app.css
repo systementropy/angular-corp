@@ -5877,6 +5877,15 @@ info-window img{
 		width: 2px;
 		height: 16px
 	}
+	.homeSlickConnt .empPrev:before,.homeSlickConnt .empPrev:after,.homeSlickConnt .empNext:before,.homeSlickConnt .empNext:after{
+		background: rgba(238,238,238,0.8);
+	}
+	.homeSlickConnt ul.slick-dots{
+		bottom:22%;
+	}
+	.homeSlickConnt ul.slick-dots li{
+		padding: 0 2.5px;
+	}
 	.empNext:before{
 		transform: translateY(-21px) rotate(-40deg);
 	}
