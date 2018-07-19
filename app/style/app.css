@@ -3713,8 +3713,8 @@ span.jpb-loc {
 .switchTab button{
 	border-radius: 0px;
 	width: 100px;
-	background: rgba(255,255,255,0.7);
-	color: #333;
+	background: #888;
+	color: rgba(255,255,255,0.7);
 	transition: all 0.4s ease-in-out;
 }
 .switchTab button:hover{
