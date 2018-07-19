@@ -94,21 +94,21 @@ button.headerBtnInfi ul li{
 	border: none;
 	border-top: 1px solid #FFF;
 	margin: 7px 0;
-	animation:myfirst 2s steps(9999) infinite;
-	-moz-animation:myfirst 2s steps(9999) infinite; /* Firefox */
-	-webkit-animation:myfirst 2s steps(9999) infinite; /* Safari and Chrome */
+	animation:myfirst 1.3s infinite;
+	-moz-animation:myfirst 1.3s infinite; /* Firefox */
+	-webkit-animation:myfirst 1.3s infinite; /* Safari and Chrome */
 }
 
 
 @-moz-keyframes myfirst{
 	0%   {width: 28px; transform: translateX(0);}
-	50%  {width: 34px; -webkit-transform: translateX(-3px);}
+	50%  {width: 36px; -webkit-transform: translateX(-4px);}
 	100%   {width: 28px; transform: translateX(0);}
 }
 
 @-webkit-keyframes myfirst{
 	0%   {width: 28px; transform: translateX(0);}
-	50%  {width: 34px; -webkit-transform: translateX(-3px);}
+	50%  {width: 36px; -webkit-transform: translateX(-4px);}
 	100%   {width: 28px; transform: translateX(0);}
 }
 
@@ -1219,7 +1219,8 @@ a.subCrumbsLinks:hover{
 	height: 35px;
 	display: inline-block;
 	position: relative;
-	width: 260px;
+	width: 190px;
+	left: 22px;
 }
 .headerInner.closeBtn>span i{
 	position: absolute;
@@ -1232,7 +1233,7 @@ a.subCrumbsLinks:hover{
 	font-style: normal;
 	top: 4px;
 	font-size: 27px;
-	margin-right: 10px;
+	margin-right: 0px;
 	transform: rotate(0deg) ;
 	font-weight: bold;
 	color: rgba(255,255,255,0.8);
@@ -1242,7 +1243,7 @@ a.subCrumbsLinks:hover{
 }
 .headerOpenHoverImgCont{
 	position: relative;
-	width: 210px;
+	width: 147px;
 	height: 44px;
 	display: inline-block;
 	margin-left: 10px;
