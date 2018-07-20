@@ -529,7 +529,7 @@ body{
 	/* float: left; */
 	height: 420px;
 	padding: 0;
-	/* margin: auto; */
+	 margin: auto; 
 	position: relative;
 	box-sizing: border-box;
 	transition: all 2s ease-in-out;
@@ -1528,6 +1528,12 @@ ul.nav.nav-tabs.nav-lists li.active{
 	text-align: center;
 	display: flex;
 }
+img.logoPort.logoPortLeft {
+    transform: translateX(-28%);
+}
+.publishItemInner img.logoPort.logoPortLeft {
+    transform: translateX(-15%);
+}
 .imgThmbCont img{margin:auto;}
 .portfolioItem .thumbnail {
 
@@ -1539,6 +1545,20 @@ ul.nav.nav-tabs.nav-lists li.active{
 .etvCont {
 	display: flex;
 	flex-wrap: wrap;
+}
+.etvCont.mobHide{
+	margin-left: 30px;
+}
+.etvCont.mobHide a{
+	margin: 0;
+}
+
+.etvCont.mobHide a:nth-child(14) img{
+	transform: scale(1.25);
+	margin-left: 20px;
+}
+.etvCont.mobHide a img{
+	margin: auto auto auto 15px;
 }
 .etvCont a {
 	width: 20%;
@@ -2318,6 +2338,7 @@ section.clearAfter.mobOvCrtl.gallMainCont {
 	max-width: 80%;
 	text-align: center;
 }
+
 @media (min-width: 1600px) {
 	/*.contentTypeDiv img {
 		position: absolute;
@@ -2332,6 +2353,24 @@ section.clearAfter.mobOvCrtl.gallMainCont {
 	}*/
 	.animateN18{
 		top: 48%;
+	}
+}
+@media (min-width: 1400px) {
+	.contentTypeDiv img {
+		position: absolute;
+		width: 100%;
+		max-width: unset;
+		z-index: -1;
+		min-height: unset;
+		min-width: unset;
+		filter: blur(0px);
+		transition: all 0.2s ease-in-out;
+		left: 50%;
+		top: auto;
+		bottom: 0;
+		transform: translate(-50%,0);
+		height: auto;
+		max-height: unset;
 	}
 }
 .bottomSticky {
@@ -2657,7 +2696,7 @@ span.bottom-dot-flex {
 	z-index: 1;
 }
 .vid-bg.vid-bg-career{
-	background: url('/images/career/career_head_g.jpg');
+	/*background: url('/images/career/career_head_g.jpg');*/
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -3630,11 +3669,13 @@ span.jpb-loc {
 /******************PORTFOLIO ANIMATION**********************/
 .dispContRow{
 	display: flex;
-	position: relative;
-	justify-content: space-around;
-	width: 100%;
-	padding: 0;
-	margin: 15px 15px 30px;
+    position: relative;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+    flex-grow: 1;
 }
 .dispContRow:after{
 	content: " ";
@@ -3781,8 +3822,30 @@ span.jpb-loc {
 }
 .inverstorSections ul.nav.nav-tabs.nav-notice>li>a{
 	font-family: 'GeogrotesqueReg';
+	background: #EEE;
+    border: 1px solid #FFF;
+    color: #333;
+}
+.inverstorSections ul.nav.nav-tabs.nav-notice{
+	border-bottom: none;
+}
+
+.inverstorSections ul.nav.nav-tabs.nav-notice>li>a,.inverstorSections ul.nav.nav-tabs.nav-notice>li:first-child a{
+	border: none;
+	padding: 10px 15px;
 }
 .inverstorSections ul.nav.nav-tabs.nav-notice>li.active>a{
+	font-family: 'Geogrotesque';
+	color: #DDD;
+    border: none;
+    background: #333;
+    padding-left: 10px;
+}
+.inverstorSections ul.nav.nav-tabs.nav-notice>li{
+	font-family: 'GeogrotesqueReg';
+	border: 2px solid #FFF;
+}
+.inverstorSections ul.nav.nav-tabs.nav-notice>li.active{
 	font-family: 'Geogrotesque';
 }
 .investor-pdf-links-new li{
@@ -4905,6 +4968,9 @@ info-window img{
 .portMainCont{
 	height:100%; overflow:hidden;padding: 0;
 }
+.mobOvCrtl .portMainCont{
+	display: flex;
+}
 .mobShow{
 	display: none !important;
 }
@@ -5712,6 +5778,11 @@ info-window img{
 		transform: rotate(0deg);
 		max-height: 40px;
 	}
+	.timeSlierPrev,.timeSlierNext{
+		background: transparent;
+		border: none;
+		outline: none;
+	}
 	.timeSlierNext{
 		position: absolute;
 		right: 0;
@@ -6225,6 +6296,12 @@ info-window img{
 	.publishItem:nth-child(1) .para_txt_inner.publishItemInner img{
 		height: 100px;
 	}
+	.publishItemInner img.logoPort.logoPortLeft {
+	    transform: translateX(0);
+	}
+	img.logoPort.logoPortLeft.logoPortLeftLess {
+	    transform: translateX(-8%);
+	}
 	.publishItemInner img.longImg{
 		margin: 0 !important;
 	}
@@ -6386,6 +6463,9 @@ info-window img{
 	    height: auto;
 	    max-width: unset;
 	    max-height: unset;
+	}
+	.timelineSlider ul.slick-dots{
+		height: 10px;
 	}
 }
 @media only screen and (max-width: 500px) {
