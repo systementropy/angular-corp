@@ -5669,9 +5669,14 @@ info-window img{
 	}
 	
 	.etvMobCont a:nth-child(1) img{
+		max-width: 59px;
+	    max-height: 55px;
+	    transform: translate(-2px,0px);
+	}
+	.etvMobCont a:nth-child(14) img{
 		max-width: 64px;
-		max-height: 64px;
-		transform: translateY(-5px);
+		max-height: 56px;
+		transform: translateX(-8px);
 	}
 	.etvMobCont a:nth-child(7) img{
 		transform: scale(0.95);
