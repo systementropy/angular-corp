@@ -1,6 +1,6 @@
 <div class="mainBodyContainerFull" style="padding-top: 0vh;height: auto;">
 	<div class="headerFiller"></div>
-	<a class="fixed-link-top" href="/investors"><span class="">BACK TO INVESTORS RELATIONS</span></span></a>
+	<a class="fixed-link-top" href="/investors"><span class="">INVESTORS RELATIONS</span></span></a>
 	<!--  -->
 	<!-- <div class="bottomSticky">
 		<a href="#">
@@ -26,36 +26,37 @@
 			<span class="animateHeight"></span>
 			<span class="animateHeightBg"></span>
 		</div>
-		<div class="switchTab">
+		<div id="scrollHere"></div>
+        <div class="switchTab">
 			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?'active':' '">Network18</button>
-			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?' ':'active'">TV18</button>
+			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?' ':'active'">TV<span>18</span></button>
 		</div>
 		<div class="container invBoxMar">
 			<div class="row box-flex box5 invbox" id="invox" style="">
 				<div class="col-md-3">
 					<div class="box " id="QUARTERLY">
 						<img src="/images/boxes/quarterlyfinancialstatement.jpg" alt="" class="corp-img-cont">
-						<a href="/finance#QUARTERLY"><div class="boxTextBot">FINANCIAL<br/>STATEMENTS</div></a>
+						<a href="/finance#scrollHere"><div class="boxTextBot">FINANCIAL<br/>STATEMENTS</div></a>
 					</div>
 					<div class="box active" id="ANNUAL">
 						<img src="/images/boxes/annualreport.jpg" alt="" class="corp-img-cont">
-						<a href="/annualReport#ANNUAL"><div class="boxTextBot">ANNUAL <br>REPORTS</div></a>
+						<a href="/annualReport#scrollHere"><div class="boxTextBot">ANNUAL <br>REPORTS</div></a>
 					</div>
 					<div class="box" id="SHARE">
 						<img src="/images/boxes/shareholdingpattern.jpg" alt="" class="corp-img-cont">
-						<a href="/shareholding#SHARE"><div class="boxTextBot">SHAREHOLDING <br>PATTERN</div></a>
+						<a href="/shareholding#scrollHere"><div class="boxTextBot">SHAREHOLDING <br>PATTERN</div></a>
 					</div>
 					<div class="box" id="NOTICES">
 						<img src="/images/boxes/noticesandevents.jpg" alt="" class="corp-img-cont">
-						<a href="/notice#NOTICES"><div class="boxTextBot">NOTICES &<br>EVENTS</div></a>
+						<a href="/notice#scrollHere"><div class="boxTextBot">NOTICES<br>& EVENTS</div></a>
 					</div>
 					<div class="box" id="OUR">
 						<img src="/images/boxes/ourpolicies.jpg" alt="" class="corp-img-cont">
-						<a href="/policy#OUR"><div class="boxTextBot">OUR <br>POLICIES</div></a>
+						<a href="/policy#scrollHere"><div class="boxTextBot">OUR <br>POLICIES</div></a>
 					</div>
 					<div class="box" id="MERGE">
 						<img src="/images/boxes/schemeofmergersbyabsorption.jpg" alt="" class="corp-img-cont">
-						<a href="/merger#MERGE"><div class="boxTextBot">SCHEME OF MERGER BY ABSORPTION</div></a>
+						<a href="/merger#scrollHere"><div class="boxTextBot">SCHEME OF MERGER BY ABSORPTION</div></a>
 					</div>
 				</div>
 			</div>
@@ -64,42 +65,65 @@
 			
 			<div class="inverstorSections">
 				<h1 style="">Annual Reports</h1>
-				<div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foc3}}0%;"></span></div>
+				<!-- <div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foc3}}0%;"></span></div> -->
 				<div active="activeJustified" id="tab2" justified="true" class="">
-					<ul class="nav nav-tabs nav-justified" >
-						<li class="uib-tab nav-item" ng-click="changeFoc3(0)" ng-class="left_foc3==0?'active':' '" index="0" heading="2016-17">
-							<a class="nav-link ng-binding">2016-17</a>
-						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc3(1)" ng-class="left_foc3==1?'active':' '" index="1" heading="2015-16">
-							<a class="nav-link ng-binding">2015-16</a>
-						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc3(2)" ng-class="left_foc3==2?'active':' '" index="2" heading="2014-15">
-							<a class="nav-link ng-binding">2014-15</a>
-						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc3(3)" ng-class="left_foc3==3?'active':' '" index="3" heading="2013-14">
-							<a class="nav-link ng-binding">2013-14</a>
-						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc3(4)" ng-class="left_foc3==4?'active':' '" index="4" heading="2012-13">
-							<a class="nav-link ng-binding">2012-13</a>
-						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc3(5)" ng-class="left_foc3==5?'active':' '" index="5" heading="2011-12">
-							<a class="nav-link ng-binding">2011-12</a>
-						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc3(6)" ng-class="left_foc3==6?'active':' '" index="6" heading="2010-11">
-							<a class="nav-link ng-binding">2010-11</a>
-						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc3(7)" ng-class="left_foc3==7?'active':' '" index="7" heading="2009-10">
-							<a class="nav-link ng-binding">2009-10</a>
-						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc3(8)" ng-class="left_foc3==8?'active':' '" index="8" heading="2008-09">
-							<a class="nav-link ng-binding">2008-09</a>
-						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc3(9)" ng-class="left_foc3==9?'active':' '" index="9" heading="2007-08">
-							<a class="nav-link ng-binding">2007-08</a>
-						</li>
+					<ul class="nav nav-tabs nav-justified homeSlickConnt" >
+						<div class="btnContSlixk">
+							<button class="empPrev"></button>
+							<button class="empNext"></button>
+						</div>
+						<div class="inv-ann-cont">
+							<slick class="" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=10 slides-to-scroll=1 infinite="false">
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(0)" ng-class="left_foc3==0?'active':' '" index="0" heading="2017-18">
+									<a class="nav-link ng-binding">2017-18</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(1)" ng-class="left_foc3==1?'active':' '" index="1" heading="2016-17">
+									<a class="nav-link ng-binding">2016-17</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(2)" ng-class="left_foc3==2?'active':' '" index="2" heading="2015-16">
+									<a class="nav-link ng-binding">2015-16</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(3)" ng-class="left_foc3==3?'active':' '" index="3" heading="2014-15">
+									<a class="nav-link ng-binding">2014-15</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(4)" ng-class="left_foc3==4?'active':' '" index="4" heading="2013-14">
+									<a class="nav-link ng-binding">2013-14</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(5)" ng-class="left_foc3==5?'active':' '" index="5" heading="2012-13">
+									<a class="nav-link ng-binding">2012-13</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(6)" ng-class="left_foc3==6?'active':' '" index="6" heading="2011-12">
+									<a class="nav-link ng-binding">2011-12</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(7)" ng-class="left_foc3==7?'active':' '" index="7" heading="2010-11">
+									<a class="nav-link ng-binding">2010-11</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(8)" ng-class="left_foc3==8?'active':' '" index="8" heading="2009-10">
+									<a class="nav-link ng-binding">2009-10</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(9)" ng-class="left_foc3==9?'active':' '" index="9" heading="2008-09">
+									<a class="nav-link ng-binding">2008-09</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(10)" ng-class="left_foc3==10?'active':' '" index="10" heading="2007-08">
+									<a class="nav-link ng-binding">2007-08</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-click="changeFoc3(11)" ng-class="left_foc3==11?'active':' '" index="11" heading="2006-07">
+									<a class="nav-link ng-binding">2006-07</a>
+								</div>
+								
+							</slick>
+						</div>
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==0?'active':' '" ng-if="left_foc3==0">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Annual Report 2017-18</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Network18-Annual%20Report.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==1?'active':' '" ng-if="left_foc3==1">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2016-17</p>
@@ -107,7 +131,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==1?'active':' '" ng-if="left_foc3==1">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==2?'active':' '" ng-if="left_foc3==2">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2015-16</p>
@@ -115,7 +139,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==2?'active':' '" ng-if="left_foc3==2">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==3?'active':' '" ng-if="left_foc3==3">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2014-15</p>
@@ -123,7 +147,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==3?'active':' '" ng-if="left_foc3==3">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==4?'active':' '" ng-if="left_foc3==4">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2013-14</p>
@@ -131,7 +155,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==4?'active':' '" ng-if="left_foc3==4">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==5?'active':' '" ng-if="left_foc3==5">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2012-13</p>
@@ -139,7 +163,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==5?'active':' '" ng-if="left_foc3==5">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==6?'active':' '" ng-if="left_foc3==6">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2011-12</p>
@@ -147,7 +171,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==6?'active':' '" ng-if="left_foc3==6">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==7?'active':' '" ng-if="left_foc3==7">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2010-11</p>
@@ -155,7 +179,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==7?'active':' '" ng-if="left_foc3==7">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==8?'active':' '" ng-if="left_foc3==8">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2009-10</p>
@@ -163,7 +187,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==8?'active':' '" ng-if="left_foc3==8">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==9?'active':' '" ng-if="left_foc3==9">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2008-09</p>
@@ -171,11 +195,19 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==9?'active':' '" ng-if="left_foc3==9">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==10?'active':' '" ng-if="left_foc3==10">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2007-08</p>
 							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Annual%20Report%202007-08.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==11?'active':' '" ng-if="left_foc3==11">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Annual Report 2006-07</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/Annual%20Reports/Annual%20Report%202006-07.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 					</ol>
 				</section>
@@ -189,43 +221,64 @@
 			<div class="inverstorSections">
 				<h1 style="margin-left: 5px;">Annual Reports</h1>
 				
-				<div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foctv2}}0%;"></span></div>
+				<!-- <div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foctv2}}0%;"></span></div> -->
 				<div active="activeJustified" id="tab1" justified="true" class="">
-					<ul class="nav nav-tabs nav-justified" >
-						
-						<li class="uib-tab nav-item " ng-class="left_foctv2==0?'active':' '" ng-click="changeFocTV2(0)" index="0" heading="2016-17">
-							<a ng-click="" class="nav-link"">2016-17</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv2==1?'active':' '" ng-click="changeFocTV2(1)" index="1" heading="2015-16">
-							<a ng-click="" class="nav-link"">2015-16</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv2==2?'active':' '" ng-click="changeFocTV2(2)" index="2" heading="2014-15">
-							<a ng-click="" class="nav-link"">2014-15</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv2==3?'active':' '" ng-click="changeFocTV2(3)" index="3" heading="2013-14">
-							<a ng-click="" class="nav-link"">2013-14</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv2==4?'active':' '" ng-click="changeFocTV2(4)" index="4" heading="2012-13">
-							<a ng-click="" class="nav-link"">2012-13</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv2==5?'active':' '" ng-click="changeFocTV2(5)" index="5" heading="2011-12">
-							<a ng-click="" class="nav-link"">2011-12</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv2==6?'active':' '" ng-click="changeFocTV2(6)" index="6" heading="2010-11">
-							<a ng-click="" class="nav-link"">2010-11</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv2==7?'active':' '" ng-click="changeFocTV2(7)" index="7" heading="2009-10">
-							<a ng-click="" class="nav-link"">2009-10</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv2==8?'active':' '" ng-click="changeFocTV2(8)" index="8" heading="2008-09">
-							<a ng-click="" class="nav-link"">2008-09</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv2==9?'active':' '" ng-click="changeFocTV2(9)" index="9" heading="2007-08">
-							<a ng-click="" class="nav-link"">2007-08</a>
-						</li>
+					<ul class="nav nav-tabs nav-justified homeSlickConnt" >
+						<div class="btnContSlixk">
+							<button class="empPrev"></button>
+							<button class="empNext"></button>
+						</div>
+						<div class="inv-ann-cont">
+							<slick class="" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=10 slides-to-scroll=1 infinite="false">
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==0?'active':' '" ng-click="changeFocTV2(0)" index="0" heading="2017-18">
+									<a ng-click="" class="nav-link"">2017-18</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==1?'active':' '" ng-click="changeFocTV2(1)" index="1" heading="2016-17">
+									<a ng-click="" class="nav-link"">2016-17</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==2?'active':' '" ng-click="changeFocTV2(2)" index="2" heading="2015-16">
+									<a ng-click="" class="nav-link"">2015-16</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==3?'active':' '" ng-click="changeFocTV2(3)" index="3" heading="2014-15">
+									<a ng-click="" class="nav-link"">2014-15</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==4?'active':' '" ng-click="changeFocTV2(4)" index="4" heading="2013-14">
+									<a ng-click="" class="nav-link"">2013-14</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==5?'active':' '" ng-click="changeFocTV2(5)" index="5" heading="2012-13">
+									<a ng-click="" class="nav-link"">2012-13</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==6?'active':' '" ng-click="changeFocTV2(6)" index="6" heading="2011-12">
+									<a ng-click="" class="nav-link"">2011-12</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==7?'active':' '" ng-click="changeFocTV2(7)" index="7" heading="2010-11">
+									<a ng-click="" class="nav-link"">2010-11</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==8?'active':' '" ng-click="changeFocTV2(8)" index="8" heading="2009-10">
+									<a ng-click="" class="nav-link"">2009-10</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==9?'active':' '" ng-click="changeFocTV2(9)" index="9" heading="2008-09">
+									<a ng-click="" class="nav-link"">2008-09</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==10?'active':' '" ng-click="changeFocTV2(10)" index="10" heading="2007-08">
+									<a ng-click="" class="nav-link"">2007-08</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv2==11?'active':' '" ng-click="changeFocTV2(11)" index="11" heading="2006-07">
+									<a ng-click="" class="nav-link"">2006-07</a>
+								</div>
+							</slick>
+						</div>
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==0?'active':' '" ng-if="left_foctv2==0">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Annual Report 2017-18</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/TV18-Annual%20Report.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==1?'active':' '" ng-if="left_foctv2==1">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2016-17</p>
@@ -233,7 +286,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==1?'active':' '" ng-if="left_foctv2==1">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==2?'active':' '" ng-if="left_foctv2==2">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2015-16</p>
@@ -241,7 +294,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==2?'active':' '" ng-if="left_foctv2==2">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==3?'active':' '" ng-if="left_foctv2==3">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2014-15</p>
@@ -249,7 +302,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==3?'active':' '" ng-if="left_foctv2==3">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==4?'active':' '" ng-if="left_foctv2==4">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2013-14</p>
@@ -257,7 +310,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==4?'active':' '" ng-if="left_foctv2==4">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==5?'active':' '" ng-if="left_foctv2==5">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2012-13</p>
@@ -265,7 +318,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==5?'active':' '" ng-if="left_foctv2==5">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==6?'active':' '" ng-if="left_foctv2==6">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2011-12</p>
@@ -273,7 +326,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==6?'active':' '" ng-if="left_foctv2==6">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==7?'active':' '" ng-if="left_foctv2==7">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2010-11</p>
@@ -281,7 +334,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==7?'active':' '" ng-if="left_foctv2==7">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==8?'active':' '" ng-if="left_foctv2==8">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2009-10</p>
@@ -289,7 +342,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==8?'active':' '" ng-if="left_foctv2==8">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==9?'active':' '" ng-if="left_foctv2==9">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2008-09</p>
@@ -297,11 +350,19 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==9?'active':' '" ng-if="left_foctv2==9">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==10?'active':' '" ng-if="left_foctv2==10">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2007-08</p>
 							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/Annual%20Report%202007-08.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==11?'active':' '" ng-if="left_foctv2==11">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Annual Report 2006-07</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/Annual%20Reports/Annual%20Report%202006-07.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>

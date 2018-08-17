@@ -12,7 +12,7 @@
         }
     ])
 
-    .controller('galleryCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', 'parallaxHelper', function($rootScope,$scope, $http,$timeout,$location, parallaxHelper) {
+    .controller('galleryCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','parallaxHelper','$window', function($rootScope,$scope, $http,$timeout,$location,parallaxHelper,$window) {
         $scope.updateGallery = function(index) {
             if (index===0) {
                 $scope.showGaly=false;
@@ -43,6 +43,7 @@
             }
         };
         $scope.init = function(){
+            $window.document.title='NETWORK18 | Gallery';
             $scope.showGaly =false;
             $rootScope.hideHeader=false;
             $scope.background = parallaxHelper.createAnimator(-0.5, 0, 100);

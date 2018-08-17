@@ -10,7 +10,7 @@
         });
     }])
 
-    .controller('ContactCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','NgMap', function($rootScope,$scope, $http,$timeout,$location,NgMap) {
+    .controller('ContactCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','NgMap','$window', function($rootScope,$scope, $http,$timeout,$location,NgMap,$window) {
         
         $scope.init = function(){
             //  
@@ -38,7 +38,7 @@
                 {'id':"id17",'add':"[8.499312, 76.957888]",'type':'bureau','fullAdd':"Space no. 2, third floor, trans tower vazhuthacaud, thiruvananthapuram"},
                 
             ];
-
+            $window.document.title='NETWORK18 | Contact Us';
             $rootScope.hideHeader=false;
             $rootScope.hidefooter=false;
         };

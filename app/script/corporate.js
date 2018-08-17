@@ -12,9 +12,9 @@
         }
     ])
 
-    .controller('CorporateCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+    .controller('CorporateCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','parallaxHelper','$window', function($rootScope,$scope, $http,$timeout,$location,parallaxHelper,$window) {
         $scope.init = function(){
-            
+            $window.document.title='NETWORK18 | About Us';
             $rootScope.hideHeader=false;
             $rootScope.hidefooter=false;
         };

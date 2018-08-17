@@ -25,6 +25,7 @@
             var w = angular.element($window);
             var wWid=w.width();
             var wHig=w.height();
+            $window.document.title='NETWORK18 | Home';
             if (wWid<1000) {
                 $scope.hideHeader=false;
             }else{

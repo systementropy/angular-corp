@@ -10,9 +10,10 @@
         });
     }])
 
-    .controller('View2Ctrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', '$window', function($rootScope,$scope, $http,$timeout,$location,$window) {
+    .controller('View2Ctrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','parallaxHelper','$window', function($rootScope,$scope, $http,$timeout,$location,parallaxHelper,$window) {
         
         $scope.init = function(){
+            $window.document.title='NETWORK18 | Portfolio';
             $rootScope.hideHeader=false;
 
             if ($(window).width()<1000) {

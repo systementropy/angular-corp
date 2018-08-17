@@ -1,43 +1,416 @@
 <style>
-	section{
-		height: 100vh;
+	.gallThumbPers {
+	    height: 100px;
+	    display: flex;
+	    margin: 10px;
+	    border-bottom: 4px solid rgba(0,0,0,0.1);
+	    transform: rotateX(-22deg) rotateY(-22deg) rotateZ(0deg);
+	    background: rgba(238,238,238,0.9);
+	    /* width: 500px; */
+	    margin: 10px auto;
+	}
+	.bgP{
+		position: fixed;
 		width: 100vw;
-		position: relative;
+		height: 100vh;
+		top:0;
+		left: 0;
+		pointer-events: none;
+		mix-blend-mode: multiply;
 	}
-	section:nth-child(odd){
-		background: #f5f5f6;
+	.bgP.bgP1{
+		-webkit-clip-path: polygon(89% 93%, 100% 34%, 100% 100%, 0% 100%);
+		clip-path: polygon(89% 93%, 100% 34%, 100% 100%, 0% 100%);
+		background: #24a6ee;
+		z-index: -1;
 	}
-	section:nth-child(even){
-		background: #333;
+	.bgP.bgP2{
+		-webkit-clip-path: polygon(81% 82%, 113% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(81% 82%, 113% 0, 100% 100%, 0% 100%);
+
+		background: #82d6ee;
+		z-index: -2;
 	}
-	section>div{
-		position: absolute;
-		height: 40%;
-		width: 30%;
+	.bgP.bgP3{
+		-webkit-clip-path: polygon(68% 72%, 100% 0, 100% 100%, 0% 100%);
+		clip-path: polygon(68% 72%, 100% 0, 100% 100%, 0% 100%);
+
+		background: #ee46ff;
+		z-index: -3;
+
 	}
-	div.left{
-		left: 10%;
-		top: 15%;
-		background: rgba(238,238,238,0.5);
+	.mainBodyGalleryContainerFull.mainBodyPortContainerFull .mobOvCrtl .portMainCont{
+		min-height: 100vh;
+		perspective: 100px;
 	}
-	div.right{
-		right: 10%;
-		bottom: 20%;
-		color: rgba(18,18,18,0.5);
-		font-size: 40px;
-		line-height: 100px;
+	.gallThumbPers h1{
+		font-size: 20px;
+		margin: auto auto auto 40px;
 	}
 </style>
-<div class="headerFiller"></div>
-<section du-parallax  y="background">
-	<div du-parallax  y="foreground" class="left"></div>
-	<div du-parallax  y="foreground" class="right">
-		Lorem ipsum dolor sit amet, ea habemus democritum rationibus vix.
-	</div>
-</section>
-<section du-parallax  y="background">
-	<div du-parallax  y="foreground" class="left"></div>
-	<div du-parallax  y="foreground" class="right">
-		Lorem ipsum dolor sit amet, ea habemus democritum rationibus vix.
-	</div>
-</section>
+<div class="mainBodyGalleryContainerFull mainBodyPortContainerFull" style="padding: 0; height: auto; padding-top: 75px;">
+	<section class="clearAfter mobOvCrtl gallMainCont" style="">
+		<div class="closeGallery" ng-class="showGaly?'actCross':' '" ng-click="updateGallery(0)"><span><img src="/images/cross.png" alt=""></span></div>
+		<div class="galleryThumbContMain" ng-class="showGaly?'inactGalTh':' '">
+			<div class="bgP bgP1"></div>
+			<div class="bgP bgP2"></div>
+			<div class="container portMainCont galleryThumbContPer" style="" ng-class="showGaly?'inactGalTh':' '">
+				
+				<!-- <div class="bgP bgP3"></div> -->
+				<div class="gallThumbPers" ng-click="updateGallery(1)">
+					<img src="/images/Gallery/icons/1.png" alt="">
+					<h1><p>News18 Rising India Summit</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(2)">
+					<img src="/images/Gallery/icons/2.png" alt="">
+					<h1><p>CNN-News18 Indian of the Year</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(3)" >
+					<img src="/images/Gallery/icons/3.png" alt="" >
+					<h1><p>CNBC-TV18 Indian Business Leader Awards</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(4)">
+					<img src="/images/Gallery/icons/4.png" alt="">
+					<h1><p>News18 India Chaupal</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(5)">
+					<img src="/images/Gallery/icons/5.png" alt="">
+					<h1><p>CNBC-TV18 Budget Verdict</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(6)">
+					<img src="/images/Gallery/icons/6.png" alt="">
+					<h1><p>CNBC-TV18 Overdrive Awards</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(7)">
+					<img src="/images/Gallery/icons/7.png" alt="">
+					<h1><p>CNBC Awaaz Real Estate Awards</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(1)">
+					<img src="/images/Gallery/icons/1.png" alt="">
+					<h1><p>News18 Rising India Summit</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(2)">
+					<img src="/images/Gallery/icons/2.png" alt="">
+					<h1><p>CNN-News18 Indian of the Year</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(3)" >
+					<img src="/images/Gallery/icons/3.png" alt="" >
+					<h1><p>CNBC-TV18 Indian Business Leader Awards</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(4)">
+					<img src="/images/Gallery/icons/4.png" alt="">
+					<h1><p>News18 India Chaupal</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(5)">
+					<img src="/images/Gallery/icons/5.png" alt="">
+					<h1><p>CNBC-TV18 Budget Verdict</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(6)">
+					<img src="/images/Gallery/icons/6.png" alt="">
+					<h1><p>CNBC-TV18 Overdrive Awards</p></h1>
+				</div>
+				<div class="gallThumbPers" ng-click="updateGallery(7)">
+					<img src="/images/Gallery/icons/7.png" alt="">
+					<h1><p>CNBC Awaaz Real Estate Awards</p></h1>
+				</div>
+			</div>
+		</div>
+		<div ng-if="showGaly" class="bgP bgP1"></div>
+		<div ng-if="showGaly" class="bgP bgP2"></div>
+		<div ng-if="showGaly" class="bgP bgP3"></div>
+		<div class="container portMainCont galleryCont" style="" ng-class="showGal1?'activeGal':' '" ng-if="showGal1">
+			<div class="ttopImages flexCont">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/RisingIndia.jpg" alt="">
+				</div>
+				<div class="imgCont col-md-6 mobHide">
+					<img src="/images/Gallery/RisingIndia2.jpg" alt="">
+				</div>
+			</div>
+			<div class="galleryInfo container-fluid">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h3>News18 Rising India Summit</h3>
+					<p>News18 Rising India Summit, a marquee thought leadership initiative of News18, is our enterprise to imagine a collective future to greatness – a showcase of our country’s rising stature in the world and its determination to embrace all the opportunities for a better future. The summit brings together thinkers and scholars from around the world, global statesmen, high achievers in every field of endeavor and, above all, well-wishers of India. The first edition of the summit was addressed by the Prime Minister, Shri Narendra Modi.</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="ttopImages flexCont mobShow">
+				<div class="imgCont col-md-6 ">
+					<img src="/images/Gallery/RisingIndia2.jpg" alt="">
+				</div>
+			</div>
+			<div class="flexCont col-md-8">
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/RisingIndia3.jpg" alt="">
+					</div>
+					
+				</div>
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/RisingIndia4.jpg" alt="">
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="flexCont col-md-4">
+				
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/RealEstateAwards.jpg" alt="">
+					</div>
+					
+				</div>
+			</div>
+			
+		</div>
+		<div class="container portMainCont galleryCont" style="" ng-class="showGal2?'activeGal':' '" ng-if="showGal2">
+			<div class="ttopImages flexCont">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/indianoftheyear3.JPG" alt="">
+				</div>
+				<div class="imgCont col-md-6 mobHide">
+					<img src="/images/Gallery/Indianoftheyear1.png" alt="">
+				</div>
+			</div>
+			<div class="galleryInfo container-fluid">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h3>CNN-NEWS18 Indian of the Year</h3>
+					<p>The year 2006 saw the introduction of the CNN-NEWS18 Indian of the Year. The initiative recognizes the Indian(s) whose contribution to the country in a calendar year has strengthened the foundation of our society and has helped build Brand India in the process. Having seen 11 editions since its inception, the CNN-NEWS18 Indian of the Year has cemented its position as the biggest awards in the domain of News television and an institution of impeccable credibility. <br>Over the years, the Indian of the Year award recipients have included the likes of PM Narendra Modi, Indian Cricket Captain Viran Kohli, The Indian Women’s cricket team, NGO Stop Acid Attacks, Chess Grandmaster Vishwanathan Anand, A R Rahman, Former PM Manmohan Singh, The Indian Space Research Organisation (ISRO), Nobel Laureate Kailash Satyarthi, MC Mary Kom, Deepika Padukone, N Chandrasekaran and Arvind Kejriwal.</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="ttopImages flexCont mobShow">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/Indianoftheyear1.png" alt="">
+				</div>
+			</div>
+			<div class="flexCont col-md-8">
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/indianoftheyear4.JPG" alt="">
+					</div>
+					
+				</div>
+				
+			</div>
+			<div class="flexCont col-md-4">
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/indianoftheyear2.JPG" alt="">
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="container portMainCont galleryCont" style="" ng-class="showGal3?'activeGal':' '" ng-if="showGal3">
+			<div class="ttopImages flexCont">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/IBLA2.jpg" alt="">
+				</div>
+				<div class="imgCont col-md-6 mobHide">
+					<img src="/images/Gallery/IBLA3.jpg" alt="">
+				</div>
+			</div>
+			<div class="galleryInfo container-fluid">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h3>Asia Business Leader Awards</h3>
+					<p>CNBC with the Asia Business Leader Awards pioneered the business leadership awards to recognize leaders who create and sustain entrepreneurial initiatives, develop best practices and carve out powerful businesses in the global economy. And for years, we've celebrated the highest achievers in the world's most dynamic business markets with one yardstick - The Asia Business Leader Awards (ABLA). CNBC-TV18 is proud to carry on this tradition in India with the India Business Leader Awards (IBLA). The visionaries that have led India's glorious journey from the front are the champions that we salute in every edition of CNBC-TV18's India Business Leader Awards (IBLA), Asia's most distinguished awards for excellence in business leadership.</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="ttopImages flexCont mobShow">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/IBLA3.jpg" alt="">
+				</div>
+			</div>
+			<div class="flexCont col-md-8">
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/IBLA4.jpg" alt="">
+					</div>
+				</div>
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/IBLA6.jpg" alt="">
+					</div>
+				</div>
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/IBLA7.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			<div class="flexCont col-md-4">
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/IBLA1.jpg" alt="">
+					</div>
+					
+				</div>
+				
+			</div>
+			
+		</div>
+		<div class="container portMainCont galleryCont" style="" ng-class="showGal4?'activeGal':' '" ng-if="showGal4">
+			<div class="ttopImages flexCont">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/chaupal.jpg" alt="">
+				</div>
+				<div class="imgCont col-md-6 mobHide">
+					<img src="/images/Gallery/chaupal2.jpg" alt="">
+				</div>
+			</div>
+			<div class="galleryInfo container-fluid">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h3>Chaupal</h3>
+					<p>News18 India is constantly innovating with new shows and formats to create a distinct identity in the general news category. True to its tagline ‘Danke Ki Chot Par’, News18 India practices hard-hitting journalism that promotes constructive criticism and promises positive change. With the same objective in mind, it launched  ‘Chaupal’, a daylong conclave for newsmakers, visionaries, youth leaders, decision-makers, top entertainers and sport stars to come together and discuss ideas that unite us and debate issues that divide us. The conclave sees participation of notable dignitaries who share their ideas and views on how to make India a stronger and an evolved society. It is a Socio-political conclave with Ministers, Decision makers, Celebrities, Artists and Educationists discussing & debating about Politics, Economy, Sports, Bollywood and other issues of current importance.</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="ttopImages flexCont mobShow">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/chaupal2.jpg" alt="">
+				</div>
+			</div>
+			<div class="flexCont col-md-8">
+				
+			</div>
+			<div class="flexCont col-md-4">
+				
+			</div>
+			
+		</div>
+		<div class="container portMainCont galleryCont" style="" ng-class="showGal5?'activeGal':' '" ng-if="showGal5">
+			<div class="ttopImages flexCont">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/Budgetverdict1.jpg" alt="">
+				</div>
+				<div class="imgCont col-md-6 mobHide">
+					<img src="/images/Gallery/budgetverdict2.jpg" alt="">
+				</div>
+			</div>
+			<div class="galleryInfo container-fluid">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h3>Budget Verdict</h3>
+					<p>CNBC-TV18 has always taken the lead in covering the biggest news developments and assessing their business and economic impact on the lives of Indian citizens. This is reflected in its comprehensive and incisive coverage of the Union Budget, which for the last 18 years, has made it the most watched channel during Budget season. In a constant endeavor to bring innovative formats to its viewers, CNBC-TV18 started The Budget Verdict in 2016. It is a unique format hosting top business leaders and policy influencers in an insightful conversation. The top CEO engagement helps government seek frank feedback on its key policy document.</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="ttopImages flexCont mobShow">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/budgetverdict2.jpg" alt="">
+				</div>
+			</div>
+			<div class="flexCont col-md-8">
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/budgetverdict3.jpg" alt="">
+					</div>
+					
+				</div>
+			</div>
+			<div class="flexCont col-md-4">
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/budgetverdict.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		<div class="container portMainCont galleryCont" style="" ng-class="showGal6?'activeGal':' '" ng-if="showGal6">
+			<div class="ttopImages flexCont">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/OD1.jpg" alt="">
+				</div>
+				<div class="imgCont col-md-6 mobHide">
+					<img src="/images/Gallery/OD2.jpg" alt="">
+				</div>
+			</div>
+			<div class="galleryInfo container-fluid">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h3>CNBC-TV18 OVERDRIVE</h3>
+					<p>Each year CNBC-TV18 OVERDRIVE Awards recognize achievements in multiple categories across the automotive galaxy. For past 18 years, the awards have been felicitating vehicles, organizations and people who stand head and shoulders above their peers.</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="ttopImages flexCont mobShow">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/OD2.jpg" alt="">
+				</div>
+			</div>
+			<div class="flexCont col-md-8">
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/OD3.png" alt="">
+					</div>
+					
+				</div>
+				<div class="eachEvent">
+					<div class="imgCont">
+						<img src="/images/Gallery/OD4.jpg" alt="">
+					</div>
+					
+				</div>
+			</div>
+			<div class="flexCont col-md-4">
+				
+			</div>
+			
+		</div>
+		<div class="container portMainCont galleryCont" style="" ng-class="showGal7?'activeGal':' '" ng-if="showGal7">
+			<div class="ttopImages flexCont">
+				<div class="imgCont col-md-6">
+					<img src="/images/Gallery/RealEstateAwards.jpg" alt="">
+				</div>
+				<!-- <div class="imgCont col-md-6">
+					<img src="/images/Gallery/Indianoftheyear1.png" alt="">
+				</div> -->
+			</div>
+			<div class="galleryInfo container-fluid">
+				<div class="col-md-2"></div>
+				<div class="col-md-8">
+					<h3>Real Estate Awards</h3>
+					<p>To boost the real estate enthusiasm in India, and reward its excellent performances, CNBC-AWAAZ, presents the Real Estate Awards every year. These awards identify and honor professionals who have envisioned and created marvels in the real estate industry. The Real Estate Awards honor not only high performing builders but also architects and contractors who have delivered par excellence across the country. The awards were instituted in 2006.</p>
+				</div>
+				<div class="col-md-2"></div>
+			</div>
+			<div class="flexCont col-md-8">
+				
+			</div>
+			<div class="flexCont col-md-4">
+				
+			</div>
+			
+		</div>
+
+	</section>
+</div>
+<script>
+	$(document).ready(function() {
+		var maxWidth = 0;
+
+		var windowHeight = $(window).height();
+		var windowwidth = $(window).width();
+		// $('.mainBodyContainerFull').animate({
+		// 	paddingTop: 0+'px',
+		// 	},
+		// 	1000, function() {
+
+		// });
+		$('.gallThumb').css({
+			height: ((windowHeight-75)/2)-30+'px',
+			maxHeight: ((windowHeight-75)/2)-30+'px',
+		});
+	});
+</script>

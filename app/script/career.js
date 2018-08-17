@@ -6,6 +6,7 @@
     .config(['$routeProvider',
         function($routeProvider) {
             $routeProvider.when('/career', {
+                title: 'Career',
                 templateUrl: '/view/career.html',
                 controller: 'CareerCtrl'
             });
@@ -21,6 +22,19 @@
             var wHig=w.height();
             $rootScope.hideHeader=false;
             $rootScope.hidefooter=false;
+            $window.document.title='NETWORK18 | Career';
+            $scope.theBestVideo = 'cvBDZiR2UuM';
+            $scope.playerVars = {
+                'autoplay': 0,
+                'controls': 1, 
+                'rel' : 0,
+                'showinfo':0,
+                'fs' : 0,
+                'loop': 0,
+                'mute':0
+            };
+            $scope.enableYT=true;
+            // w.document.title='Career';
         };
         
         init();

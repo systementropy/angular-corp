@@ -20,7 +20,7 @@
                 $scope.data=[
                     {'img':"/images/resized/CNBC-TV18.gif",'href':"https://www.cnbctv18.com/live-tv/",'class':''},
                     {'img':"/images/resized/CNBC-Awaaz.gif",'href':"http://hindi.moneycontrol.com/tv/",'class':''},
-                    {'img':"/images/resized/CNN-News-18.gif",'href':"http://gujarati.moneycontrol.com/tv/",'class':''},
+                    {'img':"/images/resized/CNN-News-18.gif",'href':"https://news18.com/",'class':''},
                     {'img':"/images/resized/NEWS18-India.gif",'href':"https://hindi.news18.com/",'class':''},
                     {'img':"/images/portfolio/News18Urdu.png",'href':"http://urdu.news18.com/",'class':'portfolioItem'},
                     {'img':"/images/portfolio/News18Rajasthan.png",'href':"https://hindi.news18.com/livetv/news18-rajasthan/",'class':'portfolioItem'},
@@ -51,13 +51,12 @@
                     {'img':"/images/resized/Colors-Marathi.png",'href':"https://www.viacom18.com/on-air/regional/colors-marathi",'class':''},
                     {'img':"/images/resized/colors-SUPER.gif",'href':"https://www.viacom18.com/on-air/regional/colors-super",'class':''},
                     {'img':"/images/resized/rishtey.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
-                    {'img':"/images/resized/Rishtey-gold.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
                     {'img':"/images/resized/Rishtey-CINEPLEX.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey-cineplex",'class':''},
-                    {'img':"/images/resized/History-TV.gif",'href':"https://www.historyindia.com/",'class':''},
+                    {'img':"/images/resized/History-TV.gif",'href':"https://www.youtube.com/user/HistoryIndiaTV",'class':''},
                     {'img':"/images/resized/fyi.gif",'href':"http://www.fyitv18.com/",'class':''},
-                    {'img':"/images/resized/nicklodeon.gif",'href':"http://www.nickindia.com/",'class':''},
-                    {'img':"/images/resized/sonic.gif",'href':"http://www.sonicgang.com/",'class':''},
-                    {'img':"/images/resized/Nick-Jr.gif",'href':"http://www.nickjr.com/",'class':''},
+                    {'img':"/images/resized/nicklodeon.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon",'class':''},
+                    {'img':"/images/resized/sonic.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon-sonic",'class':''},
+                    {'img':"/images/resized/Nick-Jr.gif",'href':"https://www.viacom18.com/on-air/kids/nick-jr",'class':''},
                     {'img':"/images/resized/MTV.gif",'href':"http://www.mtvindia.com/",'class':''},
                     {'img':"/images/resized/MBeats.gif",'href':"http://www.mtvbeats.in/",'class':''},
                     {'img':"/images/resized/VH1.gif",'href':"http://www.vh1.in/",'class':''},
@@ -72,7 +71,7 @@
             $scope.data=[
                 {'img':"/images/resized/CNBC-TV18.gif",'href':"https://www.cnbctv18.com/live-tv/",'class':''},
                 {'img':"/images/resized/CNBC-Awaaz.gif",'href':"http://hindi.moneycontrol.com/tv/",'class':''},
-                {'img':"/images/resized/CNN-News-18.gif",'href':"http://gujarati.moneycontrol.com/tv/",'class':''},
+                {'img':"/images/resized/CNN-News-18.gif",'href':"https://news18.com/",'class':''},
                 {'img':"/images/resized/NEWS18-India.gif",'href':"https://hindi.news18.com/",'class':''},
                 {'img':"/images/portfolio/News18Urdu.png",'href':"http://urdu.news18.com/",'class':'portfolioItem'},
                 {'img':"/images/portfolio/News18Rajasthan.png",'href':"https://hindi.news18.com/livetv/news18-rajasthan/",'class':'portfolioItem'},
@@ -103,13 +102,12 @@
                 {'img':"/images/resized/Colors-Marathi.png",'href':"https://www.viacom18.com/on-air/regional/colors-marathi",'class':''},
                 {'img':"/images/resized/colors-SUPER.gif",'href':"https://www.viacom18.com/on-air/regional/colors-super",'class':''},
                 {'img':"/images/resized/rishtey.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
-                {'img':"/images/resized/Rishtey-gold.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
                 {'img':"/images/resized/Rishtey-CINEPLEX.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey-cineplex",'class':''},
-                {'img':"/images/resized/History-TV.gif",'href':"https://www.historyindia.com/",'class':''},
+                {'img':"/images/resized/History-TV.gif",'href':"https://www.youtube.com/user/HistoryIndiaTV",'class':''},
                 {'img':"/images/resized/fyi.gif",'href':"http://www.fyitv18.com/",'class':''},
-                {'img':"/images/resized/nicklodeon.gif",'href':"http://www.nickindia.com/",'class':''},
-                {'img':"/images/resized/sonic.gif",'href':"http://www.sonicgang.com/",'class':''},
-                {'img':"/images/resized/Nick-Jr.gif",'href':"http://www.nickjr.com/",'class':''},
+                {'img':"/images/resized/nicklodeon.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon",'class':''},
+                {'img':"/images/resized/sonic.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon-sonic",'class':''},
+                {'img':"/images/resized/Nick-Jr.gif",'href':"https://www.viacom18.com/on-air/kids/nick-jr",'class':''},
                 {'img':"/images/resized/MTV.gif",'href':"http://www.mtvindia.com/",'class':''},
                 {'img':"/images/resized/MBeats.gif",'href':"http://www.mtvbeats.in/",'class':''},
                 {'img':"/images/resized/VH1.gif",'href':"http://www.vh1.in/",'class':''},
@@ -127,6 +125,7 @@
                 // slidesToShow: 10,
                 // dots: true,
             };
+            $window.document.title='NETWORK18 | Home';
             $scope.data=[
                 {'img':"/images/resized/CNBC-TV18.gif",'href':"https://www.cnbctv18.com/live-tv/",'class':''},
                 {'img':"/images/resized/CNBC-Awaaz.gif",'href':"http://hindi.moneycontrol.com/tv/",'class':''},
@@ -161,13 +160,12 @@
                 {'img':"/images/resized/Colors-Marathi.png",'href':"https://www.viacom18.com/on-air/regional/colors-marathi",'class':''},
                 {'img':"/images/resized/colors-SUPER.gif",'href':"https://www.viacom18.com/on-air/regional/colors-super",'class':''},
                 {'img':"/images/resized/rishtey.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
-                {'img':"/images/resized/Rishtey-gold.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
                 {'img':"/images/resized/Rishtey-CINEPLEX.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey-cineplex",'class':''},
-                {'img':"/images/resized/History-TV.gif",'href':"https://www.historyindia.com/",'class':''},
+                {'img':"/images/resized/History-TV.gif",'href':"https://www.youtube.com/user/HistoryIndiaTV",'class':''},
                 {'img':"/images/resized/fyi.gif",'href':"http://www.fyitv18.com/",'class':''},
-                {'img':"/images/resized/nicklodeon.gif",'href':"http://www.nickindia.com/",'class':''},
-                {'img':"/images/resized/sonic.gif",'href':"http://www.sonicgang.com/",'class':''},
-                {'img':"/images/resized/Nick-Jr.gif",'href':"http://www.nickjr.com/",'class':''},
+                {'img':"/images/resized/nicklodeon.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon",'class':''},
+                {'img':"/images/resized/sonic.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon-sonic",'class':''},
+                {'img':"/images/resized/Nick-Jr.gif",'href':"https://www.viacom18.com/on-air/kids/nick-jr",'class':''},
                 {'img':"/images/resized/MTV.gif",'href':"http://www.mtvindia.com/",'class':''},
                 {'img':"/images/resized/MBeats.gif",'href':"http://www.mtvbeats.in/",'class':''},
                 {'img':"/images/resized/VH1.gif",'href':"http://www.vh1.in/",'class':''},
@@ -177,11 +175,11 @@
             ];
             
             
-            $scope.theBestVideo = 'fEC3VqzRvwg';
+            $scope.theBestVideo = 'cvBDZiR2UuM';
             var w = angular.element($window);
             var wWid=w.width();
             var wHig=w.height();
-            console.log(wHig/wWid);
+            
             if (wWid<1000) {
                 $scope.hideHeader=false;
                 $scope.skipVid();
@@ -189,9 +187,6 @@
             }else{
                 $rootScope.hideHeader=true;
                 if (wHig/wWid>=0.5625) {
-                   // var vidHeight= $(window).height(); 
-                   // var vidWidth= (vidHeight*16)/9;
-                   // $('.videoBg').css('width', vidWidth);  
                    $scope.pHigh=parseInt(wHig);
                    $scope.pWid=parseInt((wWid*16)/9);
                 }else{

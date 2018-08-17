@@ -25,36 +25,37 @@
 			<span class="animateHeight"></span>
 			<span class="animateHeightBg"></span>
 		</div>
-		<div class="switchTab">
+		<div id="scrollHere"></div>
+        <div class="switchTab">
 			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?'active':' '">Network18</button>
-			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?' ':'active'">TV18</button>
+			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?' ':'active'">TV<span>18</span></button>
 		</div>
 		<div class="container invBoxMar">
 			<div class="row box-flex box5 invbox" id="invox" style="">
 				<div class="col-md-3">
 					<div class="box active" id="QUARTERLY">
 						<img src="/images/boxes/quarterlyfinancialstatement.jpg" alt="" class="corp-img-cont">
-						<a href="/finance#QUARTERLY"><div class="boxTextBot">FINANCIAL<br/>STATEMENTS</div></a>
+						<a href="/finance#scrollHere"><div class="boxTextBot">FINANCIAL<br/>STATEMENTS</div></a>
 					</div>
 					<div class="box" id="ANNUAL">
 						<img src="/images/boxes/annualreport.jpg" alt="" class="corp-img-cont">
-						<a href="/annualReport#ANNUAL"><div class="boxTextBot">ANNUAL <br>REPORTS</div></a>
+						<a href="/annualReport#scrollHere"><div class="boxTextBot">ANNUAL <br>REPORTS</div></a>
 					</div>
 					<div class="box" id="SHARE">
 						<img src="/images/boxes/shareholdingpattern.jpg" alt="" class="corp-img-cont">
-						<a href="/shareholding#SHARE"><div class="boxTextBot">SHAREHOLDING <br>PATTERN</div></a>
+						<a href="/shareholding#scrollHere"><div class="boxTextBot">SHAREHOLDING <br>PATTERN</div></a>
 					</div>
 					<div class="box" id="NOTICES">
 						<img src="/images/boxes/noticesandevents.jpg" alt="" class="corp-img-cont">
-						<a href="/notice#NOTICES"><div class="boxTextBot">NOTICES &<br>EVENTS</div></a>
+						<a href="/notice#scrollHere"><div class="boxTextBot">NOTICES<br>& EVENTS</div></a>
 					</div>
 					<div class="box" id="OUR">
 						<img src="/images/boxes/ourpolicies.jpg" alt="" class="corp-img-cont">
-						<a href="/policy#OUR"><div class="boxTextBot">OUR <br>POLICIES</div></a>
+						<a href="/policy#scrollHere"><div class="boxTextBot">OUR <br>POLICIES</div></a>
 					</div>
 					<div class="box" id="MERGE">
 						<img src="/images/boxes/schemeofmergersbyabsorption.jpg" alt="" class="corp-img-cont">
-						<a href="/merger#MERGE"><div class="boxTextBot">SCHEME OF MERGER BY ABSORPTION</div></a>
+						<a href="/merger#scrollHere"><div class="boxTextBot">SCHEME OF MERGER BY ABSORPTION</div></a>
 					</div>
 				</div>
 			</div>
@@ -65,42 +66,72 @@
 			<div class="inverstorSections">
 				<h1 style="margin-left: 5px;">Financial Statements</h1>
 				
-				<div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foc}}0%;"></span></div>
+				<!-- <div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foc}}0%;"></span></div> -->
 				<div active="activeJustified" id="tab1" justified="true" class="">
-					<ul class="nav nav-tabs nav-justified" >
-						<li class="uib-tab nav-item " ng-class="left_foc==0?'active':' '" ng-click="changeFoc(0)" index="0" heading="2016-17">
-							<a ng-click="" class="nav-link"">2017-18</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foc==1?'active':' '" ng-click="changeFoc(1)" index="1" heading="2015-16">
-							<a ng-click="" class="nav-link"">2016-17</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foc==2?'active':' '" ng-click="changeFoc(2)" index="2" heading="2014-15">
-							<a ng-click="" class="nav-link"">2015-16</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foc==3?'active':' '" ng-click="changeFoc(3)" index="3" heading="2013-14">
-							<a ng-click="" class="nav-link"">2014-15</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foc==4?'active':' '" ng-click="changeFoc(4)" index="4" heading="2012-13">
-							<a ng-click="" class="nav-link"">2013-14</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foc==5?'active':' '" ng-click="changeFoc(5)" index="5" heading="2011-12">
-							<a ng-click="" class="nav-link"">2012-13</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foc==6?'active':' '" ng-click="changeFoc(6)" index="6" heading="2010-11">
-							<a ng-click="" class="nav-link"">2011-12</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foc==7?'active':' '" ng-click="changeFoc(7)" index="7" heading="2009-10">
-							<a ng-click="" class="nav-link"">2010-11</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foc==8?'active':' '" ng-click="changeFoc(8)" index="8" heading="2008-09">
-							<a ng-click="" class="nav-link"">2009-10</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foc==9?'active':' '" ng-click="changeFoc(9)" index="9" heading="2007-08">
-							<a ng-click="" class="nav-link"">2008-09</a>
-						</li>
+					<ul class="nav nav-tabs nav-justified homeSlickConnt" >
+						<div class="btnContSlixk">
+							<button class="empPrev"></button>
+							<button class="empNext"></button>
+						</div>
+						<div class="inv-ann-cont">
+							<slick class="" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=10 slides-to-scroll=1 infinite="false">
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==0?'active':' '" ng-click="changeFoc(0)" index="0" heading="2018-19">
+									<a ng-click="" class="nav-link"">2018-19</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==1?'active':' '" ng-click="changeFoc(1)" index="1" heading="2017-18">
+									<a ng-click="" class="nav-link"">2017-18</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==2?'active':' '" ng-click="changeFoc(2)" index="2" heading="2016-17">
+									<a ng-click="" class="nav-link"">2016-17</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==3?'active':' '" ng-click="changeFoc(3)" index="3" heading="2015-16">
+									<a ng-click="" class="nav-link"">2015-16</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==4?'active':' '" ng-click="changeFoc(4)" index="4" heading="2014-15">
+									<a ng-click="" class="nav-link"">2014-15</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==5?'active':' '" ng-click="changeFoc(5)" index="5" heading="2013-14">
+									<a ng-click="" class="nav-link"">2013-14</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==6?'active':' '" ng-click="changeFoc(6)" index="6" heading="2012-13">
+									<a ng-click="" class="nav-link"">2012-13</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==7?'active':' '" ng-click="changeFoc(7)" index="7" heading="2011-12">
+									<a ng-click="" class="nav-link"">2011-12</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==8?'active':' '" ng-click="changeFoc(8)" index="8" heading="2010-11">
+									<a ng-click="" class="nav-link"">2010-11</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==9?'active':' '" ng-click="changeFoc(9)" index="9" heading="2009-10">
+									<a ng-click="" class="nav-link"">2009-10</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==10?'active':' '" ng-click="changeFoc(10)" index="10" heading="2008-09">
+									<a ng-click="" class="nav-link"">2008-09</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==11?'active':' '" ng-click="changeFoc(11)" index="11" heading="2007-08">
+									<a ng-click="" class="nav-link"">2007-08</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foc==12?'active':' '" ng-click="changeFoc(12)" index="12" heading="2007-06">
+									<a ng-click="" class="nav-link"">2007-06</a>
+								</div>
+							</slick>
+						</div>
+						
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==0?'active':' '" ng-if="left_foc==0">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investors Update - Q1</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/2016-17/Investors%20Update%20Q1_2018-19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/2016-17/N18Q1Results.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==1?'active':' '" ng-if="left_foc==1">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
@@ -139,7 +170,7 @@
 					</ol>
 				</section>
 
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==1?'active':' '" ng-if="left_foc==1">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==2?'active':' '" ng-if="left_foc==2">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
@@ -185,7 +216,7 @@
 					</ol>
 				</section>
 
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==2?'active':' '" ng-if="left_foc==2">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==3?'active':' '" ng-if="left_foc==3">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
@@ -223,7 +254,7 @@
 					</ol>
 				</section>
 
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==3?'active':' '" ng-if="left_foc==3">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==4?'active':' '" ng-if="left_foc==4">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
@@ -260,7 +291,7 @@
 					</ol>
 				</section>
 
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==4?'active':' '" ng-if="left_foc==4">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==5?'active':' '" ng-if="left_foc==5">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update Mar 2014</p>
@@ -295,43 +326,6 @@
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited financial results 30.06.2013</p>
 							<a href="http://www.network18online.com/reports/Financial Results/2013-14/Results Q1 June 30 2013 Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-							</li>
-					</ol>
-				</section>
-
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==5?'active':' '" ng-if="left_foc==5">
-					<ol class="list-group">
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Investors Update Dec 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-							</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Investors Update Sep 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Sept 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-							</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Investors Update Jun 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Jun 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-							</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Audited financial results 31.03.2013</p>
-							<a href="http://www.network18online.com/reports/N18%20-%20Clause%2041%20&amp;%20Results.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-							</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Limited Review Report Dec 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Limited Review Report Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-							</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Financial Results 31.12.2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results 31.12.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-							</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Financial Results 30.09.2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results 30.09.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-							</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Financial Results 30.06.2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results - 30.06.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 					</ol>
 				</section>
@@ -376,6 +370,43 @@
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==7?'active':' '" ng-if="left_foc==7">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investors Update Dec 2012</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investors Update Sep 2012</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Sept 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investors Update Jun 2012</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Jun 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Audited financial results 31.03.2013</p>
+							<a href="http://www.network18online.com/reports/N18%20-%20Clause%2041%20&amp;%20Results.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Limited Review Report Dec 2012</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Limited Review Report Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Financial Results 31.12.2012</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results 31.12.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Financial Results 30.09.2012</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results 30.09.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Financial Results 30.06.2012</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results - 30.06.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							</li>
+					</ol>
+				</section>
+
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==8?'active':' '" ng-if="left_foc==8">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update March 2011</p>
 							<a href="http://www.network18online.com/reports/Financial Results/2010-11/Investors Update March 2011.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
@@ -410,7 +441,7 @@
 					</ol>
 				</section>
 
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==8?'active':' '" ng-if="left_foc==8">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==9?'active':' '" ng-if="left_foc==9">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor Update March 2010</p>
@@ -447,7 +478,7 @@
 					</ol>
 				</section>
 
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==9?'active':' '" ng-if="left_foc==9">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==10?'active':' '" ng-if="left_foc==10">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor Update March 2009</p>
@@ -483,6 +514,50 @@
 							</li>
 					</ol>
 				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==10?'active':' '" ng-if="left_foc==11">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investor Update March 2008</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Investor Update March 2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investors Update December 2007</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Investors Update December 2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investor Update September 2007</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Investor Update September 2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investors Update June 2007</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Investors Update June 2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Financial Results 31.03.2008</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Financial Results 31.03.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Financial Results 31.12.2007</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Financial Results 31.12.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Financial Results 30.09.2007</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Financial Results 30.09.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Financial Results 30.06.2007</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Financial Results 30.06.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==10?'active':' '" ng-if="left_foc==12">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investors Update March 31, 2007</p>
+							<a href="http://www.network18online.com/reports/Financial%20Results/2006-07/Investors%20Update%20March%2031,%202007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
 			</div>			
 		</div>
 		<div class="container tv18Cont" ng-if="!activeSec.nw18Section">
@@ -491,78 +566,107 @@
 			<div class="inverstorSections">
 				<h1 style="margin-left: 5px;">Financial Statements</h1>
 				
-				<div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foctv0}}0%;"></span></div>
+				<!-- <div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foctv0}}0%;"></span></div> -->
 				<div active="activeJustified" id="tab1" justified="true" class="">
-					<ul class="nav nav-tabs nav-justified" >
-						<li class="uib-tab nav-item " ng-class="left_foctv0==0?'active':' '" ng-click="changeFocTV0(0)" index="0" heading="2017-18">
-							<a ng-click="" class="nav-link"">2017-18</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv0==1?'active':' '" ng-click="changeFocTV0(1)" index="1" heading="2016-17">
-							<a ng-click="" class="nav-link"">2016-17</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv0==2?'active':' '" ng-click="changeFocTV0(2)" index="2" heading="2015-16">
-							<a ng-click="" class="nav-link"">2015-16</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv0==3?'active':' '" ng-click="changeFocTV0(3)" index="3" heading="2014-15">
-							<a ng-click="" class="nav-link"">2014-15</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv0==4?'active':' '" ng-click="changeFocTV0(4)" index="4" heading="2013-14">
-							<a ng-click="" class="nav-link"">2013-14</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv0==5?'active':' '" ng-click="changeFocTV0(5)" index="5" heading="2012-13">
-							<a ng-click="" class="nav-link"">2012-13</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv0==6?'active':' '" ng-click="changeFocTV0(6)" index="6" heading="2011-12">
-							<a ng-click="" class="nav-link"">2011-12</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv0==7?'active':' '" ng-click="changeFocTV0(7)" index="7" heading="2010-11">
-							<a ng-click="" class="nav-link"">2010-11</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv0==8?'active':' '" ng-click="changeFocTV0(8)" index="8" heading="2009-10">
-							<a ng-click="" class="nav-link"">2009-10</a>
-						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv0==9?'active':' '" ng-click="changeFocTV0(9)" index="9" heading="2008-09">
-							<a ng-click="" class="nav-link"">2008-09</a>
-						</li>
+					<ul class="nav nav-tabs nav-justified homeSlickConnt" >
+						<div class="btnContSlixk">
+							<button class="empPrev"></button>
+							<button class="empNext"></button>
+						</div>
+						<div class="inv-ann-cont">
+							<slick class="" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=10 slides-to-scroll=1 infinite="false">
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==0?'active':' '" ng-click="changeFocTV0(0)" index="0" heading="2018-19">
+									<a ng-click="" class="nav-link"">2018-19</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==1?'active':' '" ng-click="changeFocTV0(1)" index="1" heading="2017-18">
+									<a ng-click="" class="nav-link"">2017-18</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==2?'active':' '" ng-click="changeFocTV0(2)" index="2" heading="2016-17">
+									<a ng-click="" class="nav-link"">2016-17</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==3?'active':' '" ng-click="changeFocTV0(3)" index="3" heading="2015-16">
+									<a ng-click="" class="nav-link"">2015-16</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==4?'active':' '" ng-click="changeFocTV0(4)" index="4" heading="2014-15">
+									<a ng-click="" class="nav-link"">2014-15</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==5?'active':' '" ng-click="changeFocTV0(5)" index="5" heading="2013-14">
+									<a ng-click="" class="nav-link"">2013-14</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==6?'active':' '" ng-click="changeFocTV0(6)" index="6" heading="2012-13">
+									<a ng-click="" class="nav-link"">2012-13</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==7?'active':' '" ng-click="changeFocTV0(7)" index="7" heading="2011-12">
+									<a ng-click="" class="nav-link"">2011-12</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==8?'active':' '" ng-click="changeFocTV0(8)" index="8" heading="2010-11">
+									<a ng-click="" class="nav-link"">2010-11</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==9?'active':' '" ng-click="changeFocTV0(9)" index="9" heading="2009-10">
+									<a ng-click="" class="nav-link"">2009-10</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==10?'active':' '" ng-click="changeFocTV0(10)" index="10" heading="2008-09">
+									<a ng-click="" class="nav-link"">2008-09</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==11?'active':' '" ng-click="changeFocTV0(11)" index="11" heading="2007-08">
+									<a ng-click="" class="nav-link"">2007-08</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==12?'active':' '" ng-click="changeFocTV0(12)" index="12" heading="2006-07">
+									<a ng-click="" class="nav-link"">2006-07</a>
+								</div>
+							</slick>
+						</div>
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==0?'active':' '" ng-if="left_foctv0==0">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Investors Update - Q4</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2016-2017/TV18InvestorsUpdate31032018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Audited Financial Results Q4 end</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2016-2017/TV18AuditedFinancialResults31032018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Investors Update - Q3</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2016-2017/TV18InvestorUpdate31122017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Unaudited Financial Results Q3 end</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2016-2017/TV18FinancialResults31122017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Investors Update - Q2</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2016-2017/Investorupdate30092017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Unaudited Financial Results Q2 end</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2016-2017/TV18FinancialResults30092017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q1</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2016-2017/InvestorsUpdateTV18Q1FY18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/2016-2017/InvestorsUpdateTV18Q1FY19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2016-2017/TV18FinancialResults30062017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/2016-2017/TV18FinancialResults30062018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==1?'active':' '" ng-if="left_foctv0==1">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investors Update - Q4</p>
+							<a href="/reportstv18/Financial Results/2016-2017/TV18InvestorsUpdate31032018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Audited Financial Results Q4 end</p>
+							<a href="/reportstv18/Financial Results/2016-2017/TV18AuditedFinancialResults31032018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investors Update - Q3</p>
+							<a href="/reportstv18/Financial Results/2016-2017/TV18InvestorUpdate31122017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Unaudited Financial Results Q3 end</p>
+							<a href="/reportstv18/Financial Results/2016-2017/TV18FinancialResults31122017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investors Update - Q2</p>
+							<a href="/reportstv18/Financial Results/2016-2017/Investorupdate30092017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Unaudited Financial Results Q2 end</p>
+							<a href="/reportstv18/Financial Results/2016-2017/TV18FinancialResults30092017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investors Update - Q1</p>
+							<a href="/reportstv18/Financial Results/2016-2017/InvestorsUpdateTV18Q1FY18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
+							<a href="/reportstv18/Financial Results/2016-2017/TV18FinancialResults30062017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==2?'active':' '" ng-if="left_foctv0==2">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
@@ -598,7 +702,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==2?'active':' '" ng-if="left_foctv0==2">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==3?'active':' '" ng-if="left_foctv0==3">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
@@ -634,7 +738,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==3?'active':' '" ng-if="left_foctv0==3">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==4?'active':' '" ng-if="left_foctv0==4">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
@@ -670,7 +774,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==4?'active':' '" ng-if="left_foctv0==4">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==5?'active':' '" ng-if="left_foctv0==5">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results for the quarter and year ended 31.03.2014</p>
@@ -706,7 +810,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==5?'active':' '" ng-if="left_foctv0==5">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==6?'active':' '" ng-if="left_foctv0==6">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q4 FY12-13</p>
@@ -742,7 +846,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==6?'active':' '" ng-if="left_foctv0==6">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==7?'active':' '" ng-if="left_foctv0==7">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q4 FY11-12</p>
@@ -778,7 +882,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==7?'active':' '" ng-if="left_foctv0==7">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==8?'active':' '" ng-if="left_foctv0==8">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q4 FY10-11</p>
@@ -814,7 +918,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==8?'active':' '" ng-if="left_foctv0==8">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==9?'active':' '" ng-if="left_foctv0==9">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q4 FY09-10</p>
@@ -848,6 +952,87 @@
 							<p class="investor_title_text">Unaudited Financial Results 30.06.2009</p>
 							<a href="http://www.network18online.com/reportstv18//Financial Results/2009-2010/IBN18_UFR-30.06.2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==10?'active':' '" ng-if="left_foctv0==10">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investor update Q4 FY08-09</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/ibn18_Investor Update_Q4&amp;FY 2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investor update Q3 FY08-09</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_Investor Update_Q3_FY2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investor update Q2 FY08-09</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_Investor Update _Q2_FY2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investor update Q1 FY08-09</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_Investor Update_Q1_FY2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Audited Financial Results 31.03.2009</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/ibn18-Audited Financial Results_31.03.2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Unaudited Financial Results 31.12.2008</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_UFR_31.12.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Unaudited Financial Results 30.09.2008</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_UFR_30.09.2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Unaudited Financial Results 30.06.2008</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_UFR_30.06.2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==11?'active':' '" ng-if="left_foctv0==11">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investor update Q4 FY07-08</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2007-2008/Ibn18_Investor Update_Q4_FY2007-2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investor update Q3 FY07-08</p>
+							<a href="http://www.network18online.com/reportstv18/Notices Events/Press Release/2007-2008/Press Release - Q3.doc.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investor update Q2 FY07-08</p>
+							<a href="http://www.network18online.com/reportstv18/Notices Events/Press Release/2007-2008/Press Release - Q2.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investor update Q1 FY07-08</p>
+							<a href="http://www.network18online.com/reportstv18/Notices Events/Press Release/2007-2008/30.06.2007-Q1.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Audited Financial Results 31.03.2008</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2007-2008/ibn18_Audited Financial Results_31.03.2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Unaudited Financial Results 31.12.2007</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2007-2008/Unaudited Financial Results - 31.12.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Financial Results 30.09.2007</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2007-2008/Fiancial Results - 30.09.2007 .doc.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Financial Results 30.06.2007</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2007-2008/Financial Results - 30.06.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==12?'active':' '" ng-if="left_foctv0==12">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Investor update Q4 FY06-07</p>
+							<a href="http://www.network18online.com/reportstv18/Financial%20Results/2006-2007/GBN%20Press%20Release_30.04.2007.doc.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+						
 					</ol>
 				</section>
 			</div>

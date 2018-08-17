@@ -1,6 +1,6 @@
 <div class="mainBodyContainerFull" style="padding-top: 0vh;height: auto;">
 	<div class="headerFiller"></div>
-	<a class="fixed-link-top" href="/investors"><span class="">BACK TO INVESTORS RELATIONS</span></a>
+	<a class="fixed-link-top" href="/investors"><span class="">INVESTORS RELATIONS</span></a>
 	<!--  -->
 	<!-- <div class="bottomSticky">
 		<a href="#">
@@ -26,24 +26,28 @@
 			<span class="animateHeight"></span>
 			<span class="animateHeightBg"></span>
 		</div>
-		<div class="switchTab">
+		<div id="scrollHere"></div>
+        <div class="switchTab">
 			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?'active':' '">Network18</button>
-			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?' ':'active'">TV18</button>
+			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?' ':'active'">TV<span>18</span></button>
 		</div>
 		<div class="container nw18Cont" ng-if="activeSec.nw18Section">
 
 			<div class="inverstorSections">
 				<h1 class="finSubh1" style="">Financial Statements of Subsidiaries</h1>
-				<div class="sld_foc_cont sld_foc_cont33"><span class="sliding_focus" style="left: {{left_foc1*33.333333}}0%;"></span></div>
+				<div class="sld_foc_cont sld_foc_cont33"><span class="sliding_focus" style="left: {{left_foc1*25}}%;"></span></div>
 				<div active="activeJustified" id="tab1" justified="true" class="">
 					  <ul class="nav nav-tabs nav-justified" >
-						<li class="uib-tab nav-item " ng-class="left_foc1==0?'active':' '" ng-click="changeFoc1(0)" index="0" heading="2016-17">
+					  	<li class="uib-tab nav-item " ng-class="left_foc1==0?'active':' '" ng-click="changeFoc1(0)" index="0" heading="2016-17">
+							<a ng-click="" class="nav-link"">2017-18</a>
+						</li>
+						<li class="uib-tab nav-item " ng-class="left_foc1==1?'active':' '" ng-click="changeFoc1(1)" index="0" heading="2016-17">
 							<a ng-click="" class="nav-link"">2016-17</a>
 						</li>
-						<li class="uib-tab nav-item " ng-class="left_foc1==1?'active':' '" ng-click="changeFoc1(1)" index="1" heading="2015-16">
+						<li class="uib-tab nav-item " ng-class="left_foc1==2?'active':' '" ng-click="changeFoc1(2)" index="1" heading="2015-16">
 							<a ng-click="" class="nav-link"">2015-16</a>
 						</li>
-						<li class="uib-tab nav-item " ng-class="left_foc1==2?'active':' '" ng-click="changeFoc1(2)" index="2" heading="2015-14">
+						<li class="uib-tab nav-item " ng-class="left_foc1==3?'active':' '" ng-click="changeFoc1(3)" index="3" heading="2015-14">
 							<a ng-click="" class="nav-link"">2015-14</a>
 						</li>
 					</ul>
@@ -52,241 +56,131 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">AETN18 Media Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/AETN18MediaPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/AETN18 Media Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Big Tree  Entertainment Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/BigTreeEntertainmentPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Big Tree  Entertainment Singapore Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/BigTreeEntertainmentSingaporePteLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Capital18 Fincap Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Capital18FincapPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Capital18 Fincap Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Colosceum Media</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/ColosceumMediaPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Colosceum Media Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Colosceum Media Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Digital18 Media Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Digital18MediaLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Digital18 Media Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">E18 Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/E-18Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">E-18 Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/E-18 Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">e-Eighteen.com Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/E-EighteencomLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">E-Eighteen.Com Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/e-Eighteen.com Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Equator Trading Enterprises Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/EquatorTradingEnterprisesPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Equator Trading Enterprises Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Fantain Sports Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/FantainSportsPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Ibn18 Mauritius</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/IBN18(Mauritus)Ltd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">IBN Lokmat News Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/IBN18LokmatFinancials-31.03.2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Infomedia Press Ltd</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/InfomediaPressLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Moneycontrol Dot com India Ltd</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/MoneyControlDotComIndiaLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">NW18 Holdings</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Network18Holdings.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">NW18 HSN Holdings</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/NW18HSNHoldingsPLC.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Panorama Television Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/PanoramaTelevisionPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Prism TV Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/PrismFinancials31032016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Reed Infomedia India Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/ReedInfomediaIndiaPvtLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">RRB Investments Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/RRBInvestmentPvtLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">RRK Finhold Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/RRKFinholdPvtLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">RVT Finhold Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/RVTFinholdPvtLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">RVT Media Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/RVTMediaPrivateLimitedi.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Setpro18 Distribution Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Setpro18DistributionLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">SpaceBound WebLabs Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/SpaceBoundWebLabsPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Television Eighteen Mauritius Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/TelevisionEighteenMauritiusLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Television Eighteen Media and Investments Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/TelevisionEighteenMediaandInvestmentLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">TV18 Broadcast Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/TV18BroadcastLtd(Final).pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">TV18 Home Shopping Network Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/TV18HomeShoppingNetworkLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">web18 Holdings Ltd.</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Web18HoldingsLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Web18 Software Services Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Web18SoftwareServicesLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Greycells18 Media Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Greycells18 Media Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Greycells18 Media Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Indiacast UK Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Indiacast UK Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">IBN Lokmat News Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/IBN Lokmat News  Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Ibn18 (Mauritius) Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/IBN18 (Mauritius) Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Indiacast Media Distribution Pvt Ltd</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/IndiaCast Media Distribution Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Indiacast UK Ltd</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/IndiaCast UK Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Indiacast US Ltd</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Indiacast US Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/IndiaCast US Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Indiacast Media Distribution Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Indiacast Media Distribution Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Infomedia Press Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Infomedia Press Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Indiacast Distribution Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Indiacast Distribution Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Moneycontrol Dot Com India Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Moneycontrol.Dot Com India Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Viacom18 US</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Viacom18 US.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Network18 Holdings Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Network18 Holdings Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Viacom18 UK</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Viacom18 UK.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Panorama Television Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Panorama Television Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Viacom18 Media Private Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Viacom18 Media Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Reed Infomedia India Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Reed Infomedia India Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-
-						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Roptonal Limited</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Roptonal Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Roptonal Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">RRB Investments Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/RRB Investments Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">RRK Finhold Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/RRK Finhold Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">RVT Finhold Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/RVT Finhold Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">RVT Media Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/RVT Media Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Setpro18 Distribution Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Setpro18 Distribution Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Television Eighteen Mauritius Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Television Eighteen Mauritius Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Television Eighteen Media Investment Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Television Eighteen Media and Investment Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">TV18 Broadcast Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/TV18 Broadcast Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Viacom18 Media Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Viacom18 Media Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Viacom18 US Limited.pdf</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Viacom18 US Inc.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Viacom18 UK Limited.pdf</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Viacom18 Media (UK) Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Web18 Software Services Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Web18 Software Services Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Web18 Holdings Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/Web18 Holdings Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 					</ol>
 				</section>
@@ -296,6 +190,248 @@
 							<p class="investor_title_text">AETN18 Media Private Limited</p>
 							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/AETN18MediaPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Big Tree  Entertainment Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/BigTreeEntertainmentPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Big Tree  Entertainment Singapore Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/BigTreeEntertainmentSingaporePteLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Capital18 Fincap Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Capital18FincapPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Colosceum Media</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/ColosceumMediaPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Digital18 Media Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Digital18MediaLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">E18 Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/E-18Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">e-Eighteen.com Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/E-EighteencomLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Equator Trading Enterprises Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/EquatorTradingEnterprisesPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Fantain Sports Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/FantainSportsPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Ibn18 Mauritius</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/IBN18(Mauritus)Ltd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">IBN Lokmat News Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/IBN18LokmatFinancials-31.03.2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Infomedia Press Ltd</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/InfomediaPressLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Moneycontrol Dot com India Ltd</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/MoneyControlDotComIndiaLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">NW18 Holdings</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Network18Holdings.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">NW18 HSN Holdings</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/NW18HSNHoldingsPLC.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Panorama Television Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/PanoramaTelevisionPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Prism TV Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/PrismFinancials31032016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Reed Infomedia India Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/ReedInfomediaIndiaPvtLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">RRB Investments Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/RRBInvestmentPvtLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">RRK Finhold Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/RRKFinholdPvtLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">RVT Finhold Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/RVTFinholdPvtLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">RVT Media Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/RVTMediaPrivateLimitedi.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Setpro18 Distribution Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Setpro18DistributionLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">SpaceBound WebLabs Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/SpaceBoundWebLabsPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Television Eighteen Mauritius Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/TelevisionEighteenMauritiusLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Television Eighteen Media and Investments Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/TelevisionEighteenMediaandInvestmentLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">TV18 Broadcast Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/TV18BroadcastLtd(Final).pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">TV18 Home Shopping Network Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/TV18HomeShoppingNetworkLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">web18 Holdings Ltd.</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Web18HoldingsLtd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Web18 Software Services Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Web18SoftwareServicesLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Greycells18 Media Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Greycells18 Media Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Indiacast UK Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Indiacast UK Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Indiacast US Ltd</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Indiacast US Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Indiacast Media Distribution Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Indiacast Media Distribution Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Indiacast Distribution Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Indiacast Distribution Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Viacom18 US</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Viacom18 US.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Viacom18 UK</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Viacom18 UK.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Viacom18 Media Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Viacom18 Media Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+
+						
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Roptonal Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/Roptonal Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc1==2?'active':' '" ng-if="left_foc1==2">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">AETN18 Media Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/AETN18MediaPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Big Tree  Entertainment Private Limited</p>
 							<a href="http://www.network18online.com/reports/Financial Results/2015-16/n18-subsidiaries/BigTreeEntertainmentPrivateLimited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -456,7 +592,7 @@
 						
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc1==2?'active':' '" ng-if="left_foc1==2">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc1==3?'active':' '" ng-if="left_foc1==3">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">NW18 HSN Holdings</p>
@@ -624,22 +760,81 @@
 			<div class="inverstorSections">
 				<h1 style="margin-left: 5px;">Financial Statements of Subsidiaries</h1>
 				
-				<div class="sld_foc_cont sld_foc_cont33"><span class="sliding_focus" style="left: {{left_foctv1*33.333333}}0%;"></span></div>
+				<div class="sld_foc_cont sld_foc_cont33"><span class="sliding_focus" style="left: {{left_foctv1*25}}%;"></span></div>
 				<div active="activeJustified" id="tab1" justified="true" class="">
 					<ul class="nav nav-tabs nav-justified" >
 						<li class="uib-tab nav-item " ng-class="left_foctv1==0?'active':' '" ng-click="changeFocTV1(0)" index="0" heading="2016-17">
+							<a ng-click="" class="nav-link"">2017-18</a>
+						</li>
+						<li class="uib-tab nav-item " ng-class="left_foctv1==1?'active':' '" ng-click="changeFocTV1(1)" index="0" heading="2016-17">
 							<a ng-click="" class="nav-link"">2016-17</a>
 						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv1==1?'active':' '" ng-click="changeFocTV1(1)" index="0" heading="2015-16">
+						<li class="uib-tab nav-item " ng-class="left_foctv1==2?'active':' '" ng-click="changeFocTV1(2)" index="0" heading="2015-16">
 							<a ng-click="" class="nav-link"">2015-16</a>
 						</li>
-						<li class="uib-tab nav-item " ng-class="left_foctv1==2?'active':' '" ng-click="changeFocTV1(2)" index="1" heading="2014-15">
+						<li class="uib-tab nav-item " ng-class="left_foctv1==3?'active':' '" ng-click="changeFocTV1(2)" index="1" heading="2014-15">
 							<a ng-click="" class="nav-link"">2014-15</a>
 						</li>
 						
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv1==0?'active':' '" ng-if="left_foctv1==0">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">AETN18 Media Private Limited</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/AETN18 Media Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Equator Trading Enterprises Private Limited</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/Equator Trading Enterprises Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">IBN Lokmat News Private Limited</p>
+							<a href="http://www.network18online.com/reports/Financial Results/2017-18/n18-subsidiaries/IBN Lokmat News  Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Ibn18 (Mauritius) Limited</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/IBN18 (Mauritius) Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Indiacast Media Distribution Pvt Ltd</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/IndiaCast Media Distribution Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Indiacast UK Ltd</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/IndiaCast UK Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Indiacast US Ltd</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/IndiaCast US Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Panorama Television Private Limited</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/Panorama Television Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Roptonal Limited</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/Roptonal Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">RVT Media Private Limited</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/RVT Media Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Viacom18 Media Private Limited</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/Viacom18 Media Private Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Viacom18 UK Limited</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/Viacom18 Media (UK) Limited.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Viacom18 US Limited</p>
+							<a href="http://www.network18online.com/reportstv18/Financial Results/2017-2018/tv18-subsidiaries/Viacom18 US Inc.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv1==1?'active':' '" ng-if="left_foctv1==1">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">AETN18 Media Private Limited</p>
@@ -695,7 +890,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv1==1?'active':' '" ng-if="left_foctv1==1">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv1==2?'active':' '" ng-if="left_foctv1==2">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">AETN18 Media Private Limited</p>
@@ -760,7 +955,7 @@
 						
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv1==2?'active':' '" ng-if="left_foctv1==2">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv1==3?'active':' '" ng-if="left_foctv1==3">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">AETN18 Media Private Limited</p>

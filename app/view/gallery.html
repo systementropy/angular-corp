@@ -1,8 +1,8 @@
 
-<div class="mainBodyContainerFull mainBodyPortContainerFull" style="padding: 0; height: auto; padding-top: 75px;">
+<div class="mainBodyGalleryContainerFull mainBodyPortContainerFull" style="padding: 0; height: auto; padding-top: 75px;">
 	<section class="clearAfter mobOvCrtl gallMainCont" style="">
 		<div class="closeGallery" ng-class="showGaly?'actCross':' '" ng-click="updateGallery(0)"><span><img src="/images/cross.png" alt=""></span></div>
-		<div class="galleryThumbContMain">
+		<div class="galleryThumbContMain" ng-class="showGaly?'inactGalTh':' '">
 			<div class="container portMainCont galleryThumbCont" style="" ng-class="showGaly?'inactGalTh':' '">
 				<div class="gallThumb" ng-click="updateGallery(1)">
 					<img src="/images/Gallery/icons/1.png" alt="">
@@ -34,6 +34,9 @@
 				</div>
 			</div>
 		</div>
+		<div ng-if="showGaly" class="bgP bgP1"></div>
+		<div ng-if="showGaly" class="bgP bgP2"></div>
+		<div ng-if="showGaly" class="bgP bgP3"></div>
 		<div class="container portMainCont galleryCont" style="" ng-class="showGal1?'activeGal':' '" ng-if="showGal1">
 			<div class="ttopImages flexCont">
 				<div class="imgCont col-md-6">
@@ -63,13 +66,6 @@
 					</div>
 					
 				</div>
-				<div class="eachEvent">
-					<div class="imgCont">
-						<img src="/images/Gallery/RisingIndia4.jpg" alt="">
-					</div>
-					
-				</div>
-				
 			</div>
 			<div class="flexCont col-md-4">
 				
@@ -80,7 +76,14 @@
 					
 				</div>
 			</div>
-			
+			<div class="flexCont col-md-12">
+				<div class="eachEvent eachEventFull">
+					<div class="imgCont">
+						<img src="/images/Gallery/RisingIndia4.jpg" alt="">
+					</div>
+					
+				</div>
+			</div>
 		</div>
 		<div class="container portMainCont galleryCont" style="" ng-class="showGal2?'activeGal':' '" ng-if="showGal2">
 			<div class="ttopImages flexCont">
@@ -152,16 +155,6 @@
 						<img src="/images/Gallery/IBLA4.jpg" alt="">
 					</div>
 				</div>
-				<div class="eachEvent">
-					<div class="imgCont">
-						<img src="/images/Gallery/IBLA6.jpg" alt="">
-					</div>
-				</div>
-				<div class="eachEvent">
-					<div class="imgCont">
-						<img src="/images/Gallery/IBLA7.jpg" alt="">
-					</div>
-				</div>
 			</div>
 			<div class="flexCont col-md-4">
 				<div class="eachEvent">
@@ -170,8 +163,20 @@
 					</div>
 					
 				</div>
-				
 			</div>
+			<div class="flexCont col-md-12">
+				<div class="eachEvent eachEventHalf">
+					<div class="imgCont">
+						<img src="/images/Gallery/IBLA6.jpg" alt="">
+					</div>
+				</div>
+				<div class="eachEvent eachEventHalf">
+					<div class="imgCont">
+						<img src="/images/Gallery/IBLA7.jpg" alt="">
+					</div>
+				</div>
+			</div>
+			
 			
 		</div>
 		<div class="container portMainCont galleryCont" style="" ng-class="showGal4?'activeGal':' '" ng-if="showGal4">
@@ -265,14 +270,14 @@
 					<img src="/images/Gallery/OD2.jpg" alt="">
 				</div>
 			</div>
-			<div class="flexCont col-md-8">
-				<div class="eachEvent">
+			<div class="flexCont col-md-12">
+				<div class="eachEvent eachEventHalf">
 					<div class="imgCont">
 						<img src="/images/Gallery/OD3.png" alt="">
 					</div>
 					
 				</div>
-				<div class="eachEvent">
+				<div class="eachEvent eachEventHalf">
 					<div class="imgCont">
 						<img src="/images/Gallery/OD4.jpg" alt="">
 					</div>
@@ -286,7 +291,7 @@
 		</div>
 		<div class="container portMainCont galleryCont" style="" ng-class="showGal7?'activeGal':' '" ng-if="showGal7">
 			<div class="ttopImages flexCont">
-				<div class="imgCont col-md-6">
+				<div class="imgCont col-md-12">
 					<img src="/images/Gallery/RealEstateAwards.jpg" alt="">
 				</div>
 				<!-- <div class="imgCont col-md-6">

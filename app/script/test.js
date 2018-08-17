@@ -12,7 +12,7 @@
         }
     ])
 
-    .controller('TestCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', 'parallaxHelper', function($rootScope,$scope, $http,$timeout,$location, parallaxHelper) {
+    .controller('TestCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','parallaxHelper','$window', function($rootScope,$scope, $http,$timeout,$location,parallaxHelper,$window) {
         $scope.init = function(){
             $rootScope.hideHeader=false;
             $scope.background = parallaxHelper.createAnimator(-0.5, 0, 100);

@@ -12,7 +12,7 @@
         }
     ])
 
-    .controller('policyCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','parallaxHelper', function($rootScope,$scope, $http,$timeout,$location,parallaxHelper) {
+    .controller('policyCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','parallaxHelper','$window', function($rootScope,$scope, $http,$timeout,$location,parallaxHelper,$window) {
         $scope.changeFoc = function(num){
             $scope.left_foc=num;
         };
@@ -51,6 +51,7 @@
             $scope.activeSec.nw18Section=true;
             $rootScope.hidefooter=false;
             $scope.transY = parallaxHelper.createAnimator(0.4, 10, -10,-950);
+            $window.document.title='NETWORK18 | Investor Relations';
         };
         init();
     }]);

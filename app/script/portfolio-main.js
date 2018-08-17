@@ -12,8 +12,7 @@
         }
     ])
 
-    .controller('PortfolioMainCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', 'parallaxHelper', 
-    	function($rootScope,$scope, $http,$timeout,$location, parallaxHelper) {
+    .controller('PortfolioMainCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','parallaxHelper','$window', function($rootScope,$scope, $http,$timeout,$location,parallaxHelper,$window) {
     	
 	    $scope.slickConfig = {
 	        centerMode: true,
@@ -44,6 +43,7 @@
 
 
 	    function init(){
+	    	$window.document.title='NETWORK18 | Portfolio';
 	    	if ($(window).width()>600) {
 	    		$scope.fadeIn = parallaxHelper.createAnimator(0.15, 0, 1,-850);
 	    		$scope.background = parallaxHelper.createAnimator(-0.1, 0, 0,-400);

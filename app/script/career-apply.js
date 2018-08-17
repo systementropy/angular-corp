@@ -12,7 +12,7 @@
         }
     ])
 
-    .controller('careerApplyCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location', function($rootScope,$scope, $http,$timeout,$location) {
+    .controller('careerApplyCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','parallaxHelper','$window', function($rootScope,$scope, $http,$timeout,$location,parallaxHelper,$window) {
         $scope.init = function(){
             $rootScope.hideHeader=false;
             $rootScope.hidefooter=false;
