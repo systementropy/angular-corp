@@ -3392,6 +3392,7 @@ span.bottom-dot-flex {
 }
 .container.box-flex.careerbox .career-empl-cont{
 	width: 100%;
+	height: 250px;
 }
 .corpMainCont.careerSec.careerboxCont{
 	background: #F5F5F6;padding-bottom: 120px;margin-top: 80px;border-bottom: 1px solid rgba(188,188,188,0.3);
@@ -3535,6 +3536,7 @@ li.list-group-it:nth-child(5){
 .btn-SplCont .bottomHR .btn{
 	font-size: 16px;
 	width: 300px;
+	letter-spacing: 1px;
 }
 .bottomHR .btn{
 	border-radius: 0;
@@ -3709,6 +3711,9 @@ div.career-empl-cont div.col-md-4 p {
 	transform: translateX(5%) translateY(-115px);
 	top: 50%;
 	left: -11%;
+}
+.container.box-flex.careerbox .btnContSlixk{
+	top: 55%;
 }
 .careerSlick .empPrev,.careerSlick .empNext{
 	background: transparent;
@@ -3919,6 +3924,9 @@ p.job-item-title {
 }
 span.jpb-loc {
 	margin-left: 25px;
+}
+.flex-cont.career-results-main>div.career-results .eachCarGrp .filter-item-res>div:last-child{
+	border-bottom: none;
 }
 .flex-cont.career-results-main>div.career-results{padding: 15px 40px;}
 .btn.btn-danger.red-career-btn{background: #FF9999;border: none;border-radius: 0;}

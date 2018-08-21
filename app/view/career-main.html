@@ -18,11 +18,11 @@
 			<div class="flex-cont career-results-main">
 				<div class="col-md-3">
 				</div>
-				<div class="col-md-6 career-results">
+				<div class="col-md-6 career-results" ng-if="!showAll">
 					<h4>{{jobs[0]['Function']}}</h4>
 					<hr class="hr2"/>
 					<div class="row container-fluid filter-item-res">
-						<div class="job-res-item" ng-repeat="job in jobs">
+						<div class="job-res-item" ng-repeat="job in jobs ">
 							<p class="job-item-desc">
 								<span class="job-date">{{job['Posted Date']}}</span>
 								<span class="jpb-loc">{{job['Location']}}</span>
@@ -31,10 +31,33 @@
 								<a href="/career-description?id={{job['id']}}">{{job['Jobs']}}</a>
 							</p>
 						</div>
-						<div class="job-res-item job-res-item-load" style="">
+						<div class="job-res-item job-res-item-load" style="" ng-if="!showAll">
 							<p class="job-item-title" style="margin: 0;">
-								<button class="btn btn-blueinvert">LOAD MORE</button>
+								<button class="btn btn-blueinvert" ng-click="updShowAll()">LOAD MORE</button>
 							</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 career-results" ng-if="showAll">
+
+					<div class="eachCarGrp" ng-repeat="(key, value) in validParent">
+						<h4>{{value}}</h4>
+						<hr class="hr2"/>
+						<div class="row container-fluid filter-item-res">
+							<div class="job-res-item" ng-repeat="job in jobs" ng-if="job['Parent']==key">
+								<p class="job-item-desc">
+									<span class="job-date">{{job['Posted Date']}}</span>
+									<span class="jpb-loc">{{job['Location']}}</span>
+								</p>
+								<p class="job-item-title">
+									<a href="/career-description?id={{job['id']}}">{{job['Jobs']}}</a>
+								</p>
+							</div>
+							<div class="job-res-item job-res-item-load" style="" ng-if="!showAll">
+								<p class="job-item-title" style="margin: 0;">
+									<button class="btn btn-blueinvert" ng-click="updShowAll()">LOAD MORE</button>
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>

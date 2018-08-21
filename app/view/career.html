@@ -68,7 +68,7 @@
 				<button class="empNext1"></button>
 			</div>
 			<div class="career-empl-cont">
-				<slick class="" prev-arrow=".empPrev1" next-arrow=".empNext1" autoplay="false" slides-to-show=5 slides-to-scroll=1 infinite="false">
+				<slick class="" prev-arrow=".empPrev1" next-arrow=".empNext1" autoplay="false" slides-to-show=5 slides-to-scroll=1 infinite="false" ng-if="roles.length>0">
 					<div class="box" ng-repeat="area in roles">
 						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
 						<a href="/career-main?id={{area.id}}" >
@@ -84,7 +84,7 @@
 	</div>
 	<div class="btn-SplCont">
 		<div class="bottomHR">
-			<a href="" class="btn btn-danger">EXPLORE OPPORTUNITIES</a>
+			<a href="career-main?id=all" class="btn btn-danger">EXPLORE OPPORTUNITIES</a>
 		</div>
 	</div>
 	
