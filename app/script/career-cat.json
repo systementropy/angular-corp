@@ -1,0 +1,68 @@
+[
+    {
+        "name":"Alliances & Business Development",
+        "hasJob":true,
+        "id":"1",
+        "chilren":[]
+    },{
+        "name":"Corporate Services",
+        "hasJob":false,
+        "id":"2",
+        "chilren":[]
+    },{
+        "name":"Distribution",
+        "hasJob":false,
+        "id":"3",
+        "chilren":[]
+    },{
+        "name":"Events & Marketing",
+        "hasJob":true,
+        "id":"4",
+        "chilren":[]
+    },{
+        "name":"Editorial and Content",
+        "hasJob":true,
+        "id":"5",
+        "chilren":[]
+    },{
+        "name":"Finance & Accounts",
+        "hasJob":true,
+        "id":"6",
+        "chilren":[]
+    },{
+        "name":"Human Resources",
+        "hasJob":false,
+        "id":"7",
+        "chilren":[]
+    },{
+        "name":"Legal & Secretarial",
+        "hasJob":true,
+        "id":"8",
+        "chilren":[]
+    },{
+        "name":"Product Development",
+        "hasJob":true,
+        "id":"9",
+        "chilren":[]
+    },{
+        "name":"Production",
+        "hasJob":true,
+        "id":"10",
+        "chilren":[]
+    },{
+        "name":"Revenue Management",
+        "hasJob":true,
+        "id":"11",
+        "chilren":[]
+    },{
+        "name":"Strategy, Research & Analytics",
+        "hasJob":false,
+        "id":"12",
+        "chilren":[]
+    },{
+        "name":"Technology & Operations",
+        "hasJob":true,
+        "id":"13",
+        "chilren":[]
+    }
+]

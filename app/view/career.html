@@ -68,110 +68,15 @@
 				<button class="empNext1"></button>
 			</div>
 			<div class="career-empl-cont">
-				<slick class="" prev-arrow=".empPrev1" next-arrow=".empNext1" autoplay="false" slides-to-show=4 slides-to-scroll=1 infinite="false">
-					<div class="box">
+				<slick class="" prev-arrow=".empPrev1" next-arrow=".empNext1" autoplay="false" slides-to-show=5 slides-to-scroll=1 infinite="false">
+					<div class="box" ng-repeat="area in roles">
 						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
+						<a href="/career-main?id={{area.id}}" >
 							<div class="boxTextBot">
-								<h3>Alliances & Business Development</h3>
+								<h3>{{area.name}}</h3>
 							</div>
 						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Corporate Services</h3>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Distribution</h3>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Events & Marketing</h3>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Editorial and Content</h3>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Finance & Accounts</h3>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Human Resources</h3>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Legal & Secretarial</h3>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Product Development</h3>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Production</h3>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Revenue Management</h3>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Strategy, Research & Analytics</h3>
-							</div>
-						</a>
-					</div>
-					<div class="box">
-						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
-						<a href="/career-description">
-							<div class="boxTextBot">
-								<h3>Technology & Operations</h3>
-							</div>
-						</a>
+						
 					</div>
 				</slick>
 			</div>

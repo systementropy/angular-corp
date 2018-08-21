@@ -16,96 +16,19 @@
 	<div class="portfolioContainer corpMainCont">
 		<div class="container" style="max-width: 1140px;">
 			<div class="flex-cont career-results-main">
-				<div class="left-filter">
-					<h4>Filters</h4>
-					<hr class="hr2"/>
-					<div class="container-fluid filter-item-opts">
-						<ul class="list-group">
-							<h4>Experience level</h4>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Experienced Hires (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Students and Recent Graduates (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Internship (350)</span>
-							</li>
-						</ul>
-					</div>
-					<div class="container-fluid filter-item-opts">
-						<ul class="list-group">
-							<h4>Location</h4>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Mumbai (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Noida (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Chennai (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Bangalore (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Kolkata (350)</span>
-							</li>
-
-						</ul>
-					</div>
-					<div class="container-fluid filter-item-opts">
-						<ul class="list-group">
-							<h4>Job Role</h4>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Software Developer (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Senior Editor (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Content Developer (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Cameraman (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Video Editor (350)</span>
-							</li>
-						</ul>
-					</div>
-					<div class="container-fluid filter-item-opts">
-						<ul class="list-group">
-							<h4>Department</h4>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Operations (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Finance (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Technical Team (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Focus Tean (350)</span>
-							</li>
-							<li class="list-group-item">
-								<input type="checkbox" name="exp-group" id=""><span>Anchor (350)</span>
-							</li>
-						</ul>
-					</div>
+				<div class="col-md-3">
 				</div>
-				<div class="career-results">
-					<h4>Results (420)</h4>
+				<div class="col-md-6 career-results">
+					<h4>{{jobs[0]['Function']}}</h4>
 					<hr class="hr2"/>
 					<div class="row container-fluid filter-item-res">
-						<div class="job-res-item" ng-repeat="i in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]">
+						<div class="job-res-item" ng-repeat="job in jobs">
 							<p class="job-item-desc">
-								<span class="job-date">Oct 20, 2016</span>
-								<span class="jpb-loc">Noida</span>
+								<span class="job-date">{{job['Posted Date']}}</span>
+								<span class="jpb-loc">{{job['Location']}}</span>
 							</p>
 							<p class="job-item-title">
-								<a href="/career-description">Communication, News and Realtime Applications and Service Developer (CNBC)</a>
+								<a href="/career-description?id={{job['id']}}">{{job['Jobs']}}</a>
 							</p>
 						</div>
 						<div class="job-res-item job-res-item-load" style="">
@@ -115,20 +38,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="right-filter">
-					<h4>Criteria</h4>
-					<hr class="hr2"/>
-					<div class="container-fluid filter-item-opts">
-						<p>Showing all opportunities</p>
-						<div>
-							<button class="btn btn-block btn-danger red-career-btn">REGISTER</button>
-							<p>Get an email when new listings match this criteria.</p>
-						</div>
-						<div>
-							<button class="btn btn-block btn-primary blue-career-btn">APPLY NOW</button>
-							<p>Join the Network18 Talent Network to stay connected about the other new opportunities.</p>
-						</div>
-					</div>
+				<div class="col-md-3">
 				</div>
 			</div>
 		</div>

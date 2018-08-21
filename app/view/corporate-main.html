@@ -666,7 +666,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container divOnFocus continer80" num="3" style="padding: 0 15px;">
+		<div class="container divOnFocus continer80" num="4" style="padding: 0 15px;">
 			<div class="row globalPartnerMainContainer" id="globPartInt">
 				<h1 style="padding: 0px; margin-left: -5px; margin-top: 100px;">Global Partners</h1>
 				<p class="transUp" du-parallax y="transY">Network18 has partnerships with several leading global media players including Viacom in entertainment, CNN in English general news, CNBC in business news, A+E Networks in factual entertainment and Forbes in the  business magazine genre to provide best-in-class media offerings.</p>
@@ -752,7 +752,7 @@
 				</div> -->
 			</div>
 		</div>
-		<div class="container divOnFocus continer80" num="4" style="padding: 0 15px;">
+		<div class="container divOnFocus continer80" num="5" style="padding: 0 15px;">
 
 			<div class="row boardComitteMainCont " id="brdCmtii" style="">
 				<h1 style="margin-left: -8px;">Board Committee</h1>	
@@ -772,7 +772,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="container divOnFocus continer80" num="5" style="padding: 0 15px;">
+		<div class="container divOnFocus continer80" num="6" style="padding: 0 15px;">
 
 			<div class="row boardComitteMainCont " id="crpPres" style="margin-bottom: 80px;">
 				<h1 style="margin-left: -8px;">Corporate Presentation</h1>	
@@ -792,40 +792,14 @@
 	$(document).ready(function() {
 			var iScrollPos = 0;
 			var timeout = null;
-			// $('p').addClass('scrollDown');
-			// $(window).scroll(function () {
-			// 	var iCurScrollPos = $(this).scrollTop();
-			// 	if (!timeout) {
-			//         timeout = setTimeout(function () {
-			//             clearTimeout(timeout);
-			//             timeout = null;
-			//             if (iCurScrollPos > iScrollPos) {
-			//             	console.log('up');
-			//             	$('p').removeClass('scrollDown');
-			// 			} else {
-			// 				console.log('down');
-			// 				$('p').removeClass('scrollDown');
-			// 			}
-			// 			iScrollPos = iCurScrollPos;
-			//         }, 10);
-			//     }
-				
-			// });
 
-			
-			
 			var currMove = 1;
 			function moveToThis(num){
-				//console.log(num);
 				$(".num"+num).css({
 					'z-index' : 0,
 				});
 				$('#moveHighlight').addClass('move');
 				setTimeout(function () {
-					// $('#moveHighlight').css({
-					// 	transition: "all 0.3s cubic-bezier(.23,1,.32,1)",
-					// 	'transform': 'translateY(50px)'
-					// });
 
 					var bot_val=0;
 					if(num == 1){
@@ -862,40 +836,7 @@
 				moveToThis($(this).attr('num'));
 			});
 
-
-			
-
 			var maxWidth = 0;
-
-			//var windowHeight = $(window).height();
-			// $('.mainBodyContainerFull').animate({
-			// 	height: windowHeight+'px',
-			// 	opacity:1
-			// 	},
-			// 	1000, function() {
-			// 		$('.dispHallmarkCont:eq(0)').animate({
-			// 			opacity: 1,
-			// 			},
-			// 			350, 'easeInOutQuad', function() {
-			// 				$('.dispHallmarkCont:eq(1)').animate({
-			// 					opacity: 1,
-			// 					},
-			// 					350, 'easeInOutQuad', function() {
-			// 						$('.dispHallmarkCont:eq(2)').animate({
-			// 							opacity: 1,
-			// 							},
-			// 							350, 'easeInOutQuad', function() {
-			// 								$('.dispHallmarkCont:eq(3)').animate({
-			// 									opacity: 1,
-			// 									},
-			// 									350, 'easeInOutQuad', function() {
-
-			// 								});
-			// 						});
-			// 				});
-			// 		});
-			// 	}
-			// );
 
 			$('.historyCompContainer').on('mouseleave', function(event) {
 				$('.timeline-label.one').addClass('active');

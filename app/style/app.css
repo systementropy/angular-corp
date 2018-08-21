@@ -1062,7 +1062,20 @@ span.ring {
 	border: none;
 }
 .jobDescriptionMainCont.container h1{
-	padding: 0;
+    padding: 0;
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 1;
+    margin-bottom: 40px;
+}
+.jobDescriptionMainCont.container h4 b {
+    font-family: 'Glober Bold';
+    letter-spacing: 0.5px;
+    color: #555;
+    font-size: 18px;
+}
+.jobDescriptionMainCont.container h4{
+	
 }
 .signIn {
 	width: 60%;
@@ -1133,6 +1146,7 @@ span.ring {
 	font-family: 'Glober xBold';
 	color: rgba(0,0,0,0.6);
 	font-size: 21px;
+	letter-spacing: 0.4px;
 }
 .portfolioContainer.corpMainCont.jobDescMainCont{
 	overflow: visible;
@@ -1147,7 +1161,13 @@ span.ring {
 	border: 1px solid rgba(0, 0, 0, 0.3);
 }
 .jobSection li{
-	list-style-position: inside;
+	list-style-position: outside;
+    margin-left: 20px;
+    max-width: 80%;
+    color: #555;
+}
+.jobSection li span{
+	color: #333;
 }
 .greyBG.footerSection .foot-link-cont{
 	float: left;
@@ -3363,6 +3383,7 @@ span.bottom-dot-flex {
 }
 .container.box-flex.careerbox .box{
 	width: 245px;
+	height: 215px;
 	margin: 10px auto;
 	border: 10px solid #F5F5F6;
 	z-index: 1;
@@ -3398,6 +3419,11 @@ span.bottom-dot-flex {
 }
 .careerbox .box .boxTextBot h3:last-child{
 	font-family: 'GeoMed';
+	font-size: 19px;
+}
+.careerbox .box .boxTextBot{
+	bottom: 10px;
+	left: 25px;
 }
 div#scrollHere {
     position: relative;
@@ -5455,7 +5481,7 @@ img.transUp{
 
 }
 info-window img{
-	filter: invert(100%);
+	/*filter: invert(100%);*/
 }
 .ng-map-info-window p.title{
 	color: #555;

@@ -101,11 +101,11 @@
                     },{
                         'name':"Udayan Mukherjee",
                         'text':"Udayan is one of the most renowned journalists of India and is currently the Consulting Editor of CNBC-TV18. He has been with CNBC Network in India since its inception and has made a significant contribution. role there as a Managing Editor.  Udayan is an Economist by training having obtained his B.Sc in Economics from Presidency College, Kolkata and an MA in Economics from Jawaharlal Nehru University, New Delhi.",
-                        'img':"/images/profile/profilepic.png"
+                        'img':"/images/profile/udayanmukharjee.png"
                     },{
                         'name':"Latha Venkatesh",
                         'text':"Latha is the Executive Editor of CNBC-TV18. She began her career in CNBC-TV18 as chief of the Mumbai News Bureau. Over the years, she has come to be recognized as one of the keenest watchers of the Reserve Bank of India and a respected commentator on banking sector issues, money markets and macroeconomic trends. She has been a business journalist for years and has specialized in covering all markets - stocks, currency debt and commodities. She has also had stints in all major streams of media having worked in Economic Times and Dow Jones newswires for five years each. Latha graduated in Economics and Politics and has a doctoral degree in Political Science.",
-                        'img':"/images/profile/profilepic_f.png"
+                        'img':"/images/profile/lathavenkatesh.png"
                     },{
                         'name':"Alok Joshi",
                         'text':"As Managing Editor Alok Leads the editorial teams of India’s number one Business channel CNBC-Awaaz and Gujarati Business channel CNBC-BAJAR. He also anchors Awaaz Adda, the most popular and respected debate show across Business TV. Before TV18 he has worked with BBC World Service, TV TODAY, Times Group, Dainik Jagran and the Allahabad Patrika Group in various capacities across TV, Internet, radio and print media.",
@@ -159,11 +159,11 @@
                     {
                         'name':"BV Rao",
                         'text':"BV Rao is the Editor of Firstpost. In 33 years of his rich journalistic experience, he has led newsrooms across various brands, across various formats, across various cities and across all news platforms - print, broadcast and digital. He has delivered credible journalism and bigger readership/reach in all his assignments, which add up to no less than 15 in all.",
-                        'img':"/images/profile/profilepic.png"
+                        'img':"/images/profile/BVRao.png"
                     },{
                         'name':"Santosh Nair",
                         'text':"Santosh Nair oversees moneycontrol.com’s editorial coverage spanning breaking news, analysis, research and videos. Formerly, he was Markets Editor at The Economic Times, where he was responsible for driving stock market coverage.",
-                        'img':"/images/profile/profilepic.png"
+                        'img':"/images/profile/santoshnair.png"
                     },{
                         'name':"Praveen Thampi",
                         'text':null,

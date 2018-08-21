@@ -1,163 +1,211 @@
 [
 	{
 		"Jobs":"Manager-Corporate Development",
+		"id":"1",
 		"Posted Date":"18-Aug-18",
 		"Business":"Corporate",
 		"Function":"Alliances & Business Development",
+		"Parent":"1",
 		"Location":"Gurgaon",
 		"Job Responsibilities":[],
-		"Education Requirement":"",
-		"Experience Requirement":"",
-		"Skills & Competencies":[]
+		"Education Requirement":"MBA ",
+		"Experience Requirement":"1-4 years",
+		"Skills & Competencies":[],
+		"Recruiter":"Kiran.Jagtiani@nw18.com"
 	},{
 		"Jobs":"Lead-Branded Content",
+		"id":"2",
 		"Posted Date":"18-Aug-18",
 		"Business":"Digital",
 		"Function":"Campaign & Events",
+		"Parent":"4",
 		"Location":"Mumbai",
 		"Job Responsibilities":["Understanding brand/client’s requirements and delivering content campaigns that suit their requirements","Good understanding of the home brand and thereby creating a good balance between editorial and paid content, so that the ‘branded content’ rests true within the website/product that houses it","Capability to ideate and create original and brand specific Intellectual Properties that can drive revenues","Capability to understand digital medium to design and suit content campaigns within the platform as per client’s requirements","Ability to create campaigns that are forward looking","Ability to be flexible to client’s requirements to deliver the campaign and ensure client returns","Ability to work under strict timelines and deliver campaigns on time"],
 		"Education Requirement":"MBA",
 		"Experience Requirement":"1-3 years",
-		"Skills & Competencies":["Language proficiency (Written)","Marketing Concepts","MS Office","Digital Marketing","Social media analytics and understanding"]
+		"Skills & Competencies":["Language proficiency (Written)","Marketing Concepts","MS Office","Digital Marketing","Social media analytics and understanding"],
+		"Recruiter":"Sylvia.Jose@nw18.com"
 	},{
 		"Jobs":"Senior Copy Editor / Copy Editor",
+		"id":"3",
 		"Posted Date":"18-Aug-18",
 		"Business":"Digital",
 		"Function":"Editorial & Content",
+		"Parent":"5",
 		"Location":"Bhubaneswar",
 		"Job Responsibilities":["Ensure that all/relevant news items broadcasted on news channel are timely and correctly typed, converted into right format and uploaded on the website.","Write articles and features on the website to increase the traffic and attract more audience on the website.","Take higher responsibilities to enhance their professional knowledge and skills.","Suggest and implement improvement in the process and work flow to increase the team productivity"],
 		"Education Requirement":"Graduate/Diploma in Journalism",
 		"Experience Requirement":"0-3 years",
-		"Skills & Competencies":["Written Language skill","Domain Knowledge"]
+		"Skills & Competencies":["Written Language skill","Domain Knowledge"],
+		"Recruiter":"Varsha.sinha@nw18.com"
 	},{
 		"Jobs":"Copy editor",
+		"id":"4",
 		"Posted Date":"18-Aug-18",
 		"Business":"Digital",
 		"Function":"Editorial & Content",
+		"Parent":"5",
 		"Location":"Mumbai",
 		"Job Responsibilities":["Ensure that all/relevant news items broadcasted on news channel are timely and correctly typed, converted into right format and uploaded on the website.","Write articles and features on the website to increase the traffic and attract more audience on the website.","Take higher responsibilities to enhance their professional knowledge and skills.","Suggest and implement improvement in the process and work flow to increase the team productivity"],
 		"Education Requirement":"Graduate/Diploma in Journalism",
 		"Experience Requirement":"3 - 5 years",
-		"Skills & Competencies":["Written Language skill","Domain Knowledge"]
+		"Skills & Competencies":["Written Language skill","Domain Knowledge"],
+		"Recruiter":"Sylvia.Jose@nw18.com"
 	},{
 		"Jobs":"Assistant Manager - Accounts",
+		"id":"5",
 		"Posted Date":"18-Aug-18",
 		"Business":"Corporate",
 		"Function":"Finance & Accounts",
+		"Parent":"6",
 		"Location":"Mumbai",
 		"Job Responsibilities":[],
-		"Education Requirement":"",
-		"Experience Requirement":"",
-		"Skills & Competencies":[]
+		"Education Requirement":"CA",
+		"Experience Requirement":"2-4 years",
+		"Skills & Competencies":[],
+		"Recruiter":"Kiran.Jagtiani@nw18.com"
 	},{
 		"Jobs":"Assistant Manager - Commercial",
+		"id":"6",
 		"Posted Date":"18-Aug-18",
 		"Business":"Corporate",
 		"Function":"Finance & Accounts",
+		"Parent":"6",
 		"Location":"Hyderabad",
 		"Job Responsibilities":[],
-		"Education Requirement":"",
-		"Experience Requirement":"",
-		"Skills & Competencies":[]
+		"Education Requirement":"Graduate",
+		"Experience Requirement":"6-8 years",
+		"Skills & Competencies":[],
+		"Recruiter":"Kiran.Jagtiani@nw18.com"
 	},{
 		"Jobs":"Manager-Legal",
+		"id":"7",
 		"Posted Date":"18-Aug-18",
 		"Business":"Corporate",
 		"Function":"Legal",
+		"Parent":"8",
 		"Location":"Noida",
 		"Job Responsibilities":["Review contracts of allocated business/ functions and provide advisory to the head in case any changes are required","Check for compliance to regulatory and governmental norm and suggest ways to ensure adherence","Scan for risks and advice heads regarding ways to mitigate the same","Prepare response to notices received and ensure closure of issues within the minimum turnaround time","Provide legal protection and risk management advice to management relating to any aspect of business","Work towards continuously raising the capability quotient to ensure relevance of all advises given to business"],
 		"Education Requirement":"Law Graduate",
 		"Experience Requirement":"4-5 Years",
-		"Skills & Competencies":["Commercial Contracting","Litigation Management","Media Laws","MS Office & Adobe"]
+		"Skills & Competencies":["Commercial Contracting","Litigation Management","Media Laws","MS Office & Adobe"],
+		"Recruiter":"Kiran.Jagtiani@nw18.com"
 	},{
 		"Jobs":"Assistant Product Manager / Product Manager",
+		"id":"8",
 		"Posted Date":"18-Aug-18",
 		"Business":"Digital",
 		"Function":"Product",
+		"Parent":"9",
 		"Location":"Mumbai",
 		"Job Responsibilities":["Collect and analyse data, both internal and competition, and share it with the management for making strategic decisions","Use the data intelligence to design and develop new products (features, articles series) and attract new viewers","Act as interface between Content and Technology team and  Maintains the Social networking sites like twitter, app, whatsapp etc.","Study the competition- their products, Social Networking sites and analyses the gap and make suggestion for  filling the gaps","Analyze customer preferences and ideate on the features that can be added to the product to increase traffic and consequently revenues","Design roadmap for the brand and draft plans for brand refurbishment as and when required","Execute sales campaign by liaisoning with design team and decide on the placement of banner to comply with the terms of sales contract","Ideate product layout to enhance customer experience","Track product traffic daily and analyze the product usage data to chart out plans to increase traffic"],
 		"Education Requirement":"Graduate / MBA",
 		"Experience Requirement":"5-10 years",
-		"Skills & Competencies":["Knowledge of Statistical tools for data analysis; Programming in digital eco-space","Product life-cycle","Project Management","Statistical Tools"]
+		"Skills & Competencies":["Knowledge of Statistical tools for data analysis; Programming in digital eco-space","Product life-cycle","Project Management","Statistical Tools"],
+		"Recruiter":"Himanshu.desai@nw18.com"
 	},{
 		"Jobs":"Senior Graphic Designer",
+		"id":"9",
 		"Posted Date":"18-Aug-18",
 		"Business":"Broadcasting",
 		"Function":"Production",
+		"Parent":"10",
 		"Location":"Mumbai",
 		"Job Responsibilities":["Understand the requirement from output team and develop most engaging graphics for news bulletings, program promos and special coverages.","Deliver maps, charts, information graphics and branding to support daily output.","Create online graphics elements based on standard templates, quality standards and timeline requirements.","Use time management techniques of effectively schedule your work and ensure delivery as per the timelines.","Develop own capabilities as skilled online graphics professionals on the job and by attending trainings.","Upgrade own understanding and knowledge of emerging technologies / skills under the guidance of Team Lead - Online Graphics.","Contribute design expertise to special project groups formed for execution of critical or prestigiuos projetcs."],
 		"Education Requirement":"Graduate (Mass Communication and / or Graphics course preferred)",
 		"Experience Requirement":"2-5 years ",
-		"Skills & Competencies":["Online Graphics Techniques","VizRT and other graphics software(s)","Production processes"]
+		"Skills & Competencies":["Online Graphics Techniques","VizRT and other graphics software(s)","Production processes"],
+		"Recruiter":"Varsha.sinha@nw18.com"
 	},{
 		"Jobs":"Account Manager / Account Group Head – Display Sales",
+		"id":"10",
 		"Posted Date":"18-Aug-18",
 		"Business":"Broadcasting",
 		"Function":"Revenue Management",
+		"Parent":"11",
 		"Location":"Mumbai / Bangalore / Gurgaon / Kolkata / Chandigarh",
 		"Job Responsibilities":["Maximize FCT (Fixed Commercial Time) revenue from assigned accounts","Forecast revenues for the fortnight and month. Identify issues and seek help from team leads for clinching important deals.","Manage relations effectively with key clients and agencies to ensure retention of existing clients, increase in wallet share and revenue from existing. Acquire new clients to broaden revenue base.","Adhere to pricing bands of the channel","Maximize deal consumption from advertisers. Work along with the sales operations team for smooth delivery of client expectations.","Ensure maximization of timely collection","Scan competitive landscape and ideate on new formats which can augment revenues.","Develop advanced skills and competencies required for the job by attending trainings organized at the organization "],
 		"Education Requirement":"PG / MBA",
 		"Experience Requirement":"1-5 Years",
-		"Skills & Competencies":["Business Understanding (Value Chain, Competition Market Pricing, ER, Inventory)","Product Understanding","Communication and Negotiation skills"]
+		"Skills & Competencies":["Business Understanding (Value Chain, Competition Market Pricing, ER, Inventory)","Product Understanding","Communication and Negotiation skills"],
+		"Recruiter":"Amita.Achary@nw18.com"
 	},{
 		"Jobs":"Account Manager – Focus Sales",
+		"id":"11",
 		"Posted Date":"18-Aug-18",
 		"Business":"Broadcasting",
 		"Function":"Revenue Management",
+		"Parent":"11",
 		"Location":"Mumbai / Gurgaon",
 		"Job Responsibilities":["Responsible for revenue generation, through combination of IP's, event sponsorships, & media partnerships (non-FCT) for industry-specific verticals","Manage key accounts and be personally responsible for managing relationships with key accounts","Grow business for applicable verticals, involving travel to other cities across the country","Formulate and implement ideas, ensuring they are aligned with the business strategies","Adhere to pricing as per the band prescribed by Regional head / Team Lead ","Conduct robust market analysis, planning and implementation through different media vehicles to deliver outstanding client benefits","Identify any problem areas, devise and deliver solutions","Work along with the event execution team for smooth delivery of client expectations.","Develop advanced skills and competencies required for the job by attending trainings organized at the organization"],
 		"Education Requirement":"PG / MBA",
 		"Experience Requirement":"1-6 Years",
-		"Skills & Competencies":["Business and Product Understanding","Communication and negotiation skills","Sales Execution"]
+		"Skills & Competencies":["Business and Product Understanding","Communication and negotiation skills","Sales Execution"],
+		"Recruiter":"Amita.Achary@nw18.com"
 	},{
 		"Jobs":"Account Manager / Senior Account Manager / Group Head – Sales",
+		"id":"12",
 		"Posted Date":"18-Aug-18",
 		"Business":"Digital",
 		"Function":"Revenue Management",
+		"Parent":"11",
 		"Location":"Mumbai / Gurgaon / Bangalore",
 		"Job Responsibilities":["Support  yearly sales plan and ensure achievement of the same through effective deployment","Maximize revenue collections by increasing client count and wallet share in the markets ","Ideate new avenues to increase sales opportunity and educate team members about the same","Manage relationships with clients through effective interactions and networking","Liaise with Focus and Editorial team to monetize Focus sales opportunity"],
 		"Education Requirement":"Graduate",
 		"Experience Requirement":"2 - 5 years",
-		"Skills & Competencies":["Client Acquisition","Sales proposals development","Product Understanding","Communication and negotiation skills"]
+		"Skills & Competencies":["Client Acquisition","Sales proposals development","Product Understanding","Communication and negotiation skills"],
+		"Recruiter":"Himanshu.desai@nw18.com"
 	},{
 		"Jobs":"Account Manager / Senior Account Manager / Group Head – Sales",
+		"id":"13",
 		"Posted Date":"18-Aug-18",
 		"Business":"Digital",
 		"Function":"Revenue Management",
+		"Parent":"11",
 		"Location":"Mumbai / Gurgaon / Bangalore",
 		"Job Responsibilities":[],
-		"Education Requirement":"",
-		"Experience Requirement":"",
-		"Skills & Competencies":[]
+		"Education Requirement":"Graduate / MBA degree ",
+		"Experience Requirement":"3-10 years",
+		"Skills & Competencies":[],
+		"Recruiter":"Himanshu.desai@nw18.com"
 	},{
 		"Jobs":"Account Manager / Senior Account Manager / Group Head (Programmatic Sales)",
+		"id":"14",
 		"Posted Date":"18-Aug-18",
 		"Business":"Digital",
 		"Function":"Revenue Management",
+		"Parent":"11",
 		"Location":"Mumbai/Bangalore",
 		"Job Responsibilities":[],
-		"Education Requirement":"",
-		"Experience Requirement":"",
-		"Skills & Competencies":[]
+		"Education Requirement":"Graduate / MBA degree/BE/BTech ",
+		"Experience Requirement":"3-7 years",
+		"Skills & Competencies":[],
+		"Recruiter":"Himanshu.desai@nw18.com"
 	},{
 		"Jobs":"Dot Net Developers",
+		"id":"15",
 		"Posted Date":"18-Aug-18",
 		"Business":"Corporate",
 		"Function":"Technology & Operations",
+		"Parent":"13",
 		"Location":"Mumbai",
 		"Job Responsibilities":["Understand customer requirement and ideate ways for IT system improvement","Develop IT system for the user based upon  requirements and integrate the same with existing systems","Document solutions by developing  flowcharts, layouts, diagrams, charts and code comments","Conduct extensive testing of the developed system to ensure error free operations","Deploy the developed solution and monitor day to day working to ensure bug free operations","Monitor and review current IT systems and make suitable modification as required depending on any environmental change or change in user requirements"],
 		"Education Requirement":"BE/ B.Tech ",
-		"Experience Requirement":"0-5 Years",
-		"Skills & Competencies":["Hardware & Software Knowledge","Process Development","Research Orientation"]
+		"Experience Requirement":"3- 8 Years",
+		"Skills & Competencies":["Hardware & Software Knowledge","Process Development","Research Orientation"],
+		"Recruiter":"Neha.bhaidkar@nw18.com"
 	},{
 		"Jobs":"Executive-MCR",
+		"id":"16",
 		"Posted Date":"18-Aug-18",
 		"Business":"Broadcasting",
 		"Function":"Technology & Operations",
+		"Parent":"13",
 		"Location":"Mumbai",
 		"Job Responsibilities":["Maintain a zero error for transmission of each channel on a daily basis.","Check content availability on server/ ingest system of all the content/ advertisement packages to be played out as per Run Down Report","Review each package (content/ advertisement) for quality and accuracy (quality in terms of on air playout and accurancy in terms of relevance and timing)","Monitor content being played out on alloted channel continuously. In case of failure of content, switch playout server from 'Main' to 'Backup' and lastly 'Filler'.","Escalate any issues with content/ advertisement/ Run Down Report to Team Lead - Playout"],
 		"Education Requirement":"Graduate/ Diploma",
 		"Experience Requirement":"0-5 years",
-		"Skills & Competencies":["Hardware & Software Knowledge","Process Development","Quality Control"]
+		"Skills & Competencies":["Hardware & Software Knowledge","Process Development","Quality Control"],
+		"Recruiter":"Neha.bhaidkar@nw18.com"
 	}
 ]

@@ -24,6 +24,12 @@
             $rootScope.hidefooter=false;
             $window.document.title='NETWORK18 | Career';
             $scope.theBestVideo = 'cvBDZiR2UuM';
+            $http.get('/script/career-cat.json')
+            .then(function(response) {
+                $scope.roles=response.data;
+            }, function(response) {
+                console.log('Error'+response);
+            });
             $scope.playerVars = {
                 'autoplay': 0,
                 'controls': 1, 

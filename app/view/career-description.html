@@ -1,6 +1,6 @@
  <div class="mainBodyContainerFull" style="padding-top: 0px; opacity: 0; height: auto;">
 	<div class="headerFiller"></div>
-	<a class="fixed-link-top" href="/career-main"><span class="deskShow">BACK TO JOB LISTING</span><span class="mobShow"><i class="fa fa-arrow-circle-left"></i></span></a>
+	<a class="fixed-link-top" href="/career-main?id={{jobData['Parent']}}"><span class="deskShow">BACK TO JOB LISTING</span><span class="mobShow"><i class="fa fa-arrow-circle-left"></i></span></a>
 	<div class="video-cont">
 		<div class="vid-bg vid-bgs vid-bg-career" style="">
 		</div>
@@ -15,43 +15,36 @@
 	</div>
 	<div class="portfolioContainer corpMainCont jobDescMainCont">
 		<div class="jobDescriptionMainCont container">
-			<h1>Executive Producer</h1>
-			<h4>Job Location: New Delhi</h4>
-			<h4>Job Id: J78609</h4>
-			<div class="jobSection">
+			<h1>{{jobData['Jobs']}}</h1>
+			<h4><b>Location :</b> {{jobData['Location']}}</h4>
+			<h4><b>Education :</b> {{jobData['Education Requirement']}}</h4>
+			<h4><b>Experience :</b> {{jobData['Experience Requirement']}}</h4>
+			<!-- <div class="jobSection">
 				<p class="text-left">
 					<a href="/career-apply" class="btn btn-danger red-career-btn">APPLY</a>
 					<a href="/career-apply" class="btn btn-danger red-career-btn">SAVE THIS JOB</a>
 					<a href="/career-apply" class="btn btn-danger red-career-btn">SHARE THIS JOB</a>
 				</p>
-			</div>
-			<div class="jobSection">
+			</div> -->
+			<!-- <div class="jobSection">
 				<h3>JOB DESCRIPTION</h3>
 				<p>Network18 Media & Investments Limited is a leading Indian media and entertainment company. Network18 encompasses a diversified portfolio across television, digital and print media, spanning interests in television, internet, filmed entertainment, digital commerce, magazines, mobile content and allied businesses.</p>
-			</div>
+			</div> -->
 			<div class="jobSection">
 				<h3>JOB REQUIREMENTS</h3>
-				<ul>
-					<li>.NET 3.5/ 4.5 (C#, VB.NET, ASP,NET)</li>
-					<li>SQL 2005/2012</li>
-					<li>VB.NET or C#.NET</li>
-					<li>Microsoft SQL Server</li>
-					<li>Webservices</li>
-					<li>Javascript /Jquery</li>
+				<ul >
+					<li ng-repeat="list in jobData['Job Responsibilities']"><span>{{list}}</span></li>
 				</ul>
 			</div>
 			<div class="jobSection">
-				<h3>COMPENSATION</h3>
-				<ul>
-					<li>We believe in giving bonuses for great work, or "thinking out of the box", or going the extra mile. </li>
-					<li>We seek the Best Value Proposition. The lower the rate you offer, the more bonus points you'll get during the evaluation of your application. We're not into haggling. If your rate is higher than comparable competitors, we'll move on. So give your best bid.</li>
+				<h3>SKILL REQUIREMENTS</h3>
+				<ul >
+					<li ng-repeat="list in jobData['Skills & Competencies']"><span>{{list}}</span></li>
 				</ul>
 			</div>
 			<div class="jobSection">
 				<p class="text-left">
-					<a href="/career-apply" class="btn btn-danger red-career-btn">APPLY</a>
-					<a href="/career-apply" class="btn btn-danger red-career-btn">SAVE THIS JOB</a>
-					<a href="/career-apply" class="btn btn-danger red-career-btn">SHARE THIS JOB</a>
+					Mail us your resume at <span class="text-info">{{jobData['Recruiter']}}</span>
 				</p>
 			</div>
 		</div>
