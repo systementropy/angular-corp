@@ -6887,6 +6887,10 @@ info-window img{
 }
 
 @media only screen and (max-width: 600px) {
+	span.bgPatch.bgGrey{
+		height: 300% !important;
+	}
+	.clearfix.container-fluid.invCont h3{font-size: 24px;}
 	.inv-ann-cont.car-ann-cont.showOver992,.showOver992{opacity: 0;visibility: hidden;height: 0;}
 	.inv-ann-cont.car-ann-cont.showOver600,.showOver600{opacity: 0;visibility: hidden;height: 0;}
 	.showUnder600{opacity: 1;visibility: visible;height: 41px;}
@@ -7354,6 +7358,7 @@ info-window img{
 		padding-bottom: 20px !important;
 		letter-spacing: -0.78px;
 		line-height: 1.1 !important;
+		font-size: 36px;
 	}
 	.para_txt_inner.addPad{
 		padding-bottom: 15px;
@@ -7424,6 +7429,7 @@ info-window img{
 	#careerMain h2{
 		letter-spacing: normal;
 		line-height: 1.1;
+		font-size: 24px;
 	}
 	.headerOptCont .container.containerHeaderLinks{
 		min-width: 80vw;
