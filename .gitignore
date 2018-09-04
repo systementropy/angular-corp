@@ -1,3 +1,4 @@
+app/images/footage/
 node_modules/
 app/bower_components
 .DS_Store
@@ -5,3 +6,4 @@ dist/
 *.tar.gz
 **.tar.gz
 app.tar.gz
+app/reports/

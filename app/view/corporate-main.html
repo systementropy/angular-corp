@@ -1,4 +1,4 @@
-<div class="mainBodyContainerFull mainBodyContainerFullComp mainBodyContainerFullCorp" style="">
+<div class="mainBodyContainerFull mainBodyContainerFullComp portfolioContainer mainBodyContainerFullCorp" style="">
 	<div class="headerFiller"></div>
 	<a class="fixed-link-top" href="/corporate"><span class="">BACK TO ABOUT US</span></span></a>
 	<div class="bottomSticky corpSticky">
@@ -19,9 +19,15 @@
 		<div class="vid-bg">
 
 		</div>
-		<video width="100%" autoplay loop class="top">
-			<source src="images/footage/26911270-preview-history_BW.mp4" type="video/mp4">
+		<video class="mobShow" width="100%" autoplay="" loop="">
+			<source src="images/footage/MOBILE_SIZE/1007487709-hd_HISTORY-mobile.mp4" type="video/mp4" class="top">
 		</video>
+		<video class="mobHide" width="100%" autoplay="" loop="">
+			<source src="images/footage/1007487709-hd_HISTORY-graded.mp4" type="video/mp4" class="top">
+		</video>
+		<!-- <div id="home_vid" class="mobHide" style="height: {{pHigh}}px;width: {{pWid}}px;">
+			<youtube-video ng-if="enableYT" player-vars="playerVars" player="bestPlayer" video-id="theBestVideo" player-width="'100%'" player-height="'100%'" ></youtube-video>
+		</div> -->
 	</div>
 	<div class="portfolioContainer corpMainCont corpMainTimelineCont" ng-parallax speed="3">
 		<div class="container corpMainTimelineCont divOnFocus" num="1" style="padding: 0 15px;">
@@ -89,7 +95,7 @@
 						</div>
 						<div class="timeline-label semi-act ">
 							<p>2008</p>
-							<span class="bottom-dot-flex"></span>
+							<span class=""></span>
 						</div>
 						<div class="no-label timeline-label "></div>
 						<div class="timeline-label ">
@@ -222,7 +228,7 @@
 										<a href=""><img src="/images/resized/HMS.gif"></a>
 									</div>
 									<div class="col-md-3 col-sm-3 col-xs-3 borderRight borderLeft">
-										<a href=""><img src="images/resized/incom.gif"></a>
+										<a href=""><img src="images/resized/inncom.png"></a>
 									</div>
 									<div class="col-md-3 col-sm-3 col-xs-3 borderRight">
 										<a href=""><img src="/images/resized/Burp.gif"></a>
@@ -338,7 +344,7 @@
 										<a href=""><img src="/images/resized/NEWS18-com.gif"></a>
 									</div>
 									<div class="col-md-3 col-sm-3 col-xs-3 borderRight borderLeft">
-										<a href=""><img src="images/resized/incom.gif"></a>
+										<a href=""><img src="images/resized/inncom.png"></a>
 									</div>
 									<div class="col-md-3">
 										<a href=""><img src="/images/resized/Burp.gif"></a>
@@ -377,7 +383,7 @@
 						<button class="timeSlierNext"><img src="/images/timeline/Arrow.png" alt=""></button>
 					</div>
 					<slick class="timelineSlider historyCompContainer" settings="slickConfig" dots="true" prev-arrow=".timeSlierPrev" next-arrow=".timeSlierNext" autoplay="true">
-						<div class="eachTimelineSlide" ng-repeat="i in [1,2,3,4,5,6,7,8,9,10,11]">
+						<div class="eachTimelineSlide" ng-repeat="i in [1,2,3,4,5,6,7,8]">
 							<img src='/images/timeline/{{i}}.jpg' alt="">
 						</div>
 					</slick>
@@ -390,28 +396,28 @@
 				<div class="row boardDirMainCont" id="brdDirInt">
 					<h1 style="padding-bottom: 70px;margin-top: 0px;margin-left: -10px; padding-top: 0;">Board of Directors</h1>
 					<div class="col-md-3 transUp mobHide" du-parallax opacity="fadeIn" y="transY" style="margin-left: -30px;">
-						<img class="transUp" du-parallax y="transUp" src="images/img1.jpg">
+						<img class="transUp" du-parallax src="images/img1.jpg">
 						<h3>ADIL ZAINULBHAI</h3>
 						<div class="boardImgOCnt"><img src="/images/Network-18-logo.png" alt=""><img src="/images/TV18_logo_brd.jpg" style="margin-left: 10px;height: 12px;" alt=""></div>
-						<p du-parallax y="transY" class="transUp">Adil is a Mechanical Engineering graduate from the Indian Institute of Technology and an MBA from Harvard Business School. He is currently the Chairman of Quality Council of India, where he worked on several projects for the Government around many of its flagship schemes. He retired as the Chairman of McKinsey India and during his 34-year stint, he led its Washington office and founded the Minneapolis office. He is very active in community and social causes.</p>
-						<img class="transUp" du-parallax y="transUp" src="images/img10.jpg" style="margin-top: 100px;" du-parallax opacity="fadeIn" y="transY">
+						<p du-parallax y="transY" class="transUp">Adil is the Chairman of the Boards of Network18 and TV18. He is a Mechanical Engineering graduate from the Indian Institute of Technology and an MBA from Harvard Business School. He is currently the Chairman of Quality Council of India, where he worked on several projects for the Government around many of its flagship schemes. He retired as the Chairman of McKinsey India and during his 34-year stint, he led its Washington office and founded the Minneapolis office. He is very active in community and social causes.</p>
+						<img class="transUp" du-parallax src="images/img10.jpg" style="margin-top: 100px;" du-parallax opacity="fadeIn" y="transY">
 						<h3>Jyoti Deshpande</h3>
-						<div class="boardImgOCnt"><img src="/images/Network-18-logo.png" alt=""></div>
+						<div class="boardImgOCnt"><img src="/images/Network-18-logo.png" alt=""><img src="/images/TV18_logo_brd.jpg" style="margin-left: 10px;height: 12px;" alt=""></div>
 						<p du-parallax y="transY" class="transUp">Jyoti has over 25 years of experience in media and entertainment across advertising, media consulting, television and film. She has been part of the leadership team of Eros International since 2001 and as Group CEO & MD, she has spearheaded Eros' growth as a global leader in Indian filmed entertainment. Prior to joining Eros in 2001, Jyoti has worked for 7 years in the field of advertising, media consulting and television with companies such as J Walter Thompson India, Mindshare, Zee Television and B4U Television. Jyoti has a Bachelor’s Degree in Commerce and Economics from Mumbai University and a Master’s Degree in Business Administration (MBA) from SPJIMR, Mumbai University.</p>
 					</div>
 					<div class="col-md-3 transUp mobHide" du-parallax opacity="fadeIn" y="transY" style="padding-top: 200px;">
 						
-						<img class="transUp" du-parallax y="transUp" src="images/img2.png" du-parallax opacity="fadeIn" y="transY" style="">
+						<img class="transUp" du-parallax src="images/img2.png" du-parallax opacity="fadeIn" y="transY" style="">
 						<h3>Rajiv K. Luthra</h3>
 						<div class="boardImgOCnt"><img src="/images/Network-18-logo.png" alt=""><img src="/images/TV18_logo_brd.jpg" style="margin-left: 10px;height: 12px;" alt=""></div>
 						<p du-parallax y="transY" class="transUp">Rajiv is the Founder and Managing Partner of Luthra & Luthra Law Offices, one of India’s largest law firms. He has over 32 years of experience in advising clients on a vast range of commercial transactions including infrastructure projects. He has been conferred with Alumni of Harvard Law School and a Fellow of the British Commerce Society and the Royal Geographical Society. He is a member of SEBI’s High-Level Committee for ‘Reviewing Insider Trading Regulations’ and SEBI’s Committee on ‘Rationalization of Investment Routes and Monitoring Foreign Portfolio Investments’.</p>
 						<img class="transUp" y="transUp" src="images/img9.jpg" opacity="fadeIn" y="transY" style="margin-top: 100px;transform:translateX(150px);">
 						<h3 style="transform:translateX(150px);">RAHUL JOSHI</h3>
 						<div class="boardImgOCnt" style="transform:translateX(150px);"><img src="/images/Network-18-logo.png" alt=""></div>
-						<p  style="transform:translateX(150px);" y="transY" class="transUp">Rahul is associated with Network18 Group since September 2015. Rahul has done his Masters in Management Studies from Narsee Monjee Institute of Management Studies (NMIMS), Mumbai University. Prior to joining Network18 Group, Rahul worked with more than two decades with The Economic Times, where he rose through ranks to quickly become one of India’s youngest editors, and has also worked as its editorial director. He also launched ET NOW and helped shape the digital coverage of ET Online. He also has worked with The Indian Express in the past and is also on the board of News Broadcasters Association (NBA).</p>
+						<p  style="transform:translateX(150px);" y="transY" class="transUp">Rahul is associated with Network18 Group since September 2015. Rahul has done his Masters in Management Studies from Narsee Monjee Institute of Management Studies (NMIMS), Mumbai University. Prior to joining Network18 Group, Rahul worked with The Economic Times for more than two decades, where he rose through ranks to quickly become one of India’s youngest editors, and has also worked as its editorial director. He also launched ET NOW and helped shape the digital coverage of ET Online. He also has worked with The Indian Express in the past and is also on the board of News Broadcasters Association (NBA).</p>
 					</div>
 					<div class="col-md-3 transUp mobHide" du-parallax opacity="fadeIn" y="transY">
-						<img class="transUp" du-parallax y="transUp" src="images/img11.jpg" >
+						<img class="transUp" du-parallax src="images/img11.jpg" >
 						<h3>P.M.S. Prasad</h3>
 						<div class="boardImgOCnt"><img src="/images/Network-18-logo.png" alt=""><img src="/images/TV18_logo_brd.jpg" style="margin-left: 10px;height: 12px;" alt=""></div>
 						<p du-parallax y="transY" class="transUp">Prasad is a Science and Engineering graduate. An Executive Director at Reliance Industries Ltd, he has contributed to its growth over the past three decades across various positions in the petrochemicals refining and marketing, exploration and production and fibres businesses. He is the recipient of the Energy Executive of the Year Award in 2008 from Petroleum Economist for his exemplary leadership in steering Reliance’s diversification from a refining and petrochemicals to an exploration and product business company. He has been felicitated with an honorary doctorate by the University of Petroleum Engineering, Dehradun, for his contribution to the petroleum sector.</p>
@@ -421,12 +427,12 @@
 						
 					</div>
 					<div class="col-md-3 transUp mobHide" du-parallax opacity="fadeIn" y="transY" style="padding-top: 200px;">
-						<img class="transUp" du-parallax y="transUp" src="images/img7.jpg">
+						<img class="transUp" du-parallax src="images/img7.jpg">
 						<h3>Dhruv Subodh Kaji</h3>
 						<div class="boardImgOCnt"><img src="/images/Network-18-logo.png" alt=""><img src="/images/TV18_logo_brd.jpg" style="margin-left: 10px;height: 12px;" alt=""></div>
 						<p du-parallax y="transY" class="transUp">Dhruv is a Commerce graduate from University of Mumbai and an Associate Member of the Institute of Chartered Accountants of India. He is a Financial Advisor and a Management Consultant with an experience of over 31 years. He has expertise in evaluating and guiding business projects in India and abroad. He has served as Finance Director of Raymond Limited.</p>
 						
-						<img class="transUp" du-parallax y="transUp" src="images/img2.jpg" style="margin-top: 100px;">
+						<img class="transUp" du-parallax src="images/img2.jpg" style="margin-top: 100px;">
 						<h3>Deepak Parekh</h3>
 						<div class="boardImgOCnt"><img src="/images/Network-18-logo.png" alt=""></div>
 						<p du-parallax y="transY" class="transUp">Deepak is a Commerce graduate and holds an FCA degree from England and Wales. He has been associated with several reputed organisations like Ernst & Ernst Management Consultancy Services in New York, Grindlays Bank and Chase Manhattan Bank prior to his stint with HDFC Bank. A Padma Bhushan recipient for his contribution to the national economy and public policy, he has been widely consulted by the Government of India on issues of national importance. He has served as a member of various Government appointed Advisory Committees and Task Forces for housing, financial services, capital markets, telecom, energy, railways and infrastructure sector reforms.</p>
@@ -434,19 +440,19 @@
 					<div class="mobShow">
 						<div class="mobDirEach">
 							<div class="mobDirImgCont">
-								<img class="transUp" du-parallax y="transUp" src="images/img1.jpg">
+								<img class="transUp" du-parallax src="images/img1.jpg">
 							</div>
 							<div class="mobDirEachText">
 								<div class="inner">
 									<h3>ADIL ZAINULBHAI</h3>
 									<div class="boardImgOCnt"><img src="/images/Network-18-logo.png" alt=""><img src="/images/TV18_logo_brd.jpg" style="margin-left: 10px;height: 12px;" alt=""></div>
-									<p du-parallax y="transY" class="transUp">Adil is a Mechanical Engineering graduate from the Indian Institute of Technology and an MBA from Harvard Business School. He is currently the Chairman of Quality Council of India, where he worked on several projects for the Government around many of its flagship schemes. He retired as the Chairman of McKinsey India and during his 34-year stint, he led its Washington office and founded the Minneapolis office. He is very active in community and social causes.</p>
+									<p du-parallax y="transY" class="transUp">Adil is the Chairman of the Boards of Network18 and TV18. He is a Mechanical Engineering graduate from the Indian Institute of Technology and an MBA from Harvard Business School. He is currently the Chairman of Quality Council of India, where he worked on several projects for the Government around many of its flagship schemes. He retired as the Chairman of McKinsey India and during his 34-year stint, he led its Washington office and founded the Minneapolis office. He is very active in community and social causes.</p>
 								</div>
 							</div>
 						</div>
 						<div class="mobDirEach">
 							<div class="mobDirImgCont">
-								<img class="transUp" du-parallax y="transUp" src="images/img2.png">
+								<img class="transUp" du-parallax src="images/img2.png">
 							</div>
 							<div class="mobDirEachText">
 								<div class="inner">
@@ -458,7 +464,7 @@
 						</div>
 						<div class="mobDirEach">
 							<div class="mobDirImgCont">
-								<img class="transUp" du-parallax y="transUp" src="images/img11.jpg">
+								<img class="transUp" du-parallax src="images/img11.jpg">
 							</div>
 							<div class="mobDirEachText">
 								<div class="inner">
@@ -470,7 +476,7 @@
 						</div>
 						<div class="mobDirEach">
 							<div class="mobDirImgCont">
-								<img class="transUp" du-parallax y="transUp" src="images/img7.jpg">
+								<img class="transUp" du-parallax src="images/img7.jpg">
 							</div>
 							<div class="mobDirEachText">
 								<div class="inner">
@@ -483,7 +489,7 @@
 						
 						<div class="mobDirEach">
 							<div class="mobDirImgCont">
-								<img class="transUp" du-parallax y="transUp" src="images/img10.jpg">
+								<img class="transUp" du-parallax src="images/img10.jpg">
 							</div>
 							<div class="mobDirEachText">
 								<div class="inner">
@@ -495,19 +501,19 @@
 						</div>
 						<div class="mobDirEach">
 							<div class="mobDirImgCont">
-								<img class="transUp" du-parallax y="transUp" src="images/img9.jpg">
+								<img class="transUp" du-parallax src="images/img9.jpg">
 							</div>
 							<div class="mobDirEachText">
 								<div class="inner">
 									<h3>RAHUL JOSHI</h3>
 									<div class="boardImgOCnt"><img src="/images/Network-18-logo.png" alt=""></div>
-									<p du-parallax y="transY" class="transUp">Rahul is associated with Network18 Group since September 2015. Rahul has done his Masters in Management Studies from Narsee Monjee Institute of Management Studies (NMIMS), Mumbai University. Prior to joining Network18 Group, Rahul worked with more than two decades with The Economic Times, where he rose through ranks to quickly become one of India’s youngest editors, and has also worked as its editorial director. He also launched ET NOW and helped shape the digital coverage of ET Online. He also has worked with The Indian Express in the past and is also on the board of News Broadcasters Association (NBA).</p>
+									<p du-parallax y="transY" class="transUp">Rahul is associated with Network18 Group since September 2015. Rahul has done his Masters in Management Studies from Narsee Monjee Institute of Management Studies (NMIMS), Mumbai University. Prior to joining Network18 Group, Rahul worked with The Economic Times for more than two decades, where he rose through ranks to quickly become one of India’s youngest editors, and has also worked as its editorial director. He also launched ET NOW and helped shape the digital coverage of ET Online. He also has worked with The Indian Express in the past and is also on the board of News Broadcasters Association (NBA).</p>
 								</div>
 							</div>
 						</div>
 						<div class="mobDirEach">
 							<div class="mobDirImgCont">
-								<img class="transUp" du-parallax y="transUp" src="images/img2.jpg">
+								<img class="transUp" du-parallax src="images/img2.jpg">
 							</div>
 							<div class="mobDirEachText">
 								<div class="inner">
@@ -531,11 +537,10 @@
 						<a href="">
 						
 						<div class="front">
-							<img src="{{person.img}}" alt="">
+							<img src="{{person.img}}" alt="" ng-click="openProfile('Management',openMap['Management'][$index],$index)">
 							<div class="flex-cont">
-								<div class="mngTTl">
+								<div class="mngTTl" ng-click="openProfile('Management',openMap['Management'][$index],$index)">
 									<h3>{{person.name}}</h3>
-									<!-- <p>Managing Director</p> -->
 								</div>
 								<div class="openBtnCont" ng-if="person.text">
 									<button class="openBtn" ng-click="openProfile('Management',openMap['Management'][$index],$index)"><i class="fa fa-chevron-down"></i></button>
@@ -551,6 +556,59 @@
 						</a>
 					</div>
 				</div>
+				<div class="clearfix mngContFlSm">
+					<h2 class="smallHead" style="margin-left: -7px; ">Entertainment</h2>
+					<h2 class="smallHead" style=" ">Distribution</h2>
+					<div class="container-fluid flex-cont mngContFl">
+						<div class="contentTypeDiv contentTypeMng col-md-4" ng-repeat="person in peopleData['Entertainment'] track by $index" ng-class="openMap['Entertainment'][$index]?'active':''">
+							<a href="">
+							
+							<div class="front">
+								<img src="{{person.img}}" alt="" ng-click="openProfile('Entertainment',openMap['Entertainment'][$index],$index)">
+								<div class="flex-cont">
+									<div class="mngTTl" ng-click="openProfile('Entertainment',openMap['Entertainment'][$index],$index)">
+										<h3>{{person.name}}</h3>
+									</div>
+									<div class="openBtnCont" ng-if="person.text">
+										<button class="openBtn" ng-click="openProfile('Entertainment',openMap['Entertainment'][$index],$index)"><i class="fa fa-chevron-down"></i></button>
+									</div>
+								</div>
+							</div>
+							<div class="back" ng-class="openMap['Entertainment'][$index]?'active':''">
+								<span class="triangle"><span class="triangleInner"></span></span>
+								<div class="back-text-cont"> 
+									<p>{{person.text}}</p>
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>
+					<div class="container-fluid flex-cont mngContFl">
+						<div class="contentTypeDiv contentTypeMng col-md-4" ng-repeat="person in peopleData['Distribution'] track by $index" ng-class="openMap['Distribution'][$index]?'active':''">
+							<a href="">
+							
+							<div class="front">
+								<img src="{{person.img}}" alt="" ng-click="openProfile('Distribution',openMap['Distribution'][$index],$index)">
+								<div class="flex-cont">
+									<div class="mngTTl" ng-click="openProfile('Distribution',openMap['Distribution'][$index],$index)">
+										<h3>{{person.name}}</h3>
+									</div>
+									<div class="openBtnCont" ng-if="person.text">
+										<button class="openBtn" ng-click="openProfile('Distribution',openMap['Distribution'][$index],$index)"><i class="fa fa-chevron-down"></i></button>
+									</div>
+								</div>
+							</div>
+							<div class="back" ng-class="openMap['Distribution'][$index]?'active':''">
+								<span class="triangle"><span class="triangleInner"></span></span>
+								<div class="back-text-cont"> 
+									<p>{{person.text}}</p>
+								</div>
+							</div>
+							</a>
+						</div>
+					</div>	
+				</div>
+				
 			</div>
 			<div class="row globalPartnerMainContainer" id="ancCont">
 				<h1 style="padding: 0px; margin-left: -5px; margin-top: 100px;">Editors & News Anchors</h1>
@@ -562,11 +620,10 @@
 							<a href="">
 							
 							<div class="front">
-								<img src="{{person.img}}" alt="">
+								<img src="{{person.img}}" alt="" ng-click="openProfile('CNBC',openMap['CNBC'][$index],$index)">
 								<div class="flex-cont">
-									<div class="mngTTl">
+									<div class="mngTTl" ng-click="openProfile('CNBC',openMap['CNBC'][$index],$index)">
 										<h3>{{person.name}}</h3>
-										<!-- <p>Managing Director</p> -->
 									</div>
 									<div class="openBtnCont" ng-if="person.text">
 										<button class="openBtn" ng-click="openProfile('CNBC',openMap['CNBC'][$index],$index)"><i class="fa fa-chevron-down"></i></button>
@@ -589,11 +646,10 @@
 							<a href="">
 							
 							<div class="front">
-								<img src="{{person.img}}" alt="">
+								<img src="{{person.img}}" alt="" ng-click="openProfile('News18',openMap['News18'][$index],$index)">
 								<div class="flex-cont">
-									<div class="mngTTl">
+									<div class="mngTTl" ng-click="openProfile('News18',openMap['News18'][$index],$index)">
 										<h3>{{person.name}}</h3>
-										<!-- <p>Managing Director</p> -->
 									</div>
 									<div class="openBtnCont" ng-if="person.text">
 										<button class="openBtn" ng-click="openProfile('News18',openMap['News18'][$index],$index)"><i class="fa fa-chevron-down"></i></button>
@@ -616,11 +672,10 @@
 							<a href="">
 							
 							<div class="front">
-								<img src="{{person.img}}" alt="">
+								<img src="{{person.img}}" alt="" ng-click="openProfile('Digital',openMap['Digital'][$index],$index)">
 								<div class="flex-cont">
-									<div class="mngTTl">
+									<div class="mngTTl" ng-click="openProfile('Digital',openMap['Digital'][$index],$index)">
 										<h3>{{person.name}}</h3>
-										<!-- <p>Managing Director</p> -->
 									</div>
 									<div class="openBtnCont" ng-if="person.text">
 										<button class="openBtn" ng-click="openProfile('Digital',openMap['Digital'][$index],$index)"><i class="fa fa-chevron-down"></i></button>
@@ -643,11 +698,10 @@
 							<a href="">
 							
 							<div class="front">
-								<img src="{{person.img}}" alt="">
+								<img src="{{person.img}}" alt="" ng-click="openProfile('Print',openMap['Print'][$index],$index)">
 								<div class="flex-cont">
-									<div class="mngTTl">
+									<div class="mngTTl" ng-click="openProfile('Print',openMap['Print'][$index],$index)">
 										<h3>{{person.name}}</h3>
-										<!-- <p>Managing Director</p> -->
 									</div>
 									<div class="openBtnCont" ng-if="person.text">
 										<button class="openBtn" ng-click="openProfile('Print',openMap['Print'][$index],$index)"><i class="fa fa-chevron-down"></i></button>
@@ -761,13 +815,13 @@
 						
 						<h3 style="font-family: 'Geogrotesque'; margin:0;"><b>NETWORK18 MEDIA & INVESTMENTS LIMITED</b></h3>
 						<p>Board Committees of Network 18</p>
-						<p  style="margin-top: 30px;"><a class="btn btn-lg bordDwlBtn" style="text-transform: uppercase;font-size: 12px;line-height: 20px;" href="http://www.network18online.com/commitee/COMPOSTION%20OF%20COMMITTEE%20for%20website_NW18.pdf" target="_blank"><i style="font-size: 18px;" class="fa fa-file-pdf-o"></i> Download</a></p>
+						<p  style="margin-top: 30px;"><a class="btn btn-lg bordDwlBtn" style="text-transform: uppercase;font-size: 12px;line-height: 20px;" href="/reports/commitee/COMPOSTION OF COMMITTEE for website_NW18.pdf" target="_blank"><i style="font-size: 18px;" class="fa fa-file-pdf-o"></i> Download</a></p>
 					</div>
 					<div>
 						
 						<h3 style="font-family: 'Geogrotesque'; margin:0;"><b>TV18 BROADCAST LTD</b></h3>
 						<p>Board Committees of TV18</p>
-						<p style="margin-top: 30px;"><a class="btn btn-lg bordDwlBtn" style="text-transform: uppercase;font-size: 12px;line-height: 20px;" href="http://www.network18online.com/commitee/Committee%20position%20for%20website_TV18.pdf" target="_blank"><i style="font-size: 18px;" class="fa fa-file-pdf-o"></i> Download</a></p>
+						<p style="margin-top: 30px;"><a class="btn btn-lg bordDwlBtn" style="text-transform: uppercase;font-size: 12px;line-height: 20px;" href="/reports/commitee/Committee position for website_TV18.pdf" target="_blank"><i style="font-size: 18px;" class="fa fa-file-pdf-o"></i> Download</a></p>
 					</div>
 				</div>
 			</div>
@@ -779,7 +833,7 @@
 				<div class="flex-cont boardComitteFlexCont tranySl" du-parallax y="transY">
 					<div >
 						<p>NW18 and TV18 Corporate Presentation</p>
-						<p  style="margin-top: 30px;"><a class="btn btn-lg bordDwlBtn" style="text-transform: uppercase;font-size: 12px;line-height: 20px;" href="http://www.network18online.com/reports/Financial%20Results/2016-17/NW18%20+%20TV18%20corporate%20ppt%20Apr18new.pdf" target="_blank"><i style="font-size: 18px;" class="fa fa-file-pdf-o"></i> Download</a></p>
+						<p  style="margin-top: 30px;"><a class="btn btn-lg bordDwlBtn" style="text-transform: uppercase;font-size: 12px;line-height: 20px;" href="/reports/reports/Financial Results/2016-17/NW18 + TV18 corporate ppt Apr18new.pdf" target="_blank"><i style="font-size: 18px;" class="fa fa-file-pdf-o"></i> Download</a></p>
 					</div>
 					
 				</div>

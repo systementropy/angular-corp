@@ -22,6 +22,8 @@
                         'News18':{},
                         'Digital':{},
                         'Print':{},
+                        'Entertainment':{},
+                        'Distribution':{}
                     };
                     $scope.openMap[sec][index]=true;
             }else {
@@ -31,10 +33,12 @@
                     'News18':{},
                     'Digital':{},
                     'Print':{},
+                    'Entertainment':{},
+                    'Distribution':{}
                 };
             }
             
-        }
+        };
         $scope.init = function(){
             $window.document.title='NETWORK18 | About Us';
             $scope.peopleData = {
@@ -50,7 +54,7 @@
                     },{
                         'name':"Joy Chakraborthy",
                         'text':"Revenue head for TV18 news channels, Joy is also CEO for Forbes India . Spanning a Media career of 26 years, Joy’s forte is advertising sales and revenue generation. In his previous roles, Joy was Director at the Times of India Group, CEO of TV Today, Executive Director at Zee Network and Executive Vice-President at Star India. Joy also holds an AMP Degree from Harvard Business School.",
-                        'img':"/images/profile/JoyChakraborthy.png"
+                        'img':"/images/profile/Joy-Chakraborthy.png"
                     },{
                         'name':"Santosh Menon",
                         'text':"Santosh Menon heads editorial and content  for Network 18’s digital operations as Chief Content Officer and also plays a key role in integrating editorial operations across platforms and brands. A journalist with more than two decades of experience across continents, Santosh joined Network 18 in April 2016 from The Economic Times where he was Deputy Executive Editor and Head of News. Before that he worked for Reuters in London and reported from around Europe. At Network 18, he has driven editorial strategy and expansion across brands and spearheaded the creation of new properties.",
@@ -61,19 +65,15 @@
                         'img':"/images/profile/ManishMaheshwari.png"
                     },{
                         'name':"Puneet Singhvi",
-                        'text':"Puneet is leading & overseeing Investments, M&As, Partnerships, Strategic Alliances and Business Development across all media platforms (Television, Telecom, Digital and Offline) within the Network18 group. He is also a part of the team at parent company, that evaluates and drives investment and alliance initiatives across technology and digital domain. Erstwhile, he has served as COO of Times Global Partners where he was responsible for overall strategy and growth.",
+                        'text':"Puneet is the Executive Vice President – Corporate Development & Digital Strategy. He oversees Investments, M&As, Partnerships, Strategic Alliances and Business Development across all media platforms (Television, Telecom, Digital and Offline) within the Group. Puneet also leads digital strategy and is part of the team that evaluates and drives investment and alliance initiatives across technology and digital domain. Erstwhile, he has served as COO of Times Global Partners where he was responsible for overall strategy and growth.",
                         'img':"/images/profile/PuneetSinghvi.png"
-                    },{
-                        'name':"Anuj Gandhi",
-                        'text':"Anuj Gandhi is the Group CEO of IndiaCast, a joint venture between TV18 and Viacom. Anuj heads a team of professionals for Traditional and New Media Platforms with a vast experience in Platform and Content Monetisation businesses in Linear (traditional TV channels) and Non-linear (VOD, Syndication etc.) forms. With a distinct understanding of the content distribution and platform business, Anuj is leading India's only Content Monetisation Company – IndiaCast",
-                        'img':"/images/profile/profilepic.png"
                     },{
                         'name':"Rahul Kansal",
                         'text':"Rahul Kansal, Group Brand Advisor, helps the various business verticals of Network  18 with their brand-building and marketing strategies. He is also overseeing the company’s forthcoming entry into news publishing. Rahul is a veteran of media marketing, and was earlier Executive President of Bennett Coleman, serving as business head of The Times of India and the company’s language newspapers.",
                         'img':"/images/profile/RahulKansal.png"
                     },{
                         'name':"Priyanka Kaul",
-                        'text':null,
+                        'text':"Priyanka leads Marketing and Special Projects for Network 18 aligning strategy and content across all verticals for domestic and international markets. She also focuses on driving social change in India through 360 degree media campaigns for the group. Previously, Priyanka was Chief Revenue and Marketing Officer for the NDTV Group. In 2007, she founded the Special Projects and Campaigns vertical at NDTV – a first in India. She has won various awards, including the prestigious Commonwealth Broadcasting Association Award.",
                         'img':"/images/profile/PriyankaKaul.png"
                     },{
                         'name':"Ramesh Damani",
@@ -81,12 +81,12 @@
                         'img':"/images/profile/RameshDamani.png"
                     },{
                         'name':"Kshipra Jatana",
-                        'text':null,
+                        'text':"Kshipra is the Group General Counsel, Network18",
                         'img':"/images/profile/KshipraJatana.png"
                     },{
                         'name':"P Sakthivel",
                         'text':"P Sakthivel has been part of Reliance Industries Limited for more than 13 years and is currently the Chief Human Resource Officer of Network 18 Group. He has been instrumental in setting up HR systems & processes for Reliance Exploration & Production (E&P) business and Reliance Jio before taking over the current role.  Erstwhile he has worked in ONGC, EID Parry India Limited, Arthur Anderson and Bharti Airtel.",
-                        'img':"/images/profile/profilepic.png"
+                        'img':"/images/profile/psakthivel.png"
                     },{
                         'name':"Rajat Nigam",
                         'text':"Rajat leads the Technology for the group both in Broadcast and Digital domains. He drives synergies and integrations of various technologies used at different products/businesses of the group. With over 26 years of experience and exposure to all aspects of media technology ranging from Satellite Communication, International Sports, News Broadcast, FM Radio to Digital Media, he spearheads the technology innovations, digital transformation and operations for the Network.'",
@@ -127,7 +127,7 @@
                         'img':"/images/profile/zakkajacob.png"
                     },{
                         'name':"Sudeep Mukhia",
-                        'text':null,
+                        'text':"Sudeep is the Executive Editor of CNN-News18 and manages the prime time band. Prior to this, he was the resident editor of Hindustan Times.",
                         'img':"/images/profile/profilepic.png"
                     },{
                         'name':"Prabal Pratap Singh",
@@ -144,15 +144,15 @@
                     },{
                         'name':"Sumit Awasthi",
                         'text':"Sumit is a Prime-time anchor with News18 India, leading Hindi news channel of the country. He host a flagship debate show called “Hum To Puchhenge”, which is top-rated show among Hindi audiences. Apart then Anchoring on leading stories/ Events like Elections etc. he also leads the news gathering team. He is responsible for News selection and Reporters deployments. Erstwhile, He was with leading Hindi news channels like Aaj Tak & Zee News where he held critical positions like Senior Editor and Resident Editor, respectively.",
-                        'img':"/images/profile/profilepic.png"
+                        'img':"/images/profile/sumitawasthi.png"
                     },{
                         'name':"Rajesh Raina",
                         'text':"Rajesh Raina is the Group Editor of News18 Regional Channels. A journalist with more than 2 decades of experience in Television, he has played a pivotal role in Regional News growth story of News18 Network. He is an avid reader & has also written many articles in Hindi, Urdu & Kashmiri languages. His contribution to a fading art form “ Ladishah” has been recognised by many in J&K. He has been with the ETV group of channels, from 2001 & prior to that worked as an Anchor at DD - Kashmir.",
-                        'img':"/images/profile/profilepic.png"
+                        'img':"/images/profile/RajeshRaina.png"
                     },{
                         'name':"Karthik Subramanian",
                         'text':"Karthik works with the team in south India to make the News 18 channels in Karnataka, Kerala and Tamil Nadu the number 1 in their respective markets. He also heads Standards and Practices for the Network 18 group. Karthik was previously the Editor (South) at The Economic Times.",
-                        'img':"/images/profile/profilepic.png"
+                        'img':"/images/profile/KarthikSubbaraman.png"
                     }
                 ],
                 'Digital':[
@@ -166,8 +166,8 @@
                         'img':"/images/profile/santoshnair.png"
                     },{
                         'name':"Praveen Thampi",
-                        'text':null,
-                        'img':"/images/profile/profilepic.png"
+                        'text':"Praveen is the Executive Editor, News18.com",
+                        'img':"/images/profile/pravinthampi.png"
                     },{
                         'name':"Gaurav Kalra",
                         'text':"Gaurav Kalra is the Group Sports Editor at Network 18. He works across all existing brands and platforms with particular focus on the expansion of Cricketnext.com, the group’s flagship Cricket website. Reporters and editors of all existing sports verticals across the network converge with him in addition to their existing managers. He was previously Senior Editor at ESPNCricinfo and served as Sports Editor of the erstwhile CNN-IBN between 2005 to 2013.",
@@ -184,8 +184,44 @@
                         'text':"Brian is the group editor of the publishing business of the Network 18 group. He edits Forbes India, a fortnightly business magazine, and its digital avatar. Prior to this assignment, he led features at The Economic Times and edited the eclectic Sunday product, called The Economic Times Magazine.",
                         'img':"/images/profile/BrianCarvalho.png"
                     }
+                ],
+                'Entertainment':[
+                    {
+                        'name':"Sudhanshu Vats",
+                        'text':"Sudhanshu Vats is Managing Director, Viacom18 Media Pvt. Ltd., and responsible for all its lines of business – COLORS, Rishtey, Rishtey Cineplex, MTV, MTV Beats, Nickelodeon, Sonic, Nick Jr, Vh1, Comedy Central, COLORS Infinity, COLORS Kannada, COLORS Marathi, COLORS, Bangla, COLORS Oriya, COLORS Gujarati, COLORS Super and COLORS Tamil in Broadcast Entertainment; Viacom18 Motion Pictures in Filmed Entertainment; LIVE Viacom18 and BE Viacom18 in Experiential Entertainment; VOOT in Digital Entertainment and Viacom18 Consumer Products. In the last six years, he has successfully steered the group into a profitable growth phase while expanding the channel network, driving content-led cinema, entering experiential entertainment through Live events across genres, opening up the Consumer Products business line and making the company future ready with Viacom18 Digital Ventures’ OTT platform VOOT. Under Sudhanshu’s leadership the group has grown from 6 to over 44 channels and opened up 3 more lines of business leading to a stupendous 40 X growth in topline. A Hindustan Unilever (Unilever India) veteran, Sudhanshu Vats has spent about 20 years at the organization in different assignments. A Management Graduate from the Indian Institute of Management - Ahmedabad, he joined Hindustan Unilever Limited as a Management Trainee and worked with them in various Sales & Marketing and General Management roles across categories.",
+                        'img':"/images/profile/sudhanshu.png"
+                    }
+                ],
+                'Distribution':[
+                    {
+                        'name':"Anuj Gandhi",
+                        'text':"Anuj Gandhi is the Group CEO of IndiaCast, a joint venture between TV18 and Viacom. Anuj heads a team of professionals for Traditional and New Media Platforms with a vast experience in Platform and Content Monetisation businesses in Linear (traditional TV channels) and Non-linear (VOD, Syndication etc.) forms. With a distinct understanding of the content distribution and platform business, Anuj is leading India's only Content Monetisation Company – IndiaCast.",
+                        'img':"/images/profile/anujgandhi.png"
+                    }
                 ]
-            }
+            };
+            $scope.theBestVideo = 'vl3A2M63EUM';
+            var w = angular.element($window);
+            var wWid=w.width();
+            var wHig=(w.height()/0.71);
+            $scope.pWid=parseInt(w.width());
+            $scope.pHigh=parseInt(((parseInt(w.width())*9)/16));
+            
+            $scope.playerVars = {
+                'autoplay': 1,
+                'controls': 0, 
+                'rel' : 0,
+                'showinfo':0,
+                'fs' : 0,
+                'loop': 1,
+                'mute':1
+            };
+            $scope.$on('youtube.player.ended', function ($event, player) {
+                
+                player.seekTo(0);
+                player.playVideo();
+            });
+            $scope.enableYT=true;
             $scope.slickConfig = {
                 centerMode: true,
                 slidesToShow: 1,
@@ -223,6 +259,8 @@
                 'News18':{},
                 'Digital':{},
                 'Print':{},
+                'Entertainment':{},
+                'Distribution':{}
             };
         };
         

@@ -10,6 +10,7 @@
         'ui.event',
         'slick',
         'ngMap',
+        
         'myApp.home',
         'myApp.animate',
         'myApp.view2',
@@ -46,6 +47,9 @@
         lazyImgConfigProvider.setOptions({
             offset:800
         });
+        $routeProvider.when('/reports/*', {
+            //$(window).open();
+        });
         $routeProvider.otherwise({ redirectTo: '/animate' });
 
         //var scrollable = document.querySelector('#scrollable');
@@ -53,4 +57,22 @@
         //     offset: 1000,
         // });
     }]);
+    // var app = angular.module('myApp', []);
+    // app.directive('errSrc', function() {
+    //   return {
+    //     link: function(scope, element, attrs) {
+    //       element.bind('error', function() {
+    //         if (attrs.src != attrs.errSrc) {
+    //           attrs.$set('src', attrs.errSrc);
+    //         }
+    //       });
+          
+    //       attrs.$observe('ngSrc', function(value) {
+    //         if (!value && attrs.errSrc) {
+    //           attrs.$set('src', attrs.errSrc);
+    //         }
+    //       });
+    //     }
+    //   }
+    // });
 }());

@@ -13,6 +13,7 @@
     ])
 
     .controller('annualReportCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','parallaxHelper','$window', function($rootScope,$scope, $http,$timeout,$location,parallaxHelper,$window) {
+
         $scope.changeFoc = function(num){
             $scope.left_foc=num;
         };
@@ -37,7 +38,15 @@
         $scope.changeFocTV3 = function(num){
             $scope.left_foctv3=num;
         };
+        angular.element($window).bind('resize', function(){
+            var w = angular.element($window);
+            var wWid=w.width();
+            var wHig=(w.height()/0.71);
+            $scope.pWid=parseInt(w.width());
+            console.log($scope.pWid);
+        });
         var init = function(){
+            $scope.breakpoints = [{breakpoint: 1080,settings: {slidesToShow: 8,slidesToScroll: 8}},{breakpoint: 992,settings: {slidesToShow: 7,slidesToScroll: 7}},{breakpoint: 768,settings: {slidesToShow: 6,slidesToScroll: 6}},{breakpoint: 600,settings: {slidesToShow: 4,slidesToScroll: 4}}, {breakpoint: 480,settings: {slidesToShow: 3,slidesToScroll: 3}}];
             $scope.left_foc=0;
             $scope.left_foc1=0;
             $scope.left_foc3=0;
@@ -51,7 +60,32 @@
             $scope.activeSec.nw18Section=true;
             $rootScope.hidefooter=false;
             $scope.transY = parallaxHelper.createAnimator(0.4, 10, -10,-950);
-            $window.document.title='NETWORK18 | Investor Relations';
+            
+            $window.document.title='NETWORK18 | Investor Relations';$scope.theBestVideo0 = 'JJmFwbwRb2U';
+            var w = angular.element($window);
+	    	var wWid=w.width();
+	    	var wHig=(w.height()/0.71);
+	    	$scope.pWid=parseInt(w.width());
+	    	$scope.pHigh=parseInt(((parseInt(w.width())*9)/16));
+	    	
+
+
+	    	$scope.playerVars = {
+	    	    'autoplay': 1,
+	    	    'controls': 0, 
+	    	    'rel' : 0,
+	    	    'showinfo':0,
+	    	    'fs' : 0,
+	    	    'loop': 1,
+	    	    'mute':1
+	    	};
+            $scope.$on('youtube.player.ended', function ($event, bestPlayer0) {
+                
+                bestPlayer0.seekTo(0);
+                bestPlayer0.playVideo();
+            });
+            $scope.enableSlick=true;
+            $scope.enableYT=true;
         };
         init();
     }]);

@@ -1,11 +1,17 @@
-<div class="mainBodyContainerFull mainBodyContainerCareerFull" style="padding-top: 0px; opacity: 0; height: auto;">
+<div class="mainBodyContainerFull mainBodyContainerCareerFull mainBodyContainerCarFull" style="padding-top: 0px; opacity: 0; height: auto;">
 	<div class="headerFiller"></div>
 	<div class="video-cont">
 		<div class="vid-bg vid-bgs vid-bg-career" style="">
 		</div>
-		<video width="100%" autoplay loop >
-			<source src="images/footage/26911270-preview-career-bw.mp4" type="video/mp4" class="top">
+		<video class="mobShow top" width="100%" autoplay="" loop="">
+			<source src="images/footage/MOBILE_SIZE/3893537-mobile-CAREER-graded.mp4" type="video/mp4" class="top">
 		</video>
+		<video class="mobHide top" width="100%" autoplay="" loop="">
+			<source src="images/footage/3893537-hd-CAREER-gradednew.mp4" type="video/mp4" class="top">
+		</video>
+		<!-- <div id="home_vid" class="mobHide" style="height: {{pHigh}}px;width: {{pWid}}px;">
+			<youtube-video ng-if="enableYT" player-vars="playerVars1" player="bestPlayer1" video-id="theBestVideo5" player-width="'100%'" player-height="'100%'" ></youtube-video>
+		</div> -->
 	</div>
 	<div class="vid-arr" >
 		<span class="arrText">scroll</span>
@@ -21,7 +27,7 @@
 				<p>Network 18 brings together employees from varied backgrounds under one roof united by the hunger to create immersive content and ideas. We take pride in our people, who we believe are the key to realizing the organization’s potential. We continually strive to enable our employees to realize their own goals, by providing opportunities to learn, share and grow.</p>
 			</div>
 			<div class="row career-jumbo jumbotron">
-				<youtube-video player-vars="playerVars" player="bestPlayer" video-id="theBestVideo" player-width="'100%'" player-height="'100%'" ></youtube-video>
+				<youtube-video player-vars="playerVars" player="bestPlayer2" video-id="theBestVideo" player-width="'100%'" player-height="'100%'" ></youtube-video>
 			</div>
 			<div class="row career-main-text text-center" id="whyCar">
 				<h1>Life at Network18</h1>
@@ -68,17 +74,55 @@
 				<button class="empNext1"></button>
 			</div>
 			<div class="career-empl-cont">
-				<slick class="" prev-arrow=".empPrev1" next-arrow=".empNext1" autoplay="false" slides-to-show=5 slides-to-scroll=1 infinite="false" ng-if="roles.length>0">
-					<div class="box" ng-repeat="area in roles">
+				<!-- <slick class="" ng-if="enableSlick" responsive="breakpoints" prev-arrow=".empPrev1" next-arrow=".empNext1" autoplay="false" slides-to-show=5 slides-to-scroll=2 infinite="false" >
+					<div class="box" ng-repeat="area in roles track by area.id">
 						<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
 						<a href="/career-main?id={{area.id}}" >
 							<div class="boxTextBot">
 								<h3>{{area.name}}</h3>
 							</div>
 						</a>
-						
 					</div>
-				</slick>
+				</slick> -->
+				<div class="inv-ann-cont car-ann-cont showOver992" ng-if="enableSlick">
+					<slick ng-if="enableSlick" prev-arrow=".empPrev1" next-arrow=".empNext1" slides-to-show=5 slides-to-scroll=3 infinite="false">
+						<div class="box" ng-repeat="area in roles track by area.id">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/career-main?id={{area.id}}" >
+								<div class="boxTextBot">
+									<h3>{{area.name}}</h3>
+								</div>
+							</a>
+						</div>
+						
+					</slick>
+				</div>
+				<div class="inv-ann-cont car-ann-cont showOver600" ng-if="enableSlick">
+					<slick ng-if="enableSlick" prev-arrow=".empPrev1" next-arrow=".empNext1" slides-to-show=3 slides-to-scroll=2 infinite="false">
+						<div class="box" ng-repeat="area in roles track by area.id">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/career-main?id={{area.id}}" >
+								<div class="boxTextBot">
+									<h3>{{area.name}}</h3>
+								</div>
+							</a>
+						</div>
+						
+					</slick>
+				</div>
+				<div class="inv-ann-cont car-ann-cont showUnder600" ng-if="enableSlick">
+					<slick ng-if="enableSlick" prev-arrow=".empPrev1" next-arrow=".empNext1" slides-to-show=2 slides-to-scroll=2 infinite="false">
+						<div class="box" ng-repeat="area in roles track by area.id">
+							<img src="/images/watch_grey.jpg" alt="" class="corp-img-cont">
+							<a href="/career-main?id={{area.id}}" >
+								<div class="boxTextBot">
+									<h3>{{area.name}}</h3>
+								</div>
+							</a>
+						</div>
+						
+					</slick>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -116,12 +160,15 @@
 					<a target="_blank" href="https://www.linkedin.com/company/network18/?originalSubdomain=in" class="btn btn-primary btn-join">Connect with us on LinkedIn</a>
 				</div>
 				<div class="col-md-6 col-sm-12 text-left mobHide">
-					To explore career opportunities with us, please e-mail <br>your resume to <a href="" class="btn btn-link">careers@nw18.com</a> 
+					To explore career opportunities with us, <br>please e-mail your resume to <a href="" class="btn btn-link">careers@nw18.com</a> 
 				</div>
 				<div class="col-md-6 col-sm-12 text-left mobShow">
 					To explore career opportunities with us, please e-mail your resume to <a href="" class="btn btn-link">careers@nw18.com</a> 
 				</div>
 			</div>
+			<br>
+			<br>
+			<div class="row text-center">For jobs pertaining to entertainment, visit <a href="https://www.viacom18.com" target="_blank" class="btn btn-link"> www.viacom18.com </a></div>
 			<!-- <div class="row text-center">
 				<div class="col-md-3"></div>
 				<div class="col-md-6">

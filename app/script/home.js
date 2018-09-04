@@ -13,13 +13,26 @@
         }
     ])
 
-    .controller('HomeCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','$window', 
+    .controller('HomeCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','$window',
     function($rootScope,$scope, $http,$timeout,$location,$window) {
+        // $scope.muteVid = function(){
+        //     var video = document.createElement("home_vid");
+        //     if($scope.muted){
+                
+        //         $scope.muted=false;
+        //     }else{
+                
+        //         $scope.muted=true;
+        //     }
+
+        //     console.log($scope.playerVars);
+        // };
         $scope.callOnEnd = function(){
             if ($scope.eventEnd!==true) {
                 $scope.data=[
                     {'img':"/images/resized/CNBC-TV18.gif",'href':"https://www.cnbctv18.com/live-tv/",'class':''},
                     {'img':"/images/resized/CNBC-Awaaz.gif",'href':"http://hindi.moneycontrol.com/tv/",'class':''},
+                    {'img':"/images/resized/CNBC-Bajaar.gif",'href':"https://gujarati.moneycontrol.com/tv/",'class':''},
                     {'img':"/images/resized/CNN-News-18.gif",'href':"https://news18.com/",'class':''},
                     {'img':"/images/resized/NEWS18-India.gif",'href':"https://hindi.news18.com/",'class':''},
                     {'img':"/images/portfolio/News18Urdu.png",'href':"http://urdu.news18.com/",'class':'portfolioItem'},
@@ -36,7 +49,7 @@
                     {'img':"/images/resized/NEWS18-com.gif",'href':"https://news18.com/",'class':''},
                     {'img':"/images/resized/Firstpost.gif",'href':"https://www.firstpost.com/",'class':''},
                     {'img':"/images/resized/CNBCTV18-Logo.png",'href':"https://www.cnbctv18.com/",'class':'portfolioItemCNBC'},
-                    // {'img':"/images/resized/incom.gif",'href':"",'class':''},
+                    {'img':"/images/resized/inncom.png",'href':"https://www.in.com/",'class':'portfolioItem'},
                     {'img':"/images/resized/Toppers.gif",'href':"https://www.topperlearning.com/topper-tv",'class':''},
                     {'img':"/images/resized/Forbes.gif",'href':"http://www.forbesindia.com/",'class':''},
                     {'img':"/images/resized/BI.gif",'href':"http://www.betterinteriors.in/",'class':''},
@@ -62,7 +75,10 @@
                     {'img':"/images/resized/VH1.gif",'href':"http://www.vh1.in/",'class':''},
                     {'img':"/images/resized/CC.gif",'href':"https://www.viacom18.com/on-air/english/comedy-central",'class':''},
                     {'img':"/images/resized/viacom.gif",'href':"https://www.viacom18.com/",'class':''},
-                    {'img':"/images/resized/india_cast.png",'href':"http://www.indiacast.com/",'class':''}
+                    {'img':"/images/resized/india_cast.png",'href':"http://www.indiacast.com/",'class':''},
+                    {'img':"http://capital18.com/images/capital18-slogo.png",'href':"http://capital18.com/",'class':'portfolioItemSm'},
+                    {'img':"/images/resized/BookMyShow.gif",'href':"http://www.bookmyshow.com/",'class':''},
+                    {'img':"/images/resized/HMS.gif",'href':"https://www.homeshop18.com/",'class':''}
                 ];
                 $scope.eventEnd=true;
             }
@@ -71,6 +87,7 @@
             $scope.data=[
                 {'img':"/images/resized/CNBC-TV18.gif",'href':"https://www.cnbctv18.com/live-tv/",'class':''},
                 {'img':"/images/resized/CNBC-Awaaz.gif",'href':"http://hindi.moneycontrol.com/tv/",'class':''},
+                {'img':"/images/resized/CNBC-Bajaar.gif",'href':"https://gujarati.moneycontrol.com/tv/",'class':''},
                 {'img':"/images/resized/CNN-News-18.gif",'href':"https://news18.com/",'class':''},
                 {'img':"/images/resized/NEWS18-India.gif",'href':"https://hindi.news18.com/",'class':''},
                 {'img':"/images/portfolio/News18Urdu.png",'href':"http://urdu.news18.com/",'class':'portfolioItem'},
@@ -87,7 +104,7 @@
                 {'img':"/images/resized/NEWS18-com.gif",'href':"https://news18.com/",'class':''},
                 {'img':"/images/resized/Firstpost.gif",'href':"https://www.firstpost.com/",'class':''},
                 {'img':"/images/resized/CNBCTV18-Logo.png",'href':"https://www.cnbctv18.com/",'class':'portfolioItemCNBC'},
-                // {'img':"/images/resized/incom.gif",'href':"",'class':''},
+                {'img':"/images/resized/inncom.png",'href':"https://www.in.com/",'class':'portfolioItem'},
                 {'img':"/images/resized/Toppers.gif",'href':"https://www.topperlearning.com/topper-tv",'class':''},
                 {'img':"/images/resized/Forbes.gif",'href':"http://www.forbesindia.com/",'class':''},
                 {'img':"/images/resized/BI.gif",'href':"http://www.betterinteriors.in/",'class':''},
@@ -113,7 +130,10 @@
                 {'img':"/images/resized/VH1.gif",'href':"http://www.vh1.in/",'class':''},
                 {'img':"/images/resized/CC.gif",'href':"https://www.viacom18.com/on-air/english/comedy-central",'class':''},
                 {'img':"/images/resized/viacom.gif",'href':"https://www.viacom18.com/",'class':''},
-                {'img':"/images/resized/india_cast.png",'href':"http://www.indiacast.com/",'class':''}
+                {'img':"/images/resized/india_cast.png",'href':"http://www.indiacast.com/",'class':''},
+                {'img':"http://capital18.com/images/capital18-slogo.png",'href':"http://capital18.com/",'class':'portfolioItemSm'},
+                {'img':"/images/resized/BookMyShow.gif",'href':"http://www.bookmyshow.com/",'class':''},
+                {'img':"/images/resized/HMS.gif",'href':"https://www.homeshop18.com/",'class':''}
             ];
             $scope.eventEnd=true;
 
@@ -126,10 +146,12 @@
                 // dots: true,
             };
             $window.document.title='NETWORK18 | Home';
+            
             $scope.data=[
                 {'img':"/images/resized/CNBC-TV18.gif",'href':"https://www.cnbctv18.com/live-tv/",'class':''},
                 {'img':"/images/resized/CNBC-Awaaz.gif",'href':"http://hindi.moneycontrol.com/tv/",'class':''},
-                {'img':"/images/resized/CNN-News-18.gif",'href':"http://gujarati.moneycontrol.com/tv/",'class':''},
+                {'img':"/images/resized/CNBC-Bajaar.gif",'href':"https://gujarati.moneycontrol.com/tv/",'class':''},
+                {'img':"/images/resized/CNN-News-18.gif",'href':"https://news18.com/",'class':''},
                 {'img':"/images/resized/NEWS18-India.gif",'href':"https://hindi.news18.com/",'class':''},
                 {'img':"/images/portfolio/News18Urdu.png",'href':"http://urdu.news18.com/",'class':'portfolioItem'},
                 {'img':"/images/portfolio/News18Rajasthan.png",'href':"https://hindi.news18.com/livetv/news18-rajasthan/",'class':'portfolioItem'},
@@ -145,7 +167,7 @@
                 {'img':"/images/resized/NEWS18-com.gif",'href':"https://news18.com/",'class':''},
                 {'img':"/images/resized/Firstpost.gif",'href':"https://www.firstpost.com/",'class':''},
                 {'img':"/images/resized/CNBCTV18-Logo.png",'href':"https://www.cnbctv18.com/",'class':'portfolioItemCNBC'},
-                // {'img':"/images/resized/incom.gif",'href':"",'class':''},
+                {'img':"/images/resized/inncom.png",'href':"https://www.in.com/",'class':'portfolioItem'},
                 {'img':"/images/resized/Toppers.gif",'href':"https://www.topperlearning.com/topper-tv",'class':''},
                 {'img':"/images/resized/Forbes.gif",'href':"http://www.forbesindia.com/",'class':''},
                 {'img':"/images/resized/BI.gif",'href':"http://www.betterinteriors.in/",'class':''},
@@ -171,7 +193,10 @@
                 {'img':"/images/resized/VH1.gif",'href':"http://www.vh1.in/",'class':''},
                 {'img':"/images/resized/CC.gif",'href':"https://www.viacom18.com/on-air/english/comedy-central",'class':''},
                 {'img':"/images/resized/viacom.gif",'href':"https://www.viacom18.com/",'class':''},
-                {'img':"/images/resized/india_cast.png",'href':"http://www.indiacast.com/",'class':''}
+                {'img':"/images/resized/india_cast.png",'href':"http://www.indiacast.com/",'class':''},
+                {'img':"http://capital18.com/images/capital18-slogo.png",'href':"http://capital18.com/",'class':'portfolioItemSm'},
+                {'img':"/images/resized/BookMyShow.gif",'href':"http://www.bookmyshow.com/",'class':''},
+                {'img':"/images/resized/HMS.gif",'href':"https://www.homeshop18.com/",'class':''}
             ];
             
             
@@ -208,15 +233,27 @@
                 'mute':1
             };
             $scope.enableYT=true;
+            $scope.muteVid=true;
             $scope.$on('youtube.player.ended', function ($event, player) {
                 $scope.skipVid();
                 player.seekTo(53.8);
                 player.pauseVideo();
               //player.playVideo();
             });
+            $http.get('/images/footage/home_vid.mp4')
+            .then(function(response) {
+
+                console.log(response);
+
+            }, function(response) {
+                $scope.errSrcVid=true;
+                console.log('Error'+JSON.stringify(response));
+            });
         }
         
         init();
 
     }]);
+
+    
 }());

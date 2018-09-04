@@ -7,9 +7,12 @@
 			<div class="vid-bg">
 
 			</div>
-			<video width="100%" autoplay loop class="top">
-				<source src="images/about_us.mp4" type="video/mp4">
-			</video>
+			<video class="mobShow" width="100%" autoplay="" loop="">
+					<source src="images/footage/MOBILE_SIZE/shutterstock_v32669860-ABOUTUS-mobile.mp4" type="video/mp4" class="top">
+				</video>
+			<div id="home_vid" class="mobHide" style="height: {{pHigh}}px;width: {{pWid}}px;">
+				<youtube-video ng-if="enableYT" player-vars="playerVars" player="bestPlayer" video-id="theBestVideo" player-width="'100%'" player-height="'100%'" ></youtube-video>
+			</div>
 		</div>
 		<div class="vid-arr">
 			<span class="arrText">scroll</span>

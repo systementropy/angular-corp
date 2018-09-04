@@ -14,6 +14,29 @@
         
         $scope.init = function(){
             //  
+            $scope.theBestVideo3 = 'dlVyQFrjnyE';
+            var w = angular.element($window);
+            var wWid=w.width();
+            var wHig=(w.height()/0.71);
+            $scope.pWid=parseInt(w.width());
+            $scope.pHigh=parseInt(((parseInt(w.width())*9)/16));
+            
+
+            $scope.playerVars = {
+                'autoplay': 1,
+                'controls': 0, 
+                'rel' : 0,
+                'showinfo':0,
+                'fs' : 0,
+                'loop': 1,
+                'mute':1
+            };
+            $scope.$on('youtube.player.ended', function ($event, player) {
+                
+                player.seekTo(0);
+                player.playVideo();
+            });
+            $scope.enableYT=true;
             $scope.shape = {
               coords: [1, 1, 1, 20, 18, 20, 18 , 1],
               type: 'poly'

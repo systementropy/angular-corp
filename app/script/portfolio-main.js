@@ -117,6 +117,61 @@
 	    	}else{
 	    		$scope.showElt = 'None';
 	    	}
+
+
+	    	$scope.theBestVideo0 = 'PbL2jIxydb8';
+	    	$scope.theBestVideo1 = '4ExBg88Yhqc';
+	    	$scope.theBestVideo2 = '8dKMEGiIZRE';
+	    	$scope.theBestVideo3 = 'qcP4BzM-P_E';
+	    	$scope.theBestVideo4 = 'R4hhPkMmH64';
+	    	$scope.theBestVideo5 = 'J83935ZsfgE';
+	    	var w = angular.element($window);
+	    	var wWid=w.width();
+	    	var wHig=(w.height()/0.71);
+	    	$scope.pWid=parseInt(w.width());
+	    	$scope.pHigh=parseInt(((parseInt(w.width())*9)/16));
+	    	
+
+	    	$scope.playerVars = {
+	    	    'autoplay': 1,
+	    	    'controls': 0, 
+	    	    'rel' : 0,
+	    	    'showinfo':0,
+	    	    'fs' : 0,
+	    	    'loop': 1,
+	    	    'mute':1
+	    	};
+	    	$scope.$on('youtube.player.ended', function ($event, bestPlayer0) {
+                
+                bestPlayer0.seekTo(0);
+                bestPlayer0.playVideo();
+            });
+            $scope.$on('youtube.player.ended', function ($event, bestPlayer1) {
+                
+                bestPlayer1.seekTo(0);
+                bestPlayer1.playVideo();
+            });
+            $scope.$on('youtube.player.ended', function ($event, bestPlayer2) {
+                
+                bestPlayer2.seekTo(0);
+                bestPlayer2.playVideo();
+            });
+            $scope.$on('youtube.player.ended', function ($event, bestPlayer3) {
+                
+                bestPlayer3.seekTo(0);
+                bestPlayer3.playVideo();
+            });
+            $scope.$on('youtube.player.ended', function ($event, bestPlayer4) {
+                
+                bestPlayer4.seekTo(0);
+                bestPlayer4.playVideo();
+            });
+            $scope.$on('youtube.player.ended', function ($event, bestPlayer5) {
+                
+                bestPlayer5.seekTo(0);
+                bestPlayer5.playVideo();
+            });
+	    	$scope.enableYT=true;
             $rootScope.hideHeader=false;
             $rootScope.hidefooter=false;
         }

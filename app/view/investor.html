@@ -13,10 +13,13 @@
 	<div class="portfolioContainer corpMainCont">
 		<div class="newsVideoCont videTextCont bg-parallax" du-parallax opacity="fadeIn"  y="background"  id="portfolioNews">
 			<!-- <h2 class="videoOverText">Recent. Relevant. Refreshing</h2> -->
-			<div class="video-cont" style="height: 71vh;">
+			<div class="video-cont" >
 				<div class="vid-bg"></div>
-				<video width="100%" autoplay loop class="top">
-					<source src="images/footage/26911270-preview-investors-bw.mp4" type="video/mp4" class="top">
+				<video class="mobHide" width="100%" autoplay="" loop="">
+					<source src="images/footage/26911270-hd_INVESTORS-graded.mp4" type="video/mp4" class="top">
+				</video>
+				<video class="mobShow" width="100%" autoplay="" loop="">
+					<source src="images/footage/MOBILE_SIZE/26911270-hd_INVESTORS-mobile.mp4" type="video/mp4" class="top">
 				</video>
 			</div>
 		</div>
@@ -73,61 +76,44 @@
 							<button class="empPrev"></button>
 							<button class="empNext"></button>
 						</div>
-						<div class="inv-ann-cont">
-							<slick class="" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=10 slides-to-scroll=1 infinite="false">
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==0?'active':' '" ng-click="changeFoc(0)" index="0" heading="2018-19">
-									<a ng-click="" class="nav-link"">2018-19</a>
+						<div class="inv-ann-cont showOver992">
+							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=9 slides-to-scroll=3 infinite="false">
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFoc(i)" ng-class="left_foc=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
 								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==1?'active':' '" ng-click="changeFoc(1)" index="1" heading="2017-18">
-									<a ng-click="" class="nav-link"">2017-18</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==2?'active':' '" ng-click="changeFoc(2)" index="2" heading="2016-17">
-									<a ng-click="" class="nav-link"">2016-17</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==3?'active':' '" ng-click="changeFoc(3)" index="3" heading="2015-16">
-									<a ng-click="" class="nav-link"">2015-16</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==4?'active':' '" ng-click="changeFoc(4)" index="4" heading="2014-15">
-									<a ng-click="" class="nav-link"">2014-15</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==5?'active':' '" ng-click="changeFoc(5)" index="5" heading="2013-14">
-									<a ng-click="" class="nav-link"">2013-14</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==6?'active':' '" ng-click="changeFoc(6)" index="6" heading="2012-13">
-									<a ng-click="" class="nav-link"">2012-13</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==7?'active':' '" ng-click="changeFoc(7)" index="7" heading="2011-12">
-									<a ng-click="" class="nav-link"">2011-12</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==8?'active':' '" ng-click="changeFoc(8)" index="8" heading="2010-11">
-									<a ng-click="" class="nav-link"">2010-11</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==9?'active':' '" ng-click="changeFoc(9)" index="9" heading="2009-10">
-									<a ng-click="" class="nav-link"">2009-10</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==10?'active':' '" ng-click="changeFoc(10)" index="10" heading="2008-09">
-									<a ng-click="" class="nav-link"">2008-09</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==11?'active':' '" ng-click="changeFoc(11)" index="11" heading="2007-08">
-									<a ng-click="" class="nav-link"">2007-08</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foc==12?'active':' '" ng-click="changeFoc(12)" index="12" heading="2007-06">
-									<a ng-click="" class="nav-link"">2007-06</a>
-								</div>
+								
 							</slick>
 						</div>
-						
+						<div class="inv-ann-cont showOver600">
+							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=6 slides-to-scroll=3 infinite="false">
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFoc(i)" ng-class="left_foc=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
+								</div>
+								
+							</slick>
+						</div>
+						<div class="inv-ann-cont showUnder600">
+							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=3 slides-to-scroll=2 infinite="false">
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFoc(i)" ng-class="left_foc=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
+								</div>
+								
+							</slick>
+						</div>
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc==0?'active':' '" ng-if="left_foc==0">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q1</p>
-							<a href="http://www.network18online.com/reports/Financial%20Results/2016-17/Investors%20Update%20Q1_2018-19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Investors Update Q1_2018-19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
-							<a href="http://www.network18online.com/reports/Financial%20Results/2016-17/N18Q1Results.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/N18Q1Results.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -135,37 +121,37 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Investors Update_Network18_Q4FY18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Investors Update_Network18_Q4FY18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results Q4 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Network18 Result_31.03.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Network18 Result_31.03.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q3</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Investors Update_Network18_Q3FY18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Investors Update_Network18_Q3FY18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q3 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/N181.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/N181.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q2</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Investors Update_Network18_Q2FY18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Investors Update_Network18_Q2FY18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						
 						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q2 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Network18Q2Results11102017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Network18Q2Results11102017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q1</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Investors Update_Network18_Q1FY18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Investors Update_Network18_Q1FY18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/N18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/N18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -174,39 +160,39 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Investors Update_Network18_Q4FY17_UPDATED DRAFT_18 04 2017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Investors Update_Network18_Q4FY17_UPDATED DRAFT_18 04 2017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results Q4 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/NW18FinancialResults31032017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/NW18FinancialResults31032017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q3</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Investors Update_Network18_Q3FY17 final -Website.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Investors Update_Network18_Q3FY17 final -Website.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						
 							
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q3 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/NetworkQ3 Results 31122016 _Website.pdf&#9;" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/NetworkQ3 Results 31122016 _Website.pdf&#9;" do/reports/reports/Financial Results/2016-17/NetworkQ3 Results 31122016 _Website.pdf&#9wnload="/" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q2</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Investors Update_Network18_Q2FY17.pdf&#9;" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Investors Update_Network18_Q2FY17.pdf&#9;" do/reports/reports/Financial Results/2016-17/Investors Update_Network18_Q2FY17.pdf&#9wnload="/" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q2 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Network18Results Sept 30 2016.pdf&#9;" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Network18Results Sept 30 2016.pdf&#9;" do/reports/reports/Financial Results/2016-17/Network18Results Sept 30 2016.pdf&#9wnload="/" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q1</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Investors Update_Network18_Q1FY16-17.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Investors Update_Network18_Q1FY16-17.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2016-17/Unaudited Financial Results for the quarter ended June 30 2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/Financial Results/2016-17/Unaudited Financial Results for the quarter ended June 30 2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 
 							
@@ -220,35 +206,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/Investors' update Q4_2015-16.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2015-16/Investors' update Q4_2015-16.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results Q4 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/Audited_Q4_Results.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2015-16/Audited_Q4_Results.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q3</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/Media Release - Q3 FY16 Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2015-16/Media Release - Q3 FY16 Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q3 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/Network18 Media_Q3 Results_Dec 31, 2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2015-16/Network18 Media_Q3 Results_Dec 31, 2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q2</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/Network18 Investor Update Q2 FY16.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2015-16/Network18 Investor Update Q2 FY16.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q2 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/Unaudited Financial Results_Network18_30.09.2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2015-16/Unaudited Financial Results_Network18_30.09.2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q1</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/Investors-update_June-30-2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2015-16/Investors-update_June-30-2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2015-16/Unaudited-Financial-Results_Network18_June 30-2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2015-16/Unaudited-Financial-Results_Network18_June 30-2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						
 					</ol>
@@ -258,35 +244,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2014-15/Network-18-Investor-Update-31-03-2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2014-15/Network-18-Investor-Update-31-03-2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results Q4 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2014-15/Unaudited-Results-March-31-03-2015-N18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2014-15/Unaudited-Results-March-31-03-2015-N18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q3</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2014-15/NETWORK18_Investors_Update.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2014-15/NETWORK18_Investors_Update.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q3 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2014-15/Unaudited_Finance_Results_31.12.2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2014-15/Unaudited_Finance_Results_31.12.2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q2</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2014-15/Q2_FY15_N18_Investor_Update_Final.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2014-15/Q2_FY15_N18_Investor_Update_Final.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q2 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2014-15/Network18_Q2_Results_11_10_14.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2014-15/Network18_Q2_Results_11_10_14.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q1</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2014-15/Investor_update_Q1_2014-15.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2014-15/Investor_update_Q1_2014-15.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2014-15/Financial_Results_June_30_2014_Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2014-15/Financial_Results_June_30_2014_Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 					</ol>
 				</section>
@@ -295,37 +281,37 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update Mar 2014</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2013-14/Investors-updates-March-31-2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2013-14/Investors-updates-March-31-2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results 31.03.2014</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2013-14/Audited-Financial-Results-31-03-2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2013-14/Audited-Financial-Results-31-03-2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update Dec 2013</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2013-14/QIII-FY14-N18- Investor-Update.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2013-14/QIII-FY14-N18- Investor-Update.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited financial results 31.12.2013</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2013-14/Unaudited-Financial-Results-Dec-31-2013-Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2013-14/Unaudited-Financial-Results-Dec-31-2013-Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update Sep 2013</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2013-14/N18 Investor Update -Q2 FY14-30.09.2013.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2013-14/N18 Investor Update -Q2 FY14-30.09.2013.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited financial results 30.09.2013</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2013-14/Unaudited Financial Results Q2 30.09.13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2013-14/Unaudited Financial Results Q2 30.09.13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update Jun 2013</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2013-14/N18 Investor Update -Q1FY14 30.06.2013.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2013-14/N18 Investor Update -Q1FY14 30.06.2013.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited financial results 30.06.2013</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2013-14/Results Q1 June 30 2013 Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2013-14/Results Q1 June 30 2013 Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 					</ol>
 				</section>
@@ -334,35 +320,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update Dec 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Investors Update Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update Sep 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Sept 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Investors Update Sept 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update Jun 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Jun 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Investors Update Jun 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited financial results 31.03.2013</p>
-							<a href="http://www.network18online.com/reports/N18%20-%20Clause%2041%20&amp;%20Results.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/N18 - Clause 41 &amp; Results.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Limited Review Report Dec 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Limited Review Report Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Limited Review Report Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 31.12.2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results 31.12.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Financial Results 31.12.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.09.2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results 30.09.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Financial Results 30.09.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.06.2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results - 30.06.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Financial Results - 30.06.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 					</ol>
 				</section>
@@ -371,35 +357,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update Dec 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Investors Update Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update Sep 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Sept 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Investors Update Sept 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update Jun 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Investors Update Jun 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Investors Update Jun 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited financial results 31.03.2013</p>
-							<a href="http://www.network18online.com/reports/N18%20-%20Clause%2041%20&amp;%20Results.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/N18 - Clause 41 &amp; Results.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Limited Review Report Dec 2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Limited Review Report Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Limited Review Report Dec 2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 31.12.2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results 31.12.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Financial Results 31.12.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.09.2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results 30.09.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Financial Results 30.09.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.06.2012</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2012-13/Financial Results - 30.06.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2012-13/Financial Results - 30.06.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 					</ol>
 				</section>
@@ -408,35 +394,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update March 2011</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2010-11/Investors Update March 2011.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2010-11/Investors Update March 2011.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update December 2010</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2010-11/Investors Update December 2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2010-11/Investors Update December 2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update September 2010</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2010-11/Investors Update September 2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2010-11/Investors Update September 2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update June 2010</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2010-11/Investors Update June 2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2010-11/Investors Update June 2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 31.03.2011</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2010-11/Financial Results 31.03.2011.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2010-11/Financial Results 31.03.2011.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 31.12.2010</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2010-11/Financial Results 31.12.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2010-11/Financial Results 31.12.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.09.2010</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2010-11/Financial Results 30.09.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2010-11/Financial Results 30.09.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.06.2010</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2010-11/Financial Results 30.06.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2010-11/Financial Results 30.06.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 					</ol>
 				</section>
@@ -445,35 +431,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor Update March 2010</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2009-10/Investor Update March 2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2009-10/Investor Update March 2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update December 2009</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2009-10/Investors Update December 2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2009-10/Investors Update December 2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update September 2009</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2009-10/Investors Update September 30, 2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2009-10/Investors Update September 30, 2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor Update June 2009</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2009-10/Investor Update June 2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2009-10/Investor Update June 2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 31.03.2010</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2009-10/Financial Results 31.03.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2009-10/Financial Results 31.03.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 31.12.2009</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2009-10/Financial Results 31.12.2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2009-10/Financial Results 31.12.2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.09.2009</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2009-10/Financial Results 30.09.2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2009-10/Financial Results 30.09.2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30 06 2009</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2009-10/Financial Results 30 06 2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2009-10/Financial Results 30 06 2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 					</ol>
 				</section>
@@ -482,35 +468,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor Update March 2009</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2008-09/Investor Update March 2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2008-09/Investor Update March 2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update December 2008</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2008-09/Investors Update December 2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2008-09/Investors Update December 2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update September 2008</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2008-09/Investors Update September 2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2008-09/Investors Update September 2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update June 2008</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2008-09/Investors Update June 2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2008-09/Investors Update June 2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 31.03.2009</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2008-09/Financial Results 31.03.2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2008-09/Financial Results 31.03.2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 31.12.2008</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2008-09/Financial Results 31.12.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2008-09/Financial Results 31.12.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.09.2008</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2008-09/Financial Results 30.09.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2008-09/Financial Results 30.09.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.06.2008</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2008-09/Financial Results 30.06.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2008-09/Financial Results 30.06.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 							</li>
 					</ol>
 				</section>
@@ -518,35 +504,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor Update March 2008</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Investor Update March 2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2007-08/Investor Update March 2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update December 2007</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Investors Update December 2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2007-08/Investors Update December 2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor Update September 2007</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Investor Update September 2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2007-08/Investor Update September 2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update June 2007</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Investors Update June 2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2007-08/Investors Update June 2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 31.03.2008</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Financial Results 31.03.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2007-08/Financial Results 31.03.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 31.12.2007</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Financial Results 31.12.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2007-08/Financial Results 31.12.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.09.2007</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Financial Results 30.09.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2007-08/Financial Results 30.09.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.06.2007</p>
-							<a href="http://www.network18online.com/reports/Financial Results/2007-08/Financial Results 30.06.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2007-08/Financial Results 30.06.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 					</ol>
 				</section>
@@ -554,7 +540,7 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update March 31, 2007</p>
-							<a href="http://www.network18online.com/reports/Financial%20Results/2006-07/Investors%20Update%20March%2031,%202007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reports/Financial Results/2006-07/Investors Update March 31, 2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 					</ol>
 				</section>
@@ -573,60 +559,87 @@
 							<button class="empPrev"></button>
 							<button class="empNext"></button>
 						</div>
-						<div class="inv-ann-cont">
-							<slick class="" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=10 slides-to-scroll=1 infinite="false">
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==0?'active':' '" ng-click="changeFocTV0(0)" index="0" heading="2018-19">
-									<a ng-click="" class="nav-link"">2018-19</a>
+						<div class="inv-ann-cont showOver992">
+							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=9 slides-to-scroll=3 infinite="false">
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFocTV0(i)" ng-class="left_foctv0=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
 								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==1?'active':' '" ng-click="changeFocTV0(1)" index="1" heading="2017-18">
-									<a ng-click="" class="nav-link"">2017-18</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==2?'active':' '" ng-click="changeFocTV0(2)" index="2" heading="2016-17">
-									<a ng-click="" class="nav-link"">2016-17</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==3?'active':' '" ng-click="changeFocTV0(3)" index="3" heading="2015-16">
-									<a ng-click="" class="nav-link"">2015-16</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==4?'active':' '" ng-click="changeFocTV0(4)" index="4" heading="2014-15">
-									<a ng-click="" class="nav-link"">2014-15</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==5?'active':' '" ng-click="changeFocTV0(5)" index="5" heading="2013-14">
-									<a ng-click="" class="nav-link"">2013-14</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==6?'active':' '" ng-click="changeFocTV0(6)" index="6" heading="2012-13">
-									<a ng-click="" class="nav-link"">2012-13</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==7?'active':' '" ng-click="changeFocTV0(7)" index="7" heading="2011-12">
-									<a ng-click="" class="nav-link"">2011-12</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==8?'active':' '" ng-click="changeFocTV0(8)" index="8" heading="2010-11">
-									<a ng-click="" class="nav-link"">2010-11</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==9?'active':' '" ng-click="changeFocTV0(9)" index="9" heading="2009-10">
-									<a ng-click="" class="nav-link"">2009-10</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==10?'active':' '" ng-click="changeFocTV0(10)" index="10" heading="2008-09">
-									<a ng-click="" class="nav-link"">2008-09</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==11?'active':' '" ng-click="changeFocTV0(11)" index="11" heading="2007-08">
-									<a ng-click="" class="nav-link"">2007-08</a>
-								</div>
-								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==12?'active':' '" ng-click="changeFocTV0(12)" index="12" heading="2006-07">
-									<a ng-click="" class="nav-link"">2006-07</a>
-								</div>
+								
 							</slick>
 						</div>
+						<div class="inv-ann-cont showOver600">
+							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=6 slides-to-scroll=3 infinite="false">
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFocTV0(i)" ng-class="left_foctv0=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
+								</div>
+								
+							</slick>
+						</div>
+						<div class="inv-ann-cont showUnder600">
+							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=3 slides-to-scroll=2 infinite="false">
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFocTV0(i)" ng-class="left_foctv0=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
+								</div>
+								
+							</slick>
+						</div>
+						<!-- <div class="inv-ann-cont">
+							<slick class="" responsive="breakpoints" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=10 slides-to-scroll=1 infinite="false">
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==0?'active':' '" ng-click="changeFocTV0(0)" index="0" heading="2018-19">
+									<a  class="nav-link"">2018-19</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==1?'active':' '" ng-click="changeFocTV0(1)" index="1" heading="2017-18">
+									<a  class="nav-link"">2017-18</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==2?'active':' '" ng-click="changeFocTV0(2)" index="2" heading="2016-17">
+									<a  class="nav-link"">2016-17</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==3?'active':' '" ng-click="changeFocTV0(3)" index="3" heading="2015-16">
+									<a  class="nav-link"">2015-16</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==4?'active':' '" ng-click="changeFocTV0(4)" index="4" heading="2014-15">
+									<a  class="nav-link"">2014-15</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==5?'active':' '" ng-click="changeFocTV0(5)" index="5" heading="2013-14">
+									<a  class="nav-link"">2013-14</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==6?'active':' '" ng-click="changeFocTV0(6)" index="6" heading="2012-13">
+									<a  class="nav-link"">2012-13</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==7?'active':' '" ng-click="changeFocTV0(7)" index="7" heading="2011-12">
+									<a  class="nav-link"">2011-12</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==8?'active':' '" ng-click="changeFocTV0(8)" index="8" heading="2010-11">
+									<a  class="nav-link"">2010-11</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==9?'active':' '" ng-click="changeFocTV0(9)" index="9" heading="2009-10">
+									<a  class="nav-link"">2009-10</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==10?'active':' '" ng-click="changeFocTV0(10)" index="10" heading="2008-09">
+									<a  class="nav-link"">2008-09</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==11?'active':' '" ng-click="changeFocTV0(11)" index="11" heading="2007-08">
+									<a  class="nav-link"">2007-08</a>
+								</div>
+								<div class="uib-tab nav-item annItem" ng-class="left_foctv0==12?'active':' '" ng-click="changeFocTV0(12)" index="12" heading="2006-07">
+									<a  class="nav-link"">2006-07</a>
+								</div>
+							</slick>
+						</div> -->
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv0==0?'active':' '" ng-if="left_foctv0==0">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q1</p>
-							<a href="http://www.network18online.com/reportstv18/Financial%20Results/2016-2017/InvestorsUpdateTV18Q1FY19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2016-2017/InvestorsUpdateTV18Q1FY19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
-							<a href="http://www.network18online.com/reportstv18/Financial%20Results/2016-2017/TV18FinancialResults30062018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2016-2017/TV18FinancialResults30062018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -670,35 +683,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2016-2017/InvestorsUpdateTV18Q4FY17.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2016-2017/InvestorsUpdateTV18Q4FY17.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results Q4 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2016-2017/TV18FinancialResults31032017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2016-2017/TV18FinancialResults31032017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q3</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2016-2017/Investorsupdateonfinancials.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2016-2017/Investorsupdateonfinancials.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q3 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2016-2017/TV18UFR31122016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2016-2017/TV18UFR31122016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q2</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2016-2017/Investors Update Q2_2016-17.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2016-2017/Investors Update Q2_2016-17.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q2 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2016-2017/Unaudited Financial Results for the quarter ended September.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2016-2017/Unaudited Financial Results for the quarter ended September.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q1</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2016-2017/InvestorsUpdateTV18Q1FY17.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2016-2017/InvestorsUpdateTV18Q1FY17.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2016-2017/Unauditedstandalonefinancialresultsqtrended30june2016TV18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2016-2017/Unauditedstandalonefinancialresultsqtrended30june2016TV18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -706,35 +719,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2015-2016/TV18_Investors Update Q4_2015-16.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2015-2016/TV18_Investors Update Q4_2015-16.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results Q4 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2015-2016/Audited Financial Results for the quarter and year ended March 31, 2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2015-2016/Audited Financial Results for the quarter and year ended March 31, 2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q3</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2015-2016/TV18InvestorsUpdateQ3FY16.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2015-2016/TV18InvestorsUpdateQ3FY16.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q3 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2015-2016/TV18UFR31122015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2015-2016/TV18UFR31122015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q2</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2015-2016/Investors Update September 2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2015-2016/Investors Update September 2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q2 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2015-2016/Unaudited Financial Results for the quarter ended September 30, 2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2015-2016/Unaudited Financial Results for the quarter ended September 30, 2015.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q1</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2015-2016/Investors Update Q1FY16 TV18 22072015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2015-2016/Investors Update Q1FY16 TV18 22072015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2015-2016/Unaudited Financial Results for the Quarter Ended June 30, 2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2015-2016/Unaudited Financial Results for the Quarter Ended June 30, 2015.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -742,35 +755,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q4</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2014-2015/Q4_FY15_TV18_Investor_Update.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2014-2015/Q4_FY15_TV18_Investor_Update.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results Q4 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2014-2015/TV18-Audited Financials_31.03.2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2014-2015/TV18-Audited Financials_31.03.2015.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q3</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2014-2015/Q3_FY15_TV18_Investor_Update.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2014-2015/Q3_FY15_TV18_Investor_Update.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q3 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2014-2015/TV18BroadcastLtdUnauditedFinancialResultsQtrDec312014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2014-2015/TV18BroadcastLtdUnauditedFinancialResultsQtrDec312014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q2</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2014-2015/TV18_Q2_Investor_Update.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2014-2015/TV18_Q2_Investor_Update.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q2 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2014-2015/UFR_September_2014_TV18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2014-2015/UFR_September_2014_TV18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investors Update - Q1</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2014-2015/QI_Investor_Update.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2014-2015/QI_Investor_Update.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results Q1 end</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2014-2015/TV18-UFR-June_30_2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2014-2015/TV18-UFR-June_30_2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -778,35 +791,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results for the quarter and year ended 31.03.2014</p>
-							<a href="http://www.network18online.com/reportstv18//2014/TV18-Financial-Results-FY 13-14.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//2014/TV18-Financial-Results-FY 13-14.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor Update Q4-2013-14</p>
-							<a href="http://www.network18online.com/reportstv18//2014/TV18-FY14-Investor-Update_27.05.14.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//2014/TV18-FY14-Investor-Update_27.05.14.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited financial Results for the quarter and nine months ended 31.12.2013</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2013-2014/UFR - December 31, 2013  TV18-1.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2013-2014/UFR - December 31, 2013  TV18-1.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q3 2013-14</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2013-2014/TV18- Investor Update-QIII FY14-1.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2013-2014/TV18- Investor Update-QIII FY14-1.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q2 2013-14</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2013-2014/TV18Investor Update-Q2FY14.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2013-2014/TV18Investor Update-Q2FY14.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited financial Results for the quarter and half year ended 30.09.2013</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2013-2014/UFR-30Sep2013.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2013-2014/UFR-30Sep2013.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q1 2013-14</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2013-2014/Investor Update Q1 2013-14.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2013-2014/Investor Update Q1 2013-14.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 30.06.2013</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2013-2014/Unaudited Financial Results - 30.06.2013.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2013-2014/Unaudited Financial Results - 30.06.2013.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -814,35 +827,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q4 FY12-13</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2012-2013/Investor update Q4 FY12-13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2012-2013/Investor update Q4 FY12-13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q3 FY12-13</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2012-2013/TV18_Investor Update_Q3_FY12-13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2012-2013/TV18_Investor Update_Q3_FY12-13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q2 FY12-13</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2012-2013/TV18_Investor Update_Q2_FY12-13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2012-2013/TV18_Investor Update_Q2_FY12-13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q1 FY12-13</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2012-2013/TV18 Investor Update_Q1_FY12-13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2012-2013/TV18 Investor Update_Q1_FY12-13.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results 31.03.2013</p>
-							<a href="http://www.network18online.com/reports/BSE%20-%20Annual%20Audited%20Results%20-%20March%2031,%202013.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reports/BSE - Annual Audited Results - March 31, 2013.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 31.12.2012</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2012-2013/TV18_UFR_31.12.2012.pdf.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2012-2013/TV18_UFR_31.12.2012.pdf.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 30.09.2012</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2012-2013/TV18_UFR_30.09.2012.pdf.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2012-2013/TV18_UFR_30.09.2012.pdf.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 30.06.2012</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2012-2013/TV18_UFR_30.06.2012.pdf.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2012-2013/TV18_UFR_30.06.2012.pdf.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -850,35 +863,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q4 FY11-12</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2011-2012/TV18_investor Update_Q4_FY11-12.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2011-2012/TV18_investor Update_Q4_FY11-12.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q3 FY11-12</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2011-2012/TV18_ Investor Update_Q3_FY11-12.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2011-2012/TV18_ Investor Update_Q3_FY11-12.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q2 FY11-12</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2011-2012/TV18_Investor Update_Q2_FY11-12.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2011-2012/TV18_Investor Update_Q2_FY11-12.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q1 FY11-12</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2011-2012/TV18_Investor Update_Q1_FY11-12.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2011-2012/TV18_Investor Update_Q1_FY11-12.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 31.03.2012</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2011-2012/TV18_UFR_31.03.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2011-2012/TV18_UFR_31.03.2012.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 31.12.2011</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2011-2012/TV18_UFR_31.12.2011.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2011-2012/TV18_UFR_31.12.2011.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 30.09.2011</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2011-2012/TV18_UFR_30.09.2011.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2011-2012/TV18_UFR_30.09.2011.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 30.06.2011</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2011-2012/TV18_UFR_30.06.2011.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2011-2012/TV18_UFR_30.06.2011.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -886,35 +899,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q4 FY10-11</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2010-2011/IBN18_Investor Update_Q4_FY2010-11.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2010-2011/IBN18_Investor Update_Q4_FY2010-11.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q3 FY10-11</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2010-2011/IBN18_Investor Update_Q3 FY2010-11.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2010-2011/IBN18_Investor Update_Q3 FY2010-11.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q2 FY10-11</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2010-2011/IBN18_Iinvesor Update_Q2_ FY2010-11.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2010-2011/IBN18_Iinvesor Update_Q2_ FY2010-11.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q1 FY10-11</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2010-2011/IBN18_Investor Update_Q1_ FY2010-11.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2010-2011/IBN18_Investor Update_Q1_ FY2010-11.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results 31.03.2011</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2010-2011/IBN18_AFR_31.03.2011.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2010-2011/IBN18_AFR_31.03.2011.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 31.12.2010</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2010-2011/IBN18_UFR_31.12.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2010-2011/IBN18_UFR_31.12.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 30.09.2010</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2010-2011/IBN18_UFR_30.09.2010.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2010-2011/IBN18_UFR_30.09.2010.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 30.06.2010</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2010-2011/IBN18_UFR_ 30.06.2010.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2010-2011/IBN18_UFR_ 30.06.2010.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -922,35 +935,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q4 FY09-10</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2009-2010/IBN18_Investor Update_Q4&amp; FY2009-10.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2009-2010/IBN18_Investor Update_Q4&amp; FY2009-10.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q3 FY09-10</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2009-2010/IBN18_Investor Update_Q3_FY2009-10.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2009-2010/IBN18_Investor Update_Q3_FY2009-10.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q2 FY09-10</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2009-2010/IBN18_Investor Update_Q2_FY2009-2010.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2009-2010/IBN18_Investor Update_Q2_FY2009-2010.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q1 FY09-10</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2009-2010/IBN18_Investor Update_Q1_FY2009-10.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2009-2010/IBN18_Investor Update_Q1_FY2009-10.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results 31.03.2010</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2009-2010/IBN18_Audited Financial Results_31.03.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2009-2010/IBN18_Audited Financial Results_31.03.2010.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 31.12.2009</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2009-2010/IBN18_UFR_31.12.2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2009-2010/IBN18_UFR_31.12.2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 30.09.2009</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2009-2010/IBN18_UFR_30.09.2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2009-2010/IBN18_UFR_30.09.2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 30.06.2009</p>
-							<a href="http://www.network18online.com/reportstv18//Financial Results/2009-2010/IBN18_UFR-30.06.2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18//Financial Results/2009-2010/IBN18_UFR-30.06.2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -958,35 +971,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q4 FY08-09</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/ibn18_Investor Update_Q4&amp;FY 2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2008-2009/ibn18_Investor Update_Q4&amp;FY 2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q3 FY08-09</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_Investor Update_Q3_FY2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2008-2009/IBN18_Investor Update_Q3_FY2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q2 FY08-09</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_Investor Update _Q2_FY2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2008-2009/IBN18_Investor Update _Q2_FY2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q1 FY08-09</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_Investor Update_Q1_FY2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2008-2009/IBN18_Investor Update_Q1_FY2008-2009.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results 31.03.2009</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/ibn18-Audited Financial Results_31.03.2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2008-2009/ibn18-Audited Financial Results_31.03.2009.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 31.12.2008</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_UFR_31.12.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2008-2009/IBN18_UFR_31.12.2008.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 30.09.2008</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_UFR_30.09.2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2008-2009/IBN18_UFR_30.09.2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 30.06.2008</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2008-2009/IBN18_UFR_30.06.2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2008-2009/IBN18_UFR_30.06.2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -994,35 +1007,35 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q4 FY07-08</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2007-2008/Ibn18_Investor Update_Q4_FY2007-2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2007-2008/Ibn18_Investor Update_Q4_FY2007-2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q3 FY07-08</p>
-							<a href="http://www.network18online.com/reportstv18/Notices Events/Press Release/2007-2008/Press Release - Q3.doc.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Notices Events/Press Release/2007-2008/Press Release - Q3.doc.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q2 FY07-08</p>
-							<a href="http://www.network18online.com/reportstv18/Notices Events/Press Release/2007-2008/Press Release - Q2.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Notices Events/Press Release/2007-2008/Press Release - Q2.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q1 FY07-08</p>
-							<a href="http://www.network18online.com/reportstv18/Notices Events/Press Release/2007-2008/30.06.2007-Q1.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Notices Events/Press Release/2007-2008/30.06.2007-Q1.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Audited Financial Results 31.03.2008</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2007-2008/ibn18_Audited Financial Results_31.03.2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2007-2008/ibn18_Audited Financial Results_31.03.2008.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Unaudited Financial Results 31.12.2007</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2007-2008/Unaudited Financial Results - 31.12.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2007-2008/Unaudited Financial Results - 31.12.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.09.2007</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2007-2008/Fiancial Results - 30.09.2007 .doc.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2007-2008/Fiancial Results - 30.09.2007 .doc.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Financial Results 30.06.2007</p>
-							<a href="http://www.network18online.com/reportstv18/Financial Results/2007-2008/Financial Results - 30.06.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2007-2008/Financial Results - 30.06.2007.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
@@ -1030,7 +1043,7 @@
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Investor update Q4 FY06-07</p>
-							<a href="http://www.network18online.com/reportstv18/Financial%20Results/2006-2007/GBN%20Press%20Release_30.04.2007.doc.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+							<a href="/reports/reportstv18/Financial Results/2006-2007/GBN Press Release_30.04.2007.doc.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 						
 					</ol>

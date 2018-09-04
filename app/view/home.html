@@ -14,7 +14,7 @@
 	</div>
 </div>
 <div class="headerMainContainer animateHeaderHome"> 
-	<img src="/images/MENU_PAGE.png" alt="" class="header_bg_img">
+	<img src="/images/footage/MENU_PAGE.png" alt="" class="header_bg_img">
 
 	<div class="header-top">
 		<div class="headerInner closeBtn" style="text-align: center;">
@@ -137,12 +137,15 @@
 		</div>
 		<!-- <img src="images/mbAbtBg.png" alt="" class="mobShow">
 		<img src="images/mbAbtBg.png" alt="" class="mobHide"> -->
+		<button ng-if="!errSrcVid" class="skipVid muteVid mobHide" ng-click="muteVid=!muteVid"><img src="/images/boxes/headphone.png" alt="" ></button>
 		<button class="skipVid arrowAnimate arrText mobHide" ng-click="skipVid()">Skip <img src="/images/aerrow_wn.png" alt=""></button>
-		<div id="home_vid" class="mobHide" style="height: {{pHigh}}px;width: {{pWid}}px;">
+		<div id="home_vid" class="mobHide" style="height: {{pHigh}}px;width: {{pWid}}px;" ng-if="errSrcVid">
 			
 			<youtube-video ng-if="enableYT" player-vars="playerVars" player="bestPlayer" video-id="theBestVideo" player-width="'100%'" player-height="'100%'" ></youtube-video>
 		</div>
-		
+		<video id="home_vid" autoplay ui-event="{ ended : 'callOnEnd()'}" muted class="mobHide" ng-if="!errSrcVid">
+			<source src="/images/footage/home_vid.mp4" type="video/mp4" class="top">
+		</video>
 	</div>
 	<div class="logoSliderHomeCont" style="" ng-class="{'active':eventEnd}">
 		<div class="nwklist">
@@ -151,7 +154,7 @@
 				<ul>
 					<li ng-repeat="each in data">
 						<a href="{{each.href}}" target="_blank">
-							<img  src="{{each.img}}" alt="" class="{{each.class}}" />
+							<img  lazy-img="{{each.img}}" alt="" class="{{each.class}}" />
 						</a>
 					</li>
 				</ul>
@@ -165,35 +168,58 @@
 		$(document).ready(function() {
 			$("#a1").scrollForever({continuous:true,num:20});
 			
+			var maxWidth = 0;
 			var windowHeight = $(window).height();
 			var windowWid = $(window).width();
 			var ar = windowWid/windowHeight;
 			
 			if (ar<1.7626) {
 				$('.headerMainContainer>img').css({
-				height: '100vh',
-				width: 'auto'
+					height: '100vh',
+					width: 'auto'
 				});
 			}else {
 				$('.headerMainContainer>img').css({
-				height: 'auto',
-				width: '100vw'
+					height: 'auto',
+					width: '100vw'
 				});
 			};
+			$('.headerMainContainer').height(windowHeight);
+			$('#headerLinkCont').height(windowHeight-80);
+
 			$('.open').on('click', function(e){
 				$('.fixed-link-top').hide();
+				windowHeight = $(window).height();
+				windowWid = $(window).width();
+				$('.headerMainContainer').height(windowHeight);
+				$('#headerLinkCont').height(windowHeight-80);
+				ar = windowWid/windowHeight;
+			
+				if (ar<1.7626) {
+					$('.headerMainContainer>img').css({
+						height: '100vh',
+						width: 'auto'
+					});
+				}else {
+					$('.headerMainContainer>img').css({
+						height: 'auto',
+						width: '100vw'
+					});
+				};
 				$('.headerMainContainer').animate({top: 0,left:0,width:100+'%',opacity:1}, 600, 'easeInOutCirc', function(){
 					maxWidth = $('.containerHeaderLinks').width();
 					$('.subCrumbsCont').css('left', $('.containerHeaderLinks').offset().left);
 					$('.subCrumbsCont').width(maxWidth);
 				});
-				if (windowWid>1000) {
+				if (windowWid>=1000) {
 					setTimeout(function () {
 						$('.header_bg_img').addClass('active');
 						setTimeout(function(){
 							$('.header_bg_img').removeClass('active');
-						},4000);
+						},11000);
 					},300);	
+				}else if (windowWid<1000 && windowWid>600) {
+
 				}else{
 					$('.header_bg_img.mobShow').addClass('activate');
 				}
@@ -209,22 +235,38 @@
 
 				}
 			});
-			$('.headerMainContainer').height(windowHeight);
-			$('#headerLinkCont').height(windowHeight-80);
-
-			var windowHeight = $(window).height();
 			
-			$('.mainBodyContainerFull').animate({
-				paddingTop: 0+'px',
-
-				},
-				1000, function() {
+			
+			$('.headerCrumbs').on('mouseenter',function(e){
+				$(this).siblings('div').addClass('diminsh');
+			}).on('mouseleave',function(e){
+				$(this).siblings('div').removeClass('diminsh');
+			});
+			
+			$('.subCrumbsLinks,.headerLinkMob').on('click', function(event) {
+				if (windowWid>1000) {
+					$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 600, 'easeInOutCirc');
+				}else{
+					$('.headerMainContainer').animate({top: 0+'%',left:-110+'%',width:0,opacity:0}, 600, 'easeInOutCirc');
+				}
+			});
+			$('.headerCrumbs').children('p').children('a').on('click', function(event) {
+				if (windowWid>1000) {
+					$('.headerMainContainer').animate({top: -101+'%',left:50+'%',width:0,opacity:0}, 600, 'easeInOutCirc');
+				}else{
+					$('.headerMainContainer').animate({top: 0+'%',left:-110+'%',width:0,opacity:0}, 600, 'easeInOutCirc');
+				}
 			});
 
 			var windowWidth = $(window).width();
 			if (windowWidth<1000) {
 				$('.animateHeaderHome').hide();
 			}
-			
+			var video=document.getElementById("home_vid") ;   
+
+			$('.muteVid').on("click", function(e){
+			      video.muted = !video.muted;
+			      $(this).toggleClass('muted');
+			});
 		});
 	</script>
