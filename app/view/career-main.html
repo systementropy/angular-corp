@@ -7,7 +7,7 @@
 		<video class="mobShow top" width="100%" autoplay="" loop="">
 			<source src="images/footage/MOBILE_SIZE/3893537-mobile-CAREER-graded.mp4" type="video/mp4" class="top">
 		</video>
-		<video class="mobHide top" width="100%" autoplay="" loop="">
+		<video class="mobHide" width="100%" autoplay="" loop="">
 			<source src="images/footage/3893537-hd-CAREER-gradednew.mp4" type="video/mp4" class="top">
 		</video>
 		<!-- <div id="home_vid" class="mobHide" style="height: {{pHigh}}px;width: {{pWid}}px;">
@@ -19,6 +19,7 @@
 		<span class="animateHeight"></span>
 		<span class="animateHeightBg"></span>
 	</div>
+	<div id="scrollOHer"></div>
 	<div class="portfolioContainer corpMainCont carMainCio">
 		<div class="container" style="max-width: 1140px;">
 			<div class="flex-cont career-results-main">
@@ -81,10 +82,18 @@
 	$(document).ready(function() {
 		var maxWidth = 0;
 		var windowHeight = $(window).height();
+		var windowwidth = $(window).width();
+		if (windowwidth<700) {
+			//$('.mainBodyContainerCarFull').scrollTop(400);
+			//$('#scrollOHer').scrollTop();
+			$('html, body').animate({ scrollTop: ($('#scrollOHer').offset().top) },500);
+
+		}
 		$('.mainBodyContainerFull').animate({
 			//height: windowHeight+'px',
 			//paddingTop: 0,
 			opacity:1
 		},1000);
+
 	});
 </script>

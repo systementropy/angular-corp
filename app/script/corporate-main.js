@@ -18,6 +18,7 @@
             if (!status) {
                     $scope.openMap={
                         'Management':{},
+                        'TV':{},
                         'CNBC':{},
                         'News18':{},
                         'Digital':{},
@@ -29,6 +30,7 @@
             }else {
                 $scope.openMap={
                     'Management':{},
+                    'TV':{},
                     'CNBC':{},
                     'News18':{},
                     'Digital':{},
@@ -48,13 +50,32 @@
                         'text':"Rahul Joshi, who currently serves as the company’s Managing Director, has been a part of the Network18 Group since September 2015. Prior to joining the organization, he has worked with reputed publications such as The Indian Express and The Economic Times, where he was also responsible for launching ETNOW in 2009 and shaping ET online’s digital coverage. He holds a Masters in Management degree from Narsee Monjee Institute of Management Studies (NMIMS), Mumbai University.",
                         'img':"/images/profile/rahuljoshi.png"
                     },{
+                        'name':"Ramesh Damani",
+                        'text':"Ramesh Kumar Damani is the Group Chief Financial Officer of Network18 and TV18. Ramesh is a qualified Chartered Accountant and Company Secretary and has a rich professional experience of close to 25 years in the fields of Finance, Taxation, Mergers and Acquisitions, Planning, Corporate laws and Corporate Strategy. Ramesh has been with Reliance for 12 years and since October 2015 has been overseeing the finance function of the Network18 group.",
+                        'img':"/images/profile/RameshDamani.png"
+                    },{
+                        'name':"Kshipra Jatana",
+                        'text':"Kshipra is the Group General Counsel, Network18",
+                        'img':"/images/profile/KshipraJatana.png"
+                    },{
+                        'name':"P Sakthivel",
+                        'text':"P Sakthivel has been part of Reliance Industries Limited for more than 13 years and is currently the Chief Human Resource Officer of Network 18 Group. He has been instrumental in setting up HR systems & processes for Reliance Exploration & Production (E&P) business and Reliance Jio before taking over the current role.  Erstwhile he has worked in ONGC, EID Parry India Limited, Arthur Anderson and Bharti Airtel.",
+                        'img':"/images/profile/psakthivel.png"
+                    },{
+                        'name':"Rajat Nigam",
+                        'text':"Rajat leads the Technology for the group both in Broadcast and Digital domains. He drives synergies and integrations of various technologies used at different products/businesses of the group. With over 26 years of experience and exposure to all aspects of media technology ranging from Satellite Communication, International Sports, News Broadcast, FM Radio to Digital Media, he spearheads the technology innovations, digital transformation and operations for the Network.'",
+                        'img':"/images/profile/RajatNigam.png"
+                    }
+                ],
+                'TV':[
+                    {
                         'name':"Avinash Kaul",
                         'text':"Avinash is currently the Chief Operating Officer – Network18 and Managing Director, A+E Networks | TV18( History TV18 and FYI TV18 ). Avinash joined TV18 in mid-2014 as the CEO of IBN News Network and prior to that he was the Chief Executive Officer at Bennett Coleman and Company Ltd TV Division ( Times Now, ET Now, Zoom ) & CEO of Sahara One Media and Entertainment Ltd. He was part of the launch team of NDTV when it turned broadcaster in 2001 and also set up the consulting division of NDTV Media which worked on brands like MSN , Disney, Nickelodeon among other regional and national channel brands in India .  His earlier stints in Media were with Star India and Discovery Communications. Avinash has done his Master in Media Studies from Sydenham Institute of Management Studies and is a Bachelor of Mechanical Engineering from Pune University.",
                         'img':"/images/profile/avinashkaul.png"
                     },{
-                        'name':"Joy Chakraborthy",
-                        'text':"Revenue head for TV18 news channels, Joy is also CEO for Forbes India . Spanning a Media career of 26 years, Joy’s forte is advertising sales and revenue generation. In his previous roles, Joy was Director at the Times of India Group, CEO of TV Today, Executive Director at Zee Network and Executive Vice-President at Star India. Joy also holds an AMP Degree from Harvard Business School.",
-                        'img':"/images/profile/Joy-Chakraborthy.png"
+                        'name':"Priyanka Kaul",
+                        'text':"Priyanka leads Marketing and Special Projects for Network 18 aligning strategy and content across all verticals for domestic and international markets. She also focuses on driving social change in India through 360 degree media campaigns for the group. Previously, Priyanka was Chief Revenue and Marketing Officer for the NDTV Group. In 2007, she founded the Special Projects and Campaigns vertical at NDTV – a first in India. She has won various awards, including the prestigious Commonwealth Broadcasting Association Award.",
+                        'img':"/images/profile/PriyankaKaul.png"
                     },{
                         'name':"Santosh Menon",
                         'text':"Santosh Menon heads editorial and content  for Network 18’s digital operations as Chief Content Officer and also plays a key role in integrating editorial operations across platforms and brands. A journalist with more than two decades of experience across continents, Santosh joined Network 18 in April 2016 from The Economic Times where he was Deputy Executive Editor and Head of News. Before that he worked for Reuters in London and reported from around Europe. At Network 18, he has driven editorial strategy and expansion across brands and spearheaded the creation of new properties.",
@@ -71,26 +92,6 @@
                         'name':"Rahul Kansal",
                         'text':"Rahul Kansal, Group Brand Advisor, helps the various business verticals of Network  18 with their brand-building and marketing strategies. He is also overseeing the company’s forthcoming entry into news publishing. Rahul is a veteran of media marketing, and was earlier Executive President of Bennett Coleman, serving as business head of The Times of India and the company’s language newspapers.",
                         'img':"/images/profile/RahulKansal.png"
-                    },{
-                        'name':"Priyanka Kaul",
-                        'text':"Priyanka leads Marketing and Special Projects for Network 18 aligning strategy and content across all verticals for domestic and international markets. She also focuses on driving social change in India through 360 degree media campaigns for the group. Previously, Priyanka was Chief Revenue and Marketing Officer for the NDTV Group. In 2007, she founded the Special Projects and Campaigns vertical at NDTV – a first in India. She has won various awards, including the prestigious Commonwealth Broadcasting Association Award.",
-                        'img':"/images/profile/PriyankaKaul.png"
-                    },{
-                        'name':"Ramesh Damani",
-                        'text':"Ramesh Kumar Damani is the Group Chief Financial Officer of Network18 and TV18. Ramesh is a qualified Chartered Accountant and Company Secretary and has a rich professional experience of close to 25 years in the fields of Finance, Taxation, Mergers and Acquisitions, Planning, Corporate laws and Corporate Strategy. Ramesh has been with Reliance for 12 years and since October 2015 has been overseeing the finance function of the Network18 group.",
-                        'img':"/images/profile/RameshDamani.png"
-                    },{
-                        'name':"Kshipra Jatana",
-                        'text':"Kshipra is the Group General Counsel, Network18",
-                        'img':"/images/profile/KshipraJatana.png"
-                    },{
-                        'name':"P Sakthivel",
-                        'text':"P Sakthivel has been part of Reliance Industries Limited for more than 13 years and is currently the Chief Human Resource Officer of Network 18 Group. He has been instrumental in setting up HR systems & processes for Reliance Exploration & Production (E&P) business and Reliance Jio before taking over the current role.  Erstwhile he has worked in ONGC, EID Parry India Limited, Arthur Anderson and Bharti Airtel.",
-                        'img':"/images/profile/psakthivel.png"
-                    },{
-                        'name':"Rajat Nigam",
-                        'text':"Rajat leads the Technology for the group both in Broadcast and Digital domains. He drives synergies and integrations of various technologies used at different products/businesses of the group. With over 26 years of experience and exposure to all aspects of media technology ranging from Satellite Communication, International Sports, News Broadcast, FM Radio to Digital Media, he spearheads the technology innovations, digital transformation and operations for the Network.'",
-                        'img':"/images/profile/RajatNigam.png"
                     }
                 ],
                 'CNBC':[
@@ -123,7 +124,7 @@
                         'img':"/images/profile/anuradhasengupta.png"
                     },{
                         'name':"Zakka Jacob",
-                        'text':"Zakka Jacob is the Output Editor of CNN News18 where his role involves editorializing the channel’s daily news coverage. He leads a team of about 40 people giving editorial direction to the channel’s coverage, prioritizing & positioning of stories and delivering a cutting-edge to CNN News18’s staple of daily news. In addition to his Output role, he also anchors the 8 PM primetime show FaceOff. Zakka was awarded the Best News Anchor in Asia by the Asian Television Academy in 2016.",
+                        'text':"Zakka Jacob is Editor-Output of CNN News 18 and the host of the channel’s flagship show Face-Off Tonight. He is the only Indian Anchor who has won the prestigious Asian Television Award for Best Anchor in Asia, TWICE. Zakka won this award for the first time in 2016 and again in 2018. In his span in CNN News18, Zakka has managed to carve a niche in the crowded and noisy primetime which is dominated by loud talking panelists and shouting matches that pass off as debates. Zakka’s calm demeanor and sharp questions have quickly earned him the moniker “thinking man’s anchor”. Last year he was chosen in Impact Magazine's 40 under 40 list of influential media persons. Prior to joining CNN News18, Zakka worked in China Central Television from 2011 to 2014 becoming the first South Asian face on Chinese television. Zakka brings an international flavor to CNN News18’s programming. He started his career in 2001 with Sun News, a regional channel before moving to New Delhi with Headlines Today. At the time of Debut, Zakka was the youngest male anchor on Indian news TV.",
                         'img':"/images/profile/zakkajacob.png"
                     },{
                         'name':"Sudeep Mukhia",
@@ -142,9 +143,9 @@
                         'text':"With a career span of over 16 years, Amish Devgan, Executive Editor, News18 India is a well-known name in the media. From Hindustan Times to Zee Media, he has worked with some of the biggest brands in the industry. Prior to becoming the Chief Editor of Zee Business, in May 2015, Amish had also worked as Deputy Editor, Editor – Output and Editor – Special Projects of the channel. Known for his fearless journalism and undaunted attitude, Amish has led many big expose, be it coal scam and Odisha’s mining scam or disclosures related to hawala accused businessman Moin Qureshi.",
                         'img':"/images/profile/amishdevgan.png"
                     },{
-                        'name':"Sumit Awasthi",
-                        'text':"Sumit is a Prime-time anchor with News18 India, leading Hindi news channel of the country. He host a flagship debate show called “Hum To Puchhenge”, which is top-rated show among Hindi audiences. Apart then Anchoring on leading stories/ Events like Elections etc. he also leads the news gathering team. He is responsible for News selection and Reporters deployments. Erstwhile, He was with leading Hindi news channels like Aaj Tak & Zee News where he held critical positions like Senior Editor and Resident Editor, respectively.",
-                        'img':"/images/profile/sumitawasthi.png"
+                        'name':"Anand Narasimhan",
+                        'text':"Anand Narasimhan, Deputy Executive Editor at CNN News18 is one of those lucky few whose passion is their profession. An MBA working as a media planner with Group M, Anand stumbled into broadcast after he won ‘Dream Job – Harsha Ki Khoj’ in 2005. His decade and a half broadcast career has seen him progress from a Sports Presenter with ESPN Star Sports to a full time TV Media Journalist with Times Now and now the News 18 Network. From reporting on ground on Mega News Events to helming marquee shows on Primetime, Anand has covered a gamut of issues and is one of the most multifaceted Primetime Anchors in TV Media. Fearless, tough and direct, Anand today takes the hot seat on primetime at 10pm on CNN-News18 with his show ‘The Right Stand’. He is along putting his multilingual abilities to good use with ‘Akhada’ in Hindi on News18 India at 12.45pm. Anand is a crusader for people’s causes and has always fought for what is right. A fitness freak and ardent old Hindi film music lover, he finds himself mentioned in the Limca Book of Records.",
+                        'img':"/images/profile/Narsimhan.png"
                     },{
                         'name':"Rajesh Raina",
                         'text':"Rajesh Raina is the Group Editor of News18 Regional Channels. A journalist with more than 2 decades of experience in Television, he has played a pivotal role in Regional News growth story of News18 Network. He is an avid reader & has also written many articles in Hindi, Urdu & Kashmiri languages. His contribution to a fading art form “ Ladishah” has been recognised by many in J&K. He has been with the ETV group of channels, from 2001 & prior to that worked as an Anchor at DD - Kashmir.",
@@ -255,6 +256,7 @@
             $rootScope.hidefooter=false;
             $scope.openMap={
                 'Management':{},
+                'TV':{},
                 'CNBC':{},
                 'News18':{},
                 'Digital':{},

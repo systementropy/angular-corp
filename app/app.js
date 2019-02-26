@@ -33,6 +33,7 @@
         'myApp.careerApply',
         'myApp.gallery',
         'myApp.merger',
+        'myApp.awards',
         'angularLazyImg',
         'angular-nicescroll',
         'ngFileUpload',
@@ -43,36 +44,11 @@
         $locationProvider.html5Mode({
             enabled:true
         });
-        //console.log(lazyImgConfigProvider);
         lazyImgConfigProvider.setOptions({
             offset:800
         });
         $routeProvider.when('/reports/*', {
-            //$(window).open();
         });
         $routeProvider.otherwise({ redirectTo: '/animate' });
-
-        //var scrollable = document.querySelector('#scrollable');
-        // lazyImgConfigProvider.setOptions({
-        //     offset: 1000,
-        // });
     }]);
-    // var app = angular.module('myApp', []);
-    // app.directive('errSrc', function() {
-    //   return {
-    //     link: function(scope, element, attrs) {
-    //       element.bind('error', function() {
-    //         if (attrs.src != attrs.errSrc) {
-    //           attrs.$set('src', attrs.errSrc);
-    //         }
-    //       });
-          
-    //       attrs.$observe('ngSrc', function(value) {
-    //         if (!value && attrs.errSrc) {
-    //           attrs.$set('src', attrs.errSrc);
-    //         }
-    //       });
-    //     }
-    //   }
-    // });
 }());

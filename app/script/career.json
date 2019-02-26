@@ -1,18 +1,5 @@
 [
 	{
-		"Jobs":"Manager-Corporate Development",
-		"id":"1",
-		"Posted Date":"18-Aug-18",
-		"Business":"Corporate",
-		"Function":"Alliances & Business Development",
-		"Parent":"1",
-		"Location":"Gurgaon",
-		"Job Responsibilities":["The Incumbent will work on alliances, business development, and business strategy. This role works with Corporate Development & Digital Strategy lead across projects, New Business Prospecting, Business Analysis and MIS.","New BD prospecting","Business Analysis and MIS","Tracking and monitoring projects across Digital and TV","Working with Corporate Strategy Team across initiatives with the focus on research and insights.","Identify revenue growth avenues for Network 18 across digital and television.","Front-end Network 18 Alliances and partnerships with global media firms in digital and television space.","Deal structuring, commercial evaluation, and P&L projection & management for digital and television properties and alliances."],
-		"Education Requirement":"MBA ",
-		"Experience Requirement":"1-4 years",
-		"Skills & Competencies":["Business and Product Understanding","Communication and negotiation skills."],
-		"Recruiter":"Kiran.Jagtiani@nw18.com"
-	},{
 		"Jobs":"Lead-Branded Content",
 		"id":"2",
 		"Posted Date":"18-Aug-18",
@@ -25,7 +12,8 @@
 		"Experience Requirement":"1-3 years",
 		"Skills & Competencies":["Communication and negotiation skills"],
 		"Recruiter":"Sylvia.Jose@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Senior Copy Editor / Copy Editor",
 		"id":"3",
 		"Posted Date":"18-Aug-18",
@@ -38,7 +26,8 @@
 		"Experience Requirement":"0-3 years",
 		"Skills & Competencies":["Written Language skill","Domain Knowledge"],
 		"Recruiter":"Varsha.sinha@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Copy editor",
 		"id":"4",
 		"Posted Date":"18-Aug-18",
@@ -51,7 +40,8 @@
 		"Experience Requirement":"3 - 5 years",
 		"Skills & Competencies":["Written Language skill","Domain Knowledge"],
 		"Recruiter":"Sylvia.Jose@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Assistant Manager - Accounts",
 		"id":"5",
 		"Posted Date":"18-Aug-18",
@@ -64,7 +54,8 @@
 		"Experience Requirement":"2-4 years",
 		"Skills & Competencies":["Strong knowledge of SAP & proficient in MS-Excel."],
 		"Recruiter":"Kiran.Jagtiani@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Assistant Manager - Commercial",
 		"id":"6",
 		"Posted Date":"18-Aug-18",
@@ -77,7 +68,8 @@
 		"Experience Requirement":"6-8 years",
 		"Skills & Competencies":["Experience in Supply Chain Management/Sourcing/Procurement ","Have experience in Purchasing, Planning, Vendor Development ,Export/ Import, Capital equipment ","A proven leadership skill in making a significant contribution towards developing and improving the procurement function.","The jobholder will need to have strong concern for impact and strong results orientation, and will need to demonstrate both strategic and conceptual thinking skills and have a high degree of tenacity.","The candidate should have good communication and leadership skills. ","Proficiency in SAP MM module."],
 		"Recruiter":"Kiran.Jagtiani@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Manager-Legal",
 		"id":"7",
 		"Posted Date":"18-Aug-18",
@@ -90,7 +82,8 @@
 		"Experience Requirement":"4-5 Years",
 		"Skills & Competencies":["Commercial Contracting","Litigation Management","Media Laws","MS Office & Adobe"],
 		"Recruiter":"Kiran.Jagtiani@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Assistant Product Manager / Product Manager",
 		"id":"8",
 		"Posted Date":"18-Aug-18",
@@ -103,7 +96,8 @@
 		"Experience Requirement":"5-10 years",
 		"Skills & Competencies":["Knowledge of Statistical tools for data analysis; Programming in digital eco-space","Product life-cycle","Project Management","Statistical Tools"],
 		"Recruiter":"Himanshu.desai@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Senior Graphic Designer",
 		"id":"9",
 		"Posted Date":"18-Aug-18",
@@ -116,7 +110,8 @@
 		"Experience Requirement":"2-5 years ",
 		"Skills & Competencies":["Online Graphics Techniques","VizRT and other graphics software(s)","Production processes"],
 		"Recruiter":"Varsha.sinha@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Account Manager / Account Group Head – Display Sales",
 		"id":"10",
 		"Posted Date":"18-Aug-18",
@@ -129,7 +124,8 @@
 		"Experience Requirement":"1-5 Years",
 		"Skills & Competencies":["Business Understanding (Value Chain, Competition Market Pricing, ER, Inventory)","Product Understanding","Communication and Negotiation skills"],
 		"Recruiter":"Amita.Achary@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Account Manager – Focus Sales",
 		"id":"11",
 		"Posted Date":"18-Aug-18",
@@ -142,7 +138,8 @@
 		"Experience Requirement":"1-6 Years",
 		"Skills & Competencies":["Business and Product Understanding","Communication and negotiation skills","Sales Execution "],
 		"Recruiter":"Amita.Achary@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Account Manager / Senior Account Manager / Group Head – Sales",
 		"id":"12",
 		"Posted Date":"18-Aug-18",
@@ -155,7 +152,8 @@
 		"Experience Requirement":"2 - 5 years",
 		"Skills & Competencies":["Client Acquisition","Sales proposals development","Product Understanding","Communication and negotiation skills"],
 		"Recruiter":"Himanshu.desai@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Account Manager / Senior Account Manager / Group Head – Sales",
 		"id":"13",
 		"Posted Date":"18-Aug-18",
@@ -168,7 +166,8 @@
 		"Experience Requirement":"3-10 years",
 		"Skills & Competencies":["Experience in closing $1M+ deals.Trusted relationships with C-Level marketing decision makers at strategic brands, ad agencies, tech platforms and/or publishers.Excellent communication and client-management skills"],
 		"Recruiter":"Himanshu.desai@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Account Manager / Senior Account Manager / Group Head (Programmatic Sales)",
 		"id":"14",
 		"Posted Date":"18-Aug-18",
@@ -181,7 +180,8 @@
 		"Experience Requirement":"3-7 years",
 		"Skills & Competencies":["Knowledge of and familiarity with digital media landscape, including experience with vendor selection and relationship management, as a function of adding ongoing sales efforts.Proficient with digital media integration and corresponding measurement tools: Google Analytics, etc. Strong communication and presentation skills"],
 		"Recruiter":"Himanshu.desai@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Dot Net Developers",
 		"id":"15",
 		"Posted Date":"18-Aug-18",
@@ -194,7 +194,8 @@
 		"Experience Requirement":"3- 8 Years",
 		"Skills & Competencies":["Hardware & Software Knowledge","Process Development","Research Orientation"],
 		"Recruiter":"Neha.bhaidkar@nw18.com"
-	},{
+	},
+	{
 		"Jobs":"Executive-MCR",
 		"id":"16",
 		"Posted Date":"18-Aug-18",
@@ -207,5 +208,109 @@
 		"Experience Requirement":"0-5 years",
 		"Skills & Competencies":["Hardware & Software Knowledge","Process Development","Quality Control"],
 		"Recruiter":"Neha.bhaidkar@nw18.com"
-	}
+	},
+	{
+		"Jobs":"Software Developer- Android",
+		"id":"17",
+		"Posted Date":"15-Oct-18",
+		"Business":"Digital",
+		"Function":"Technology & Operations",
+		"Parent":"13",
+		"Location":"Mumbai",
+		"Job Responsibilities":["Candidates will be responsible for developing mobile applications Android platform","Requirement Analysis, Designing, and Developing of Android Enterprise applications","Unit Test Cases Documentation and debugging using Dalvik debug monitor service - DDMS","Design basic architecture diagrams","Interact and collaborate with various stakeholders among cross-functional teams","Need to make quick, critical decisions using proven analytical and reasoning skills, logical and independent thinking."],
+		"Education Requirement":"MCA  / BCA / Mtech / Btech / B.E.",
+		"Experience Requirement":"2-5 years",
+		"Skills & Competencies":[],
+		"Recruiter":"Sumayya.Mir@nw18.com"
+	},
+	{
+	"Jobs":"Software Developer-iOS",
+	"id":"18",
+	"Posted Date":"15-Oct-18",
+	"Business":"Digital",
+	"Function":"Technology & Operations",
+	"Parent":"13",
+	"Location":"Mumbai",
+	"Job Responsibilities":["Contribute to our native apps development on iOS","Integrate with our backend services to make sure we are delivering a great mobile user experience that’s super-fast for end users","Help improve code quality through writing unit tests, automation and performing code reviews","Work with the product and design team to understand end-user requirements and use cases, then translate that into a pragmatic and effective technical solution"],
+	"Education Requirement":"Master, Post-Graduates- BTech/BE",
+	"Experience Requirement":"2-5 years",
+	"Skills & Competencies":["Working Knowledge about iPhone SDK & COCOA, swift 3.0 framework.","iPhone/iPad Developer with Objective C, - XCode Debugging, API,- ","JSON, XML, API ","Strong experience in building and publishing commercial iPhone and/or iPad applications.","Extensive experience developing in Objective-C or Swift.","Operating Systems : Mac OS X and iOS.","Programmer Tools : Xcode, Instruments and Git.","Frameworks : CocoaTouch, UIKit, and Core Data (Core Graphics and Core Animation a plus).","Experience with JSON, XML, JavaScript, and interfacing iPhone/iPad applications to server side APIs.","Familiarity with RESTful APIs to connect iOS applications to back-end services."],
+	"Recruiter":"Sumayya.Mir@nw18.com"
+},
+{
+	"Jobs":"Software Engineer-Java/Javascript",
+	"id":"19",
+	"Posted Date":"15-Oct-18",
+	"Business":"Digital",
+	"Function":"Technology & Operations",
+	"Parent":"13",
+	"Location":"Mumbai",
+	"Job Responsibilities":["Candidate needs to have worked in a web environment and should be proficient in Java Server.","Key Expertise: Core Java, Multithreading, Spring framework","Backend (server application, integration, API) development experience.","Exposure to platforms like – Linux, My SQL, MS SQL","Knowledge & experience on Javascript, react native would be a plus","Good working knowledge in open source frame work preferably struts/spring","Must have been involved in the entire lifecycle of development of minimum two products (internet-based) preferably in Financial Services domain","Responsible for enacting Scrum values and practices ","Enables close cooperation across all roles and functions ","Has strong understanding of the overall software delivery lifecycle and activities ","Promote and participate in the continuous improvement of structure, processes, tooling to enable the teams to deliver more value. ","Support efforts to code, design, and testing in a heterogeneous technology environment e.g. JavaScript MVC, HTML, CSS, Java/ J2EE ","Identify opportunities for process and tool improvements and drive those from concept to implementation. ","Ensure quality and completeness of the product through unit, integration, and regression capabilities. ","Adheres to architecture standards, risk management and security policies. ","Contribute and collaborate in creation and consumption of open, standards-based solutions, while working with existing Practice of Continuous Integration or Continuous Delivery"],
+	"Education Requirement":"MCA  / BCA / M.Tech / BTech / B.E.",
+	"Experience Requirement":"2-10years",
+	"Skills & Competencies":"null",
+	"Recruiter":"Sumayya.Mir@nw18.com"
+},
+{
+	"Jobs":"Software Engineer-PHP",
+	"id":"20",
+	"Posted Date":"15-Oct-18",
+	"Business":"Digital",
+	"Function":"Technology & Operations",
+	"Parent":"13",
+	"Location":"Mumbai / Noida",
+	"Job Responsibilities":["Object-oriented application building experience in a professional Agile/Scrum environment","Key Expertise: Web application development in PHP","Excellent coding skill in PHP, Node.js, Java ","Knowledge with MVC frameworks: CakePHP, Zend, Laravel, Symfony, etc.","Support efforts to code, design, and testing in a heterogeneous technology environment e.g. JavaScript MVC, HTML, CSS ","Backend (server application, integration, API) development experience.","Thorough understanding of relational databases such as MySQL or similar technologies","Experience with Sass and/or Less","Proficiency in Linux environment.","Knowledge working closely with git/ SVN","Must have been involved in the entire lifecycle of development of minimum two products.","Enables close cooperation across all roles and functions ","Has strong understanding of the overall software delivery lifecycle and activities ","Promote and participate in the continuous improvement of structure, processes, tooling to enable the teams to deliver more value. ","Ensure quality and completeness of the product through unit, integration, and regression test capabilities. ","Adheres to architecture standards, risk management and security policies. ","Understanding of User Interface workflows","Excellent communication skills and being able to work independently or in a full team"],
+	"Education Requirement":"MCA  / BCA / M.Tech / BTech / B.E.",
+	"Experience Requirement":"2-10years",
+	"Skills & Competencies":"null",
+	"Recruiter":"Sumayya.Mir@nw18.com"
+},
+{
+	"Jobs":"Executive / Senior Executive – Focus Marketing",
+	"id":"21",
+	"Posted Date":"15-Oct-18",
+	"Business":"Print-Forbes",
+	"Function":"Marketing/Focus Marketing",
+	"Parent":"4",
+	"Location":"Mumbai",
+	"Job Responsibilities":["Ideate & Implement strategies for brand resonance","Monitor, review and report on all marketing activity and results","Manage and coordinate all marketing, advertising and promotional activities for Intellectual Properties ","Develop Partnership & Alliances","Impeccable Presentation Skills for sales enablement ","Work in conjunction with the PR agency to create buzz around brand activities","Effective briefs to the AD agencies. Motivating the agencies to produce benchmark quality advertising that increases sales & builds our brands.","Help give effective integration ideas for clients both in the magazine as well as on ground events","Help execute on ground events through effective vendor management."],
+	"Education Requirement":"Graduate / MBA",
+	"Experience Requirement":" 0-1 years",
+	"Skills & Competencies":"null",
+	"Recruiter":"Amita.Achary@nw18.com"
+},
+{
+	"Jobs":"Graphics Artist / Senior Designer",
+	"id":"22",
+	"Posted Date":"15-Oct-18",
+	"Business":"Broadcast",
+	"Function":"Marketing",
+	"Parent":"4",
+	"Location":"Mumbai",
+	"Job Responsibilities":["Consolidate brand positioning:","Setting and maintaining standard  guidelines for channel packaging","Creative & Design","Ensure Reasonable SOV in marketing","Enhance viewer interactivity & engagement / audience development:","Ideation on briefs","Creative Input","Improve processes across the value chain of Marketing function:","Action on stakeholder feedback","Self Capability:","Developing self for next level role."],
+	"Education Requirement":"Diploma/ Graduate ",
+	"Experience Requirement":"2-8 years",
+	"Skills & Competencies":["Candidate Specifications:Aspirant should visualize the graphics and come up with contemporary ideas, he/she able to handle the one whole project on his own without any technical brace.","Aspirant should have a knowledge of 3D Studio Max or Maya. Also he should be well aware about the 3D composting software AFTER EFFECTS."],
+	"Recruiter":"Amita.Achary@nw18.com"
+},
+{
+	"Jobs":"Deputy Manager – Focus Marketing",
+	"id":"23",
+	"Posted Date":"15-Oct-18",
+	"Business":"Broadcast -CNBC Awaaz & CNBC Bajar",
+	"Function":"Marketing/Focus Marketing",
+	"Parent":"4",
+	"Location":"Mumbai",
+	"Job Responsibilities":["Ideate & Implement strategies for brand resonance","Monitor, review and report on all marketing activity and results","Manage and coordinate all marketing, advertising and promotional activities for Intellectual Properties ","Develop Partnership & Alliances","Impeccable Presentation Skills for sales enablement ","Work in conjunction with the PR agency to create buzz around brand activities","Effective briefs to the AD agencies. Motivating the agencies to produce benchmark quality advertising that increases sales & builds our brands.","Help give effective integration ideas for clients both in the magazine as well as on ground events","Help execute on ground events through effective vendor management"],
+	"Education Requirement":"Graduate / MBA",
+	"Experience Requirement":"2-4 years",
+	"Skills & Competencies":"null",
+	"Recruiter":"Amita.Achary@nw18.com"
+}
+
+
+
+
+
+
 ]

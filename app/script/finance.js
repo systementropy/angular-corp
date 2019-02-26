@@ -6,7 +6,7 @@
     .config(['$routeProvider',
         function($routeProvider) {
             $routeProvider.when('/finance', {
-                templateUrl: '/view/investorFinance.html',
+                templateUrl: '/view/investor.html',
                 controller: 'financeCtrl'
             });
         }

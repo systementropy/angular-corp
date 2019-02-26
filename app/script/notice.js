@@ -215,8 +215,8 @@
             $rootScope.hidefooter=false;
             $scope.transY = parallaxHelper.createAnimator(0.4, 10, -10,-950);
             
-       $window.document.title='NETWORK18 | Investor Relations';$scope.theBestVideo0 = 'JJmFwbwRb2U';
-       var w = angular.element($window);
+           $window.document.title='NETWORK18 | Investor Relations';$scope.theBestVideo0 = 'JJmFwbwRb2U';
+           var w = angular.element($window);
 	    	var wWid=w.width();
 	    	var wHig=(w.height()/0.71);
 	    	$scope.pWid=parseInt(w.width());
@@ -232,12 +232,12 @@
 	    	    'loop': 1,
 	    	    'mute':1
 	    	};
-$scope.$on('youtube.player.ended', function ($event, bestPlayer0) {
+             $scope.$on('youtube.player.ended', function ($event, bestPlayer0) {
                 
                 bestPlayer0.seekTo(0);
                 bestPlayer0.playVideo();
             });
-$scope.enableYT=true;
+            $scope.enableYT=true;
         };
         init();
     }]);

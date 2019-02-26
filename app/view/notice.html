@@ -57,7 +57,7 @@
 		</div>
 		<div class="container nw18Cont" ng-if="activeSec.nw18Section">
 			
-			<div class="inverstorSections">
+			<div class="inverstorSections inverstorNoticeSections">
 				<h1 style="">Notices & Events</h1>
 				<!-- <div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foc2}}0%;"></span></div> -->
 				<div active="activeJustified" id="tab2" justified="true" class="">
@@ -106,7 +106,9 @@
 						<li class="uib-tab nav-item " ng-click="changeFoc2(12)" ng-class="left_foc2==12?'active':' '" index="12" heading="Newspaper Advertisement">
 							<a class="nav-link ">Newspaper Advertisement</a>
 						</li>
-
+						<li class="uib-tab nav-item " ng-click="changeFoc2(14)" ng-class="left_foc2==14?'active':' '" index="14" heading="Credit Rating">
+							<a class="nav-link ">Credit Rating</a>
+						</li>
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==0?'active':' '" ng-if="left_foc2==0">
@@ -126,7 +128,7 @@
 							<a href="http://iepf.gov.in/IEPFA/refund.html" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 					</ol>
-					<ol class="list-group list-group-alt">
+					<!-- <ol class="list-group list-group-alt">
 						<li class="list-group-item transUp flexVer" du-parallax y="transY">
 							<p class="investor_title_text">DETAILS OF EQUITY SHARES TRANSFERRED TO IEPF</p>
 							<div class="input-control">
@@ -135,7 +137,7 @@
 								<i ng-if="memberInfo">*Details of Equity Shares transferred to IEPF pursuant to the Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016 (“the Rules”)</i>
 							</div>
 						</li>
-					</ol>
+					</ol> -->
 					<div class="col-md-12" ng-if="memberInfo">
 						
 						<table class="table table-striped table-bordered">
@@ -188,7 +190,11 @@
 							<a href="/reports/reports/Notices and Events/NW18 - letter 160.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Network18-23rd AGM-e-voting_Instructions-2018</p>
+							<p class="investor_title_text">Book Closure Notice for 23rd Annual General Meeting</p>
+							<a href="/reports/reports/Notices and Events/NW18Stockexchangeletter.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Network18-23rd AGM Notice  & e-voting_Instructions-2018</p>
 							<a href="/reports/reports/Notices and Events/Network 18-23rd AGM-e voting_Instructions-2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
@@ -312,6 +318,10 @@
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==4?'active':' '" ng-if="left_foc2==4">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Scheme of Merger by Absorption approved by NCLT, Mumbai bench</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18DisclosurRegulation30NCLT.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Proposed Terms and conditions of re-appointment of Independent Directors</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/Proposed Terms and conditions of re-appointment of Independent Directors_NW18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
@@ -343,14 +353,8 @@
 							<p class="investor_title_text">TV18 Home Shopping Network Limited and NW18 HSN Holdings Plc ceased to be subsidiaries of the Company</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/SHOPCJMediaRelease15022018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Credit Rating_ICRA – February 14, 2018</p>
-							<a href="/reports/reports/Notices and Events/Other Notices/NW18Carecreditrating_14.02.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Credit Rating_CARE – February 12, 2018</p>
-							<a href="/reports/reports/Notices and Events/Other Notices/NW18creditratingCARECP1500cr.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
+						
+						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Homeshop18 &amp; Shop CJ combine to form India’s largest TV Home Shopping Platform</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/Shopcjnew.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -359,10 +363,7 @@
 							<p class="investor_title_text">Restructuring of Burrp</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/SEDisclosuresBurrprestructuing.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Credit Rating - May 29,2017</p>
-							<a href="/reports/reports/Notices and Events/Other Notices/Intimation for Credit Rating_n18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
+						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Scheme of Amalgamation</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/Scheme of Amalgamation.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -371,10 +372,7 @@
 							<p class="investor_title_text">Change in Director &amp; CFO</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/Change in Director &amp; CFO.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Credit Rating - Jan 11,2017</p>
-							<a href="/reports/reports/Notices and Events/Other Notices/SEintimationNW18CreditRating.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
+						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Intimation for Shifting of the Registered Office of the Company</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/Shifting of Regd Office SE Intimation NW18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -387,10 +385,7 @@
 							<p class="investor_title_text">Intimation regarding appointment of independent director</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/Intimation_Appointment.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Network18 Credit Rating Intimation-January 2016</p>
-							<a href="/reports/reports/Notices and Events/Other Notices/N18_Credit Rating Intimation_January 2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
+						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Intimation reg Appointment of Editor-in-Chief at Network18 Group</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/Intimation_stockexchange.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -407,14 +402,7 @@
 							<p class="investor_title_text">Change in Directors and Promoters</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/stock-exchange-communication.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Credit Rating- June 16, 2014</p>
-							<a href="/reports/reports/Notices and Events/Other Notices/Credit-Rating-June-16-2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Credit Rating- June 9, 2014</p>
-							<a href="/reports/reports/Notices and Events/Other Notices/Credit-Rating_June-9-2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
+						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Information in accordance with the SEBI Circular dated January 17, 2013- Stock Scheme</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/Information in accordance with the SEBI Circular dated January 17, 2013- Stock Scheme.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -518,18 +506,7 @@
 					</ol>
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==7?'active':' '" ng-if="left_foc2==7">
-					<ol class="list-group list-group-alt">
-						<li class="list-group-item transUp flexVer" du-parallax y="transY">
-							<p class="investor_title_text">AMOUNT FOR MATURED DEPOSITS</p>
-							<div class="input-control">
-								<input type="text" class="form-control" ng-model="inputData.nw18UAI1" placeholder="Enter your Folio No.">
-								<button class="btn bordDwlBtn active" ng-click="checkUAI1()">SUBMIT</button>
-								<i ng-if="memberInfoUAI1">*Details of Equity Shares transferred to IEPF pursuant to the Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016 (“the Rules”)</i>
-							</div>
-						</li>
-					</ol>
 					<div class="col-md-12" ng-if="memberInfoUAI1">
-						
 						<table class="table table-striped table-bordered">
 							<thead>
 								<tr class="danger">
@@ -552,16 +529,6 @@
 					<div class="col-md-12" ng-if="!memberInfoUAI2 && memberInfoUAI2Null">
 						<p class="text-danger">{{memberInfoUAI2Null}}</p>
 					</div>
-					<ol class="list-group list-group-alt">
-						<li class="list-group-item transUp flexVer" du-parallax y="transY">
-							<p class="investor_title_text">INTEREST AMOUNT ON MATURED DEPOSITS</p>
-							<div class="input-control">
-								<input type="text" class="form-control" ng-model="inputData.nw18UAI2" placeholder="Enter your Folio No.">
-								<button class="btn bordDwlBtn active" ng-click="checkUAI2()">SUBMIT</button>
-								<i ng-if="memberInfoUAI2">*Details of Equity Shares transferred to IEPF pursuant to the Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016 (“the Rules”)</i>
-							</div>
-						</li>
-					</ol>
 					<div class="col-md-12" ng-if="memberInfoUAI2">
 						
 						<table class="table table-striped table-bordered">
@@ -586,16 +553,6 @@
 					<div class="col-md-12" ng-if="!memberInfoUAI2 && memberInfoUAI2Null">
 						<p class="text-danger">{{memberInfoUAI2Null}}</p>
 					</div>
-					<ol class="list-group list-group-alt">
-						<li class="list-group-item transUp flexVer" du-parallax y="transY">
-							<p class="investor_title_text">SALE PROCEED FOR FRACTIONAL SHARE AC NO_5011122840</p>
-							<div class="input-control">
-								<input type="text" class="form-control" ng-model="inputData.nw18UAI3" placeholder="Enter your DP ID Client ID / Folio No.">
-								<button class="btn bordDwlBtn active" ng-click="checkUAI3()">SUBMIT</button>
-								<i ng-if="memberInfoUAI3">*Details of Equity Shares transferred to IEPF pursuant to the Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016 (“the Rules”)</i>
-							</div>
-						</li>
-					</ol>
 					<div class="col-md-12" ng-if="memberInfoUAI3">
 						
 						<table class="table table-striped table-bordered">
@@ -620,16 +577,6 @@
 					<div class="col-md-12" ng-if="!memberInfoUAI3 && memberInfoUAI3Null">
 						<p class="text-danger">{{memberInfoUAI3Null}}</p>
 					</div>
-					<ol class="list-group list-group-alt">
-						<li class="list-group-item transUp flexVer" du-parallax y="transY">
-							<p class="investor_title_text">SALE PROCEED FOR FRACTIONAL SHARE AC NO_8411289168</p>
-							<div class="input-control">
-								<input type="text" class="form-control" ng-model="inputData.nw18UAI4" placeholder="Enter your DP ID Client ID / Folio No.">
-								<button class="btn bordDwlBtn active" ng-click="checkUAI4()">SUBMIT</button>
-								<i ng-if="memberInfoUAI4">*Details of Equity Shares transferred to IEPF pursuant to the Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016 (“the Rules”)</i>
-							</div>
-						</li>
-					</ol>
 					<div class="col-md-12" ng-if="memberInfoUAI4">
 						
 						<table class="table table-striped table-bordered">
@@ -654,16 +601,6 @@
 					<div class="col-md-12" ng-if="!memberInfoUAI4 && memberInfoUAI4Null">
 						<p class="text-danger">{{memberInfoUAI4Null}}</p>
 					</div>
-					<ol class="list-group list-group-alt">
-						<li class="list-group-item transUp flexVer" du-parallax y="transY">
-							<p class="investor_title_text">UNPAID AMOUNT OF NON CONVERTIBLE CUMULATIVE PREFERENCE SHARES</p>
-							<div class="input-control">
-								<input type="text" class="form-control" ng-model="inputData.nw18UAI5" placeholder="Enter your DP ID Client ID / Folio No.">
-								<button class="btn bordDwlBtn active" ng-click="checkUAI5()">SUBMIT</button>
-								<i ng-if="memberInfoUAI5">*Details of Equity Shares transferred to IEPF pursuant to the Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016 (“the Rules”)</i>
-							</div>
-						</li>
-					</ol>
 					<div class="col-md-12" ng-if="memberInfoUAI5">
 						
 						<table class="table table-striped table-bordered">
@@ -751,190 +688,102 @@
 					</ol>
 				</section>
 
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==12?'active':' '" ng-if="left_foc2==11">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==11?'active':' '" ng-if="left_foc2==11">
 					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated January 15, 2019</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18BMNoticeStockExchang.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated October 15, 2018</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18 _ BM Intimation - 30.09.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated July 24, 2018</p>
 							<a href="/reports/reports/Notices%20and%20Events/Other%20Notices/NW18BMNotice30062018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice of Board Meeting Scheduled on April 24, 2018 published in English Newspaper-Financial Express</p>
-							<a href="/reports/reports/Notices and Events/FE-Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated April 24, 2018</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/StockExchangeIntimationBoardMeetingNW18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice of Board Meeting Scheduled on April 24, 2018 published in Marathi Newspaper-Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Navshakti-Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated January 16, 2018</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/BoardMeetingNoticeNW18Stockexchange.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and nine months ended December 31, 2017 published in English Newspaper Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Network18-FE.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated October 11, 2017</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/Network18IntimationBoardMeeting11102017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and nine months ended December 31, 2017 published in Marathi Newspaper Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Network18-Navshakti.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated July 18, 2017</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18SEIntimation.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice of Board Meeting Scheduled on January 16, 2018 published in English Newspaper-Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Network18-BM Notice-FE.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated April 19, 2017</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18IntimationBoardMeeting31032017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice of Board Meeting Scheduled on January 16, 2018 published in Marathi Newspaper-Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Network18-BM Notice-Navshakti.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated January 14, 2017</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/Network18_BM_Intimation.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and half year ended September 30, 2017 published in English Newspaper Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Network18-Financials-FE.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting of Network18 dated October 14, 2016</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/BoardMeetingIntimation.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and half year ended September 30, 2017 published in Marathi Newspaper Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Network18-Financials-Navshakti.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting of Network18 dated July 13, 2016</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18 BM Intimation.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice of Board Meeting Scheduled on October 11, 2017 published in English Newspaper-Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Notice of Board Meeting Scheduled on October 11, 2017 published in English Newspaper-Financial Express.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Stock Exchange Intimation for Board Meeting of Network18 dated April 20, 2016</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/Stock Exchange Intimation_Board Meeting_200416_NW18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice of Board Meeting Scheduled on October 11, 2017 published in Marathi Newspaper-Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Notice of Board Meeting Scheduled on October 11, 2017 published in Marathi Newspaper-Navshakti.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice of 22nd Annual General Meeting, Book Closure and E-voting published in Marathi Newspaper – Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-AGM Notice-Navshakti.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice of 22nd  Annual General Meeting, Book Closure and E-voting published in English  Newspaper – Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-AGM Notice-FE.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice of Board Meeting Scheduled on July 18, 2017 published in English Newspaper-Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-BM Newspaper ad-Financial Express.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice of Board Meeting Scheduled on July 18, 2017 published in Marathi Newspaper-Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-BM Newspaper ad-Navshakti.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice Board Meeting Scheduled on April 19, 2017 published in English Newspaper-Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-FE.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice Board Meeting Scheduled on April 19, 2017 published in Marathi Newspaper-Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-Navshakti.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter ended June 30, 2017 published in English Newspaper Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18 Results FE.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter ended June 30, 2017 published in Marathi Newspaper Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-Results Navshakti.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Audited Financial Results for the quarter and year ended March 31, 2017 published in English Newspaper Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/NW18 _ Publish Results - 31 03 2017 - English.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Audited Financial Results for the quarter and year ended March 31, 2017 published in Marathi Newspaper Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/NW18 _ Publish Results - 31 03 2017-Marathi.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and nine months ended December 31, 2016 published in English Newspaper Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18 December Results 2016-FE.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and nine months ended December 31, 2016 published in Marathi Newspaper Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18 December Results 2016-Navshakti.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice Board Meeting Scheduled on January 14, 2017 published in English Newspaper-Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-Board Meeting Notice-English.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice Board Meeting Scheduled on January 14, 2017 published in Marathi Newspaper-Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-Board Meeting Notice-Marathi.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice Published in Financial Express (English) and Indian Express (English) for the attention of equity shareholders of the Company in respect of transfer of equity shares</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Notice published in the Financial Express (English) for the attention of equity shareholders of the Company in respect of transfer of equity sha.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice published in the Navbharat Times (Hindi) for the attention of equity shareholders of the Company in respect of transfer of equity shares</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Notice published in the Navbharat Times (Hindi) for the attention of equity shareholders of the Company in respect of transfer of equity shares .pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice published in the Navshakti (Marathi) for the attention of equity shareholders of the Company in respect of transfer of equity shares</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Notice published in the Navshakti (Marathi) for the attention of equity shareholders of the Company in respect of transfer of equity shares of t.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Results for the quarter and half year ended September 30, 2016 published in English Newspaper Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/FE-Network18 Sept Results-2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Results for the quarter and half year ended September 30, 2016 published in Marathi Newspaper Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Navshakti-Network18-Sept Results-2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notices of 21st Annual General Meeting and E-voting published in Newspaper – Marathi</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/AGM notice_Navshakti_Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notices of 21st Annual General Meeting and E-voting published in Newspaper – English</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/AGM notice_FE_Network18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of standalone &amp; consolidated Unaudited Results for the quarter ended June 30, 2016 published in Marathi Newspaper Navshakti</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Paper Advt.Q1 Results_Navshakti.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of standalone &amp; consolidated Unaudited Results for the quarter ended June 30, 2016 published in English Newspaper Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18_Q1Results_Advt.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Network18 Intimation of Board Meeting 13.07.2016</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18 Intimation of Board Meeting 13.07.2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of standalone &amp; consolidated Audited Results for the quarter and year ended March 31, 2016 published in English Newspaper Jansatta</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Extract of standalone &amp; consolidated Audited_Results for the quarter and year_ended March 31, 2016 published in English Newspaper_Jansatta.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of standalone &amp; consolidated Audited Results for the quarter and year_ended March 31, 2016 published in English Newspaper Financial Expr</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Extract of standalone &amp; consolidated Audited_Results for the quarter and year_ended March 31, 2016 published in English Newspaper_Financial Expr.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice Board Meeting Scheduled on April 20, 2016 published in English Newspaper-Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18 Board Meeting_Notice_Financial Express.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice Board Meeting Scheduled on April 20, 2016 published in Hindi Newspaper-Jansatta</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18 Board Meeting_Notice_Jansatta.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone &amp; Consolidated UFR for the quarter and nine months ended December 31, 2015 published in English Newspapers</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Extract of Standalone &amp; Consolidated UFR for the quarter and nine months ended December 31, 2015 published in English Newspapers-Financial Expre.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Extract of Standalone &amp; Consolidated UFR for the quarter and nine months ended December 31, 2015 published in Hindi Newspapers-Jansatta</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Extract of Standalone &amp; Consolidated UFR for the quarter and nine months ended December 31, 2015 published in Hindi Newspapers-Jansatta.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice Board Meeting Scheduled on January 15, 2016 published in English Newspaper-Financial Express</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Notice Board Meeting Scheduled on January 15, 2016 published in English Newspaper-Financial Express.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Notice Board Meeting Scheduled on January 15, 2016 published in Hindi Newspaper-Jansatta</p>
-							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Notice Board Meeting Scheduled on January 15, 2016 published in Hindi Newspaper-Jansatta.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<p class="investor_title_text">Stock Exchange Intimation for Board Meeting of Network18 dated January 15, 2016</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18 Intimation Board meeting.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==11?'active':' '" ng-if="left_foc2==12">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==12?'active':' '" ng-if="left_foc2==12">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Date of 23rd Annual General Meeting  published in in English Newspaper - THE TIMES OF INDIA</p>
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and nine months ended December 31, 2018 published in English Newspaper Financial Express</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18 Results-31.12.2018-FE.PDF"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and nine months ended December 31, 2018 published in Marathi Newspaper Navshakti</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-Results-31.12.2018-Navshakti.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on January 15, 2019 published in English Newspaper – Financial Express</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-Board Meeting Notice-FE_01_15_2019.PDF"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on January 15, 2019  published in Marathi Newspaper – Navshakti</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-Board Meeting Notice-Navshakti_01_15_2019.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and half year ended September 30, 2018 published in English Newspaper Financial Express</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-Financials-FE-15.102018.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and half year ended September 30, 2018 published in Marathi Newspaper Navshakti</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-Financials-Navshakti-15.102018.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on October 15, 2018 published in English Newspaper – Financial Express</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-BMNotice-FE-15102018.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on October 15, 2018 published in Marathi Newspaper – Navshakti</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-BMNoticeNavshakti-15102018.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Date of 23rd Annual General Meeting published in English Newspaper - THE TIMES OF INDIA</p>
 							<a href="/reports/reports/Notices and Events/Network18-New date for AGM-TOI-18.08.2018.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Date of 23rd Annual General Meeting  published in Marathi Newspaper - Navshakti</p>
+							<p class="investor_title_text">Revised Date of 23rd Annual General Meeting published in Marathi Newspaper - Navshakti</p>
 							<a href="/reports/reports/Notices and Events/Network18-New date for AGM-Navshakti-18.08.2018.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
@@ -1192,11 +1041,51 @@
 						</li>
 					</ol>
 				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==14?'active':' '" ng-if="left_foc2==14">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating_CARE – January 31, 2019</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18creditratingCARE.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating_ICRA – January 28, 2019</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18CreditRatingJan2019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating_ICRA – February 14, 2018</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18Carecreditrating_14.02.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating_CARE – February 12, 2018</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18creditratingCARECP1500cr.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating - May 29,2017</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/Intimation for Credit Rating_n18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating - Jan 11,2017</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/SEintimationNW18CreditRating.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Network18 Credit Rating Intimation-January 2016</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/N18_Credit Rating Intimation_January 2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating- June 16, 2014</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/Credit-Rating-June-16-2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating- June 9, 2014</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/Credit-Rating_June-9-2014.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
 			</div>
 		</div>
 		<div class="container tv18Cont" ng-if="!activeSec.nw18Section">
 			
-			<div class="inverstorSections">
+			<div class="inverstorSections inverstorNoticeSections">
 				<h1 style="">Notices & Events</h1>
 				<div active="activeJustified" id="tab2" justified="true" class="">
 					<ul class="nav nav-tabs nav-justified nav-notice" >
@@ -1257,7 +1146,9 @@
 						<li class="uib-tab nav-item" ng-click="changeFocTV2(17)" ng-class="left_foctv2==17?'active':' '" index="17" heading="Newspaper Advertisement">
 							<a class="nav-link ">Newspaper Advertisement</a>
 						</li>
-						
+						<li class="uib-tab nav-item" ng-click="changeFocTV2(19)" ng-class="left_foctv2==19?'active':' '" index="19" heading="Credit Rating">
+							<a class="nav-link ">Credit Rating</a>
+						</li>
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==0?'active':' '" ng-if="left_foctv2==0">
@@ -1265,16 +1156,6 @@
 						<li class="list-group-item list-group-itemFull transUp" du-parallax y="transY">
 							<p class="investor_title_text">Access Download to claim refund from IEPF Authority <sub>[to be used by shareholders/claimants whose shares and/or dividend/other amounts have been transferred by the Company to Investor Education and Protection Fund]</sub></p>
 							<a href="http://iepf.gov.in/IEPFA/refund.html" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-					</ol>
-					<ol class="list-group list-group-alt">
-						<li class="list-group-item transUp flexVer" du-parallax y="transY">
-							<p class="investor_title_text">UNPAID INTEREST ON MATURED DEPOSIT</p>
-							<div class="input-control">
-								<input type="text" class="form-control" ng-model="inputData.nw18iepfUI" placeholder="Enter your Folio No.">
-								<button class="btn bordDwlBtn active" ng-click="UNPAIDINTEREST()">SUBMIT</button>
-								
-							</div>
 						</li>
 					</ol>
 					<div class="col-md-12" ng-if="memberInfoUI">
@@ -1301,16 +1182,6 @@
 					<div class="col-md-12" ng-if="!memberInfoUI && memberInfoUINull">
 						<p class="text-danger">{{memberInfoUINull}}</p>
 					</div>
-					<ol class="list-group list-group-alt">
-						<li class="list-group-item transUp flexVer" du-parallax y="transY">
-							<p class="investor_title_text">UNPAID AMOUNT OF MATURED DEPOSIT</p>
-							<div class="input-control">
-								<input type="text" class="form-control" ng-model="inputData.nw18iepfUA" placeholder="Enter your Folio No.">
-								<button class="btn bordDwlBtn active" ng-click="UNPAIDAMOUNT()">SUBMIT</button>
-								
-							</div>
-						</li>
-					</ol>
 					<div class="col-md-12" ng-if="memberInfoUA">
 						
 						<table class="table table-striped table-bordered">
@@ -1335,7 +1206,7 @@
 					<div class="col-md-12" ng-if="!memberInfoUA && memberInfoUANull">
 						<p class="text-danger">{{memberInfoUANull}}</p>
 					</div>
-					<ol class="list-group list-group-alt">
+					<!-- <ol class="list-group list-group-alt">
 						<li class="list-group-item transUp flexVer" du-parallax y="transY">
 							<p class="investor_title_text">UNPAID FRACTION AMOUNT SOA</p>
 							<div class="input-control">
@@ -1344,7 +1215,7 @@
 								
 							</div>
 						</li>
-					</ol>
+					</ol> -->
 					<div class="col-md-12" ng-if="memberInfoUF">
 						
 						<table class="table table-striped table-bordered">
@@ -1509,6 +1380,14 @@
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==3?'active':' '" ng-if="left_foctv2==3">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Scheme of Merger by Absorption approved by NCLT, Mumbai bench</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18SchemeofMerger.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Appointment of Director and Managing Director</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18appointmentofDirectorandManagingDirector.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Change in email id of the Company</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18Intimationforchangeinemailid.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
@@ -1529,18 +1408,6 @@
 							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18_Stockexchange intimation-Viacom18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Credit Rating- February 14,2018</p>
-							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18_Revised Credit Rating_14.02.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Credit Rating- February 12, 2018</p>
-							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18Carecreditrating_12.02.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Credit Rating- October18,2017</p>
-							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18Carecreditrating_18.10.2017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Acquisition of Equity Shares and Control of Viacom18 Media Private limited</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18_Disclosure of information.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
@@ -1552,10 +1419,7 @@
 							<p class="investor_title_text">Change in Directors</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18AppointmentofDirectors.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Intimation for Credit Rating</p>
-							<a href="/reports/reportstv18/Notices Events/Other Notices/Intimation for Credit Rating.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
+						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Scheme of Amalgamation</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18StockExchangeIntimationSchemeofAmalgamation.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -1568,10 +1432,7 @@
 							<p class="investor_title_text">Director's Resignation</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/Directors Resignation1.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Credit Rating</p>
-							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18_Credit Rating Intimation .pdf"" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
+						
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Information in accordance with SEBI Circular 17.01.2013</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/Information in accordence with SEBI Circular dated January 17,2013 -Stock Scheme.pdf.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -1588,10 +1449,7 @@
 							<p class="investor_title_text">Notice to shareholders for forfeiture of partly paid up shares issued under Right Issue</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/Notice to shareholders for forfeiture of partly paid up shares issued under Right Issue.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
-						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Update on Credit Rating for Fixed Deposit Program</p>
-							<a href="/reports/reportstv18/Notices Events/Other Notices/Update on Credit Rating for Fixed Deposit Programm and Bank.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
-						</li>
+						
 					</ol>
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==4?'active':' '" ng-if="left_foctv2==4">
@@ -1769,6 +1627,14 @@
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==16?'active':' '" ng-if="left_foctv2==16">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated January 15, 2019</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18BoardMeetingIntimation_15_01_2019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated October 15, 2018</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18- BM Intimation-30.09.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated July 24, 2018</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18BMIntimation.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
@@ -1817,7 +1683,39 @@
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==17?'active':' '" ng-if="left_foctv2==17">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
-							<p class="investor_title_text">Revised Date of 13th Annual General Meeting  published in in English Newspaper - THE TIMES OF INDIA</p>
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and nine months ended December 31, 2018 published in English Newspaper Financial Express</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-Results-31.12.2018-FE.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and nine months ended December 31, 2018 published in Marathi Newspaper Navshakti</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-Results-31.12.2018-Navshakti.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on January 15, 2019 published in English Newspaper – Financial Express</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-Board Meeting Notice-FE_01_15_2019.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on January 15, 2019  published in Marathi Newspaper – Navshakti</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-Board Meeting Notice-Navshakti_01_15_2019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and half year ended September 30, 2018 published in English Newspaper Financial Express</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-Financials-FE-15.10.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter and half year ended September 30, 2018 published in Marathi Newspaper Navshakti</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-Financials-Navshakti-15.102018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on October 15, 2018 published in English Newspaper – Financial Express</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV8-BM Notice-FE-15 10 2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on October 15, 2018 published in Marathi Newspaper – Navshakti</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-BM Notice-Navshakti-15 10 2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Date of 13th Annual General Meeting published in in English Newspaper - THE TIMES OF INDIA</p>
 							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-New date for AGM-TOI-18.08.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
@@ -2039,6 +1937,38 @@
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Business Responsibility Report – 2016-17</p>
 							<a href="/reports/reportstv18/Notices Events/business/TV18_BRR_2016-17.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==19?'active':' '" ng-if="left_foctv2==19">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating_ICRA – January 28, 2019</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18ICRACreditRating.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating- February 14,2018</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18_Revised Credit Rating_14.02.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating- February 12, 2018</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18Carecreditrating_12.02.2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Revised Credit Rating- October18,2017</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18Carecreditrating_18.10.2017.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Intimation for Credit Rating</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/Intimation for Credit Rating.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Credit Rating</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18_Credit Rating Intimation .pdf"" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Update on Credit Rating for Fixed Deposit Program</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/Update on Credit Rating for Fixed Deposit Programm and Bank.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 					</ol>
 				</section>

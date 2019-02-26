@@ -23,6 +23,8 @@
                 $scope.showGal5=false;
                 $scope.showGal6=false;
                 $scope.showGal7=false;
+                $scope.showGal8=false;
+                $scope.showGal9=false;
             }else{
                 $scope.showGaly=true;
                 if (index==1) {
@@ -39,6 +41,10 @@
                     $scope.showGal6=true;
                 }else if (index==7) {
                     $scope.showGal7=true;
+                }else if (index==8) {
+                    $scope.showGal8=true;
+                }else if (index==9) {
+                    $scope.showGal9=true;
                 }
             }
         };
