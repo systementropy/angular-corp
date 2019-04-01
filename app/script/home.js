@@ -203,7 +203,7 @@
             ];
             
             
-            $scope.theBestVideo = 'cvBDZiR2UuM';
+            $scope.theBestVideo = 'M0foCRa5xtw';
             var w = angular.element($window);
             var wWid=w.width();
             var wHig=w.height();
@@ -245,10 +245,11 @@
             });
             $http.get('/images/footage/home_vid.mp4')
             .then(function(response) {
-
+                // $scope.errSrcVid=true;
                 console.log(response);
 
             }, function(response) {
+                console.log('here')
                 $scope.errSrcVid=true;
                 console.log('Error'+JSON.stringify(response));
             });
