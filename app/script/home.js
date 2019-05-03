@@ -226,33 +226,33 @@
             // $scope.pWid=parseInt(w.width());
             // $scope.pHigh=parseInt(((parseInt(w.width())*9)/16));
 
-            $scope.playerVars = {
-                'autoplay': 1,
-                'controls': 0, 
-                'rel' : 0,
-                'showinfo':0,
-                'fs' : 0,
-                'loop': 1,
-                'mute':1
-            };
-            $scope.enableYT=true;
-            $scope.muteVid=true;
-            $scope.$on('youtube.player.ended', function ($event, player) {
-                $scope.skipVid();
-                player.seekTo(53.8);
-                player.pauseVideo();
-              //player.playVideo();
-            });
-            $http.get('/images/footage/home_vid.mp4')
-            .then(function(response) {
-                // $scope.errSrcVid=true;
-                console.log(response);
+            // $scope.playerVars = {
+            //     'autoplay': 1,
+            //     'controls': 0, 
+            //     'rel' : 0,
+            //     'showinfo':0,
+            //     'fs' : 0,
+            //     'loop': 1,
+            //     'mute':1
+            // };
+            // $scope.enableYT=true;
+            // $scope.muteVid=true;
+            // $scope.$on('youtube.player.ended', function ($event, player) {
+            //     $scope.skipVid();
+            //     player.seekTo(53.8);
+            //     player.pauseVideo();
+            //   //player.playVideo();
+            // });
+            // $http.get('/images/footage/home_vid.mp4')
+            // .then(function(response) {
+            //     // $scope.errSrcVid=true;
+            //     console.log(response);
 
-            }, function(response) {
-                console.log('here')
-                $scope.errSrcVid=true;
-                console.log('Error'+JSON.stringify(response));
-            });
+            // }, function(response) {
+            //     console.log('here')
+            //     $scope.errSrcVid=true;
+            //     console.log('Error'+JSON.stringify(response));
+            // });
         }
         
         init();

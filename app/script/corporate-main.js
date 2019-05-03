@@ -81,10 +81,6 @@
                         'text':"Santosh Menon heads editorial and content  for Network 18’s digital operations as Chief Content Officer and also plays a key role in integrating editorial operations across platforms and brands. A journalist with more than two decades of experience across continents, Santosh joined Network 18 in April 2016 from The Economic Times where he was Deputy Executive Editor and Head of News. Before that he worked for Reuters in London and reported from around Europe. At Network 18, he has driven editorial strategy and expansion across brands and spearheaded the creation of new properties.",
                         'img':"/images/profile/SantoshMenon.png"
                     },{
-                        'name':"Manish Maheshwari",
-                        'text':"Manish is CEO of Network18 Digital, which is the mobile and internet arm of Network18 Group, India's largest media and entertainment group serving content in 18 languages with 650 million television viewers and 105 million monthly unique digital visitors. Previously, Manish headed Flipkart's Seller Business and Ecosystem and worked at McKinsey in New York. He holds an MBA with honours from Wharton Business School.",
-                        'img':"/images/profile/ManishMaheshwari.png"
-                    },{
                         'name':"Puneet Singhvi",
                         'text':"Puneet is the Executive Vice President – Corporate Development & Digital Strategy. He oversees Investments, M&As, Partnerships, Strategic Alliances and Business Development across all media platforms (Television, Telecom, Digital and Offline) within the Group. Puneet also leads digital strategy and is part of the team that evaluates and drives investment and alliance initiatives across technology and digital domain. Erstwhile, he has served as COO of Times Global Partners where he was responsible for overall strategy and growth.",
                         'img':"/images/profile/PuneetSinghvi.png"
@@ -92,6 +88,20 @@
                         'name':"Rahul Kansal",
                         'text':"Rahul Kansal, Group Brand Advisor, helps the various business verticals of Network  18 with their brand-building and marketing strategies. He is also overseeing the company’s forthcoming entry into news publishing. Rahul is a veteran of media marketing, and was earlier Executive President of Bennett Coleman, serving as business head of The Times of India and the company’s language newspapers.",
                         'img':"/images/profile/RahulKansal.png"
+                    },
+                    {
+                        'name':"Basant Dhawan",
+                        'text':"Basant Dhawan is the CEO – English & Business News Cluster of Network18. He joined the media group in March 2019 and is responsible for the overall P&L of the English & Business News cluster of the organization which includes channels such as CNBC-TV18, CNN News18, CNBC Awaaz and CNBC Bajaar. Basant is a Sales & Marketing professional having worked across Auto, Telecom, Media & Entertainment sectors. In his last assignment at Star India, he was the Sr Vice President & Head of Product & Revenue Strategy – Emerging Sports. He created & spearheaded the commercial models for domestic leagues across various sports- Kabaddi, Football, Badminton etc. Prior to Star, Basant has worked with consumer brands such as Vodafone, Aircel, Bharti Airtel & Escorts across various stints in Brand Management, Media & Product Management, Marketing & Key roles in Sales & Business Development. Basant holds an engineering degree from MIT, Manipal & management diploma from IIM-Kolkata.",
+                        'img':"/images/profile/basant.png"
+                    },
+                    {
+                        'name':"Karan Abhishek Singh",
+                        'text':"Karan Abhishek Singh is the CEO - Languages of News18 Network. He joined TV18, one of India’s leading television broadcast networks in January 2019 and is responsible for the overall P&L of the Regional Languages channel cluster in the organization. Karan is a seasoned professional who has built his career largely across the FMCG & Media industries. Prior to joining TV18, he spent over 5 years at Star India Pvt Ltd. In his last role, he was the Executive Vice President - Ad Sales, managing the Agency Partnerships. He joined Star as the Branch Head for North & then led the setting up of the Enterprise accounts business before managing other sales leadership roles across the entertainment business. Prior to Star, Karan has had robust stints across consumer product organisations like Pepsico, Nokia, Godrej & HUL playing various roles across sales, business development & marketing functions. Karan is a commerce graduate & an MBA from Narsee Monjee Institute of Management Studies, Mumbai.",
+                        'img':"/images/profile/unk.png"
+                    },{
+                        'name':"Mayank Jain",
+                        'text':"Mayank Jain is the CEO – Hindi cluster at News18 Network. The Hindi cluster includes News18 India – a leading Hindi general news channel – and regional news channels in Hindi speaking markets such as UP, Rajasthan, Bihar, Punjab, Haryana, and MP. He is responsible for ratings, revenue, brand reputation and overall P&L for this cluster. Prior to joining Network18, Mayank was in the entertainment division at Star India where he led the Ad sales function in the North region. He also helped set up the Enterprise sales capability at Star. Mayank has diverse work experience & expertise in technology, media and telecom sectors through having worked with leading companies such as British Telecom, Samsung, Star India, and HT Media. In the past, he has held functional leadership roles in strategy, product management, sales and marketing. Mayank is a Computer Engineer and an MBA from INSEAD.",
+                        'img':"/images/profile/mayank.jpg"
                     }
                 ],
                 'CNBC':[
@@ -114,6 +124,7 @@
                     }
                 ],
                 'News18':[
+                    
                     {
                         'name':"Bhupendra Chaubey",
                         'text':"Bhupendra Chaubey is India’s most trusted political journalist on News television. A person who epitomises the rigour of journalism, in a world where opinions can be shaped in 100 characters , Bhupendra is the quintessential old world journalist who goes not just by his own gut but the ground level realities. He is the executive editor at CNN News18 and is the main political anchor for the network. He drives a team of bright political reporters across the country and hosts the channels flagship news show “Viewpoint. “. Having won national and international acclaim for his work, He brings with himself almost two decades of journalistic excellence",
@@ -129,7 +140,7 @@
                     },{
                         'name':"Sudeep Mukhia",
                         'text':"Sudeep is the Executive Editor of CNN-News18 and manages the prime time band. Prior to this, he was the resident editor of Hindustan Times.",
-                        'img':"/images/profile/profilepic.png"
+                        'img':"/images/profile/sudeepMukhia.jpg"
                     },{
                         'name':"Prabal Pratap Singh",
                         'text':"Prabal Pratap Singh is Managing Editor of News18 India, one of the leading hindi national news channel of India. It belongs to Network18 group. A journalist who comes with a background experience of The Pioneer and  Aaj Tak. A first Indian journalist to set foot on the war driven Afghanistan, whose reportage was acknowledged all across.  Be it war, terrorism, left wing extremism and election, he has been there reporting from ground zero for the print and television in his 25 years of journalistic career.",

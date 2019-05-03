@@ -816,15 +816,15 @@ button.openBtn{
 .mngContFlSm>div:nth-child(4) .contentTypeDiv.contentTypeMng:nth-child(4n+1) .back .triangle{left: 71%;}
 .mngContFlSm>h2,.mngContFlSm>div{width: 50%; margin: 0; float: left;}
 .container-fluid.flex-cont.mngContFl.ancContFl.ancContNws .contentTypeDiv.contentTypeMng:nth-last-child(2){
-	margin: 10px 4% 40px 0px;
+	/*margin: 10px 4% 40px 0px;*/
 }
 .container-fluid.flex-cont.mngContFl.ancContFl.ancContNws.ancContTV .contentTypeDiv.contentTypeMng:nth-last-child(3),.container-fluid.flex-cont.mngContFl.ancContFl.ancContNws.ancContTV .contentTypeDiv.contentTypeMng:last-child,.container-fluid.flex-cont.mngContFl.ancContFl.ancContNws.ancContTV .contentTypeDiv.contentTypeMng:nth-last-child(2){
-	margin: 10px 5.4% 40px 0%;
+	/*margin: 10px auto 40px;*/
 }
 	
 	
 .container-fluid.flex-cont.mngContFl.ancContFl.ancContNws .contentTypeDiv.contentTypeMng:last-child{
-	margin: 10px 0px 40px 2%;
+	/*margin: 10px 0px 40px 2%;*/
 }
 .pageSeperator{background: #D1D1D1; height: 10px;width: 100%;margin:20px 0;}
 .jumbotron{background: #b1b1b1;position: relative;height: 400px;padding: 0px !important;}
