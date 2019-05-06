@@ -6,9 +6,9 @@
   "repository": "https://github.com/angular/angular-seed",
   "license": "MIT",
   "devDependencies": {
-    "bower": "^1.7.7",
+    "bower": "^1.8.8",
     "http-server": "^0.9.0",
-    "jasmine-core": "^2.4.1",
+    "jasmine-core": "^2.99.1",
     "karma": "^0.13.22",
     "karma-chrome-launcher": "^0.2.3",
     "karma-firefox-launcher": "^0.1.7",
@@ -33,16 +33,15 @@
     "update-index-async": "node -e \"var fs=require('fs'),indexFile='app/index-async.html',loaderFile='app/bower_components/angular-loader/angular-loader.min.js',loaderText=fs.readFileSync(loaderFile,'utf-8').split(/sourceMappingURL=angular-loader.min.js.map/).join('sourceMappingURL=bower_components/angular-loader/angular-loader.min.js.map'),indexText=fs.readFileSync(indexFile,'utf-8').split(/\\/\\/@@NG_LOADER_START@@[\\s\\S]*\\/\\/@@NG_LOADER_END@@/).join('//@@NG_LOADER_START@@\\n'+loaderText+'    //@@NG_LOADER_END@@');fs.writeFileSync(indexFile,indexText);\""
   },
   "dependencies": {
-    "bower": "^1.8.0",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
-    "gulp-cli": "^1.2.2",
-    "gulp-connect": "^5.0.0",
-    "gulp-jshint": "^2.0.4",
+    "gulp-cli": "^1.4.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-jshint": "^2.1.0",
     "gulp-minify-css": "^1.2.4",
-    "gulp-uglify": "^2.0.1",
+    "gulp-uglify": "^2.1.2",
     "hls.js": "^0.12.4",
-    "jshint": "^2.9.4",
+    "jshint": "^2.10.2",
     "run-sequence": "^1.2.2"
   }
 }
