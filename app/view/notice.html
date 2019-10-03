@@ -2,24 +2,7 @@
 	<div class="headerFiller"></div>
 	<a class="fixed-link-top" href="/investors"><span class="">INVESTORS RELATIONS</span></span></a>
 	<div class="portfolioContainer corpMainCont">
-		<div class="newsVideoCont videTextCont bg-parallax" du-parallax opacity="fadeIn"  y="background"  id="portfolioNews">
-
-			<div class="video-cont" >
-				<div class="vid-bg"></div>
-				<video class="mobHide" width="100%" autoplay="" loop="">
-					<source src="images/footage/26911270-hd_INVESTORS-graded.mp4" type="video/mp4" class="top">
-				</video>
-				<video class="mobShow" width="100%" autoplay="" loop="">
-					<source src="images/footage/MOBILE_SIZE/26911270-hd_INVESTORS-mobile.mp4" type="video/mp4" class="top">
-				</video>
-			</div>
-		</div>
-		<div class="vid-arr">
-
-			<span class="arrText">scroll</span>
-			<span class="animateHeight"></span>
-			<span class="animateHeightBg"></span>
-		</div>
+		
 		<div id="scrollHere"></div>
         <div class="switchTab">
 			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?'active':' '">Network18</button>
@@ -32,6 +15,7 @@
 						<img src="/images/boxes/quarterlyfinancialstatement.jpg" alt="" class="corp-img-cont">
 						<a href="/finance#scrollHere"><div class="boxTextBot">FINANCIAL<br/>STATEMENTS</div></a>
 					</div>
+					
 					<div class="box" id="ANNUAL">
 						<img src="/images/boxes/annualreport.jpg" alt="" class="corp-img-cont">
 						<a href="/annualReport#scrollHere"><div class="boxTextBot">ANNUAL <br>REPORTS</div></a>
@@ -109,6 +93,10 @@
 						<li class="uib-tab nav-item " ng-click="changeFoc2(14)" ng-class="left_foc2==14?'active':' '" index="14" heading="Credit Rating">
 							<a class="nav-link ">Credit Rating</a>
 						</li>
+						<li class="uib-tab nav-item " ng-click="changeFoc2(15)" ng-class="left_foc2==15?'active':' '" index="15" heading="Secretarial Audit Report of Material Subsidiary"> 
+							<a class="nav-link ">Secretarial Audit Report of Material Subsidiary</a>
+						</li>
+						
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==0?'active':' '" ng-if="left_foc2==0">
@@ -165,6 +153,34 @@
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==1?'active':' '" ng-if="left_foc2==1">
 					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Network18-AGM Scrutinizer Report 2019</p>
+							<a href="/reports/reports/Notices and Events/N18_scrutinizerreport13092019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Network18-Gist of AGM Proceedings 2019</p>
+							<a href="/reports/reports/Notices and Events/Network18proceedings13092019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Network18-AGM Voting Results 2019</p>
+							<a href="/reports/reports/Notices and Events/NW18VotingResults1109201913092019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice under Section 160 of the Companies Act, 2013</p>
+							<a href="/reports/reports/Notices and Events/NW18Notice-160upd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">24th AGM Notice and E-voting instructions 2019</p>
+							<a href="/reports/reports/Notices and Events/NW18-AGMNotice201924.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Annual Return 2018-19</p>
+							<a href="/reports/reports/Notices and Events/ExtractofAnnualReturn-2018-19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Annual Return 2017-18</p>
+							<a href="/reports/reports/Notices and Events/ExtractofAnnualReturn-2017-18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Network18-Gist of Proceedings-2018</p>
 							<a href="/reports/reports/Notices and Events/Network18-Gist of Proceedings-2018.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -317,6 +333,22 @@
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==4?'active':' '" ng-if="left_foc2==4">
 					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Sale of Investments in Television Home Shopping Network Limited</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18Saleofinvestments.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Intimation about Cessation of Homeshop18 as Associate of the Company</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18MediaRelease06062019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Related Party Transactions for the half year ended March 31, 2019</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18RPTdisclosure31032019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Appointment of Additional Director (Independent)</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18DIRAppointment.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Resignation of Mr. Deepak Shantilal Parekh</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/Update_ResignationDeepakSParekh.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -510,6 +542,16 @@
 					</ol>
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==7?'active':' '" ng-if="left_foc2==7">
+					
+					<ol class="list-group list-group-alt">
+						<li class="list-group-item transUp flexVer" du-parallax y="transY">
+							<p class="investor_title_text">UNCLAIMED AMOUNT OF MATURED FIXED DEPOSITS</p>
+							<div class="input-control">
+								<input type="text" class="form-control" ng-model="inputData.nw18UAI1" placeholder="Enter your DP ID Client ID / Folio No.">
+								<button class="btn bordDwlBtn active" ng-click="checkUAI1()">SUBMIT</button>
+							</div>
+						</li>
+					</ol>
 					<div class="col-md-12" ng-if="memberInfoUAI1">
 						<table class="table table-striped table-bordered">
 							<thead>
@@ -530,9 +572,18 @@
 							</tbody>
 						</table>
 					</div>
-					<div class="col-md-12" ng-if="!memberInfoUAI2 && memberInfoUAI2Null">
-						<p class="text-danger">{{memberInfoUAI2Null}}</p>
+					<div class="col-md-12" ng-if="!memberInfoUAI1 && memberInfoUAI1Null">
+						<p class="text-danger">{{memberInfoUAI1Null}}</p>
 					</div>
+					<ol class="list-group list-group-alt">
+						<li class="list-group-item transUp flexVer" du-parallax y="transY">
+							<p class="investor_title_text">UNCLAIMED INTEREST AMOUNT ON MATURED FIXED DEPOSITS</p>
+							<div class="input-control">
+								<input type="text" class="form-control" ng-model="inputData.nw18UAI2" placeholder="Enter your DP ID Client ID / Folio No.">
+								<button class="btn bordDwlBtn active" ng-click="checkUAI2()">SUBMIT</button>
+							</div>
+						</li>
+					</ol>
 					<div class="col-md-12" ng-if="memberInfoUAI2">
 
 						<table class="table table-striped table-bordered">
@@ -557,6 +608,15 @@
 					<div class="col-md-12" ng-if="!memberInfoUAI2 && memberInfoUAI2Null">
 						<p class="text-danger">{{memberInfoUAI2Null}}</p>
 					</div>
+					<ol class="list-group list-group-alt">
+						<li class="list-group-item transUp flexVer" du-parallax y="transY">
+							<p class="investor_title_text">UNCLAIMED AMOUNT OF SALE PROCEED FOR FRACTIONAL SHARE AC NO : 4711297735</p>
+							<div class="input-control">
+								<input type="text" class="form-control" ng-model="inputData.nw18UAI3" placeholder="Enter your DP ID Client ID / Folio No.">
+								<button class="btn bordDwlBtn active" ng-click="checkUAI3()">SUBMIT</button>
+							</div>
+						</li>
+					</ol>
 					<div class="col-md-12" ng-if="memberInfoUAI3">
 
 						<table class="table table-striped table-bordered">
@@ -581,15 +641,24 @@
 					<div class="col-md-12" ng-if="!memberInfoUAI3 && memberInfoUAI3Null">
 						<p class="text-danger">{{memberInfoUAI3Null}}</p>
 					</div>
+					<ol class="list-group list-group-alt">
+						<li class="list-group-item transUp flexVer" du-parallax y="transY">
+							<p class="investor_title_text">Unclaimed Amount of Sale Proceeds of fractional shares – A/c No.8411289168</p>
+							<div class="input-control">
+								<input type="text" class="form-control" ng-model="inputData.nw18UAI4" placeholder="Enter your DP ID Client ID / Folio No.">
+								<button class="btn bordDwlBtn active" ng-click="checkUAI4()">SUBMIT</button>
+							</div>
+						</li>
+					</ol>
 					<div class="col-md-12" ng-if="memberInfoUAI4">
 
 						<table class="table table-striped table-bordered">
 							<thead>
 								<tr class="danger">
-									<th>Full Name</th>
-									<th>Portfolio Number</th>
+									<th>Holder’s Name</th>
+									<th>Folio No</th>
 									<th>Address</th>
-									<th>AMOUNT DUE</th>
+									<th>Unclaimed Amount</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -605,31 +674,6 @@
 					<div class="col-md-12" ng-if="!memberInfoUAI4 && memberInfoUAI4Null">
 						<p class="text-danger">{{memberInfoUAI4Null}}</p>
 					</div>
-					<div class="col-md-12" ng-if="memberInfoUAI5">
-
-						<table class="table table-striped table-bordered">
-							<thead>
-								<tr class="danger">
-									<th>Full Name</th>
-									<th>Portfolio Number</th>
-									<th>Address</th>
-									<th>AMOUNT DUE</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="">
-									<td>{{memberInfoUAI5.Investor_First_Name}} {{memberInfoUAI5.Investor_Last_Name}}</td>
-									<td>{{memberInfoUAI5.Folio_Number}}</td>
-									<td>{{memberInfoUAI5.Address}}</td>
-									<td>{{memberInfoUAI5.Amount_Due}}</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-md-12" ng-if="!memberInfoUAI5 && memberInfoUAI5Null">
-						<p class="text-danger">{{memberInfoUAI5Null}}</p>
-					</div>
-
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==8?'active':' '" ng-if="left_foc2==8">
 					<ol class="list-group">
@@ -691,9 +735,12 @@
 						</li>
 					</ol>
 				</section>
-
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==11?'active':' '" ng-if="left_foc2==11">
 					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated July 16, 2019</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18BoardMeetingNotice9072019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated April 15, 2019</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/NW18_BMIntimationNW1815042019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -754,6 +801,30 @@
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==12?'active':' '" ng-if="left_foc2==12">
 					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of 24th Annual General Meeting, Cut-Off date and E-voting published in English Newspaper – Financial Express</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-AGMNotice-FinancialExpress.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of 24th Annual General Meeting, Cut-Off date and E-voting published in Marathi Newspaper – Navshakti</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-AGMNotice-Navshakti.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter ended June 30, 2019 published in English Newspaper Financial Express</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-Financials-30.06.2019-FE.PDF"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter ended June 30, 2019 published in Marathi Newspaper Navshakti</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-Financials-30.06.2019-Navshakti.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on July 16, 2019 published in English Newspaper – Financial Express</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-BMNotice-FE.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on July 16, 2019  published in Marathi Newspaper – Navshakti</p>
+							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18-BMNotice-Navshakti.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Extract of Standalone and Consolidated Audited Financial Results for the quarter and year ended March 31, 2019 published in English Newspaper Financial Express</p>
 							<a href="/reports/reports/Notices and Events/Newspaper Advertisement/Network18_Financials31032019_FE.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -1057,6 +1128,10 @@
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==13?'active':' '" ng-if="left_foc2==13">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Business Responsibility Report – 2018-19</p>
+							<a href="/reports/reports/business/NW18_BRR_2018-19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Business Responsibility Report – 2017-18</p>
 							<a href="/reports/reports/business/N18-BRR.PDF" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
@@ -1068,6 +1143,10 @@
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==14?'active':' '" ng-if="left_foc2==14">
 					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Credit Rating-India Ratings (a Fitch Group Company) – September 16, 2019</p>
+							<a href="/reports/reports/Notices and Events/Other Notices/NW18creditrating16092019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Revised Credit Rating_CARE – January 31, 2019</p>
 							<a href="/reports/reports/Notices and Events/Other Notices/NW18creditratingCARE.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -1106,6 +1185,15 @@
 						</li>
 					</ol>
 				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==15?'active':' '" ng-if="left_foc2==15">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Secretarial Audit Report – 2018-19</p>
+							<a href="/reports/reports/Notices and Events/NW18V18-SecretarialAuditReport-FY2018-19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+
 			</div>
 		</div>
 		<div class="container tv18Cont" ng-if="!activeSec.nw18Section">
@@ -1174,6 +1262,9 @@
 						<li class="uib-tab nav-item" ng-click="changeFocTV2(19)" ng-class="left_foctv2==19?'active':' '" index="19" heading="Credit Rating">
 							<a class="nav-link ">Credit Rating</a>
 						</li>
+						<li class="uib-tab nav-item" ng-click="changeFocTV2(20)" ng-class="left_foctv2==20?'active':' '" index="20" heading="Credit Rating">
+							<a class="nav-link ">Secretarial Audit Report of Material Subsidiary</a>
+						</li>
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==0?'active':' '" ng-if="left_foctv2==0">
@@ -1181,6 +1272,16 @@
 						<li class="list-group-item list-group-itemFull transUp" du-parallax y="transY">
 							<p class="investor_title_text">Access Download to claim refund from IEPF Authority <sub>[to be used by shareholders/claimants whose shares and/or dividend/other amounts have been transferred by the Company to Investor Education and Protection Fund]</sub></p>
 							<a href="http://www.iepf.gov.in/IEPF/refund.html" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+					<ol class="list-group list-group-alt">
+						<li class="list-group-item transUp flexVer" du-parallax y="transY">
+							<p class="investor_title_text">UNCLAIMED INTEREST ON MATURED FIXED DEPOSITS</p>
+							<div class="input-control">
+								<input type="text" class="form-control" ng-model="inputData.tv18iepfUI" placeholder="Enter your DP ID Client ID / Folio No.">
+								<button class="btn bordDwlBtn active" ng-click="UNPAIDINTEREST()">SUBMIT</button>
+
+							</div>
 						</li>
 					</ol>
 					<div class="col-md-12" ng-if="memberInfoUI">
@@ -1191,7 +1292,7 @@
 									<th>Full Name</th>
 									<th>Portfolio Number</th>
 									<th>Address</th>
-									<th>NO. OF EQUITY SHARES</th>
+									<th>AMOUNT DUE</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -1207,6 +1308,16 @@
 					<div class="col-md-12" ng-if="!memberInfoUI && memberInfoUINull">
 						<p class="text-danger">{{memberInfoUINull}}</p>
 					</div>
+					<ol class="list-group list-group-alt">
+						<li class="list-group-item transUp flexVer" du-parallax y="transY">
+							<p class="investor_title_text">UNCLAIMED AMOUNT OF MATURED FIXED DEPOSITS</p>
+							<div class="input-control">
+								<input type="text" class="form-control" ng-model="inputData.tv18iepfUA" placeholder="Enter your DP ID Client ID / Folio No.">
+								<button class="btn bordDwlBtn active" ng-click="UNPAIDAMOUNT()">SUBMIT</button>
+
+							</div>
+						</li>
+					</ol>
 					<div class="col-md-12" ng-if="memberInfoUA">
 
 						<table class="table table-striped table-bordered">
@@ -1215,7 +1326,7 @@
 									<th>Full Name</th>
 									<th>Portfolio Number</th>
 									<th>Address</th>
-									<th>NO. OF EQUITY SHARES</th>
+									<th>AMOUNT DUE</th>
 								</tr>
 							</thead>
 							<tbody>
@@ -1231,43 +1342,46 @@
 					<div class="col-md-12" ng-if="!memberInfoUA && memberInfoUANull">
 						<p class="text-danger">{{memberInfoUANull}}</p>
 					</div>
-					<!-- <ol class="list-group list-group-alt">
-						<li class="list-group-item transUp flexVer" du-parallax y="transY">
-							<p class="investor_title_text">UNPAID FRACTION AMOUNT SOA</p>
-							<div class="input-control">
-								<input type="text" class="form-control" ng-model="inputData.nw18iepfUF" placeholder="Enter your DP ID Client ID / Folio No.">
-								<button class="btn bordDwlBtn active" ng-click="UNPAIDFRACTION()">SUBMIT</button>
-
-							</div>
-						</li>
-					</ol> -->
-					<div class="col-md-12" ng-if="memberInfoUF">
-
-						<table class="table table-striped table-bordered">
-							<thead>
-								<tr class="danger">
-									<th>Full Name</th>
-									<th>Portfolio Number</th>
-									<th>Address</th>
-									<th>NO. OF EQUITY SHARES</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr class="">
-									<td>{{memberInfoUF.Investor_First_Name}} {{memberInfoUF.Investor_Middle_Name}} {{memberInfoUF.Investor_Last_Name}}</td>
-									<td>{{memberInfoUF.Folio_Number}}</td>
-									<td>{{memberInfoUF.Address}}</td>
-									<td>{{memberInfoUF.Amount_Due}}</td>
-								</tr>
-							</tbody>
-						</table>
-					</div>
-					<div class="col-md-12" ng-if="!memberInfoUF && memberInfoUFNull">
-						<p class="text-danger">{{memberInfoUFNull}}</p>
-					</div>
+					
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==1?'active':' '" ng-if="left_foctv2==1">
 					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">TV18-AGM Scrutinizer Report 2019</p>
+							<a href="/reports/reportstv18/Notices Events/TV18_AGMScrutinizerReport-201913092019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">TV18-Gist of Proceedings-2019</p>
+							<a href="/reports/reportstv18/Notices Events/TV18_GistofProceedings_201913092019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">TV18-AGM Voting Results 2019</p>
+							<a href="/reports/reportstv18/Notices Events/TV18-AGMVotingResults-201913092019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice under Section 160 of the Companies Act, 2013</p>
+							<a href="/reports/reportstv18/Notices Events/TV18Notice-160upd.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">14th AGM Notice and E-voting instructions 2019</p>
+							<a href="/reports/reportstv18/Notices Events/TV18-AGMNotice201924.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Annual Return 2018-19</p>
+							<a href="/reports/reportstv18/Notices Events/ExtractofAnnualReturn-2018-19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Annual Return 2017-18</p>
+							<a href="/reports/reportstv18/Notices Events/ExtractofAnnualReturn-2017-18.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Book Closure Notice for 12th Annual General Meeting</p>
+							<a href="/reports/reportstv18/Notices Events/Book Closure Notice for 12th Annual General Meeting.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice under section 160-11th AGM</p>
+							<a href="/reports/reportstv18/Notices Events/Notice under section 160-11th AGM.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Book Closure Notice for 13th  Annual General Meeting</p>
 							<a href="/reports/reportstv18/Notices Events/TV18_Intimaiton_AGM Book Clsoure.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -1408,6 +1522,14 @@
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==3?'active':' '" ng-if="left_foctv2==3">
 					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Appointment of Additional Director (Independent)</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18AppointmentofDirector16072019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Related Party Transactions for the half year ended March 31, 2019</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18RPTDisclosure31032019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Scheme of Merger by Absorption approved by NCLT, Mumbai bench</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18SchemeofMerger.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -1656,6 +1778,10 @@
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==16?'active':' '" ng-if="left_foctv2==16">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated July 16, 2019</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18BoardMeetingNotice16072019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Stock Exchange intimation for Board Meeting dated April 15, 2019</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18_IntimationBoardMeeting15042019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
@@ -1715,6 +1841,30 @@
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==17?'active':' '" ng-if="left_foctv2==17">
 					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of 14th Annual General Meeting, Cut-Off date and E-voting published in English Newspaper – Financial Express</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-AGMNotice-FinancialExpress.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of 14th Annual General Meeting, Cut-Off date and E-voting published in Marathi Newspaper – Navshakti</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-AGMNotice-Navshakti.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter ended June 30, 2019 published in English Newspaper Financial Express</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-Financials-30.06.2019-FE.PDF"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Extract of Standalone and Consolidated Unaudited Financial Results for the quarter ended June 30, 2019 published in Marathi Newspaper Navshakti</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-Financials-30.06.2019-Navshakti.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on July 16, 2019 published in English Newspaper – Financial Express</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-BMNotice-FE.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Notice of Board Meeting Scheduled on July 16, 2019  published in Marathi Newspaper – Navshakti</p>
+							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-BMNotice-Navshakti.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Extract of Standalone and Consolidated Audited Financial Results for the quarter and year ended March 31, 2019 published in English Newspaper Financial Express</p>
 							<a href="/reports/reportstv18/Newspaper Advertisement/TV18-Financials_31032019-FE.pdf"  class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -1980,6 +2130,10 @@
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==18?'active':' '" ng-if="left_foctv2==18">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Business Responsibility Report – 2018-19</p>
+							<a href="/reports/reportstv18/Notices%20Events/business/TV18_BRR_2018-19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Business Responsibility Report – 2017-18</p>
 							<a href="/reports/reportstv18/Notices Events/business/TV18-BRR.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
@@ -1991,6 +2145,10 @@
 				</section>
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==19?'active':' '" ng-if="left_foctv2==19">
 					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Credit Rating-India Ratings (a Fitch Group Company) – September 16, 2019</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18CreditRatingLetter16092019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Revised Credit Rating_ICRA – January 28, 2019</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18ICRACreditRating.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
@@ -2013,11 +2171,19 @@
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Credit Rating</p>
-							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18_Credit Rating Intimation .pdf"" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18_Credit Rating Intimation .pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Update on Credit Rating for Fixed Deposit Program</p>
 							<a href="/reports/reportstv18/Notices Events/Other Notices/Update on Credit Rating for Fixed Deposit Programm and Bank.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==20?'active':' '" ng-if="left_foctv2==20">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Secretarial Audit Report – 2018-19</p>
+							<a href="/reports/reportstv18/Notices Events/Other Notices/TV18V18-SecretarialAuditReport-FY2018-19.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 					</ol>
 				</section>

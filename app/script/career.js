@@ -36,7 +36,7 @@
             $rootScope.hideHeader=false;
             $rootScope.hidefooter=false;
             $window.document.title='NETWORK18 | Career';
-            $scope.theBestVideo = 'cvBDZiR2UuM';
+            $scope.theBestVideo = '-8Z9TTcl0xY';
             $http.get('/script/career-cat.json')
             .then(function(response) {
 

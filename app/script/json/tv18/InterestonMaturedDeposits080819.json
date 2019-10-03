@@ -1,0 +1,5018 @@
+[
+  {
+    "Investor_First_Name": "NITA KUMAR IYER",
+    "Folio_Number": 797,
+    "Address": "228 GULMOHAR ENCLAVE DDA FLATS NEW DELHI 0",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "MEERA  KUMAR",
+    "Folio_Number": 7944,
+    "Address": "FLAT NO 8139 SECTOR-B POCKET 11 VASANT KUNJ NEW DELHI",
+    "Amount_Due": 340
+  },
+  {
+    "Investor_First_Name": "RITU  NADKARNI",
+    "Folio_Number": 31750,
+    "Address": "C 4A/25B JANAKPURI NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "MARISSA  FERNANDES",
+    "Folio_Number": 34315,
+    "Address": "103 MAZAGAON APARTMENT G DR MASCARENHAS ROAD MUMBAI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "LEENA GOVIND CHANDAN",
+    "Folio_Number": 42482,
+    "Address": "8 KOTESHWAR VIHAR J V ROAD GHATKOPAR WEST MUMBAI",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "VISHRUT  NARANG",
+    "Folio_Number": 1141,
+    "Address": "EYE & CHILD CARE CENTRE KHANNA COLONY SONEPAT HARYANA",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "BHUDARBHAI MAGANBHAI PATEL",
+    "Folio_Number": 1188,
+    "Address": "SHRADDHA 9 PANCHAVATI SOCIETY HALVAD ROAD DHRANGADHRA GUJRAT",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "KAMU VEERABHADRA RAO",
+    "Folio_Number": 2515,
+    "Address": "D NO 70-2-57 KAPULA RAMALAYAM STREET RAMANAYYAPETA KAKINADA EAST GODAVARI AP",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "PARGHI JAMANBEN S",
+    "Folio_Number": 18222,
+    "Address": "C/O DURGA SCHOOL 54 RADHA VALLABH COLONY MANINAGAR AHMEDABAD",
+    "Amount_Due": 693
+  },
+  {
+    "Investor_First_Name": "RAHUL  KHANDELWAL",
+    "Folio_Number": 32255,
+    "Address": "THE KHATTER AUTO MOBILES SHOP NO 53 SANSAR CHANDRA ROAD JAIPUR",
+    "Amount_Due": 725
+  },
+  {
+    "Investor_First_Name": "DEEPA  SINGHAL",
+    "Folio_Number": 7257,
+    "Address": "811 BALAJI MANDIR COLONY RAJENDAR NAGAR BAREILLY",
+    "Amount_Due": 726
+  },
+  {
+    "Investor_First_Name": "R K MAMDANI",
+    "Folio_Number": 9193,
+    "Address": "GHOD DOD RPAD ROAD KARIMABAD SOCIETY BUNGLOW NO-20A BESIDE BSNL OFFICE GROUND FLOOR SURAT",
+    "Amount_Due": 870
+  },
+  {
+    "Investor_First_Name": "RENUKA  GOPAL",
+    "Folio_Number": 20607,
+    "Address": "FLAT NO 7 MANASVEE APTS OLD 37 NEW 21 86TH STREET CHENNAI 18TH AVENUE ASHOK NGR",
+    "Amount_Due": 870
+  },
+  {
+    "Investor_First_Name": "DEBJANI  CHATTERJEE",
+    "Folio_Number": 27513,
+    "Address": "10 E B B CHATTERJEE ROAD KASBA KOLKATA",
+    "Amount_Due": 870
+  },
+  {
+    "Investor_First_Name": "CHAMPA DWARKADAS NEGANDHI",
+    "Folio_Number": 28764,
+    "Address": "398 C KALBADEVIRD OLDHALAI BHATIA MAHAJANWADI 4TH FLR R NO 103 MUMBAI",
+    "Amount_Due": 907
+  },
+  {
+    "Investor_First_Name": "A  SUMATHI",
+    "Folio_Number": 3047,
+    "Address": "NO 13 CITB MODEL HOUSE SUBHASH NAGAR 4TH MAIN RAOD MYSORE",
+    "Amount_Due": 945
+  },
+  {
+    "Investor_First_Name": "SANGITA H BHAVNANI",
+    "Folio_Number": 25514,
+    "Address": "C 52 HAUZ KAHS NEW DELHI",
+    "Amount_Due": 1043
+  },
+  {
+    "Investor_First_Name": "MINESH A GAJIWALA",
+    "Folio_Number": 37025,
+    "Address": "100 KAWASJI NAGAR JUNA ADAJAN ROAD NEAR BADRI NARAYAN MANDIR ADAJAN SURAT GUJARAT",
+    "Amount_Due": 1043
+  },
+  {
+    "Investor_First_Name": "ASHWIN H GAJIWALA",
+    "Folio_Number": 37019,
+    "Address": "100 KAWASJI NAGAR JUNA ADAJAN ROAD NEAR BADRI NARAYAN MANDIR ADAJAN SURAT GUJARAT",
+    "Amount_Due": 1089
+  },
+  {
+    "Investor_First_Name": "VAIDEHI DEVI GUPTA",
+    "Folio_Number": 43112,
+    "Address": "43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 1150
+  },
+  {
+    "Investor_First_Name": "PARDEEP KUMAR CHANDERWAL",
+    "Folio_Number": 31441,
+    "Address": "C 60 TAGORE GARDEN EXTN N DELHI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "HIMAXI  KOTHARI",
+    "Folio_Number": 37144,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "NEHAL  KOTHARI",
+    "Folio_Number": 37146,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "SAROJA  S",
+    "Folio_Number": 10649,
+    "Address": "C/O V KRISHNA MOORTHY 48/4(NEW NO-33) LUZ AVENUE MYLAPORE CHENNAI",
+    "Amount_Due": 1174
+  },
+  {
+    "Investor_First_Name": "RAMESH MANGULAL MEHTA",
+    "Folio_Number": 43032,
+    "Address": "F/2 SURBHI APPT PLOT NO 208 SEC 29 GANDHINAGAR",
+    "Amount_Due": 1190
+  },
+  {
+    "Investor_First_Name": "AMAR  KAMATH",
+    "Folio_Number": 3033,
+    "Address": "B22 GLADHURST PHIROZESHAH ROAD SANTACRUZ WEST MUMBAI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "BHARAT MOHANLAL BHATIA",
+    "Folio_Number": 4257,
+    "Address": "206 SEA BREEZE NEXT TO ROMAN SUPER MKT SEVEN BUNGLOWS ANDHERI W MUMBAI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "JAY  SHREE",
+    "Folio_Number": 6961,
+    "Address": "CK 58/46 RESHAM KATRA CHOWK C/O RAJ KUMAR GUPTA VARANASI UP",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "DEVENDRA BABULAL KINARIWALA",
+    "Folio_Number": 27815,
+    "Address": "15 RIVER DRIVE SOCIETY ADAJAN SURAT",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "ANANTLAL  JAIN",
+    "Folio_Number": 26488,
+    "Address": "C/O DINESH JAIN 52 MAHAVEER BAGH AERODRUM ROAD INDORE MP",
+    "Amount_Due": 1246
+  },
+  {
+    "Investor_First_Name": "JYOTI  RAO",
+    "Folio_Number": 10686,
+    "Address": "B1/ 223 TOWER 16 SILVER CITY APARTMENTS SEC-93 NOIDA",
+    "Amount_Due": 1247
+  },
+  {
+    "Investor_First_Name": "ANJALI  CHOPRA",
+    "Folio_Number": 9238,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1247
+  },
+  {
+    "Investor_First_Name": "RUPAK  MEHTA",
+    "Folio_Number": 11110,
+    "Address": "C/O SHAKUNTALA OBEROI W 8 A 13 PRASHANTHI NILAYAM PUTTAPARTHI ANANTAPUR DIST ANDHRA PRADESH",
+    "Amount_Due": 1247
+  },
+  {
+    "Investor_First_Name": "CHANDRA ARJAN HIRANANDAN",
+    "Folio_Number": 2924,
+    "Address": "1E SUNDATTA APARTMENTS MT PLEASANT ROAD MALABAR HILL MUMBAI",
+    "Amount_Due": 1260
+  },
+  {
+    "Investor_First_Name": "ESHA  CHOPRA",
+    "Folio_Number": 9241,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1304
+  },
+  {
+    "Investor_First_Name": "ADARSH  BHATIA",
+    "Folio_Number": 3983,
+    "Address": "HOUSE NO 1332 SECTOR 15 PART II GURGAON HARYANA",
+    "Amount_Due": 1417
+  },
+  {
+    "Investor_First_Name": "MANORMA  KELKAR",
+    "Folio_Number": 32508,
+    "Address": "567 BLOCK KG 1 VIKAS PURI NEW DELHI",
+    "Amount_Due": 1512
+  },
+  {
+    "Investor_First_Name": "SUNDER LAL SAGAR",
+    "Folio_Number": 18894,
+    "Address": "D-116 SUNDER LAL SAGAR NEAR COMMUNITY HALL DELHI",
+    "Amount_Due": 1633
+  },
+  {
+    "Investor_First_Name": "RAJALAKSHMI  NARAYAN",
+    "Folio_Number": 14106,
+    "Address": "501 PALMGROVE APPTS C.D.BARFIWALA LANE INSIDE NEW INDIA COLONY ANDEHRI(W) MUMBAI",
+    "Amount_Due": 2609
+  },
+  {
+    "Investor_First_Name": "V  KRISHNAMOORTHY",
+    "Folio_Number": 21542,
+    "Address": "C\\O ALMONDZ GLOBAL SEC NEW NO-48 RAMANUJAM STREET T NAGAR CHENNAI",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "SHILPI  SINGH",
+    "Folio_Number": 22407,
+    "Address": "414 EMPIRE COMPLEX CNBC TV18 SENAPATI BAPAT MARG LOWER PAREL",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "MEGHA  JINDAL",
+    "Folio_Number": 28317,
+    "Address": "FALT NO 50 JAI LAXMI AAWAS PLOT NO 59 I P EXTENTION DELHI",
+    "Amount_Due": 2869
+  },
+  {
+    "Investor_First_Name": "POOJA  SINGH",
+    "Folio_Number": 27266,
+    "Address": "H NO 122 BLOCK 20 2ND FLOOR VIKRAM VIHAR LAJPAT NAGAR 4 NEW DELHI",
+    "Amount_Due": 2899
+  },
+  {
+    "Investor_First_Name": "TARA  SHARMA",
+    "Folio_Number": 32161,
+    "Address": "C/O VISHNI KARAMCHANDANI 360 SAKET COLONY MAKER WALI ROAD VAISHALI NAGAR AJMER",
+    "Amount_Due": 2899
+  },
+  {
+    "Investor_First_Name": "NARIMAN SORABJI KATGARA",
+    "Folio_Number": 28680,
+    "Address": "604 A M.A. PATEL CHS PALIRAM ROAD ANDHERI WEST MUMBAI",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "RAJAGOPALAN  K",
+    "Folio_Number": 36096,
+    "Address": "PLOT NO 5 NEHRU STREET GOWRIVAKKAM CHENNAI TAMILNADU",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SUNIL  DUTT",
+    "Folio_Number": 37142,
+    "Address": "B 13 BLOCK B&C ADHYAPAK NAGAR NANGLOI DELHI",
+    "Amount_Due": 3391
+  },
+  {
+    "Investor_First_Name": "TEJASWAROOP K H",
+    "Folio_Number": 6974,
+    "Address": "S/O HANUMATHAIAH SHREE NILAYA NEAR DIAMOND ENCLAVE CHIKKASANDRA TD ASARAHALLI PO BANGALORE",
+    "Amount_Due": 6124
+  },
+  {
+    "Investor_First_Name": "NABANITA  BANDYOPADHYAY",
+    "Folio_Number": 35764,
+    "Address": "A3/ 613 TOWER-11 PURVANCHAL SILVER CITY-2 SECTOR:Pi 2 GREATER NOIDA",
+    "Amount_Due": 9652
+  },
+  {
+    "Investor_First_Name": "KANWAL JIT BHATIA",
+    "Folio_Number": 26950,
+    "Address": "C 1 / 100 ASHOK VIHAR PHASE 2 DELHI",
+    "Amount_Due": 11595
+  },
+  {
+    "Investor_First_Name": "NARENDRA KUMAR JAIN",
+    "Folio_Number": 16695,
+    "Address": "B 406 SHRI VIJAY VIIAR SOCIETY POWAI VIHAR MUMBAI",
+    "Amount_Due": 26087
+  },
+  {
+    "Investor_First_Name": "MRUDULABEN KAMALBHAI THAKER",
+    "Folio_Number": 30066,
+    "Address": "H NO 5 RANJAN SOCIETY CHIKUWADI JETALPUR ROAD VADODARA",
+    "Amount_Due": 2992
+  },
+  {
+    "Investor_First_Name": "MRUDULABEN KAMALBHAI THAKER",
+    "Folio_Number": 30068,
+    "Address": "H NO 5 RANJAN SOCIETY CHIKUWADI JETALPUR ROAD VADODARA",
+    "Amount_Due": 2992
+  },
+  {
+    "Investor_First_Name": "K S NARAYANAN",
+    "Folio_Number": 26511,
+    "Address": "501 PALMGROVE APPTS C.D.BARFIWALA LANE INSIDE NEW INDIA COLONY ANDEHRI(W) MUMBAI",
+    "Amount_Due": 230
+  },
+  {
+    "Investor_First_Name": "K S NARAYANAN",
+    "Folio_Number": 26511,
+    "Address": "501 PALMGROVE APPTS C.D.BARFIWALA LANE INSIDE NEW INDIA COLONY ANDEHRI(W) MUMBAI",
+    "Amount_Due": 2301
+  },
+  {
+    "Investor_First_Name": "JASMEET  SINGH",
+    "Folio_Number": 25826,
+    "Address": "1D/67A NIT FARIDABAD HARYANA",
+    "Amount_Due": 233
+  },
+  {
+    "Investor_First_Name": "SANGITA H BHAVNANI",
+    "Folio_Number": 25514,
+    "Address": "C 52 HAUZ KAHS NEW DELHI",
+    "Amount_Due": 850
+  },
+  {
+    "Investor_First_Name": "VIKRAM  VINAYEK",
+    "Folio_Number": 26844,
+    "Address": "66 VASANT ENCLAVE NEW DELHI",
+    "Amount_Due": 479
+  },
+  {
+    "Investor_First_Name": "POOJA  SINGH",
+    "Folio_Number": 27266,
+    "Address": "H NO 122 BLOCK 20 2ND FLOOR VIKRAM VIHAR LAJPAT NAGAR 4 NEW DELHI",
+    "Amount_Due": 2426
+  },
+  {
+    "Investor_First_Name": "KULJEET  KAUR",
+    "Folio_Number": 28922,
+    "Address": "D 329 DEFENCE COLONY NEW DELHI",
+    "Amount_Due": 1059
+  },
+  {
+    "Investor_First_Name": "GURDAS A UTTAMSINGH",
+    "Folio_Number": 29032,
+    "Address": "1 ISHWAR BHAVAN A ROAD CHURCHGATE MUMBAI",
+    "Amount_Due": 8285
+  },
+  {
+    "Investor_First_Name": "CHAMPA DWARKADAS NEGANDHI",
+    "Folio_Number": 28764,
+    "Address": "398 C KALBADEVIRD OLDHALAI BHATIA MAHAJANWADI 4TH FLR R NO 103 MUMBAI",
+    "Amount_Due": 858
+  },
+  {
+    "Investor_First_Name": "SHANTHI  C",
+    "Folio_Number": 29719,
+    "Address": "4056 RAMASAMY STREET RAM NAGAR NORTH MADIPAKKAM",
+    "Amount_Due": 2804
+  },
+  {
+    "Investor_First_Name": "NARENDRA  JAIN",
+    "Folio_Number": 18071,
+    "Address": "HOUSE NO 3 ADARSH NAGAR NEAR NAVDEEP ACADEMY SCHOOL KALKA MATA ROAD UDAIPUR RAJ",
+    "Amount_Due": 277
+  },
+  {
+    "Investor_First_Name": "UMA  SRIDHAR",
+    "Folio_Number": 30607,
+    "Address": "W/O SREEDHARA K NO C 3 TELECOM QTRS KUVEMPU ROAD SHIMOGA",
+    "Amount_Due": 290
+  },
+  {
+    "Investor_First_Name": "VILASBEN SURESHCHANDRA SHAH",
+    "Folio_Number": 30020,
+    "Address": "1825 OPP PARABADI PADA POLE GANDHI ROAD AHMEDABAD",
+    "Amount_Due": 302
+  },
+  {
+    "Investor_First_Name": "VRANDAVAN ODHAVJI RAJANI",
+    "Folio_Number": 3766,
+    "Address": "VRUNDAVAN KAILASH ROAD NO-2 OPP S.T DEPOT JAMNAGAR",
+    "Amount_Due": 303
+  },
+  {
+    "Investor_First_Name": "PURSHOTTAM",
+    "Folio_Number": 33450,
+    "Address": "HOUSE NO 590 GALI NO 3 PREM NAGAR KOTLAMUBARKPUR DELHI",
+    "Amount_Due": 406
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43113,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 409
+  },
+  {
+    "Investor_First_Name": "P VSHKRISHNA MOHAN",
+    "Folio_Number": 13750,
+    "Address": "439 MAHAVEER DAZZLE APTS HOODI BANGALORE KARNATAKA",
+    "Amount_Due": 435
+  },
+  {
+    "Investor_First_Name": "SUNIL CHANDRAKANT BAKHAI",
+    "Folio_Number": 32183,
+    "Address": "VIPUL SADAR NR MOTI TANKI B/S GONDAL NAGRIK BANK RAJKOT",
+    "Amount_Due": 435
+  },
+  {
+    "Investor_First_Name": "KANTABEN PRANLAL ZAVERI",
+    "Folio_Number": 3024,
+    "Address": "C/O PURNIMA J RAO B-1202 SATELLITE TOWER FILM CITY ROAD GOREGAON (E)",
+    "Amount_Due": 473
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43106,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 544
+  },
+  {
+    "Investor_First_Name": "BHAGAWAN GANESH SAHASRABUDHE",
+    "Folio_Number": 9861,
+    "Address": "FLAT NO A1 AASAWARI C 45 20 IDEAL COLONY PAUD ROAD PUNE",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "SHREYA  CHATTERJEE",
+    "Folio_Number": 32611,
+    "Address": "549 / 4 P K GUHA ROAD KOLKATA",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "RITU  NADKARNI",
+    "Folio_Number": 31750,
+    "Address": "C 4A/25B JANAKPURI NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "LEENA GOVIND CHANDAN",
+    "Folio_Number": 42482,
+    "Address": "8 KOTESHWAR VIHAR J V ROAD GHATKOPAR WEST MUMBAI",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "RAMESH MANGULAL MEHTA",
+    "Folio_Number": 43032,
+    "Address": "F/2 SURBHI APPT PLOT NO 208 SEC 29 GANDHINAGAR",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "KAMU VEERABHADRA RAO",
+    "Folio_Number": 2515,
+    "Address": "D NO 70-2-57 KAPULA RAMALAYAM STREET RAMANAYYAPETA KAKINADA EAST GODAVARI AP",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "SUDHABEN LALITKUMAR DOSHI",
+    "Folio_Number": 35483,
+    "Address": "201 SHEETALEKH NEAR P R BUS STOP VNIERSITY ROAD RAJKOT",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "MEENA UDAY GHORPADE",
+    "Folio_Number": 10924,
+    "Address": "C S NO 1122/1A PLOT NO 5 RING ROAD BONDRE NAGAR NEAR KOTWAL NAGAR PULEWADI KOLHAPUR",
+    "Amount_Due": 693
+  },
+  {
+    "Investor_First_Name": "RAHUL  KHANDELWAL",
+    "Folio_Number": 32255,
+    "Address": "THE KHATTER AUTO MOBILES SHOP NO 53 SANSAR CHANDRA ROAD JAIPUR",
+    "Amount_Due": 725
+  },
+  {
+    "Investor_First_Name": "DEEPA  SINGHAL",
+    "Folio_Number": 7257,
+    "Address": "811 BALAJI MANDIR COLONY RAJENDAR NAGAR BAREILLY",
+    "Amount_Due": 726
+  },
+  {
+    "Investor_First_Name": "MINABEN ABHAYKUMAR SHAH",
+    "Folio_Number": 3202,
+    "Address": "14 AMBIKA PARK SOCIETY OPP PUSHPAKUNJ SOCIETY SUMUL DAIRY ROAD SURAT",
+    "Amount_Due": 788
+  },
+  {
+    "Investor_First_Name": "MINABEN ABHAYKUMAR SHAH",
+    "Folio_Number": 3211,
+    "Address": "14 AMBIKA PARK SOCIETY OPP PUSHPAKUNJ SOCIETY SUMUL DAIRY ROAD SURAT",
+    "Amount_Due": 788
+  },
+  {
+    "Investor_First_Name": "MINABEN ABHAYKUMAR SHAH",
+    "Folio_Number": 3217,
+    "Address": "14 AMBIKA PARK SOCIETY OPP PUSHPAKUNJ SOCIETY SUMUL DAIRY ROAD SURAT",
+    "Amount_Due": 788
+  },
+  {
+    "Investor_First_Name": "MINABEN ABHAYKUMAR SHAH",
+    "Folio_Number": 3220,
+    "Address": "14 AMBIKA PARK SOCIETY OPP PUSHPAKUNJ SOCIETY SUMUL DAIRY ROAD SURAT",
+    "Amount_Due": 788
+  },
+  {
+    "Investor_First_Name": "R K MAMDANI",
+    "Folio_Number": 9193,
+    "Address": "GHOD DOD RPAD ROAD KARIMABAD SOCIETY BUNGLOW NO-20A BESIDE BSNL OFFICE GROUND FLOOR SURAT",
+    "Amount_Due": 870
+  },
+  {
+    "Investor_First_Name": "SUNIL KUMAR HUF",
+    "Folio_Number": 30887,
+    "Address": "A-56 PATEL NAGAR II GHAZIABAD UP",
+    "Amount_Due": 870
+  },
+  {
+    "Investor_First_Name": "ARVINDBHAI NARMADASHANKER PANDYA",
+    "Folio_Number": 34024,
+    "Address": "MAHADEV FALIA AT & PO AJOD DIST VADODARA",
+    "Amount_Due": 907
+  },
+  {
+    "Investor_First_Name": "A  SUMATHI",
+    "Folio_Number": 3047,
+    "Address": "NO 13 CITB MODEL HOUSE SUBHASH NAGAR 4TH MAIN RAOD MYSORE",
+    "Amount_Due": 945
+  },
+  {
+    "Investor_First_Name": "SUNITA  ARORA",
+    "Folio_Number": 43117,
+    "Address": "HNO 69 A JOSHI COLONY NEAR MALL ROAD AMRITSAR PUNJAB",
+    "Amount_Due": 968
+  },
+  {
+    "Investor_First_Name": "HARSHAL AKSHYAKUMAR VORA",
+    "Folio_Number": 8527,
+    "Address": "P/103 PANCHSHEEL GAROEN MAHAVIR NAGAR KANDIVALI WEST MUMBAI",
+    "Amount_Due": 1109
+  },
+  {
+    "Investor_First_Name": "SAKSHI  MAHESHWARI",
+    "Folio_Number": 14103,
+    "Address": "H NO 11 ROYAL ENCLAVE THALTEI AHMEDABAD",
+    "Amount_Due": 1109
+  },
+  {
+    "Investor_First_Name": "DHARUN K MAHESHWARI",
+    "Folio_Number": 14107,
+    "Address": "H NO 11 ROYAL ENCLAVE THALTEI AHMEDABAD",
+    "Amount_Due": 1109
+  },
+  {
+    "Investor_First_Name": "VIDHU K MAHESHWARI",
+    "Folio_Number": 14111,
+    "Address": "H NO 11 ROYAL ENCLAVE THALTEI AHMEDABAD",
+    "Amount_Due": 1109
+  },
+  {
+    "Investor_First_Name": "POOJA  SHARMA",
+    "Folio_Number": 36065,
+    "Address": "40 L B MODEL HOUSE JALANDHAR",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "MANJARI AKSHYAKUMAR VORA",
+    "Folio_Number": 8542,
+    "Address": "P/103 PANCHSHEEL GARDENS MAHAVIR NAGAR KANDIWALI MUMABAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "PRAFUL P SHAH",
+    "Folio_Number": 17648,
+    "Address": "302 SADGURU DARSHTI W L ROAD MULUND WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "M V SHANKARAN",
+    "Folio_Number": 21520,
+    "Address": "D-11/450 SECTOR-7 ROHINI DELHI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "PARDEEP KUMAR CHANDERWAL",
+    "Folio_Number": 31441,
+    "Address": "C 60 TAGORE GARDEN EXTN N DELHI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "HIMAXI  KOTHARI",
+    "Folio_Number": 37144,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "NEHAL  KOTHARI",
+    "Folio_Number": 37146,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "GEETA ASHWIN PATEL",
+    "Folio_Number": 12013,
+    "Address": "F/62 SATELLITE CENTER OPP MANAGEMENT ENCLAVE VASTRAPUR AHMEDABAD",
+    "Amount_Due": 1192
+  },
+  {
+    "Investor_First_Name": "ASHWIN CHIMANBHAI PATEL",
+    "Folio_Number": 12019,
+    "Address": "F-62 SATELLITE CENTER OPP MANAGEMENT ENCLAVE VASTRAPUR AHMEDABAD",
+    "Amount_Due": 1192
+  },
+  {
+    "Investor_First_Name": "AMAR  KAMATH",
+    "Folio_Number": 3033,
+    "Address": "B22 GLADHURST PHIROZESHAH ROAD SANTACRUZ WEST MUMBAI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "BHARAT MOHANLAL BHATIA",
+    "Folio_Number": 4257,
+    "Address": "206 SEA BREEZE NEXT TO ROMAN SUPER MKT SEVEN BUNGLOWS ANDHERI W MUMBAI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "KANAKAM  VENKITACHALAM",
+    "Folio_Number": 28636,
+    "Address": "F 2 RAJALAKSHMI COMPLEX 7 JANAKIRAMAN STREET WEST MAMBALAM CHENNAI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "VEENA  BATRA",
+    "Folio_Number": 29254,
+    "Address": "C 13 LAJPAT NAGAR THIRD NEW DELHI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "SAMIR  ADVANI",
+    "Folio_Number": 6751,
+    "Address": "A-106 SECTOR 21 NOIDA",
+    "Amount_Due": 1225
+  },
+  {
+    "Investor_First_Name": "ANJALI  CHOPRA",
+    "Folio_Number": 9238,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1247
+  },
+  {
+    "Investor_First_Name": "RUPAK  MEHTA",
+    "Folio_Number": 11110,
+    "Address": "C/O SHAKUNTALA OBEROI W 8 A 13 PRASHANTHI NILAYAM PUTTAPARTHI ANANTAPUR DIST ANDHRA PRADESH",
+    "Amount_Due": 1247
+  },
+  {
+    "Investor_First_Name": "CHANDRA ARJAN HIRANANDAN",
+    "Folio_Number": 2924,
+    "Address": "1E SUNDATTA APARTMENTS MT PLEASANT ROAD MALABAR HILL MUMBAI",
+    "Amount_Due": 1260
+  },
+  {
+    "Investor_First_Name": "GOURI  CHATTERJEE",
+    "Folio_Number": 19947,
+    "Address": "FLAT 2B 114A RASHBEHARI AVENUE KOLKATA",
+    "Amount_Due": 1304
+  },
+  {
+    "Investor_First_Name": "ESHA  CHOPRA",
+    "Folio_Number": 9241,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1304
+  },
+  {
+    "Investor_First_Name": "KUNDAN PRAVIN MEHTA",
+    "Folio_Number": 37986,
+    "Address": "C/O J V KANAKIA B 304 BLUE REGEMAY BULE EMPIRE COMPLEX LINK ROAD MAHAVIR NAGAR KANDIVALI W MUMBAI",
+    "Amount_Due": 1512
+  },
+  {
+    "Investor_First_Name": "MILAN MOHANLAL SHAH",
+    "Folio_Number": 12092,
+    "Address": "106/107 B DARSHANA KUTIR CO OP HSG SOC LTD VITHALBHAI PATH VILE PARLE WEST",
+    "Amount_Due": 2496
+  },
+  {
+    "Investor_First_Name": "KANWALJIT  GURAYA",
+    "Folio_Number": 11943,
+    "Address": "C/O MR KANWALJIT GURAYA LUTHRA FARMS RAJOKRI NEW DELHI",
+    "Amount_Due": 2496
+  },
+  {
+    "Investor_First_Name": "ASHOK KHOSLA HUF",
+    "Folio_Number": 42717,
+    "Address": "60-UA JAWAHAR NAGAR DELHI",
+    "Amount_Due": 2609
+  },
+  {
+    "Investor_First_Name": "SUSHANT  YADAV",
+    "Folio_Number": 43063,
+    "Address": "B-144 SURYA NAGAR GBD P O CHANDER NAGAR GHAZIABAD U P",
+    "Amount_Due": 2609
+  },
+  {
+    "Investor_First_Name": "RAJALAKSHMI  NARAYAN",
+    "Folio_Number": 14106,
+    "Address": "501 PALMGROVE APPTS C.D.BARFIWALA LANE INSIDE NEW INDIA COLONY ANDEHRI(W) MUMBAI",
+    "Amount_Due": 2609
+  },
+  {
+    "Investor_First_Name": "KUSUM  PANGARIA",
+    "Folio_Number": 36796,
+    "Address": "836 MAHAVEER NAGAR 1ST NEAR MOHAN VATIKA GOPAL PURA BYE PASS JAIPUR RAJASTHAN",
+    "Amount_Due": 2609
+  },
+  {
+    "Investor_First_Name": "ARVIND KUMAR SINHA",
+    "Folio_Number": 233,
+    "Address": "G 2 SEC 7 PLOT NO 7 BRAHMA APPTS DWARKA NEW DELHI",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "V  KRISHNAMOORTHY",
+    "Folio_Number": 21542,
+    "Address": "C\\O ALMONDZ GLOBAL SEC NEW NO-48 RAMANUJAM STREET T NAGAR CHENNAI",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "SHILPI  SINGH",
+    "Folio_Number": 22407,
+    "Address": "414 EMPIRE COMPLEX CNBC TV18 SENAPATI BAPAT MARG LOWER PAREL",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "PRITHVI SINGH PANGARIA",
+    "Folio_Number": 36793,
+    "Address": "836 MAHAVEER NAGAR 1ST NEAR MOHAN VATIKA GOPAL PURA BYE PASS JAIPUR RAJASTHAN",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "DEEPA  KRISHNAN",
+    "Folio_Number": 41852,
+    "Address": "C-101 STELLAR PARK C-58/24 SECTOR-62 NOIDA",
+    "Amount_Due": 2899
+  },
+  {
+    "Investor_First_Name": "TARA  SHARMA",
+    "Folio_Number": 32161,
+    "Address": "C/O VISHNI KARAMCHANDANI 360 SAKET COLONY MAKER WALI ROAD VAISHALI NAGAR AJMER",
+    "Amount_Due": 2899
+  },
+  {
+    "Investor_First_Name": "SHASHI  BATRA",
+    "Folio_Number": 36912,
+    "Address": "D 21 TAKSHILA APARTMENT PATPARGANJ DELHI",
+    "Amount_Due": 2899
+  },
+  {
+    "Investor_First_Name": "CHANDRA PAL AGRAWAL",
+    "Folio_Number": 37002,
+    "Address": "B 63 TRANS YAMUNA COLONY RAMBAG AGRA UP",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "K  KUPPAYAMHAL",
+    "Folio_Number": 31082,
+    "Address": "5-2 ROYAL VILLAH 4TH MAIN ROAD EXTN KOTTUR PURAM CHENNAI",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "YASH PAL BATRA",
+    "Folio_Number": 36909,
+    "Address": "D 21 TAKSHILA APARTMENT PATPARGANJ DELHI",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "P VHKRISHNA MOHAN",
+    "Folio_Number": 13750,
+    "Address": "439 MAHAVEER DAZZLE APTS HOODI BANGALORE KARNATAKA",
+    "Amount_Due": 3913
+  },
+  {
+    "Investor_First_Name": "NARAYANA  N",
+    "Folio_Number": 17615,
+    "Address": "46 2ND CROSS JAI BHUVANESHWARI LAYOUT OLD MADRAS ROAD K R PURAM BANGALORE",
+    "Amount_Due": 4159
+  },
+  {
+    "Investor_First_Name": "HEMANG J HUF",
+    "Folio_Number": 34430,
+    "Address": "102 SERENE FLATS 70 URMI SOCIETY URMI CROSS ROAD VADODARA",
+    "Amount_Due": 4348
+  },
+  {
+    "Investor_First_Name": "SHRI ODHAV SHWETAMBER",
+    "Folio_Number": 17005,
+    "Address": "SHRI ODHAV JAIN SHWETAMBER MAHAVIR NAGAR SOCIETY B/H MURLIDHAR SOCIETY ODHAV AHMEDABAD",
+    "Amount_Due": 4436
+  },
+  {
+    "Investor_First_Name": "KEKA  SAHA",
+    "Folio_Number": 2637,
+    "Address": "32/3N GARIAHAT ROAD SOUTH GROUND FLOOR KOLKATA",
+    "Amount_Due": 6049
+  },
+  {
+    "Investor_First_Name": "R  RATHINAVELU",
+    "Folio_Number": 31073,
+    "Address": "5-2 ROYAL VILLAH 4TH MAIN ROAD EXTN KOTTUR PURAM CHENNAI",
+    "Amount_Due": 6049
+  },
+  {
+    "Investor_First_Name": "K C BHOOPATHY",
+    "Folio_Number": 31078,
+    "Address": "C/O P R ANGAMUTHU 5 2 ROYAL VILLAH 4TH MAIN ROAD EXTN KOTTUR PURAM CHENNAI",
+    "Amount_Due": 6049
+  },
+  {
+    "Investor_First_Name": "NABANITA  BANDYOPADHYAY",
+    "Folio_Number": 35764,
+    "Address": "A3/ 613 TOWER-11 PURVANCHAL SILVER CITY-2 SECTOR:Pi 2 GREATER NOIDA",
+    "Amount_Due": 9652
+  },
+  {
+    "Investor_First_Name": "ROHIT  KHANNA",
+    "Folio_Number": 29750,
+    "Address": "C/O RAKESH SAINI KARVY STOCK BROKING LTD 1ST FLOOR PLOT NO-345 UDYOG VIHAR-PHASE-II GURGAON",
+    "Amount_Due": 10889
+  },
+  {
+    "Investor_First_Name": "BHARATI  BHATTACHARYYA",
+    "Folio_Number": 43171,
+    "Address": "POCKET 40 HOUSE NO 5 CHITTARANJAN PARK NEW DELHI",
+    "Amount_Due": 21698
+  },
+  {
+    "Investor_First_Name": "NARENDRA KUMAR JAIN",
+    "Folio_Number": 16695,
+    "Address": "B 406 SHRI VIJAY VIIAR SOCIETY POWAI VIHAR MUMBAI",
+    "Amount_Due": 26087
+  },
+  {
+    "Investor_First_Name": "K  KUPPAYAMHAL",
+    "Folio_Number": 31082,
+    "Address": "5-2 ROYAL VILLAH 4TH MAIN ROAD EXTN KOTTUR PURAM CHENNAI",
+    "Amount_Due": 33
+  },
+  {
+    "Investor_First_Name": "R  RATHINAVELU",
+    "Folio_Number": 31073,
+    "Address": "5-2 ROYAL VILLAH 4TH MAIN ROAD EXTN KOTTUR PURAM CHENNAI",
+    "Amount_Due": 66
+  },
+  {
+    "Investor_First_Name": "K C BHOOPATHY",
+    "Folio_Number": 31078,
+    "Address": "C/O P R ANGAMUTHU 5 2 ROYAL VILLAH 4TH MAIN ROAD EXTN KOTTUR PURAM CHENNAI",
+    "Amount_Due": 66
+  },
+  {
+    "Investor_First_Name": "MAKWANA ASHVINBHAI DANABHAI",
+    "Folio_Number": 34682,
+    "Address": "13 SUNTAR SOCIETY B/H PANCHSIL SANKUL R T O RANIP AHMEDABAD",
+    "Amount_Due": 43
+  },
+  {
+    "Investor_First_Name": "SHANTI ANAND SWAROOP",
+    "Folio_Number": 8452,
+    "Address": "ANAND BHAWAN OPP BK 978 NEAR KANCHAN TOWER BESIDE P O STN RD ULHAS NAGAR",
+    "Amount_Due": 16
+  },
+  {
+    "Investor_First_Name": "R K IYER",
+    "Folio_Number": 9065,
+    "Address": "A 5 85/16 TEMPLE VIEW BHUPATHI APTS EAST MADA STREEET THIRUVANMIYUR CHENNAI",
+    "Amount_Due": 42
+  },
+  {
+    "Investor_First_Name": "HARSHAL AKSHYAKUMAR VORA",
+    "Folio_Number": 8527,
+    "Address": "P/103 PANCHSHEEL GAROEN MAHAVIR NAGAR KANDIVALI WEST MUMBAI",
+    "Amount_Due": 60
+  },
+  {
+    "Investor_First_Name": "MANJARI AKSHYAKUMAR VORA",
+    "Folio_Number": 8542,
+    "Address": "P/103 PANCHSHEEL GARDENS MAHAVIR NAGAR KANDIWALI MUMABAI",
+    "Amount_Due": 63
+  },
+  {
+    "Investor_First_Name": "PARDEEP KUMAR CHANDERWAL",
+    "Folio_Number": 31441,
+    "Address": "C 60 TAGORE GARDEN EXTN N DELHI",
+    "Amount_Due": 76
+  },
+  {
+    "Investor_First_Name": "LALITA  JAUHAR",
+    "Folio_Number": 30921,
+    "Address": "8 / 3 KALKAJI EXTN NEW DELHI",
+    "Amount_Due": 887
+  },
+  {
+    "Investor_First_Name": "I PREM SINGH",
+    "Folio_Number": 30922,
+    "Address": "41/18 BURKIT ROAD T NAGAR CHENNAI",
+    "Amount_Due": 113
+  },
+  {
+    "Investor_First_Name": "UJAWALA UMAKANT PADGAONKAR",
+    "Folio_Number": 10283,
+    "Address": "A-501 DATTADHAM VEER SAVARKAR NAGAR NR NANCY COLONY ST DEPOT BORIVALI EAST MUMBAI",
+    "Amount_Due": 32
+  },
+  {
+    "Investor_First_Name": "SANKARI  MANI",
+    "Folio_Number": 9498,
+    "Address": "H. NO. 89 SECTOR-9 FARIDABAD",
+    "Amount_Due": 95
+  },
+  {
+    "Investor_First_Name": "RITESH MAHENDRABHAI PANCHAL",
+    "Folio_Number": 8857,
+    "Address": "7/B NILAY APPT B/H NAVARANG SCHOOL NARANPURA AHEMDABAD GUJRAT",
+    "Amount_Due": 301
+  },
+  {
+    "Investor_First_Name": "MAYANK  AGARWAL",
+    "Folio_Number": 34495,
+    "Address": "2/C NETAJI SUBHAS ROAD FLAT 402 BLDG NO 12 LILUAH HOWRAH",
+    "Amount_Due": 315
+  },
+  {
+    "Investor_First_Name": "SUNIL CHANDRAKANT BAKHAI",
+    "Folio_Number": 32183,
+    "Address": "VIPUL SADAR NR MOTI TANKI B/S GONDAL NAGRIK BANK RAJKOT",
+    "Amount_Due": 52
+  },
+  {
+    "Investor_First_Name": "DIPALIBEN HEMALBHAI SHAH",
+    "Folio_Number": 35414,
+    "Address": "B-3 KALIND APPARTMENT BEHIND SARASWATI PRIMARY SCHOOL MANINAGAR AHMEDABAD",
+    "Amount_Due": 38
+  },
+  {
+    "Investor_First_Name": "PARVEEN LATA JHAMB",
+    "Folio_Number": 25388,
+    "Address": "H NO 237 OLD HOUSING BOARD SUBJI MANDI COLONY SONEPAT",
+    "Amount_Due": 43
+  },
+  {
+    "Investor_First_Name": "KUNDAN PRAVIN MEHTA",
+    "Folio_Number": 37986,
+    "Address": "C/O J V KANAKIA B 304 BLUE REGEMAY BULE EMPIRE COMPLEX LINK ROAD MAHAVIR NAGAR KANDIVALI W MUMBAI",
+    "Amount_Due": 197
+  },
+  {
+    "Investor_First_Name": "S  VIJAYA",
+    "Folio_Number": 10661,
+    "Address": "OLD NO 29 NEW NO 26 ALWARTHIRUNAGAR ANNEXE SECOND MAIN ROAD CHENNAI",
+    "Amount_Due": 378
+  },
+  {
+    "Investor_First_Name": "TARA  SHARMA",
+    "Folio_Number": 32161,
+    "Address": "C/O VISHNI KARAMCHANDANI 360 SAKET COLONY MAKER WALI ROAD VAISHALI NAGAR AJMER",
+    "Amount_Due": 410
+  },
+  {
+    "Investor_First_Name": "RAM  PRAKASH",
+    "Folio_Number": 32380,
+    "Address": "H NO 164 SECTOR 37 PO AMAR NAGAR FARIDABAD HARYANA",
+    "Amount_Due": 1282
+  },
+  {
+    "Investor_First_Name": "KAUSHIKI  PATEL",
+    "Folio_Number": 37222,
+    "Address": "H NO 10-2 ARUNODAY SOCIETY ALKAPURI VADODARA",
+    "Amount_Due": 46
+  },
+  {
+    "Investor_First_Name": "NIRANJAN  PATEL",
+    "Folio_Number": 37212,
+    "Address": "10/2 ARUNODAY SOCIETY ALKAPURI VADODRA",
+    "Amount_Due": 46
+  },
+  {
+    "Investor_First_Name": "PURSHOTTAM",
+    "Folio_Number": 33450,
+    "Address": "HOUSE NO 590 GALI NO 3 PREM NAGAR KOTLAMUBARKPUR DELHI",
+    "Amount_Due": 79
+  },
+  {
+    "Investor_First_Name": "SUNIL KUMAR HUF",
+    "Folio_Number": 30887,
+    "Address": "A-56 PATEL NAGAR II GHAZIABAD UP",
+    "Amount_Due": 170
+  },
+  {
+    "Investor_First_Name": "KANUBHAI ASHABHAI PATEL",
+    "Folio_Number": 33549,
+    "Address": "17 SHRUHUD PARK SOCIETY B\\H SABARI SCHOOL VASNA ROAD VADODARA GUJARAT",
+    "Amount_Due": 237
+  },
+  {
+    "Investor_First_Name": "BIMLA  WASAN",
+    "Folio_Number": 34717,
+    "Address": "BH 2 DDA FLATS MUNIRKA NEW DELHI",
+    "Amount_Due": 126
+  },
+  {
+    "Investor_First_Name": "ARVINDBHAI NARMADASHANKER PANDYA",
+    "Folio_Number": 34024,
+    "Address": "MAHADEV FALIA AT & PO AJOD DIST VADODARA",
+    "Amount_Due": 237
+  },
+  {
+    "Investor_First_Name": "VINAYAK R VAZE",
+    "Folio_Number": 34310,
+    "Address": "C 83 VIMALNATH SOC NR JAIN TEMPLE BAPUNAGAR AHMEDABAD",
+    "Amount_Due": 222
+  },
+  {
+    "Investor_First_Name": "PARVEEN  KUMAR",
+    "Folio_Number": 30555,
+    "Address": "HOUSE NO 15A SHIV PARK KHAN PUR DELHI",
+    "Amount_Due": 1147
+  },
+  {
+    "Investor_First_Name": "PARVEEN  KUMAR",
+    "Folio_Number": 30555,
+    "Address": "HOUSE NO 15A SHIV PARK KHAN PUR DELHI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "RAMESH  BHAGAT",
+    "Folio_Number": 33041,
+    "Address": "H NO 21/C POCKET A DILSHAD GARDEN DELHI",
+    "Amount_Due": 244
+  },
+  {
+    "Investor_First_Name": "S K KHANNA",
+    "Folio_Number": 16736,
+    "Address": "C 111 SATYA ENCLAVE LAKE AVENUE KANKE RAOD RANCHI",
+    "Amount_Due": 586
+  },
+  {
+    "Investor_First_Name": "SURENDER KUMAR JAIN",
+    "Folio_Number": 35937,
+    "Address": "66-A POCKET B LIG FLATS PHASE II ASHOK VIHAR DELHI",
+    "Amount_Due": 4351
+  },
+  {
+    "Investor_First_Name": "INDIRA BHOGILAL SHAH",
+    "Folio_Number": 35796,
+    "Address": "12 SAKAN TWINS BUNGLOWS OPP SATELITE CENTRE VASTRAPUR AHMEDABAD",
+    "Amount_Due": 263
+  },
+  {
+    "Investor_First_Name": "DEVI DASS MEHTA",
+    "Folio_Number": 36395,
+    "Address": "5644 III FLOOR KATRA ANOOP SINGH NAI SARAK CHANDNI CHAWK DELHI",
+    "Amount_Due": 284
+  },
+  {
+    "Investor_First_Name": "SHASHI  BATRA",
+    "Folio_Number": 36912,
+    "Address": "D 21 TAKSHILA APARTMENT PATPARGANJ DELHI",
+    "Amount_Due": 1008
+  },
+  {
+    "Investor_First_Name": "YASH PAL BATRA",
+    "Folio_Number": 36909,
+    "Address": "D 21 TAKSHILA APARTMENT PATPARGANJ DELHI",
+    "Amount_Due": 1052
+  },
+  {
+    "Investor_First_Name": "P VHKRISHNA MOHAN",
+    "Folio_Number": 13750,
+    "Address": "439 MAHAVEER DAZZLE APTS HOODI BANGALORE KARNATAKA",
+    "Amount_Due": 156
+  },
+  {
+    "Investor_First_Name": "SUDHABEN MAHENDRAKUMAR SHAH",
+    "Folio_Number": 36739,
+    "Address": "MAHENDRANIVAS OUTSIDE MOTIPOLE LUNSAWADA DARIAPUR AHMEDABAD",
+    "Amount_Due": 217
+  },
+  {
+    "Investor_First_Name": "P VSHKRISHNA MOHAN",
+    "Folio_Number": 13750,
+    "Address": "439 MAHAVEER DAZZLE APTS HOODI BANGALORE KARNATAKA",
+    "Amount_Due": 1404
+  },
+  {
+    "Investor_First_Name": "RAJ  CHAWLA",
+    "Folio_Number": 15097,
+    "Address": "C/O SUBHASH TALWAR H NO 76 MIG SEC 23 FARIDABAD HARYANA",
+    "Amount_Due": 441
+  },
+  {
+    "Investor_First_Name": "BHARATI  BHATTACHARYYA",
+    "Folio_Number": 43171,
+    "Address": "POCKET 40 HOUSE NO 5 CHITTARANJAN PARK NEW DELHI",
+    "Amount_Due": 2301
+  },
+  {
+    "Investor_First_Name": "MOHANBHAI NATHUBHAI GANDHI",
+    "Folio_Number": 24487,
+    "Address": "C/O AMITA S GANDHI LIMDA CHAWK NR DENA BANK BILIMORA",
+    "Amount_Due": 1240
+  },
+  {
+    "Investor_First_Name": "NARENDRA KUMAR JAIN",
+    "Folio_Number": 16695,
+    "Address": "B 406 SHRI VIJAY VIIAR SOCIETY POWAI VIHAR MUMBAI",
+    "Amount_Due": 11343
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43113,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 537
+  },
+  {
+    "Investor_First_Name": "S P VARMA",
+    "Folio_Number": 33440,
+    "Address": "GULMOHAR ENCLAVE MAPLE 1/206 RAKESH MARG NEHRU NAGAR 3 GHAZIABAD",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "SHASHI  SHARMA",
+    "Folio_Number": 38327,
+    "Address": "1/6351 EAST ROHTAS NAGAR SHAHDARA DELHI",
+    "Amount_Due": 2005
+  },
+  {
+    "Investor_First_Name": "KRISHNA  CHATTERJEE",
+    "Folio_Number": 17405,
+    "Address": "I 38 B KIRTI NAGAR NEW DELHI",
+    "Amount_Due": 853
+  },
+  {
+    "Investor_First_Name": "NARENDRA  JAIN",
+    "Folio_Number": 18071,
+    "Address": "HOUSE NO 3 ADARSH NAGAR NEAR NAVDEEP ACADEMY SCHOOL KALKA MATA ROAD UDAIPUR RAJ",
+    "Amount_Due": 271
+  },
+  {
+    "Investor_First_Name": "NIMISHA NATVARLAL DESAI",
+    "Folio_Number": 18058,
+    "Address": "C-47 AVINASH SOCIETY B/H SUBHASH PARK HARNI ROAD VODODARA",
+    "Amount_Due": 271
+  },
+  {
+    "Investor_First_Name": "UMA  SRIDHAR",
+    "Folio_Number": 30607,
+    "Address": "W/O SREEDHARA K NO C 3 TELECOM QTRS KUVEMPU ROAD SHIMOGA",
+    "Amount_Due": 284
+  },
+  {
+    "Investor_First_Name": "VRANDAVAN ODHAVJI RAJANI",
+    "Folio_Number": 3766,
+    "Address": "VRUNDAVAN KAILASH ROAD NO-2 OPP S.T DEPOT JAMNAGAR",
+    "Amount_Due": 296
+  },
+  {
+    "Investor_First_Name": "DEVAPPA NARAYAN PAI",
+    "Folio_Number": 3858,
+    "Address": "B/8 SHREE SARASWATI COOP HSG SOCIETY LTD N G ACHARYA MARG CHEMBUR MUMBAI",
+    "Amount_Due": 308
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43113,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 400
+  },
+  {
+    "Investor_First_Name": "VAIDEHI DEVI GUPTA",
+    "Folio_Number": 43112,
+    "Address": "43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 444
+  },
+  {
+    "Investor_First_Name": "KANTABEN PRANLAL ZAVERI",
+    "Folio_Number": 3024,
+    "Address": "C/O PURNIMA J RAO B-1202 SATELLITE TOWER FILM CITY ROAD GOREGAON (E)",
+    "Amount_Due": 462
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43106,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 533
+  },
+  {
+    "Investor_First_Name": "SUMANBEN GOVINDLAL SHAH",
+    "Folio_Number": 12691,
+    "Address": "H NO 206 ANAND VATIKA SOCIETY NR JAIN DBRASAR SEC 22 GANDHI NAGAR GUJARAT",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "PANALAL KESAVLAL BHAVSAR",
+    "Folio_Number": 15676,
+    "Address": "CHHIPVAD PANCHOLIVAD VODODARA",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "SHREYA  CHATTERJEE",
+    "Folio_Number": 32611,
+    "Address": "549 / 4 P K GUHA ROAD KOLKATA",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "GARGI BHOOSHAN DESAI",
+    "Folio_Number": 28842,
+    "Address": "6 RATNALAVALI 1ST GAOTHAN LANE SATACRUZ W MUMBAI",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "RITU  NADKARNI",
+    "Folio_Number": 31750,
+    "Address": "C 4A/25B JANAKPURI NEW DELHI",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "LEENA GOVIND CHANDAN",
+    "Folio_Number": 42482,
+    "Address": "8 KOTESHWAR VIHAR J V ROAD GHATKOPAR WEST MUMBAI",
+    "Amount_Due": 592
+  },
+  {
+    "Investor_First_Name": "RAMESH MANGULAL MEHTA",
+    "Folio_Number": 43032,
+    "Address": "F/2 SURBHI APPT PLOT NO 208 SEC 29 GANDHINAGAR",
+    "Amount_Due": 592
+  },
+  {
+    "Investor_First_Name": "KAMU VEERABHADRA RAO",
+    "Folio_Number": 2515,
+    "Address": "D NO 70-2-57 KAPULA RAMALAYAM STREET RAMANAYYAPETA KAKINADA EAST GODAVARI AP",
+    "Amount_Due": 592
+  },
+  {
+    "Investor_First_Name": "MEENA UDAY GHORPADE",
+    "Folio_Number": 10924,
+    "Address": "C S NO 1122/1A PLOT NO 5 RING ROAD BONDRE NAGAR NEAR KOTWAL NAGAR PULEWADI KOLHAPUR",
+    "Amount_Due": 678
+  },
+  {
+    "Investor_First_Name": "PARGHI JAMANBEN S",
+    "Folio_Number": 18222,
+    "Address": "C/O DURGA SCHOOL 54 RADHA VALLABH COLONY MANINAGAR AHMEDABAD",
+    "Amount_Due": 678
+  },
+  {
+    "Investor_First_Name": "RAHUL  KHANDELWAL",
+    "Folio_Number": 32255,
+    "Address": "THE KHATTER AUTO MOBILES SHOP NO 53 SANSAR CHANDRA ROAD JAIPUR",
+    "Amount_Due": 709
+  },
+  {
+    "Investor_First_Name": "R  VIMALA",
+    "Folio_Number": 14313,
+    "Address": "H NO 425/8 TOWER VIEW COLONY P-BLOCK ANNA NAGAR CHENNAI",
+    "Amount_Due": 733
+  },
+  {
+    "Investor_First_Name": "MINABEN ABHAYKUMAR SHAH",
+    "Folio_Number": 3202,
+    "Address": "14 AMBIKA PARK SOCIETY OPP PUSHPAKUNJ SOCIETY SUMUL DAIRY ROAD SURAT",
+    "Amount_Due": 771
+  },
+  {
+    "Investor_First_Name": "MINABEN ABHAYKUMAR SHAH",
+    "Folio_Number": 3211,
+    "Address": "14 AMBIKA PARK SOCIETY OPP PUSHPAKUNJ SOCIETY SUMUL DAIRY ROAD SURAT",
+    "Amount_Due": 771
+  },
+  {
+    "Investor_First_Name": "MINABEN ABHAYKUMAR SHAH",
+    "Folio_Number": 3217,
+    "Address": "14 AMBIKA PARK SOCIETY OPP PUSHPAKUNJ SOCIETY SUMUL DAIRY ROAD SURAT",
+    "Amount_Due": 771
+  },
+  {
+    "Investor_First_Name": "MINABEN ABHAYKUMAR SHAH",
+    "Folio_Number": 3220,
+    "Address": "14 AMBIKA PARK SOCIETY OPP PUSHPAKUNJ SOCIETY SUMUL DAIRY ROAD SURAT",
+    "Amount_Due": 771
+  },
+  {
+    "Investor_First_Name": "R K MAMDANI",
+    "Folio_Number": 9193,
+    "Address": "GHOD DOD RPAD ROAD KARIMABAD SOCIETY BUNGLOW NO-20A BESIDE BSNL OFFICE GROUND FLOOR SURAT",
+    "Amount_Due": 851
+  },
+  {
+    "Investor_First_Name": "HIMANSHU  TIWARI",
+    "Folio_Number": 28600,
+    "Address": "C 2/257 SEC F JANKIPURAM LUCKNOW",
+    "Amount_Due": 851
+  },
+  {
+    "Investor_First_Name": "SANDEEP  SINGH",
+    "Folio_Number": 3225,
+    "Address": "G-455 BRS NAGAR FEROZPUR ROAD ABOVE ORIENTAL BANK OF COMMERCE LUDHIANA",
+    "Amount_Due": 888
+  },
+  {
+    "Investor_First_Name": "A  SUMATHI",
+    "Folio_Number": 3047,
+    "Address": "NO 13 CITB MODEL HOUSE SUBHASH NAGAR 4TH MAIN RAOD MYSORE",
+    "Amount_Due": 925
+  },
+  {
+    "Investor_First_Name": "BALDEV RAJ GUPTA",
+    "Folio_Number": 6416,
+    "Address": "DR B R GUPTA 728 VISHNU PURI PREM NAGAR STREET NO 3 BAREILLY",
+    "Amount_Due": 925
+  },
+  {
+    "Investor_First_Name": "NEVILLE MINOO BATLIWALLA",
+    "Folio_Number": 10149,
+    "Address": "GUZDAR MANSTION 4TH FLOOR PRINCESS STREET MUMBAI",
+    "Amount_Due": 1025
+  },
+  {
+    "Investor_First_Name": "SUNITA  MATHUR",
+    "Folio_Number": 3190,
+    "Address": "502 RAJ GARDEN A-20 SHANTI PATH TILAK NAGAR JAIPUR",
+    "Amount_Due": 1036
+  },
+  {
+    "Investor_First_Name": "PARITOSH A MISTRY",
+    "Folio_Number": 13360,
+    "Address": "3/5 NEEL GAGAN CO OP HSG SOC 7TH ROAD SANTACRUZ EAST MUMBAI",
+    "Amount_Due": 1085
+  },
+  {
+    "Investor_First_Name": "POOJA  SHARMA",
+    "Folio_Number": 36065,
+    "Address": "40 L B MODEL HOUSE JALANDHAR",
+    "Amount_Due": 1134
+  },
+  {
+    "Investor_First_Name": "PRAFUL P SHAH",
+    "Folio_Number": 17648,
+    "Address": "302 SADGURU DARSHTI W L ROAD MULUND WEST MUMBAI",
+    "Amount_Due": 1134
+  },
+  {
+    "Investor_First_Name": "SEJAL  KOTHARI",
+    "Folio_Number": 37101,
+    "Address": "B 165 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SX ROAD MALAD MUMBAI",
+    "Amount_Due": 1134
+  },
+  {
+    "Investor_First_Name": "HIMAXI  KOTHARI",
+    "Folio_Number": 37144,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1134
+  },
+  {
+    "Investor_First_Name": "NEHAL  KOTHARI",
+    "Folio_Number": 37146,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1134
+  },
+  {
+    "Investor_First_Name": "AMAR  KAMATH",
+    "Folio_Number": 3033,
+    "Address": "B22 GLADHURST PHIROZESHAH ROAD SANTACRUZ WEST MUMBAI",
+    "Amount_Due": 1184
+  },
+  {
+    "Investor_First_Name": "BHARAT MOHANLAL BHATIA",
+    "Folio_Number": 4257,
+    "Address": "206 SEA BREEZE NEXT TO ROMAN SUPER MKT SEVEN BUNGLOWS ANDHERI W MUMBAI",
+    "Amount_Due": 1184
+  },
+  {
+    "Investor_First_Name": "K  SRINIVASAN",
+    "Folio_Number": 36553,
+    "Address": "FLAT NO 3A KRISHNA RAGHAV APARTMENTS NO 19&21 MALONY ROAD T NAGAR CHENNAI",
+    "Amount_Due": 1184
+  },
+  {
+    "Investor_First_Name": "VEENA  BATRA",
+    "Folio_Number": 29254,
+    "Address": "C 13 LAJPAT NAGAR THIRD NEW DELHI",
+    "Amount_Due": 1184
+  },
+  {
+    "Investor_First_Name": "JASHWANTI HASMUKHLAL KOTHARI",
+    "Folio_Number": 13363,
+    "Address": "40 JAIN CHAWL DAULAT NAGAR BORIVLI EAST MUMBAI",
+    "Amount_Due": 1191
+  },
+  {
+    "Investor_First_Name": "SAMIR  ADVANI",
+    "Folio_Number": 6751,
+    "Address": "A-106 SECTOR 21 NOIDA",
+    "Amount_Due": 1199
+  },
+  {
+    "Investor_First_Name": "MOHANBHAI NATHUBHAI GANDHI",
+    "Folio_Number": 24487,
+    "Address": "C/O AMITA S GANDHI LIMDA CHAWK NR DENA BANK BILIMORA",
+    "Amount_Due": 1213
+  },
+  {
+    "Investor_First_Name": "ANJALI  CHOPRA",
+    "Folio_Number": 9238,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1220
+  },
+  {
+    "Investor_First_Name": "RUPAK  MEHTA",
+    "Folio_Number": 11110,
+    "Address": "C/O SHAKUNTALA OBEROI W 8 A 13 PRASHANTHI NILAYAM PUTTAPARTHI ANANTAPUR DIST ANDHRA PRADESH",
+    "Amount_Due": 1220
+  },
+  {
+    "Investor_First_Name": "CHANDRA ARJAN HIRANANDAN",
+    "Folio_Number": 2924,
+    "Address": "1E SUNDATTA APARTMENTS MT PLEASANT ROAD MALABAR HILL MUMBAI",
+    "Amount_Due": 1233
+  },
+  {
+    "Investor_First_Name": "ESHA  CHOPRA",
+    "Folio_Number": 9241,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1276
+  },
+  {
+    "Investor_First_Name": "RANJIT  KAUR",
+    "Folio_Number": 35595,
+    "Address": "H 67 POWER COLONY 2 SHAKTI VIHAR PSEB PATIALA",
+    "Amount_Due": 1276
+  },
+  {
+    "Investor_First_Name": "MEHAR SINGH GAMBHIR",
+    "Folio_Number": 41411,
+    "Address": "D 8/17 MODEL TOWN PART III NEW DELHI",
+    "Amount_Due": 1331
+  },
+  {
+    "Investor_First_Name": "MEHAR SINGH GAMBHIR",
+    "Folio_Number": 41413,
+    "Address": "D 8/17 MODEL TOWN PART III NEW DELHI",
+    "Amount_Due": 1331
+  },
+  {
+    "Investor_First_Name": "R  VIMALA",
+    "Folio_Number": 16902,
+    "Address": "H NO 425/8 TOWER VIEW COLONY P-BLOCK ANNA NAGAR CHENNAI",
+    "Amount_Due": 1709
+  },
+  {
+    "Investor_First_Name": "MILAN MOHANLAL SHAH",
+    "Folio_Number": 12092,
+    "Address": "106/107 B DARSHANA KUTIR CO OP HSG SOC LTD VITHALBHAI PATH VILE PARLE WEST",
+    "Amount_Due": 2441
+  },
+  {
+    "Investor_First_Name": "ASHOK KHOSLA HUF",
+    "Folio_Number": 42717,
+    "Address": "60-UA JAWAHAR NAGAR DELHI",
+    "Amount_Due": 2552
+  },
+  {
+    "Investor_First_Name": "RAJALAKSHMI  NARAYAN",
+    "Folio_Number": 14106,
+    "Address": "501 PALMGROVE APPTS C.D.BARFIWALA LANE INSIDE NEW INDIA COLONY ANDEHRI(W) MUMBAI",
+    "Amount_Due": 2552
+  },
+  {
+    "Investor_First_Name": "KUSUM  PANGARIA",
+    "Folio_Number": 36796,
+    "Address": "836 MAHAVEER NAGAR 1ST NEAR MOHAN VATIKA GOPAL PURA BYE PASS JAIPUR RAJASTHAN",
+    "Amount_Due": 2552
+  },
+  {
+    "Investor_First_Name": "DATTATHREYA M S",
+    "Folio_Number": 921,
+    "Address": "253/B SREE SADAN KANAKAPURA MAIN ROAD 7TH BLOCK JAYANAGAR BANGALORE",
+    "Amount_Due": 2663
+  },
+  {
+    "Investor_First_Name": "V  KRISHNAMOORTHY",
+    "Folio_Number": 21542,
+    "Address": "C\\O ALMONDZ GLOBAL SEC NEW NO-48 RAMANUJAM STREET T NAGAR CHENNAI",
+    "Amount_Due": 2663
+  },
+  {
+    "Investor_First_Name": "SHILPI  SINGH",
+    "Folio_Number": 22407,
+    "Address": "414 EMPIRE COMPLEX CNBC TV18 SENAPATI BAPAT MARG LOWER PAREL",
+    "Amount_Due": 2663
+  },
+  {
+    "Investor_First_Name": "PRITHVI SINGH PANGARIA",
+    "Folio_Number": 36793,
+    "Address": "836 MAHAVEER NAGAR 1ST NEAR MOHAN VATIKA GOPAL PURA BYE PASS JAIPUR RAJASTHAN",
+    "Amount_Due": 2663
+  },
+  {
+    "Investor_First_Name": "DEEPA  KRISHNAN",
+    "Folio_Number": 41852,
+    "Address": "C-101 STELLAR PARK C-58/24 SECTOR-62 NOIDA",
+    "Amount_Due": 2836
+  },
+  {
+    "Investor_First_Name": "ANURADHA  SHASTRI",
+    "Folio_Number": 27575,
+    "Address": "280 CHITTRANJAN AVENUE KOLKATA",
+    "Amount_Due": 2836
+  },
+  {
+    "Investor_First_Name": "CHANDRA PAL AGRAWAL",
+    "Folio_Number": 37002,
+    "Address": "B 63 TRANS YAMUNA COLONY RAMBAG AGRA UP",
+    "Amount_Due": 2959
+  },
+  {
+    "Investor_First_Name": "NARAYANA  N",
+    "Folio_Number": 17615,
+    "Address": "46 2ND CROSS JAI BHUVANESHWARI LAYOUT OLD MADRAS ROAD K R PURAM BANGALORE",
+    "Amount_Due": 4068
+  },
+  {
+    "Investor_First_Name": "KEKA  SAHA",
+    "Folio_Number": 2637,
+    "Address": "32/3N GARIAHAT ROAD SOUTH GROUND FLOOR KOLKATA",
+    "Amount_Due": 5918
+  },
+  {
+    "Investor_First_Name": "MINATI  NAIK",
+    "Folio_Number": 5133,
+    "Address": "126 BAGMARI ROAD TOP FLOOR KAKURGACHI",
+    "Amount_Due": 5918
+  },
+  {
+    "Investor_First_Name": "MANGALA  KUMARAN",
+    "Folio_Number": 23182,
+    "Address": "NO 529 2ND WEST STREET KAMARAJ NAGAR THIRUVANMIYUR CHENNAI",
+    "Amount_Due": 8877
+  },
+  {
+    "Investor_First_Name": "NABANITA  BANDYOPADHYAY",
+    "Folio_Number": 35764,
+    "Address": "A3/ 613 TOWER-11 PURVANCHAL SILVER CITY-2 SECTOR:Pi 2 GREATER NOIDA",
+    "Amount_Due": 9443
+  },
+  {
+    "Investor_First_Name": "ROHIT  KHANNA",
+    "Folio_Number": 29750,
+    "Address": "C/O RAKESH SAINI KARVY STOCK BROKING LTD 1ST FLOOR PLOT NO-345 UDYOG VIHAR-PHASE-II GURGAON",
+    "Amount_Due": 10652
+  },
+  {
+    "Investor_First_Name": "SUNIL  BHASIN",
+    "Folio_Number": 8413,
+    "Address": "D-5 GROUND FLOOR GREATER KAILASH ENCLAVE I NEW DELHI",
+    "Amount_Due": 14647
+  },
+  {
+    "Investor_First_Name": "THERESA  SELVARAJ",
+    "Folio_Number": 28611,
+    "Address": "5 FIRST TRUST LINK ST MANDAVELI CHENNAI",
+    "Amount_Due": 17753
+  },
+  {
+    "Investor_First_Name": "SUNIL  BHASIN",
+    "Folio_Number": 16744,
+    "Address": "D-5 GROUND FLOOR GREATER KAILASH ENCLAVE I NEW DELHI",
+    "Amount_Due": 26852
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43113,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 44
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43106,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 59
+  },
+  {
+    "Investor_First_Name": "SUBRATA  DUTTA",
+    "Folio_Number": 38985,
+    "Address": "FLAT NO 4B SHUBHAM APPT 5 N C SENGUPTA SARANI KALKATA",
+    "Amount_Due": 10
+  },
+  {
+    "Investor_First_Name": "T S RAMASWAMY",
+    "Folio_Number": 39149,
+    "Address": "2 JEEVESATHEM NAGAR RAGEMELIKA APARTMENTS FLAT NO B 5 ADYAR CHENNAI",
+    "Amount_Due": 39
+  },
+  {
+    "Investor_First_Name": "AKANKSHA  GUPTA",
+    "Folio_Number": 34156,
+    "Address": "32/112 MANI RAM BAGIA KANPUR 0",
+    "Amount_Due": 63
+  },
+  {
+    "Investor_First_Name": "VIBHA  GUPTA",
+    "Folio_Number": 34160,
+    "Address": "32/112 MANI RAM BAGIA KANPUR",
+    "Amount_Due": 63
+  },
+  {
+    "Investor_First_Name": "AKANKSHA  GUPTA",
+    "Folio_Number": 34156,
+    "Address": "32/112 MANI RAM BAGIA KANPUR 0",
+    "Amount_Due": 573
+  },
+  {
+    "Investor_First_Name": "VIBHA  GUPTA",
+    "Folio_Number": 34160,
+    "Address": "32/112 MANI RAM BAGIA KANPUR",
+    "Amount_Due": 573
+  },
+  {
+    "Investor_First_Name": "AKANKSHA  GUPTA",
+    "Folio_Number": 34156,
+    "Address": "32/112 MANI RAM BAGIA KANPUR 0",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "AKANKSHA  GUPTA",
+    "Folio_Number": 34156,
+    "Address": "32/112 MANI RAM BAGIA KANPUR 0",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "VIBHA  GUPTA",
+    "Folio_Number": 34160,
+    "Address": "32/112 MANI RAM BAGIA KANPUR",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "VIBHA  GUPTA",
+    "Folio_Number": 34160,
+    "Address": "32/112 MANI RAM BAGIA KANPUR",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "SAGAR  NAWATHE",
+    "Folio_Number": 42538,
+    "Address": "4 ANKURSHREE HSG SOC LANE NO 3 HAPPY COLONY KOTHRUD PUNE",
+    "Amount_Due": 315
+  },
+  {
+    "Investor_First_Name": "N K SHARMA",
+    "Folio_Number": 41033,
+    "Address": "A-34 SUBHAVNA APPTTS PITAMPURA NEAR MADHUBAN CHOWK DELHI",
+    "Amount_Due": 1418
+  },
+  {
+    "Investor_First_Name": "MANJU  BHASIN",
+    "Folio_Number": 41066,
+    "Address": "H-23 G F KIRTI NAGAR NEW DELHI",
+    "Amount_Due": 2959
+  },
+  {
+    "Investor_First_Name": "V D GANDOTRA",
+    "Folio_Number": 40242,
+    "Address": "H NO D 337 SECTOR 47 NOIDA DIST GAUTAM BUDH NAGAR NOIDA U P",
+    "Amount_Due": 4704
+  },
+  {
+    "Investor_First_Name": "LEENA MADHUKAR KOTHARI",
+    "Folio_Number": 40236,
+    "Address": "3 SHRIJIBAUG FLAT 1ST FLOOR B/H NAVRANGPURA POLICE STATION NAVRANGPURA AHMEDABAD",
+    "Amount_Due": 170
+  },
+  {
+    "Investor_First_Name": "INDU DEVI PRAHLADKA",
+    "Folio_Number": 6930,
+    "Address": "CK 60/7 KARAN GANTA VARANASI UP",
+    "Amount_Due": 188
+  },
+  {
+    "Investor_First_Name": "ARUNA  SHARMA",
+    "Folio_Number": 6014,
+    "Address": "H N 261 PHASE IV SAS NAGAR MOHALI PUNJAB",
+    "Amount_Due": 753
+  },
+  {
+    "Investor_First_Name": "GOURI  CHATTERJEE",
+    "Folio_Number": 19947,
+    "Address": "FLAT 2B 114A RASHBEHARI AVENUE KOLKATA",
+    "Amount_Due": 866
+  },
+  {
+    "Investor_First_Name": "SURESH RATILAL SHAH",
+    "Folio_Number": 18768,
+    "Address": "H 71 TAKSHASHILA 7TH FLOOR PREMCHAND NAGAR ROAD SATELITE AHMEDABAD",
+    "Amount_Due": 904
+  },
+  {
+    "Investor_First_Name": "KAMU VEERABHADRA RAO",
+    "Folio_Number": 2515,
+    "Address": "D NO 70-2-57 KAPULA RAMALAYAM STREET RAMANAYYAPETA KAKINADA EAST GODAVARI AP",
+    "Amount_Due": 375
+  },
+  {
+    "Investor_First_Name": "PURNIMA  ATREYA",
+    "Folio_Number": 4593,
+    "Address": "A-1/10 SECOND FLOOR SOHNA ROAD SOUTH CITY II GURGAON",
+    "Amount_Due": 439
+  },
+  {
+    "Investor_First_Name": "JAGDISH PRASAD PORWAL",
+    "Folio_Number": 5066,
+    "Address": "513 MALVIYA NAGAR BEHIND LOKNATH MANDIR ALLAHABAD UP",
+    "Amount_Due": 615
+  },
+  {
+    "Investor_First_Name": "SUNITA  MATHUR",
+    "Folio_Number": 3190,
+    "Address": "502 RAJ GARDEN A-20 SHANTI PATH TILAK NAGAR JAIPUR",
+    "Amount_Due": 656
+  },
+  {
+    "Investor_First_Name": "SAROJ SUDHAKAR KALE",
+    "Folio_Number": 3745,
+    "Address": "3 AMOD OPP VIJAYA BANK R C MARG CHEMBUR MUMBAI",
+    "Amount_Due": 683
+  },
+  {
+    "Investor_First_Name": "VIRENDER KUMAR VERMA",
+    "Folio_Number": 5820,
+    "Address": "31/30 EAST PATEL NAGAR NEW DELHI",
+    "Amount_Due": 712
+  },
+  {
+    "Investor_First_Name": "THANKAMANI",
+    "Folio_Number": 1373,
+    "Address": "C-6/53 YAMUNA VIHAR FIRST FLOOR NEAR MAHILA PARK DELHI",
+    "Amount_Due": 742
+  },
+  {
+    "Investor_First_Name": "CHANDRA ARJAN HIRANANDAN",
+    "Folio_Number": 2924,
+    "Address": "1E SUNDATTA APARTMENTS MT PLEASANT ROAD MALABAR HILL MUMBAI",
+    "Amount_Due": 781
+  },
+  {
+    "Investor_First_Name": "MOULI BHASHIT DHOLAKIA",
+    "Folio_Number": 6013,
+    "Address": "B 1010 PRATEEK FEDORA PLOT NO E 11 SECTOR 61 NOIDA",
+    "Amount_Due": 3748
+  },
+  {
+    "Investor_First_Name": "SARAN KAUR GAKHAR",
+    "Folio_Number": 42809,
+    "Address": "E-11 LAJPAT NAGAR-III NEW DELHI",
+    "Amount_Due": 3669
+  },
+  {
+    "Investor_First_Name": "RUCHI  AGRAWAL",
+    "Folio_Number": 10888,
+    "Address": "622 SARGODHA VIHAR SECTOR 7 PLOT NO 13 DWARKA NEW DELHI",
+    "Amount_Due": 416
+  },
+  {
+    "Investor_First_Name": "RUCHI  AGRAWAL",
+    "Folio_Number": 10888,
+    "Address": "622 SARGODHA VIHAR SECTOR 7 PLOT NO 13 DWARKA NEW DELHI",
+    "Amount_Due": 416
+  },
+  {
+    "Investor_First_Name": "NITABEN ANUTTAMKUMAR PATEL",
+    "Folio_Number": 4790,
+    "Address": "B-55 VISHAL TOWER NR NUPUR TOWER NR ANANDNAGAR CHAR RASTA JODHPUR TEKRA AHMEDABAD",
+    "Amount_Due": 1184
+  },
+  {
+    "Investor_First_Name": "NITABEN ANUTTAMKUMAR PATEL",
+    "Folio_Number": 4790,
+    "Address": "B-55 VISHAL TOWER NR NUPUR TOWER NR ANANDNAGAR CHAR RASTA JODHPUR TEKRA AHMEDABAD",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "NITABEN ANUTTAMKUMAR PATEL",
+    "Folio_Number": 4790,
+    "Address": "B-55 VISHAL TOWER NR NUPUR TOWER NR ANANDNAGAR CHAR RASTA JODHPUR TEKRA AHMEDABAD",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "NITABEN ANUTTAMKUMAR PATEL",
+    "Folio_Number": 4790,
+    "Address": "B-55 VISHAL TOWER NR NUPUR TOWER NR ANANDNAGAR CHAR RASTA JODHPUR TEKRA AHMEDABAD",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "SARJERAO BHAGUJI GAWARE",
+    "Folio_Number": 7392,
+    "Address": "CHANDRADEO COMPLEX SANEWASTI CHIKHALI AKURDI ROAD PUNE",
+    "Amount_Due": 8759
+  },
+  {
+    "Investor_First_Name": "SHILPI  SINGH",
+    "Folio_Number": 22407,
+    "Address": "414 EMPIRE COMPLEX CNBC TV18 SENAPATI BAPAT MARG LOWER PAREL",
+    "Amount_Due": 2466
+  },
+  {
+    "Investor_First_Name": "SYED ALI MUJTABA",
+    "Folio_Number": 5555,
+    "Address": "FLAT NO 5-6 LAKSHMILAYA APPTS DOOR 8-B AMBEDKAR ROAD KODAMBAKKAM CHENNAI T.N",
+    "Amount_Due": 3748
+  },
+  {
+    "Investor_First_Name": "NITABEN ANUTTAMKUMAR PATEL",
+    "Folio_Number": 4790,
+    "Address": "B-55 VISHAL TOWER NR NUPUR TOWER NR ANANDNAGAR CHAR RASTA JODHPUR TEKRA AHMEDABAD",
+    "Amount_Due": 1184
+  },
+  {
+    "Investor_First_Name": "ANITA ANIL WAGHALE",
+    "Folio_Number": 7375,
+    "Address": "101 SHREENATH APPT GOPAL NAGAR BUS STOP NO 2 GOPAL NAGAR NAGPUR",
+    "Amount_Due": 10
+  },
+  {
+    "Investor_First_Name": "MUKESH SEVAKLAL PARIKH",
+    "Folio_Number": 36798,
+    "Address": "A-30 JAYLAXMI SOCIETY NR SRIPAD NAGAR OLD PADRA ROAD BARODA",
+    "Amount_Due": 287
+  },
+  {
+    "Investor_First_Name": "UMA  SRIDHAR",
+    "Folio_Number": 30607,
+    "Address": "W/O SREEDHARA K NO C 3 TELECOM QTRS KUVEMPU ROAD SHIMOGA",
+    "Amount_Due": 287
+  },
+  {
+    "Investor_First_Name": "YOGESH ARUN ALAWANI",
+    "Folio_Number": 40771,
+    "Address": "FLAT NO 303 FRIENDS PARADISE SITE NO 2550\\1 E BLOCK SAHAKARNAGAR BANGALORE",
+    "Amount_Due": 287
+  },
+  {
+    "Investor_First_Name": "RUCHI  AGRAWAL",
+    "Folio_Number": 10888,
+    "Address": "622 SARGODHA VIHAR SECTOR 7 PLOT NO 13 DWARKA NEW DELHI",
+    "Amount_Due": 411
+  },
+  {
+    "Investor_First_Name": "RENU  JAIN",
+    "Folio_Number": 42100,
+    "Address": "A 1/190B LAWRENCE ROAD DELHI",
+    "Amount_Due": 430
+  },
+  {
+    "Investor_First_Name": "VAIDEHI DEVI GUPTA",
+    "Folio_Number": 43112,
+    "Address": "43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 449
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43113,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 449
+  },
+  {
+    "Investor_First_Name": "ANITA  BIMAL",
+    "Folio_Number": 41826,
+    "Address": "HOUSE NO DII/19 SCHEDULE'A' PRESIDENT'S ESTATE RASHTRAPATI BHAWAN NEW DELHI",
+    "Amount_Due": 573
+  },
+  {
+    "Investor_First_Name": "PRAVINCHANDRA MANILAL SHAH",
+    "Folio_Number": 42555,
+    "Address": "18 KUNARK APT OPP MARIND LTD LINK ROAD MULUND WEST MUMBAI",
+    "Amount_Due": 598
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43106,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 598
+  },
+  {
+    "Investor_First_Name": "LALITA  MAHAJAN",
+    "Folio_Number": 41824,
+    "Address": "HOUSE NO DII/19 SCHEDULE'A' PRESIDENT'S ESTATE RASHTRAPATI BHAWAN NEW DELHI",
+    "Amount_Due": 598
+  },
+  {
+    "Investor_First_Name": "V  ARJUNAN",
+    "Folio_Number": 10645,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 768
+  },
+  {
+    "Investor_First_Name": "CHAMPABEN  MODI",
+    "Folio_Number": 8770,
+    "Address": "PLOT NO.1507/2 SECTOR-2/C GANDHINAGAR GUJARAT",
+    "Amount_Due": 774
+  },
+  {
+    "Investor_First_Name": "RAJALAKSHMI  ARJUNAN",
+    "Folio_Number": 10640,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 795
+  },
+  {
+    "Investor_First_Name": "ANUROOPA  ARJUN",
+    "Folio_Number": 10643,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 823
+  },
+  {
+    "Investor_First_Name": "MRS CHAMPABEN MODI",
+    "Folio_Number": 8715,
+    "Address": "PLOT NO.1507/12 SECTOR-2/C GANDHINAGAR GUJARAT",
+    "Amount_Due": 831
+  },
+  {
+    "Investor_First_Name": "DAKSHA SHIRISH BHATT",
+    "Folio_Number": 15263,
+    "Address": "101/A ARJUN PALACE NR PRAKASH SOCY OLD UMARA POLICE STATION ATHWA LINES SURAT",
+    "Amount_Due": 860
+  },
+  {
+    "Investor_First_Name": "R K MAMDANI",
+    "Folio_Number": 9193,
+    "Address": "GHOD DOD RPAD ROAD KARIMABAD SOCIETY BUNGLOW NO-20A BESIDE BSNL OFFICE GROUND FLOOR SURAT",
+    "Amount_Due": 860
+  },
+  {
+    "Investor_First_Name": "MRUDULA NIMESH PATEL",
+    "Folio_Number": 20626,
+    "Address": "ADDRESS NOT GIVEN",
+    "Amount_Due": 1003
+  },
+  {
+    "Investor_First_Name": "JIGNABEN NAVINCHANDRA SHAH",
+    "Folio_Number": 22925,
+    "Address": "102 TRISHLA APARTMENT OPP SHETRUNJAY HILL FLATS KRISHNANAGAR BHAVNAGAR",
+    "Amount_Due": 1003
+  },
+  {
+    "Investor_First_Name": "PAYAL VIKRAM SHAH",
+    "Folio_Number": 23471,
+    "Address": "102 TRISHLA APPARTMENT OPP SHETRUNJAY HILL FLATS KRISHNANAGAR BHAVNAGAR",
+    "Amount_Due": 1003
+  },
+  {
+    "Investor_First_Name": "SURESH THAKORLAL SHASTRI",
+    "Folio_Number": 17022,
+    "Address": "B1107 EVERARD TOWERS BEHIND RUSTOMJEE OFFEAST ERNEX PRESS HIGH WAY SION EAST MUMBAI",
+    "Amount_Due": 1147
+  },
+  {
+    "Investor_First_Name": "NILA SURESH SHASTRI",
+    "Folio_Number": 17026,
+    "Address": "B1107 EVERARD TOWERS BEHIND RUSTOMJEE OFFEAST ERNEX PRESS HIGH WAY SION EAST MUMBAI",
+    "Amount_Due": 1147
+  },
+  {
+    "Investor_First_Name": "SUPRIYA  CHATTERJEE",
+    "Folio_Number": 24844,
+    "Address": "I 38 B KIRTI NAGAR NEW DELHI",
+    "Amount_Due": 1147
+  },
+  {
+    "Investor_First_Name": "RAJINDER  KUMARI",
+    "Folio_Number": 28566,
+    "Address": "5\\119 TAKHAT NIWAS NIRANKARI COLONY NEAR DURGA SOTRE DELHI",
+    "Amount_Due": 1147
+  },
+  {
+    "Investor_First_Name": "NEHAL  KOTHARI",
+    "Folio_Number": 37146,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1147
+  },
+  {
+    "Investor_First_Name": "PITAMBER PREMCHAND BHATIA",
+    "Folio_Number": 25210,
+    "Address": "PREM NIWAS VANGANI E THANE",
+    "Amount_Due": 1197
+  },
+  {
+    "Investor_First_Name": "D  CHATTERJEE",
+    "Folio_Number": 24846,
+    "Address": "I 38 B KIRTI NAGAR NEW DELHI",
+    "Amount_Due": 1197
+  },
+  {
+    "Investor_First_Name": "DOLATRAI DULLABHBHAI GANDHI",
+    "Folio_Number": 25133,
+    "Address": "WESTERN SECURITIES 110 LAND MARK BLDG NR LIBRARY OPP KANYA SHALA SCHOOL NAVSARI",
+    "Amount_Due": 1197
+  },
+  {
+    "Investor_First_Name": "ANJALI  CHOPRA",
+    "Folio_Number": 9238,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1371
+  },
+  {
+    "Investor_First_Name": "RUPAK  MEHTA",
+    "Folio_Number": 11110,
+    "Address": "C/O SHAKUNTALA OBEROI W 8 A 13 PRASHANTHI NILAYAM PUTTAPARTHI ANANTAPUR DIST ANDHRA PRADESH",
+    "Amount_Due": 1371
+  },
+  {
+    "Investor_First_Name": "ESHA  CHOPRA",
+    "Folio_Number": 9241,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1434
+  },
+  {
+    "Investor_First_Name": "PARIN GUNSEN SANGHVI",
+    "Folio_Number": 34387,
+    "Address": "102 SHANTIVAN APARTMENTS NEAR N M JOSHI SOCIETY GAVANPADA M P RD MULUND E MUMBAI",
+    "Amount_Due": 1434
+  },
+  {
+    "Investor_First_Name": "SUSHMA  GOEL",
+    "Folio_Number": 41142,
+    "Address": "4TH KM RAMPUR ROAD BAREILLY UP",
+    "Amount_Due": 1496
+  },
+  {
+    "Investor_First_Name": "UMESH RANCHHODJI DESAI",
+    "Folio_Number": 23604,
+    "Address": "C/O AIR MARSHAL P.K DESAI(RETD) B-32 SHARANAM 9 OPP CHANDAN PARTY PLOT SATELLITE AHMEDABAD",
+    "Amount_Due": 1496
+  },
+  {
+    "Investor_First_Name": "GUNSEN BABULAL SANGHVI",
+    "Folio_Number": 34390,
+    "Address": "102 SHANTIVAN APARTMENTS NEAR N M JOSHI SOCIETY GAVANPADA M P RD MULUND E MUMBAI",
+    "Amount_Due": 1496
+  },
+  {
+    "Investor_First_Name": "NISAR AHMED QAZI",
+    "Folio_Number": 27256,
+    "Address": "B I T CHAWL NO 18 ROOM NO 64 3RD FLOOR SOFIA ZUBAIR ROAD NEW NAGPADA MUMBAI",
+    "Amount_Due": 2244
+  },
+  {
+    "Investor_First_Name": "DIPTENDU  PAL",
+    "Folio_Number": 12419,
+    "Address": "A-62/1 SAKET ENCLAVE NEW DELHI",
+    "Amount_Due": 2580
+  },
+  {
+    "Investor_First_Name": "UMMA  GOKLANEY",
+    "Folio_Number": 31783,
+    "Address": "J 9 SECTOR 41 NOIDA",
+    "Amount_Due": 2693
+  },
+  {
+    "Investor_First_Name": "SUSHMA  GOEL",
+    "Folio_Number": 41144,
+    "Address": "4TH KM RAMPUR ROAD BAREILLY UP",
+    "Amount_Due": 2992
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 23572,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2992
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 23579,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2992
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31312,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2992
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31315,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2992
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31316,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2992
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31318,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2992
+  },
+  {
+    "Investor_First_Name": "RAJALAKSHMI",
+    "Folio_Number": 33888,
+    "Address": "B 001 SHIVARANJINI APARTMENTS ITI LAYOUT BSK 3RD STAGE BANGALORE",
+    "Amount_Due": 2992
+  },
+  {
+    "Investor_First_Name": "KAJAL  BHATTACHARYA",
+    "Folio_Number": 8027,
+    "Address": "P2C-1096 PRINCETON ESTATE DLF PHASE 5 GURGAON HARYANA",
+    "Amount_Due": 12902
+  },
+  {
+    "Investor_First_Name": "KAMAL JIT PASRICHA",
+    "Folio_Number": 680,
+    "Address": "242 HUDA JAIL LAND COMPLEX OPP FEDERAL BANK JAIL ROAD SOHNA ADDA GURGAON HARYANA",
+    "Amount_Due": 1202
+  },
+  {
+    "Investor_First_Name": "KAMAL JIT PASRICHA",
+    "Folio_Number": 680,
+    "Address": "242 HUDA JAIL LAND COMPLEX OPP FEDERAL BANK JAIL ROAD SOHNA ADDA GURGAON HARYANA",
+    "Amount_Due": 1229
+  },
+  {
+    "Investor_First_Name": "KAMAL JIT PASRICHA",
+    "Folio_Number": 680,
+    "Address": "242 HUDA JAIL LAND COMPLEX OPP FEDERAL BANK JAIL ROAD SOHNA ADDA GURGAON HARYANA",
+    "Amount_Due": 1229
+  },
+  {
+    "Investor_First_Name": "UMA  SRIDHAR",
+    "Folio_Number": 30607,
+    "Address": "W/O SREEDHARA K NO C 3 TELECOM QTRS KUVEMPU ROAD SHIMOGA",
+    "Amount_Due": 290
+  },
+  {
+    "Investor_First_Name": "YOGESH ARUN ALAWANI",
+    "Folio_Number": 40771,
+    "Address": "FLAT NO 303 FRIENDS PARADISE SITE NO 2550\\1 E BLOCK SAHAKARNAGAR BANGALORE",
+    "Amount_Due": 290
+  },
+  {
+    "Investor_First_Name": "RUCHI  AGRAWAL",
+    "Folio_Number": 10888,
+    "Address": "622 SARGODHA VIHAR SECTOR 7 PLOT NO 13 DWARKA NEW DELHI",
+    "Amount_Due": 416
+  },
+  {
+    "Investor_First_Name": "RENU  JAIN",
+    "Folio_Number": 42100,
+    "Address": "A 1/190B LAWRENCE ROAD DELHI",
+    "Amount_Due": 435
+  },
+  {
+    "Investor_First_Name": "VAIDEHI DEVI GUPTA",
+    "Folio_Number": 43112,
+    "Address": "43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 454
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43113,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 454
+  },
+  {
+    "Investor_First_Name": "DEEPTI  BHATNAGAR",
+    "Folio_Number": 17808,
+    "Address": "A 101 YAMINI SEC 10 VASANT NAGAR VASAI EAST DIST THANE",
+    "Amount_Due": 555
+  },
+  {
+    "Investor_First_Name": "A S ARNEJA",
+    "Folio_Number": 30053,
+    "Address": "C 82 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "MANPREET  KAUR",
+    "Folio_Number": 30058,
+    "Address": "C 82 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "M K ARNEJA",
+    "Folio_Number": 30052,
+    "Address": "C 81 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "JAGTAR  KAUR",
+    "Folio_Number": 30055,
+    "Address": "C 82 MAGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "JAGPREET  SINGH",
+    "Folio_Number": 30056,
+    "Address": "C-82 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "INDIRA MAHENDRA SHAH",
+    "Folio_Number": 17712,
+    "Address": "A-3 SUN VALLEY RAMDEVNAGAR SATELLITE ROAD AHMEDABAD",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "DILIP KUMAR GHOSH",
+    "Folio_Number": 31647,
+    "Address": "94/4 TULSI BLDG KHETWADI BACK ROAD MUMBAI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "ANITA  BIMAL",
+    "Folio_Number": 41826,
+    "Address": "HOUSE NO DII/19 SCHEDULE'A' PRESIDENT'S ESTATE RASHTRAPATI BHAWAN NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "PRAVINCHANDRA MANILAL SHAH",
+    "Folio_Number": 42555,
+    "Address": "18 KUNARK APT OPP MARIND LTD LINK ROAD MULUND WEST MUMBAI",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43106,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "LALITA  MAHAJAN",
+    "Folio_Number": 41824,
+    "Address": "HOUSE NO DII/19 SCHEDULE'A' PRESIDENT'S ESTATE RASHTRAPATI BHAWAN NEW DELHI",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "MANOJ R TRIVEDI",
+    "Folio_Number": 13385,
+    "Address": "49 MITTAL CHAMBERS NARIMAN POINT MUMBAI",
+    "Amount_Due": 693
+  },
+  {
+    "Investor_First_Name": "YOGESH BHUPATRAI JOSHI",
+    "Folio_Number": 16644,
+    "Address": "B-35 SHUBHAM OPP HDFC BANK AKURLI ROAD KANDIVALI EAST MUMBAI",
+    "Amount_Due": 693
+  },
+  {
+    "Investor_First_Name": "PARGHI JAMANBEN S",
+    "Folio_Number": 18222,
+    "Address": "C/O DURGA SCHOOL 54 RADHA VALLABH COLONY MANINAGAR AHMEDABAD",
+    "Amount_Due": 693
+  },
+  {
+    "Investor_First_Name": "SHREE KUMAR HUF",
+    "Folio_Number": 38614,
+    "Address": "15/21-A SAHYOG SADAN CIVIL LINES KANPUR UP",
+    "Amount_Due": 725
+  },
+  {
+    "Investor_First_Name": "V  ARJUNAN",
+    "Folio_Number": 10645,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 776
+  },
+  {
+    "Investor_First_Name": "CHAMPABEN  MODI",
+    "Folio_Number": 8770,
+    "Address": "PLOT NO.1507/2 SECTOR-2/C GANDHINAGAR GUJARAT",
+    "Amount_Due": 783
+  },
+  {
+    "Investor_First_Name": "RAJALAKSHMI  ARJUNAN",
+    "Folio_Number": 10640,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 804
+  },
+  {
+    "Investor_First_Name": "ANUROOPA  ARJUN",
+    "Folio_Number": 10643,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 832
+  },
+  {
+    "Investor_First_Name": "MRS CHAMPABEN MODI",
+    "Folio_Number": 8715,
+    "Address": "PLOT NO.1507/12 SECTOR-2/C GANDHINAGAR GUJARAT",
+    "Amount_Due": 841
+  },
+  {
+    "Investor_First_Name": "R K MAMDANI",
+    "Folio_Number": 9193,
+    "Address": "GHOD DOD RPAD ROAD KARIMABAD SOCIETY BUNGLOW NO-20A BESIDE BSNL OFFICE GROUND FLOOR SURAT",
+    "Amount_Due": 870
+  },
+  {
+    "Investor_First_Name": "NIKHIL  MAHESHWARI",
+    "Folio_Number": 36826,
+    "Address": "17 C MANSAROVAR APT SECTOR 61 NOIDA",
+    "Amount_Due": 870
+  },
+  {
+    "Investor_First_Name": "MRUDULA NIMESH PATEL",
+    "Folio_Number": 20626,
+    "Address": "ADDRESS NOT GIVEN",
+    "Amount_Due": 1015
+  },
+  {
+    "Investor_First_Name": "MANEESHA  KANKARIA",
+    "Folio_Number": 9205,
+    "Address": "79-AUDIAPPA NAICKEN STREET SOWCARPET CHENNAI",
+    "Amount_Due": 1109
+  },
+  {
+    "Investor_First_Name": "DHROOV  CHANDNA",
+    "Folio_Number": 12516,
+    "Address": "63 KALA VIHAR SOCIETY MAYUR VIHAR PHASE I DELHI",
+    "Amount_Due": 1109
+  },
+  {
+    "Investor_First_Name": "RYLAN  ROACH",
+    "Folio_Number": 13598,
+    "Address": "FLAT NO 1 ANUKOOL APTS HARMINDER SINGH ROAD 7 BUNGALOWS ANDHERI WEST MUMBAI",
+    "Amount_Due": 1109
+  },
+  {
+    "Investor_First_Name": "KAPILABEN SURESHCHANDRA SHAH",
+    "Folio_Number": 10514,
+    "Address": "14 MOTIBAUG SOCIETY B/H CHOKSI PARK SOCIETY BHADUTNAGAR MANINAGAR AHMEDABAD",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "SURESH THAKORLAL SHASTRI",
+    "Folio_Number": 17022,
+    "Address": "B1107 EVERARD TOWERS BEHIND RUSTOMJEE OFFEAST ERNEX PRESS HIGH WAY SION EAST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "NILA SURESH SHASTRI",
+    "Folio_Number": 17026,
+    "Address": "B1107 EVERARD TOWERS BEHIND RUSTOMJEE OFFEAST ERNEX PRESS HIGH WAY SION EAST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "SUPRIYA  CHATTERJEE",
+    "Folio_Number": 24844,
+    "Address": "I 38 B KIRTI NAGAR NEW DELHI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "RAJINDER  KUMARI",
+    "Folio_Number": 28566,
+    "Address": "5\\119 TAKHAT NIWAS NIRANKARI COLONY NEAR DURGA SOTRE DELHI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "HIMAXI  KOTHARI",
+    "Folio_Number": 37144,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "NEHAL  KOTHARI",
+    "Folio_Number": 37146,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "RADHA  VISWANATHAN",
+    "Folio_Number": 25473,
+    "Address": "FLAT D 2 THIRD FLOOR BBLOCK PARSNPARADISE 109 G N CHETTY ROAD T NAGAR CHENNAI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "S  VISHWANATHAN",
+    "Folio_Number": 25480,
+    "Address": "FLAT D 2 3RD FLOOR B BLOCK PARSN PARADISE 109 G N CHETTY ROAD TNAGAR CHENNAI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "PITAMBER PREMCHAND BHATIA",
+    "Folio_Number": 25210,
+    "Address": "PREM NIWAS VANGANI E THANE",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "D  CHATTERJEE",
+    "Folio_Number": 24846,
+    "Address": "I 38 B KIRTI NAGAR NEW DELHI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "UDAI NARAIN SINGH",
+    "Folio_Number": 34822,
+    "Address": "203 TOWER B 1ST FLOOR HERITAGE COMPLEX NR RUTU RAJ BLDG MANJALPUR VADODARA",
+    "Amount_Due": 1301
+  },
+  {
+    "Investor_First_Name": "ANJALI  CHOPRA",
+    "Folio_Number": 9238,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1386
+  },
+  {
+    "Investor_First_Name": "RUPAK  MEHTA",
+    "Folio_Number": 11110,
+    "Address": "C/O SHAKUNTALA OBEROI W 8 A 13 PRASHANTHI NILAYAM PUTTAPARTHI ANANTAPUR DIST ANDHRA PRADESH",
+    "Amount_Due": 1386
+  },
+  {
+    "Investor_First_Name": "SHAMBHU NATH KESHARI",
+    "Folio_Number": 12004,
+    "Address": "L 5/25 SHASTRI NAGAR SINGRA OPP IP MALL VARANASI UP",
+    "Amount_Due": 1386
+  },
+  {
+    "Investor_First_Name": "RIKHABCHAND NARENDRA HUF",
+    "Folio_Number": 15662,
+    "Address": "79-AUDIAPPA NAICKEN STREET SOWCAPET CHENNAI",
+    "Amount_Due": 1386
+  },
+  {
+    "Investor_First_Name": "ESHA  CHOPRA",
+    "Folio_Number": 9241,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1449
+  },
+  {
+    "Investor_First_Name": "PARIN GUNSEN SANGHVI",
+    "Folio_Number": 34387,
+    "Address": "102 SHANTIVAN APARTMENTS NEAR N M JOSHI SOCIETY GAVANPADA M P RD MULUND E MUMBAI",
+    "Amount_Due": 1449
+  },
+  {
+    "Investor_First_Name": "SUSHMA  GOEL",
+    "Folio_Number": 41142,
+    "Address": "4TH KM RAMPUR ROAD BAREILLY UP",
+    "Amount_Due": 1512
+  },
+  {
+    "Investor_First_Name": "VIVIAN  ROACH",
+    "Folio_Number": 36383,
+    "Address": "FLAT NO 1 ANUKOOL APTS HARMINDER SINGH ROAD 7 BUNGALOWS ANDHERI WEST MUMBAI",
+    "Amount_Due": 1512
+  },
+  {
+    "Investor_First_Name": "UMESH RANCHHODJI DESAI",
+    "Folio_Number": 23604,
+    "Address": "C/O AIR MARSHAL P.K DESAI(RETD) B-32 SHARANAM 9 OPP CHANDAN PARTY PLOT SATELLITE AHMEDABAD",
+    "Amount_Due": 1512
+  },
+  {
+    "Investor_First_Name": "GUNSEN BABULAL SANGHVI",
+    "Folio_Number": 34390,
+    "Address": "102 SHANTIVAN APARTMENTS NEAR N M JOSHI SOCIETY GAVANPADA M P RD MULUND E MUMBAI",
+    "Amount_Due": 1512
+  },
+  {
+    "Investor_First_Name": "NISAR AHMED QAZI",
+    "Folio_Number": 27256,
+    "Address": "B I T CHAWL NO 18 ROOM NO 64 3RD FLOOR SOFIA ZUBAIR ROAD NEW NAGPADA MUMBAI",
+    "Amount_Due": 2268
+  },
+  {
+    "Investor_First_Name": "DIPTENDU  PAL",
+    "Folio_Number": 12419,
+    "Address": "A-62/1 SAKET ENCLAVE NEW DELHI",
+    "Amount_Due": 2609
+  },
+  {
+    "Investor_First_Name": "BRIJESH HASHMUKHBHAI DOSHI",
+    "Folio_Number": 34508,
+    "Address": "29/345 ADARSH NAGAR NR SBI BANK NARANPURA VIJAYNAGAR AHMEDABAD GUJARAT",
+    "Amount_Due": 2609
+  },
+  {
+    "Investor_First_Name": "V  KRISHNAMOORTHY",
+    "Folio_Number": 21542,
+    "Address": "C\\O ALMONDZ GLOBAL SEC NEW NO-48 RAMANUJAM STREET T NAGAR CHENNAI",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "UMMA  GOKLANEY",
+    "Folio_Number": 31783,
+    "Address": "J 9 SECTOR 41 NOIDA",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "UDAI NARIAN SINGH",
+    "Folio_Number": 34969,
+    "Address": "203 TOWER B 1ST FLOOR HERITAGE COMPLEX NR RUTU RAJ BLDG MANJALPUR VADODARA",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "SUSHMA  GOEL",
+    "Folio_Number": 41144,
+    "Address": "4TH KM RAMPUR ROAD BAREILLY UP",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 23572,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 23579,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31312,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31315,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31316,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31318,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "S  RAMACHANDRAN",
+    "Folio_Number": 25486,
+    "Address": "D-BLOCK 4-636 A VOC STREET OKKIYAM THURAIPAKKAM CHENNAI",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SUNIL  DUTT",
+    "Folio_Number": 37142,
+    "Address": "B 13 BLOCK B&C ADHYAPAK NAGAR NANGLOI DELHI",
+    "Amount_Due": 3391
+  },
+  {
+    "Investor_First_Name": "GANESAN  SUBRAMANIAN",
+    "Folio_Number": 42684,
+    "Address": "720-C 5TH NORTH STREET THIYAGARAJANAGAR TIRUNELVELI TAMILNADU",
+    "Amount_Due": 3913
+  },
+  {
+    "Investor_First_Name": "NABANITA  BANDYOPADHYAY",
+    "Folio_Number": 35764,
+    "Address": "A3/ 613 TOWER-11 PURVANCHAL SILVER CITY-2 SECTOR:Pi 2 GREATER NOIDA",
+    "Amount_Due": 9652
+  },
+  {
+    "Investor_First_Name": "KAJAL  BHATTACHARYA",
+    "Folio_Number": 8027,
+    "Address": "P2C-1096 PRINCETON ESTATE DLF PHASE 5 GURGAON HARYANA",
+    "Amount_Due": 13044
+  },
+  {
+    "Investor_First_Name": "UMESH RANCHHODJI DESAI",
+    "Folio_Number": 23604,
+    "Address": "C/O AIR MARSHAL P.K DESAI(RETD) B-32 SHARANAM 9 OPP CHANDAN PARTY PLOT SATELLITE AHMEDABAD",
+    "Amount_Due": 1019
+  },
+  {
+    "Investor_First_Name": "PITAMBER PREMCHAND BHATIA",
+    "Folio_Number": 25210,
+    "Address": "PREM NIWAS VANGANI E THANE",
+    "Amount_Due": 894
+  },
+  {
+    "Investor_First_Name": "RAJINDER  KUMARI",
+    "Folio_Number": 28566,
+    "Address": "5\\119 TAKHAT NIWAS NIRANKARI COLONY NEAR DURGA SOTRE DELHI",
+    "Amount_Due": 1033
+  },
+  {
+    "Investor_First_Name": "ANURADHA  SHASTRI",
+    "Folio_Number": 27575,
+    "Address": "280 CHITTRANJAN AVENUE KOLKATA",
+    "Amount_Due": 290
+  },
+  {
+    "Investor_First_Name": "RUCHI  AGRAWAL",
+    "Folio_Number": 10888,
+    "Address": "622 SARGODHA VIHAR SECTOR 7 PLOT NO 13 DWARKA NEW DELHI",
+    "Amount_Due": 416
+  },
+  {
+    "Investor_First_Name": "RENU  JAIN",
+    "Folio_Number": 42100,
+    "Address": "A 1/190B LAWRENCE ROAD DELHI",
+    "Amount_Due": 435
+  },
+  {
+    "Investor_First_Name": "VAIDEHI DEVI GUPTA",
+    "Folio_Number": 43112,
+    "Address": "43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 454
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43113,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 454
+  },
+  {
+    "Investor_First_Name": "KUMUDBEN HASMUKHBHAI SONI",
+    "Folio_Number": 13888,
+    "Address": "2ND FLOOR BHANDARESHWAR BHUVAN POMALI FALIYA WADI VADODARA",
+    "Amount_Due": 555
+  },
+  {
+    "Investor_First_Name": "A S ARNEJA",
+    "Folio_Number": 30053,
+    "Address": "C 82 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "MANPREET  KAUR",
+    "Folio_Number": 30058,
+    "Address": "C 82 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "M K ARNEJA",
+    "Folio_Number": 30052,
+    "Address": "C 81 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "JAGTAR  KAUR",
+    "Folio_Number": 30055,
+    "Address": "C 82 MAGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "ARUN BHALUSHANKER TIRVEDI",
+    "Folio_Number": 16067,
+    "Address": "17 ARPAN SOC NR MAYUR SCHOOL PALIYAD NAGAR CHAR RASTA NARAN PURA AHMEDABAD",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "JAGPREET  SINGH",
+    "Folio_Number": 30056,
+    "Address": "C-82 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "INDIRA MAHENDRA SHAH",
+    "Folio_Number": 17712,
+    "Address": "A-3 SUN VALLEY RAMDEVNAGAR SATELLITE ROAD AHMEDABAD",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "ANITA  BIMAL",
+    "Folio_Number": 41826,
+    "Address": "HOUSE NO DII/19 SCHEDULE'A' PRESIDENT'S ESTATE RASHTRAPATI BHAWAN NEW DELHI",
+    "Amount_Due": 580
+  },
+  {
+    "Investor_First_Name": "P S VENKATARAMAN",
+    "Folio_Number": 25990,
+    "Address": "SABARI NIVAS NO 7 OLD NO 12 RAJAJI STREET GANDHI NAGAR SALIGRAMAM CHENNAI",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "PRAVINCHANDRA MANILAL SHAH",
+    "Folio_Number": 42555,
+    "Address": "18 KUNARK APT OPP MARIND LTD LINK ROAD MULUND WEST MUMBAI",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43106,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "LALITA  MAHAJAN",
+    "Folio_Number": 41824,
+    "Address": "HOUSE NO DII/19 SCHEDULE'A' PRESIDENT'S ESTATE RASHTRAPATI BHAWAN NEW DELHI",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "MINAXIBEN KANCHANLAL CHASMAWALA",
+    "Folio_Number": 7782,
+    "Address": "20 GOVIND NAGAR SOCIETY NEAR SAHAJDHAM HONEY PARK ROAD ADAJAN SURAT",
+    "Amount_Due": 693
+  },
+  {
+    "Investor_First_Name": "ANAND PRAKASH SRIVASTAVA",
+    "Folio_Number": 10904,
+    "Address": "950/608 DARAGANJ ALLAHABAD",
+    "Amount_Due": 693
+  },
+  {
+    "Investor_First_Name": "MANOJ R TRIVEDI",
+    "Folio_Number": 13385,
+    "Address": "49 MITTAL CHAMBERS NARIMAN POINT MUMBAI",
+    "Amount_Due": 693
+  },
+  {
+    "Investor_First_Name": "YOGESH BHUPATRAI JOSHI",
+    "Folio_Number": 16644,
+    "Address": "B-35 SHUBHAM OPP HDFC BANK AKURLI ROAD KANDIVALI EAST MUMBAI",
+    "Amount_Due": 693
+  },
+  {
+    "Investor_First_Name": "SHREE KUMAR HUF",
+    "Folio_Number": 38614,
+    "Address": "15/21-A SAHYOG SADAN CIVIL LINES KANPUR UP",
+    "Amount_Due": 725
+  },
+  {
+    "Investor_First_Name": "KETAN CHANDRAKANT PATEL",
+    "Folio_Number": 38986,
+    "Address": "11-A SITA BAUG SOCIETY MANJALPUR VADODARA",
+    "Amount_Due": 725
+  },
+  {
+    "Investor_First_Name": "BHUMIKA KETAN PATEL",
+    "Folio_Number": 38988,
+    "Address": "11-A SITA BAUG SOCIETY MANJALPUR VADODARA",
+    "Amount_Due": 725
+  },
+  {
+    "Investor_First_Name": "V  ARJUNAN",
+    "Folio_Number": 10645,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 776
+  },
+  {
+    "Investor_First_Name": "CHAMPABEN  MODI",
+    "Folio_Number": 8770,
+    "Address": "PLOT NO.1507/2 SECTOR-2/C GANDHINAGAR GUJARAT",
+    "Amount_Due": 783
+  },
+  {
+    "Investor_First_Name": "RAJALAKSHMI  ARJUNAN",
+    "Folio_Number": 10640,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 804
+  },
+  {
+    "Investor_First_Name": "ANUROOPA  ARJUN",
+    "Folio_Number": 10643,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 832
+  },
+  {
+    "Investor_First_Name": "R K MAMDANI",
+    "Folio_Number": 9193,
+    "Address": "GHOD DOD RPAD ROAD KARIMABAD SOCIETY BUNGLOW NO-20A BESIDE BSNL OFFICE GROUND FLOOR SURAT",
+    "Amount_Due": 870
+  },
+  {
+    "Investor_First_Name": "NIKHIL  MAHESHWARI",
+    "Folio_Number": 36826,
+    "Address": "17 C MANSAROVAR APT SECTOR 61 NOIDA",
+    "Amount_Due": 870
+  },
+  {
+    "Investor_First_Name": "USHA  SHARMA",
+    "Folio_Number": 37147,
+    "Address": "J 193 R B ENCLAVE PASCHIM VIHAR NEW DELHI",
+    "Amount_Due": 907
+  },
+  {
+    "Investor_First_Name": "MRUDULA NIMESH PATEL",
+    "Folio_Number": 20626,
+    "Address": "ADDRESS NOT GIVEN",
+    "Amount_Due": 1015
+  },
+  {
+    "Investor_First_Name": "JIGNABEN NAVINCHANDRA SHAH",
+    "Folio_Number": 22925,
+    "Address": "102 TRISHLA APARTMENT OPP SHETRUNJAY HILL FLATS KRISHNANAGAR BHAVNAGAR",
+    "Amount_Due": 1015
+  },
+  {
+    "Investor_First_Name": "PAYAL VIKRAM SHAH",
+    "Folio_Number": 23471,
+    "Address": "102 TRISHLA APPARTMENT OPP SHETRUNJAY HILL FLATS KRISHNANAGAR BHAVNAGAR",
+    "Amount_Due": 1015
+  },
+  {
+    "Investor_First_Name": "NAVINBHAI RAMNIKLAL SHAH",
+    "Folio_Number": 22919,
+    "Address": "102 TRISHLA APARTMENT OPP SHETRUNJAY HILL FLATS KRISHNANAGAR BHAVNAGAR",
+    "Amount_Due": 1059
+  },
+  {
+    "Investor_First_Name": "DHROOV  CHANDNA",
+    "Folio_Number": 12516,
+    "Address": "63 KALA VIHAR SOCIETY MAYUR VIHAR PHASE I DELHI",
+    "Amount_Due": 1109
+  },
+  {
+    "Investor_First_Name": "RAJENDRA PRASAD SONTHALIA",
+    "Folio_Number": 15108,
+    "Address": "H NO 249H G T ROAD TRIVENI MANSION 7TH FLOOR FLAT 710 LILUAH HOWRAH",
+    "Amount_Due": 1109
+  },
+  {
+    "Investor_First_Name": "KRISHNA  SONTHALIA",
+    "Folio_Number": 15109,
+    "Address": "H NO 249H G T ROAD TRIVENI MANSION 7TH FLOOR FLAT 710 LILUAH HOWRAH",
+    "Amount_Due": 1109
+  },
+  {
+    "Investor_First_Name": "KAPILABEN SURESHCHANDRA SHAH",
+    "Folio_Number": 10514,
+    "Address": "14 MOTIBAUG SOCIETY B/H CHOKSI PARK SOCIETY BHADUTNAGAR MANINAGAR AHMEDABAD",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "SURESH THAKORLAL SHASTRI",
+    "Folio_Number": 17022,
+    "Address": "B1107 EVERARD TOWERS BEHIND RUSTOMJEE OFFEAST ERNEX PRESS HIGH WAY SION EAST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "NILA SURESH SHASTRI",
+    "Folio_Number": 17026,
+    "Address": "B1107 EVERARD TOWERS BEHIND RUSTOMJEE OFFEAST ERNEX PRESS HIGH WAY SION EAST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "SUPRIYA  CHATTERJEE",
+    "Folio_Number": 24844,
+    "Address": "I 38 B KIRTI NAGAR NEW DELHI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "RAMESH  DATTA",
+    "Folio_Number": 27289,
+    "Address": "2\\1 BAGHA JATIN ROAD 2ND FLOOR FLAT NO A KOLKATA",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "SHILPA KETAN VYAS",
+    "Folio_Number": 35514,
+    "Address": "SHIVSHAHI CHS LTD BLDG NO 11 3R FLOOR BLOCK 15 DR ANNIE BESANT ROAD OPP GLAXO MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "HIMAXI  KOTHARI",
+    "Folio_Number": 37144,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "NEHAL  KOTHARI",
+    "Folio_Number": 37146,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "D  CHATTERJEE",
+    "Folio_Number": 24846,
+    "Address": "I 38 B KIRTI NAGAR NEW DELHI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "MAYURI TRAMBAKLAL VITHLANI",
+    "Folio_Number": 8679,
+    "Address": "7 KING STANE SOCIETY BH POST OFFICE GANDHIGRAM JUNAGADH",
+    "Amount_Due": 1248
+  },
+  {
+    "Investor_First_Name": "ANJALI  CHOPRA",
+    "Folio_Number": 9238,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1386
+  },
+  {
+    "Investor_First_Name": "RUPAK  MEHTA",
+    "Folio_Number": 11110,
+    "Address": "C/O SHAKUNTALA OBEROI W 8 A 13 PRASHANTHI NILAYAM PUTTAPARTHI ANANTAPUR DIST ANDHRA PRADESH",
+    "Amount_Due": 1386
+  },
+  {
+    "Investor_First_Name": "SHAMBHU NATH KESHARI",
+    "Folio_Number": 12004,
+    "Address": "L 5/25 SHASTRI NAGAR SINGRA OPP IP MALL VARANASI UP",
+    "Amount_Due": 1386
+  },
+  {
+    "Investor_First_Name": "ESHA  CHOPRA",
+    "Folio_Number": 9241,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 1449
+  },
+  {
+    "Investor_First_Name": "PARIN GUNSEN SANGHVI",
+    "Folio_Number": 34387,
+    "Address": "102 SHANTIVAN APARTMENTS NEAR N M JOSHI SOCIETY GAVANPADA M P RD MULUND E MUMBAI",
+    "Amount_Due": 1449
+  },
+  {
+    "Investor_First_Name": "SUSHMA  GOEL",
+    "Folio_Number": 41142,
+    "Address": "4TH KM RAMPUR ROAD BAREILLY UP",
+    "Amount_Due": 1512
+  },
+  {
+    "Investor_First_Name": "GUNSEN BABULAL SANGHVI",
+    "Folio_Number": 34390,
+    "Address": "102 SHANTIVAN APARTMENTS NEAR N M JOSHI SOCIETY GAVANPADA M P RD MULUND E MUMBAI",
+    "Amount_Due": 1512
+  },
+  {
+    "Investor_First_Name": "UMA CHARAN MITAL",
+    "Folio_Number": 42101,
+    "Address": "209 A MIG DDA FLATS RAJOURI GARDEN NEW DELHI",
+    "Amount_Due": 1512
+  },
+  {
+    "Investor_First_Name": "NISAR AHMED QAZI",
+    "Folio_Number": 27256,
+    "Address": "B I T CHAWL NO 18 ROOM NO 64 3RD FLOOR SOFIA ZUBAIR ROAD NEW NAGPADA MUMBAI",
+    "Amount_Due": 2268
+  },
+  {
+    "Investor_First_Name": "DIPTENDU  PAL",
+    "Folio_Number": 12419,
+    "Address": "A-62/1 SAKET ENCLAVE NEW DELHI",
+    "Amount_Due": 2609
+  },
+  {
+    "Investor_First_Name": "BRIJESH HASHMUKHBHAI DOSHI",
+    "Folio_Number": 34508,
+    "Address": "29/345 ADARSH NAGAR NR SBI BANK NARANPURA VIJAYNAGAR AHMEDABAD GUJARAT",
+    "Amount_Due": 2609
+  },
+  {
+    "Investor_First_Name": "V  KRISHNAMOORTHY",
+    "Folio_Number": 21542,
+    "Address": "C\\O ALMONDZ GLOBAL SEC NEW NO-48 RAMANUJAM STREET T NAGAR CHENNAI",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "UMMA  GOKLANEY",
+    "Folio_Number": 31783,
+    "Address": "J 9 SECTOR 41 NOIDA",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "BIPIN DAVE HUF",
+    "Folio_Number": 16822,
+    "Address": "F-501 SIDDHI TOWER SAMRAJYA COMPLEX FATEHGUNJ VADODARA",
+    "Amount_Due": 2899
+  },
+  {
+    "Investor_First_Name": "SUSHMA  GOEL",
+    "Folio_Number": 41144,
+    "Address": "4TH KM RAMPUR ROAD BAREILLY UP",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 23572,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 23579,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31312,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31315,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31316,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31318,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "S  RAMACHANDRAN",
+    "Folio_Number": 25486,
+    "Address": "D-BLOCK 4-636 A VOC STREET OKKIYAM THURAIPAKKAM CHENNAI",
+    "Amount_Due": 3025
+  },
+  {
+    "Investor_First_Name": "SUNIL  DUTT",
+    "Folio_Number": 37142,
+    "Address": "B 13 BLOCK B&C ADHYAPAK NAGAR NANGLOI DELHI",
+    "Amount_Due": 3391
+  },
+  {
+    "Investor_First_Name": "GANESAN  SUBRAMANIAN",
+    "Folio_Number": 42684,
+    "Address": "720-C 5TH NORTH STREET THIYAGARAJANAGAR TIRUNELVELI TAMILNADU",
+    "Amount_Due": 3913
+  },
+  {
+    "Investor_First_Name": "SHRI ODHAV SHWETAMBER",
+    "Folio_Number": 17005,
+    "Address": "SHRI ODHAV JAIN SHWETAMBER MAHAVIR NAGAR SOCIETY B/H MURLIDHAR SOCIETY ODHAV AHMEDABAD",
+    "Amount_Due": 4436
+  },
+  {
+    "Investor_First_Name": "SAROJ  KHANDELWAL",
+    "Folio_Number": 12460,
+    "Address": "H NO 4712/21 DARYA GANJ NEW DELHI",
+    "Amount_Due": 5797
+  },
+  {
+    "Investor_First_Name": "KAJAL  BHATTACHARYA",
+    "Folio_Number": 8027,
+    "Address": "P2C-1096 PRINCETON ESTATE DLF PHASE 5 GURGAON HARYANA",
+    "Amount_Due": 13044
+  },
+  {
+    "Investor_First_Name": "SARLABEN DOLATRAY DESAI",
+    "Folio_Number": 7787,
+    "Address": "15 SWATI SOCIETY NEAR KADAMPALI SOC TIMALIYAWAD SURAT",
+    "Amount_Due": 19
+  },
+  {
+    "Investor_First_Name": "MINAXIBEN KANCHANLAL CHASMAWALA",
+    "Folio_Number": 7782,
+    "Address": "20 GOVIND NAGAR SOCIETY NEAR SAHAJDHAM HONEY PARK ROAD ADAJAN SURAT",
+    "Amount_Due": 23
+  },
+  {
+    "Investor_First_Name": "RUPAL BIPINCHANDRA JHAVERI",
+    "Folio_Number": 7798,
+    "Address": "10/1479 MOTIPOLE OPP VASUPUJYA DEHRASAR NR SUBHASH CHOWK GOPIPURA SURAT",
+    "Amount_Due": 23
+  },
+  {
+    "Investor_First_Name": "R K MAMDANI",
+    "Folio_Number": 9193,
+    "Address": "GHOD DOD RPAD ROAD KARIMABAD SOCIETY BUNGLOW NO-20A BESIDE BSNL OFFICE GROUND FLOOR SURAT",
+    "Amount_Due": 28
+  },
+  {
+    "Investor_First_Name": "VERSHA  KHANNA",
+    "Folio_Number": 30554,
+    "Address": "2860 SECTOR 23 GURGAON HARYANA",
+    "Amount_Due": 30
+  },
+  {
+    "Investor_First_Name": "KAJAL  BHATTACHARYA",
+    "Folio_Number": 8027,
+    "Address": "P2C-1096 PRINCETON ESTATE DLF PHASE 5 GURGAON HARYANA",
+    "Amount_Due": 426
+  },
+  {
+    "Investor_First_Name": "RUPAK  MEHTA",
+    "Folio_Number": 11110,
+    "Address": "C/O SHAKUNTALA OBEROI W 8 A 13 PRASHANTHI NILAYAM PUTTAPARTHI ANANTAPUR DIST ANDHRA PRADESH",
+    "Amount_Due": 60
+  },
+  {
+    "Investor_First_Name": "RAMESH B SHAH",
+    "Folio_Number": 7744,
+    "Address": "703 NYTAN NIWAS NEAR CANAL BHATAR ROAD SURAT",
+    "Amount_Due": 63
+  },
+  {
+    "Investor_First_Name": "SUNANDA R SHAH",
+    "Folio_Number": 7745,
+    "Address": "703 NYTAN NIWAS NEAR CANALI BHATAR ROAD SURAT",
+    "Amount_Due": 63
+  },
+  {
+    "Investor_First_Name": "KUNAL  HAZRA",
+    "Folio_Number": 7680,
+    "Address": "FLAT NO-706 PLOT NO-6 SHIVA APARTMENTS SECTOR 21 D FARIDABAD",
+    "Amount_Due": 543
+  },
+  {
+    "Investor_First_Name": "RENUKA PRAVINCHANDRA KUVADIA",
+    "Folio_Number": 8827,
+    "Address": "A/404 PRASHWA TOWER NR SHYAMAL CROSS ROAD 132FEET RING ROAD SATELLETE AHMEDABAD",
+    "Amount_Due": 20
+  },
+  {
+    "Investor_First_Name": "ANAND PRAKASH SRIVASTAVA",
+    "Folio_Number": 10904,
+    "Address": "950/608 DARAGANJ ALLAHABAD",
+    "Amount_Due": 38
+  },
+  {
+    "Investor_First_Name": "MANEESHA  KANKARIA",
+    "Folio_Number": 9205,
+    "Address": "79-AUDIAPPA NAICKEN STREET SOWCARPET CHENNAI",
+    "Amount_Due": 72
+  },
+  {
+    "Investor_First_Name": "CHAMPABEN  MODI",
+    "Folio_Number": 8770,
+    "Address": "PLOT NO.1507/2 SECTOR-2/C GANDHINAGAR GUJARAT",
+    "Amount_Due": 60
+  },
+  {
+    "Investor_First_Name": "MRS CHAMPABEN MODI",
+    "Folio_Number": 8715,
+    "Address": "PLOT NO.1507/12 SECTOR-2/C GANDHINAGAR GUJARAT",
+    "Amount_Due": 64
+  },
+  {
+    "Investor_First_Name": "ANJALI  CHOPRA",
+    "Folio_Number": 9238,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 105
+  },
+  {
+    "Investor_First_Name": "ESHA  CHOPRA",
+    "Folio_Number": 9241,
+    "Address": "G-14 MAHARANI BAGH NEW DELHI",
+    "Amount_Due": 110
+  },
+  {
+    "Investor_First_Name": "MAYURI TRAMBAKLAL VITHLANI",
+    "Folio_Number": 8679,
+    "Address": "7 KING STANE SOCIETY BH POST OFFICE GANDHIGRAM JUNAGADH",
+    "Amount_Due": 122
+  },
+  {
+    "Investor_First_Name": "S  CHANDRA",
+    "Folio_Number": 9717,
+    "Address": "C-3 SHANTHI APTS NO 18 T T K IST CROSS STREET ALWARPET CHENNAI",
+    "Amount_Due": 57
+  },
+  {
+    "Investor_First_Name": "RUCHI  AGRAWAL",
+    "Folio_Number": 10888,
+    "Address": "622 SARGODHA VIHAR SECTOR 7 PLOT NO 13 DWARKA NEW DELHI",
+    "Amount_Due": 50
+  },
+  {
+    "Investor_First_Name": "KAMLESH SEVANTILAL SHAH",
+    "Folio_Number": 11381,
+    "Address": "402 NAGESHWAR KRUPA GARDEN LANE NEXT TO SHREYAS CINEMA LBS MARG GHATKOPAR WEST MUMBAI",
+    "Amount_Due": 83
+  },
+  {
+    "Investor_First_Name": "NERGISH NOSHIR DRIVER",
+    "Folio_Number": 9678,
+    "Address": "SORAB ABAD NEAR JAYESH COLONY 40 FATEHGUNJ VADODARA",
+    "Amount_Due": 139
+  },
+  {
+    "Investor_First_Name": "KAPILABEN SURESHCHANDRA SHAH",
+    "Folio_Number": 10514,
+    "Address": "14 MOTIBAUG SOCIETY B/H CHOKSI PARK SOCIETY BHADUTNAGAR MANINAGAR AHMEDABAD",
+    "Amount_Due": 139
+  },
+  {
+    "Investor_First_Name": "SHAMBHU NATH KESHARI",
+    "Folio_Number": 12004,
+    "Address": "L 5/25 SHASTRI NAGAR SINGRA OPP IP MALL VARANASI UP",
+    "Amount_Due": 166
+  },
+  {
+    "Investor_First_Name": "PERIN NAVAL KATRAK",
+    "Folio_Number": 11318,
+    "Address": "LADY MEHERBAI TATA BLDG FLAT NO 11 TATA BLOCKS S V ROAD BADRA MUMBAI",
+    "Amount_Due": 38
+  },
+  {
+    "Investor_First_Name": "V  ARJUNAN",
+    "Folio_Number": 10645,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 101
+  },
+  {
+    "Investor_First_Name": "RAJALAKSHMI  ARJUNAN",
+    "Folio_Number": 10640,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 105
+  },
+  {
+    "Investor_First_Name": "ANUROOPA  ARJUN",
+    "Folio_Number": 10643,
+    "Address": "PREM NIKETAN OLD NO 19 NEW NO 38 POSTAL COLONY SECOND STREE WEST MAMBALAM CHENNAI",
+    "Amount_Due": 108
+  },
+  {
+    "Investor_First_Name": "TANDRA  RAY",
+    "Folio_Number": 12127,
+    "Address": "C/O BAJAJ CAPITAL LTD BF 192 SECTOR 1 SALTLAKE",
+    "Amount_Due": 410
+  },
+  {
+    "Investor_First_Name": "DIPTENDU  PAL",
+    "Folio_Number": 12419,
+    "Address": "A-62/1 SAKET ENCLAVE NEW DELHI",
+    "Amount_Due": 397
+  },
+  {
+    "Investor_First_Name": "PARIN GUNSEN SANGHVI",
+    "Folio_Number": 34387,
+    "Address": "102 SHANTIVAN APARTMENTS NEAR N M JOSHI SOCIETY GAVANPADA M P RD MULUND E MUMBAI",
+    "Amount_Due": 252
+  },
+  {
+    "Investor_First_Name": "GUNSEN BABULAL SANGHVI",
+    "Folio_Number": 34390,
+    "Address": "102 SHANTIVAN APARTMENTS NEAR N M JOSHI SOCIETY GAVANPADA M P RD MULUND E MUMBAI",
+    "Amount_Due": 263
+  },
+  {
+    "Investor_First_Name": "MANOJ R TRIVEDI",
+    "Folio_Number": 13385,
+    "Address": "49 MITTAL CHAMBERS NARIMAN POINT MUMBAI",
+    "Amount_Due": 143
+  },
+  {
+    "Investor_First_Name": "KETAN PURUSHOTTAMDAS THAKKAR",
+    "Folio_Number": 34167,
+    "Address": "121 WAGHESHWARI SOC VIP ROAD KARELI BAUG VADODARA GUJARAT",
+    "Amount_Due": 189
+  },
+  {
+    "Investor_First_Name": "DHROOV  CHANDNA",
+    "Folio_Number": 12516,
+    "Address": "63 KALA VIHAR SOCIETY MAYUR VIHAR PHASE I DELHI",
+    "Amount_Due": 229
+  },
+  {
+    "Investor_First_Name": "SAROJ  KHANDELWAL",
+    "Folio_Number": 12460,
+    "Address": "H NO 4712/21 DARYA GANJ NEW DELHI",
+    "Amount_Due": 1197
+  },
+  {
+    "Investor_First_Name": "SAIRABANU H PATHAN",
+    "Folio_Number": 12946,
+    "Address": "KALUMIYAS BUNGLOW B/H BHIMNATH TEMPLE SAYAJIGANJ BARODA",
+    "Amount_Due": 285
+  },
+  {
+    "Investor_First_Name": "REKHABEN C MEHTA",
+    "Folio_Number": 14550,
+    "Address": "H NO C-1 AMRUTA SOCIETY NIZAMPURA VADODARA",
+    "Amount_Due": 265
+  },
+  {
+    "Investor_First_Name": "RUKMANI  DEVI",
+    "Folio_Number": 34745,
+    "Address": "FLATNO 9 POCKET B SFS TRIVENI APARTMENTS SHEIKH SARAI PHASE I NEW DELHI",
+    "Amount_Due": 308
+  },
+  {
+    "Investor_First_Name": "ALI RAIS ABDI",
+    "Folio_Number": 14529,
+    "Address": "H NO F-3302 RAJAJIPURAM TALKATORA LUCKNOW",
+    "Amount_Due": 452
+  },
+  {
+    "Investor_First_Name": "DEEP SHAILESH SHAH",
+    "Folio_Number": 34010,
+    "Address": "H NO 51 NAR NARAYAN BANGLOWS AT AND PO BHOLAV BHARUCH",
+    "Amount_Due": 391
+  },
+  {
+    "Investor_First_Name": "VIDYA  MITTAL",
+    "Folio_Number": 36323,
+    "Address": "B 41 RETREAT APARTMENTS PLOT NO 20 I P EXTENSION DELHI",
+    "Amount_Due": 421
+  },
+  {
+    "Investor_First_Name": "NIKHIL  MAHESHWARI",
+    "Folio_Number": 36826,
+    "Address": "17 C MANSAROVAR APT SECTOR 61 NOIDA",
+    "Amount_Due": 312
+  },
+  {
+    "Investor_First_Name": "YOGESH BHUPATRAI JOSHI",
+    "Folio_Number": 16644,
+    "Address": "B-35 SHUBHAM OPP HDFC BANK AKURLI ROAD KANDIVALI EAST MUMBAI",
+    "Amount_Due": 264
+  },
+  {
+    "Investor_First_Name": "RAJENDRA PRASAD SONTHALIA",
+    "Folio_Number": 15108,
+    "Address": "H NO 249H G T ROAD TRIVENI MANSION 7TH FLOOR FLAT 710 LILUAH HOWRAH",
+    "Amount_Due": 422
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43106,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 256
+  },
+  {
+    "Investor_First_Name": "VAIDEHI DEVI GUPTA",
+    "Folio_Number": 43112,
+    "Address": "43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 197
+  },
+  {
+    "Investor_First_Name": "BHARATI RANJIT SHAH",
+    "Folio_Number": 15285,
+    "Address": "E-6 NEELKAMAL CHS 2ND HASANABAD LANE SANTACRUZ W MUMBAI",
+    "Amount_Due": 597
+  },
+  {
+    "Investor_First_Name": "ARUN BHALUSHANKER TIRVEDI",
+    "Folio_Number": 16067,
+    "Address": "17 ARPAN SOC NR MAYUR SCHOOL PALIYAD NAGAR CHAR RASTA NARAN PURA AHMEDABAD",
+    "Amount_Due": 347
+  },
+  {
+    "Investor_First_Name": "SURESH THAKORLAL SHASTRI",
+    "Folio_Number": 17022,
+    "Address": "B1107 EVERARD TOWERS BEHIND RUSTOMJEE OFFEAST ERNEX PRESS HIGH WAY SION EAST MUMBAI",
+    "Amount_Due": 731
+  },
+  {
+    "Investor_First_Name": "NILA SURESH SHASTRI",
+    "Folio_Number": 17026,
+    "Address": "B1107 EVERARD TOWERS BEHIND RUSTOMJEE OFFEAST ERNEX PRESS HIGH WAY SION EAST MUMBAI",
+    "Amount_Due": 731
+  },
+  {
+    "Investor_First_Name": "SHRI ODHAV SHWETAMBER",
+    "Folio_Number": 17005,
+    "Address": "SHRI ODHAV JAIN SHWETAMBER MAHAVIR NAGAR SOCIETY B/H MURLIDHAR SOCIETY ODHAV AHMEDABAD",
+    "Amount_Due": 2845
+  },
+  {
+    "Investor_First_Name": "MONDIRA  DEY",
+    "Folio_Number": 17320,
+    "Address": "N 8 GF GREATER KAILASH PART ONE NEW DELHI",
+    "Amount_Due": 1087
+  },
+  {
+    "Investor_First_Name": "VINAYAK DATTATRAYA KARMARKAR",
+    "Folio_Number": 25163,
+    "Address": "5/106 VIJAY NAGAR SOCIETY NITYANAND MARG ANDHERI EAST MUMBAI",
+    "Amount_Due": 284
+  },
+  {
+    "Investor_First_Name": "YOGESH ARUN ALAWANI",
+    "Folio_Number": 40771,
+    "Address": "FLAT NO 303 FRIENDS PARADISE SITE NO 2550\\1 E BLOCK SAHAKARNAGAR BANGALORE",
+    "Amount_Due": 284
+  },
+  {
+    "Investor_First_Name": "PERVIZ DARA BHOTE",
+    "Folio_Number": 26630,
+    "Address": "505 BRESCENTS LANDMARK OFFICERS COLONY RAMAKRISHNAPURAM SECUNDRABAD",
+    "Amount_Due": 382
+  },
+  {
+    "Investor_First_Name": "RENU  JAIN",
+    "Folio_Number": 42100,
+    "Address": "A 1/190B LAWRENCE ROAD DELHI",
+    "Amount_Due": 425
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43113,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 444
+  },
+  {
+    "Investor_First_Name": "A S ARNEJA",
+    "Folio_Number": 30053,
+    "Address": "C 82 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "MANPREET  KAUR",
+    "Folio_Number": 30058,
+    "Address": "C 82 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "M K ARNEJA",
+    "Folio_Number": 30052,
+    "Address": "C 81 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "JAGTAR  KAUR",
+    "Folio_Number": 30055,
+    "Address": "C 82 MAGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "JAGPREET  SINGH",
+    "Folio_Number": 30056,
+    "Address": "C-82 MANGOLE PURI INDUSTRIAL AREA PHASE II NEW DELHI",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "ANITA  BIMAL",
+    "Folio_Number": 41826,
+    "Address": "HOUSE NO DII/19 SCHEDULE'A' PRESIDENT'S ESTATE RASHTRAPATI BHAWAN NEW DELHI",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "PRAVINCHANDRA MANILAL SHAH",
+    "Folio_Number": 42555,
+    "Address": "18 KUNARK APT OPP MARIND LTD LINK ROAD MULUND WEST MUMBAI",
+    "Amount_Due": 592
+  },
+  {
+    "Investor_First_Name": "LALITA  MAHAJAN",
+    "Folio_Number": 41824,
+    "Address": "HOUSE NO DII/19 SCHEDULE'A' PRESIDENT'S ESTATE RASHTRAPATI BHAWAN NEW DELHI",
+    "Amount_Due": 592
+  },
+  {
+    "Investor_First_Name": "SHREE KUMAR HUF",
+    "Folio_Number": 38614,
+    "Address": "15/21-A SAHYOG SADAN CIVIL LINES KANPUR UP",
+    "Amount_Due": 709
+  },
+  {
+    "Investor_First_Name": "KETAN CHANDRAKANT PATEL",
+    "Folio_Number": 38986,
+    "Address": "11-A SITA BAUG SOCIETY MANJALPUR VADODARA",
+    "Amount_Due": 709
+  },
+  {
+    "Investor_First_Name": "BHUMIKA KETAN PATEL",
+    "Folio_Number": 38988,
+    "Address": "11-A SITA BAUG SOCIETY MANJALPUR VADODARA",
+    "Amount_Due": 709
+  },
+  {
+    "Investor_First_Name": "DEBJANI  CHATTERJEE",
+    "Folio_Number": 27513,
+    "Address": "10 E B B CHATTERJEE ROAD KASBA KOLKATA",
+    "Amount_Due": 851
+  },
+  {
+    "Investor_First_Name": "MANIKA  DAS",
+    "Folio_Number": 41075,
+    "Address": "FD-332 2ND FLOOR SECTOR III SALT LAKE CITY KOLKATA",
+    "Amount_Due": 888
+  },
+  {
+    "Investor_First_Name": "PRATIVA  DAS",
+    "Folio_Number": 41078,
+    "Address": "FD-332 2ND FLOOR SECTOR III SALT LAKE CITY KOLKATA",
+    "Amount_Due": 888
+  },
+  {
+    "Investor_First_Name": "P L SHARMA",
+    "Folio_Number": 29634,
+    "Address": "J 193 R B ENCLAVE PASCHIM VIHAR NEW DELHI",
+    "Amount_Due": 888
+  },
+  {
+    "Investor_First_Name": "USHA  SHARMA",
+    "Folio_Number": 37147,
+    "Address": "J 193 R B ENCLAVE PASCHIM VIHAR NEW DELHI",
+    "Amount_Due": 888
+  },
+  {
+    "Investor_First_Name": "MRUDULA NIMESH PATEL",
+    "Folio_Number": 20626,
+    "Address": "ADDRESS NOT GIVEN",
+    "Amount_Due": 992
+  },
+  {
+    "Investor_First_Name": "JIGNABEN NAVINCHANDRA SHAH",
+    "Folio_Number": 22925,
+    "Address": "102 TRISHLA APARTMENT OPP SHETRUNJAY HILL FLATS KRISHNANAGAR BHAVNAGAR",
+    "Amount_Due": 992
+  },
+  {
+    "Investor_First_Name": "PAYAL VIKRAM SHAH",
+    "Folio_Number": 23471,
+    "Address": "102 TRISHLA APPARTMENT OPP SHETRUNJAY HILL FLATS KRISHNANAGAR BHAVNAGAR",
+    "Amount_Due": 992
+  },
+  {
+    "Investor_First_Name": "ARORA MULAKH RAJ",
+    "Folio_Number": 39658,
+    "Address": "305 JAHAZ APARTMENT NEAR INDER ENCALVE NEW DELHI",
+    "Amount_Due": 1036
+  },
+  {
+    "Investor_First_Name": "NAVINBHAI RAMNIKLAL SHAH",
+    "Folio_Number": 22919,
+    "Address": "102 TRISHLA APARTMENT OPP SHETRUNJAY HILL FLATS KRISHNANAGAR BHAVNAGAR",
+    "Amount_Due": 1036
+  },
+  {
+    "Investor_First_Name": "SUPRIYA  CHATTERJEE",
+    "Folio_Number": 24844,
+    "Address": "I 38 B KIRTI NAGAR NEW DELHI",
+    "Amount_Due": 1134
+  },
+  {
+    "Investor_First_Name": "RAMESH  DATTA",
+    "Folio_Number": 27289,
+    "Address": "2\\1 BAGHA JATIN ROAD 2ND FLOOR FLAT NO A KOLKATA",
+    "Amount_Due": 1134
+  },
+  {
+    "Investor_First_Name": "SHILPA KETAN VYAS",
+    "Folio_Number": 35514,
+    "Address": "SHIVSHAHI CHS LTD BLDG NO 11 3R FLOOR BLOCK 15 DR ANNIE BESANT ROAD OPP GLAXO MUMBAI",
+    "Amount_Due": 1134
+  },
+  {
+    "Investor_First_Name": "NEHAL  KOTHARI",
+    "Folio_Number": 37146,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1134
+  },
+  {
+    "Investor_First_Name": "D  CHATTERJEE",
+    "Folio_Number": 24846,
+    "Address": "I 38 B KIRTI NAGAR NEW DELHI",
+    "Amount_Due": 1184
+  },
+  {
+    "Investor_First_Name": "KADIA MAHESHKUMAR DAYALAL",
+    "Folio_Number": 29269,
+    "Address": "763 SHASHTRI KUNJ SOC GUJARAT HOUSING BOARD LAXMI PURA ROAD GORVA VADODARA",
+    "Amount_Due": 1276
+  },
+  {
+    "Investor_First_Name": "LALITHA  MONY",
+    "Folio_Number": 27406,
+    "Address": "FLAT NO 374 AIR FORCE & NAVEL PLOT NO 11 SECTOR 7 DWARKA NEW DELHI",
+    "Amount_Due": 1331
+  },
+  {
+    "Investor_First_Name": "SUSHMA  GOEL",
+    "Folio_Number": 41142,
+    "Address": "4TH KM RAMPUR ROAD BAREILLY UP",
+    "Amount_Due": 1479
+  },
+  {
+    "Investor_First_Name": "NISAR AHMED QAZI",
+    "Folio_Number": 27256,
+    "Address": "B I T CHAWL NO 18 ROOM NO 64 3RD FLOOR SOFIA ZUBAIR ROAD NEW NAGPADA MUMBAI",
+    "Amount_Due": 2219
+  },
+  {
+    "Investor_First_Name": "V  VASANTHA",
+    "Folio_Number": 34620,
+    "Address": "27-B SHREE APPTE 3RD MAIN ROAD R A PURAM CHENNAI",
+    "Amount_Due": 2219
+  },
+  {
+    "Investor_First_Name": "BRIJESH HASHMUKHBHAI DOSHI",
+    "Folio_Number": 34508,
+    "Address": "29/345 ADARSH NAGAR NR SBI BANK NARANPURA VIJAYNAGAR AHMEDABAD GUJARAT",
+    "Amount_Due": 2552
+  },
+  {
+    "Investor_First_Name": "V  KRISHNAMOORTHY",
+    "Folio_Number": 21542,
+    "Address": "C\\O ALMONDZ GLOBAL SEC NEW NO-48 RAMANUJAM STREET T NAGAR CHENNAI",
+    "Amount_Due": 2663
+  },
+  {
+    "Investor_First_Name": "UMMA  GOKLANEY",
+    "Folio_Number": 31783,
+    "Address": "J 9 SECTOR 41 NOIDA",
+    "Amount_Due": 2663
+  },
+  {
+    "Investor_First_Name": "H R BILIGIRI",
+    "Folio_Number": 33877,
+    "Address": "C/O SEVA SWITCHGEAR PVT LTD 97 MAGADI ROAD BANGALORE",
+    "Amount_Due": 2836
+  },
+  {
+    "Investor_First_Name": "SUSHMA  GOEL",
+    "Folio_Number": 41144,
+    "Address": "4TH KM RAMPUR ROAD BAREILLY UP",
+    "Amount_Due": 2959
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 23572,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2959
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 23579,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2959
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31312,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2959
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31315,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2959
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31316,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2959
+  },
+  {
+    "Investor_First_Name": "SURAJBEN DOLATRAI DESAI",
+    "Folio_Number": 31318,
+    "Address": "PRIME INVESTMENT SERVICE OFFICE NO 3 1ST FLOOR BAI AVA SHOPPING CENTER HALAR ROAD VALSAD",
+    "Amount_Due": 2959
+  },
+  {
+    "Investor_First_Name": "S  RAMACHANDRAN",
+    "Folio_Number": 25486,
+    "Address": "D-BLOCK 4-636 A VOC STREET OKKIYAM THURAIPAKKAM CHENNAI",
+    "Amount_Due": 2959
+  },
+  {
+    "Investor_First_Name": "SUNIL  DUTT",
+    "Folio_Number": 37142,
+    "Address": "B 13 BLOCK B&C ADHYAPAK NAGAR NANGLOI DELHI",
+    "Amount_Due": 3317
+  },
+  {
+    "Investor_First_Name": "GANESAN  SUBRAMANIAN",
+    "Folio_Number": 42684,
+    "Address": "720-C 5TH NORTH STREET THIYAGARAJANAGAR TIRUNELVELI TAMILNADU",
+    "Amount_Due": 3828
+  },
+  {
+    "Investor_First_Name": "SHAMBHU DAYAL KULTHIA",
+    "Folio_Number": 32286,
+    "Address": "PP 119 PITAMPURA DELHI",
+    "Amount_Due": 5104
+  },
+  {
+    "Investor_First_Name": "KANCHAN  KULTHIA",
+    "Folio_Number": 43193,
+    "Address": "PP-119 PITAM PURA DELHI",
+    "Amount_Due": 5104
+  },
+  {
+    "Investor_First_Name": "NARENDRA  JAIN",
+    "Folio_Number": 18071,
+    "Address": "HOUSE NO 3 ADARSH NAGAR NEAR NAVDEEP ACADEMY SCHOOL KALKA MATA ROAD UDAIPUR RAJ",
+    "Amount_Due": 21
+  },
+  {
+    "Investor_First_Name": "MRUDULA NIMESH PATEL",
+    "Folio_Number": 20626,
+    "Address": "ADDRESS NOT GIVEN",
+    "Amount_Due": 584
+  },
+  {
+    "Investor_First_Name": "MANIKA  DAS",
+    "Folio_Number": 41075,
+    "Address": "FD-332 2ND FLOOR SECTOR III SALT LAKE CITY KOLKATA",
+    "Amount_Due": 562
+  },
+  {
+    "Investor_First_Name": "PRATIVA  DAS",
+    "Folio_Number": 41078,
+    "Address": "FD-332 2ND FLOOR SECTOR III SALT LAKE CITY KOLKATA",
+    "Amount_Due": 562
+  },
+  {
+    "Investor_First_Name": "LILY  SEQUEIRA",
+    "Folio_Number": 41288,
+    "Address": "SOLITARE-2 BLDG-7 FLAT 304 POONAM GARDEN LATIF PARK S K STON POLICE STATION MIRA ROAD",
+    "Amount_Due": 718
+  },
+  {
+    "Investor_First_Name": "MAHESH CHAND TAYAL",
+    "Folio_Number": 39638,
+    "Address": "C-20 SEC-J ALIGANJ LUCKNOW",
+    "Amount_Due": 750
+  },
+  {
+    "Investor_First_Name": "IGNATIUS  SEQUEIRA",
+    "Folio_Number": 41283,
+    "Address": "304 BLDG 7 SOLITAIRE 2 POONAM GARDEN OPP S K STONE MIRA BHAYANDER ROAD MIRA ROAD",
+    "Amount_Due": 750
+  },
+  {
+    "Investor_First_Name": "SUDHIR  BHALLA",
+    "Folio_Number": 18270,
+    "Address": "901&902 LILY TOWER GREEN VELLY SECTOR 41-42 FARIDABAD",
+    "Amount_Due": 1907
+  },
+  {
+    "Investor_First_Name": "SITA RAM GUPTA",
+    "Folio_Number": 43113,
+    "Address": "H NO 43/53A CHOWK SHARAFA KANPUR UP",
+    "Amount_Due": 306
+  },
+  {
+    "Investor_First_Name": "KUMUD  VERMA",
+    "Folio_Number": 32079,
+    "Address": "K/65 C TRIVENI II SHEIKH SARAI PHASE II NEW DELHI",
+    "Amount_Due": 287
+  },
+  {
+    "Investor_First_Name": "ASHANI BHARATBHAI SHAH",
+    "Folio_Number": 26310,
+    "Address": "35 SKYLON COMPLEX OPP JAHNVI RESTAURANT S M ROAD AHMEDABAD",
+    "Amount_Due": 287
+  },
+  {
+    "Investor_First_Name": "MANISHA GAJANAN KANITKAR",
+    "Folio_Number": 33258,
+    "Address": "SHIYNERI KOPAK ROAD SHASTRI NAGAR NEAR SAKARAM COMPLEX RIKSHA STAND DOMBIVLI WEST MUMBAI",
+    "Amount_Due": 287
+  },
+  {
+    "Investor_First_Name": "YOGESH ARUN ALAWANI",
+    "Folio_Number": 40771,
+    "Address": "FLAT NO 303 FRIENDS PARADISE SITE NO 2550\\1 E BLOCK SAHAKARNAGAR BANGALORE",
+    "Amount_Due": 287
+  },
+  {
+    "Investor_First_Name": "DENZIL D CUNHA",
+    "Folio_Number": 41454,
+    "Address": "A-13 TRANQUIL TREAT OFF YARI ROAD VERSOVA ANDHERI W MUMBAI",
+    "Amount_Due": 299
+  },
+  {
+    "Investor_First_Name": "PERVIZ DARA BHOTE",
+    "Folio_Number": 26630,
+    "Address": "505 BRESCENTS LANDMARK OFFICERS COLONY RAMAKRISHNAPURAM SECUNDRABAD",
+    "Amount_Due": 430
+  },
+  {
+    "Investor_First_Name": "BRAHMA SWAROOP NIGAM",
+    "Folio_Number": 24731,
+    "Address": "2ND FLOOR M 77A M BLOCK NEAR JAGATRAM PARK LAXMI NAGAR DELHI",
+    "Amount_Due": 449
+  },
+  {
+    "Investor_First_Name": "DEEPTI  CHOPRA",
+    "Folio_Number": 34802,
+    "Address": "D-41 VIKAS PURI NEW DELHI",
+    "Amount_Due": 717
+  },
+  {
+    "Investor_First_Name": "RAKESH GUNVANTRAI DESAI",
+    "Folio_Number": 26941,
+    "Address": "15 CHAITNYA ROW HOUSE NEAR TELEPHONE EXCHANGE ANAND MAHAL ROAD ADAJAN SURAT",
+    "Amount_Due": 717
+  },
+  {
+    "Investor_First_Name": "JASUMATI LALIT SHAH",
+    "Folio_Number": 26671,
+    "Address": "11/A BORIVALI PANCHRATNA CHSL SVP RD BORIVALI WEST MUMBAI",
+    "Amount_Due": 748
+  },
+  {
+    "Investor_First_Name": "USHA  SHARMA",
+    "Folio_Number": 37147,
+    "Address": "J 193 R B ENCLAVE PASCHIM VIHAR NEW DELHI",
+    "Amount_Due": 898
+  },
+  {
+    "Investor_First_Name": "SEJAL  KOTHARI",
+    "Folio_Number": 37101,
+    "Address": "B 165 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SX ROAD MALAD MUMBAI",
+    "Amount_Due": 1147
+  },
+  {
+    "Investor_First_Name": "HIMAXI  KOTHARI",
+    "Folio_Number": 37144,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1147
+  },
+  {
+    "Investor_First_Name": "NEHAL  KOTHARI",
+    "Folio_Number": 37146,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1147
+  },
+  {
+    "Investor_First_Name": "RAMESH  DATTA",
+    "Folio_Number": 27289,
+    "Address": "2\\1 BAGHA JATIN ROAD 2ND FLOOR FLAT NO A KOLKATA",
+    "Amount_Due": 1147
+  },
+  {
+    "Investor_First_Name": "RUDRA PRAKASH VARMA",
+    "Folio_Number": 30723,
+    "Address": "K 65C DDA FLAT TRIVENI II SHEIKH SARAI II NEW DLEHI",
+    "Amount_Due": 1197
+  },
+  {
+    "Investor_First_Name": "DAYA  VARMA",
+    "Folio_Number": 30726,
+    "Address": "K 65C DDA FLAT TRIVENI II SHEIKH SARAI II NEW DLEHI",
+    "Amount_Due": 1197
+  },
+  {
+    "Investor_First_Name": "JAYALAKSHMI",
+    "Folio_Number": 23968,
+    "Address": "1-B REGENCY PAVILION 14 ALEXANDRIA STREET RICHMOND TOWN BANGALORE",
+    "Amount_Due": 1197
+  },
+  {
+    "Investor_First_Name": "LALITHA  MONY",
+    "Folio_Number": 27406,
+    "Address": "FLAT NO 374 AIR FORCE & NAVEL PLOT NO 11 SECTOR 7 DWARKA NEW DELHI",
+    "Amount_Due": 1496
+  },
+  {
+    "Investor_First_Name": "V  VASANTHA",
+    "Folio_Number": 34620,
+    "Address": "27-B SHREE APPTE 3RD MAIN ROAD R A PURAM CHENNAI",
+    "Amount_Due": 2020
+  },
+  {
+    "Investor_First_Name": "BUDH PRAKASH GUPTA",
+    "Folio_Number": 28995,
+    "Address": "B P GUPTA & CO 186 W K ROAD OPP NAGIN PRAKASHAN MEERUT UP",
+    "Amount_Due": 2693
+  },
+  {
+    "Investor_First_Name": "KERSI BAHADUR WADIA",
+    "Folio_Number": 33188,
+    "Address": "SHOP NO 4 GROUND FLOOR GHADIYALI BLDG 158/160 MUGHBHAT LANE THAKURDWAR MUMBAI",
+    "Amount_Due": 2693
+  },
+  {
+    "Investor_First_Name": "UMA  RAJAGOPAL",
+    "Folio_Number": 34786,
+    "Address": "FLAT 3D CHITRAKOOTAM 26 THIRUVENGADAM STREET R A PURAM CHENNAI",
+    "Amount_Due": 5161
+  },
+  {
+    "Investor_First_Name": "PGS  MONY",
+    "Folio_Number": 27410,
+    "Address": "FLAT NO 374 AIR FORCE & NAVEL PLOT NO 11 SECTOR 7 DWARKA NEW DELHI",
+    "Amount_Due": 5386
+  },
+  {
+    "Investor_First_Name": "DEVVRAT  ACHARYA",
+    "Folio_Number": 41873,
+    "Address": "DAYANAND VED VIDHALAYA 119 GAUTAM NAGAR GURUKAL NEW DELHI",
+    "Amount_Due": 5386
+  },
+  {
+    "Investor_First_Name": "VINOD  BHASIN",
+    "Folio_Number": 38492,
+    "Address": "FLAT NO 44C CC-BLOCK DDA LIG FLATS HARI NAGAR NEW DELHI",
+    "Amount_Due": 5386
+  },
+  {
+    "Investor_First_Name": "RAVINDRA BHASKAR GHOOI",
+    "Folio_Number": 34712,
+    "Address": "FLAT NO 801 ROHAN NILAY 1 NEAR SPICER COLLEGE PUNE",
+    "Amount_Due": 5386
+  },
+  {
+    "Investor_First_Name": "IMMADI  RUKMINI",
+    "Folio_Number": 42400,
+    "Address": "H NO 27/8 MEHER VIHAR KHOJJIL LIPET OPP CONGRESS OFFICE MACHILIPATNAM DIST KRIRMA AP",
+    "Amount_Due": 5386
+  },
+  {
+    "Investor_First_Name": "PGS  MONY",
+    "Folio_Number": 27410,
+    "Address": "FLAT NO 374 AIR FORCE & NAVEL PLOT NO 11 SECTOR 7 DWARKA NEW DELHI",
+    "Amount_Due": 5326
+  },
+  {
+    "Investor_First_Name": "NERGISH NOSHIR DRIVER",
+    "Folio_Number": 9678,
+    "Address": "SORAB ABAD NEAR JAYESH COLONY 40 FATEHGUNJ VADODARA",
+    "Amount_Due": 139
+  },
+  {
+    "Investor_First_Name": "KUMUD  VERMA",
+    "Folio_Number": 32079,
+    "Address": "K/65 C TRIVENI II SHEIKH SARAI PHASE II NEW DELHI",
+    "Amount_Due": 290
+  },
+  {
+    "Investor_First_Name": "ASHANI BHARATBHAI SHAH",
+    "Folio_Number": 26310,
+    "Address": "35 SKYLON COMPLEX OPP JAHNVI RESTAURANT S M ROAD AHMEDABAD",
+    "Amount_Due": 290
+  },
+  {
+    "Investor_First_Name": "MANISHA GAJANAN KANITKAR",
+    "Folio_Number": 33258,
+    "Address": "SHIYNERI KOPAK ROAD SHASTRI NAGAR NEAR SAKARAM COMPLEX RIKSHA STAND DOMBIVLI WEST MUMBAI",
+    "Amount_Due": 290
+  },
+  {
+    "Investor_First_Name": "YOGESH ARUN ALAWANI",
+    "Folio_Number": 40771,
+    "Address": "FLAT NO 303 FRIENDS PARADISE SITE NO 2550\\1 E BLOCK SAHAKARNAGAR BANGALORE",
+    "Amount_Due": 290
+  },
+  {
+    "Investor_First_Name": "DENZIL D CUNHA",
+    "Folio_Number": 41454,
+    "Address": "A-13 TRANQUIL TREAT OFF YARI ROAD VERSOVA ANDHERI W MUMBAI",
+    "Amount_Due": 303
+  },
+  {
+    "Investor_First_Name": "PERVIZ DARA BHOTE",
+    "Folio_Number": 26630,
+    "Address": "505 BRESCENTS LANDMARK OFFICERS COLONY RAMAKRISHNAPURAM SECUNDRABAD",
+    "Amount_Due": 435
+  },
+  {
+    "Investor_First_Name": "SHANTI DEVI BUDHIA",
+    "Folio_Number": 35563,
+    "Address": "5A MUKHARJEE PARA LANE BEHIND RASHBIHARI MORE GURDWARA KOLKATA",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "DEEPTI  CHOPRA",
+    "Folio_Number": 34802,
+    "Address": "D-41 VIKAS PURI NEW DELHI",
+    "Amount_Due": 725
+  },
+  {
+    "Investor_First_Name": "JASUMATI LALIT SHAH",
+    "Folio_Number": 26671,
+    "Address": "11/A BORIVALI PANCHRATNA CHSL SVP RD BORIVALI WEST MUMBAI",
+    "Amount_Due": 756
+  },
+  {
+    "Investor_First_Name": "GADDE JAYARAMA RAO",
+    "Folio_Number": 38593,
+    "Address": "H 116/6 33RD CORSS STREET BESANT NAGAR CHENNAI",
+    "Amount_Due": 907
+  },
+  {
+    "Investor_First_Name": "DHIRAJLAL VANRAVAN BHARANIYA",
+    "Folio_Number": 31188,
+    "Address": "SHREE SHAKTI NIVAS STREET NO 14 B/H CHOWK THAKKAR PLOT PORBANDAR",
+    "Amount_Due": 1059
+  },
+  {
+    "Investor_First_Name": "SEJAL  KOTHARI",
+    "Folio_Number": 37101,
+    "Address": "B 165 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SX ROAD MALAD MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "HIMAXI  KOTHARI",
+    "Folio_Number": 37144,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "NEHAL  KOTHARI",
+    "Folio_Number": 37146,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "RAMESH  DATTA",
+    "Folio_Number": 27289,
+    "Address": "2\\1 BAGHA JATIN ROAD 2ND FLOOR FLAT NO A KOLKATA",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "RUDRA PRAKASH VARMA",
+    "Folio_Number": 30723,
+    "Address": "K 65C DDA FLAT TRIVENI II SHEIKH SARAI II NEW DLEHI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "DAYA  VARMA",
+    "Folio_Number": 30726,
+    "Address": "K 65C DDA FLAT TRIVENI II SHEIKH SARAI II NEW DLEHI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "DILIP VIRESHAM GUDIKANDULA",
+    "Folio_Number": 36761,
+    "Address": "BLOCK NO B 34 SUNDARNAGARI SOCIETY 308 SOMWAR PETH PUNE",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "JAYALAKSHMI",
+    "Folio_Number": 23968,
+    "Address": "1-B REGENCY PAVILION 14 ALEXANDRIA STREET RICHMOND TOWN BANGALORE",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "DHIRUBHAI C PATEL",
+    "Folio_Number": 40946,
+    "Address": "C/O CHINTAN INVENTMENTS SHOP NO 1 DWARKA ADHARWADI ROAD NEAR LAL CHOWKI KALYAN WEST",
+    "Amount_Due": 1361
+  },
+  {
+    "Investor_First_Name": "LALITHA  MONY",
+    "Folio_Number": 27406,
+    "Address": "FLAT NO 374 AIR FORCE & NAVEL PLOT NO 11 SECTOR 7 DWARKA NEW DELHI",
+    "Amount_Due": 1512
+  },
+  {
+    "Investor_First_Name": "V  VASANTHA",
+    "Folio_Number": 34620,
+    "Address": "27-B SHREE APPTE 3RD MAIN ROAD R A PURAM CHENNAI",
+    "Amount_Due": 2041
+  },
+  {
+    "Investor_First_Name": "KERSI BAHADUR WADIA",
+    "Folio_Number": 33188,
+    "Address": "SHOP NO 4 GROUND FLOOR GHADIYALI BLDG 158/160 MUGHBHAT LANE THAKURDWAR MUMBAI",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "UMA  RAJAGOPAL",
+    "Folio_Number": 34786,
+    "Address": "FLAT 3D CHITRAKOOTAM 26 THIRUVENGADAM STREET R A PURAM CHENNAI",
+    "Amount_Due": 5217
+  },
+  {
+    "Investor_First_Name": "PGS  MONY",
+    "Folio_Number": 27410,
+    "Address": "FLAT NO 374 AIR FORCE & NAVEL PLOT NO 11 SECTOR 7 DWARKA NEW DELHI",
+    "Amount_Due": 5444
+  },
+  {
+    "Investor_First_Name": "VINOD  BHASIN",
+    "Folio_Number": 38492,
+    "Address": "FLAT NO 44C CC-BLOCK DDA LIG FLATS HARI NAGAR NEW DELHI",
+    "Amount_Due": 5444
+  },
+  {
+    "Investor_First_Name": "RAVINDRA BHASKAR GHOOI",
+    "Folio_Number": 34712,
+    "Address": "FLAT NO 801 ROHAN NILAY 1 NEAR SPICER COLLEGE PUNE",
+    "Amount_Due": 5444
+  },
+  {
+    "Investor_First_Name": "TIPTUR NARASIMHAMURTHYRAO GOPALAKRISHNA",
+    "Folio_Number": 36866,
+    "Address": "200 FERN CITY MARATHAHALLI BANGALORE",
+    "Amount_Due": 5444
+  },
+  {
+    "Investor_First_Name": "PADAMKUMAR  NAGPAL",
+    "Folio_Number": 37999,
+    "Address": "31/16 EAST PATEL NAGAR NEW DELHI",
+    "Amount_Due": 817
+  },
+  {
+    "Investor_First_Name": "RAJESH GAJANAN UPADHYAY",
+    "Folio_Number": 23521,
+    "Address": "E-110 RAVI RATNAPARK STREE NO 4 UNIVERSITY ROAD RAJKOT",
+    "Amount_Due": 2071
+  },
+  {
+    "Investor_First_Name": "RAJESH GAJANAN UPADHYAY",
+    "Folio_Number": 23518,
+    "Address": "E-110 RAVI RATNAPARK STREE NO 4 UNIVERSITY ROAD RAJKOT",
+    "Amount_Due": 4142
+  },
+  {
+    "Investor_First_Name": "AJAY  GOEL",
+    "Folio_Number": 4317,
+    "Address": "165/9 SHASHTRI NAGAR MEERUT UTTAR PARDESH 250004",
+    "Amount_Due": "1,255.00"
+  },
+  {
+    "Investor_First_Name": "HEMANT SHANTILAL JHAVERI",
+    "Folio_Number": 24288,
+    "Address": "2ND FLOOR SHRI KRISHNA SADAN MODHPOLE SULTANPURA SADHANA TALKIES GALI VADODARA",
+    "Amount_Due": 1267
+  },
+  {
+    "Investor_First_Name": "ANU  SAGGI",
+    "Folio_Number": 24353,
+    "Address": "C 20 GREATER KAILASH I FIRST FLOOR NEW DELHI 110048",
+    "Amount_Due": "38,064.00"
+  },
+  {
+    "Investor_First_Name": "PERVIZ DARA BHOTE",
+    "Folio_Number": 26630,
+    "Address": "505 BRESCENTS LANDMARK OFFICERS COLONY RAMAKRISHNAPURAM SECUNDRABAD",
+    "Amount_Due": 321
+  },
+  {
+    "Investor_First_Name": "JAYALAKSHMI",
+    "Folio_Number": 23968,
+    "Address": "1-B REGENCY PAVILION 14 ALEXANDRIA STREET RICHMOND TOWN BANGALORE",
+    "Amount_Due": 907
+  },
+  {
+    "Investor_First_Name": "RAMESHBHAI MANIBHAI DESAI",
+    "Folio_Number": 25092,
+    "Address": "MOTA FALIA OPP HAVELI JALA PORE AT&PO JALALPORE TAL DIST NAVSARI",
+    "Amount_Due": 567
+  },
+  {
+    "Investor_First_Name": "HASMUKHBHAI MANIBHAI DESAI",
+    "Folio_Number": 25095,
+    "Address": "MOTA FALIA OPP HAVELI JALA PORE AT&PO JALALPORE TAL DIST NAVSARI",
+    "Amount_Due": 543
+  },
+  {
+    "Investor_First_Name": "ASHANI BHARATBHAI SHAH",
+    "Folio_Number": 26310,
+    "Address": "35 SKYLON COMPLEX OPP JAHNVI RESTAURANT S M ROAD AHMEDABAD",
+    "Amount_Due": 233
+  },
+  {
+    "Investor_First_Name": "NEERAJA SHARAD KALE",
+    "Folio_Number": 26975,
+    "Address": "FLAT NO-1208 12TH FLOOR D WING HDIL PREMIER RESIDENCES NEXT TO KOHINOOR CLUB KOHINOOR CITY LANE OFF LBS KURLA (W) MUMBAI",
+    "Amount_Due": 4197
+  },
+  {
+    "Investor_First_Name": "JASUMATI LALIT SHAH",
+    "Folio_Number": 26671,
+    "Address": "11/A BORIVALI PANCHRATNA CHSL SVP RD BORIVALI WEST MUMBAI",
+    "Amount_Due": 633
+  },
+  {
+    "Investor_First_Name": "RAMESH  DATTA",
+    "Folio_Number": 27289,
+    "Address": "2\\1 BAGHA JATIN ROAD 2ND FLOOR FLAT NO A KOLKATA",
+    "Amount_Due": 970
+  },
+  {
+    "Investor_First_Name": "MADHUBEN KESHAVLAL KARJA",
+    "Folio_Number": 23642,
+    "Address": "D1 HEMJEET APARTMENT 6 MILPARA RAJKOT",
+    "Amount_Due": "20,013.00"
+  },
+  {
+    "Investor_First_Name": "NIKHIL  JAIN",
+    "Folio_Number": 27916,
+    "Address": "NO ADDRESS",
+    "Amount_Due": "14,179.00"
+  },
+  {
+    "Investor_First_Name": "LALITHA  MONY",
+    "Folio_Number": 27406,
+    "Address": "FLAT NO 374 AIR FORCE & NAVEL PLOT NO 11 SECTOR 7 DWARKA NEW DELHI",
+    "Amount_Due": 1332
+  },
+  {
+    "Investor_First_Name": "PGS  MONY",
+    "Folio_Number": 27410,
+    "Address": "FLAT NO 374 AIR FORCE & NAVEL PLOT NO 11 SECTOR 7 DWARKA NEW DELHI",
+    "Amount_Due": 4793
+  },
+  {
+    "Investor_First_Name": "UMA CHARAN MITAL",
+    "Folio_Number": 42101,
+    "Address": "209 A MIG DDA FLATS RAJOURI GARDEN NEW DELHI",
+    "Amount_Due": 151
+  },
+  {
+    "Investor_First_Name": "KUMUD  VERMA",
+    "Folio_Number": 32079,
+    "Address": "K/65 C TRIVENI II SHEIKH SARAI PHASE II NEW DELHI",
+    "Amount_Due": 290
+  },
+  {
+    "Investor_First_Name": "MANISHA GAJANAN KANITKAR",
+    "Folio_Number": 33258,
+    "Address": "SHIYNERI KOPAK ROAD SHASTRI NAGAR NEAR SAKARAM COMPLEX RIKSHA STAND DOMBIVLI WEST MUMBAI",
+    "Amount_Due": 290
+  },
+  {
+    "Investor_First_Name": "YOGESH ARUN ALAWANI",
+    "Folio_Number": 40771,
+    "Address": "FLAT NO 303 FRIENDS PARADISE SITE NO 2550\\1 E BLOCK SAHAKARNAGAR BANGALORE",
+    "Amount_Due": 290
+  },
+  {
+    "Investor_First_Name": "DENZIL D CUNHA",
+    "Folio_Number": 41454,
+    "Address": "A-13 TRANQUIL TREAT OFF YARI ROAD VERSOVA ANDHERI W MUMBAI",
+    "Amount_Due": 303
+  },
+  {
+    "Investor_First_Name": "SURESH KUMAR SAHNEY",
+    "Folio_Number": 42365,
+    "Address": "H NO 11 FIRST FLOOR ROAD NO 69 WEST PUNJABI BAGH NEW DELHI",
+    "Amount_Due": 605
+  },
+  {
+    "Investor_First_Name": "DEEPTI  CHOPRA",
+    "Folio_Number": 34802,
+    "Address": "D-41 VIKAS PURI NEW DELHI",
+    "Amount_Due": 725
+  },
+  {
+    "Investor_First_Name": "JAYADEVIBEN HASMUKHLAL GANDHI",
+    "Folio_Number": 31323,
+    "Address": "46 A SHREEJI DHAM SOCIETY B/H RONAK PLAZA NEAR TULSIDHAM CHAR RASTA MANJALPUR VADODARA",
+    "Amount_Due": 756
+  },
+  {
+    "Investor_First_Name": "HASMUKHLAL RAMANLAL GANDHI",
+    "Folio_Number": 31326,
+    "Address": "46 A SHREEJI DHAM SOCIETY B/H RONAK PLAZA NEAR TULSI DHAM CHAR RASTA MANJALPUR VADODARA",
+    "Amount_Due": 756
+  },
+  {
+    "Investor_First_Name": "GADDE JAYARAMA RAO",
+    "Folio_Number": 38593,
+    "Address": "H 116/6 33RD CORSS STREET BESANT NAGAR CHENNAI",
+    "Amount_Due": 907
+  },
+  {
+    "Investor_First_Name": "SHILPA KETAN VYAS",
+    "Folio_Number": 35514,
+    "Address": "SHIVSHAHI CHS LTD BLDG NO 11 3R FLOOR BLOCK 15 DR ANNIE BESANT ROAD OPP GLAXO MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "SEJAL  KOTHARI",
+    "Folio_Number": 37101,
+    "Address": "B 165 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SX ROAD MALAD MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "HIMAXI  KOTHARI",
+    "Folio_Number": 37144,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "NEHAL  KOTHARI",
+    "Folio_Number": 37146,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 1159
+  },
+  {
+    "Investor_First_Name": "RUDRA PRAKASH VARMA",
+    "Folio_Number": 30723,
+    "Address": "K 65C DDA FLAT TRIVENI II SHEIKH SARAI II NEW DLEHI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "DAYA  VARMA",
+    "Folio_Number": 30726,
+    "Address": "K 65C DDA FLAT TRIVENI II SHEIKH SARAI II NEW DLEHI",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "DILIP VIRESHAM GUDIKANDULA",
+    "Folio_Number": 36761,
+    "Address": "BLOCK NO B 34 SUNDARNAGARI SOCIETY 308 SOMWAR PETH PUNE",
+    "Amount_Due": 1210
+  },
+  {
+    "Investor_First_Name": "V  VASANTHA",
+    "Folio_Number": 34620,
+    "Address": "27-B SHREE APPTE 3RD MAIN ROAD R A PURAM CHENNAI",
+    "Amount_Due": 2041
+  },
+  {
+    "Investor_First_Name": "JAIVAL",
+    "Folio_Number": 39085,
+    "Address": "16 RAJKAMAL PARK SOCIETY ST XAVIERS SCHOOL ROAD OPP SWATI BUS STAND POST NAVJIVAN AHMEDABAD",
+    "Amount_Due": 2609
+  },
+  {
+    "Investor_First_Name": "ANILKUMAR CHUNILAL SHAH",
+    "Folio_Number": 36838,
+    "Address": "155/11 NARAYAN DHRU STREET 1ST FLOOR MUMBAI",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "KERSI BAHADUR WADIA",
+    "Folio_Number": 33188,
+    "Address": "SHOP NO 4 GROUND FLOOR GHADIYALI BLDG 158/160 MUGHBHAT LANE THAKURDWAR MUMBAI",
+    "Amount_Due": 2722
+  },
+  {
+    "Investor_First_Name": "KRISHNA VASUDEO KOPPAR",
+    "Folio_Number": 32371,
+    "Address": "B-001 TWIN NEST BEHIND RAJWAD SOMESHWARWADI RD PASHAN PUNE",
+    "Amount_Due": 4537
+  },
+  {
+    "Investor_First_Name": "UMA  RAJAGOPAL",
+    "Folio_Number": 34786,
+    "Address": "FLAT 3D CHITRAKOOTAM 26 THIRUVENGADAM STREET R A PURAM CHENNAI",
+    "Amount_Due": 5217
+  },
+  {
+    "Investor_First_Name": "SURESH KUMAR SAHNEY",
+    "Folio_Number": 42365,
+    "Address": "H NO 11 FIRST FLOOR ROAD NO 69 WEST PUNJABI BAGH NEW DELHI",
+    "Amount_Due": 5444
+  },
+  {
+    "Investor_First_Name": "VINOD  BHASIN",
+    "Folio_Number": 38492,
+    "Address": "FLAT NO 44C CC-BLOCK DDA LIG FLATS HARI NAGAR NEW DELHI",
+    "Amount_Due": 5444
+  },
+  {
+    "Investor_First_Name": "RAVINDRA BHASKAR GHOOI",
+    "Folio_Number": 34712,
+    "Address": "FLAT NO 801 ROHAN NILAY 1 NEAR SPICER COLLEGE PUNE",
+    "Amount_Due": 5444
+  },
+  {
+    "Investor_First_Name": "KESHAV PANDURANG DATAR",
+    "Folio_Number": 32376,
+    "Address": "18 GURUKRIPA POLICE OFFS COOP HSG SOC FISHERIES UNIVERSITY RD VERSOVA MUMBAI",
+    "Amount_Due": 10
+  },
+  {
+    "Investor_First_Name": "ARPAN NAVINCHANDRA SHAH",
+    "Folio_Number": 30280,
+    "Address": "PINKY HOSPITAL 3/A UMIYANAGAR SOC JAKAT NAKA PADRA",
+    "Amount_Due": 13
+  },
+  {
+    "Investor_First_Name": "JAYADEVIBEN HASMUKHLAL GANDHI",
+    "Folio_Number": 31323,
+    "Address": "46 A SHREEJI DHAM SOCIETY B/H RONAK PLAZA NEAR TULSIDHAM CHAR RASTA MANJALPUR VADODARA",
+    "Amount_Due": 16
+  },
+  {
+    "Investor_First_Name": "HASMUKHLAL RAMANLAL GANDHI",
+    "Folio_Number": 31326,
+    "Address": "46 A SHREEJI DHAM SOCIETY B/H RONAK PLAZA NEAR TULSI DHAM CHAR RASTA MANJALPUR VADODARA",
+    "Amount_Due": 16
+  },
+  {
+    "Investor_First_Name": "RUDRA PRAKASH VARMA",
+    "Folio_Number": 30723,
+    "Address": "K 65C DDA FLAT TRIVENI II SHEIKH SARAI II NEW DLEHI",
+    "Amount_Due": 53
+  },
+  {
+    "Investor_First_Name": "DAYA  VARMA",
+    "Folio_Number": 30726,
+    "Address": "K 65C DDA FLAT TRIVENI II SHEIKH SARAI II NEW DLEHI",
+    "Amount_Due": 53
+  },
+  {
+    "Investor_First_Name": "JHARNA SANATAN BANKA",
+    "Folio_Number": 30962,
+    "Address": "B / 2-7 PLAT NO 08 SHREE COMPLEX PHASE I ADHARWADI JAIL ROAD KALYAN WEST",
+    "Amount_Due": 53
+  },
+  {
+    "Investor_First_Name": "ARVINDKUMAR K PANDYA",
+    "Folio_Number": 37703,
+    "Address": "24 SAKAL HOMES OPP SIMRAN BUNGLOWS VISAT GANDHINAGAR HIGHWAY CHANDKHEDA AHMEDABAD GUJARAT",
+    "Amount_Due": 110
+  },
+  {
+    "Investor_First_Name": "KUMUD  VERMA",
+    "Folio_Number": 32079,
+    "Address": "K/65 C TRIVENI II SHEIKH SARAI PHASE II NEW DELHI",
+    "Amount_Due": 32
+  },
+  {
+    "Investor_First_Name": "CHUMBAK  CHATTERJEE",
+    "Folio_Number": 32178,
+    "Address": "KEDAR BHATTACHARJEE LANE OPP SUBHAS KISHOR SANGHA PO SANTRAGACHI HOWRAH",
+    "Amount_Due": 95
+  },
+  {
+    "Investor_First_Name": "KRISHNAKANT P MEHTA",
+    "Folio_Number": 32550,
+    "Address": "5-448 JETHWA NIWAS KINGS CIRCLE MATUNGA MUMBAI",
+    "Amount_Due": 132
+  },
+  {
+    "Investor_First_Name": "KRISHNA VASUDEO KOPPAR",
+    "Folio_Number": 32371,
+    "Address": "B-001 TWIN NEST BEHIND RAJWAD SOMESHWARWADI RD PASHAN PUNE",
+    "Amount_Due": 543
+  },
+  {
+    "Investor_First_Name": "N  RAJAMANI",
+    "Folio_Number": 34971,
+    "Address": "FLAT A 10 KUMARA VIJAYA MAPTS NO 99/187 ROYA PETTAH HIGH ROAD MYLAPORE CH-4",
+    "Amount_Due": 43
+  },
+  {
+    "Investor_First_Name": "AZZADAN P PASTAKIA",
+    "Folio_Number": 32877,
+    "Address": "VINTAGE PEARL B 401 29 ROAD TPS III BANDRA MUMBAI",
+    "Amount_Due": 171
+  },
+  {
+    "Investor_First_Name": "MANISHA GAJANAN KANITKAR",
+    "Folio_Number": 33258,
+    "Address": "SHIYNERI KOPAK ROAD SHASTRI NAGAR NEAR SAKARAM COMPLEX RIKSHA STAND DOMBIVLI WEST MUMBAI",
+    "Amount_Due": 47
+  },
+  {
+    "Investor_First_Name": "KERSI BAHADUR WADIA",
+    "Folio_Number": 33188,
+    "Address": "SHOP NO 4 GROUND FLOOR GHADIYALI BLDG 158/160 MUGHBHAT LANE THAKURDWAR MUMBAI",
+    "Amount_Due": 444
+  },
+  {
+    "Investor_First_Name": "SHILPA KETAN VYAS",
+    "Folio_Number": 35514,
+    "Address": "SHIVSHAHI CHS LTD BLDG NO 11 3R FLOOR BLOCK 15 DR ANNIE BESANT ROAD OPP GLAXO MUMBAI",
+    "Amount_Due": 227
+  },
+  {
+    "Investor_First_Name": "JAISHREE  SURESH",
+    "Folio_Number": 35167,
+    "Address": "NO 75 1ST MAIN ROAD IST BLOCK RMV STAGE BANGALORE 560094",
+    "Amount_Due": "18,341.00"
+  },
+  {
+    "Investor_First_Name": "RAVINDRA BHASKAR GHOOI",
+    "Folio_Number": 34712,
+    "Address": "FLAT NO 801 ROHAN NILAY 1 NEAR SPICER COLLEGE PUNE",
+    "Amount_Due": 1302
+  },
+  {
+    "Investor_First_Name": "DEEPTI  CHOPRA",
+    "Folio_Number": 34802,
+    "Address": "D-41 VIKAS PURI NEW DELHI",
+    "Amount_Due": 181
+  },
+  {
+    "Investor_First_Name": "UJJWALA VIVEK DEO",
+    "Folio_Number": 36019,
+    "Address": "138 TOW QTRS PO MITHAPUR TATA CHEM TOWNSHIP DIST JAMNAGAR GUJARAT",
+    "Amount_Due": 362
+  },
+  {
+    "Investor_First_Name": "GOPAL KRISHNA PRABHUNE",
+    "Folio_Number": 36022,
+    "Address": "138 TOWN QTRS PO MITHAPUR TATA CHEM TOWNSHIP DIST JAMNAGAR GUJARAT",
+    "Amount_Due": 378
+  },
+  {
+    "Investor_First_Name": "NEELA  VERMA",
+    "Folio_Number": 33829,
+    "Address": "D 40 SECTOR 40 NOIDA",
+    "Amount_Due": 680
+  },
+  {
+    "Investor_First_Name": "ROHIT  WADHAWAN",
+    "Folio_Number": 35559,
+    "Address": "A-19 INDER PURI NEW DELHI",
+    "Amount_Due": 1021
+  },
+  {
+    "Investor_First_Name": "HARSHAVARDHAN  SAHASRABUDHE",
+    "Folio_Number": 34202,
+    "Address": "16 ISHADAAN SOCIETY PAUD ROAD PUNE",
+    "Amount_Due": 710
+  },
+  {
+    "Investor_First_Name": "UMA  RAJAGOPAL",
+    "Folio_Number": 34786,
+    "Address": "FLAT 3D CHITRAKOOTAM 26 THIRUVENGADAM STREET R A PURAM CHENNAI",
+    "Amount_Due": 1361
+  },
+  {
+    "Investor_First_Name": "VINOD  BHASIN",
+    "Folio_Number": 38492,
+    "Address": "FLAT NO 44C CC-BLOCK DDA LIG FLATS HARI NAGAR NEW DELHI",
+    "Amount_Due": 1539
+  },
+  {
+    "Investor_First_Name": "DILIP VIRESHAM GUDIKANDULA",
+    "Folio_Number": 36761,
+    "Address": "BLOCK NO B 34 SUNDARNAGARI SOCIETY 308 SOMWAR PETH PUNE",
+    "Amount_Due": 355
+  },
+  {
+    "Investor_First_Name": "V  VASANTHA",
+    "Folio_Number": 34620,
+    "Address": "27-B SHREE APPTE 3RD MAIN ROAD R A PURAM CHENNAI",
+    "Amount_Due": 599
+  },
+  {
+    "Investor_First_Name": "ANSHU  JAIN",
+    "Folio_Number": 36427,
+    "Address": "FLAT NO A2 HI RISE APARTMENT 3/104 VISHNU PURI KANPUR UP",
+    "Amount_Due": 440
+  },
+  {
+    "Investor_First_Name": "ANIL KUMAR JAIN",
+    "Folio_Number": 36469,
+    "Address": "FLAT NO A2 HI RISE APARTMENTS 3/104 VISHNU PURI KANPUR UP",
+    "Amount_Due": 440
+  },
+  {
+    "Investor_First_Name": "ANILKUMAR CHUNILAL SHAH",
+    "Folio_Number": 36838,
+    "Address": "155/11 NARAYAN DHRU STREET 1ST FLOOR MUMBAI",
+    "Amount_Due": 917
+  },
+  {
+    "Investor_First_Name": "SEJAL  KOTHARI",
+    "Folio_Number": 37101,
+    "Address": "B 165 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SX ROAD MALAD MUMBAI",
+    "Amount_Due": 403
+  },
+  {
+    "Investor_First_Name": "HIMAXI  KOTHARI",
+    "Folio_Number": 37144,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 403
+  },
+  {
+    "Investor_First_Name": "NEHAL  KOTHARI",
+    "Folio_Number": 37146,
+    "Address": "B/65 TAGORE PARK CHS OPP AXIS BANK OPP TELEPHONE EXCHANGE SV ROAD MALAD WEST MUMBAI",
+    "Amount_Due": 403
+  },
+  {
+    "Investor_First_Name": "CHINTALAPALLI  SREEDEVI",
+    "Folio_Number": 36732,
+    "Address": "FLAT 4B MAHALAKSHMI APARTMENTS NO 28 ARUNACHALAM ROAD SALIGRAMMMAM ROAD CHENNAI",
+    "Amount_Due": 461
+  },
+  {
+    "Investor_First_Name": "Y  RANGANATHAN",
+    "Folio_Number": 37127,
+    "Address": "FLAT 4 C2D BLOCK 1 DOSHI LLAN STEPHEN NEW NO 95 OLD NO 72 MCNI CHOLAS ROAD CHETPUT CHENNAI",
+    "Amount_Due": 5474
+  },
+  {
+    "Investor_First_Name": "DARAYES NAVAL HORMUSJEE",
+    "Folio_Number": 38197,
+    "Address": "BAMD VIEW 665 PARSI COLONY DADAR MUMBAI",
+    "Amount_Due": 539
+  },
+  {
+    "Investor_First_Name": "KAJAL HARISINHJI RATHOD",
+    "Folio_Number": 36999,
+    "Address": "SURAJ NEAR KETAN VIDYALAYA B/H RACE COURSE RAJKOT GUJARAT 360001",
+    "Amount_Due": "12,153.00"
+  },
+  {
+    "Investor_First_Name": "SANJEEV  KUMAR",
+    "Folio_Number": 23630,
+    "Address": "H NO 77 JAGDAMBAY COLONY GALI 5 AMRITSAR",
+    "Amount_Due": 725
+  },
+  {
+    "Investor_First_Name": "RAGHAVAN  SRINIVASAN",
+    "Folio_Number": 38145,
+    "Address": "RH-6 SHREE GANESH AANGAN S NO 22/3 KATRAJ KONDHWA ROAD KATRAJ PUNE",
+    "Amount_Due": 2893
+  },
+  {
+    "Investor_First_Name": "VINOD KUMAR VASUDEVA",
+    "Folio_Number": 20174,
+    "Address": "C 585 DEFENCE COLONY NEW DELHI 110024",
+    "Amount_Due": "38,545.00"
+  },
+  {
+    "Investor_First_Name": "V  KANNAN",
+    "Folio_Number": 38504,
+    "Address": "1/44-55 AGRAHARAM STREET SIRUPAKKAM ANGANOOR POST VIA ULUNDUR PETTAI VILLUPURAM DISTRICT TAMILNADU 606107",
+    "Amount_Due": "21,290.00"
+  },
+  {
+    "Investor_First_Name": "SUBASH  KUMAR",
+    "Folio_Number": 23644,
+    "Address": "H NO 24 GALI NO 1 GOPAL NAGAR OPP DR SUNIL CHOHAN AMRITSAR PUNJAB",
+    "Amount_Due": 870
+  },
+  {
+    "Investor_First_Name": "NITA  ARYA",
+    "Folio_Number": 22396,
+    "Address": "C/O N K LADHA 1E BURMAN STREET 2ND FLOOR KOLKATA",
+    "Amount_Due": 1087
+  },
+  {
+    "Investor_First_Name": "GADDE JAYARAMA RAO",
+    "Folio_Number": 38593,
+    "Address": "H 116/6 33RD CORSS STREET BESANT NAGAR CHENNAI",
+    "Amount_Due": 740
+  },
+  {
+    "Investor_First_Name": "SHANT DEVI AGRAWAL",
+    "Folio_Number": 3032,
+    "Address": "125 MANU APTS MAYUR VIHAR PHASE I DELHI 110091",
+    "Amount_Due": "5,240.00"
+  },
+  {
+    "Investor_First_Name": "PATEL RENUKA B",
+    "Folio_Number": 4870,
+    "Address": "SF-6 VRAJDEEP OPP ROKADNATH SOCIETY RACE COURSE VADODARA 390007",
+    "Amount_Due": "5,750.00"
+  },
+  {
+    "Investor_First_Name": "BHAVANA RAJENDRA POPAT",
+    "Folio_Number": 10602,
+    "Address": "PRABHU KRIPA 1ST FLOOR 109/4 SIR BHALCHANDRA ROAD DADAR MUMBAI 400014",
+    "Amount_Due": "10,552.00"
+  },
+  {
+    "Investor_First_Name": "RAJENDRA VISANJI POPAT",
+    "Folio_Number": 11709,
+    "Address": "PRABHU KRIPA 1ST FLOOR 109/4 SIR BHALCHAANDRA ROAD DADAR EAST MUMBAI 400014",
+    "Amount_Due": "11,030.00"
+  },
+  {
+    "Investor_First_Name": "DAROPTI  DEVI",
+    "Folio_Number": 15207,
+    "Address": "C/O GUPTA ASSOCIATES 22 B SHIVAJI PARK YAMUNA NAGAR 135001",
+    "Amount_Due": "3,554.00"
+  },
+  {
+    "Investor_First_Name": "DAROPTI  DEVI",
+    "Folio_Number": 321,
+    "Address": "C/O GUPTA ASSOCIATES 22 B SHIVAJI PARK YAMUNA NAGAR 135001",
+    "Amount_Due": "26,777.00"
+  },
+  {
+    "Investor_First_Name": "DAROPTI  DEVI",
+    "Folio_Number": 326,
+    "Address": "C/O GUPTA ASSOCIATES 22 B SHIVAJI PARK YAMUNA NAGAR 135001",
+    "Amount_Due": "26,777.00"
+  },
+  {
+    "Investor_First_Name": "MITHLESH KUMARI AGARWAL",
+    "Folio_Number": 30515,
+    "Address": "C/O DELHI TRADERS 331 KUCHA MIR AASHIQUE CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "3,773.00"
+  },
+  {
+    "Investor_First_Name": "MOOLCHAND  AGARWAL",
+    "Folio_Number": 30524,
+    "Address": "128 GALI BATASHAN IST FLOOR CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "4,895.00"
+  },
+  {
+    "Investor_First_Name": "MITHLESH KUMARI GUPTA",
+    "Folio_Number": 32053,
+    "Address": "128 GALI BATASHAN CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "7,530.00"
+  },
+  {
+    "Investor_First_Name": "MOOLCHAND  GUPTA",
+    "Folio_Number": 32061,
+    "Address": "128 GALI BATASHAN CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "7,530.00"
+  },
+  {
+    "Investor_First_Name": "KANUBHAI KANTILAL PATEL",
+    "Folio_Number": 32338,
+    "Address": "C/O KRUPA CONSULTANTS 2252/2 MAHURAT POLE MANEK CHOWK AHMEDABAD 380001",
+    "Amount_Due": "1,255.00"
+  },
+  {
+    "Investor_First_Name": "MOOL CHAND GOEL",
+    "Folio_Number": 33303,
+    "Address": "C/O SECURITY INVESTMENT H 23 CONNAUGHT CIRCUS NEW DELHI 110039",
+    "Amount_Due": "4,895.00"
+  },
+  {
+    "Investor_First_Name": "MITHILESH KUMARI GOEL",
+    "Folio_Number": 33304,
+    "Address": "C/O SECURITY INVESTMENT H 23 CONNAUGHT CIRCUS NEW DELHI 110039",
+    "Amount_Due": "4,895.00"
+  },
+  {
+    "Investor_First_Name": "MITHLESH KUMARI GUPTA",
+    "Folio_Number": 33950,
+    "Address": "128 GALI BATASHAN CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "4,895.00"
+  },
+  {
+    "Investor_First_Name": "MOOLCHAND  GUPTA",
+    "Folio_Number": 33956,
+    "Address": "128 GALI BATASHAN CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "4,895.00"
+  },
+  {
+    "Investor_First_Name": "MOOL CHAND GUPTA",
+    "Folio_Number": 35977,
+    "Address": "C/O SECURITY INVESTMENTS H 23 CONNAUGHT CIRCUS NEW DELHI 110001",
+    "Amount_Due": "4,895.00"
+  },
+  {
+    "Investor_First_Name": "MITHLESH KUMARI GUPTA",
+    "Folio_Number": 35980,
+    "Address": "128 GALI BATASHAN CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "4,895.00"
+  },
+  {
+    "Investor_First_Name": "GAURAV  GUPTA",
+    "Folio_Number": 30081,
+    "Address": "C\\O DELHI TRADERS 331 KUCHA MIR AASHIQUE CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "4,204.00"
+  },
+  {
+    "Investor_First_Name": "ADITI SUNIL PARANJPE",
+    "Folio_Number": 15142,
+    "Address": "K 602 MAHESHWARI NAGAR KONDIVITA MIDL ANDHERI EAST MUMBAI 400093",
+    "Amount_Due": "46,247.00"
+  },
+  {
+    "Investor_First_Name": "MITHLESH KUMARI GUPTA",
+    "Folio_Number": 39859,
+    "Address": "128 GALI BATASHAN CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "4,393.00"
+  },
+  {
+    "Investor_First_Name": "MOOLCHAND  GUPTA",
+    "Folio_Number": 39882,
+    "Address": "128 GALI BATASHAN CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "4,393.00"
+  },
+  {
+    "Investor_First_Name": "DINESH  KUMAR",
+    "Folio_Number": 40131,
+    "Address": "B 10A GURU RAM DASS NAGAR LAXMI NAGAR DELHI 110092",
+    "Amount_Due": "2,402.00"
+  },
+  {
+    "Investor_First_Name": "GAURAV  GUPTA",
+    "Folio_Number": 39888,
+    "Address": "C\\O DELHI TRADERS 331 KUCHA MIR AASHIQUE CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "4,804.00"
+  },
+  {
+    "Investor_First_Name": "TRAPTI  GUPTA",
+    "Folio_Number": 1725,
+    "Address": "F-219A MANGAL BAZAR LAXMI NAGAR DELHI 110092",
+    "Amount_Due": "12,774.00"
+  },
+  {
+    "Investor_First_Name": "CHANCHAL  DEEP",
+    "Folio_Number": 5995,
+    "Address": "C/O FRIENDS MEDICOS NEAR CIVIL HOSPITAL JAITU",
+    "Amount_Due": "18,898.00"
+  },
+  {
+    "Investor_First_Name": "DURGESH NARSINH MUJUMDAR",
+    "Folio_Number": 2642,
+    "Address": "12-A-3 BUNGLOW TYPE QTRS VIDYANAGARI KALINA MUMBAI 400098",
+    "Amount_Due": "4,258.00"
+  },
+  {
+    "Investor_First_Name": "KIRON S CHHABRIA",
+    "Folio_Number": 5917,
+    "Address": "NO 3 MANIKESWARI ROAD B-503 KALANIKETAN KILPAUK CHENNAI 600010",
+    "Amount_Due": "13,946.00"
+  },
+  {
+    "Investor_First_Name": "SAVITRI S C",
+    "Folio_Number": 5919,
+    "Address": "NO 3 MANIKESWARI ROAD B-503 KALA NIKETAN APTS CHENNAI 600010",
+    "Amount_Due": "14,629.00"
+  },
+  {
+    "Investor_First_Name": "SHAMDAS  BHAJANDAS",
+    "Folio_Number": 5922,
+    "Address": "NO 3 MANIKESWARI ROAD B-503 KALA NIKETAN APTS KILAPAUK CHENNAI 600010",
+    "Amount_Due": "14,629.00"
+  },
+  {
+    "Investor_First_Name": "PRERNA K C",
+    "Folio_Number": 5925,
+    "Address": "NO 3 MANIKESWARI ROAD B-503 KALA NIKETAN APTS KILAPAUK CHENNAI 600010",
+    "Amount_Due": "13,946.00"
+  },
+  {
+    "Investor_First_Name": "MOOL CHAND AGARWAL",
+    "Folio_Number": 39680,
+    "Address": "C/O DELHI TRADERS 331 KUCHA MIR AASHIQUE CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "4,393.00"
+  },
+  {
+    "Investor_First_Name": "MITHLESH KUMARI AGARWAL",
+    "Folio_Number": 39682,
+    "Address": "C/O DELHI TRADERS 331 KUCHA MIR AASHIQUE CHAWRI BAZAR DELHI 110006",
+    "Amount_Due": "3,658.00"
+  },
+  {
+    "Investor_First_Name": "JATINDRA NATH DAS",
+    "Folio_Number": 41532,
+    "Address": "C/O UNIQUE CAPITAL P 39/40 EZRA STREE MEZZANINE FLOOR KOLKATA 700001",
+    "Amount_Due": "2,510.00"
+  },
+  {
+    "Investor_First_Name": "VASUNDHARA  UPPALURI",
+    "Folio_Number": 27317,
+    "Address": "C 104 ANANDLOK APARTMENTS MAYUR VIHAR PHASE I NEW DELHI 110091",
+    "Amount_Due": "24,488.00"
+  },
+  {
+    "Investor_First_Name": "BHALCHANDRA ANANT NACHANE",
+    "Folio_Number": 13048,
+    "Address": "H NO 22B VISHRANTI PARK NIZAMPURA BARODA 390002",
+    "Amount_Due": "4,051.00"
+  },
+  {
+    "Investor_First_Name": "KARUNA SHANKER TIWARI",
+    "Folio_Number": 9799,
+    "Address": "F 637 RAJAJI PURAM LUCKNOW 226017",
+    "Amount_Due": "7,696.00"
+  },
+  {
+    "Investor_First_Name": "TEJAV  NARAYANAN",
+    "Folio_Number": 26184,
+    "Address": "FLAT 13 MOONSTONE APTS 9SECOND MAIN ROAD KASTURBA NAGAR ADYAR CHENNAI TAMILNADU 600020",
+    "Amount_Due": "14,179.00"
+  },
+  {
+    "Investor_First_Name": "RAMAN KODANDA GUNDALA",
+    "Folio_Number": 30218,
+    "Address": "FLAT 39 FLR 13TH MENAKA ARMY OFFICE QRTRS R L CHURCH MAYDALLA DEFENCE STN COLABA 400005",
+    "Amount_Due": "36,775.00"
+  },
+  {
+    "Investor_First_Name": "RAJNI  GARG",
+    "Folio_Number": 31066,
+    "Address": "H 79 SECTOR 49 NOIDA UP 201301",
+    "Amount_Due": "9,820.00"
+  },
+  {
+    "Investor_First_Name": "RASHMI BHAVESH PARMAR",
+    "Folio_Number": 33252,
+    "Address": "B 1 12 ARJUN TOWER B/H CP NAGAR GHATLODIYA AHMEDABAD 380061",
+    "Amount_Due": "10,128.00"
+  },
+  {
+    "Investor_First_Name": "ANANYA  MUKHERJEE",
+    "Folio_Number": 33737,
+    "Address": "A 24 NEETI BAGH 110049",
+    "Amount_Due": "15,655.00"
+  },
+  {
+    "Investor_First_Name": "BHALCHANDRA ANANT NACHANE",
+    "Folio_Number": 35984,
+    "Address": "H NO 22B VISHRANTI PARK NIZAMPURA BARODA 390002",
+    "Amount_Due": "4,258.00"
+  },
+  {
+    "Investor_First_Name": "RAJENDRA KUMAR SONEJA",
+    "Folio_Number": 36744,
+    "Address": "M 26 B BLOCK V D A FLAT RAVINDRA PURI COLONY BHELUPUR VARANASI 221010",
+    "Amount_Due": "15,695.00"
+  },
+  {
+    "Investor_First_Name": "BINDA  PARSHAD",
+    "Folio_Number": 3030,
+    "Address": "125 MANU APTS MAYUR VIHAR PHASE I DELHI 110091",
+    "Amount_Due": "5,240.00"
+  },
+  {
+    "Investor_First_Name": "ARVIND  TILAK",
+    "Folio_Number": 41711,
+    "Address": "164 MAHATMA SOCIETY KOTHRUD PUNE 411038",
+    "Amount_Due": "34,279.00"
+  },
+  {
+    "Investor_First_Name": "VIDUSHI",
+    "Folio_Number": 42666,
+    "Address": "822 SECTOR-4 PANCHKULA HARYANA 134109",
+    "Amount_Due": "3,806.00"
+  },
+  {
+    "Investor_First_Name": "SAUMYA  SRIVASTAV",
+    "Folio_Number": 36713,
+    "Address": "2 SEA SHELLS 13 DARABSHA LANE NEPEANSEA ROAD MUMBAI 400036",
+    "Amount_Due": "6,005.00"
+  },
+  {
+    "Investor_First_Name": "SANJAY SATCHIDANAND APTE",
+    "Folio_Number": 27929,
+    "Address": "ANURAG HOSPITAL SILICON DOCTORS HOUSE 2ND FLOOR B/H MASJID SOUTH ZONE OFFICE ROAD UDHNA SURAT 394210",
+    "Amount_Due": "4,804.00"
+  },
+  {
+    "Investor_First_Name": "KAIRVY  KAPOOR",
+    "Folio_Number": 32184,
+    "Address": "L 41 2ND FLOOR KALKAJI NEW DELHI 110019",
+    "Amount_Due": "1,201.00"
+  },
+  {
+    "Investor_First_Name": "JANAK KANTILAL MEHTA",
+    "Folio_Number": 22402,
+    "Address": "10 ASHTAPAD SOCIETY NR SHANTIVAN BUS STOP NARAYAN NAGAR ROAD PALDI AHMEDABAD 380007",
+    "Amount_Due": "1,255.00"
+  },
+  {
+    "Investor_First_Name": "NEERU  PANDEY",
+    "Folio_Number": 23109,
+    "Address": "SV-1 OFFICERS ENCLAVE AIR FORCE STATION PALAM NEW DELHI 110010",
+    "Amount_Due": "6,005.00"
+  },
+  {
+    "Investor_First_Name": "SONAL  PANDEY",
+    "Folio_Number": 23107,
+    "Address": "SV-1 OFFICERS ENCLAVE AIR FORCE STATION PALAM NEW DELHI 110010",
+    "Amount_Due": "6,005.00"
+  },
+  {
+    "Investor_First_Name": "KANUSHI  KAPUR",
+    "Folio_Number": 23232,
+    "Address": "E 32 2ND FLOOR KALKAJI NEW DELHI 110019",
+    "Amount_Due": "1,201.00"
+  },
+  {
+    "Investor_First_Name": "SATISH KUMAR BAHRI",
+    "Folio_Number": 38844,
+    "Address": "A-3/502 WORLD SPA EAST SECTOR 30/41 GURGAON HARYANA",
+    "Amount_Due": 12723
+  },
+  {
+    "Investor_First_Name": "SARITA  SHAHI",
+    "Folio_Number": 38845,
+    "Address": "J-1/3 DLF CITY PHASE-2 GURGAON",
+    "Amount_Due": 12723
+  },
+  {
+    "Investor_First_Name": "JAIVAL",
+    "Folio_Number": 39085,
+    "Address": "16 RAJKAMAL PARK SOCIETY ST XAVIERS SCHOOL ROAD OPP SWATI BUS STAND POST NAVJIVAN AHMEDABAD",
+    "Amount_Due": 2467
+  },
+  {
+    "Investor_First_Name": "YOGESH ARUN ALAWANI",
+    "Folio_Number": 40771,
+    "Address": "FLAT NO 303 FRIENDS PARADISE SITE NO 2550\\1 E BLOCK SAHAKARNAGAR BANGALORE",
+    "Amount_Due": 284
+  },
+  {
+    "Investor_First_Name": "DENZIL D CUNHA",
+    "Folio_Number": 41454,
+    "Address": "A-13 TRANQUIL TREAT OFF YARI ROAD VERSOVA ANDHERI W MUMBAI",
+    "Amount_Due": 296
+  },
+  {
+    "Investor_First_Name": "SURESH KUMAR SAHNEY",
+    "Folio_Number": 42365,
+    "Address": "H NO 11 FIRST FLOOR ROAD NO 69 WEST PUNJABI BAGH NEW DELHI",
+    "Amount_Due": 592
+  },
+  {
+    "Investor_First_Name": "OM PRAKASH MODI",
+    "Folio_Number": 41259,
+    "Address": "C 149 SECTOR NO 15 NOIDA",
+    "Amount_Due": 740
+  },
+  {
+    "Investor_First_Name": "KANTA  MODI",
+    "Folio_Number": 41263,
+    "Address": "C 149 SECTOR NO 15 NOIDA",
+    "Amount_Due": 740
+  },
+  {
+    "Investor_First_Name": "SURESH KUMAR SAHNEY",
+    "Folio_Number": 42365,
+    "Address": "H NO 11 FIRST FLOOR ROAD NO 69 WEST PUNJABI BAGH NEW DELHI",
+    "Amount_Due": 5326
+  }
+]

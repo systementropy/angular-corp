@@ -47,11 +47,10 @@
                     {'img':"/images/portfolio/News18Odiya.png",'href':"http://www.news18odia.com/",'class':'portfolioItem'},
                     {'img':"/images/resized/MonetControl.gif",'href':"http://www.moneycontrol.com/",'class':''},
                     {'img':"/images/resized/NEWS18-com.gif",'href':"https://news18.com/",'class':''},
-                    {'img':"/images/resized/Firstpost.gif",'href':"https://www.firstpost.com/",'class':''},
+                    {'img':"/images/resized/firstpost.png",'href':"https://www.firstpost.com/",'class':''},
                     {'img':"/images/resized/CNBCTV18-Logo.png",'href':"https://www.cnbctv18.com/",'class':'portfolioItemCNBC'},
                     {'img':"/images/resized/inncom.png",'href':"https://www.in.com/",'class':'portfolioItem'},
                     {'img':"/images/resized/TopperLearning_logo.png",'href':"https://www.topperlearning.com/topper-tv",'class':'portfolioItemCAT'},
-                    {'img':"/images/resized/CAprep18_logo.png",'href':"https://www.caprep18.com/",'class':'portfolioItemCAT'},
                     {'img':"/images/resized/Forbes.gif",'href':"http://www.forbesindia.com/",'class':''},
                     {'img':"/images/resized/BI.gif",'href':"http://www.betterinteriors.in/",'class':''},
                     {'img':"/images/resized/BP.gif",'href':"http://betterphotography.in/",'class':''},
@@ -64,10 +63,10 @@
                     {'img':"/images/resized/colors-Kannad.gif",'href':"https://www.viacom18.com/on-air/regional/colors-kannada",'class':''},
                     {'img':"/images/resized/Colors-Marathi.png",'href':"https://www.viacom18.com/on-air/regional/colors-marathi",'class':''},
                     {'img':"/images/resized/colors-SUPER.gif",'href':"https://www.viacom18.com/on-air/regional/colors-super",'class':''},
-                    {'img':"/images/resized/rishtey.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
-                    {'img':"/images/resized/Rishtey-CINEPLEX.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey-cineplex",'class':''},
+                    {'img':"/images/resized/colorsrishtey.png",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
+                    {'img':"/images/resized/Colorscineplex.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey-cineplex",'class':''},
                     {'img':"/images/resized/History-TV.gif",'href':"https://www.youtube.com/user/HistoryIndiaTV",'class':''},
-                    {'img':"/images/resized/fyi.gif",'href':"http://www.fyitv18.com/",'class':''},
+                    {'img':"/images/resized/FYI_TV18_Emeraldlogo.jpg",'href':"http://www.fyitv18.com/",'class':''},
                     {'img':"/images/resized/nicklodeon.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon",'class':''},
                     {'img':"/images/resized/sonic.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon-sonic",'class':''},
                     {'img':"/images/resized/Nick-Jr.gif",'href':"https://www.viacom18.com/on-air/kids/nick-jr",'class':''},
@@ -79,7 +78,6 @@
                     {'img':"/images/resized/india_cast.png",'href':"http://www.indiacast.com/",'class':''},
                     {'img':"http://capital18.com/images/capital18-slogo.png",'href':"http://capital18.com/",'class':'portfolioItemSm'},
                     {'img':"/images/resized/BookMyShow.gif",'href':"http://www.bookmyshow.com/",'class':''},
-                    {'img':"/images/resized/HMS.gif",'href':"https://www.homeshop18.com/",'class':''}
                 ];
                 $scope.eventEnd=true;
             }
@@ -103,11 +101,10 @@
                 {'img':"/images/portfolio/News18Odiya.png",'href':"http://www.news18odia.com/",'class':'portfolioItem'},
                 {'img':"/images/resized/MonetControl.gif",'href':"http://www.moneycontrol.com/",'class':''},
                 {'img':"/images/resized/NEWS18-com.gif",'href':"https://news18.com/",'class':''},
-                {'img':"/images/resized/Firstpost.gif",'href':"https://www.firstpost.com/",'class':''},
+                {'img':"/images/resized/firstpost.png",'href':"https://www.firstpost.com/",'class':''},
                 {'img':"/images/resized/CNBCTV18-Logo.png",'href':"https://www.cnbctv18.com/",'class':'portfolioItemCNBC'},
                 {'img':"/images/resized/inncom.png",'href':"https://www.in.com/",'class':'portfolioItem'},
                 {'img':"/images/resized/TopperLearning_logo.png",'href':"https://www.topperlearning.com/topper-tv",'class':'portfolioItemCAT'},
-                {'img':"/images/resized/CAprep18_logo.png",'href':"https://www.caprep18.com/",'class':'portfolioItemCAT'},
                 {'img':"/images/resized/Forbes.gif",'href':"http://www.forbesindia.com/",'class':''},
                 {'img':"/images/resized/BI.gif",'href':"http://www.betterinteriors.in/",'class':''},
                 {'img':"/images/resized/BP.gif",'href':"http://betterphotography.in/",'class':''},
@@ -120,10 +117,10 @@
                 {'img':"/images/resized/colors-Kannad.gif",'href':"https://www.viacom18.com/on-air/regional/colors-kannada",'class':''},
                 {'img':"/images/resized/Colors-Marathi.png",'href':"https://www.viacom18.com/on-air/regional/colors-marathi",'class':''},
                 {'img':"/images/resized/colors-SUPER.gif",'href':"https://www.viacom18.com/on-air/regional/colors-super",'class':''},
-                {'img':"/images/resized/rishtey.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
-                {'img':"/images/resized/Rishtey-CINEPLEX.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey-cineplex",'class':''},
+                {'img':"/images/resized/colorsrishtey.png",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
+                {'img':"/images/resized/Colorscineplex.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey-cineplex",'class':''},
                 {'img':"/images/resized/History-TV.gif",'href':"https://www.youtube.com/user/HistoryIndiaTV",'class':''},
-                {'img':"/images/resized/fyi.gif",'href':"http://www.fyitv18.com/",'class':''},
+                {'img':"/images/resized/FYI_TV18_Emeraldlogo.jpg",'href':"http://www.fyitv18.com/",'class':''},
                 {'img':"/images/resized/nicklodeon.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon",'class':''},
                 {'img':"/images/resized/sonic.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon-sonic",'class':''},
                 {'img':"/images/resized/Nick-Jr.gif",'href':"https://www.viacom18.com/on-air/kids/nick-jr",'class':''},
@@ -135,7 +132,6 @@
                 {'img':"/images/resized/india_cast.png",'href':"http://www.indiacast.com/",'class':''},
                 {'img':"http://capital18.com/images/capital18-slogo.png",'href':"http://capital18.com/",'class':'portfolioItemSm'},
                 {'img':"/images/resized/BookMyShow.gif",'href':"http://www.bookmyshow.com/",'class':''},
-                {'img':"/images/resized/HMS.gif",'href':"https://www.homeshop18.com/",'class':''}
             ];
             $scope.eventEnd=true;
 
@@ -167,11 +163,10 @@
                 {'img':"/images/portfolio/News18Odiya.png",'href':"http://www.news18odia.com/",'class':'portfolioItem'},
                 {'img':"/images/resized/MonetControl.gif",'href':"http://www.moneycontrol.com/",'class':''},
                 {'img':"/images/resized/NEWS18-com.gif",'href':"https://news18.com/",'class':''},
-                {'img':"/images/resized/Firstpost.gif",'href':"https://www.firstpost.com/",'class':''},
+                {'img':"/images/resized/firstpost.png",'href':"https://www.firstpost.com/",'class':''},
                 {'img':"/images/resized/CNBCTV18-Logo.png",'href':"https://www.cnbctv18.com/",'class':'portfolioItemCNBC'},
                 {'img':"/images/resized/inncom.png",'href':"https://www.in.com/",'class':'portfolioItem'},
                 {'img':"/images/resized/TopperLearning_logo.png",'href':"https://www.topperlearning.com/topper-tv",'class':'portfolioItemCAT'},
-                {'img':"/images/resized/CAprep18_logo.png",'href':"https://www.caprep18.com/",'class':'portfolioItemCAT'},
                 {'img':"/images/resized/Forbes.gif",'href':"http://www.forbesindia.com/",'class':''},
                 {'img':"/images/resized/BI.gif",'href':"http://www.betterinteriors.in/",'class':''},
                 {'img':"/images/resized/BP.gif",'href':"http://betterphotography.in/",'class':''},
@@ -184,10 +179,10 @@
                 {'img':"/images/resized/colors-Kannad.gif",'href':"https://www.viacom18.com/on-air/regional/colors-kannada",'class':''},
                 {'img':"/images/resized/Colors-Marathi.png",'href':"https://www.viacom18.com/on-air/regional/colors-marathi",'class':''},
                 {'img':"/images/resized/colors-SUPER.gif",'href':"https://www.viacom18.com/on-air/regional/colors-super",'class':''},
-                {'img':"/images/resized/rishtey.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
-                {'img':"/images/resized/Rishtey-CINEPLEX.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey-cineplex",'class':''},
+                {'img':"/images/resized/colorsrishtey.png",'href':"https://www.viacom18.com/on-air/mass/rishtey",'class':''},
+                {'img':"/images/resized/Colorscineplex.gif",'href':"https://www.viacom18.com/on-air/mass/rishtey-cineplex",'class':''},
                 {'img':"/images/resized/History-TV.gif",'href':"https://www.youtube.com/user/HistoryIndiaTV",'class':''},
-                {'img':"/images/resized/fyi.gif",'href':"http://www.fyitv18.com/",'class':''},
+                {'img':"/images/resized/FYI_TV18_Emeraldlogo.jpg",'href':"http://www.fyitv18.com/",'class':''},
                 {'img':"/images/resized/nicklodeon.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon",'class':''},
                 {'img':"/images/resized/sonic.gif",'href':"https://www.viacom18.com/on-air/kids/nickelodeon-sonic",'class':''},
                 {'img':"/images/resized/Nick-Jr.gif",'href':"https://www.viacom18.com/on-air/kids/nick-jr",'class':''},
@@ -199,7 +194,6 @@
                 {'img':"/images/resized/india_cast.png",'href':"http://www.indiacast.com/",'class':''},
                 {'img':"http://capital18.com/images/capital18-slogo.png",'href':"http://capital18.com/",'class':'portfolioItemSm'},
                 {'img':"/images/resized/BookMyShow.gif",'href':"http://www.bookmyshow.com/",'class':''},
-                {'img':"/images/resized/HMS.gif",'href':"https://www.homeshop18.com/",'class':''}
             ];
             
             

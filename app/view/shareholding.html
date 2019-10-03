@@ -11,24 +11,7 @@
 	</div> -->
 	
 	<div class="portfolioContainer corpMainCont">
-		<div class="newsVideoCont videTextCont bg-parallax" du-parallax opacity="fadeIn"  y="background"  id="portfolioNews">
-			<!-- <h2 class="videoOverText">Recent. Relevant. Refreshing</h2> -->
-			<div class="video-cont" >
-				<div class="vid-bg"></div>
-				<video class="mobHide" width="100%" autoplay="" loop="">
-					<source src="images/footage/26911270-hd_INVESTORS-graded.mp4" type="video/mp4" class="top">
-				</video>
-				<video class="mobShow" width="100%" autoplay="" loop="">
-					<source src="images/footage/MOBILE_SIZE/26911270-hd_INVESTORS-mobile.mp4" type="video/mp4" class="top">
-				</video>
-			</div>
-		</div>
-		<div class="vid-arr">
-			<!-- <img src="/images/aerrow_white.png" class="arrowTopAnimate" alt=""> -->
-			<span class="arrText">scroll</span>
-			<span class="animateHeight"></span>
-			<span class="animateHeightBg"></span>
-		</div>
+		
 		<div id="scrollHere"></div>
         <div class="switchTab">
 			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?'active':' '">Network18</button>
@@ -41,6 +24,7 @@
 						<img src="/images/boxes/quarterlyfinancialstatement.jpg" alt="" class="corp-img-cont">
 						<a href="/finance#scrollHere"><div class="boxTextBot">FINANCIAL<br/>STATEMENTS</div></a>
 					</div>
+					
 					<div class="box" id="ANNUAL">
 						<img src="/images/boxes/annualreport.jpg" alt="" class="corp-img-cont">
 						<a href="/annualReport#scrollHere"><div class="boxTextBot">ANNUAL <br>REPORTS</div></a>
@@ -76,27 +60,27 @@
 						</div>
 						<div class="inv-ann-cont showOver992">
 							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=9 slides-to-scroll=3 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFoc2(i)" ng-class="left_foc2=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2018-i}}-0{{19-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2018-i}}-{{19-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12,13]" class="uib-tab nav-item annItem" ng-click="changeFoc2(i)" ng-class="left_foc2=={{i}}?'active':' '">
+									<a ng-if="i>8" class="nav-link">{{2019-i}}-0{{20-i}}</a>
+									<a ng-if="i<=8" class="nav-link">{{2019-i}}-{{20-i}}</a>
 								</div>
 								
 							</slick>
 						</div>
 						<div class="inv-ann-cont showOver600">
 							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=6 slides-to-scroll=3 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFoc2(i)" ng-class="left_foc2=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2018-i}}-0{{19-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2018-i}}-{{19-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12,13]" class="uib-tab nav-item annItem" ng-click="changeFoc2(i)" ng-class="left_foc2=={{i}}?'active':' '">
+									<a ng-if="i>8" class="nav-link">{{2019-i}}-0{{20-i}}</a>
+									<a ng-if="i<=8" class="nav-link">{{2019-i}}-{{20-i}}</a>
 								</div>
 								
 							</slick>
 						</div>
 						<div class="inv-ann-cont showUnder600">
 							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=3 slides-to-scroll=2 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFoc2(i)" ng-class="left_foc2=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2018-i}}-0{{19-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2018-i}}-{{19-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12,13]" class="uib-tab nav-item annItem" ng-click="changeFoc2(i)" ng-class="left_foc2=={{i}}?'active':' '">
+									<a ng-if="i>8" class="nav-link">{{2019-i}}-0{{20-i}}</a>
+									<a ng-if="i<=8" class="nav-link">{{2019-i}}-{{20-i}}</a>
 								</div>
 								
 							</slick>
@@ -104,6 +88,14 @@
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==0">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Shareholding Pattern for the quarter ended June 30, 2019</p>
+							<a href="/reports/reports/Shareholding Patterns/2019-20/Network18-ShareholidngPattern_30.06.2019-Website.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==1">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern for the quarter ended March 31, 2019</p>
@@ -123,7 +115,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==1">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==2">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern for the quarter ended March 31, 2018</p>
@@ -144,7 +136,7 @@
 						
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==2">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==3">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern as on March 31, 2017</p>
@@ -164,7 +156,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==3">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==4">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern as on March 31, 2016</p>
@@ -184,7 +176,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==4">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==5">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2015</p>
@@ -204,7 +196,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==5">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==6">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2014</p>
@@ -224,7 +216,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==6">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==7">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2013-Pref</p>
@@ -260,7 +252,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==7">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==8">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2012-Equity</p>
@@ -296,7 +288,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==8">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==9">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2011-Equity</p>
@@ -332,7 +324,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==9">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==10">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2010-Equity</p>
@@ -368,7 +360,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==10">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==11">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2009-Equity</p>
@@ -404,7 +396,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==11">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==12">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2008-Equity</p>
@@ -424,7 +416,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==12">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foc2==13">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2007-Equity</p>
@@ -448,27 +440,27 @@
 						</div>
 						<div class="inv-ann-cont showOver992">
 							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=9 slides-to-scroll=3 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11]" class="uib-tab nav-item annItem" ng-click="changeFocTV3(i)" ng-class="left_foctv3=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2018-i}}-0{{19-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2018-i}}-{{19-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFocTV3(i)" ng-class="left_foctv3=={{i}}?'active':' '">
+									<a ng-if="i>8" class="nav-link">{{2019-i}}-0{{20-i}}</a>
+									<a ng-if="i<=8" class="nav-link">{{2019-i}}-{{20-i}}</a>
 								</div>
 								
 							</slick>
 						</div>
 						<div class="inv-ann-cont showOver600">
 							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=6 slides-to-scroll=3 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11]" class="uib-tab nav-item annItem" ng-click="changeFocTV3(i)" ng-class="left_foctv3=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2018-i}}-0{{19-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2018-i}}-{{19-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFocTV3(i)" ng-class="left_foctv3=={{i}}?'active':' '">
+									<a ng-if="i>8" class="nav-link">{{2019-i}}-0{{20-i}}</a>
+									<a ng-if="i<=8" class="nav-link">{{2019-i}}-{{20-i}}</a>
 								</div>
 								
 							</slick>
 						</div>
 						<div class="inv-ann-cont showUnder600">
 							<slick prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=3 slides-to-scroll=2 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11]" class="uib-tab nav-item annItem" ng-click="changeFocTV3(i)" ng-class="left_foctv3=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2018-i}}-0{{19-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2018-i}}-{{19-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFocTV3(i)" ng-class="left_foctv3=={{i}}?'active':' '">
+									<a ng-if="i>8" class="nav-link">{{2019-i}}-0{{20-i}}</a>
+									<a ng-if="i<=8" class="nav-link">{{2019-i}}-{{20-i}}</a>
 								</div>
 								
 							</slick>
@@ -476,6 +468,14 @@
 					</ul>
 				</div>
 				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==0">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Shareholding Pattern for the quarter ended June 30, 2019</p>
+							<a href="/reports/reportstv18/Shareholding Pattern/2019-20/TV18shareholdingpattern30.06.19_website.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==1">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern for the quarter ended March 31, 2019</p>
@@ -496,7 +496,7 @@
 						
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==1">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==2">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern for the quarter ended March 31, 2018</p>
@@ -516,7 +516,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==2">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==3">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern for the quarter ended March 31, 2017</p>
@@ -536,7 +536,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==3">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==4">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern for the quarter ended March 31, 2016</p>
@@ -556,7 +556,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==4">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==5">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern for the quarter ended December 31, 2014</p>
@@ -576,7 +576,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==5">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==6">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern for the quarter ended 31.03.2014</p>
@@ -596,7 +596,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==6">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==7">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2013</p>
@@ -616,7 +616,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==7">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==8">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2012</p>
@@ -636,7 +636,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==8">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==9">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31 03 2011</p>
@@ -656,7 +656,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==9">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==10">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.10</p>
@@ -676,7 +676,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==10">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==11">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding Pattern 31.03.2009</p>
@@ -696,7 +696,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==11">
+				<section class="investor-pdf-links-new clearAfter" ng-if="left_foctv3==12">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Shareholding pattern 30.06.2007</p>

@@ -11,24 +11,7 @@
 	</div> -->
 	
 	<div class="portfolioContainer corpMainCont">
-		<div class="newsVideoCont videTextCont bg-parallax" du-parallax opacity="fadeIn"  y="background"  id="portfolioNews">
-			<!-- <h2 class="videoOverText">Recent. Relevant. Refreshing</h2> -->
-			<div class="video-cont" >
-				<div class="vid-bg"></div>
-				<video class="mobHide" width="100%" autoplay="" loop="">
-					<source src="images/footage/26911270-hd_INVESTORS-graded.mp4" type="video/mp4" class="top">
-				</video>
-				<video class="mobShow" width="100%" autoplay="" loop="">
-					<source src="images/footage/MOBILE_SIZE/26911270-hd_INVESTORS-mobile.mp4" type="video/mp4" class="top">
-				</video>
-			</div>
-		</div>
-		<div class="vid-arr">
-			<!-- <img src="/images/aerrow_white.png" class="arrowTopAnimate" alt=""> -->
-			<span class="arrText">scroll</span>
-			<span class="animateHeight"></span>
-			<span class="animateHeightBg"></span>
-		</div>
+		
 		<div id="scrollHere"></div>
         <div class="switchTab">
 			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?'active':' '">Network18</button>
@@ -41,6 +24,7 @@
 						<img src="/images/boxes/quarterlyfinancialstatement.jpg" alt="" class="corp-img-cont">
 						<a href="/finance#scrollHere"><div class="boxTextBot">FINANCIAL<br/>STATEMENTS</div></a>
 					</div>
+					
 					<div class="box active" id="ANNUAL">
 						<img src="/images/boxes/annualreport.jpg" alt="" class="corp-img-cont">
 						<a href="/annualReport#scrollHere"><div class="boxTextBot">ANNUAL <br>REPORTS</div></a>
@@ -76,27 +60,27 @@
 						</div>
 						<div class="inv-ann-cont showOver992">
 							<slick ng-if="enableSlick" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=9 slides-to-scroll=3 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11]" class="uib-tab nav-item annItem" ng-click="changeFoc3(i)" ng-class="left_foc3=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2017-i}}-0{{18-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2017-i}}-{{18-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFoc3(i)" ng-class="left_foc3=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
 								</div>
 								
 							</slick>
 						</div>
 						<div class="inv-ann-cont showOver600">
 							<slick ng-if="enableSlick" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=6 slides-to-scroll=3 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11]" class="uib-tab nav-item annItem" ng-click="changeFoc3(i)" ng-class="left_foc3=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2017-i}}-0{{18-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2017-i}}-{{18-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFoc3(i)" ng-class="left_foc3=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
 								</div>
 								
 							</slick>
 						</div>
 						<div class="inv-ann-cont showUnder600">
 							<slick ng-if="enableSlick" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=3 slides-to-scroll=2 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11]" class="uib-tab nav-item annItem" ng-click="changeFoc3(i)" ng-class="left_foc3=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2017-i}}-0{{18-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2017-i}}-{{18-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFoc3(i)" ng-class="left_foc3=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
 								</div>
 								
 							</slick>
@@ -106,12 +90,20 @@
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==0?'active':' '" ng-if="left_foc3==0">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Annual Report 2018-19</p>
+							<a href="/reports/reports/Financial Results/Annual Reports/NW18AR2019_HIGH.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==1?'active':' '" ng-if="left_foc3==1">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2017-18</p>
 							<a href="/reports/reports/Financial Results/Annual Reports/Network18-Annual Report.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==1?'active':' '" ng-if="left_foc3==1">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==2?'active':' '" ng-if="left_foc3==2">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2016-17</p>
@@ -119,7 +111,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==2?'active':' '" ng-if="left_foc3==2">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==3?'active':' '" ng-if="left_foc3==3">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2015-16</p>
@@ -127,7 +119,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==3?'active':' '" ng-if="left_foc3==3">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==4?'active':' '" ng-if="left_foc3==4">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2014-15</p>
@@ -135,7 +127,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==4?'active':' '" ng-if="left_foc3==4">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==5?'active':' '" ng-if="left_foc3==5">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2013-14</p>
@@ -143,7 +135,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==5?'active':' '" ng-if="left_foc3==5">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==6?'active':' '" ng-if="left_foc3==6">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2012-13</p>
@@ -151,7 +143,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==6?'active':' '" ng-if="left_foc3==6">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==7?'active':' '" ng-if="left_foc3==7">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2011-12</p>
@@ -159,7 +151,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==7?'active':' '" ng-if="left_foc3==7">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==8?'active':' '" ng-if="left_foc3==8">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2010-11</p>
@@ -167,7 +159,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==8?'active':' '" ng-if="left_foc3==8">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==9?'active':' '" ng-if="left_foc3==9">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2009-10</p>
@@ -175,7 +167,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==9?'active':' '" ng-if="left_foc3==9">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==10?'active':' '" ng-if="left_foc3==10">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2008-09</p>
@@ -183,7 +175,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==10?'active':' '" ng-if="left_foc3==10">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==11?'active':' '" ng-if="left_foc3==11">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2007-08</p>
@@ -191,7 +183,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==11?'active':' '" ng-if="left_foc3==11">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc3==12?'active':' '" ng-if="left_foc3==12">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2006-07</p>
@@ -218,27 +210,27 @@
 						</div>
 						<div class="inv-ann-cont showOver992">
 							<slick ng-if="enableSlick" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=9 slides-to-scroll=3 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11]" class="uib-tab nav-item annItem" ng-click="changeFocTV2(i)" ng-class="left_foctv2=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2017-i}}-0{{18-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2017-i}}-{{18-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFocTV2(i)" ng-class="left_foctv2=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
 								</div>
 								
 							</slick>
 						</div>
 						<div class="inv-ann-cont showOver600">
 							<slick ng-if="enableSlick" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=6 slides-to-scroll=3 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11]" class="uib-tab nav-item annItem" ng-click="changeFocTV2(i)" ng-class="left_foctv2=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2017-i}}-0{{18-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2017-i}}-{{18-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFocTV2(i)" ng-class="left_foctv2=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
 								</div>
 								
 							</slick>
 						</div>
 						<div class="inv-ann-cont showUnder600">
 							<slick ng-if="enableSlick" prev-arrow=".empPrev" next-arrow=".empNext" slides-to-show=3 slides-to-scroll=2 infinite="false">
-								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11]" class="uib-tab nav-item annItem" ng-click="changeFocTV2(i)" ng-class="left_foctv2=={{i}}?'active':' '">
-									<a ng-if="i>8" class="nav-link">{{2017-i}}-0{{18-i}}</a>
-									<a ng-if="i<=8" class="nav-link">{{2017-i}}-{{18-i}}</a>
+								<div ng-repeat="i in [0,1,2,3,4,5,6,7,8,9,10,11,12]" class="uib-tab nav-item annItem" ng-click="changeFocTV2(i)" ng-class="left_foctv2=={{i}}?'active':' '">
+									<a ng-if="i>9" class="nav-link">{{2018-i}}-0{{19-i}}</a>
+									<a ng-if="i<=9" class="nav-link">{{2018-i}}-{{19-i}}</a>
 								</div>
 								
 							</slick>
@@ -248,12 +240,20 @@
 				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==0?'active':' '" ng-if="left_foctv2==0">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
+							<p class="investor_title_text">Annual Report 2018-19</p>
+							<a href="/reports/reportstv18/Financial Results/Annual Reports/TV18AnnualReport2019.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
+						</li>
+					</ol>
+				</section>
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==1?'active':' '" ng-if="left_foctv2==1">
+					<ol class="list-group">
+						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2017-18</p>
 							<a href="/reports/reportstv18/Financial Results/Annual Reports/TV18-Annual Report.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>	
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==1?'active':' '" ng-if="left_foctv2==1">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==2?'active':' '" ng-if="left_foctv2==2">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2016-17</p>
@@ -261,7 +261,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==2?'active':' '" ng-if="left_foctv2==2">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==3?'active':' '" ng-if="left_foctv2==3">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2015-16</p>
@@ -269,7 +269,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==3?'active':' '" ng-if="left_foctv2==3">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==4?'active':' '" ng-if="left_foctv2==4">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2014-15</p>
@@ -277,7 +277,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==4?'active':' '" ng-if="left_foctv2==4">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==5?'active':' '" ng-if="left_foctv2==5">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2013-14</p>
@@ -285,7 +285,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==5?'active':' '" ng-if="left_foctv2==5">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==6?'active':' '" ng-if="left_foctv2==6">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2012-13</p>
@@ -293,7 +293,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==6?'active':' '" ng-if="left_foctv2==6">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==7?'active':' '" ng-if="left_foctv2==7">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2011-12</p>
@@ -301,7 +301,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==7?'active':' '" ng-if="left_foctv2==7">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==8?'active':' '" ng-if="left_foctv2==8">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2010-11</p>
@@ -309,7 +309,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==8?'active':' '" ng-if="left_foctv2==8">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==9?'active':' '" ng-if="left_foctv2==9">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2009-10</p>
@@ -317,7 +317,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==9?'active':' '" ng-if="left_foctv2==9">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==10?'active':' '" ng-if="left_foctv2==10">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2008-09</p>
@@ -325,7 +325,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==10?'active':' '" ng-if="left_foctv2==10">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==11?'active':' '" ng-if="left_foctv2==11">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2007-08</p>
@@ -333,7 +333,7 @@
 						</li>
 					</ol>
 				</section>
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==11?'active':' '" ng-if="left_foctv2==11">
+				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==12?'active':' '" ng-if="left_foctv2==12">
 					<ol class="list-group">
 						<li class="list-group-item transUp" du-parallax y="transY">
 							<p class="investor_title_text">Annual Report 2006-07</p>
