@@ -1,0 +1,131 @@
+<ol class="list-group list-group-alt">
+	<li class="list-group-item transUp flexVer" du-parallax y="transY">
+		<p class="investor_title_text">UNCLAIMED AMOUNT OF MATURED FIXED DEPOSITS</p>
+		<div class="input-control">
+			<input type="text" class="form-control" ng-model="inputData.nw18UAI1" placeholder="Enter your DP ID Client ID / Folio No.">
+			<button class="btn bordDwlBtn active" ng-click="checkUAI1()">SUBMIT</button>
+		</div>
+	</li>
+</ol>
+<div class="col-md-12" ng-if="memberInfoUAI1">
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr class="danger">
+				<th>Full Name</th>
+				<th>Portfolio Number</th>
+				<th>Address</th>
+				<th>AMOUNT DUE</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="">
+				<td>{{memberInfoUAI1.Investor_First_Name}} {{memberInfoUAI1.Investor_Last_Name}}</td>
+				<td>{{memberInfoUAI1.Folio_Number}}</td>
+				<td>{{memberInfoUAI1.Address}}</td>
+				<td>{{memberInfoUAI1.Amount_Due}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="col-md-12" ng-if="!memberInfoUAI1 && memberInfoUAI1Null">
+	<p class="text-danger">{{memberInfoUAI1Null}}</p>
+</div>
+<ol class="list-group list-group-alt">
+	<li class="list-group-item transUp flexVer" du-parallax y="transY">
+		<p class="investor_title_text">UNCLAIMED INTEREST AMOUNT ON MATURED FIXED DEPOSITS</p>
+		<div class="input-control">
+			<input type="text" class="form-control" ng-model="inputData.nw18UAI2" placeholder="Enter your DP ID Client ID / Folio No.">
+			<button class="btn bordDwlBtn active" ng-click="checkUAI2()">SUBMIT</button>
+		</div>
+	</li>
+</ol>
+<div class="col-md-12" ng-if="memberInfoUAI2">
+
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr class="danger">
+				<th>Full Name</th>
+				<th>Portfolio Number</th>
+				<th>Address</th>
+				<th>AMOUNT DUE</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="">
+				<td>{{memberInfoUAI2.Investor_First_Name}} {{memberInfoUAI2.Investor_Last_Name}}</td>
+				<td>{{memberInfoUAI2.Folio_Number}}</td>
+				<td>{{memberInfoUAI2.Address}}</td>
+				<td>{{memberInfoUAI2.Amount_Due}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="col-md-12" ng-if="!memberInfoUAI2 && memberInfoUAI2Null">
+	<p class="text-danger">{{memberInfoUAI2Null}}</p>
+</div>
+<ol class="list-group list-group-alt">
+	<li class="list-group-item transUp flexVer" du-parallax y="transY">
+		<p class="investor_title_text">UNCLAIMED AMOUNT OF SALE PROCEED FOR FRACTIONAL SHARE AC NO : 4711297735</p>
+		<div class="input-control">
+			<input type="text" class="form-control" ng-model="inputData.nw18UAI3" placeholder="Enter your DP ID Client ID / Folio No.">
+			<button class="btn bordDwlBtn active" ng-click="checkUAI3()">SUBMIT</button>
+		</div>
+	</li>
+</ol>
+<div class="col-md-12" ng-if="memberInfoUAI3">
+
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr class="danger">
+				<th>Full Name</th>
+				<th>Portfolio Number</th>
+				<th>Address</th>
+				<th>AMOUNT DUE</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="">
+				<td>{{memberInfoUAI3.Investor_First_Name}} {{memberInfoUAI3.Investor_Last_Name}}</td>
+				<td>{{memberInfoUAI3.Folio_Number}}</td>
+				<td>{{memberInfoUAI3.Address}}</td>
+				<td>{{memberInfoUAI3.Amount_Due}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="col-md-12" ng-if="!memberInfoUAI3 && memberInfoUAI3Null">
+	<p class="text-danger">{{memberInfoUAI3Null}}</p>
+</div>
+<ol class="list-group list-group-alt">
+	<li class="list-group-item transUp flexVer" du-parallax y="transY">
+		<p class="investor_title_text">Unclaimed Amount of Sale Proceeds of fractional shares – A/c No.8411289168</p>
+		<div class="input-control">
+			<input type="text" class="form-control" ng-model="inputData.nw18UAI4" placeholder="Enter your DP ID Client ID / Folio No.">
+			<button class="btn bordDwlBtn active" ng-click="checkUAI4()">SUBMIT</button>
+		</div>
+	</li>
+</ol>
+<div class="col-md-12" ng-if="memberInfoUAI4">
+
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr class="danger">
+				<th>Holder’s Name</th>
+				<th>Folio No</th>
+				<th>Address</th>
+				<th>Unclaimed Amount</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="">
+				<td>{{memberInfoUAI4.Investor_First_Name}} {{memberInfoUAI4.Investor_Last_Name}}</td>
+				<td>{{memberInfoUAI4.Folio_Number}}</td>
+				<td>{{memberInfoUAI4.Address}}</td>
+				<td>{{memberInfoUAI4.Amount_Due}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="col-md-12" ng-if="!memberInfoUAI4 && memberInfoUAI4Null">
+	<p class="text-danger">{{memberInfoUAI4Null}}</p>
+</div>

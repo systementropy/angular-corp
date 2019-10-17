@@ -1,0 +1,40 @@
+<ol class="list-group">
+	<li class="list-group-item transUp" du-parallax y="transY">
+		<p class="investor_title_text">Form_IEPF-5</p>
+		<a href="/reports/reports/Notices and Events/Other Notices/Form_IEPF-5.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+	</li>
+	<li class="list-group-item transUp" du-parallax y="transY">
+		<p class="investor_title_text">The Investor Education and Protection Fund Authority (Accounting, Audit, Transfer and Refund) Rules, 2016</p>
+		<a href="/reports/reports/Notices and Events/Other Notices/TheInvestorEducationand ProtectionFundAuthority(Accounting,Audit,TransferandRefund)Rules2016.pdf" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+	</li>
+</ol>
+<ol class="list-group">
+	<li class="list-group-item list-group-itemFull transUp" du-parallax y="transY">
+		<p class="investor_title_text">Access Download to claim refund from IEPF Authority<sub>[to be used by shareholders/claimants whose shares and/or dividend/other amounts have been transferred by the Company to Investor Education and Protection Fund]</sub></p>
+		<a href="http://www.iepf.gov.in/IEPF/refund.html" class="btn btn-lg bordDwlBtn" target="_blank"><i style="" class="fa fa-file-pdf-o"></i> Download</a>
+	</li>
+</ol>
+<div class="col-md-12" ng-if="memberInfo">
+
+	<table class="table table-striped table-bordered">
+		<thead>
+			<tr class="danger">
+				<th>Full Name</th>
+				<th>Portfolio Number</th>
+				<th>Address</th>
+				<th>NO. OF EQUITY SHARES</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class="">
+				<td>{{memberInfo.first_name}} {{memberInfo.middle_name}} {{memberInfo.last_name}}</td>
+				<td>{{memberInfo.folio_number}}</td>
+				<td>{{memberInfo.address}}</td>
+				<td>{{memberInfo.shares}}</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+<div class="col-md-12" ng-if="!memberInfo && memberInfoNull">
+	<p class="text-danger">{{memberInfoNull}}</p>
+</div>
