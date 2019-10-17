@@ -1,289 +1,629 @@
-<div class="mainBodyContainerFull" style="padding-top: 0vh;height: auto;">
-	<div class="headerFiller"></div>
-	<a class="fixed-link-top" href="/investors"><span class="">INVESTORS RELATIONS</span></span></a>
-	<div class="portfolioContainer corpMainCont">
+<div class = "mainBodyContainerFull" style = "padding-top: 0vh;height: auto;">
+	<div class = "headerFiller"></div>
+	<a class = "fixed-link-top" href="/investors"><span>INVESTORS RELATIONS</span></span></a>
+	<div class = "portfolioContainer corpMainCont">
 		
 		<div id="scrollHere"></div>
-        <div class="switchTab">
-			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?'active':' '">Network18</button>
-			<button ng-click="activeSec.nw18Section=!activeSec.nw18Section" class="btn btn-main" ng-class="activeSec.nw18Section?' ':'active'">TV<span>18</span></button>
+
+        <div class = "switchTab">
+			<button 
+				class = "btn btn-main" 
+				ng-click="activeSec.nw18Section=!activeSec.nw18Section" 
+				ng-class = "activeSec.nw18Section?'active':' '">Network18</button>
+			<button 
+				class = "btn btn-main" 
+				ng-click="activeSec.nw18Section=!activeSec.nw18Section" 
+				ng-class = "activeSec.nw18Section?' ':'active'">TV<span>18</span></button>
 		</div>
-		<div class="container invBoxMar">
-			<div class="row box-flex box5 invbox" id="invox" style="">
-				<div class="col-md-3">
-					<div class="box " id="QUARTERLY">
-						<img src="/images/boxes/quarterlyfinancialstatement.jpg" alt="" class="corp-img-cont">
-						<a href="/finance#scrollHere"><div class="boxTextBot">FINANCIAL<br/>STATEMENTS</div></a>
+
+		<div class = "container invBoxMar">
+			<div class = "row box-flex box5 invbox" id="invox" >
+				<div class = "col-md-3">
+					<div class = "box " id="QUARTERLY">
+						<img src="/images/boxes/quarterlyfinancialstatement.jpg" class = "corp-img-cont">
+						<a href="/finance#scrollHere"><div class = "boxTextBot">FINANCIAL<br/>STATEMENTS</div></a>
 					</div>
 					
-					<div class="box" id="ANNUAL">
-						<img src="/images/boxes/annualreport.jpg" alt="" class="corp-img-cont">
-						<a href="/annualReport#scrollHere"><div class="boxTextBot">ANNUAL <br>REPORTS</div></a>
+					<div class = "box" id="ANNUAL">
+						<img src="/images/boxes/annualreport.jpg" class = "corp-img-cont">
+						<a href="/annualReport#scrollHere"><div class = "boxTextBot">ANNUAL <br>REPORTS</div></a>
 					</div>
-					<div class="box" id="SHARE">
-						<img src="/images/boxes/shareholdingpattern.jpg" alt="" class="corp-img-cont">
-						<a href="/shareholding#scrollHere"><div class="boxTextBot">SHAREHOLDING <br>PATTERN</div></a>
+					<div class = "box" id="SHARE">
+						<img src="/images/boxes/shareholdingpattern.jpg" class = "corp-img-cont">
+						<a href="/shareholding#scrollHere"><div class = "boxTextBot">SHAREHOLDING <br>PATTERN</div></a>
 					</div>
-					<div class="box active" id="NOTICES">
-						<img src="/images/boxes/noticesandevents.jpg" alt="" class="corp-img-cont">
-						<a href="/notice#scrollHere"><div class="boxTextBot">NOTICES<br>& EVENTS</div></a>
+					<div class = "box active" id="NOTICES">
+						<img src="/images/boxes/noticesandevents.jpg" class = "corp-img-cont">
+						<a href="/notice#scrollHere"><div class = "boxTextBot">NOTICES<br>& EVENTS</div></a>
 					</div>
-					<div class="box" id="OUR">
-						<img src="/images/boxes/ourpolicies.jpg" alt="" class="corp-img-cont">
-						<a href="/policy#scrollHere"><div class="boxTextBot">OUR <br>POLICIES</div></a>
+					<div class = "box" id="OUR">
+						<img src="/images/boxes/ourpolicies.jpg" class = "corp-img-cont">
+						<a href="/policy#scrollHere"><div class = "boxTextBot">OUR <br>POLICIES</div></a>
 					</div>
-					<div class="box" id="MERGE">
-						<img src="/images/boxes/schemeofmergersbyabsorption.jpg" alt="" class="corp-img-cont">
-						<a href="/merger#scrollHere"><div class="boxTextBot">SCHEME OF MERGER BY ABSORPTION</div></a>
+					<div class = "box" id="MERGE">
+						<img src="/images/boxes/schemeofmergersbyabsorption.jpg" class = "corp-img-cont">
+						<a href="/merger#scrollHere"><div class = "boxTextBot">SCHEME OF MERGER BY ABSORPTION</div></a>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="container nw18Cont" ng-if="activeSec.nw18Section">
+		<div class = "container nw18Cont" ng-if="activeSec.nw18Section">
 
-			<div class="inverstorSections inverstorNoticeSections">
-				<h1 style="">Notices & Events</h1>
-				<!-- <div class="sld_foc_cont"><span class="sliding_focus" style="left: {{left_foc2}}0%;"></span></div> -->
-				<div active="activeJustified" id="tab2" justified="true" class="">
-					<ul class="nav nav-tabs nav-justified nav-notice" >
-						<li class="uib-tab nav-item" ng-click="changeFoc2(0)" ng-class="left_foc2==0?'active':' '" index="0" heading="Unclaimed shares / Dividend">
-							<a class="nav-link ">Unclaimed shares / Dividend</a>
+			<div class = "inverstorSections inverstorNoticeSections">
+				<h1 >Notices & Events</h1>
+				<div active="activeJustified" id="tab2" justified="true">
+					<ul class = "nav nav-tabs nav-justified nav-notice" >
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeNW18FocusToSection('dividend_unclaimed_shares_dividend')" 
+							ng-class = "nw18_current_focus_section == 'dividend_unclaimed_shares_dividend'?'active':' '" >
+							<a class = "nav-link ">Unclaimed shares / Dividend</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(1)" ng-class="left_foc2==1?'active':' '" index="1" heading="Annual General Meetings">
-							<a class="nav-link ">Annual General Meetings</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('annual_general_meetings')" 
+							ng-class = "nw18_current_focus_section == 'annual_general_meetings'?'active':' '" >
+							<a class = "nav-link ">Annual General Meetings</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(2)" ng-class="left_foc2==2?'active':' '" index="2" heading="Notice of Meeting">
-							<a class="nav-link ">Notice of Meeting</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('notice_of_meeting')" 
+							ng-class = "nw18_current_focus_section == 'notice_of_meeting'?'active':' '" >
+							<a class = "nav-link ">Notice of Meeting</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(3)" ng-class="left_foc2==3?'active':' '" index="3" heading="Offer Documents">
-							<a class="nav-link ">Offer Documents</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('offer_documents')" 
+							ng-class = "nw18_current_focus_section == 'offer_documents'?'active':' '" >
+							<a class = "nav-link ">Offer Documents</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(5)" ng-class="left_foc2==5?'active':' '" index="5" heading="Postal Ballot Notices and Results">
-							<a class="nav-link ">Postal Ballot Notices and Results</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('postal_ballot_notices_and_results')" 
+							ng-class = "nw18_current_focus_section == 'postal_ballot_notices_and_results'?'active':' '" >
+							<a class = "nav-link ">Postal Ballot Notices and Results</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(4)" ng-class="left_foc2==4?'active':' '" index="4" heading="Other Notices">
-							<a class="nav-link ">Other Notices</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('other_notices')" 
+							ng-class = "nw18_current_focus_section == 'other_notices'?'active':' '" >
+							<a class = "nav-link ">Other Notices</a>
 						</li>
 
-						<li class="uib-tab nav-item " ng-click="changeFoc2(6)" ng-class="left_foc2==6?'active':' '" index="6" heading="Press Release">
-							<a class="nav-link ">Press Release</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('press_release')" 
+							ng-class = "nw18_current_focus_section == 'press_release'?'active':' '" >
+							<a class = "nav-link ">Press Release</a>
 						</li>
 
-						<li class="uib-tab nav-item " ng-click="changeFoc2(8)" ng-class="left_foc2==8?'active':' '" index="8" heading="e-voting communication">
-							<a class="nav-link ">e-voting communication</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('e_voting_communication')" 
+							ng-class = "nw18_current_focus_section == 'e_voting_communication'?'active':' '" >
+							<a class = "nav-link ">e-voting communication</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(7)" ng-class="left_foc2==7?'active':' '" index="7" heading="Unclaimed Amount of Investors">
-							<a class="nav-link ">Unclaimed Amount of Investors</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('unclaimed_amount_of_investors')" 
+							ng-class = "nw18_current_focus_section == 'unclaimed_amount_of_investors'?'active':' '" >
+							<a class = "nav-link ">Unclaimed Amount of Investors</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(9)" ng-class="left_foc2==9?'active':' '" index="9" heading="Corporate Governance">
-							<a class="nav-link ">Corporate Governance</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('corporate_governance')" 
+							ng-class = "nw18_current_focus_section == 'corporate_governance'?'active':' '" >
+							<a class = "nav-link ">Corporate Governance</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(10)" ng-class="left_foc2==10?'active':' '" index="10" heading="Corporate Presentation">
-							<a class="nav-link ">Corporate Presentation</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('corporate_presentation')" 
+							ng-class = "nw18_current_focus_section == 'corporate_presentation'?'active':' '" >
+							<a class = "nav-link ">Corporate Presentation</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(11)" ng-class="left_foc2==11?'active':' '" index="11" heading="Board Meeting Notice">
-							<a class="nav-link ">Board Meeting Notice</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('board_meeting_notice')" 
+							ng-class = "nw18_current_focus_section == 'board_meeting_notice'?'active':' '" >
+							<a class = "nav-link ">Board Meeting Notice</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(13)" ng-class="left_foc2==13?'active':' '" index="13" heading="Business Responsibility Report">
-							<a class="nav-link ">Business Responsibility Report</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('business_responsibility_report')" 
+							ng-class = "nw18_current_focus_section == 'business_responsibility_report'?'active':' '" >
+							<a class = "nav-link ">Business Responsibility Report</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(12)" ng-class="left_foc2==12?'active':' '" index="12" heading="Newspaper Advertisement">
-							<a class="nav-link ">Newspaper Advertisement</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('newspaper_advertisement')" 
+							ng-class = "nw18_current_focus_section == 'newspaper_advertisement'?'active':' '" >
+							<a class = "nav-link ">Newspaper Advertisement</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(14)" ng-class="left_foc2==14?'active':' '" index="14" heading="Credit Rating">
-							<a class="nav-link ">Credit Rating</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('credit_rating')" 
+							ng-class = "nw18_current_focus_section == 'credit_rating'?'active':' '" >
+							<a class = "nav-link ">Credit Rating</a>
 						</li>
-						<li class="uib-tab nav-item " ng-click="changeFoc2(15)" ng-class="left_foc2==15?'active':' '" index="15" heading="Secretarial Audit Report of Material Subsidiary"> 
-							<a class="nav-link ">Secretarial Audit Report of Material Subsidiary</a>
+						<li 
+							class = "uib-tab nav-item " 
+							ng-click = "changeNW18FocusToSection('secretarial_audit_report_of_material_subsidiary')" 
+							ng-class = "nw18_current_focus_section == 'secretarial_audit_report_of_material_subsidiary'?'active':' '" > 
+							<a class = "nav-link ">Secretarial Audit Report of Material Subsidiary</a>
 						</li>
 						
 					</ul>
 				</div>
+				
+
+
 				<!-- 0: Unclaimed shares / Dividend ==> nw18_dividend_unclaimed_shares_dividend-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==0?'active':' '" ng-if="left_foc2==0" ng-include="'/view/notice/nw18/nw18_dividend_unclaimed_shares_dividend.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'dividend_unclaimed_shares_dividend'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'dividend_unclaimed_shares_dividend'" 
+					ng-include = "'/view/notice/nw18/nw18_dividend_unclaimed_shares_dividend.html'"></section>
+				
+
+
 				<!-- 1: Annual General Meetings ==> nw18_annual_general_meetings-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==1?'active':' '" ng-if="left_foc2==1" ng-include="'/view/notice/nw18/nw18_annual_general_meetings.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'annual_general_meetings'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'annual_general_meetings'" 
+					ng-include = "'/view/notice/nw18/nw18_annual_general_meetings.html'"></section>
+				
+
+
 				<!-- 2: Notice of Meeting ==> nw18_notice_of_meeting-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==2?'active':' '" ng-if="left_foc2==2" ng-include="'/view/notice/nw18/nw18_notice_of_meeting.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'notice_of_meeting'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'notice_of_meeting'" 
+					ng-include = "'/view/notice/nw18/nw18_notice_of_meeting.html'"></section>
+				
+
+
 				<!-- 3: Offer Documents ==> nw18_offer_documents-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==3?'active':' '" ng-if="left_foc2==3" ng-include="'/view/notice/nw18/nw18_offer_documents.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'offer_documents'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'offer_documents'" 
+					ng-include = "'/view/notice/nw18/nw18_offer_documents.html'"></section>
+				
+
+
 				<!-- 4: Other Notices ==> nw18_other_notices-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==4?'active':' '" ng-if="left_foc2==4" ng-include="'/view/notice/nw18/nw18_other_notices.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'other_notices'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'other_notices'" 
+					ng-include = "'/view/notice/nw18/nw18_other_notices.html'"></section>
+				
+
+
 				<!-- 5: Postal Ballot Notices and Results ==> nw18_postal_ballot_notices_and_results-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==5?'active':' '" ng-if="left_foc2==5" ng-include="'/view/notice/nw18/nw18_postal_ballot_notices_and_results.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'postal_ballot_notices_and_results'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'postal_ballot_notices_and_results'" 
+					ng-include = "'/view/notice/nw18/nw18_postal_ballot_notices_and_results.html'"></section>
+				
+
+
 				<!-- 6: Press Release ==> nw18_press_release-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==6?'active':' '" ng-if="left_foc2==6" ng-include="'/view/notice/nw18/nw18_press_release.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'press_release'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'press_release'" 
+					ng-include = "'/view/notice/nw18/nw18_press_release.html'"></section>
+				
+
+
 				<!-- 7: Unclaimed Amount of Investors ==> nw18_unclaimed_amount_of_investors-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==7?'active':' '" ng-if="left_foc2==7" ng-include="'/view/notice/nw18/nw18_unclaimed_amount_of_investors.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'unclaimed_amount_of_investors'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'unclaimed_amount_of_investors'" 
+					ng-include = "'/view/notice/nw18/nw18_unclaimed_amount_of_investors.html'"></section>
+				
+
+
 				<!-- 8: e-voting communication ==> nw18_e_voting_communication-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==8?'active':' '" ng-if="left_foc2==8" ng-include="'/view/notice/nw18/nw18_e_voting_communication.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'e_voting_communication'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'e_voting_communication'" 
+					ng-include = "'/view/notice/nw18/nw18_e_voting_communication.html'"></section>
+				
+
+
 				<!-- 9: Corporate Governance ==> nw18_corporate_governance-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==9?'active':' '" ng-if="left_foc2==9" ng-include="'/view/notice/nw18/nw18_corporate_governance.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'corporate_governance'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'corporate_governance'" 
+					ng-include = "'/view/notice/nw18/nw18_corporate_governance.html'"></section>
+				
+
+
 				<!-- 10: Corporate Presentation ==> nw18_corporate_presentation-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==10?'active':' '" ng-if="left_foc2==10" ng-include="'/view/notice/nw18/nw18_corporate_presentation.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'corporate_presentation'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'corporate_presentation'" 
+					ng-include = "'/view/notice/nw18/nw18_corporate_presentation.html'"></section>
+				
+
+
 				<!-- 11: Board Meeting Notice ==> nw18_board_meeting_notice-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==11?'active':' '" ng-if="left_foc2==11" ng-include="'/view/notice/nw18/nw18_board_meeting_notice.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'board_meeting_notice'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'board_meeting_notice'" 
+					ng-include = "'/view/notice/nw18/nw18_board_meeting_notice.html'"></section>
+				
+
+
 				<!-- 12: Newspaper Advertisement ==> nw18_newspaper_advertisement-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==12?'active':' '" ng-if="left_foc2==12" ng-include="'/view/notice/nw18/nw18_newspaper_advertisement.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'newspaper_advertisement'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'newspaper_advertisement'" 
+					ng-include = "'/view/notice/nw18/nw18_newspaper_advertisement.html'"></section>
+				
+
+
 				<!-- 13: Business Responsibility Report ==> nw18_business_responsibility_report-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==13?'active':' '" ng-if="left_foc2==13" ng-include="'/view/notice/nw18/nw18_business_responsibility_report.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'business_responsibility_report'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'business_responsibility_report'" 
+					ng-include = "'/view/notice/nw18/nw18_business_responsibility_report.html'"></section>
+				
+
+
 				<!-- 14: Credit Rating ==> nw18_credit_rating-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==14?'active':' '" ng-if="left_foc2==14" ng-include="'/view/notice/nw18/nw18_credit_rating.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'credit_rating'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'credit_rating'" 
+					ng-include = "'/view/notice/nw18/nw18_credit_rating.html'"></section>
+				
+
+
 				<!-- 15: Secretarial Audit Report of Material Subsidiary ==> nw18_secretarial_audit_report_of_material_subsidiary-->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foc2==15?'active':' '" ng-if="left_foc2==15" ng-include="'/view/notice/nw18/nw18_secretarial_audit_report_of_material_subsidiary.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "nw18_current_focus_section == 'secretarial_audit_report_of_material_subsidiary'?'active':' '" 
+					ng-if = "nw18_current_focus_section == 'secretarial_audit_report_of_material_subsidiary'" 
+					ng-include = "'/view/notice/nw18/nw18_secretarial_audit_report_of_material_subsidiary.html'"></section>
 
 			</div>
 		</div>
-		<div class="container tv18Cont" ng-if="!activeSec.nw18Section">
+		<div class = "container tv18Cont" ng-if="!activeSec.nw18Section">
 
-			<div class="inverstorSections inverstorNoticeSections">
-				<h1 style="">Notices & Events</h1>
-				<div active="activeJustified" id="tab2" justified="true" class="">
-					<ul class="nav nav-tabs nav-justified nav-notice" >
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(0)" ng-class="left_foctv2==0?'active':' '" index="0" heading="Unclaimed amount of Investors">
-							<a class="nav-link ">Unclaimed amount of Investors</a>
+			<div class = "inverstorSections inverstorNoticeSections">
+				<h1 >Notices & Events</h1>
+				<div active="activeJustified" id="tab2" justified="true">
+					<ul class = "nav nav-tabs nav-justified nav-notice" >
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('unclaimed_amount_of_investors')" 
+							ng-class = "tv18_current_focus_section=='unclaimed_amount_of_investors'?'active':' '" >
+							<a class = "nav-link ">Unclaimed amount of Investors</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(1)" ng-class="left_foctv2==1?'active':' '" index="1" heading="Annual General Meetings">
-							<a class="nav-link ">Annual General Meetings</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('annual_general_meetings')" 
+							ng-class = "tv18_current_focus_section=='annual_general_meetings'?'active':' '" >
+							<a class = "nav-link ">Annual General Meetings</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(2)" ng-class="left_foctv2==2?'active':' '" index="2" heading="Offer Documents">
-							<a class="nav-link ">Offer Documents</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('offer_documents')" 
+							ng-class = "tv18_current_focus_section=='offer_documents'?'active':' '" >
+							<a class = "nav-link ">Offer Documents</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(3)" ng-class="left_foctv2==3?'active':' '" index="3" heading="Other Notices">
-							<a class="nav-link ">Other Notices</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('other_notices')" 
+							ng-class = "tv18_current_focus_section=='other_notices'?'active':' '" >
+							<a class = "nav-link ">Other Notices</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(4)" ng-class="left_foctv2==4?'active':' '" index="4" heading="Notice for Meetings">
-							<a class="nav-link ">Notice for Meetings</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('notice_for_meetings')" 
+							ng-class = "tv18_current_focus_section=='notice_for_meetings'?'active':' '" >
+							<a class = "nav-link ">Notice for Meetings</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(5)" ng-class="left_foctv2==5?'active':' '" index="5" heading="Postal Ballot Notices">
-							<a class="nav-link ">Postal Ballot Notices</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('postal_ballot_notices')" 
+							ng-class = "tv18_current_focus_section=='postal_ballot_notices'?'active':' '" >
+							<a class = "nav-link ">Postal Ballot Notices</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(6)" ng-class="left_foctv2==6?'active':' '" index="6" heading="Press Release 2017-18">
-							<a class="nav-link ">Press Release 2017-18</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('press_release_2017_18')" 
+							ng-class = "tv18_current_focus_section=='press_release_2017_18'?'active':' '" >
+							<a class = "nav-link ">Press Release 2017-18</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(7)" ng-class="left_foctv2==7?'active':' '" index="7" heading="Press Release 2015-16">
-							<a class="nav-link ">Press Release 2015-16</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('press_release_2015_16')" 
+							ng-class = "tv18_current_focus_section=='press_release_2015_16'?'active':' '" >
+							<a class = "nav-link ">Press Release 2015-16</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(8)" ng-class="left_foctv2==8?'active':' '" index="8" heading="Press Release 2013-14">
-							<a class="nav-link ">Press Release 2013-14</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('press_release_2013_14')" 
+							ng-class = "tv18_current_focus_section=='press_release_2013_14'?'active':' '" >
+							<a class = "nav-link ">Press Release 2013-14</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(9)" ng-class="left_foctv2==9?'active':' '" index="9" heading="Press Release 2012-13">
-							<a class="nav-link ">Press Release 2012-13</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('press_release_2012_13')" 
+							ng-class = "tv18_current_focus_section=='press_release_2012_13'?'active':' '" >
+							<a class = "nav-link ">Press Release 2012-13</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(10)" ng-class="left_foctv2==10?'active':' '" index="10" heading="Press Release 2011-12">
-							<a class="nav-link ">Press Release 2011-12</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('press_release_2011_12')" 
+							ng-class = "tv18_current_focus_section=='press_release_2011_12'?'active':' '" >
+							<a class = "nav-link ">Press Release 2011-12</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(11)" ng-class="left_foctv2==11?'active':' '" index="11" heading="Press Release 2009-10">
-							<a class="nav-link ">Press Release 2009-10</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('press_release_2009_10')" 
+							ng-class = "tv18_current_focus_section=='press_release_2009_10'?'active':' '" >
+							<a class = "nav-link ">Press Release 2009-10</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(12)" ng-class="left_foctv2==12?'active':' '" index="12" heading="Press Release 2008-09">
-							<a class="nav-link ">Press Release 2008-09</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('press_release_2008_09')" 
+							ng-class = "tv18_current_focus_section=='press_release_2008_09'?'active':' '" >
+							<a class = "nav-link ">Press Release 2008-09</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(13)" ng-class="left_foctv2==13?'active':' '" index="13" heading="Press Release 2007-08">
-							<a class="nav-link ">Press Release 2007-08</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('press_release_2007_08')" 
+							ng-class = "tv18_current_focus_section=='press_release_2007_08'?'active':' '" >
+							<a class = "nav-link ">Press Release 2007-08</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(14)" ng-class="left_foctv2==14?'active':' '" index="14" heading="Corporate Presentation">
-							<a class="nav-link ">Corporate Presentation</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('corporate_presentation')" 
+							ng-class = "tv18_current_focus_section=='corporate_presentation'?'active':' '" >
+							<a class = "nav-link ">Corporate Presentation</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(15)" ng-class="left_foctv2==15?'active':' '" index="15" heading="Corporate Governance">
-							<a class="nav-link ">Corporate Governance</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('corporate_governance')" 
+							ng-class = "tv18_current_focus_section=='corporate_governance'?'active':' '" >
+							<a class = "nav-link ">Corporate Governance</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(18)" ng-class="left_foctv2==18?'active':' '" index="18" heading="Business Responsibility Report">
-							<a class="nav-link ">Business Responsibility Report</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('business_responsibility_report')" 
+							ng-class = "tv18_current_focus_section=='business_responsibility_report'?'active':' '" >
+							<a class = "nav-link ">Business Responsibility Report</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(16)" ng-class="left_foctv2==16?'active':' '" index="16" heading="Board Meeting Notice">
-							<a class="nav-link ">Board Meeting Notice</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('board_meeting_notice')" 
+							ng-class = "tv18_current_focus_section=='board_meeting_notice'?'active':' '" >
+							<a class = "nav-link ">Board Meeting Notice</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(17)" ng-class="left_foctv2==17?'active':' '" index="17" heading="Newspaper Advertisement">
-							<a class="nav-link ">Newspaper Advertisement</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('newspaper_advertisement')" 
+							ng-class = "tv18_current_focus_section=='newspaper_advertisement'?'active':' '" >
+							<a class = "nav-link ">Newspaper Advertisement</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(19)" ng-class="left_foctv2==19?'active':' '" index="19" heading="Credit Rating">
-							<a class="nav-link ">Credit Rating</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('credit_rating')" 
+							ng-class = "tv18_current_focus_section=='credit_rating'?'active':' '" >
+							<a class = "nav-link ">Credit Rating</a>
 						</li>
-						<li class="uib-tab nav-item" ng-click="changeFocTV2(20)" ng-class="left_foctv2==20?'active':' '" index="20" heading="Secretarial Audit Report of Material Subsidiary">
-							<a class="nav-link ">Secretarial Audit Report of Material Subsidiary</a>
+						<li 
+							class = "uib-tab nav-item" 
+							ng-click = "changeTV18FocusToSection('secretarial_audit_report_of_material_subsidiary')" 
+							ng-class = "tv18_current_focus_section=='secretarial_audit_report_of_material_subsidiary'?'active':' '" >
+							<a class = "nav-link ">Secretarial Audit Report of Material Subsidiary</a>
 						</li>
 					</ul>
 				</div>
+				
+
+
 				<!-- 0: Unclaimed amount of Investors ==> tv18_unclaimed_amount_of_investors -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==0?'active':' '" ng-if="left_foctv2==0" ng-include="'/view/notice/tv18/tv18_unclaimed_amount_of_investors.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='unclaimed_amount_of_investors'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='unclaimed_amount_of_investors'" 
+					ng-include = "'/view/notice/tv18/tv18_unclaimed_amount_of_investors.html'"></section>
+				
+
+
 				<!-- 1: Annual General Meetings ==> tv18_annual_general_meetings -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==1?'active':' '" ng-if="left_foctv2==1" ng-include="'/view/notice/tv18/tv18_annual_general_meetings.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='annual_general_meetings'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='annual_general_meetings'" 
+					ng-include = "'/view/notice/tv18/tv18_annual_general_meetings.html'"></section>
+				
+
+
 				<!-- 2: Offer Documents ==> tv18_offer_documents -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==2?'active':' '" ng-if="left_foctv2==2" ng-include="'/view/notice/tv18/tv18_offer_documents.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='offer_documents'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='offer_documents'" 
+					ng-include = "'/view/notice/tv18/tv18_offer_documents.html'"></section>
+				
+
+
 				<!-- 3: Other Notices ==> tv18_other_notices -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==3?'active':' '" ng-if="left_foctv2==3" ng-include="'/view/notice/tv18/tv18_other_notices.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='other_notices'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='other_notices'" 
+					ng-include = "'/view/notice/tv18/tv18_other_notices.html'"></section>
+				
+
+
 				<!-- 4: Notice for Meetings ==> tv18_notice_for_meetings -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==4?'active':' '" ng-if="left_foctv2==4" ng-include="'/view/notice/tv18/tv18_notice_for_meetings.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='notice_for_meetings'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='notice_for_meetings'" 
+					ng-include = "'/view/notice/tv18/tv18_notice_for_meetings.html'"></section>
+				
+
+
 				<!-- 5: Postal Ballot Notices ==> tv18_postal_ballot_notices -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==5?'active':' '" ng-if="left_foctv2==5" ng-include="'/view/notice/tv18/tv18_postal_ballot_notices.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='postal_ballot_notices'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='postal_ballot_notices'" 
+					ng-include = "'/view/notice/tv18/tv18_postal_ballot_notices.html'"></section>
+				
+
+
 				<!-- 6: Press Release 2017-18 ==> tv18_press_release_2017_18 -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==6?'active':' '" ng-if="left_foctv2==6" ng-include="'/view/notice/tv18/tv18_press_release_2017_18.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='press_release_2017_18'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='press_release_2017_18'" 
+					ng-include = "'/view/notice/tv18/tv18_press_release_2017_18.html'"></section>
+				
+
+
 				<!-- 7: Press Release 2015-16 ==> tv18_press_release_2015_16 -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==7?'active':' '" ng-if="left_foctv2==7" ng-include="'/view/notice/tv18/tv18_press_release_2015_16.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='press_release_2015_16'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='press_release_2015_16'" 
+					ng-include = "'/view/notice/tv18/tv18_press_release_2015_16.html'"></section>
+				
+
+
 				<!-- 8: Press Release 2013-14 ==> tv18_press_release_2013_14 -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==8?'active':' '" ng-if="left_foctv2==8" ng-include="'/view/notice/tv18/tv18_press_release_2013_14.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='press_release_2013_14'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='press_release_2013_14'" 
+					ng-include = "'/view/notice/tv18/tv18_press_release_2013_14.html'"></section>
+				
+
+
 				<!-- 9: Press Release 2012-13 ==> tv18_press_release_2012_13 -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==9?'active':' '" ng-if="left_foctv2==9" ng-include="'/view/notice/tv18/tv18_press_release_2012_13.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='press_release_2012_13'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='press_release_2012_13'" 
+					ng-include = "'/view/notice/tv18/tv18_press_release_2012_13.html'"></section>
+				
+
+
 				<!-- 10: Press Release 2011-12 ==> tv18_press_release_2011_12 -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==10?'active':' '" ng-if="left_foctv2==10" ng-include="'/view/notice/tv18/tv18_press_release_2011_12.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='press_release_2011_12'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='press_release_2011_12'" 
+					ng-include = "'/view/notice/tv18/tv18_press_release_2011_12.html'"></section>
+				
+
+
 				<!-- 11: Press Release 2009-10 ==> tv18_press_release_2009_10 -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==11?'active':' '" ng-if="left_foctv2==11" ng-include="'/view/notice/tv18/tv18_press_release_2009_10.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='press_release_2009_10'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='press_release_2009_10'" 
+					ng-include = "'/view/notice/tv18/tv18_press_release_2009_10.html'"></section>
+				
+
+
 				<!-- 12: Press Release 2008-09 ==> tv18_press_release_2008_09 -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==12?'active':' '" ng-if="left_foctv2==12" ng-include="'/view/notice/tv18/tv18_press_release_2008_09.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='press_release_2008_09'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='press_release_2008_09'" 
+					ng-include = "'/view/notice/tv18/tv18_press_release_2008_09.html'"></section>
+				
+
+
 				<!-- 13: Press Release 2007-08 ==> tv18_press_release_2007_08 -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==13?'active':' '" ng-if="left_foctv2==13" ng-include="'/view/notice/tv18/tv18_press_release_2007_08.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='press_release_2007_08'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='press_release_2007_08'" 
+					ng-include = "'/view/notice/tv18/tv18_press_release_2007_08.html'"></section>
+				
+
+
 				<!-- 14: Corporate Presentation ==> tv18_corporate_presentation -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==14?'active':' '" ng-if="left_foctv2==14" ng-include="'/view/notice/tv18/tv18_corporate_presentation.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='corporate_presentation'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='corporate_presentation'" 
+					ng-include = "'/view/notice/tv18/tv18_corporate_presentation.html'"></section>
+				
+
+
 				<!-- 15: Corporate Governance ==> tv18_corporate_governance -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==15?'active':' '" ng-if="left_foctv2==15" ng-include="'/view/notice/tv18/tv18_corporate_governance.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='corporate_governance'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='corporate_governance'" 
+					ng-include = "'/view/notice/tv18/tv18_corporate_governance.html'"></section>
+				
+
+
 				<!-- 18: Business Responsibility Report ==> tv18_business_responsibility_report -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==16?'active':' '" ng-if="left_foctv2==16" ng-include="'/view/notice/tv18/tv18_business_responsibility_report.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='business_responsibility_report'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='business_responsibility_report'" 
+					ng-include = "'/view/notice/tv18/tv18_business_responsibility_report.html'"></section>
+				
+
+
 				<!-- 16: Board Meeting Notice ==> tv18_board_meeting_notice -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==17?'active':' '" ng-if="left_foctv2==17" ng-include="'/view/notice/tv18/tv18_board_meeting_notice.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='board_meeting_notice'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='board_meeting_notice'" 
+					ng-include = "'/view/notice/tv18/tv18_board_meeting_notice.html'"></section>
+				
+
+
 				<!-- 17: Newspaper Advertisement ==> tv18_newspaper_advertisement -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==18?'active':' '" ng-if="left_foctv2==18" ng-include="'/view/notice/tv18/tv18_newspaper_advertisement.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='newspaper_advertisement'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='newspaper_advertisement'" 
+					ng-include = "'/view/notice/tv18/tv18_newspaper_advertisement.html'"></section>
+				
+
+
 				<!-- 19: Credit Rating ==> tv18_credit_rating -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==19?'active':' '" ng-if="left_foctv2==19" ng-include="'/view/notice/tv18/tv18_credit_rating.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='credit_rating'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='credit_rating'" 
+					ng-include = "'/view/notice/tv18/tv18_credit_rating.html'"></section>
+				
+
+
 				<!-- 20: Secretarial Audit Report of Material Subsidiary ==> tv18_secretarial_audit_report_of_material_subsidiary -->
-				<section class="investor-pdf-links-new clearAfter" ng-class="left_foctv2==20?'active':' '" ng-if="left_foctv2==20" ng-include="'/view/notice/tv18/tv18_secretarial_audit_report_of_material_subsidiary.html'">
-				</section>
+				<section 
+					class = "investor-pdf-links-new clearAfter" 
+					ng-class = "tv18_current_focus_section=='secretarial_audit_report_of_material_subsidiary'?'active':' '" 
+					ng-if = "tv18_current_focus_section=='secretarial_audit_report_of_material_subsidiary'" 
+					ng-include = "'/view/notice/tv18/tv18_secretarial_audit_report_of_material_subsidiary.html'"></section>
 			</div>
 		</div>
 	</div>

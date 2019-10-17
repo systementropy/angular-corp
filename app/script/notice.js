@@ -13,30 +13,15 @@
 	])
 
 	.controller('noticeCtrl', ['$rootScope' ,'$scope', '$http','$timeout','$location','parallaxHelper','$window', function($rootScope,$scope, $http,$timeout,$location,parallaxHelper,$window) {
-		$scope.changeFoc = function(num){
-			$scope.left_foc=num;
+
+		$scope.changeNW18FocusToSection = function(num){
+			$scope.nw18_current_focus_section=num;
 		};
-		$scope.changeFoc1 = function(num){
-			$scope.left_foc1=num;
+
+		$scope.changeTV18FocusToSection = function(num){
+			$scope.tv18_current_focus_section=num;
 		};
-		$scope.changeFoc3 = function(num){
-			$scope.left_foc3=num;
-		};
-		$scope.changeFoc2 = function(num){
-			$scope.left_foc2=num;
-		};
-		$scope.changeFocTV0 = function(num){
-			$scope.left_foctv0=num;
-		};
-		$scope.changeFocTV1 = function(num){
-			$scope.left_foctv1=num;
-		};
-		$scope.changeFocTV2 = function(num){
-			$scope.left_foctv2=num;
-		};
-		$scope.changeFocTV3 = function(num){
-			$scope.left_foctv3=num;
-		};
+
 		$scope.checkIEPF = function(){
 			delete $scope.memberInfo; delete $scope.memberInfoNull;
 			$http.get('/script/ril_shares_json.json')
@@ -201,14 +186,9 @@
 		};
 		var init = function(){
 			$scope.inputData={};
-			$scope.left_foc=0;
-			$scope.left_foc1=0;
-			$scope.left_foc3=0;
-			$scope.left_foc2=0;
-			$scope.left_foctv0=0;
-			$scope.left_foctv1=0;
-			$scope.left_foctv2=0;
-			$scope.left_foctv3=0;
+			$scope.nw18_current_focus_section='dividend_unclaimed_shares_dividend';
+			$scope.tv18_current_focus_section='unclaimed_amount_of_investors';
+
 			$rootScope.hideHeader=false;
 			$scope.activeSec={};
 			$scope.activeSec.nw18Section=true;
