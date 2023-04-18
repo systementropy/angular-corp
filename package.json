@@ -26,7 +26,7 @@
   },
   "dependencies": {
     "hls.js": "^0.12.4",
-    "jshint": "^2.10.2",
+    "jshint": "^2.13.6",
     "run-sequence": "^1.2.2"
   }
 }
